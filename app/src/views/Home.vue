@@ -16,7 +16,7 @@
     style="max-width: 20rem;"
     class="mb-2"
     >
-    <p>ononiubvuvyiuiuibvuyhvibiu</p>
+    <p>marko je kokot</p>
 
     <b-button href="#" variant="primary">button</b-button>
     </b-card>
