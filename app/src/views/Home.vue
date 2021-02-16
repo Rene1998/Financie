@@ -16,7 +16,7 @@
     style="max-width: 20rem;"
     class="mb-2"
     >
-    <p>marko je kokot</p>
+    <p>marko je marko</p>
 
     <b-button href="#" variant="primary">button</b-button>
     </b-card>
