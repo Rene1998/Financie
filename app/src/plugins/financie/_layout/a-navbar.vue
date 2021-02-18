@@ -1,10 +1,12 @@
 <template>
-	<div id="app">
-		<router-view/>
+	<div>
+		navbar
+		<b-button>asdasd</b-button>
 	</div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
