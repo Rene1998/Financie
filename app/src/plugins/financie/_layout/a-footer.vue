@@ -3,7 +3,7 @@
 		<div class="container-fluid">
 		<div class="row footer-row">
 
-			<div class="col-3">
+			<div class="col-2 offset-1">
 				<h5>Životné situácie</h5>
 				<ul>
             <li class="footer-li"><a href="#!">Auto</a></li>
@@ -15,7 +15,7 @@
                 </ul>
 			</div>
 
-			<div class="col-3">
+			<div class="col-2">
 				<h5>Finančné produkty</h5>
 				<ul>
             <li class="footer-li"><a href="#!">Poistenie</a></li>
@@ -27,7 +27,7 @@
                 </ul>
 			</div>
 
-			<div class="col-3">
+			<div class="col-2">
 				<h5>Pomôcky</h5>
 				<ul>
             <li class="footer-li"><a href="#!">Porovnania</a></li>
@@ -37,7 +37,7 @@
                 </ul>
 			</div>
 
-			<div class="col-3">
+			<div class="col-2">
 				<h5>Životné situácie</h5>
 				<ul>
             <li class="footer-li"><a href="#!">O nás</a></li>
@@ -47,17 +47,25 @@
 
 		</div>
 
-		<div class="row">
-			
+		<div class="row copyright-row">
+			<div class="col-lg-10 offset-1">
+				<div class="row">
+					<img src="logodark.png" alt="logo">
+				<p>© 2021 www.financie.sk Všetky práva vyhradené.</p>
+				</div>
+			</div>
 		</div>
+
 		</div>
 	</footer>
 </template>
 <style lang="scss" scoped>
 	.footer-row {
 		background: rgba(226, 227, 232, 0.15);
-		min-height: 390px;
+		min-height: 350px;
 		border: 1px solid lightcoral;
+		display: flex;
+		align-content: center;
 	}
 
 	a {
@@ -79,5 +87,15 @@
 		font-size: 15px;
 		color: #19283B;
 	}
+	///
+	.copyright-row { 
+		border: 1px solid lightgreen;
+		background: rgba(226, 227, 232, 0.15);
+		min-height: 100px;
+		display: flex;
+		align-content: center;
+	}
+
+
 	
 </style>
