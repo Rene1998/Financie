@@ -50,15 +50,24 @@
 		<div class="row copyright-row">
 			<div class="col-lg-10 offset-1">
 				<div class="row">
-					<img src="logodark.png" alt="logo">
-				<p>© 2021 www.financie.sk Všetky práva vyhradené.</p>
+					<div class="d-inline">
+						<img src="../../../assets/logodark.png" alt="logo">
+						<p>© 2021 www.financie.sk Všetky práva vyhradené.</p>
+					</div>
 				</div>
+
 			</div>
 		</div>
 
 		</div>
 	</footer>
 </template>
+<script>
+export default {
+	
+}
+</script>
+
 <style lang="scss" scoped>
 	.footer-row {
 		background: rgba(226, 227, 232, 0.15);

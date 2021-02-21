@@ -10,12 +10,13 @@
         
           <b-navbar  type="light">
             <b-navbar-brand>
-            <img src="https://www.freeiconspng.com/thumbs/wallet-icon/wallet-icon-7.png">
+              <img class="logo-financie" src="../../../assets/logo.png" alt="logo">
             </b-navbar-brand>
+            
           </b-navbar>
         
           <b-navbar-brand>
-                financie.sk
+                
           </b-navbar-brand>
       
         
@@ -76,5 +77,9 @@ img{
 
   .navbar{
     height: 63px;
+  }
+  .logo-financie{
+    min-width: 120px;
+    min-height: 38px;
   }
 </style>
