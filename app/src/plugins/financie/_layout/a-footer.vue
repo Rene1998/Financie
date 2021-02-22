@@ -48,14 +48,11 @@
 		</div>
 
 		<div class="row copyright-row">
-			<div class="col-lg-10 offset-1">
-				<div class="row">
-					<div class="d-inline">
+			<div class="col-lg-10 offset-1 copyright-col">
 						<img src="../../../assets/logodark.png" alt="logo">
-						<p>© 2021 www.financie.sk Všetky práva vyhradené.</p>
-					</div>
-				</div>
-
+						<p class="copy">© 2021 www.financie.sk Všetky práva vyhradené.</p>
+						<button type="button" class="btn">Osobné financie</button>
+						<button type="button" class="btn">Pre školy</button>	
 			</div>
 		</div>
 
@@ -71,8 +68,8 @@ export default {
 <style lang="scss" scoped>
 	.footer-row {
 		background: rgba(226, 227, 232, 0.15);
-		min-height: 350px;
-		border: 1px solid lightcoral;
+		min-height: 310px;
+		///border: 1px solid lightcoral;
 		display: flex;
 		align-content: center;
 	}
@@ -90,7 +87,6 @@ export default {
 		list-style: none;
 	}
 
-
 	h5 {
 		text-align: left;
 		font-size: 15px;
@@ -98,13 +94,33 @@ export default {
 	}
 	///
 	.copyright-row { 
-		border: 1px solid lightgreen;
+		///border: 1px solid lightgreen;
 		background: rgba(226, 227, 232, 0.15);
-		min-height: 100px;
+		min-height: 90px;
 		display: flex;
 		align-content: center;
 	}
 
+	.copyright-col { 
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 
+
+	.btn { 
+		border: none;
+		border-radius: 0px;
+	}
+
+	.btn:hover{ 
+		border-bottom: 3px solid #1EAEE1;
+		border-radius: 0px;
+	}
 	
+	.btn:focus { 
+		box-shadow: none;
+		border-bottom: 3px solid #1EAEE1;
+	}
+
 </style>
