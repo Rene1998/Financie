@@ -8,7 +8,7 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="mr-auto">
 
-      <img class="financie" src="../../../assets/logo.png" alt="logo">
+      <img class="financie" src="assets/logo.png" alt="logo">
 
       </b-navbar-nav>
 
