@@ -49,10 +49,13 @@
 
 		<div class="row copyright-row">
 			<div class="col-lg-10 offset-1 copyright-col">
-						<img src="../../../assets/logodark.png" alt="logo">
-						<p class="copy">© 2021 www.financie.sk Všetky práva vyhradené.</p>
-						<button type="button" class="btn">Osobné financie</button>
-						<button type="button" class="btn">Pre školy</button>	
+						<img  class="mr-3" src="../../../assets/logodark.png" alt="logo">
+						<p class="copy m-0">© 2021 www.financie.sk Všetky práva vyhradené.</p>
+						<div class="ml-auto ">
+							<button type="button" class="btn pb-3">Osobné financie</button>
+							<button type="button" class="btn pb-3">Pre školy</button>
+						</div>
+							
 			</div>
 		</div>
 
@@ -104,12 +107,11 @@ export default {
 	.copyright-col { 
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		align-items: center;
 	}
 
 
 	.btn { 
-		border: none;
 		border-radius: 0px;
 	}
 
