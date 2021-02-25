@@ -6,22 +6,22 @@
       <p>Pripravili sme pre vás materiály pre učiteľov zo základných škol.</p>
       <p>Základné školy • Stredné školy • Vysoke školy</p>
     </div>
-    
+
   </div>
-  
-  <z-slider></z-slider>
+
+  <z-carousel></z-carousel>
   </div>
 </template>
 <script>
 export default {
   components: {
-		"z-slider": () => import("../home/z-slider")
+		"z-carousel": () => import("../home/z-carousel")
 
 	}
 }
 </script>
 <style lang = "scss" scoped>
-  .preskoly-container { 
+  .preskoly-container {
     background-image: url(/assets/group1.png);
     min-height: 500px;
     width: 100%;
@@ -32,7 +32,7 @@ export default {
     align-items: center;
   }
 
-  .preskoly-welcome { 
+  .preskoly-welcome {
     display: flex;
     flex-direction: column;
   }
