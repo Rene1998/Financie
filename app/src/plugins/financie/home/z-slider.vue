@@ -1,21 +1,33 @@
 <template>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
-    </div>
-  </div>
+<div>
+  <b-carousel
+    id="carousel-fade"
+    style="text-shadow: 0px 0px 2px #000"
+    fade
+    indicators
+    img-width="1024"
+    img-height="480"
+  >
+    <b-carousel-slide
+      caption="First slide"
+      img-src="https://picsum.photos/1024/480/?image=10"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption="Second Slide"
+      img-src="https://picsum.photos/1024/480/?image=12"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption="Third Slide"
+      img-src="https://picsum.photos/1024/480/?image=22"
+    ></b-carousel-slide>
+  </b-carousel>
 </div>
 </template>
 <script>
-
+export default {
+  
+}
 </script>
 <style lang = "scss" scoped>
-
+  
 </style>

@@ -1,5 +1,6 @@
 <template>
-  <div class="container preskoly-container">
+  <div>
+    <div class="container preskoly-container">
     <div>
       <h1>Základná škola</h1>
       <p>Pripravili sme pre vás materiály pre učiteľov zo základných škol.</p>
@@ -7,7 +8,18 @@
     </div>
     
   </div>
+  
+  <z-slider></z-slider>
+  </div>
 </template>
+<script>
+export default {
+  components: {
+		"z-slider": () => import("../home/z-slider")
+
+	}
+}
+</script>
 <style lang = "scss" scoped>
   .preskoly-container { 
     background-image: url(/assets/group1.png);
