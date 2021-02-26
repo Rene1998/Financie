@@ -10,14 +10,14 @@
     :autoplayTimeout="3000"
     :perPage="1"
     style="width: 400px">
-      <slide style="text-align: center">
-        <h5>Marko nevie hrat fifu</h5>
+      <slide class="slide" style="text-align: center">
+        <h5>neokej</h5>
       </slide>
       <slide style="text-align: center">
-        <h5>kokokokokokok</h5>
+        <h5>okej</h5>
       </slide>
       <slide style="text-align: center">
-        <h5>kokokokkokokok</h5>
+        <h5>ahoj</h5>
       </slide>
     </carousel>
   </div>

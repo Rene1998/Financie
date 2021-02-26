@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <div class="container preskoly-container">
-    <div>
-      <h1>Základná škola</h1>
-      <p>Pripravili sme pre vás materiály pre učiteľov zo základných škol.</p>
-      <p>Základné školy • Stredné školy • Vysoke školy</p>
+<div>
+    <div class="container-fluid preskoly-main">
+      <div class="container preskoly-container">
+        <div class="preskoly-welcome-text">
+          <h1>Základná škola</h1>
+          <p>Pripravili sme pre vás materiály pre učiteľov zo základných škol.</p>
+          <p>Základné školy • Stredné školy • Vysoke školy</p>
+        </div>
+      </div>
     </div>
-
-  </div>
-
   <z-carousel></z-carousel>
-  </div>
+</div>
 </template>
 <script>
 export default {
@@ -22,18 +22,17 @@ export default {
 </script>
 <style lang = "scss" scoped>
   .preskoly-container {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+  }
+
+  .preskoly-main { 
     background-image: url(/assets/group1.png);
     min-height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-  }
-
-  .preskoly-welcome {
-    display: flex;
-    flex-direction: column;
   }
 </style>
