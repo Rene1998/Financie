@@ -21,7 +21,7 @@
 
             <b-navbar-nav >
               <button type="button" class="btn bp-3 ">
-                <b-nav-dropdown text="Pre školy" right >
+                <b-nav-dropdown text="Pre školy" right>
                   <b-dropdown-item href="#">Základné školy</b-dropdown-item>
                   <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
                   <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
@@ -60,6 +60,7 @@ export default {
   
   .btn { 
 		border-radius: 0px;
+    
 	}
 
 	.btn:hover{ 
@@ -72,14 +73,27 @@ export default {
 		border-bottom: 3px solid #1EAEE1;
 	}
 
- 
+.btn{
+  height: 63px;
+  display: flex;
+  align-items: center;
+} 
 
-
-  
+.dropdown-item:hover{
+  background-color: cadetblue;
+}
 </style>
 
 <style>
-  .dropdown-toggle::after {
-      display: none;
+
+  .nav-link:focus{
+      outline: none !important;
+    }
+
+  .dropdown-toggle::after
+   {
+    display: none;
   }
+
+  
 </style>

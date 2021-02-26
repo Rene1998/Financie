@@ -11,15 +11,19 @@
     :perPage="1"
     style="width: 400px">
       <slide class="slide" style="text-align: center">
-        <h5>neokej</h5>
+        <h5>Ked si dam 2 kolesa som bicykel</h5>
       </slide>
       <slide style="text-align: center">
-        <h5>okej</h5>
+        <h5>Ked si dam 2 kolesa som motorka</h5>
       </slide>
       <slide style="text-align: center">
-        <h5>ahoj</h5>
+        <h5>Ked si dam 3 kolesa som trojkolka</h5>
       </slide>
     </carousel>
+  </div>
+  <div class="hardcore-text">
+    <h5>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h5>
+    <p>Pripravili sme si pre vás všetky finančne otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote</p>
   </div>
 </div>
   
@@ -32,7 +36,11 @@ export default {
     Carousel,
     Slide
   },
+  
 }
+
+
+
 </script>
 <style lang = "scss" scoped>
 
@@ -40,22 +48,69 @@ export default {
   margin-top: 40px;
 }
 
-.VueCarousel-pagination{
-  margin-top: -30px;
+.VueCarousel-dot-container{
+  margin-top: -20px !important;
 }
 
 p{
-  
-font-family: Helvetica Neue;
+
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 18px;
 line-height: 30px;
-
 text-align: center;
-
-color: #192949;
-
+color: #192949; 
 }
 
+h5{
+font-family: HeadlandOne;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+
+.hardcore-text{
+  margin-top: 60px;
+
+  h5{
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #192949;
+  }
+
+  p{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #192949;
+  }
+
+}
+</style>
+
+
+<style>
+.VueCarousel-dot:focus {
+  outline: none !important;
+}
+
+.VueCarousel-dot--active{
+  background-color: #1EAEE1  !important;
+}
+
+.VueCarousel-dot{
+width: 6px !important;
+height: 6px !important;
+}
+
+.VueCarousel-pagination{
+  margin-top: -45px;
+}
 </style>
