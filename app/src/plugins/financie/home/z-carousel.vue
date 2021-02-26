@@ -1,21 +1,28 @@
 <template>
+<div>
+  <div class="slider-info" style="display: flex; justify-content: center;">
+    <p>Vedeli ste, že.......</p>
+  </div>
   <div style="display: flex; justify-content: center;">
+    
     <carousel
     :autoplay="true"
     :autoplayTimeout="3000"
     :perPage="1"
     style="width: 400px">
       <slide style="text-align: center">
-        maro je kokot
+        <h5>Marko nevie hrat fifu</h5>
       </slide>
       <slide style="text-align: center">
-        sdfsdfsdf
+        <h5>kokokokokokok</h5>
       </slide>
       <slide style="text-align: center">
-        sdfsdf
+        <h5>kokokokkokokok</h5>
       </slide>
     </carousel>
   </div>
+</div>
+  
 </template>
 <script>
 //docs => https://ssense.github.io/vue-carousel/api/
@@ -28,5 +35,27 @@ export default {
 }
 </script>
 <style lang = "scss" scoped>
+
+.slider-info{
+  margin-top: 40px;
+}
+
+.VueCarousel-pagination{
+  margin-top: -30px;
+}
+
+p{
+  
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+
+text-align: center;
+
+color: #192949;
+
+}
 
 </style>
