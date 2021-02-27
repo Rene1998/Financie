@@ -79,9 +79,11 @@ export default {
   align-items: center;
 } 
 
-.dropdown-item:hover{
-  background-color: cadetblue;
+.nav-link:hover{
+  color: #1EAEE1;
 }
+
+
 </style>
 
 <style>
@@ -94,6 +96,26 @@ export default {
    {
     display: none;
   }
+
+.dropdown-item:hover{
+  color:#1eaee1;;
+  background-color:white;
+}
+
+.dropdown-menu{
+  width: 285px;
+  height: 138px;
+  border: none;
+
+}
+
+.nav-link:hover{
+  color: #1EAEE1 !important;
+}
+
+.dropdown-item{
+  margin-top: 6px;
+}
 
   
 </style>
