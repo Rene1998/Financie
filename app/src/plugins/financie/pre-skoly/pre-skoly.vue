@@ -10,13 +10,14 @@
       </div>
     </div>
   <z-carousel></z-carousel>
+  <z-advancedImgCard> </z-advancedImgCard>
 </div>
 </template>
 <script>
 export default {
   components: {
-		"z-carousel": () => import("../home/z-carousel")
-
+		"z-carousel": () => import("../home/z-carousel"),
+    "z-advancedImgCard": () => import("../_components/card/z-advancedImgCard")
 	}
 }
 </script>
