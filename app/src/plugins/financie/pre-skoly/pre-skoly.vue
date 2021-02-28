@@ -10,7 +10,31 @@
       </div>
     </div>
   <z-carousel></z-carousel>
-  <z-advancedImgCard> </z-advancedImgCard>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+      <div class="col-4">
+        <z-advancedImgCard></z-advancedImgCard>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 <script>

@@ -1,8 +1,6 @@
 <template>
     <div>
-        <div class="container">
-            <div>
-                <b-card
+        <b-card
                     title="Nemam penaze"
                     img-src="https://picsum.photos/600/300/?image=25"
                     img-alt="Image"
@@ -56,12 +54,8 @@
                     </b-card-link>
                     
                 </b-card>
-            </div> 
-        </div>
        
-       <div class="pozition">
-            <b-button variant="primary">Stahnuť všetky dokumenty</b-button>
-       </div>
+       
     </div>
 </template>
 
