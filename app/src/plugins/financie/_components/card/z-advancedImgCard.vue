@@ -106,4 +106,8 @@ a:hover{
     background: #1EAEE1;
     border-radius: 5px;
 }
+
+.card-body{
+    padding-left: 0px;
+}
 </style>
