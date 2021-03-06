@@ -113,13 +113,21 @@ h5 {
 }
 
 
-.btn:hover {
-  border-bottom: 3px solid #1eaee1;
+.btn {
   border-radius: 0px;
+  padding: 25px 15px;
+  border-bottom: 4px solid transparent; 
+  &:hover {
+    border-bottom: 4px solid #1eaee1;
+    border-radius: 0px;
+    .nav-link {
+      color: #1eaee1 !important;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+    border-bottom: 4px solid #1eaee1;
+  }
 }
 
-.btn:focus {
-  box-shadow: none;
-  border-bottom: 3px solid #1eaee1;
-}
 </style>

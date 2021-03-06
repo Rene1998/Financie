@@ -9,11 +9,30 @@
           </p>
           <p>Základné školy • Stredné školy • Vysoke školy</p>
         </div>
-      </div>      
+      </div>
     </div>
-    <z-categoryCard></z-categoryCard>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <z-categoryCard></z-categoryCard>
+        </div>
+
+        <div class="col-3">
+          <z-categoryCard></z-categoryCard>
+        </div>
+
+        <div class="col-3">
+          <z-categoryCard></z-categoryCard>
+        </div>
+
+        <div class="col-3">
+          <z-categoryCard></z-categoryCard>
+        </div>
+      </div>
+    </div>
     <z-carousel></z-carousel>
-  
+
     <div class="container">
       <div class="row">
         <div class="col-4">
