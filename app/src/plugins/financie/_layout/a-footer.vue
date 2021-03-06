@@ -4,7 +4,7 @@
       <div class="row footer-row">
         <div class="col-3">
           <h5>Životné situácie</h5>
-          <ul>
+          <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Auto</a></li>
             <li class="footer-li"><a href="#!">Práce a dane</a></li>
             <li class="footer-li"><a href="#!">Rodina a deti</a></li>
@@ -16,7 +16,7 @@
 
         <div class="col-3">
           <h5>Finančné produkty</h5>
-          <ul>
+          <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Poistenie</a></li>
             <li class="footer-li"><a href="#!">Hypotekárny úver</a></li>
             <li class="footer-li"><a href="#!">Úver na spotrebu</a></li>
@@ -28,7 +28,7 @@
 
         <div class="col-3">
           <h5>Pomôcky</h5>
-          <ul>
+          <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Porovnania</a></li>
             <li class="footer-li"><a href="#!">Nástrahy</a></li>
             <li class="footer-li"><a href="#!">Kalkulačky</a></li>
@@ -38,7 +38,7 @@
 
         <div class="col-3">
           <h5>Životné situácie</h5>
-          <ul>
+          <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">O nás</a></li>
             <li class="footer-li"><a href="#!">Kontakt</a></li>
           </ul>
@@ -55,8 +55,8 @@
                 © 2021 www.financie.sk Všetky práva vyhradené.
               </p>
               <div class="ml-auto ">
-                <button type="button" class="btn pb-3">Osobné financie</button>
-                <button type="button" class="btn pb-3">Pre školy</button>
+                <button type="button" class="btn rounded-0">Osobné financie</button>
+                <button type="button" class="btn rounded-0">Pre školy</button>
               </div>
             </div>
           </div>
@@ -84,16 +84,11 @@ footer {
 
 a {
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
   line-height: 30px;
   color: #19283b;
 }
 
-ul {
-  padding-left: 0;
-  list-style: none;
-}
 
 h5 {
   text-align: left;
@@ -106,7 +101,7 @@ h5 {
 .copyright-row {
   ///border: 1px solid lightgreen;
   background: #fbfbfc;
-  min-height: 90px;
+  min-height: 80px;
   display: flex;
   align-content: center;
 }
@@ -117,9 +112,6 @@ h5 {
   align-items: center;
 }
 
-.btn {
-  border-radius: 0px;
-}
 
 .btn:hover {
   border-bottom: 3px solid #1eaee1;
