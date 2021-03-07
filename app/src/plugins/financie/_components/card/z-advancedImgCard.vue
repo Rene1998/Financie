@@ -13,8 +13,10 @@
                       Prejdeme si investovanie od zakladov az po otvorenie vlastneho uctu...
                     </b-card-text>
                     
-                    <b-card-link class="inline d-flex justify-content-between align-items-center">
-                        <b-card-text>ahoj</b-card-text>
+                    <b-card-body class="d-flex justify-content-between ">
+                        <b-card-link>
+                            <h6>sheesh</h6>
+                        </b-card-link>
 
                         <b-card-link>
                             <a href="#" class="card-link">
@@ -25,11 +27,12 @@
                             </a>
                         </b-card-link>
                         
-                    </b-card-link>
-
-
-                     <b-card-link class="inline border-top d-flex justify-content-between align-items-center">
-                        <b-card-text>ahoj</b-card-text>
+                    </b-card-body>
+                    <hr class="m-0">
+                     <b-card-body class="d-flex justify-content-between ">
+                        <b-card-link class="m-0">
+                            <h6 class="m-0">sheesh</h6>
+                        </b-card-link>
 
                         <b-card-link>
                             <a href="#" class="card-link">
@@ -40,17 +43,23 @@
                             </a>
                         </b-card-link>
                         
-                    </b-card-link>
-                     <b-card-link class="inline border-top d-flex justify-content-between align-items-center">
-                        <b-card-text>ahoj</b-card-text>
+                    </b-card-body>
+                    <hr class="m-0">
+                     <b-card-body class="d-flex justify-content-between ">
+                        <b-card-link>
+                            <h6>sheesh</h6>
+                        </b-card-link>
 
                         <b-card-link>
                             <a href="#" class="card-link">
-                                <b-icon icon="play-circle"></b-icon>
+                                <b-icon icon="download"></b-icon>
+                            </a>
+                            <a href="#" class="card-link">
+                                <b-icon icon="eye"></b-icon>
                             </a>
                         </b-card-link>
-
-                    </b-card-link>
+                        
+                    </b-card-body>
                     
                 </b-card>
        
@@ -88,9 +97,11 @@ a {
 }
 
 .card-body {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
+
 
 
 </style>
