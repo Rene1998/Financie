@@ -69,9 +69,28 @@ export default {};
 .nav-link:hover {
   color: #1eaee1 !important;
 }
+
 </style>
 
 <style>
+
+
+.dropdown-menu {
+  width: 285px;
+  height: 138px;
+  border: none;
+  border-radius: 0px;
+}
+
+a:hover {
+  color: #1eaee1 !important;
+  background-color: #FFFFFF !important;
+}
+
+.dropdown-item{
+  margin-top: 6px;
+}
+
 .dropdown-toggle:hover {
   color: #1eaee1 !important;
 }
@@ -83,4 +102,6 @@ export default {};
 .dropdown-toggle::after {
   display: none;
 }
+
+
 </style>
