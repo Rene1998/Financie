@@ -1,5 +1,6 @@
 <template>
 <div>
+  <hr>
   <div class="slider-info" style="display: flex; justify-content: center;">
     <p>Vedeli ste, že.......</p>
   </div>
@@ -21,6 +22,7 @@
       </slide>
     </carousel>
   </div>
+  <hr>
   <div class="hardcore-text">
     <h5>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h5>
     <p>Pripravili sme si pre vás všetky finančne otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote</p>
@@ -42,7 +44,7 @@ export default {
 
 
 </script>
-<style lang = "scss" scoped>
+<style lang="scss" scoped>
 
 .slider-info{
   margin-top: 40px;
@@ -53,22 +55,16 @@ export default {
 }
 
 p{
-
-font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
-text-align: center;
 color: #192949; 
 }
 
 h5{
 font-family: HeadlandOne;
-font-style: normal;
-font-weight: normal;
 font-size: 24px;
 line-height: 30px;
-text-align: center;
 color: #000000;
 }
 
@@ -92,6 +88,13 @@ color: #000000;
   }
 
 }
+
+hr{
+width: 1138px;
+height: 0px;
+border: 1px solid #F3F4F5;
+}
+
 </style>
 
 

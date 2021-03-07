@@ -68,7 +68,7 @@
 </template>
 
 
-<style lang = "scss" scoped>
+<style lang="scss" scoped>
 .card {
     width: 380px;
 }
@@ -102,6 +102,15 @@ a {
     padding-right: 0px !important;
 }
 
+hr{
+    height: 0px;
+    border: 1px solid rgba(137, 137, 137, 0.2);
+}
 
-
+h6{
+    font-size: 16px;
+    line-height: 30px
+    color #192949;
+    font-weight: 400;
+}
 </style>
