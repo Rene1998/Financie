@@ -9,7 +9,7 @@
                     style="max-width: 20rem;"
                     class="mb-2 border border-0  "
                 >
-                    <b-card-text>
+                    <b-card-text class="d-flex align-items-end">
                       Prejdeme si investovanie od zakladov az po otvorenie vlastneho uctu...
                     </b-card-text>
                     
@@ -45,7 +45,7 @@
                         
                     </b-card-body>
                     <hr class="m-0">
-                     <b-card-body class="d-flex justify-content-between ">
+                     <b-card-body class="d-flex justify-content-between mr-2">
                         <b-card-link>
                             <h6>sheesh</h6>
                         </b-card-link>
@@ -54,9 +54,7 @@
                             <a href="#" class="card-link">
                                 <b-icon icon="download"></b-icon>
                             </a>
-                            <a href="#" class="card-link">
-                                <b-icon icon="eye"></b-icon>
-                            </a>
+
                         </b-card-link>
                         
                     </b-card-body>
@@ -70,7 +68,7 @@
 
 <style lang="scss" scoped>
 .card {
-    width: 380px;
+    width: 363px !important;
 }
 
 .b-card-link{
@@ -79,9 +77,7 @@
 
 p {
     font-size: 14px;
-    display: flex;
     color: #192949;
-    align-items: flex-end;
 }
 
 .card-img-top {

@@ -2,7 +2,7 @@
 <div>
   <hr>
   <div class="slider-info" style="display: flex; justify-content: center;">
-    <p>Vedeli ste, že.......</p>
+    <p>Vedeli ste, že...</p>
   </div>
   <div style="display: flex; justify-content: center;">
     
@@ -23,9 +23,9 @@
     </carousel>
   </div>
   <hr>
-  <div class="hardcore-text">
-    <h5>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h5>
-    <p>Pripravili sme si pre vás všetky finančne otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote</p>
+  <div class="text-center hardcore-text">
+    <h5 class="text-center">Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h5>
+    <span class="text-center m-4">A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br> prevedú finančním vzdelaním.</span>
   </div>
 </div>
   
@@ -54,11 +54,12 @@ export default {
   margin-top: -20px !important;
 }
 
-p{
+span{
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 color: #192949; 
+width: 951px;
 }
 
 h5{
@@ -76,14 +77,6 @@ color: #000000;
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    text-align: center;
-    color: #192949;
-  }
-
-  p{
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
     color: #192949;
   }
 
