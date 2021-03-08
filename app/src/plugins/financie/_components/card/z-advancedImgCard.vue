@@ -13,7 +13,7 @@
                       Prejdeme si investovanie od zakladov az po otvorenie vlastneho uctu...
                     </b-card-text>
                     
-                    <b-card-body class="d-flex justify-content-between ">
+                    <b-card-body class="d-flex justify-content-between  mr-2">
                         <b-card-link>
                             <h6>sheesh</h6>
                         </b-card-link>
@@ -29,7 +29,7 @@
                         
                     </b-card-body>
                     <hr class="m-0">
-                     <b-card-body class="d-flex justify-content-between ">
+                     <b-card-body class="d-flex justify-content-between mr-2 ">
                         <b-card-link class="m-0">
                             <h6 class="m-0">sheesh</h6>
                         </b-card-link>
@@ -52,7 +52,7 @@
 
                         <b-card-link>
                             <a href="#" class="card-link">
-                                <b-icon icon="download"></b-icon>
+                                <b-icon icon="play-circle"></b-icon>
                             </a>
 
                         </b-card-link>
