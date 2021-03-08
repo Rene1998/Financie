@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card" style="width: 18rem;">
+    <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
         <img class="category-card" src="/assets/rocnik1.png" alt="">
         <h6 class="card-title">1 - 2 Ročník</h6>
@@ -17,7 +17,5 @@
 .card {
     bottom: 80px;
 }
-.card-body { 
-  width: 10px;
-}
+
 </style>

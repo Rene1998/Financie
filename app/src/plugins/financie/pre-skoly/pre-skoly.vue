@@ -14,9 +14,6 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <z-categoryCard></z-categoryCard>
-        </div>
 
         <div class="col-3">
           <z-categoryCard></z-categoryCard>
@@ -29,8 +26,14 @@
         <div class="col-3">
           <z-categoryCard></z-categoryCard>
         </div>
+
+        <div class="col-3">
+          <z-categoryCard></z-categoryCard>
+        </div>
+
       </div>
     </div>
+
     <z-carousel></z-carousel>
 
     <div class="container">

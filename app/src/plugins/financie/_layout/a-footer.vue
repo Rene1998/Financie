@@ -120,9 +120,6 @@ h5 {
   &:hover {
     border-bottom: 4px solid #1eaee1;
     border-radius: 0px;
-    .nav-link {
-      color: #1eaee1 !important;
-    }
   }
   &:focus {
     box-shadow: none;
