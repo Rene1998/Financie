@@ -5,17 +5,18 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="mr-auto d-flex aling-items-center">
           <b-navbar-nav class="d-flex align-items-center ">
-               <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </b-navbar-nav>
-           
-          <hr>
-            <img class="financie" src="assets/logo.png" alt="logo" />
+
+          <hr />
+          <img class="financie" src="assets/logo.png" alt="logo" />
         </b-navbar-nav>
 
         <b-navbar-nav class="d-flex align-items-center">
           <b-navbar-nav>
             <b-nav-item href="#" class="btn bp-3 d-flex align-items-center "
-              >Osobné financie</b-nav-item>
+              >Osobné financie</b-nav-item
+            >
           </b-navbar-nav>
           <hr />
           <b-navbar-nav>
@@ -100,15 +101,17 @@ export default {};
   &.nav-link:focus {
     outline: none !important;
   }
+  .dropdown-toggle:hover,
+  .nav-item:hover /deep/ a[role="button"] {
+    color: #1eaee1 !important;
+  }
 }
 
 hr {
   width: 30px;
   height: 0px;
 
-  border: 0,5px solid #f3f4f5;
+  border: 0, 5px solid #f3f4f5;
   transform: rotate(90deg);
 }
-
-
 </style>
