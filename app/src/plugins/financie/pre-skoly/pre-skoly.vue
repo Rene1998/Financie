@@ -113,7 +113,7 @@ export default {
   background-size: cover;
 }
 
-.container {
+
 .remove-padding{
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -144,5 +144,5 @@ export default {
   .size{
     font-size: 18px;
   }
-}
+
 </style>
