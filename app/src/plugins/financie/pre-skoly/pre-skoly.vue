@@ -60,14 +60,27 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <z-imgCard></z-imgCard>
+        </div>
+        <div class="col">
+          <z-textCard></z-textCard>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 <script>
 export default {
   components: {
-    "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCard": () => import("../_components/card/z-advancedImgCard"),
-    "z-categoryCard": () => import("../_components/card/z-categoryCard"),
+    'z-carousel': () => import('../home/z-carousel'),
+    'z-advancedImgCard': () => import('../_components/card/z-advancedImgCard'),
+    'z-categoryCard': () => import('../_components/card/z-categoryCard'),
+    'z-imgCard' : () => import('../_components/card/z-imgCard'),
+    'z-textCard' : () => import('../_components/card/z-textCard')
   },
 };
 </script>
