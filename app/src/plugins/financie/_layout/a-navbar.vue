@@ -3,32 +3,38 @@
     <b-navbar toggleable="lg" type="light">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="mr-auto">
-          <img class="financie" src="assets/logo.png" alt="logo" />
+        <b-navbar-nav class="mr-auto d-flex aling-items-center">
+          <b-navbar-nav class="d-flex align-items-center ">
+               <span class="navbar-toggler-icon"></span>
+          </b-navbar-nav>
+           
+          <hr>
+            <img class="financie" src="assets/logo.png" alt="logo" />
         </b-navbar-nav>
 
-        <b-navbar-nav>
-          <b-nav-item href="#" class="btn bp-3 d-flex align-items-center"
-            >Osobné financie</b-nav-item
-          >
-        </b-navbar-nav>
-
-        <b-navbar-nav>
-          <b-nav-dropdown
-            text="Pre školy"
-            right
-            class="btn bp-3 d-flex align-items-center"
-          >
-            <b-dropdown-item href="#">Základné školy</b-dropdown-item>
-            <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
-            <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
-          </b-nav-dropdown>
-        </b-navbar-nav>
-
-        <b-navbar-nav>
-          <b-nav-item>
-            <b-icon icon="search"></b-icon>
-          </b-nav-item>
+        <b-navbar-nav class="d-flex align-items-center">
+          <b-navbar-nav>
+            <b-nav-item href="#" class="btn bp-3 d-flex align-items-center "
+              >Osobné financie</b-nav-item>
+          </b-navbar-nav>
+          <hr />
+          <b-navbar-nav>
+            <b-nav-dropdown
+              text="Pre školy"
+              right
+              class="btn bp-3 d-flex align-items-center "
+            >
+              <b-dropdown-item href="#">Základné školy</b-dropdown-item>
+              <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
+              <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
+            </b-nav-dropdown>
+          </b-navbar-nav>
+          <hr />
+          <b-navbar-nav>
+            <b-nav-item>
+              <b-icon icon="search"></b-icon>
+            </b-nav-item>
+          </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -42,7 +48,7 @@ export default {};
 <style lang="scss" scoped>
 .financie {
   width: 120px;
-  min-height: 38px;
+  height: 30px;
 }
 
 .navbar {
@@ -70,33 +76,39 @@ export default {};
   color: #1eaee1 !important;
 }
 
-
-
-
 /deep/ {
-    &.dropdown-toggle::after {
-        display: none;
-    }
-    
-    &.dropdown-menu {
-        width: 285px;
-        height: 138px;
-        border: none;
-        border-radius: 0px;
-    }
+  &.dropdown-toggle::after {
+    display: none;
+  }
 
-    &a:hover {
-        color: #1eaee1 !important;
-        background-color: #FFFFFF !important;
-    }
+  &.dropdown-menu {
+    width: 285px;
+    height: 138px;
+    border: none;
+    border-radius: 0px;
+  }
 
-    &.dropdown-item {
-        margin-top: 6px;
-    }
+  &a:hover {
+    color: #1eaee1 !important;
+    background-color: #ffffff !important;
+  }
 
-    &.nav-link:focus {
-        outline: none !important;
-    }
+  &.dropdown-item {
+    margin-top: 6px;
+  }
+
+  &.nav-link:focus {
+    outline: none !important;
+  }
 }
-</style>
 
+hr {
+  width: 30px;
+  height: 0px;
+
+  border: 0,5px solid #f3f4f5;
+  transform: rotate(90deg);
+}
+
+
+</style>

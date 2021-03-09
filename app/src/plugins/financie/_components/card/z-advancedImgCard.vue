@@ -67,6 +67,10 @@
 <style lang="scss" scoped>
 .card {
     width: 363px !important;
+
+    img {
+        height: 210px;
+    }
 }
 
 .b-card-link{
@@ -96,8 +100,6 @@ a {
     padding-right: 0px !important;
 }
 
-
-
 h6{
     font-size: 16px;
     line-height: 30px
@@ -105,7 +107,9 @@ h6{
     font-weight: 400;
 }
 
-img{
-    height: 210px;
+.col-4{
+    border: 0px 20px  !important;
 }
+
+
 </style>

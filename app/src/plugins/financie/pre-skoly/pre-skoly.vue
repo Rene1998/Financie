@@ -60,6 +60,7 @@
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -70,7 +71,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 <script>
@@ -98,5 +98,10 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 </style>

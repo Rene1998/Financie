@@ -27,7 +27,7 @@
       <h5 class="text-center">
         Budeme pri vás, počas toho ako si plníte vaše sny a ciele
       </h5>
-      <span class="text-center m-4"
+      <span class="text-center"
         >A preto sme učiteľom a ich žiakom na základných a stredných školách
         pripravili príručky, cvičenia a videá, ktoré vás <br />
         prevedú finančním vzdelaním.</span
