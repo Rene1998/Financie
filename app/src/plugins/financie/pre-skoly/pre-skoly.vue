@@ -37,7 +37,7 @@
     <z-carousel></z-carousel>
 
     <div class="container">
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-4">
           <z-advancedImgCard></z-advancedImgCard>
         </div>
@@ -48,7 +48,7 @@
           <z-advancedImgCard></z-advancedImgCard>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-4">
           <z-advancedImgCard></z-advancedImgCard>
         </div>

@@ -70,38 +70,33 @@ export default {};
   color: #1eaee1 !important;
 }
 
+
+
+
+/deep/ {
+    &.dropdown-toggle::after {
+        display: none;
+    }
+    
+    &.dropdown-menu {
+        width: 285px;
+        height: 138px;
+        border: none;
+        border-radius: 0px;
+    }
+
+    &a:hover {
+        color: #1eaee1 !important;
+        background-color: #FFFFFF !important;
+    }
+
+    &.dropdown-item {
+        margin-top: 6px;
+    }
+
+    &.nav-link:focus {
+        outline: none !important;
+    }
+}
 </style>
 
-<style>
-
-
-.dropdown-menu {
-  width: 285px;
-  height: 138px;
-  border: none;
-  border-radius: 0px;
-}
-
-a:hover {
-  color: #1eaee1 !important;
-  background-color: #FFFFFF !important;
-}
-
-.dropdown-item{
-  margin-top: 6px;
-}
-
-.dropdown-toggle:hover {
-  color: #1eaee1 !important;
-}
-
-.nav-link:focus {
-  outline: none !important;
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
-
-</style>

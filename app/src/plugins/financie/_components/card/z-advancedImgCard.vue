@@ -4,9 +4,7 @@
                     title="Nemam penaze"
                     img-src="https://picsum.photos/600/300/?image=25"
                     img-alt="Image"
-                    img-top
                     tag="article"
-                    style="max-width: 20rem;"
                     class="mb-2 border border-0  "
                 >
                     <b-card-text class="d-flex align-items-end">
@@ -98,15 +96,16 @@ a {
     padding-right: 0px !important;
 }
 
-hr{
-    height: 0px;
-    border: 1px solid rgba(137, 137, 137, 0.2);
-}
+
 
 h6{
     font-size: 16px;
     line-height: 30px
     color #192949;
     font-weight: 400;
+}
+
+img{
+    height: 210px;
 }
 </style>
