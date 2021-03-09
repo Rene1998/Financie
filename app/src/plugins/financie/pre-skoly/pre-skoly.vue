@@ -14,7 +14,6 @@
 
     <div class="container">
       <div class="row">
-
         <div class="col-3">
           <z-categoryCard></z-categoryCard>
         </div>
@@ -30,7 +29,6 @@
         <div class="col-3">
           <z-categoryCard></z-categoryCard>
         </div>
-
       </div>
     </div>
 
@@ -63,10 +61,19 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col">
+          <z-showArticles></z-showArticles>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col pr-5">
           <z-imgCard></z-imgCard>
         </div>
-        <div class="col">
+        <span class="divider border-left"></span>
+        <div class="col pl-5">
           <z-textCard></z-textCard>
         </div>
       </div>
@@ -76,11 +83,12 @@
 <script>
 export default {
   components: {
-    'z-carousel': () => import('../home/z-carousel'),
-    'z-advancedImgCard': () => import('../_components/card/z-advancedImgCard'),
-    'z-categoryCard': () => import('../_components/card/z-categoryCard'),
-    'z-imgCard' : () => import('../_components/card/z-imgCard'),
-    'z-textCard' : () => import('../_components/card/z-textCard')
+    "z-carousel": () => import("../home/z-carousel"),
+    "z-advancedImgCard": () => import("../_components/card/z-advancedImgCard"),
+    "z-categoryCard": () => import("../_components/card/z-categoryCard"),
+    "z-imgCard": () => import("../_components/card/z-imgCard"),
+    "z-textCard": () => import("../_components/card/z-textCard"),
+    "z-showArticles": () => import("../_components/z-showArticles"),
   },
 };
 </script>
@@ -100,7 +108,7 @@ export default {
   background-size: cover;
 }
 
-.container{
+.container {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }

@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <div class="card mb-3">
+  <div> 
+    <div class="card mb-3 border-0">
       <img src="../card/assets/imgcard.png" class="card-img-top" alt="..." />
-      <div class="card-body">
+      <div class="card-body p-0 pt-4 pr-5">
         <h6 class="card-title">Najstarší slovenský správca (IAD) vs. Inteligentné 
         investovanie - aktualizácia 2020</h6>
         <p class="card-text">
