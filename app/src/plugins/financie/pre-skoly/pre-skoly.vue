@@ -38,7 +38,7 @@
       <div class="row mb-4">
          <z-advancedImgCard></z-advancedImgCard>
       </div>
-    
+
     </div>
     <div class="container text-center mb-5 hardcore-text-button">
      <b-button variant="primary" class="download-all mb-5">Stiahnuť všetky dokumenty</b-button>
@@ -66,7 +66,7 @@
 </template>
 <script>
 
-import axios from 'axios';
+
 
 export default {
   components: {
@@ -77,17 +77,12 @@ export default {
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
   },
-  name: 'pre-skoly',
-    data : function(){
-        return{
-            zaicard: []
-        }
-    },
-    mounted: function(){
+
+    /*mounted: function(){
         axios.get('http://localhost:8081/api/zaicard').then(function(response){
             this.zaicard = response.data;
         })
-    }
+    }*/
 };
 </script>
 <style lang="scss" scoped>
@@ -119,7 +114,7 @@ export default {
   border: none;
   border-radius: 5px !important;
 
-  
+
 }
   a{
   color:#1EAEE1;

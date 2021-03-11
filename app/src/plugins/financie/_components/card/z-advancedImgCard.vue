@@ -10,7 +10,7 @@
                     <b-card-text class="d-flex align-items-end">
                       Prejdeme si investovanie od zakladov az po otvorenie vlastneho uctu...
                     </b-card-text>
-                    
+
                     <b-card-body class="d-flex justify-content-between  mr-2">
                         <b-card-link>
                             <h6>{{zaicard.title}}</h6>
@@ -24,7 +24,7 @@
                                 <b-icon icon="eye"></b-icon>
                             </a>
                         </b-card-link>
-                        
+
                     </b-card-body>
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2 ">
@@ -40,7 +40,7 @@
                                 <b-icon icon="eye"></b-icon>
                             </a>
                         </b-card-link>
-                        
+
                     </b-card-body>
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2">
@@ -54,12 +54,12 @@
                             </a>
 
                         </b-card-link>
-                        
+
                     </b-card-body>
-                    
+
                 </b-card>
-       
-       
+
+
     </div>
 </template>
 
@@ -69,15 +69,23 @@ import axios from 'axios';
 
 export default {
     name: 'pre-skoly',
-    data : function(){
-        return{
+    data(){
+        return {
             zaicards: []
         }
     },
-    mounted: function(){
-        axios.get('http://localhost:8081/api/zaicard').then(function(response){
-            this.zaicards = response.data;
-        })
+    async mounted(){
+        await this._loadCards
+    },
+    methods: {
+      async _loadCards(){
+        try {
+          const cards = axios.get('http://localhost:8081/api/zaicard')
+          this.zaicards = cards
+        } catch (e) {
+          console.error(e)
+        }
+      }
     }
 }
 </script>
