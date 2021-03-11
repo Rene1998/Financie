@@ -1,0 +1,11 @@
+plugin:
+    name: 'financie.zaicard::lang.plugin.name'
+    description: 'financie.zaicard::lang.plugin.description'
+    author: Financie
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: ZAICard
+        url: financie/zaicard/zaicard
+        icon: icon-list

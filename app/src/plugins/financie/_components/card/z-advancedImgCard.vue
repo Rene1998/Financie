@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-card
+        <b-card v-for="zaicard in zaicards" :key="zaicard.id"
                     title="Nemam penaze"
                     img-src="https://picsum.photos/600/300/?image=25"
                     img-alt="Image"
@@ -13,7 +13,7 @@
                     
                     <b-card-body class="d-flex justify-content-between  mr-2">
                         <b-card-link>
-                            <h6>sheesh</h6>
+                            <h6>{{zaicard.title}}</h6>
                         </b-card-link>
 
                         <b-card-link>
@@ -63,6 +63,24 @@
     </div>
 </template>
 
+<script>
+
+import axios from 'axios';
+
+export default {
+    name: 'pre-skoly',
+    data : function(){
+        return{
+            zaicards: []
+        }
+    },
+    mounted: function(){
+        axios.get('http://localhost:8081/api/zaicard').then(function(response){
+            this.zaicards = response.data;
+        })
+    }
+}
+</script>
 
 <style lang="scss" scoped>
 .card {

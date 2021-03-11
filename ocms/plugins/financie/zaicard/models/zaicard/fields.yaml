@@ -1,0 +1,42 @@
+fields:
+    title:
+        label: Nadpis
+        span: auto
+        type: text
+    content:
+        label: Obsah
+        size: small
+        span: auto
+        type: textarea
+    doc1:
+        label: 'Prvý súbor'
+        span: auto
+        type: text
+    doc2:
+        label: 'Druhý súbor'
+        span: auto
+        type: text
+    doc1_link_download:
+        label: 'Link na stiahnutie prvého súboru'
+        span: auto
+        type: text
+    doc2_link_download:
+        label: 'Link na stiahnutie druhého súboru'
+        span: auto
+        type: text
+    doc1_link_show:
+        label: 'Link na pozretie prvého súboru'
+        span: auto
+        type: text
+    doc2_link_show:
+        label: 'Link na pozretie druhého súboru'
+        span: auto
+        type: text
+    video:
+        label: 'Názov videa'
+        span: auto
+        type: text
+    video_show:
+        label: 'Link na pozretie videa'
+        span: auto
+        type: text

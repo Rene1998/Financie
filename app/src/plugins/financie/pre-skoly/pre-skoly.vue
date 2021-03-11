@@ -36,33 +36,12 @@
 
     <div class="container remove-padding">
       <div class="row mb-4">
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
+         <z-advancedImgCard></z-advancedImgCard>
       </div>
-      <div class="row mb-4">
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
-        <div class="col-4">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
-      </div>
+    
     </div>
     <div class="container text-center mb-5 hardcore-text-button">
      <b-button variant="primary" class="download-all mb-5">Stiahnuť všetky dokumenty</b-button>
-      <h5 class="mt-5">Informácie ktoré vám pomôžu k správnemu investovaniu</h5>
-      <p class="text-center size">Pripravili sme si pre vás všetky možné finačné otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote</p>
-      <a href="">Zobraziť všetky články</a>
     </div>
     <div class="container">
       <div class="row">
@@ -86,6 +65,9 @@
   </div>
 </template>
 <script>
+
+import axios from 'axios';
+
 export default {
   components: {
     "z-carousel": () => import("../home/z-carousel"),
@@ -95,6 +77,17 @@ export default {
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
   },
+  name: 'pre-skoly',
+    data : function(){
+        return{
+            zaicard: []
+        }
+    },
+    mounted: function(){
+        axios.get('http://localhost:8081/api/zaicard').then(function(response){
+            this.zaicard = response.data;
+        })
+    }
 };
 </script>
 <style lang="scss" scoped>
