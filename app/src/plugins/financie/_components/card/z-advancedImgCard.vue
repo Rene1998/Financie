@@ -1,27 +1,29 @@
 <template>
     <div>
         <b-card v-for="zaicard in zaicards" :key="zaicard.id"
-                    title="Nemam penaze"
+                    :title="zaicard.title"
                     img-src="https://picsum.photos/600/300/?image=25"
                     img-alt="Image"
                     tag="article"
                     class="mb-2 border border-0  "
                 >
                     <b-card-text class="d-flex align-items-end">
-                      Prejdeme si investovanie od zakladov az po otvorenie vlastneho uctu...
+                      {{zaicard.content}}
                     </b-card-text>
 
                     <b-card-body class="d-flex justify-content-between  mr-2">
                         <b-card-link>
-                            <h6>{{zaicard.title}}</h6>
+                            <h6>{{zaicard.doc1}}</h6>
                         </b-card-link>
 
                         <b-card-link>
-                            <a href="#" class="card-link">
+                            <a :href="zaicard.doc1_link_download" class="card-link">
                                 <b-icon icon="download"></b-icon>
                             </a>
-                            <a href="#" class="card-link">
-                                <b-icon icon="eye"></b-icon>
+                            <a :href="zaicard.doc1_link_show" class="card-link">
+                                <b-icon icon="eye">
+                                    
+                                </b-icon>
                             </a>
                         </b-card-link>
 
@@ -29,14 +31,14 @@
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2 ">
                         <b-card-link class="m-0">
-                            <h6 class="m-0">sheesh</h6>
+                            <h6 class="m-0">{{zaicard.doc2}}</h6>
                         </b-card-link>
 
                         <b-card-link>
-                            <a href="#" class="card-link">
+                            <a :href="zaicard.doc1_link_download" class="card-link">
                                 <b-icon icon="download"></b-icon>
                             </a>
-                            <a href="#" class="card-link">
+                            <a :href="zaicard.doc1_link_show" class="card-link">
                                 <b-icon icon="eye"></b-icon>
                             </a>
                         </b-card-link>
@@ -45,11 +47,11 @@
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2">
                         <b-card-link>
-                            <h6>sheesh</h6>
+                            <h6>{{zaicard.video}}</h6>
                         </b-card-link>
 
                         <b-card-link>
-                            <a href="#" class="card-link">
+                            <a :href="zaicard.video_show" class="card-link">
                                 <b-icon icon="play-circle"></b-icon>
                             </a>
 
@@ -65,23 +67,29 @@
 
 <script>
 
+const api = {
+    cards:() => axios.get('http://localhost:8081/api/zaicard')
+}
+
+
 import axios from 'axios';
 
 export default {
-    name: 'pre-skoly',
+    name:'z-advancedImgCard',
     data(){
         return {
             zaicards: []
         }
     },
     async mounted(){
-        await this._loadCards
+        await this._loadCards()
     },
     methods: {
       async _loadCards(){
         try {
-          const cards = axios.get('http://localhost:8081/api/zaicard')
-          this.zaicards = cards
+          const cards = await api.cards()
+          this.zaicards = cards.data
+          console.log(cards.data)
         } catch (e) {
           console.error(e)
         }
