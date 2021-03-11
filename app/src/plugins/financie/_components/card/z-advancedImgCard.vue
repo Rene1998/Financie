@@ -2,7 +2,7 @@
     <div>
         <b-card v-for="zaicard in zaicards" :key="zaicard.id"
                     :title="zaicard.title"
-                    img-src="https://picsum.photos/600/300/?image=25"
+                    :img-src="zaicard.image"
                     img-alt="Image"
                     tag="article"
                     class="mb-2 border border-0  "
@@ -13,7 +13,7 @@
 
                     <b-card-body class="d-flex justify-content-between  mr-2">
                         <b-card-link>
-                            <h6>{{zaicard.doc1}}</h6>
+                            <h6>Príručnka pre učiteľov</h6>
                         </b-card-link>
 
                         <b-card-link>
@@ -22,7 +22,7 @@
                             </a>
                             <a :href="zaicard.doc1_link_show" class="card-link">
                                 <b-icon icon="eye">
-                                    
+                            
                                 </b-icon>
                             </a>
                         </b-card-link>
@@ -31,7 +31,7 @@
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2 ">
                         <b-card-link class="m-0">
-                            <h6 class="m-0">{{zaicard.doc2}}</h6>
+                            <h6 class="m-0">Cvičenie pre žiakov</h6>
                         </b-card-link>
 
                         <b-card-link>
@@ -47,7 +47,7 @@
                     <hr class="m-0">
                      <b-card-body class="d-flex justify-content-between mr-2">
                         <b-card-link>
-                            <h6>{{zaicard.video}}</h6>
+                            <h6>Pozrieť video</h6>
                         </b-card-link>
 
                         <b-card-link>

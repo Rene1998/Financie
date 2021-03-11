@@ -35,8 +35,8 @@
     <z-carousel></z-carousel>
 
     <div class="container remove-padding">
-      <div class="row mb-4" style="display:flex; flex-direction:row;">
-        <div class="col-4">
+      <div class="row mb-4">
+        <div class="col-12">
           <z-advancedImgCard></z-advancedImgCard>
         </div>
       </div>
