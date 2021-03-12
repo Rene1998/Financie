@@ -16,6 +16,7 @@
 }
 .card {
     bottom: 80px;
+    border: none;
 }
 
 </style>

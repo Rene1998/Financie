@@ -36,9 +36,7 @@
 
     <div class="container remove-padding">
       <div class="row mb-4">
-        <div class="col-12">
-          <z-advancedImgCard></z-advancedImgCard>
-        </div>
+        <z-advancedImgCards></z-advancedImgCards>
       </div>
 
     </div>
@@ -73,7 +71,7 @@
 export default {
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCard": () => import("../_components/card/z-advancedImgCard"),
+    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
