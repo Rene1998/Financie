@@ -24,11 +24,11 @@ fields:
         label: 'Link na pozretie prvého súboru'
         span: auto
         type: text
-    doc2_link_show:
-        label: 'Link na pozretie druhého súboru'
-        span: auto
-        type: text
     doc2_link_download:
         label: 'Link na stiahnutie druhého súboru'
+        span: auto
+        type: text
+    doc2_link_show:
+        label: 'Link na pozretie druhého súboru'
         span: auto
         type: text
