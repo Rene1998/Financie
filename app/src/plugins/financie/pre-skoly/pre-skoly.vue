@@ -34,7 +34,7 @@
 
     <z-carousel></z-carousel>
 
-    <div class="container remove-padding">
+    <div class="container">
       <div class="row mb-4">
         <z-advancedImgCards></z-advancedImgCards>
       </div>

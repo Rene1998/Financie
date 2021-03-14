@@ -7,7 +7,7 @@
       :img-src="zaicard.image"
       img-alt="Image"
       tag="article"
-      class="mb-2 border border-0"
+      class="mb-2 border border-0 m-2"
     >
       <b-card-text class="d-flex align-items-end">
         {{ zaicard.content }}
@@ -15,7 +15,7 @@
 
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
-          <h6>Príručnka pre učiteľov</h6>
+          <h6 class="mb-0">Príručnka pre učiteľov</h6>
         </b-card-link>
 
         <b-card-link>
@@ -30,7 +30,7 @@
       <hr class="m-0" />
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link class="m-0">
-          <h6 class="m-0">Cvičenie pre žiakov</h6>
+          <h6 class="m-0 mb-0">Cvičenie pre žiakov</h6>
         </b-card-link>
 
         <b-card-link>
@@ -45,7 +45,7 @@
       <hr class="m-0" />
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
-          <h6>Pozrieť video</h6>
+          <h6 class="mb-0">Pozrieť video</h6>
         </b-card-link>
 
         <b-card-link>
@@ -92,6 +92,8 @@ export default {
 <style lang="scss" scoped>
 .card {
   width: 363px !important;
+  display: inline-block;
+  
 
   img {
     height: 210px;
@@ -130,8 +132,11 @@ h6 {
   line-height: 30px color #192949;
   font-weight: 400;
 }
-
 .col-4 {
   border: 0px 20px !important;
+}
+.card-title{
+  min-height: 35px;
+  margin-top: 17.5px;
 }
 </style>
