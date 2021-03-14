@@ -14,20 +14,14 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <z-categoryCard></z-categoryCard>
-        </div>
-
-        <div class="col-3">
-          <z-categoryCard></z-categoryCard>
-        </div>
-
-        <div class="col-3">
-          <z-categoryCard></z-categoryCard>
-        </div>
-
-        <div class="col-3">
-          <z-categoryCard></z-categoryCard>
+        <div
+          v-for="card in cards"
+          :key="card.id"
+          :title="card.title"
+          :img="card.img"
+          class="col-3"
+        >
+          <z-categoryCard :card="card"></z-categoryCard>
         </div>
       </div>
     </div>
@@ -40,7 +34,9 @@
       </div>
     </div>
     <div class="container text-center mb-5 hardcore-text-button">
-     <b-button variant="primary" class="download-all mb-5">Stiahnuť všetky dokumenty</b-button>
+      <b-button variant="primary" class="download-all mb-5"
+        >Stiahnuť všetky dokumenty</b-button
+      >
     </div>
     <div class="container">
       <div class="row">
@@ -64,20 +60,44 @@
   </div>
 </template>
 <script>
-
-
-
 export default {
+  data() {
+    return {
+      cards: [
+        {
+          id: 1,
+          title: "1 - 2 Ročník",
+          img:"../_components/card/assets/rocnik1.png",
+        },
+        {
+          id: 2,
+          title: "3 - 4 Ročník",
+          img:"../_components/card/assets/rocnik2.png",
+        },
+        {
+          id: 3,
+          title: "5 - 6 Ročník",
+          img:"../_components/card/assets/rocnik3.png",
+        },
+        {
+          id: 4,
+          title: "7 - 9 Ročník",
+          img:"../_components/card/assets/rocnik4.png",
+        },
+      ],
+    };
+  },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
+    "z-advancedImgCards": () =>
+      import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
   },
 
-    /*mounted: function(){
+  /*mounted: function(){
         axios.get('http://localhost:8081/api/zaicard').then(function(response){
             this.zaicard = response.data;
         })
@@ -100,30 +120,27 @@ export default {
   background-size: cover;
 }
 
-.download-all{
+.download-all {
   width: 223px;
   height: 59.47px;
-  background: #1EAEE1;
+  background: #1eaee1;
   border: none;
   border-radius: 5px !important;
-
-
 }
-  a{
-  color:#1EAEE1;
+a {
+  color: #1eaee1;
   text-decoration: none;
   font-size: 14px;
-  &:hover{
-   color:   #136685;
+  &:hover {
+    color: #136685;
   }
-  }
+}
 
-  h5{
-    font-size: 24px;
-  }
+h5 {
+  font-size: 24px;
+}
 
-  .size{
-    font-size: 18px;
-  }
-
+.size {
+  font-size: 18px;
+}
 </style>

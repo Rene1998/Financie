@@ -2,12 +2,22 @@
   <div>
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card" src="/assets/rocnik1.png" alt="" />
-        <h6 class="card-title">1 - 2 Ročník</h6>
+        <img class="category-card" :src="require(card.img)" alt="" />
+        <h6 class="card-title">{{ card.title }}</h6>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  props: {
+    card: {
+      type: Object,
+      required: true,
+    },
+  },
+};
+</script>
 <style lang="scss" scoped>
 .category-card {
   height: 75px;
