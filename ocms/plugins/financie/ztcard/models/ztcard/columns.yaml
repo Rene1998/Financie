@@ -1,0 +1,6 @@
+columns:
+    content:
+        label: Obsah
+        type: text
+        searchable: true
+        sortable: true

@@ -38,7 +38,6 @@
       <div class="row mb-4">
         <z-advancedImgCards></z-advancedImgCards>
       </div>
-
     </div>
     <div class="container text-center mb-5 hardcore-text-button">
      <b-button variant="primary" class="download-all mb-5">Stiahnuť všetky dokumenty</b-button>
@@ -52,12 +51,12 @@
     </div>
 
     <div class="container">
-      <div class="row mb-5">
+      <div class="row mb-5 ">
         <div class="col pr-5">
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
-        <div class="col pl-5">
+        <div class="col pl-5 d-flex align-items-end">
           <z-textCard></z-textCard>
         </div>
       </div>
@@ -99,12 +98,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-.remove-padding{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
 }
 
 .download-all{

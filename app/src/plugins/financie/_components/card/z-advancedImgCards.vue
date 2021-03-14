@@ -9,25 +9,25 @@
       tag="article"
       class="mb-2 border border-0 m-2"
     >
-      <b-card-text class="d-flex align-items-end">
+      <b-card-text class="d-flex align-items-end mb-5">
         {{ zaicard.content }}
       </b-card-text>
 
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
-          <h6 class="mb-0">Príručnka pre učiteľov</h6>
+          <h6 class="blue mb-0">Príručnka pre učiteľov</h6>
         </b-card-link>
 
         <b-card-link>
-          <a :href="zaicard.doc1_link_download" class="card-link">
+          <a :href="zaicard.doc1_link_download" class="blue card-link">
             <b-icon icon="download"></b-icon>
           </a>
-          <a :href="zaicard.doc1_link_show" target="_blank" class="card-link">
+          <a :href="zaicard.doc1_link_show" target="_blank" class="blue card-link">
             <b-icon icon="eye"> </b-icon>
           </a>
         </b-card-link>
       </b-card-body>
-      <hr class="m-0" />
+      <hr class="bblue m-0"/>
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link class="m-0">
           <h6 class="m-0 mb-0">Cvičenie pre žiakov</h6>
@@ -138,5 +138,11 @@ h6 {
 .card-title{
   min-height: 35px;
   margin-top: 17.5px;
+}
+.blue{
+  color:#1eaee1 !important;
+}
+.bblue{
+  border-top:1px solid #1eaee1;
 }
 </style>

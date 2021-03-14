@@ -24,7 +24,14 @@ const routes = [
 		meta: { title: `${process.env.DOMAIN_TITLE} | Osobne financie` },
 		component: () =>
 			import('./plugins/financie/pre-skoly/pre-skoly.vue')
-	}
+	},
+	{
+		path: '/home',
+		name: 'Homepage',
+		meta: { title: `${process.env.DOMAIN_TITLE} | Homepage` },
+		component: () =>
+			import('./plugins/financie/home/home.vue')
+	},
 ];
 
 const router = new VueRouter({

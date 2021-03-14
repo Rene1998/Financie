@@ -5,11 +5,13 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="mr-auto d-flex aling-items-center">
           <b-navbar-nav class="d-flex align-items-center ">
-            <span class="navbar-toggler-icon"></span>
+            <b-nav-item>
+              <b-icon icon="list"></b-icon>
+            </b-nav-item>
           </b-navbar-nav>
 
           <hr />
-          <img class="financie" src="assets/logo.png" alt="logo" />
+          <a href="home"><img class="financie" src="assets/logo.png" alt="logo" /></a>
         </b-navbar-nav>
 
         <b-navbar-nav class="d-flex align-items-center">
@@ -24,8 +26,9 @@
               text="Pre školy"
               right
               class="btn bp-3 d-flex align-items-center "
+  
             >
-              <b-dropdown-item href="#">Základné školy</b-dropdown-item>
+              <b-dropdown-item href="pre-skoly">Základné školy</b-dropdown-item>
               <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
               <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
             </b-nav-dropdown>

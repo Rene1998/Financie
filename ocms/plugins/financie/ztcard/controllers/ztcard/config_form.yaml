@@ -1,0 +1,10 @@
+name: ZTCard
+form: $/financie/ztcard/models/ztcard/fields.yaml
+modelClass: Financie\Ztcard\Models\ZTCard
+defaultRedirect: financie/ztcard/ztcard
+create:
+    redirect: 'financie/ztcard/ztcard/update/:id'
+    redirectClose: financie/ztcard/ztcard
+update:
+    redirect: financie/ztcard/ztcard
+    redirectClose: financie/ztcard/ztcard

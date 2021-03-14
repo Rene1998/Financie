@@ -1,0 +1,14 @@
+fields:
+    image:
+        label: Obrázok
+        span: auto
+        type: text
+    title:
+        label: Nadpis
+        span: left
+        type: text
+    content:
+        label: Obsah
+        size: large
+        span: left
+        type: textarea

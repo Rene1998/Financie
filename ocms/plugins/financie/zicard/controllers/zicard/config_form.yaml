@@ -1,0 +1,10 @@
+name: ZICard
+form: $/financie/zicard/models/zicard/fields.yaml
+modelClass: Financie\Zicard\Models\ZICard
+defaultRedirect: financie/zicard/zicard
+create:
+    redirect: 'financie/zicard/zicard/update/:id'
+    redirectClose: financie/zicard/zicard
+update:
+    redirect: financie/zicard/zicard
+    redirectClose: financie/zicard/zicard

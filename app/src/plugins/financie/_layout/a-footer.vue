@@ -55,8 +55,8 @@
                 © 2021 www.financie.sk Všetky práva vyhradené.
               </p>
               <div class="ml-auto ">
-                <button type="button" class="btn rounded-0">Osobné financie</button>
-                <button type="button" class="btn rounded-0">Pre školy</button>
+                <a href="" class="btn rounded-0">Osobné financie</a>
+                <a href="pre-skoly" class="btn rounded-0">Pre školy</a>
               </div>
             </div>
           </div>
@@ -115,6 +115,7 @@ h5 {
 
 .btn {
   border-radius: 0px;
+  font-size: 16px;
   padding: 25px 15px;
   border-bottom: 4px solid transparent; 
   &:hover {
@@ -125,6 +126,7 @@ h5 {
     box-shadow: none;
     border-bottom: 4px solid #1eaee1;
   }
+  
 }
-
 </style>
+

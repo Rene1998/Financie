@@ -1,0 +1,10 @@
+name: ZAIHCard
+form: $/financie/zaihcard/models/zaihcard/fields.yaml
+modelClass: Financie\Zaihcard\Models\ZAIHCard
+defaultRedirect: financie/zaihcard/zaihcard
+create:
+    redirect: 'financie/zaihcard/zaihcard/update/:id'
+    redirectClose: financie/zaihcard/zaihcard
+update:
+    redirect: financie/zaihcard/zaihcard
+    redirectClose: financie/zaihcard/zaihcard

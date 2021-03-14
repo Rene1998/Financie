@@ -21,7 +21,7 @@ class ZAICard extends Model
     public $rules = [
     ];
 
-   
+
 
 }
 

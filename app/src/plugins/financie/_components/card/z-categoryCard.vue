@@ -8,7 +8,6 @@
     </div>
   </div>
 </template>
-
 <style lang="scss" scoped>
 .category-card {
   height: 75px;

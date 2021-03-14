@@ -1,0 +1,46 @@
+fields:
+    title:
+        label: Nadpis
+        span: auto
+        type: text
+    content:
+        label: Obsah
+        size: ''
+        span: auto
+        type: textarea
+    link1:
+        label: 'Prvý link'
+        span: auto
+        type: text
+    link1_link:
+        label: 'Prvé prelinkovanie'
+        span: auto
+        type: text
+    link2:
+        label: 'Druhý link'
+        span: auto
+        type: text
+    link2_link:
+        label: 'Druhé prelinkovanie'
+        span: auto
+        type: text
+    link3:
+        label: 'Tretí link'
+        span: auto
+        type: text
+    link3_link:
+        label: 'Tretie prelinkovanie'
+        span: auto
+        type: text
+    link4:
+        label: 'Štvrtý link'
+        span: auto
+        type: text
+    link4_link:
+        label: 'Štvrté prelinkovanie'
+        span: auto
+        type: text
+    image:
+        label: Obrázok
+        span: auto
+        type: text

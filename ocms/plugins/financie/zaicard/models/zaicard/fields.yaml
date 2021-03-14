@@ -8,10 +8,6 @@ fields:
         size: small
         span: auto
         type: textarea
-    image:
-        label: 'Link na obrázok'
-        span: auto
-        type: text
     video_show:
         label: 'Link na pozretie videa'
         span: auto
@@ -30,5 +26,9 @@ fields:
         type: text
     doc2_link_show:
         label: 'Link na pozretie druhého súboru'
+        span: auto
+        type: text
+    image:
+        label: Obrázok
         span: auto
         type: text

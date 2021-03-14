@@ -6,6 +6,6 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Advanced img karta'
+        label: 'Advanced karta s obrázkom'
         url: financie/zaicard/zaicard
         icon: icon-list

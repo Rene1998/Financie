@@ -4,7 +4,7 @@
       <div class="col text-center">
         <h2>Informácie ktoré vám pomôžu k správnemu investovaniu.</h2>
         <p class="p-2">
-          Pripravili sme pre vás všetky možné finančné otázky a odpovede na
+          Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na
           ktoré móžete naraziť vo vašom živote.
         </p>
         <p class="show-articles">
@@ -14,4 +14,9 @@
     </div>
   </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+a{
+  text-decoration: none;
+  color: #1eaee1;
+}
+</style>
