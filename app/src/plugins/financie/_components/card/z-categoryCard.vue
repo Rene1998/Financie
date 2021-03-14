@@ -2,7 +2,7 @@
   <div>
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card" :src="require(card.img)" alt="" />
+        <img class="category-card" :src="cardImg" alt="" />
         <h6 class="card-title">{{ card.title }}</h6>
       </div>
     </div>
@@ -16,6 +16,11 @@ export default {
       required: true,
     },
   },
+  computed: {
+    cardImg(){
+      return require(`./assets/${this.card.img}`)
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>

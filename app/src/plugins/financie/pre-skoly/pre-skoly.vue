@@ -67,22 +67,22 @@ export default {
         {
           id: 1,
           title: "1 - 2 Ročník",
-          img:"../_components/card/assets/rocnik1.png",
+          img:"rocnik1.png",
         },
         {
           id: 2,
           title: "3 - 4 Ročník",
-          img:"../_components/card/assets/rocnik2.png",
+          img:"rocnik2.png",
         },
         {
           id: 3,
           title: "5 - 6 Ročník",
-          img:"../_components/card/assets/rocnik3.png",
+          img:"rocnik3.png",
         },
         {
           id: 4,
           title: "7 - 9 Ročník",
-          img:"../_components/card/assets/rocnik4.png",
+          img:"rocnik4.png",
         },
       ],
     };
