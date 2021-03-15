@@ -2,7 +2,8 @@ fields:
     image:
         label: Obrázok
         span: auto
-        type: text
+        type: fileupload
+        mode: image
     title:
         label: Nadpis
         span: left

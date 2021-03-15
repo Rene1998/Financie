@@ -1,7 +1,7 @@
 <template>
   <div> 
     <div class="card mb-3 border-0" v-for="zicard in zicards" :key="zicard.id">
-      <img :src="zicard.image" class="card-img-top" alt="" />
+      <img :src="zicard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
         <p class="timestamp">
           {{zicard.created_at}}

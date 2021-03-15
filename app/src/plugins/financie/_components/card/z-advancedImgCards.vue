@@ -4,7 +4,7 @@
       v-for="zaicard in zaicards"
       :key="zaicard.id"
       :title="zaicard.title"
-      :img-src="zaicard.image"
+      :img-src="zaicard.image.path"
       img-alt="Image"
       tag="article"
       class="mb-2 border border-0 m-2"
