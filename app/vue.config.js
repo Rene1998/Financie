@@ -2,7 +2,7 @@ module.exports = {
     css: {
        sourceMap: true,
     },
-    outputDir: '@/',
+    outputDir: '../dist',
     lintOnSave: false,
     configureWebpack: {
         performance: {
