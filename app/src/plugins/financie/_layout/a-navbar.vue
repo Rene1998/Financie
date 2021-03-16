@@ -28,7 +28,7 @@
               class="btn bp-3 d-flex align-items-center "
   
             >
-              <b-dropdown-item href="pre-skoly">Základné školy</b-dropdown-item>
+              <b-dropdown-item href="zakladne-skoly">Základné školy</b-dropdown-item>
               <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
               <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
             </b-nav-dropdown>

@@ -56,7 +56,7 @@
               </p>
               <div class="ml-auto ">
                 <a href="" class="btn rounded-0">Osobné financie</a>
-                <a href="pre-skoly" class="btn rounded-0">Pre školy</a>
+                <a href="zakladne-skoly" class="btn rounded-0">Pre školy</a>
               </div>
             </div>
           </div>
