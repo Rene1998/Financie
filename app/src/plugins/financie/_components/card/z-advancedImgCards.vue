@@ -61,12 +61,6 @@
 <script>
 import apiService from "../../common/apiService"
 
-const api = {
-  //cards: () => axios.get("http://localhost:8081/api/zaicard"),
-  zaicards: () => apiService.get('zaicards')
-};
-
-import axios from "axios";
 
 export default {
   name: "z-advancedImgCards",
@@ -76,16 +70,16 @@ export default {
     };
   },
   async mounted() {
-    await this._loadCards();
+    await this._loadCards()
   },
   methods: {
     async _loadCards() {
       try {
-        const cards = await api.zaicards();
-        this.zaicards = cards.data;
-        console.log(cards.data);
+        const cards = await apiService.get('zaicard')
+        this.zaicards = cards.data
+        console.log(cards.data)
       } catch (e) {
-        console.error(e);
+        console.error(e)
       }
     },
   },

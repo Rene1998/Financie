@@ -1,5 +1,5 @@
 <template>
-  <div> 
+  <div>
     <div class="card mb-3 border-0" v-for="zicard in zicards" :key="zicard.id">
       <img :src="zicard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
@@ -20,11 +20,7 @@
   </div>
 </template>
 <script>
-const api = {
-  cards: () => axios.get("http://localhost:8081/api/zicard"),
-};
-
-import axios from "axios";
+import apiService from "../../common/apiService"
 
 export default {
   name: "z-imgCard",
@@ -39,7 +35,7 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await api.cards();
+        const cards = await apiService.get('zicard');
         this.zicards = cards.data;
         console.log(cards.data);
       } catch (e) {

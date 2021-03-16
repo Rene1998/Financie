@@ -11,18 +11,14 @@
         <a href="#" class="card-link">Prečítať viac</a>
         <div class="divider border-bottom m-3"></div>
       </div>
-       
+
     </div>
-    
-    
+
+
   </div>
 </template>
 <script>
-const api = {
-  cards: () => axios.get("http://localhost:8081/api/ztcard"),
-};
-
-import axios from "axios";
+import apiService from "../../common/apiService"
 
 export default {
   name: "z-textCard",
@@ -37,7 +33,7 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await api.cards();
+        const cards = await apiService.get('ztcard');
         this.ztcards = cards.data;
         console.log(cards.data);
       } catch (e) {
