@@ -5,7 +5,7 @@
         <div class="preskoly-welcome-text">
           <h1>{{title}}</h1>
           <p>
-            Pripravili sme pre vás materiály pre učiteľov zo {{title}}.
+            Pripravili sme pre vás materiály pre učiteľov zo {{content}}.
           </p>
           <p><a :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</a> • <a :to="'/pre-skoly/stredne-skoly'">Stredné školy</a> • <a :to="'/pre-skoly/vysoke-skoly'">Vysoke školy</a></p>
         </div>
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div
-          v-for="card in propBySlug"
+          v-for="card in skola"
           :key="card.id"
           :title="card.title"
           :img="card.img"
@@ -62,45 +62,39 @@
 <script>
 import cardContent from "./cardContent.js";
 export default {
+  watch: {
+    '$route.params.slug'(val) {
+      this.changePageContent(val)
+    }
+  },
   data() {
     return {
-      zakladneSkoly: cardContent.zakladneSkoly,
-      stredneSkoly: cardContent.stredneSkoly,
-      vysokeSkoly: cardContent.vysokeSkoly
+      skola: null,
+      title: null,
+      content: null
     };
   },
   mounted(){
-    console.log('------------'+cardContent)
+    this.changePageContent(this.$route.params.slug)
   },
-  computed: {
-    title(){
-      switch(this.$route.params.slug) {
-        case 'zakladne-skoly':
-          return 'Základná škola'
-          //break;
+  methods: {
+    changePageContent(val){
+      switch(val) {
+        default: case 'zakladne-skoly':
+          this.skola = cardContent.zakladneSkoly
+          this.title = 'Základná škola'
+          this.content = 'Základnej školy'
+          break;
         case 'stredne-skoly':
-          return 'Stredná škola'
-          //break;
+          this.skola = cardContent.stredneSkoly
+          this.title = 'Stredná škola'
+          this.content = 'Strednej školy'
+          break;
         case 'vysoke-skoly':
-          return 'Vysoká škola'
-          //break;
-        default:
-          return 'Základná škola'
-      }
-    },
-    propBySlug(){
-      switch(this.$route.params.slug) {
-        case 'zakladne-skoly':
-          return this.zakladneSkoly
-          //break;
-        case 'stredne-skoly':
-          return this.stredneSkoly
-          //break;
-        case 'vysoke-skoly':
-          return this.vysokeSkoly
-          //break;
-        default:
-          return this.zakladneSkoly
+          this.skola = cardContent.vysokeSkoly
+          this.title = 'Vysoká škola'
+          this.content = 'Vysokej školy'
+          break;
       }
     }
   },
@@ -113,12 +107,6 @@ export default {
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
   },
-
-  /*mounted: function(){
-        axios.get('http://localhost:8081/api/zaicard').then(function(response){
-            this.zaicard = response.data;
-        })
-    }*/
 };
 </script>
 <style lang="scss" scoped>
