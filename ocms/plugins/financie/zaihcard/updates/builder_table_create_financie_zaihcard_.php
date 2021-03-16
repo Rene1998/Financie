@@ -11,7 +11,6 @@ class BuilderTableCreateFinancieZaihcard extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('image');
             $table->string('title');
             $table->text('content');
             $table->string('link1');
