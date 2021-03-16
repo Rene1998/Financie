@@ -6,31 +6,25 @@ Vue.use(VueRouter);
 const routes = [
 	{
 		path: '/',
-		name: 'Financie',
-		meta: { title: `${process.env.DOMAIN_TITLE} | home` },
-		/*component: () =>
-			import('./plugins/financie/_layout/.vue')*/
+		redirect: '/home',
+	},
+	{
+		path: '/home',
+		name: 'Homepage',
+		component: () =>
+			import('./plugins/financie/home/home.vue'),
 	},
 	{
 		path: '/pre-skoly/:slug',
 		name: 'Pre skoly',
-		meta: { title: `${process.env.DOMAIN_TITLE} | Zakladne skoly ` },
 		component: () =>
 			import('./plugins/financie/pre-skoly/pre-skoly.vue')
 	},
 	{
 		path: '/osobne-financie',
 		name: 'Osobne financie',
-		meta: { title: `${process.env.DOMAIN_TITLE} | Osobne financie` },
 		component: () =>
 			import('./plugins/financie/osobne-financie/osobne-financie.vue')
-	},
-	{
-		path: '/home',
-		name: 'Homepage',
-		meta: { title: `${process.env.DOMAIN_TITLE} | Homepage` },
-		component: () =>
-			import('./plugins/financie/home/home.vue')
 	},
 ];
 

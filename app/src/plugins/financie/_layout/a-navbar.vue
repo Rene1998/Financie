@@ -11,7 +11,7 @@
           </b-navbar-nav>
 
           <hr />
-          <a href="home"><img class="financie" src="assets/logo.png" alt="logo" /></a>
+          <router-link to="/"><img class="financie" src="./assets/logo.png" alt="logo" /></router-link>
         </b-navbar-nav>
 
         <b-navbar-nav class="d-flex align-items-center">

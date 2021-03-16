@@ -7,7 +7,11 @@
           <p>
             Pripravili sme pre vás materiály pre učiteľov zo {{content}}.
           </p>
-          <p><a :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</a> • <a :to="'/pre-skoly/stredne-skoly'">Stredné školy</a> • <a :to="'/pre-skoly/vysoke-skoly'">Vysoke školy</a></p>
+          <p>
+            <router-link :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</router-link> •
+            <router-link :to="'/pre-skoly/stredne-skoly'">Stredné školy</router-link> •
+            <router-link :to="'/pre-skoly/vysoke-skoly'">Vysoke školy</router-link>
+          </p>
         </div>
       </div>
     </div>
@@ -75,6 +79,7 @@ export default {
     };
   },
   mounted(){
+    this.$route.meta.title = process.env.VUE_APP_DOMAIN_TITLE + this.skola
     this.changePageContent(this.$route.params.slug)
   },
   methods: {
