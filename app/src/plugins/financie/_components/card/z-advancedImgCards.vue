@@ -59,7 +59,7 @@
 </template>
 
 <script>
-//import { apiService } from "../../common/apiService"
+import apiService from "../../common/apiService"
 
 const api = {
   //cards: () => axios.get("http://localhost:8081/api/zaicard"),

@@ -2,12 +2,12 @@ import Vue from "vue";
 import axios from "axios";
 import VueAxios from "vue-axios";
 
-import { API_URL } from "./config"
+//import { API_URL } from "./config"
 
 const apiService = {
 	init() {
 		Vue.use(VueAxios, axios);
-		Vue.axios.defaults.baseURL = API_URL;
+		Vue.axios.defaults.baseURL = 'https://financie.hybridlab.dev/ocms/api/';
 	},
 
 	query(resource, params) {
