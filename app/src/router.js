@@ -12,18 +12,18 @@ const routes = [
 			import('./plugins/financie/_layout/.vue')*/
 	},
 	{
-		path: '/zakladne-skoly',
-		name: 'Zakladne skoly',
+		path: '/pre-skoly/:slug',
+		name: 'Pre skoly',
 		meta: { title: `${process.env.DOMAIN_TITLE} | Zakladne skoly ` },
 		component: () =>
-			import('./plugins/financie/pre-skoly/zakladne-skoly.vue')
+			import('./plugins/financie/pre-skoly/pre-skoly.vue')
 	},
 	{
 		path: '/osobne-financie',
 		name: 'Osobne financie',
 		meta: { title: `${process.env.DOMAIN_TITLE} | Osobne financie` },
 		component: () =>
-			import('./plugins/financie/pre-skoly/zakladne-skoly.vue')
+			import('./plugins/financie/osobne-financie/osobne-financie.vue')
 	},
 	{
 		path: '/home',

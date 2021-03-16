@@ -3,11 +3,11 @@
     <div class="container-fluid preskoly-main">
       <div class="container preskoly-container">
         <div class="preskoly-welcome-text">
-          <h1>Základná škola</h1>
+          <h1>{{title}}</h1>
           <p>
-            Pripravili sme pre vás materiály pre učiteľov zo základných škol.
+            Pripravili sme pre vás materiály pre učiteľov zo {{title}}.
           </p>
-          <p>Základné školy • Stredné školy • Vysoke školy</p>
+          <p><a :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</a> • <a :to="'/pre-skoly/stredne-skoly'">Stredné školy</a> • <a :to="'/pre-skoly/vysoke-skoly'">Vysoke školy</a></p>
         </div>
       </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div
-          v-for="card in cards"
+          v-for="card in propBySlug"
           :key="card.id"
           :title="card.title"
           :img="card.img"
@@ -60,32 +60,49 @@
   </div>
 </template>
 <script>
+import cardContent from "./cardContent.js";
 export default {
   data() {
     return {
-      cards: [
-        {
-          id: 1,
-          title: "1 - 2 Ročník",
-          img:"rocnik1.png",
-        },
-        {
-          id: 2,
-          title: "3 - 4 Ročník",
-          img:"rocnik2.png",
-        },
-        {
-          id: 3,
-          title: "5 - 6 Ročník",
-          img:"rocnik3.png",
-        },
-        {
-          id: 4,
-          title: "7 - 9 Ročník",
-          img:"rocnik4.png",
-        },
-      ],
+      zakladneSkoly: cardContent.zakladneSkoly,
+      stredneSkoly: cardContent.stredneSkoly,
+      vysokeSkoly: cardContent.vysokeSkoly
     };
+  },
+  mounted(){
+    console.log('------------'+cardContent)
+  },
+  computed: {
+    title(){
+      switch(this.$route.params.slug) {
+        case 'zakladne-skoly':
+          return 'Základná škola'
+          //break;
+        case 'stredne-skoly':
+          return 'Stredná škola'
+          //break;
+        case 'vysoke-skoly':
+          return 'Vysoká škola'
+          //break;
+        default:
+          return 'Základná škola'
+      }
+    },
+    propBySlug(){
+      switch(this.$route.params.slug) {
+        case 'zakladne-skoly':
+          return this.zakladneSkoly
+          //break;
+        case 'stredne-skoly':
+          return this.stredneSkoly
+          //break;
+        case 'vysoke-skoly':
+          return this.vysokeSkoly
+          //break;
+        default:
+          return this.zakladneSkoly
+      }
+    }
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),

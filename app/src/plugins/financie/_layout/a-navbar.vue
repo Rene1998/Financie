@@ -26,11 +26,11 @@
               text="Pre školy"
               right
               class="btn bp-3 d-flex align-items-center "
-  
+
             >
-              <b-dropdown-item href="zakladne-skoly">Základné školy</b-dropdown-item>
-              <b-dropdown-item href="#">Stredné školy</b-dropdown-item>
-              <b-dropdown-item href="#">Vysoké školy</b-dropdown-item>
+              <b-dropdown-item :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</b-dropdown-item>
+              <b-dropdown-item :to="'/pre-skoly/stredne-skoly'">Stredné školy</b-dropdown-item>
+              <b-dropdown-item :to="'/pre-skoly/vysoke-skoly'">Vysoké školy</b-dropdown-item>
             </b-nav-dropdown>
           </b-navbar-nav>
           <hr />
