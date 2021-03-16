@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import apiService from "./plugins/financie/common/apiService"
 
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 
@@ -14,6 +15,8 @@ Vue.use(IconsPlugin)
 import "./plugins/financie/_theme/index.scss";
 
 Vue.config.productionTip = false;
+
+apiService.init();
 
 new Vue({
   router,
