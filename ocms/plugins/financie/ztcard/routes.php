@@ -1,9 +1,9 @@
 <?php
- use Financie\Ztcard\Models\Ztcard;
+ use Financie\Ztcard\Models\ZTCard;
 
 Route::get('api/ztcard', function(){
 
-    $ztcard = Ztcard::all();
+    $ztcard = ZTCard::all();
 
     return $ztcard;
 });

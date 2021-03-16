@@ -1,9 +1,9 @@
 <?php
- use Financie\Zaihcard\Models\Zaihcard;
+ use Financie\Zaihcard\Models\ZAIHCard;
 
 Route::get('api/zaihcard', function(){
 
-    $zaihcard = Zaihcard::all();
+    $zaihcard = ZAIHCard::all();
 
     return $zaihcard;
 });

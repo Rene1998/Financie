@@ -1,9 +1,9 @@
 <?php
- use Financie\Zaicard\Models\Zaicard;
+ use Financie\Zaicard\Models\ZAICard;
 
 Route::get('api/zaicard', function(){
 
-    $zaicard = Zaicard::all();
+    $zaicard = ZAICard::all();
 
     return $zaicard;
 });

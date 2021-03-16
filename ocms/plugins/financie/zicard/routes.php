@@ -1,9 +1,9 @@
 <?php
- use Financie\Zicard\Models\Zicard;
+ use Financie\Zicard\Models\ZICard;
 
 Route::get('api/zicard', function(){
 
-    $zicard = Zicard::all();
+    $zicard = ZICard::all();
 
     return $zicard;
 });
