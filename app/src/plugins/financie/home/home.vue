@@ -10,6 +10,39 @@
         </div>
       </div>
     </div>
+
+  <div class="container">
+    <div class="row">
+       <div class="col-4 mb-2  ">
+         <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+       <div class="col-4  mb-2 ">
+          <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+       <div class="col-4  mb-2 ">
+          <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+    </div>
+    
+
+
+    <div class="row">
+       <div class="col-4  mt-2 ">
+           <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+       <div class="col-4 mt-2 ">
+          <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+       <div class="col-4 mt-2  ">
+          <z-homeCategoryCard></z-homeCategoryCard>
+       </div>
+    </div>
+
+  </div>
+  
+
+
+
     <z-carousel></z-carousel>
 
     <div class="container">
@@ -41,6 +74,7 @@
 <script>
 export default {
   components: {
+    "z-homeCategoryCard":() => import("../_components/card/z-homeCategoryCard"), 
     "z-carousel": () => import("./z-carousel"),
     "z-showArticles": () => import("../_components/z-showArticles"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
