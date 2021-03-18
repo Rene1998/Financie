@@ -67,8 +67,11 @@
 import cardContent from "./cardContent.js";
 export default {
   watch: {
-    '$route.params.slug'(val) {
-      this.changePageContent(val)
+    '$route.params.slug': {
+      immediate: true,
+      handler(val) {
+        this.changePageContent(val)
+      }
     }
   },
   data() {
@@ -80,7 +83,6 @@ export default {
   },
   mounted(){
     this.$route.meta.title = process.env.VUE_APP_DOMAIN_TITLE + this.skola
-    this.changePageContent(this.$route.params.slug)
   },
   methods: {
     changePageContent(val){
