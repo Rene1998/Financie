@@ -65,7 +65,7 @@
   </div>
 </template>
 <script>
-import cardContent from "./cardContent.js";
+import cardContent from "./pre-skoly_content.js";
 export default {
   watch: {
     '$route.params.slug': {
