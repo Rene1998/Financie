@@ -6,7 +6,7 @@
         <div class="preskoly-welcome-text">
           <h1>{{title}}</h1>
           <p>
-            Pripravili sme pre vás materiály pre učiteľov zo {{content}}.
+            {{content}}
           </p>
           <p>
             <router-link :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</router-link> •
@@ -87,23 +87,10 @@ export default {
   },
   methods: {
     changePageContent(val){
-      switch(val) {
-        default: case 'zakladne-skoly':
-          this.skola = cardContent.zakladneSkoly
-          this.title = 'Základná škola'
-          this.content = 'Základnej školy'
-          break;
-        case 'stredne-skoly':
-          this.skola = cardContent.stredneSkoly
-          this.title = 'Stredná škola'
-          this.content = 'Strednej školy'
-          break;
-        case 'vysoke-skoly':
-          this.skola = cardContent.vysokeSkoly
-          this.title = 'Vysoká škola'
-          this.content = 'Vysokej školy'
-          break;
-      }
+      console.log(val)
+      this.skola = cardContent[val].category
+      this.title = cardContent[val].title
+      this.content = cardContent[val].content
     }
   },
   components: {
