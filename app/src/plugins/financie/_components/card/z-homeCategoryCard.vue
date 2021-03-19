@@ -2,8 +2,8 @@
 <div>
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column mt-3">
-        <b-icon class="mt-3 " icon="emoji-smile-upside-down-fill"></b-icon>
-        <h6 class="card-title m-0 mt-2 d-flex align-items-end">ahoj</h6>
+        <b-icon class="mt-4" icon="house-door-fill"></b-icon>
+        <h6 class="card-title m-0 mt-2 d-flex align-items-end">Domov</h6>
       </div>
     </div>
   </div>
@@ -18,9 +18,9 @@
   width: 75px;
 }
 .card {
+    cursor: pointer;
     height: 168px;
-    width: 362px;
-  bottom: 270px;
+    width: 350px;
   border: none;
 
   background: #ffffff;
@@ -30,11 +30,19 @@
   border-bottom: 6px solid transparent;
   &:hover {
     border-bottom: 6px solid #1eaee1;
-    border-radius: 6px;
+    border-radius: 4px;
+    .b-icon{
+        color: #1eaee1;
+    }
   }
   &:focus {
     border-bottom: 6px solid #1eaee1;
+    border-radius: 4px;
+    .b-icon{
+        color: #1eaee1;
+    }
   }
+  
 }
 
 .b-icon{

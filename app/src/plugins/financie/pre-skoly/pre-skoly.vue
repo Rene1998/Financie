@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <div class="container-fluid preskoly-main">
@@ -106,12 +107,13 @@ export default {
     }
   },
   components: {
-    "z-carousel": 			() => import("../home/z-carousel"),
-    "z-advancedImgCards": 	() => import("../_components/card/z-advancedImgCards"),
-    "z-categoryCard": 		() => import("../_components/card/z-categoryCard"),
-    "z-imgCard": 			() => import("../_components/card/z-imgCard"),
-    "z-textCard": 			() => import("../_components/card/z-textCard"),
-    "z-showArticles": 		() => import("../_components/z-showArticles"),
+    "z-carousel": () => import("../home/z-carousel"),
+    "z-advancedImgCards": () =>
+      import("../_components/card/z-advancedImgCards"),
+    "z-categoryCard": () => import("../_components/card/z-categoryCard"),
+    "z-imgCard": () => import("../_components/card/z-imgCard"),
+    "z-textCard": () => import("../_components/card/z-textCard"),
+    "z-showArticles": () => import("../_components/z-showArticles"),
   },
 };
 </script>

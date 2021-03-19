@@ -11,15 +11,15 @@
       </div>
     </div>
 
-  <div class="container">
-    <div class="row">
-       <div class="col-4 mb-2  ">
+  <div class=" container">
+    <div class="row category-cards">
+       <div class="col-4 mb-3  ">
          <z-homeCategoryCard></z-homeCategoryCard>
        </div>
-       <div class="col-4  mb-2 ">
+       <div class="col-4  mb-3 ">
           <z-homeCategoryCard></z-homeCategoryCard>
        </div>
-       <div class="col-4  mb-2 ">
+       <div class="col-4  mb-3 ">
           <z-homeCategoryCard></z-homeCategoryCard>
        </div>
     </div>
@@ -27,13 +27,13 @@
 
 
     <div class="row">
-       <div class="col-4  mt-2 ">
+       <div class="col-4  mt-3 ">
            <z-homeCategoryCard></z-homeCategoryCard>
        </div>
-       <div class="col-4 mt-2 ">
+       <div class="col-4 mt-3 ">
           <z-homeCategoryCard></z-homeCategoryCard>
        </div>
-       <div class="col-4 mt-2  ">
+       <div class="col-4 mt-3  ">
           <z-homeCategoryCard></z-homeCategoryCard>
        </div>
     </div>
@@ -103,5 +103,10 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.category-cards{
+  margin-top: -250px;
 }
 </style>
