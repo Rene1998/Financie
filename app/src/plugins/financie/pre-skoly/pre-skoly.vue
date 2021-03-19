@@ -82,12 +82,8 @@ export default {
       content: null
     };
   },
-  mounted(){
-    this.$route.meta.title = process.env.VUE_APP_DOMAIN_TITLE + this.skola
-  },
   methods: {
     changePageContent(val){
-      console.log(val)
       this.skola = cardContent[val].category
       this.title = cardContent[val].title
       this.content = cardContent[val].content
