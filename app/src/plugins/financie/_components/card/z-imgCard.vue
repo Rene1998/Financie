@@ -4,7 +4,7 @@
       <img :src="zicard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
         <p class="timestamp">
-          {{zicard.created_at}}
+          {{posted_at}}
         </p>
         <h5 class="card-title">
           {{zicard.title}}
@@ -21,6 +21,7 @@
 </template>
 <script>
 import apiService from "../../common/apiService"
+import moment from 'moment'
 
 export default {
   name: "z-imgCard",
@@ -31,6 +32,11 @@ export default {
   },
   async mounted() {
     await this._loadCards();
+  },
+  computed: {
+    posted_at(){
+      return moment(this.zicards.created_at).lang("sk").format('LL')
+    }
   },
   methods: {
     async _loadCards() {

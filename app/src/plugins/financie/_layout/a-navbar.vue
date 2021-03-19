@@ -16,7 +16,7 @@
 
         <b-navbar-nav class="d-flex align-items-center">
           <b-navbar-nav>
-            <b-nav-item href="#" class="btn bp-3 d-flex align-items-center "
+            <b-nav-item href="#" class="btn btn-nav-foot bp-3 d-flex align-items-center "
               >Osobné financie</b-nav-item
             >
           </b-navbar-nav>
@@ -25,12 +25,12 @@
             <b-nav-dropdown
               text="Pre školy"
               right
-              class="btn bp-3 d-flex align-items-center "
+              class="btn btn-nav-foot bp-3 d-flex align-items-center "
 
             >
-              <b-dropdown-item :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</b-dropdown-item>
-              <b-dropdown-item :to="'/pre-skoly/stredne-skoly'">Stredné školy</b-dropdown-item>
-              <b-dropdown-item :to="'/pre-skoly/vysoke-skoly'">Vysoké školy</b-dropdown-item>
+              <b-dropdown-item to="/pre-skoly/zakladne-skoly">Základné školy</b-dropdown-item>
+              <b-dropdown-item to="/pre-skoly/stredne-skoly">Stredné školy</b-dropdown-item>
+              <b-dropdown-item to="/pre-skoly/vysoke-skoly">Vysoké školy</b-dropdown-item>
             </b-nav-dropdown>
           </b-navbar-nav>
           <hr />
@@ -59,22 +59,6 @@ export default {};
   height: 63px;
 }
 
-.btn {
-  border-radius: 0px;
-  padding: 10px 15px;
-  border-bottom: 3px solid transparent;
-  &:hover {
-    border-bottom: 3px solid #1eaee1;
-    border-radius: 0px;
-    .nav-link {
-      color: #1eaee1 !important;
-    }
-  }
-  &:focus {
-    box-shadow: none;
-    border-bottom: 3px solid #1eaee1;
-  }
-}
 
 .nav-link:hover {
   color: #1eaee1 !important;

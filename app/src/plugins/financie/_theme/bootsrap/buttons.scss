@@ -1,4 +1,20 @@
-.btn{
-    font-weight: 300;
+.btn {
+  font-weight: 300;
 }
 
+.btn-nav-foot {
+  border-radius: 0px;
+  padding: 10px 15px;
+  border-bottom: 3px solid transparent;
+  &:hover {
+    border-bottom: 3px solid #1eaee1;
+    border-radius: 0px;
+    .nav-link {
+      color: #1eaee1 !important;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+    border-bottom: 3px solid #1eaee1;
+  }
+}
