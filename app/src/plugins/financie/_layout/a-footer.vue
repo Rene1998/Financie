@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div class="container">
-      <div class="row footer-row">
+      <div class="row footer-row d-flex align-content-center">
         <div class="col-3">
-          <h5>Životné situácie</h5>
+          <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Auto</a></li>
             <li class="footer-li"><a href="#!">Práce a dane</a></li>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="col-3">
-          <h5>Finančné produkty</h5>
+          <h5 class="text-left">Finančné produkty</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Poistenie</a></li>
             <li class="footer-li"><a href="#!">Hypotekárny úver</a></li>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="col-3">
-          <h5>Pomôcky</h5>
+          <h5 class="text-left">Pomôcky</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Porovnania</a></li>
             <li class="footer-li"><a href="#!">Nástrahy</a></li>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="col-3">
-          <h5>Životné situácie</h5>
+          <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">O nás</a></li>
             <li class="footer-li"><a href="#!">Kontakt</a></li>
@@ -45,25 +45,25 @@
         </div>
       </div>
     </div>
-    
-      <div class="container-fluid copyright-main">
-        <div class="container copyright-container">
-          <div class="row copyright-row">
-            <div class="col-lg-12 copyright-col">
-              <img class="mr-3" src="assets/logodark.png" alt="logo" />
-              <p class="copy m-0">
-                © 2021 www.financie.sk Všetky práva vyhradené.
-              </p>
-              <div class="ml-auto ">
-                <a href="" class="btn rounded-0">Osobné financie</a>
-                <a href="zakladne-skoly" class="btn rounded-0">Pre školy</a>
-              </div>
+
+    <div class="container-fluid copyright-main">
+      <div class="container copyright-container">
+        <div class="row copyright-row d-flex align-content-center">
+          <div
+            class="col-lg-12 copyright-col d-flex flex-row align-items-center"
+          >
+            <img class="mr-3" src="assets/logodark.png" alt="logo" />
+            <p class="copy m-0">
+              © 2021 www.financie.sk Všetky práva vyhradené.
+            </p>
+            <div class="ml-auto ">
+              <a href="" class="btn btn-nav-foot rounded-0">Osobné financie</a>
+              <a href="zakladne-skoly" class="btn btn-nav-foot rounded-0">Pre školy</a>
             </div>
           </div>
         </div>
       </div>
-
-    
+    </div>
   </footer>
 </template>
 <script>
@@ -73,60 +73,31 @@ export default {};
 <style lang="scss" scoped>
 footer {
   background: #fcfcfb;
+  .footer-row {
+    min-height: 310px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #19283b;
+  }
+
+  h5 {
+    font-size: 15px;
+    color: #19283b;
+  }
 }
-
-.footer-row {
-  min-height: 310px;
-  ///border: 1px solid lightcoral;
-  display: flex;
-  align-content: center;
-}
-
-a {
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 30px;
-  color: #19283b;
-}
-
-
-h5 {
-  text-align: left;
-  font-size: 15px;
-  color: #19283b;
-}
-///
-
 
 .copyright-row {
-  ///border: 1px solid lightgreen;
   background: #fbfbfc;
   min-height: 80px;
-  display: flex;
-  align-content: center;
-}
 
-.copyright-col {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-
-.btn {
-  border-radius: 0px;
-  font-size: 16px;
-  padding: 25px 15px;
-  border-bottom: 4px solid transparent; 
-  &:hover {
-    border-bottom: 4px solid #1eaee1;
-    border-radius: 0px;
+  .btn {
+    padding: 21.5px 15px;
+    &a:hover {
+      color: #1eaee1 !important;
+    }
   }
-  &:focus {
-    box-shadow: none;
-    border-bottom: 4px solid #1eaee1;
-  }
-  
 }
 </style>
-
