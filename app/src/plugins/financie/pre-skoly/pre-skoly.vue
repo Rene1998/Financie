@@ -9,9 +9,9 @@
             {{content}}
           </p>
           <p>
-            <router-link :to="'/pre-skoly/' + 'zakladne-skoly'">Základné školy</router-link> •
-            <router-link :to="'/pre-skoly/stredne-skoly'">Stredné školy</router-link> •
-            <router-link :to="'/pre-skoly/vysoke-skoly'">Vysoke školy</router-link>
+            <router-link to="/pre-skoly/zakladne-skoly">Základné školy</router-link> •
+            <router-link to="/pre-skoly/stredne-skoly">Stredné školy</router-link> •
+            <router-link to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
           </p>
         </div>
       </div>
