@@ -113,7 +113,7 @@ export default {
 }
 
 .preskoly-main {
-  background-image: url(/assets/group1.png);
+  background-image: url(/assets/family-img.jpg);
   min-height: 600px;
   width: 100%;
   background-position: center;

@@ -1,0 +1,6 @@
+fields:
+    content:
+        label: 'Obsah jedného slidu'
+        span: auto
+        placeholder: 'sem napíšte slide'
+        type: text

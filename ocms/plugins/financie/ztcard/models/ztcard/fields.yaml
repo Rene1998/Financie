@@ -4,3 +4,7 @@ fields:
         size: large
         span: auto
         type: textarea
+    time:
+        label: 'Trvanie prečítania'
+        span: auto
+        type: text

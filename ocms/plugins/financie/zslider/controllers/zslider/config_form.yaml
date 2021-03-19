@@ -1,0 +1,10 @@
+name: ZSlider
+form: $/financie/zslider/models/zslider/fields.yaml
+modelClass: Financie\Zslider\Models\ZSlider
+defaultRedirect: financie/zslider/zslider
+create:
+    redirect: 'financie/zslider/zslider/update/:id'
+    redirectClose: financie/zslider/zslider
+update:
+    redirect: financie/zslider/zslider
+    redirectClose: financie/zslider/zslider

@@ -14,6 +14,7 @@ class BuilderTableCreateFinancieZicard extends Migration
             $table->string('title');
             $table->text('content');
             $table->timestamps();
+            $table->string('time');
         });
     }
     

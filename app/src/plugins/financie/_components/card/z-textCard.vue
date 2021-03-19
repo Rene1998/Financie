@@ -3,7 +3,7 @@
     <div class="card border-0 " v-for="ztcard in ztcards" :key="ztcard.id">
       <div class="card-body p-3">
         <p class="timestamp">
-          {{posted_at}}
+          {{posted_at}} • {{ztcard.time}} prečítanie
         </p>
         <h5 class="card-text">
           {{ztcard.content}}

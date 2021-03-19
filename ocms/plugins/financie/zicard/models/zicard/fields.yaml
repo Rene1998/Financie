@@ -13,3 +13,7 @@ fields:
         size: large
         span: left
         type: textarea
+    time:
+        label: 'Trvanie prečítania'
+        span: auto
+        type: text

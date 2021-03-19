@@ -4,7 +4,7 @@
       <img :src="zicard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
         <p class="timestamp">
-          {{posted_at}}
+          {{posted_at}} • {{zicard.time}} prečítanie
         </p>
         <h5 class="card-title">
           {{zicard.title}}
