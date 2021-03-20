@@ -23,7 +23,7 @@
           :icon="card.icon"
           class="col-4 mb-3"
         >
-          <z-homeCategoryCard :card="card"></z-homeCategoryCard>
+          <z-homeCategoryCard class="mt-2" :card="card"></z-homeCategoryCard>
         </div>
       </div>
     </div>

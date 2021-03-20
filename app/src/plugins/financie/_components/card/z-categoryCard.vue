@@ -29,6 +29,7 @@ export default {
   width: 75px;
 }
 .card {
+  cursor: pointer;
   bottom: 80px;
   border: none;
 
