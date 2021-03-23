@@ -6,12 +6,12 @@
     </div>
     <div style="display: flex; justify-content: center">
       <carousel
+        :loop="true"
         :autoplay="true"
-        :autoplayTimeout="500"
+        :autoplayTimeout="5000"
         :perPage="1"
         style="width: 800px"
       >
-
         <slide
           class="slide"
           v-for="zslider in zsliders"
@@ -43,29 +43,29 @@ import { Carousel, Slide } from "vue-carousel";
 export default {
   components: {
     Carousel,
-    Slide
+    Slide,
+  },
+  name: "z-carousel",
+  data() {
+    return {
+      zsliders: [],
+    };
+  },
+  async mounted() {
+    await this._loadCards();
+    console.log(this.zsliders);
+  },
+  methods: {
+    async _loadCards() {
+      try {
+        const zsliders = await apiService.get("zslider");
+        this.zsliders = zsliders.data;
+        console.log(zsliders.data);
+      } catch (e) {
+        console.error(e);
+      }
     },
-    name: "z-carousel",
-    data() {
-      return {
-        zsliders: [],
-      };
-    },
-    async mounted() {
-      await this._loadCards();
-      console.log(this.zsliders);
-    },
-    methods: {
-      async _loadCards() {
-        try {
-          const zsliders = await apiService.get("zslider");
-          this.zsliders = zsliders.data;
-          console.log(zsliders.data);
-        } catch (e) {
-          console.error(e);
-        }
-      },
-    }
+  },
 };
 </script>
 
