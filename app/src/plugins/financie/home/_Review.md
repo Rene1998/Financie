@@ -15,8 +15,8 @@ Frontend
 [] .preskoly-main vies dat rovno na vrchne div, tym budete mat o 1 vnorenie html menej
 
 Styl
-[] toto sa vola univerzalne wrapper, takze by som dal .pre-skoly-wrapper
-[] nemusis mat preskoly-container, staci ti do .pre-skoly-wrapper vnorit .container. Takze preskoly-container classu vyhodit
+[1] toto sa vola univerzalne wrapper, takze by som dal .pre-skoly-wrapper
+[1] nemusis mat preskoly-container, staci ti do .pre-skoly-wrapper vnorit .container. Takze preskoly-container classu vyhodit
 
 
 # z-advanced-img-home-cards
@@ -29,7 +29,7 @@ Frontend
 [] Odstranit zabudnute consol logy
 
 Stylovanie
-[] Nebije mi tam nic do oci, ale krajsie by som to povnaral a poodsadzoval. A neviem ci to pouzivas ale ked sa styluje tak sa ide od vrchu dole. Takze napriklad prva sekcia v html ma byt aj v scss hore, druha pod nou atd
+[1] Nebije mi tam nic do oci, ale krajsie by som to povnaral a poodsadzoval. A neviem ci to pouzivas ale ked sa styluje tak sa ide od vrchu dole. Takze napriklad prva sekcia v html ma byt aj v scss hore, druha pod nou atd
 
 
 # z-carouse

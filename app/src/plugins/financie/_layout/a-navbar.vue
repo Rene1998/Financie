@@ -11,7 +11,7 @@
           </b-navbar-nav>
 
           <hr />
-          <router-link to="/"><img class="financie" src="./assets/logo.png" alt="logo" /></router-link>
+          <router-link to="/"><img class="logo" src="./assets/logo.png" alt="logo" /></router-link>
         </b-navbar-nav>
 
         <b-navbar-nav class="d-flex align-items-center">
@@ -50,19 +50,21 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.financie {
+
+.navbar {
+  height: 63px;
+
+.logo {
   width: 120px;
   height: 30px;
 }
 
-.navbar {
-  height: 63px;
-}
-
-
 .nav-link:hover {
   color: #1eaee1 !important;
 }
+}
+
+
 
 /deep/ {
   &.dropdown-toggle::after {
@@ -88,6 +90,7 @@ export default {};
   &.nav-link:focus {
     outline: none !important;
   }
+  
   .dropdown-toggle:hover,
   .nav-item:hover /deep/ a[role="button"] {
     color: #1eaee1 !important;

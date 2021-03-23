@@ -3,8 +3,8 @@
 # a-navbar.vue
 
 STYLOVACKA
-[] .financie by som dal vystiznejsi nazov, napriklad .logo
-[] ked vnaras scss tak vzdy pred vnorenim dalsieho daj prazdny riadok
+[1] .financie by som dal vystiznejsi nazov, napriklad .logo
+[1] ked vnaras scss tak vzdy pred vnorenim dalsieho daj prazdny riadok
 [] V navigacii v lavo ma byt od vertikalnej ciary rovnaka medzera aj v lavo aj v pravo
 - inak to vyzera dobre :) 
 

@@ -1,17 +1,18 @@
 <template>
   <div>
-    <div class="container-fluid preskoly-main">
-      <div class="container preskoly-container">
-        <div class="preskoly-welcome-text">
-          <h1>
-            Prevedieme vás životnou <br />
-            finančnou cestou.
-          </h1>
-          <p>
-            Získajte odborníka na kľúčové finančné momenty vo vašom živote.
-          </p>
+    <div class=" preskoly-main">
+        <div class="container ">
+          <div class="preskoly-welcome-text">
+            <h1>
+              Prevedieme vás životnou <br />
+              finančnou cestou.
+            </h1>
+            <p>
+              Získajte odborníka na kľúčové finančné momenty vo vašom živote.
+            </p>
+          </div>
         </div>
-      </div>
+      
     </div>
 
     <div class=" container">
@@ -72,27 +73,27 @@ export default {
       cards: [
         {
           title: "Bývanie",
-          icon:"np_home_dark_blue.png",
+          icon: "np_home_dark_blue.png",
         },
         {
           title: "Rodina a deti",
-          icon:"np_family_dark_blue.png",
+          icon: "np_family_dark_blue.png",
         },
         {
           title: "Auto",
-          icon:"np_car_dark_blue.png",
+          icon: "np_car_dark_blue.png",
         },
         {
           title: "Dôchodok",
-          icon:"np_old_dark_blue.png",
+          icon: "np_old_dark_blue.png",
         },
         {
           title: "Exekúcia",
-          icon:"np_pay_dark_blue.png",
+          icon: "np_pay_dark_blue.png",
         },
         {
           title: "Práca a dane",
-          icon:"np_work_dark_blue.png",
+          icon: "np_work_dark_blue.png",
         },
       ],
     };
@@ -106,22 +107,25 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.preskoly-container {
+
+.preskoly-main {
+  background-image: url('/assets/Group 1.png');
+ min-height: 600px;
+  width: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
   display: flex;
   align-items: center;
   min-height: 500px;
 }
-
-.preskoly-main {
-  background-image: url(/assets/family-img.jpg);
-  min-height: 600px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .category-cards {
   margin-top: -250px;
 }
+
+
 </style>

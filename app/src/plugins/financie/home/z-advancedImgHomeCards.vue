@@ -73,6 +73,7 @@
     </b-card>
   </div>
 </template>
+
 <script>
 const api = {
   cards: () => axios.get("http://localhost:8081/api/zaihcard"),
@@ -103,6 +104,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss" scoped>
   .card {
   width: 363px !important;
