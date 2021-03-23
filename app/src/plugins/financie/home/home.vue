@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class=" preskoly-main">
-        <div class="container ">
+        <div class="container d-flex align-items-center ">
           <div class="preskoly-welcome-text">
-            <h1>
+            <h1 >
               Prevedieme vás životnou <br />
               finančnou cestou.
             </h1>
-            <p>
-              Získajte odborníka na kľúčové finančné momenty vo vašom živote.
+            <p class="p-0 mt-4 mb-5">
+              Získajte odborníka na kľúčové finančné momenty <br> vo vašom živote.
             </p>
           </div>
         </div>
@@ -120,6 +120,17 @@ export default {
   display: flex;
   align-items: center;
   min-height: 500px;
+
+  h1{
+    
+font-weight: bold;
+font-size: 40px;
+
+  }
+
+  p{
+    font-size: 18px;
+  }
 }
 }
 
