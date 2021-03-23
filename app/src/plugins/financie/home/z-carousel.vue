@@ -1,22 +1,24 @@
 <template>
   <div class="mb-5">
     <hr />
-    <div class="slider-info" style="display: flex; justify-content: center;">
+    <div class="slider-info" style="display: flex; justify-content: center">
       <p>Vedeli ste, že...</p>
     </div>
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center">
       <carousel
         :autoplay="true"
         :autoplayTimeout="500"
         :perPage="1"
-        style="width: 400px"
+        style="width: 800px"
       >
+
         <slide
+          class="slide"
           v-for="zslider in zsliders"
           :key="zslider.id"
-          :title="zslider.text"
-          class="slide" style="text-align: center">
-          <h5>{{ zslider.text }}</h5>
+          style="text-align: center"
+        >
+          <h5>{{ zslider.content }}</h5>
         </slide>
       </carousel>
     </div>
@@ -36,29 +38,34 @@
 
 <script>
 //docs => https://ssense.github.io/vue-carousel/api/
-import apiService from "../../common/apiService"
-import { Carousel, Slide } from "vue-carousel"
+import apiService from "../common/apiService";
+import { Carousel, Slide } from "vue-carousel";
 export default {
-  name: "z-carousel",
-  data() {
-    return {
-      zsliders: [],
-    };
-  },
-  async mounted() {
-    await this._loadCards()
-  },
-  methods: {
-    async _loadCards() {
-      try {
-        const zsliders = await apiService.get('zslider')
-        this.zsliders = zsliders.data
-        console.log(zsliders.data)
-      } catch (e) {
-        console.error(e)
-      }
+  components: {
+    Carousel,
+    Slide
     },
-  },
+    name: "z-carousel",
+    data() {
+      return {
+        zsliders: [],
+      };
+    },
+    async mounted() {
+      await this._loadCards();
+      console.log(this.zsliders);
+    },
+    methods: {
+      async _loadCards() {
+        try {
+          const zsliders = await apiService.get("zslider");
+          this.zsliders = zsliders.data;
+          console.log(zsliders.data);
+        } catch (e) {
+          console.error(e);
+        }
+      },
+    }
 };
 </script>
 
