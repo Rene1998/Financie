@@ -7,18 +7,16 @@
     <div style="display: flex; justify-content: center;">
       <carousel
         :autoplay="true"
-        :autoplayTimeout="3000"
+        :autoplayTimeout="500"
         :perPage="1"
         style="width: 400px"
       >
-        <slide class="slide" style="text-align: center">
-          <h5>Ked si dam 2 kolesa som bicykel</h5>
-        </slide>
-        <slide style="text-align: center">
-          <h5>Ked si dam 2 kolesa som motorka</h5>
-        </slide>
-        <slide style="text-align: center">
-          <h5>Ked si dam 3 kolesa som trojkolka</h5>
+        <slide
+          v-for="zslider in zsliders"
+          :key="zslider.id"
+          :title="zslider.text"
+          class="slide" style="text-align: center">
+          <h5>{{ zslider.text }}</h5>
         </slide>
       </carousel>
     </div>
@@ -38,11 +36,28 @@
 
 <script>
 //docs => https://ssense.github.io/vue-carousel/api/
-import { Carousel, Slide } from "vue-carousel";
+import apiService from "../../common/apiService"
+import { Carousel, Slide } from "vue-carousel"
 export default {
-  components: {
-    Carousel,
-    Slide,
+  name: "z-carousel",
+  data() {
+    return {
+      zsliders: [],
+    };
+  },
+  async mounted() {
+    await this._loadCards()
+  },
+  methods: {
+    async _loadCards() {
+      try {
+        const zsliders = await apiService.get('zslider')
+        this.zsliders = zsliders.data
+        console.log(zsliders.data)
+      } catch (e) {
+        console.error(e)
+      }
+    },
   },
 };
 </script>
