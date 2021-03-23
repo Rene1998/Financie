@@ -52,11 +52,11 @@ export default {
     };
   },
   async mounted() {
-    await this._loadCards();
+    await this._loadSliders();
     console.log(this.zsliders);
   },
   methods: {
-    async _loadCards() {
+    async _loadSliders() {
       try {
         const zsliders = await apiService.get("zslider");
         this.zsliders = zsliders.data;
