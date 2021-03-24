@@ -1,0 +1,3 @@
+# 24.3. psycho
+[] pluginy k projektu by som dal do namespacu app
+[] pluginy aj routy nazyvat ludskou recou ze co robia...
