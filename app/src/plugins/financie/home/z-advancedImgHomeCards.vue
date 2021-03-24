@@ -75,11 +75,7 @@
 </template>
 
 <script>
-const api = {
-  cards: () => axios.get("http://localhost:8081/api/zaihcard"),
-};
-
-import axios from "axios";
+import apiService from '../common/apiService';
 
 export default {
   name: "z-advancedImgHomeCards",
@@ -94,7 +90,7 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await api.cards();
+        const cards = await apiService.get('zaihcard');
         this.zaihcards = cards.data;
         console.log(cards.data);
       } catch (e) {
@@ -109,7 +105,7 @@ export default {
   .card {
   width: 363px !important;
   display: inline-block;
-  
+
 
   img {
     height: 210px;
