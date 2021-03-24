@@ -1,3 +1,8 @@
+# 24.3. psycho
+[] kubo more: inline styly sa vyhybat
+    [] display flex a podobne su v bootstrap utility classes
+
+
 # 18.3. Glasnak
 
 # Vseobecne

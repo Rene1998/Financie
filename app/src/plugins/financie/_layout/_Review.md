@@ -1,3 +1,10 @@
+# 24.3. psycho
+[] bodkociarky :'(
+[] dvojite uvodzovky nieee :'(
+
+
+
+
 # Glasnak 18.3. 
 
 # a-navbar.vue

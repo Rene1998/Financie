@@ -1,3 +1,6 @@
+# 24.3. psycho
+[] formatovanie js
+
 # 18.3. Glasnak
 
 # cardContent.js
