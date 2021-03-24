@@ -52,13 +52,15 @@
           <div
             class="col-lg-12 copyright-col d-flex flex-row align-items-center"
           >
-            <img class="mr-3" src="assets/logodark.png" alt="logo" />
+            <img class="mr-3" src="./assets/logodark.png" alt="logo" />
             <p class="copy m-0">
               © 2021 www.financie.sk Všetky práva vyhradené.
             </p>
             <div class="ml-auto ">
               <a href="" class="btn btn-nav-foot rounded-0">Osobné financie</a>
-              <a href="zakladne-skoly" class="btn btn-nav-foot rounded-0">Pre školy</a>
+              <a href="zakladne-skoly" class="btn btn-nav-foot rounded-0"
+                >Pre školy</a
+              >
             </div>
           </div>
         </div>
@@ -87,16 +89,16 @@ footer {
     font-size: 15px;
     color: #19283b;
   }
-}
 
-.copyright-row {
-  background: #fbfbfc;
-  min-height: 80px;
+  .copyright-row {
+    background: #fbfbfc;
+    min-height: 80px;
 
-  .btn {
-    padding: 21.5px 15px;
-    &a:hover {
-      color: #1eaee1 !important;
+    .btn {
+      padding: 21.5px 15px;
+      &a:hover {
+        color: #1eaee1 !important;
+      }
     }
   }
 }
