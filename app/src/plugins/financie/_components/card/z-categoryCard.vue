@@ -33,6 +33,10 @@ export default {
   bottom: 80px;
   border: none;
 
+  a{
+    color: #ffffff;
+  }
+
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
   border-radius: 4px;

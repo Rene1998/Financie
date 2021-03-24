@@ -1,18 +1,18 @@
 <template>
   <div>
     <div class=" preskoly-wrapper">
-        <div class="container d-flex align-items-center ">
-          <div class="preskoly-welcome-text">
-            <h1 >
-              Prevedieme vás životnou <br />
-              finančnou cestou.
-            </h1>
-            <p class="p-0 mt-4 mb-5">
-              Získajte odborníka na kľúčové finančné momenty <br> vo vašom živote.
-            </p>
-          </div>
+      <div class="container d-flex align-items-center ">
+        <div class="preskoly-welcome-text">
+          <h1>
+            Prevedieme vás životnou <br />
+            finančnou cestou.
+          </h1>
+          <p class="p-0 mt-4 mb-5">
+            Získajte odborníka na kľúčové finančné momenty <br />
+            vo vašom živote.
+          </p>
         </div>
-      
+      </div>
     </div>
 
     <div class=" container">
@@ -107,36 +107,31 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
 .preskoly-wrapper {
-  background-image: url('/assets/Group 1.png');
- min-height: 600px;
+  background-image: url("/assets/Group 1.png");
+  min-height: 600px;
   width: 100%;
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 
   .container {
-  display: flex;
-  align-items: center;
-  min-height: 500px;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
 
-  h1{
-    
-font-weight: bold;
-font-size: 40px;
+    h1 {
+      font-weight: bold;
+      font-size: 40px;
+    }
 
+    p {
+      font-size: 18px;
+    }
   }
-
-  p{
-    font-size: 18px;
-  }
-}
 }
 
 .category-cards {
   margin-top: -250px;
 }
-
-
 </style>

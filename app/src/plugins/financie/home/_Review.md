@@ -29,7 +29,7 @@ Frontend
 [] Odstranit zabudnute consol logy
 
 Stylovanie
-[1] Nebije mi tam nic do oci, ale krajsie by som to povnaral a poodsadzoval. A neviem ci to pouzivas ale ked sa styluje tak sa ide od vrchu dole. Takze napriklad prva sekcia v html ma byt aj v scss hore, druha pod nou atd
+[] Nebije mi tam nic do oci, ale krajsie by som to povnaral a poodsadzoval. A neviem ci to pouzivas ale ked sa styluje tak sa ide od vrchu dole. Takze napriklad prva sekcia v html ma byt aj v scss hore, druha pod nou atd
 
 
 # z-carouse

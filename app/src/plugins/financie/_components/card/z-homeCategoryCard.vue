@@ -39,8 +39,8 @@ export default {
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
   border-radius: 4px;
-
   border-bottom: 6px solid transparent;
+  
   &:hover {
     border-bottom: 6px solid #1eaee1;
     border-radius: 4px;
@@ -55,11 +55,6 @@ export default {
       color: #1eaee1;
     }
   }
-}
-
-.b-icon {
-  width: 32px;
-  height: 34px;
 }
 
 h6 {

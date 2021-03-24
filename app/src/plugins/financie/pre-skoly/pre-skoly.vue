@@ -1,16 +1,21 @@
-
 <template>
   <div>
     <div class="container-fluid preskoly-main">
       <div class="container ">
         <div class="preskoly-welcome-text">
-          <h1>{{title}}</h1>
+          <h1>{{ title }}</h1>
           <p>
-            {{content}}
+            {{ content }}
           </p>
           <p>
-            <router-link to="/pre-skoly/zakladne-skoly">Základné školy</router-link> •
-            <router-link to="/pre-skoly/stredne-skoly">Stredné školy</router-link> •
+            <router-link to="/pre-skoly/zakladne-skoly"
+              >Základné školy</router-link
+            >
+            •
+            <router-link to="/pre-skoly/stredne-skoly"
+              >Stredné školy</router-link
+            >
+            •
             <router-link to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
           </p>
         </div>
@@ -69,26 +74,26 @@
 import cardContent from "./pre-skoly_content.js";
 export default {
   watch: {
-    '$route.params.slug': {
+    "$route.params.slug": {
       immediate: true,
       handler(val) {
-        this.changePageContent(val)
-      }
-    }
+        this.changePageContent(val);
+      },
+    },
   },
   data() {
     return {
       skola: null,
       title: null,
-      content: null
+      content: null,
     };
   },
   methods: {
-    changePageContent(val){
-      this.skola = cardContent[val].category
-      this.title = cardContent[val].title
-      this.content = cardContent[val].content
-    }
+    changePageContent(val) {
+      this.skola = cardContent[val].category;
+      this.title = cardContent[val].title;
+      this.content = cardContent[val].content;
+    },
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
@@ -103,7 +108,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .preskoly-main {
   background-image: url(/assets/group1.png);
   min-height: 500px;
@@ -111,12 +115,12 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
   .container {
-  display: flex;
-  align-items: center;
-  min-height: 500px;
-}
-
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+  }
 }
 
 .download-all {
@@ -138,6 +142,4 @@ a {
 h5 {
   font-size: 24px;
 }
-
-
 </style>

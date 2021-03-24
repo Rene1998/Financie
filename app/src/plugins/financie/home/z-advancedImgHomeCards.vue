@@ -12,51 +12,56 @@
       <b-card-text class="d-flex align-items-end mb-5">
         {{ zaihcard.content }}
       </b-card-text>
+      <div class="hb">
+        <b-card-body class="hb d-flex justify-content-between mr-2">
+          <b-card-link>
+            <h6 class="mb-0">
+              {{ zaihcard.link1 }}
+            </h6>
+          </b-card-link>
 
-      <b-card-body class="d-flex justify-content-between mr-2">
-        <b-card-link>
-          <h6 class="mb-0">
-            {{ zaihcard.link1 }}
-          </h6>
-        </b-card-link>
+          <b-card-link>
+            <a :href="zaihcard.link1_link" class="blue card-link">
+              <b-icon icon="arrow-right"></b-icon>
+            </a>
+          </b-card-link>
+        </b-card-body>
+        <hr class="hb m-0" />
+      </div>
+      <div class="hb">
+        <b-card-body class="hb d-flex justify-content-between mr-2">
+          <b-card-link>
+            <h6 class="mb-0">
+              {{ zaihcard.link2 }}
+            </h6>
+          </b-card-link>
 
-        <b-card-link>
-          <a :href="zaihcard.link1_link" class="blue card-link">
-            <b-icon icon="arrow-right"></b-icon>
-          </a>
-        </b-card-link>
-      </b-card-body>
-      <hr class="m-0" />
-      <b-card-body class="d-flex justify-content-between mr-2">
-        <b-card-link>
-          <h6 class="mb-0">
-            {{ zaihcard.link2 }}
-          </h6>
-        </b-card-link>
+          <b-card-link>
+            <a :href="zaihcard.link2_link" class="blue card-link">
+              <b-icon icon="arrow-right"></b-icon>
+            </a>
+          </b-card-link>
+        </b-card-body>
+        <hr class="hb m-0" />
+      </div>
+      <div class="hb">
+        <b-card-body class="hb d-flex justify-content-between mr-2">
+          <b-card-link>
+            <h6 class="mb-0">
+              {{ zaihcard.link3 }}
+            </h6>
+          </b-card-link>
 
-        <b-card-link>
-          <a :href="zaihcard.link2_link" class="blue card-link">
-            <b-icon icon="arrow-right"></b-icon>
-          </a>
-        </b-card-link>
-      </b-card-body>
-      <hr class="m-0" />
-      <b-card-body class="d-flex justify-content-between mr-2">
-        <b-card-link>
-          <h6 class="mb-0">
-            {{ zaihcard.link3 }}
-          </h6>
-        </b-card-link>
-
-        <b-card-link>
-          <a :href="zaihcard.link3_link" class="blue card-link">
-            <b-icon icon="arrow-right"></b-icon>
-          </a>
-        </b-card-link>
-      </b-card-body>
+          <b-card-link>
+            <a :href="zaihcard.link3_link" class="blue card-link">
+              <b-icon icon="arrow-right"></b-icon>
+            </a>
+          </b-card-link>
+        </b-card-body>
+        <hr class="hb m-0" />
+      </div>
       <div v-if="zaihcard.link4 != ''">
-        <hr class="m-0" />
-        <b-card-body class="d-flex justify-content-between mr-2">
+        <b-card-body class="hb d-flex justify-content-between mr-2">
           <b-card-link>
             <h6 class="mb-0">
               {{ zaihcard.link4 }}
@@ -117,14 +122,6 @@ export default {
 
   .b-card-link {
     line-height: 24px;
-
-    a {
-      color: #d1d4d8;
-
-      &:hover {
-        color: #1eaee1;
-      }
-    }
   }
 }
 
@@ -137,6 +134,26 @@ export default {
     font-size: 16px;
     line-height: 30px color #192949;
     font-weight: 400;
+  }
+}
+
+a {
+  color: #d1d4d8;
+
+  &:hover {
+    color: #1eaee1;
+  }
+}
+
+.hb:hover {
+  color: #1eaee1 !important;
+
+  a {
+    color: #1eaee1;
+  }
+
+  hr {
+    border-top: 1px solid #1eaee1 !important;
   }
 }
 </style>

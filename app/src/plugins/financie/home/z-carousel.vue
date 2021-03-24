@@ -99,8 +99,6 @@ h5 {
   h5 {
     font-family: Helvetica Neue;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
     color: #192949;
   }
 }
@@ -123,21 +121,6 @@ hr {
   &.VueCarousel-dot {
     width: 6px !important;
     height: 6px !important;
-  }
-
-  &.VueCarousel-pagination {
-    margin-top: -45px;
-  }
-
-  &.VueCarousel-dot:focus {
-    outline: none !important;
-  }
-
-  &.VueCarousel-dot--active {
-    background-color: #1eaee1 !important;
-  }
-
-  &.VueCarousel-dot {
     width: 6px !important;
     height: 6px !important;
   }
