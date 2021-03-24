@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class=" preskoly-main">
+    <div class=" preskoly-wrapper">
         <div class="container d-flex align-items-center ">
           <div class="preskoly-welcome-text">
             <h1 >
@@ -108,7 +108,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 
-.preskoly-main {
+.preskoly-wrapper {
   background-image: url('/assets/Group 1.png');
  min-height: 600px;
   width: 100%;

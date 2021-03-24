@@ -1,5 +1,5 @@
 <template>
-    <div>
+  <div>
     <b-card
       v-for="zaihcard in zaihcards"
       :key="zaihcard.id"
@@ -10,13 +10,13 @@
       class="mb-2 border border-0 m-2"
     >
       <b-card-text class="d-flex align-items-end mb-5">
-        {{zaihcard.content}}
+        {{ zaihcard.content }}
       </b-card-text>
 
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
           <h6 class="mb-0">
-            {{zaihcard.link1}}
+            {{ zaihcard.link1 }}
           </h6>
         </b-card-link>
 
@@ -26,11 +26,11 @@
           </a>
         </b-card-link>
       </b-card-body>
-      <hr class="m-0"/>
+      <hr class="m-0" />
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
           <h6 class="mb-0">
-            {{zaihcard.link2}}
+            {{ zaihcard.link2 }}
           </h6>
         </b-card-link>
 
@@ -40,11 +40,11 @@
           </a>
         </b-card-link>
       </b-card-body>
-      <hr class="m-0"/>
+      <hr class="m-0" />
       <b-card-body class="d-flex justify-content-between mr-2">
         <b-card-link>
           <h6 class="mb-0">
-            {{zaihcard.link3}}
+            {{ zaihcard.link3 }}
           </h6>
         </b-card-link>
 
@@ -55,27 +55,27 @@
         </b-card-link>
       </b-card-body>
       <div v-if="zaihcard.link4 != ''">
-        <hr class="m-0"/>
-      <b-card-body class="d-flex justify-content-between mr-2">
-        <b-card-link>
-          <h6 class="mb-0">
-            {{zaihcard.link4}}
-          </h6>
-        </b-card-link>
+        <hr class="m-0" />
+        <b-card-body class="d-flex justify-content-between mr-2">
+          <b-card-link>
+            <h6 class="mb-0">
+              {{ zaihcard.link4 }}
+            </h6>
+          </b-card-link>
 
-        <b-card-link>
-          <a :href="zaihcard.link4_link" class="blue card-link">
-            <b-icon icon="arrow-right"></b-icon>
-          </a>
-        </b-card-link>
-      </b-card-body>
+          <b-card-link>
+            <a :href="zaihcard.link4_link" class="blue card-link">
+              <b-icon icon="arrow-right"></b-icon>
+            </a>
+          </b-card-link>
+        </b-card-body>
       </div>
     </b-card>
   </div>
 </template>
 
 <script>
-import apiService from '../common/apiService';
+import apiService from "../common/apiService";
 
 export default {
   name: "z-advancedImgHomeCards",
@@ -90,7 +90,7 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await apiService.get('zaihcard');
+        const cards = await apiService.get("zaihcard");
         this.zaihcards = cards.data;
         console.log(cards.data);
       } catch (e) {
@@ -102,34 +102,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .card {
+.card {
   width: 363px !important;
   display: inline-block;
-
 
   img {
     height: 210px;
   }
-}
 
-.b-card-link {
-  line-height: 24px;
-}
+  .card-title {
+    min-height: 35px;
+    margin-top: 17.5px;
+  }
 
-p {
-  font-size: 14px;
-  color: #192949;
-}
+  .b-card-link {
+    line-height: 24px;
 
-.card-img-top {
-  border-radius: 4px;
-}
+    a {
+      color: #d1d4d8;
 
-a {
-  color: #d1d4d8;
-
-  &:hover {
-    color: #1eaee1;
+      &:hover {
+        color: #1eaee1;
+      }
+    }
   }
 }
 
@@ -137,18 +132,11 @@ a {
   padding: 10px;
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
 
-h6 {
-  font-size: 16px;
-  line-height: 30px color #192949;
-  font-weight: 400;
-}
-.col-4 {
-  border: 0px 20px !important;
-}
-.card-title{
-  min-height: 35px;
-  margin-top: 17.5px;
+  h6 {
+    font-size: 16px;
+    line-height: 30px color #192949;
+    font-weight: 400;
+  }
 }
 </style>

@@ -139,7 +139,5 @@ h5 {
   font-size: 24px;
 }
 
-.size {
-  font-size: 18px;
-}
+
 </style>
