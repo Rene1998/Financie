@@ -10,14 +10,34 @@
         </div>
       </div>
     </div>
-    <z-carousel></z-carousel>
+ <z-carousel></z-carousel>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+            <z-miniCards></z-miniCards>
+        </div>
+        <div class="col-3">
+           <z-miniCards></z-miniCards>
+        </div>
+        <div class="col-3">
+           <z-miniCards></z-miniCards>
+        </div>
+        <div class="col-3">
+           <z-miniCards></z-miniCards>
+        </div>
+      </div>
+    </div>
+
+   
   </div>
 </template>
 
 <script>
 export default {
   components: {
+
     "z-carousel": () => import("../home/z-carousel"),
+    "z-miniCards": () => import("../_components/card/z-miniCards"),
   },
 };
 </script>
