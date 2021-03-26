@@ -23,16 +23,7 @@
       </carousel>
     </div>
     <hr />
-    <div class="text-center hardcore-text">
-      <h5 class="text-center">
-        Budeme pri vás, počas toho ako si plníte vaše sny a ciele
-      </h5>
-      <span class="text-center"
-        >A preto sme učiteľom a ich žiakom na základných a stredných školách
-        pripravili príručky, cvičenia a videá, ktoré vás <br />
-        prevedú finančním vzdelaním.</span
-      >
-    </div>
+    
   </div>
 </template>
 
@@ -91,16 +82,6 @@ h5 {
   font-size: 24px;
   line-height: 30px;
   color: #000000;
-}
-
-.hardcore-text {
-  margin-top: 60px;
-
-  h5 {
-    font-family: Helvetica Neue;
-    font-weight: bold;
-    color: #192949;
-  }
 }
 
 hr {
