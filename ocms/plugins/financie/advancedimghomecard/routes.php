@@ -1,9 +1,9 @@
 <?php
- use Financie\Advancedimghomecard\Models\AdvancedImgHomeCard;
+ use Financie\Advancedimghomecard\Models\Advancedimghomecard;
 
 Route::get('api/advancedImgHomeCard', function(){
 
-    $advancedImgHomeCard = AdvancedImgHomeCard::all();
+    $advancedImgHomeCard = Advancedimghomecard::all();
 
     return $advancedImgHomeCard;
 });

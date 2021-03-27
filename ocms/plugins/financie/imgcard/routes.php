@@ -1,9 +1,9 @@
 <?php
- use Financie\Imgcard\Models\ImgCard;
+ use Financie\Imgcard\Models\Imgcard;
 
 Route::get('api/imgCard', function(){
 
-    $imgCard = ImgCard::all();
+    $imgCard = Imgcard::all();
 
     return $imgCard;
 });

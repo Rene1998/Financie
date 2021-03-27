@@ -1,9 +1,9 @@
 <?php
- use Financie\Advancedimgcard\Models\AdvancedImgCard;
+ use Financie\Advancedimgcard\Models\Advancedimgcard;
 
 Route::get('api/advancedImgCard', function(){
 
-    $advancedImgCard = AdvancedImgCard::all();
+    $advancedImgCard = Advancedimgcard::all();
 
     return $advancedImgCard;
 });

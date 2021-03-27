@@ -1,9 +1,9 @@
 <?php
- use Financie\Textcard\Models\TextCard;
+ use Financie\Textcard\Models\Textcard;
 
 Route::get('api/textCard', function(){
 
-    $textCard = TextCard::all();
+    $textCard = Textcard::all();
 
     return $textCard;
 });
