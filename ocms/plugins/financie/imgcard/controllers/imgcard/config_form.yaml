@@ -1,0 +1,10 @@
+name: Imgcard
+form: $/financie/imgcard/models/imgcard/fields.yaml
+modelClass: Financie\Imgcard\Models\Imgcard
+defaultRedirect: financie/imgcard/imgcard
+create:
+    redirect: 'financie/imgcard/imgcard/update/:id'
+    redirectClose: financie/imgcard/imgcard
+update:
+    redirect: financie/imgcard/imgcard
+    redirectClose: financie/imgcard/imgcard

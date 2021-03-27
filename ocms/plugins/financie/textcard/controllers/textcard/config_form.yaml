@@ -1,0 +1,10 @@
+name: Textcard
+form: $/financie/textcard/models/textcard/fields.yaml
+modelClass: Financie\Textcard\Models\Textcard
+defaultRedirect: financie/textcard/textcard
+create:
+    redirect: 'financie/textcard/textcard/update/:id'
+    redirectClose: financie/textcard/textcard
+update:
+    redirect: financie/textcard/textcard
+    redirectClose: financie/textcard/textcard

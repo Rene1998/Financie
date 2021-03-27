@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="card border-0 " v-for="ztcard in ztcards" :key="ztcard.id">
+    <div class="card border-0 " v-for="textCard in textCards" :key="textCard.id">
       <div class="card-body p-3">
         <p class="timestamp">
-          {{posted_at}} • {{ztcard.time}} prečítanie
+          {{posted_at}} • {{textCard.time}} prečítanie
         </p>
         <h5 class="card-text">
-          {{ztcard.content}}
+          {{textCard.content}}
         </h5>
         <a href="#" class="card-link">Prečítať viac</a>
         <div class="divider border-bottom m-3"></div>
@@ -25,12 +25,12 @@ export default {
   name: "z-textCard",
   data() {
     return {
-      ztcards: [],
+      textCards: [],
     };
   },
   computed: {
     posted_at(){
-      return moment(this.ztcards.created_at).lang("sk").format('LL')
+      return moment(this.textCards.created_at).lang("sk").format('LL')
     }
   },
   async mounted() {
@@ -39,8 +39,8 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await apiService.get('ztcard');
-        this.ztcards = cards.data;
+        const cards = await apiService.get('textCard');
+        this.textCards = cards.data;
         console.log(cards.data);
       } catch (e) {
         console.error(e);

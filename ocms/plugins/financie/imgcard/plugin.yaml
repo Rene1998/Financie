@@ -1,0 +1,11 @@
+plugin:
+    name: 'financie.imgcard::lang.plugin.name'
+    description: 'financie.imgcard::lang.plugin.description'
+    author: financie
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Karta s obrázkom'
+        url: financie/imgcard/imgcard
+        icon: icon-list

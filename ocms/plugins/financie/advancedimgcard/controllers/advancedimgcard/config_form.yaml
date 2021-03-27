@@ -1,0 +1,10 @@
+name: Advancedimgcard
+form: $/financie/advancedimgcard/models/advancedimgcard/fields.yaml
+modelClass: Financie\Advancedimgcard\Models\Advancedimgcard
+defaultRedirect: financie/advancedimgcard/advancedimgcard
+create:
+    redirect: 'financie/advancedimgcard/advancedimgcard/update/:id'
+    redirectClose: financie/advancedimgcard/advancedimgcard
+update:
+    redirect: financie/advancedimgcard/advancedimgcard
+    redirectClose: financie/advancedimgcard/advancedimgcard

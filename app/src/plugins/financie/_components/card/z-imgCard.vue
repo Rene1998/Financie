@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="card mb-3 border-0" v-for="zicard in zicards" :key="zicard.id">
-      <img :src="zicard.image.path" class="card-img-top" alt="" />
+    <div class="card mb-3 border-0" v-for="imgCard in imgCards" :key="imgCard.id">
+      <img :src="imgCard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
         <p class="timestamp">
-          {{posted_at}} • {{zicard.time}} prečítanie
+          {{posted_at}} • {{imgCard.time}} prečítanie
         </p>
         <h5 class="card-title">
-          {{zicard.title}}
+          {{imgCard.title}}
         </h5>
         <p class="card-text">
-          {{zicard.content}}
+          {{imgCard.content}}
         </p>
         <p class="card-text">
           <a href="#">Prečítať viac</a>
@@ -27,7 +27,7 @@ export default {
   name: "z-imgCard",
   data() {
     return {
-      zicards: [],
+      imgCards: [],
     };
   },
   async mounted() {
@@ -35,14 +35,14 @@ export default {
   },
   computed: {
     posted_at(){
-      return moment(this.zicards.created_at).lang("sk").format('LL')
+      return moment(this.imgCards.created_at).lang("sk").format('LL')
     }
   },
   methods: {
     async _loadCards() {
       try {
-        const cards = await apiService.get('zicard');
-        this.zicards = cards.data;
+        const cards = await apiService.get('imgCard');
+        this.imgCards = cards.data;
         console.log(cards.data);
       } catch (e) {
         console.error(e);

@@ -1,16 +1,16 @@
 <template>
   <div>
     <b-card
-      v-for="zaicard in zaicards"
-      :key="zaicard.id"
-      :title="zaicard.title"
-      :img-src="zaicard.image.path"
+      v-for="advancedImgCard in advancedImgCards"
+      :key="advancedImgCard.id"
+      :title="advancedImgCard.title"
+      :img-src="advancedImgCard.image.path"
       img-alt="Image"
       tag="article"
       class="mb-2 border border-0 m-2"
     >
       <b-card-text class="d-flex align-items-end mb-5">
-        {{ zaicard.content }}
+        {{ advancedImgCard.content }}
       </b-card-text>
       <div class="hb">
         <b-card-body class="hb d-flex justify-content-between mr-2">
@@ -19,11 +19,11 @@
           </b-card-link>
 
           <b-card-link>
-            <a :href="zaicard.doc1_link_download" class=" card-link">
+            <a :href="advancedImgCard.doc1_link_download" class=" card-link">
               <b-icon icon="download"></b-icon>
             </a>
             <a
-              :href="zaicard.doc1_link_show"
+              :href="advancedImgCard.doc1_link_show"
               target="_blank"
               class=" card-link"
             >
@@ -40,10 +40,10 @@
           </b-card-link>
 
           <b-card-link>
-            <a :href="zaicard.doc1_link_download" class="card-link">
+            <a :href="advancedImgCard.doc1_link_download" class="card-link">
               <b-icon icon="download"></b-icon>
             </a>
-            <a :href="zaicard.doc1_link_show" target="_blank" class="card-link">
+            <a :href="advancedImgCard.doc1_link_show" target="_blank" class="card-link">
               <b-icon icon="eye"></b-icon>
             </a>
           </b-card-link>
@@ -56,7 +56,7 @@
         </b-card-link>
 
         <b-card-link>
-          <a :href="zaicard.video_show" target="_blank" class="card-link">
+          <a :href="advancedImgCard.video_show" target="_blank" class="card-link">
             <b-icon icon="play-circle"></b-icon>
           </a>
         </b-card-link>
@@ -72,7 +72,7 @@ export default {
   name: "z-advancedImgCards",
   data() {
     return {
-      zaicards: [],
+      advancedImgCards: [],
     };
   },
   async mounted() {
@@ -81,8 +81,8 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await apiService.get("zaicard");
-        this.zaicards = cards.data;
+        const cards = await apiService.get("advancedImgCard");
+        this.advancedImgCards = cards.data;
         console.log(cards.data);
       } catch (e) {
         console.error(e);

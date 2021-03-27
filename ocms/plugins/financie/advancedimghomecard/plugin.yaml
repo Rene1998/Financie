@@ -1,0 +1,11 @@
+plugin:
+    name: 'financie.advancedimghomecard::lang.plugin.name'
+    description: 'financie.advancedimghomecard::lang.plugin.description'
+    author: financie
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Advanced karta s obrázkom na homepage'
+        url: financie/advancedimghomecard/advancedimghomecard
+        icon: icon-list

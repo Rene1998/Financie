@@ -14,11 +14,11 @@
       >
         <slide
           class="slide"
-          v-for="zslider in zsliders"
-          :key="zslider.id"
+          v-for="slider in sliders"
+          :key="slider.id"
           style="text-align: center"
         >
-          <h5>{{ zslider.content }}</h5>
+          <h5>{{ slider.content }}</h5>
         </slide>
       </carousel>
     </div>
@@ -39,19 +39,19 @@ export default {
   name: "z-carousel",
   data() {
     return {
-      zsliders: [],
+      sliders: [],
     };
   },
   async mounted() {
     await this._loadSliders();
-    console.log(this.zsliders);
+    console.log(this.sliders);
   },
   methods: {
     async _loadSliders() {
       try {
-        const zsliders = await apiService.get("zslider");
-        this.zsliders = zsliders.data;
-        console.log(zsliders.data);
+        const sliders = await apiService.get("slider");
+        this.sliders = sliders.data;
+        console.log(sliders.data);
       } catch (e) {
         console.error(e);
       }
