@@ -1,0 +1,9 @@
+fields:
+    content:
+        label: Obsah
+        span: full
+        type: text
+    time:
+        label: 'Trvanie prečítania'
+        span: auto
+        type: text

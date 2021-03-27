@@ -52,26 +52,11 @@
         <div class="line col-4">
           <div><z-linkCards></z-linkCards></div>
           <hr />
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-          <div><z-linkCards></z-linkCards></div>
         </div>
 
-        <div class="line col-4">
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-          <div><z-linkCards></z-linkCards></div>
-        </div>
+        <div class="line col-4"></div>
 
-        <div class="line col-4">
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-          <div><z-linkCards></z-linkCards></div>
-        </div>
+        <div class="line col-4"></div>
       </div>
     </div>
   </div>

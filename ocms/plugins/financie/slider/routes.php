@@ -1,9 +1,9 @@
 <?php
- use Financie\Slider\Models\slider;
+ use Financie\Slider\Models\Slider;
 
 Route::get('api/slider', function(){
 
-    $slider = slider::all();
+    $slider = Slider::all();
 
     return $slider;
 });
