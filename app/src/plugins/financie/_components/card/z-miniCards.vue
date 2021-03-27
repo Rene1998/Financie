@@ -2,7 +2,7 @@
   <div>
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card mt-4" src="https://i1.wp.com/www.busybuddiesng.com/wp-content/uploads/2020/01/Hazard.jpg?fit=1024%2C1016&ssl=1" alt="" />
+        <img class="category-card mt-4" src="https://cdn.discordapp.com/attachments/695278638609727553/825344099917758464/np_home_3367736_000000_1.png" alt="" />
         <h6 class="card-title m-2">Maďarská hypotéka</h6>
         <p class="mt-4">Môžete refinancovať vašu hypotéku bez problémov.</p>
         <a class="mt-4">Prečítať viac</a>
@@ -31,8 +31,8 @@
 
 
   .category-card{
-    height: 40px;
-    width: 40px;
+    width: 35.75px;
+    height: 48px;
 }
 
 h6{
