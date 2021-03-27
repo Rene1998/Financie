@@ -1,10 +1,10 @@
 <?php
 
-use Financie\Linkcard\Models\LinkCard;
+use Financie\Linkcard\Models\Linkcard;
 
 Route::get('api/linkCard', function(){
 
-    $linkCard = LinkCard::all();
+    $linkCard = Linkcard::all();
 
     return $linkCard;
 });
