@@ -10,9 +10,9 @@ class BuilderTableCreateFinancieAdvancedimgcardAdvancedimgcardCategories extends
         Schema::create('financie_advancedimgcard_advancedimgcard_categories', function($table)
         {
             $table->engine = 'InnoDB';
-            $table->integer('card_id');
+            $table->integer('advancedimgcard_id');
             $table->integer('category_id');
-            $table->primary(['card_id','category_id']);
+            $table->primary(['advancedimgcard_id','category_id']);
         });
     }
     

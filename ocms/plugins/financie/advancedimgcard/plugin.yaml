@@ -11,6 +11,6 @@ navigation:
         icon: icon-list
         sideMenu:
             side-menu-item:
-                label: Categories
+                label: Kategórie
                 url: financie/advancedimgcard/categories
                 icon: icon-list
