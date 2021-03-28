@@ -6,6 +6,11 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Karta s linkom'
+        label: 'Karta s linkmi'
         url: financie/linkcard/linkcard
         icon: icon-list
+        sideMenu:
+            side-menu-item:
+                label: Categories
+                url: financie/linkcard/categories
+                icon: icon-list

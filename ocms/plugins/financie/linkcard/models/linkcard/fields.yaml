@@ -7,3 +7,9 @@ fields:
         label: 'Trvanie prečítania'
         span: auto
         type: text
+    categories:
+        label: Kategórie
+        nameFrom: category_title
+        descriptionFrom: description
+        span: auto
+        type: relation
