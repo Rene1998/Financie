@@ -3,7 +3,7 @@
     <div class="container-fluid byvanie-main">
       <div class="container">
         <div class="byvanie-welcome-text">
-          <div class="row">
+          <div class="col d-flex flex-column mb-5">
             <h1>Bývanie</h1>
             <p>
               Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu
@@ -13,6 +13,7 @@
         </div>
       </div>
     </div>
+    <z-progressBar></z-progressBar>
     <z-carousel></z-carousel>
     <div class="container mt-5 mb-5">
       <div class="row">
@@ -68,6 +69,7 @@ export default {
     "z-carousel": () => import("../home/z-carousel"),
     "z-miniCards": () => import("../_components/card/z-miniCards"),
     "z-linkCards": () => import("../_components/card/z-linkCards"),
+    "z-progressBar": () => import("../osobne-financie/z-progressBar"),
   },
 };
 </script>
@@ -75,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 .byvanie-main {
   background-image: url(/assets/byvanie-img.png);
-  min-height: 500px;
+  max-height: 370px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
