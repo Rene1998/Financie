@@ -20,7 +20,7 @@
           <b-navbar-nav>
             <b-nav-item
               href="#"
-              class="btn btn-nav-foot bp-3 d-flex align-items-center "
+              class="btn z-btn bp-3 d-flex align-items-center "
               >Osobné financie</b-nav-item
             >
           </b-navbar-nav>
@@ -29,7 +29,7 @@
             <b-nav-dropdown
               text="Pre školy"
               right
-              class="btn btn-nav-foot bp-3 d-flex align-items-center "
+              class="btn z-btn bp-3 d-flex align-items-center "
             >
               <b-dropdown-item to="/pre-skoly/zakladne-skoly"
                 >Základné školy</b-dropdown-item
