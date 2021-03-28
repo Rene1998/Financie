@@ -9,3 +9,8 @@ navigation:
         label: 'Advanced karta s obrázkom'
         url: financie/advancedimgcard/advancedimgcard
         icon: icon-list
+        sideMenu:
+            side-menu-item:
+                label: Categories
+                url: financie/advancedimgcard/categories
+                icon: icon-list

@@ -21,10 +21,19 @@ class Advancedimgcard extends Model
     public $rules = [
     ];
 
+    public $belongsToMany =[
+        'categories' => [
+            'Financie\Advancedimgcard\Models\Category',
+            'table' => 'financie_advancedimgcard_advancedimgcard_categories',
+            'order' => 'category_title'
+        ]
+    ];
+
     public $attachOne = [
         'image' => 'System\Models\File'
     ];
     public $with = [
         'image'
     ];
+
 }

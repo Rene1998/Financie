@@ -33,3 +33,9 @@ fields:
         span: auto
         type: fileupload
         mode: image
+    categories:
+        label: Kategórie
+        nameFrom: category_title
+        descriptionFrom: description
+        span: auto
+        type: relation
