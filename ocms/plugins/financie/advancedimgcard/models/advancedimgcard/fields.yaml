@@ -33,7 +33,7 @@ fields:
         span: auto
         type: fileupload
         mode: image
-    categories:
+    category:
         label: Kategórie
         nameFrom: category_title
         descriptionFrom: description
