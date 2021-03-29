@@ -26,4 +26,12 @@ class Category extends Model
      */
     public $rules = [
     ];
+
+    public $hasMany = [
+        'advancedImgCards' => 'Financie\Advancedimgcard\Models\Advancedimgcard'
+    ];
+
+    public $with = [
+        'advancedImgCards'
+    ];
 }

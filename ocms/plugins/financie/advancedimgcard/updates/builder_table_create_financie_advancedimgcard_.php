@@ -20,6 +20,7 @@ class BuilderTableCreateFinancieAdvancedimgcard extends Migration
             $table->string('video_show');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
+            $table->integer('category_id')->nullable();
         });
     }
     
