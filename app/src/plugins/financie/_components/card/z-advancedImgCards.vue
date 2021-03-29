@@ -1,5 +1,5 @@
 <template>
-  <div v-if="advancedImgCard.slug == rightPage">
+  <div>
     <b-card
       v-for="advancedImgCard in advancedImgCards"
       :key="advancedImgCard.id"
@@ -9,6 +9,7 @@
       tag="article"
       class="mb-2 border border-0 m-2"
     >
+    <div v-if="advancedImgCard.slug == rightPage">
       <div>
         <b-card-text class="d-flex align-items-end mb-5">
           {{ advancedImgCard.content }}
@@ -71,6 +72,7 @@
           </b-card-link>
         </b-card-body>
       </div>
+      </div>
     </b-card>
   </div>
 </template>
@@ -92,6 +94,7 @@ export default {
     page: {
       handler(page) {
         this.rightPage = page;
+        console.log(page);
       }
     }
   },
