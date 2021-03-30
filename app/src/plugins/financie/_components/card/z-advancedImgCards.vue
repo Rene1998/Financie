@@ -9,109 +9,107 @@
       tag="article"
       class="mb-2 border border-0 m-2"
     >
-    <div v-if="advancedImgCard.slug == rightPage">
-      <div>
-        <b-card-text class="d-flex align-items-end mb-5">
-          {{ advancedImgCard.content }}
-        </b-card-text>
-        <div class="hb">
+        <div>
+          <b-card-text class="d-flex align-items-end mb-5">
+            {{ advancedImgCard.content }}
+          </b-card-text>
+          <div class="hb">
+            <b-card-body class="hb d-flex justify-content-between mr-2">
+              <b-card-link>
+                <h6 class=" mb-0">Príručnka pre učiteľov</h6>
+              </b-card-link>
+
+              <b-card-link>
+                <a
+                  :href="advancedImgCard.doc1_link_download"
+                  class=" card-link"
+                >
+                  <b-icon icon="download"></b-icon>
+                </a>
+                <a
+                  :href="advancedImgCard.doc1_link_show"
+                  target="_blank"
+                  class=" card-link"
+                >
+                  <b-icon icon="eye"> </b-icon>
+                </a>
+              </b-card-link>
+            </b-card-body>
+            <hr class="hb m-0" />
+          </div>
+          <div class="hb">
+            <b-card-body class="d-flex justify-content-between mr-2">
+              <b-card-link class="m-0">
+                <h6 class="m-0 mb-0">Cvičenie pre žiakov</h6>
+              </b-card-link>
+
+              <b-card-link>
+                <a :href="advancedImgCard.doc1_link_download" class="card-link">
+                  <b-icon icon="download"></b-icon>
+                </a>
+                <a
+                  :href="advancedImgCard.doc1_link_show"
+                  target="_blank"
+                  class="card-link"
+                >
+                  <b-icon icon="eye"></b-icon>
+                </a>
+              </b-card-link>
+            </b-card-body>
+            <hr class="hb m-0" />
+          </div>
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <b-card-link>
-              <h6 class=" mb-0">Príručnka pre učiteľov</h6>
+              <h6 class="mb-0">Pozrieť video</h6>
             </b-card-link>
 
             <b-card-link>
-              <a :href="advancedImgCard.doc1_link_download" class=" card-link">
-                <b-icon icon="download"></b-icon>
-              </a>
               <a
-                :href="advancedImgCard.doc1_link_show"
-                target="_blank"
-                class=" card-link"
-              >
-                <b-icon icon="eye"> </b-icon>
-              </a>
-            </b-card-link>
-          </b-card-body>
-          <hr class="hb m-0" />
-        </div>
-        <div class="hb">
-          <b-card-body class="d-flex justify-content-between mr-2">
-            <b-card-link class="m-0">
-              <h6 class="m-0 mb-0">Cvičenie pre žiakov</h6>
-            </b-card-link>
-
-            <b-card-link>
-              <a :href="advancedImgCard.doc1_link_download" class="card-link">
-                <b-icon icon="download"></b-icon>
-              </a>
-              <a
-                :href="advancedImgCard.doc1_link_show"
+                :href="advancedImgCard.video_show"
                 target="_blank"
                 class="card-link"
               >
-                <b-icon icon="eye"></b-icon>
+                <b-icon icon="play-circle"></b-icon>
               </a>
             </b-card-link>
           </b-card-body>
-          <hr class="hb m-0" />
         </div>
-        <b-card-body class="hb d-flex justify-content-between mr-2">
-          <b-card-link>
-            <h6 class="mb-0">Pozrieť video</h6>
-          </b-card-link>
-
-          <b-card-link>
-            <a
-              :href="advancedImgCard.video_show"
-              target="_blank"
-              class="card-link"
-            >
-              <b-icon icon="play-circle"></b-icon>
-            </a>
-          </b-card-link>
-        </b-card-body>
-      </div>
-      </div>
     </b-card>
   </div>
 </template>
 
 <script>
 import apiService from "../../common/apiService";
-import page from "../../pre-skoly/pre-skoly";
 
 export default {
   name: "z-advancedImgCards",
+  watch: {
+    "$route.params.slug": {
+      immediate: true,
+      handler(val) {
+        this.changePageContent(val);
+      },
+    },
+  },
   data() {
     return {
       advancedImgCards: [],
-      page,
-      rightPage: null,
-    };
-  },
-  computed: {
-    filteredCards() {
-      return this.advancedImgCards.filter( c => c.slug == )
-
     }
-  },
-  watch: {
-    page: {
-      handler(page) {
-        this.rightPage = page;
-        console.log(page);
-      }
-    }
-  },
-  async mounted() {
-    await this._loadCards();
-
   },
   methods: {
-    async _loadCards() {
+    changePageContent(val) {
+      switch(val) {
+        default: case 'zakladne-skoly':
+          await this._loadCards(1);
+        case 'stredne-skoly':
+          await this._loadCards(2);
+        case 'vysoke-skoly':
+          await this._loadCards(3);
+      }
+    },
+    async _loadCards(id) {
       try {
-        const cards = await apiService.get("advancedImgCard");
+        const cards = await apiService.get(`categories/${id}`);
         this.advancedImgCards = cards.data;
         console.log(cards.data);
       } catch (e) {

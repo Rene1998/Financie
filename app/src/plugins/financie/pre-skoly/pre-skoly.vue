@@ -8,13 +8,13 @@
             {{ content }}
           </p>
           <p>
-            <router-link to="/pre-skoly/zakladne-skoly" v-on:click="changePage( zakladne-skoly )"
+            <router-link to="/pre-skoly/zakladne-skoly" v-on:click="changePage( 1 )"
               >Základné školy</router-link>
             •
-            <router-link to="/pre-skoly/stredne-skoly" v-on:click="changePage( stredne-skoly )"
+            <router-link to="/pre-skoly/stredne-skoly" v-on:click="changePage( 2 )"
               >Stredné školy</router-link>
             •
-            <router-link to="/pre-skoly/vysoke-skoly" v-on:click="changePage( vysoke-skoly )"
+            <router-link to="/pre-skoly/vysoke-skoly" v-on:click="changePage( 3 )"
               >Vysoke školy</router-link>
           </p>
         </div>
@@ -85,7 +85,6 @@ export default {
       skola: null,
       title: null,
       content: null,
-      page: null,
     };
   },
   methods: {
@@ -93,9 +92,6 @@ export default {
       this.skola = cardContent[val].category;
       this.title = cardContent[val].title;
       this.content = cardContent[val].content;
-    },
-    changePage( text ) {
-      this.page = text;
     },
   },
   components: {
