@@ -33,10 +33,14 @@
     </div>
 
     <div class="container">
-      <div class="row mb-5">
-        <div class="col-4 d-flex align-items-center">
-          <b-icon icon="link45deg"></b-icon>
-          <h6 class="m-0">Užitočné linky</h6>
+      <div class="row border-center mb-5">
+        <div class="col-4 ">
+          <div class="d-flex align-items-center">
+            <b-icon icon="link45deg"></b-icon>
+            <h6 class="m-0">Užitočné linky</h6>
+          </div>
+          <!-- tie link card si nic nemaju nacitavat zo serveru, to si maju nacitat na tomto screene a do link cards poslat cez props iba data ktore maju vypisat/ -->
+          <z-linkCards></z-linkCards>
         </div>
         <div class="col-4 d-flex align-items-center">
           <b-icon icon="question-circle-fill"></b-icon>
@@ -46,18 +50,6 @@
           <b-icon icon="calculator-fill"></b-icon>
           <h6 class="m-0">Kalkulačky a návody</h6>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="line col-4">
-          <div><z-linkCards></z-linkCards></div>
-          <hr />
-        </div>
-
-        <div class="line col-4"></div>
-
-        <div class="line col-4"></div>
       </div>
     </div>
   </div>
@@ -95,6 +87,12 @@ export default {
   height: 28px;
   &:hover {
     color: #1eaee1;
+  }
+}
+
+.border-center{
+  .col-4:not(:last-of-type){
+    border-right: 1px solid red;
   }
 }
 </style>

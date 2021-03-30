@@ -3,11 +3,11 @@
     <div class="card" v-for="linkCard in linkCards" :key="linkCard.id">
     <div class="body">
       <p class="mt-4">{{ posted_at }} • {{ linkCard.time }} prečítanie</p>
-      <div class="pointer">
-        <a>
+
+        <h3>
           {{ linkCard.content }}
-        </a>
-      </div>
+        </h3>
+     
     </div>
   </div>
   </div>
@@ -50,23 +50,27 @@ export default {
   border: none;
   width: 307px;
   height: 175px;
+  border-radius: 0px;
+  &:not(:last-of-type){
+     border-bottom: 1px solid red;
+  }
+
+  h3{
+    max-width: 235px;
+    font-size: 18px;
+    font-weight: 700;
+
+    &:hover {
+      cursor: pointer;
+      color: #1eaee1;
+    }
+  }
+
 
   p {
     font-size: 14px;
 
     color: #898989;
-  }
-
-  .pointer {
-    cursor: pointer;
-
-    &:hover {
-      color: #1eaee1;
-    }
-    a {
-      font-size: 18px;
-      font-weight: 700;
-    }
   }
 }
 </style>
