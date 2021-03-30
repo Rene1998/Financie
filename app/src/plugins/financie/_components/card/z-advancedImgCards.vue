@@ -100,17 +100,17 @@ export default {
     async changePageContent(val) {
       switch(val) {
         default: case 'zakladne-skoly':
-          await this._loadCards(1);
+          await this._loadCards(1); break
         case 'stredne-skoly':
-          await this._loadCards(2);
+          await this._loadCards(2); break
         case 'vysoke-skoly':
-          await this._loadCards(3);
+          await this._loadCards(3); break
       }
     },
     async _loadCards(id) {
       try {
         const cards = await apiService.get(`categories/${id}`);
-        this.advancedImgCards = cards.data;
+        this.advancedImgCards = cards.data.advanced_img_cards;
         console.log(cards.data);
       } catch (e) {
         console.error(e);
