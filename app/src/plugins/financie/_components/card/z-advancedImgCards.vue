@@ -90,6 +90,12 @@ export default {
       rightPage: null,
     };
   },
+  computed: {
+    filteredCards() {
+      return this.advancedImgCards.filter( c => c.slug == )
+
+    }
+  },
   watch: {
     page: {
       handler(page) {
@@ -100,6 +106,7 @@ export default {
   },
   async mounted() {
     await this._loadCards();
+
   },
   methods: {
     async _loadCards() {
