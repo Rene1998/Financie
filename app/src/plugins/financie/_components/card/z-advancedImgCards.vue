@@ -97,7 +97,7 @@ export default {
     }
   },
   methods: {
-    changePageContent(val) {
+    async changePageContent(val) {
       switch(val) {
         default: case 'zakladne-skoly':
           await this._loadCards(1);
