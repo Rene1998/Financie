@@ -24,7 +24,7 @@ class Advancedimgcard extends Model
     public $belongsTo =[
         'category' => [
             'Financie\Advancedimgcard\Models\Category',
-            'order' => 'category_title'
+            'order' => 'id'
         ]
     ];
 

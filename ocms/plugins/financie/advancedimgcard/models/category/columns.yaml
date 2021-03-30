@@ -4,3 +4,8 @@ columns:
         type: text
         searchable: true
         sortable: true
+    id:
+        label: Id
+        type: number
+        searchable: true
+        sortable: true

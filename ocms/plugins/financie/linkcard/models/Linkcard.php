@@ -21,11 +21,10 @@ class Linkcard extends Model
     public $rules = [
     ];
 
-    public $belongsToMany = [
-        'categories' => [
+    public $belongsTo =[
+        'category' => [
             'Financie\Linkcard\Models\Category',
-            'table' => 'financie_linkcard_linkcard_categories',
-            'order' => 'category_title'
+            'order' => 'id'
         ]
     ];
 }

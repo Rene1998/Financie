@@ -26,4 +26,12 @@ class Category extends Model
      */
     public $rules = [
     ];
+
+    public $hasMany = [
+        'linkCards' => 'Financie\Linkcard\Models\Linkcard'
+    ];
+
+    public $with = [
+        'linkCards'
+    ];
 }
