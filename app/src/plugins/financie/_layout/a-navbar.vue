@@ -10,7 +10,7 @@
             </b-nav-item>
           </b-navbar-nav>
 
-          <hr />
+          <hr class="mr-1" />
           <router-link to="/"
             ><img class="logo" src="./assets/logo.png" alt="logo"
           /></router-link>

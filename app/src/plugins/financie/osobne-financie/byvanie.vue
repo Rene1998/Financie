@@ -15,6 +15,14 @@
     </div>
     <z-progressBar></z-progressBar>
     <z-carousel></z-carousel>
+
+    <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Základné články</h4>
+      <p>
+        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote.
+      </p>
+    </div>
+
     <div class="container mt-5 mb-5">
       <div class="row">
         <div class="col-3">
@@ -31,6 +39,21 @@
         </div>
       </div>
     </div>
+
+     <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Najnovšie články o hypotekách</h4>
+      <p>
+        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote.
+      </p>
+    </div>
+
+    <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Najlepšie produkty na našom trhu</h4>
+      <p>
+       Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
+      </p>
+    </div>
+
 
     <div class="container">
       <div class="row border-center mb-5">
@@ -90,8 +113,8 @@ export default {
   }
 }
 
-.border-center{
-  .col-4:not(:last-of-type){
+.border-center {
+  .col-4:not(:last-of-type) {
     border-right: 1px solid red;
   }
 }

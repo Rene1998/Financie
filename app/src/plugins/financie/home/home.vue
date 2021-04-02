@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div class=" preskoly-wrapper">
-      <div class="container d-flex align-items-center ">
+    <div class="preskoly-wrapper">
+      <div class="container d-flex align-items-center">
         <div class="preskoly-welcome-text">
           <h1>
-            Prevedieme vás životnou <br />
-            finančnou cestou.
+            Prevedieme vás životnou
+            <br />finančnou cestou.
           </h1>
           <p class="p-0 mt-4 mb-5">
-            Získajte odborníka na kľúčové finančné momenty <br />
-            vo vašom živote.
+            Získajte odborníka na kľúčové finančné momenty
+            <br />vo vašom živote.
           </p>
         </div>
       </div>
     </div>
 
-    <div class=" container">
+    <div class="container">
       <div class="row category-cards">
         <div
           v-for="card in cards"
@@ -30,6 +30,14 @@
     </div>
 
     <z-carousel></z-carousel>
+
+    <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Budeme pri vás, počas toho ako si plníťe vaše sny a ciele</h4>
+      <p>
+        Pripravili sme pre vás všetky možné finančné otázky a odpovede
+        <br />na ktoré móžete naraziť vo vašom živote.
+      </p>
+    </div>
 
     <div class="container">
       <div class="row mb-4">

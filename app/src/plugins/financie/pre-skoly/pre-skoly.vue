@@ -37,6 +37,14 @@
 
     <z-carousel></z-carousel>
 
+    <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Boli by sme radi, aby už na základnej škole mali deti finančné vzdelávanie.</h4>
+      <p>
+       A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br> prevedú finančným vzdelaním.
+      </p>
+    </div>
+
+
     <div class="container">
       <div class="row mb-4">
         <z-advancedImgCards></z-advancedImgCards>
