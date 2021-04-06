@@ -81,27 +81,27 @@ export default {
       cards: [
         {
           title: "Bývanie",
-          icon: "np_home_dark_blue.png",
+          icon: "Home.svg",
         },
         {
           title: "Rodina a deti",
-          icon: "np_family_dark_blue.png",
+          icon: "Family-group.svg",
         },
         {
           title: "Auto",
-          icon: "np_car_dark_blue.png",
+          icon: "Car.svg",
         },
         {
           title: "Dôchodok",
-          icon: "np_old_dark_blue.png",
+          icon: "OldFamily-group.svg",
         },
         {
           title: "Exekúcia",
-          icon: "np_pay_dark_blue.png",
+          icon: "Execution.svg",
         },
         {
           title: "Práca a dane",
-          icon: "np_work_dark_blue.png",
+          icon: "Work.svg",
         },
       ],
     };

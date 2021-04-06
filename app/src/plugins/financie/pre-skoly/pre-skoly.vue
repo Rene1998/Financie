@@ -4,7 +4,7 @@
       <div class="container ">
         <div class="preskoly-welcome-text">
           <h1>{{ title }}</h1>
-          <p>
+          <p class="content">
             {{ content }}
           </p>
           <p>
@@ -138,15 +138,20 @@ export default {
   border-radius: 5px !important;
 }
 a {
-  color: #1eaee1;
+  color: rgba(25, 40, 59, 1);
   text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
   &:hover {
-    color: #136685;
+    color: #1EAEE1;
   }
 }
 
 h5 {
   font-size: 24px;
+}
+.content{
+  max-width: 315px;
 }
 </style>

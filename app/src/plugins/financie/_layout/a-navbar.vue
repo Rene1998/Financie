@@ -12,7 +12,7 @@
 
           <hr class="mr-1" />
           <router-link to="/"
-            ><img class="logo" src="./assets/logo.png" alt="logo"
+            ><img class="logo" src="./assets/logo.svg" alt="logo"
           /></router-link>
         </b-navbar-nav>
 
@@ -62,10 +62,6 @@ export default {};
 .navbar {
   height: 63px;
 
-  .logo {
-    width: 120px;
-    height: 30px;
-  }
 
   .nav-link:hover {
     color: #1eaee1 !important;

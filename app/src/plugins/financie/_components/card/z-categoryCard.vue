@@ -3,7 +3,7 @@
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
         <img class="category-card" :src="cardImg" alt="" />
-        <h6 class="card-title">{{ card.title }}</h6>
+        <h6 class="card-title mt-3">{{ card.title }}</h6>
       </div>
     </div>
   </div>
@@ -24,10 +24,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.category-card {
-  height: 75px;
-  width: 75px;
-}
 .card {
   cursor: pointer;
   bottom: 80px;
@@ -49,5 +45,9 @@ export default {
   &:focus {
     border-bottom: 5px solid #1eaee1;
   }
+}
+h6{
+  font-size: 18px;
+  font-weight: 400;
 }
 </style>
