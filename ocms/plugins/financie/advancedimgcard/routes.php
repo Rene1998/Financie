@@ -17,3 +17,7 @@ Route::get('api/categories/{id}', function($id){
     return Category::findOrFail($id);
 });
 
+Route::get('api/categories/slug/{slug}', function($slug){
+    return Category::where('slug', $slug)->firstOrFail();
+});
+
