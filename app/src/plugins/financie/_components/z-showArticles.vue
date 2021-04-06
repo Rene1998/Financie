@@ -1,18 +1,11 @@
 <template>
-  <div class="container">
-    <div class="row mb-5 mt-5">
-      <div class="col text-center">
-        <h2>Informácie ktoré vám pomôžu k správnemu investovaniu.</h2>
-        <p class="p-2">
-          Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na
-          ktoré móžete naraziť vo vašom živote.
-        </p>
-        <p class="show-articles">
-          <a href="#">Zobraziť všetky články</a>
-        </p>
-      </div>
+  <div class="container text-center mt-5 mb-5 hardcode-text">
+      <h4>Informácie ktoré vám pomôžu k správnemu investovaniu.</h4>
+      <p>
+       Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.
+      </p>
+      <a href="">Zobraziť všetky články</a>
     </div>
-  </div>
 </template>
 <style lang="scss" scoped>
 a{
