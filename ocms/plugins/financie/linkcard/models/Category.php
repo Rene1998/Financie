@@ -28,7 +28,10 @@ class Category extends Model
     ];
 
     public $hasMany = [
-        'linkCards' => 'Financie\Linkcard\Models\Linkcard'
+        'linkCards' => [
+            'Financie\Linkcard\Models\Linkcard',
+            'delete' => 'true'
+            ]
     ];
 
     public $with = [

@@ -17,3 +17,7 @@ Route::get('api/linkCard/categories', function(){
 Route::get('api/linkCard/categories/{id}', function($id){
     return Category::findOrFail($id);
 });
+
+Route::get('api/linkCard/categories/slug/{slug}', function($slug){
+    return Category::where('slug', $slug)->firstOrFail();
+});
