@@ -2,15 +2,33 @@
   <div>
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card mt-4" src="https://cdn.discordapp.com/attachments/695278638609727553/825344099917758464/np_home_3367736_000000_1.png" alt="" />
-        <h6 class="card-title m-2">Maďarská hypotéka</h6>
-        <p class="mt-4">Môžete refinancovať vašu hypotéku bez problémov.</p>
+        <img class="category-card mt-4" :src="cardIcon" alt="" />
+        <h6 class="card-title m-2">
+          {{ card.title }}
+        </h6>
+        <p class="mt-4">
+          {{ card.text }}
+        </p>
         <a class="mt-4">Prečítať viac</a>
       </div>
     </div>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  props: {
+    card: {
+      type: Object,
+      required: true,
+    },
+  },
+  computed: {
+    cardIcon() {
+      return require(`./assets/${this.card.icon}`);
+    },
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 .card {

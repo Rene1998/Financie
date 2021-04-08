@@ -19,41 +19,39 @@
     <div class="container text-center mt-5 mb-5 hardcode-text">
       <h4>Základné články</h4>
       <p>
-        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote.
+        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+        na ktoré môžete naraziť vo vašom živote.
       </p>
     </div>
 
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-3">
-          <z-miniCards></z-miniCards>
-        </div>
-        <div class="col-3">
-          <z-miniCards></z-miniCards>
-        </div>
-        <div class="col-3">
-          <z-miniCards></z-miniCards>
-        </div>
-        <div class="col-3">
-          <z-miniCards></z-miniCards>
+        <div
+          v-for="card in cards"
+          :key="card.title"
+          :title="card.title"
+          :text="card.text"
+          class="col-3"
+        >
+            <z-miniCards :card="card"></z-miniCards>
+          </div>
         </div>
       </div>
-    </div>
 
-     <div class="container text-center mt-5 mb-5 hardcode-text">
+    <div class="container text-center mt-5 mb-5 hardcode-text">
       <h4>Najnovšie články o hypotekách</h4>
       <p>
-        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré môžete naraziť vo vašom živote.
+        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+        na ktoré môžete naraziť vo vašom živote.
       </p>
     </div>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
       <h4>Najlepšie produkty na našom trhu</h4>
       <p>
-       Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
+        Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
       </p>
     </div>
-
 
     <div class="container">
       <div class="row border-center mb-5">
@@ -85,6 +83,32 @@ export default {
     "z-miniCards": () => import("../_components/card/z-miniCards"),
     "z-linkCards": () => import("../_components/card/z-linkCards"),
     "z-progressBar": () => import("../osobne-financie/z-progressBar"),
+  },
+  data() {
+    return {
+      cards: [
+        {
+        title: "Hypotéka",
+        text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+        icon: "denis-obezny.jpg",
+        },
+        {
+        title: "Refinancovanie",
+        text: "Môžete refinancovať vašu hypotéku bez problémov.",
+        icon: "denis-obezny.jpg",
+        },
+        {
+        title: "Americká hypotéka",
+        text: "Čo znamená americká hypo",
+        icon: "denis-obezny.jpg",
+        },
+        {
+        title: "Poistenie",
+        text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+        icon: "denis-obezny.jpg",
+        },
+      ],
+    };
   },
 };
 </script>
