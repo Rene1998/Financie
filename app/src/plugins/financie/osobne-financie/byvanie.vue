@@ -90,22 +90,22 @@ export default {
         {
         title: "Hypotéka",
         text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
-        icon: "denis-obezny.jpg",
+        icon: "Blue-home.svg",
         },
         {
         title: "Refinancovanie",
         text: "Môžete refinancovať vašu hypotéku bez problémov.",
-        icon: "denis-obezny.jpg",
+        icon: "Slide-img.svg",
         },
         {
         title: "Americká hypotéka",
         text: "Čo znamená americká hypo",
-        icon: "denis-obezny.jpg",
+        icon: "Home$.svg",
         },
         {
         title: "Poistenie",
         text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
-        icon: "denis-obezny.jpg",
+        icon: "Umbrella.svg",
         },
       ],
     };
