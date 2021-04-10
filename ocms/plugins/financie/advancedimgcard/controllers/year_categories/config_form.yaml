@@ -1,0 +1,10 @@
+name: Year_categories
+form: $/financie/advancedimgcard/models/year_category/fields.yaml
+modelClass: Financie\Advancedimgcard\Models\Year_category
+defaultRedirect: financie/advancedimgcard/year_categories
+create:
+    redirect: 'financie/advancedimgcard/year_categories/update/:id'
+    redirectClose: financie/advancedimgcard/year_categories
+update:
+    redirect: financie/advancedimgcard/year_categories
+    redirectClose: financie/advancedimgcard/year_categories

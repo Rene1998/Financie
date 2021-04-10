@@ -14,3 +14,7 @@ navigation:
                 label: Kategórie
                 url: financie/advancedimgcard/categories
                 icon: icon-list
+            side-menu-item2:
+                label: 'Kategórie ročníkov'
+                url: financie/advancedimgcard/year_categories
+                icon: icon-list

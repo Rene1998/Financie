@@ -21,10 +21,16 @@ class Advancedimgcard extends Model
     public $rules = [
     ];
 
+    
+
+
     public $belongsTo =[
+        'year_category' => [
+            'Financie\Advancedimgcard\Models\Year_category',
+            'order' => 'id'
+        ],
         'category' => [
             'Financie\Advancedimgcard\Models\Category',
-            'order' => 'id'
         ]
     ];
 
@@ -35,4 +41,10 @@ class Advancedimgcard extends Model
         'image'
     ];
 
+    public function getYearCategoryOptions(){
+        return Year_category::where('category_id', $this->category_id)->lists('category_title', 'id');
+    }
+
 }
+
+

@@ -33,9 +33,19 @@ fields:
         span: auto
         type: fileupload
         mode: image
+
     category:
-        label: Kategórie
+        label: 'Kategórie'
         nameFrom: category_title
         descriptionFrom: description
         span: auto
         type: relation
+
+    year_category:
+        label: 'Kategórie ročníkov'
+        nameFrom: category_title
+        descriptionFrom: description
+        span: left
+        type: dropdown
+
+    

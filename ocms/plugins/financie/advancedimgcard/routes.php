@@ -1,6 +1,7 @@
 <?php
  use Financie\Advancedimgcard\Models\Advancedimgcard;
  use Financie\Advancedimgcard\Models\Category;
+ use Financie\Advancedimgcard\Models\Year_category;
 
 Route::get('api/advancedImgCard', function(){
 

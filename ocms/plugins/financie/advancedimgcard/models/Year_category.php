@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Category extends Model
+class Year_category extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -19,7 +19,7 @@ class Category extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'financie_advancedimgcard_categories';
+    public $table = 'financie_advancedimgcard_year_categories';
 
     /**
      * @var array Validation rules
@@ -27,14 +27,20 @@ class Category extends Model
     public $rules = [
     ];
 
+    public $belongsTo = [
+        'category' => [
+            'Financie\Advancedimgcard\Models\Category',
+        ]
+    ];
+
     public $hasMany = [
-        'year_category' => [
-            'Financie\Advancedimgcard\Models\Year_category',
+        'advancedImgCards' => [
+            'Financie\Advancedimgcard\Models\Advancedimgcard',
             'delete' => 'true'
         ]
     ];
 
     public $with = [
-        'year_category'
+        'advancedImgCards'
     ];
 }
