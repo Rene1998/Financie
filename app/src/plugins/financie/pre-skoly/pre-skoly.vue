@@ -8,13 +8,13 @@
             {{ content }}
           </p>
           <p>
-            <router-link to="/pre-skoly/zakladne-skoly" v-on:click="changePage( 1 )"
+            <router-link to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link>
             •
-            <router-link to="/pre-skoly/stredne-skoly" v-on:click="changePage( 2 )"
+            <router-link to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link>
             •
-            <router-link to="/pre-skoly/vysoke-skoly" v-on:click="changePage( 3 )"
+            <router-link to="/pre-skoly/vysoke-skoly"
               >Vysoke školy</router-link>
           </p>
         </div>
@@ -28,6 +28,7 @@
           :key="card.id"
           :title="card.title"
           :img="card.img"
+          :link="card.link"
           class="col-3"
         >
           <z-categoryCard :card="card"></z-categoryCard>

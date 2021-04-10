@@ -1,11 +1,13 @@
 <template>
   <div>
-    <div class="card d-flex align-items-center flex-column text-center">
-      <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card" :src="cardImg" alt="" />
-        <h6 class="card-title mt-3">{{ card.title }}</h6>
+    <router-link :to="card.link"> 
+      <div class="card d-flex align-items-center flex-column text-center">
+        <div class="card-body d-flex align-items-center flex-column">
+          <img class="category-card" :src="cardImg" alt="" />
+          <h6 class="card-title mt-3">{{ card.title }}</h6>
+        </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 <script>
