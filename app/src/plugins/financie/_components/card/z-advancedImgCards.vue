@@ -14,9 +14,9 @@
             {{ advancedImgCard.content }}
           </b-card-text>
           <div class="hb">
-            <b-card-body class="hb d-flex justify-content-between mr-2">
+            <b-card-body class="hb d-flex justify-content-between mr-2" v-if="advancedImgCard.doc1_link != ''">
               <b-card-link>
-                <h6 class=" mb-0">Príručnka pre učiteľov</h6>
+                <h6 class=" mb-0">{{advancedImgCard.doc1_link}}</h6>
               </b-card-link>
 
               <b-card-link>
@@ -38,9 +38,9 @@
             <hr class="hb m-0" />
           </div>
           <div class="hb">
-            <b-card-body class="d-flex justify-content-between mr-2">
+            <b-card-body class="d-flex justify-content-between mr-2" v-if="advancedImgCard.doc2_link != ''">
               <b-card-link class="m-0">
-                <h6 class="m-0 mb-0">Cvičenie pre žiakov</h6>
+                <h6 class="m-0 mb-0">{{advancedImgCard.doc2_link}}</h6>
               </b-card-link>
 
               <b-card-link>
@@ -60,7 +60,7 @@
           </div>
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <b-card-link>
-              <h6 class="mb-0">Pozrieť video</h6>
+              <h6 class="mb-0">{{advancedImgCard.video_link}}</h6>
             </b-card-link>
 
             <b-card-link>
