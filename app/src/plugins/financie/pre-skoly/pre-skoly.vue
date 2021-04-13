@@ -9,13 +9,14 @@
           </p>
           <p>
             <router-link to="/pre-skoly/zakladne-skoly"
-              >Základné školy</router-link>
+              >Základné školy</router-link
+            >
             •
             <router-link to="/pre-skoly/stredne-skoly"
-              >Stredné školy</router-link>
+              >Stredné školy</router-link
+            >
             •
-            <router-link to="/pre-skoly/vysoke-skoly"
-              >Vysoke školy</router-link>
+            <router-link to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
           </p>
         </div>
       </div>
@@ -31,7 +32,9 @@
           :link="card.link"
           class="col-3"
         >
-          <z-categoryCard :card="card"></z-categoryCard>
+          <div v-on:click="changeCardContent(card.link)">
+            <z-categoryCard :card="card"></z-categoryCard>
+          </div>
         </div>
       </div>
     </div>
@@ -39,16 +42,20 @@
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Boli by sme radi, aby už na základnej škole mali deti finančné vzdelávanie.</h4>
+      <h4>
+        Boli by sme radi, aby už na základnej škole mali deti finančné
+        vzdelávanie.
+      </h4>
       <p>
-       A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br> prevedú finančným vzdelaním.
+        A preto sme učiteľom a ich žiakom na základných a stredných školách
+        pripravili príručky, cvičenia a videá, ktoré vás <br />
+        prevedú finančným vzdelaním.
       </p>
     </div>
 
-
     <div class="container">
       <div class="row mb-4">
-        <z-advancedImgCards></z-advancedImgCards>
+        <z-advancedImgCards :cardContent="cardContent"></z-advancedImgCards>
       </div>
     </div>
     <div class="container text-center mb-5 ">
@@ -94,19 +101,23 @@ export default {
       skola: null,
       title: null,
       content: null,
+      cardContent: null,
     };
   },
   methods: {
     changePageContent(val) {
-      this.skola = cardContent[val].category;
-      this.title = cardContent[val].title;
-      this.content = cardContent[val].content;
+      this.skola = cardContent[val].category
+      this.title = cardContent[val].title
+      this.content = cardContent[val].content
+      this.cardContent = cardContent[val].defaultLink
     },
+    changeCardContent(val) {
+      this.cardContent = val;
+    }
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCards": () =>
-      import("../_components/card/z-advancedImgCards"),
+    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
@@ -123,7 +134,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   .container {
     display: flex;
     align-items: center;
@@ -145,14 +156,14 @@ a {
   font-weight: bold;
   font-size: 14px;
   &:hover {
-    color: #1EAEE1;
+    color: #1eaee1;
   }
 }
 
 h5 {
   font-size: 24px;
 }
-.content{
+.content {
   max-width: 315px;
 }
 </style>

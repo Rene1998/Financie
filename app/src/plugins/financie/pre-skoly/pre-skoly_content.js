@@ -4,29 +4,30 @@ const zakladneSkoly = {
 			id: 1,
 			title: "1 - 2 Ročník",
 			img:"rocnik1.svg",
-			link:"/pre-skoly/zakladne-skoly/rocnik-1-2"
+			link:"1-2-rocnik"
 			},
 			{
 			id: 2,
 			title: "3 - 4 Ročník",
 			img:"rocnik2.svg",
-			link:"/pre-skoly/zakladne-skoly/rocnik-3-4"
+			link:"3-4-rocnik"
 			},
 			{
 			id: 3,
 			title: "5 - 6 Ročník",
 			img: "rocnik3.svg",
-			link:"/pre-skoly/zakladne-skoly/rocnik-5-6"
+			link:"5-6-rocnik"
 			},
 			{
 			id: 4,
 			title: "7 - 9 Ročník",
 			img: "rocnik4.svg",
-			link:"/pre-skoly/zakladne-skoly/rocnik-7-9"
+			link:"7-9-rocnik"
 			}
 		],
 	content: 'Pripravili sme pre vás materiály pre učiteľov zo základných škôl.',
-	title: 'Základná škola'
+	title: 'Základná škola',
+	defaultLink: '1-2-rocnik'
 
 };
 const stredneSkoly = {
@@ -35,29 +36,30 @@ const stredneSkoly = {
 		id: 1,
 		title: "1. Ročník",
 		img:"rocnik1.svg",
-		link:"/pre-skoly/stredne-skoly/rocnik-1"
+		link:"1-rocnik"
 		},
 		{
 		id: 2,
 		title: "2. Ročník",
 		img:"rocnik2.svg",
-		link:"/pre-skoly/stredne-skoly/rocnik-2"
+		link:"2-rocnik"
 		},
 		{
 		id: 3,
 		title: "3. Ročník",
 		img:"rocnik3.svg",
-		link:"/pre-skoly/stredne-skoly/rocnik-3"
+		link:"3-rocnik"
 		},
 		{
 		id: 4,
 		title: "4. Ročník",
 		img:"rocnik4.svg",
-		link:"/pre-skoly/stredne-skoly/rocnik-4"
+		link:"4-rocnik"
 		}
 	],
 	content: 'Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.',
-	title: 'Stredná škola'
+	title: 'Stredná škola',
+	defaultLink: '1-rocnik'
 }
 const vysokeSkoly = {
 	category: [
@@ -65,29 +67,30 @@ const vysokeSkoly = {
 		id: 1,
 		title: "1. semester",
 		img:"rocnik1.svg",
-		link:"/pre-skoly/vysoke-skoly/semester-1"
+		link:"1-semester"
 		},
 		{
 		id: 2,
 		title: "2. semester",
 		img:"rocnik2.svg",
-		link:"/vysoke-skoly/semester-2"
+		link:"2-semester"
 		},
 		{
 		id: 3,
 		title: "3. semester",
 		img:"rocnik3.svg",
-		link:"/pre-skoly/vysoke-skoly/semester-3"
+		link:"3-semester"
 		},
 		{
 		id: 4,
 		title: "4. semester",
 		img:"rocnik4.svg",
-		link:"/pre-skoly/vysoke-skoly/semester-4"
+		link:"4-semester"
 		}
 	],
 	content: 'Pripravili sme pre vás materiály pre učiteľov z vysokých škôl.',
-	title: 'Vysoká škola'
+	title: 'Vysoká škola',
+	defaultLink: '1-semester'
 }
 
 export default {

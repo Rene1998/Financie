@@ -83,32 +83,46 @@ import apiService from "../../common/apiService";
 
 export default {
   name: "z-advancedImgCards",
+  props: {
+    cardContent: {
+      type: String,
+      required: true,
+    },
+  },
   watch: {
     "$route.params.slug": {
       immediate: true,
       handler(val) {
-        this.changePageContent(val);
+        this.actualPage(val)
+        console.log(this.page)
       },
     },
+    cardContent: {
+      immediate: true,
+      handler(val) {
+        console.log(val)
+        this._loadCards(val, this.page)
+      }
+    }
   },
   data() {
     return {
       advancedImgCards: [],
+      page: '',
     }
   },
   methods: {
-    async changePageContent(val) {
-        this._loadCards(val)
-      },
-    async _loadCards(slug) {
-      try {
-        const cards = await apiService.get(`categories/slug/${slug}`);
-        this.advancedImgCards = cards.data.advanced_img_cards;
-        console.log(cards.data);
-      } catch (e) {
-        console.error(e);
-      }
+    async _loadCards(rocnik, stranka) {
+    try{
+      const cards = await apiService.get(`categories/slug/${stranka}`)
+      this.advancedImgCards = cards.data.year_category.find(e => e.slug == rocnik).advanced_img_cards
+    } catch (e) {
+      console.error(e)
+    }
     },
+    actualPage(stranka) {
+      this.page = stranka
+    }
   },
 };
 </script>
