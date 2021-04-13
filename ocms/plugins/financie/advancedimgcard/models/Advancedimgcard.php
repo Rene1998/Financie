@@ -47,8 +47,8 @@ class Advancedimgcard extends Model
 
     public function getTypeOptions(){
         return [
-            'Link' => 'Karta s linkmi',
-            'Video' => 'Video karta',
+            'advancedImgCardLink' => 'Karta s linkmi',
+            'advancedImgCardVideo' => 'Video karta',
         ];
     }
 
