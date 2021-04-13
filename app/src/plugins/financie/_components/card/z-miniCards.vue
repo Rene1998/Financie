@@ -6,7 +6,7 @@
         <h6 class="card-title m-2">
           {{ card.title }}
         </h6>
-        <p class="mt-4">
+        <p class="mt-4 height">
           {{ card.text }}
         </p>
         <a class="mt-4">Prečítať viac</a>
@@ -68,6 +68,11 @@ a{
     text-decoration: none;
     font-size: 14px;
 }
+}
+
+
+.height{
+  height: 30px;
 }
 
 

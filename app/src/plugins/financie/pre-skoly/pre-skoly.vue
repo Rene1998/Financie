@@ -59,9 +59,11 @@
       </div>
     </div>
     
-    <z-switch></z-switch>
-    
-    <z-videoCard></z-videoCard>
+    <div class="d-flex align-items-center justify-content-center mb-5"> 
+      <z-switch></z-switch>
+    </div>
+
+   
     
 
     <div class="container text-center mb-5 ">
@@ -128,7 +130,6 @@ export default {
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
-    "z-videoCard": () => import("../_components/card/z-videoCard"),
     "z-switch": () => import("../_components/card/z-switch"),
   },
 };
