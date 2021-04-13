@@ -56,3 +56,8 @@ fields:
         span: auto
         type: fileupload
         mode: image
+    type:
+        label: 'Vyberte typ karty'
+        showSearch: true
+        span: right
+        type: dropdown

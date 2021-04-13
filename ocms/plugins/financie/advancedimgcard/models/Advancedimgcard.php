@@ -45,6 +45,13 @@ class Advancedimgcard extends Model
         return Year_category::where('category_id', $this->category_id)->lists('category_title', 'id');
     }
 
+    public function getTypeOptions(){
+        return [
+            'Link' => 'Karta s linkmi',
+            'Video' => 'Video karta',
+        ];
+    }
+
 }
 
 

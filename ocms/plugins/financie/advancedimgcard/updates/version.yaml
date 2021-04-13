@@ -15,3 +15,6 @@
 1.0.6:
     - 'Updated table financie_advancedimgcard_year_categories'
     - builder_table_update_financie_advancedimgcard_year_categories.php
+1.0.7:
+    - 'Updated table financie_advancedimgcard_'
+    - builder_table_update_financie_advancedimgcard__3.php
