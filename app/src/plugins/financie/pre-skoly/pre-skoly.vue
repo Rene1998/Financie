@@ -58,6 +58,12 @@
         <z-advancedImgCards :cardContent="cardContent"></z-advancedImgCards>
       </div>
     </div>
+    
+    <z-switch></z-switch>
+    
+    <z-videoCard></z-videoCard>
+    
+
     <div class="container text-center mb-5 ">
       <b-button variant="primary" class="download-all mb-5"
         >Stiahnuť všetky dokumenty</b-button
@@ -122,6 +128,8 @@ export default {
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
+    "z-videoCard": () => import("../_components/card/z-videoCard"),
+    "z-switch": () => import("../_components/card/z-switch"),
   },
 };
 </script>
