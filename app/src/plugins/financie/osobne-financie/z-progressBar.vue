@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid progressBar">
     <div class="container">
-      <div class="row">
+      <div class="row progressBar-row">
         <a href="" class="btn z-btn rounded-0">Vedeli ste, že...</a>
         <a href="" class="btn z-btn rounded-0">Základné informácie</a>
         <a href="" class="btn z-btn rounded-0">Najnovšie články</a>
@@ -14,8 +14,11 @@
 </template>
 
 <style lang="scss" scoped>
-  .progressBar { 
-    max-height: 70px;
-    background-color: #FBFBFC;
+.progressBar {
+  background-color: #fbfbfc;
+  a {
+    font-weight: 700;
   }
+}
+
 </style>

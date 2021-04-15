@@ -13,7 +13,9 @@
         </div>
       </div>
     </div>
+
     <z-progressBar></z-progressBar>
+
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -33,10 +35,10 @@
           :text="card.text"
           class="col-3"
         >
-            <z-miniCards :card="card"></z-miniCards>
-          </div>
+          <z-miniCards :card="card"></z-miniCards>
         </div>
       </div>
+    </div>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
       <h4>Najnovšie články o hypotekách</h4>
@@ -44,6 +46,12 @@
         Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
         na ktoré môžete naraziť vo vašom živote.
       </p>
+    </div>
+
+    <div class="container">
+      <div class="mt-3">
+        <z-blogCards></z-blogCards>
+      </div>
     </div>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -83,29 +91,30 @@ export default {
     "z-miniCards": () => import("../_components/card/z-miniCards"),
     "z-linkCards": () => import("../_components/card/z-linkCards"),
     "z-progressBar": () => import("../osobne-financie/z-progressBar"),
+    "z-blogCards": () => import("../_components/card/z-blogCards"),
   },
   data() {
     return {
       cards: [
         {
-        title: "Hypotéka",
-        text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
-        icon: "Blue-home.svg",
+          title: "Hypotéka",
+          text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+          icon: "Blue-home.svg",
         },
         {
-        title: "Refinancovanie",
-        text: "Môžete refinancovať vašu hypotéku bez problémov.",
-        icon: "Slide-img.svg",
+          title: "Refinancovanie",
+          text: "Môžete refinancovať vašu hypotéku bez problémov.",
+          icon: "Slide-img.svg",
         },
         {
-        title: "Americká hypotéka",
-        text: "Čo znamená americká hypo",
-        icon: "Home$.svg",
+          title: "Americká hypotéka",
+          text: "Čo znamená americká hypo",
+          icon: "Home$.svg",
         },
         {
-        title: "Poistenie",
-        text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
-        icon: "Umbrella.svg",
+          title: "Poistenie",
+          text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+          icon: "Umbrella.svg",
         },
       ],
     };

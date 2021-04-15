@@ -57,7 +57,7 @@
               © 2021 www.financie.sk Všetky práva vyhradené.
             </p>
             <div class="ml-auto ">
-              <a href="" class="btn z-btn rounded-0">Osobné financie</a>
+              <a href="" class="btn z-btn rounded-0">Osobné financie</a>a
               <a href="zakladne-skoly" class="btn z-btn rounded-0"
                 >Pre školy</a
               >
