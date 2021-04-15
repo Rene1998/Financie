@@ -55,7 +55,7 @@
 
     <div class="container">
       <div class="row mb-4">
-        <z-advancedImgCards :cardContent="cardContent"></z-advancedImgCards>
+        <z-advancedImgCards :cardContent="cardContent" :cardCategory="cardCategory"></z-advancedImgCards>
       </div>
     </div>
     
@@ -110,6 +110,7 @@ export default {
       title: null,
       content: null,
       cardContent: null,
+      cardCategory: "advancedImgCardLink",
     };
   },
   methods: {
@@ -120,8 +121,11 @@ export default {
       this.cardContent = cardContent[val].defaultLink
     },
     changeCardContent(val) {
-      this.cardContent = val;
-    }
+      this.cardContent = val
+    },
+    changeCardCategory(val) {
+      this.cardCategory = val
+    },
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
