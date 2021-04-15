@@ -56,14 +56,8 @@
     <div class="d-flex align-items-center justify-content-center mb-5">
       <div class="background d-flex align-items-center justify-content-center">
         <b-button-group>
-          <z-switch
-            :cardCategory="'Učebné materiály'"
-            v-on:click.native="changeCardCategory('advancedImgCardLink')"
-          ></z-switch>
-          <z-switch
-            :cardCategory="'Videá'"
-            v-on:click.native="changeCardCategory('advancedImgCardVideo')"
-          ></z-switch>
+          <button class=" switch-button p-0 " :class="{switchIsActive: active}" @click="changeCardCategory('advancedImgCardLink'); active=!active">Ucebne materialy</button>
+          <button class=" switch-button p-0 " :class="{switchIsActive: !active}" @click="changeCardCategory('advancedImgCardVideo'); active=!active" >videa</button>
         </b-button-group>
       </div>
     </div>
@@ -122,6 +116,7 @@ export default {
       content: null,
       cardContent: null,
       cardCategory: "advancedImgCardLink",
+      active: true,
     };
   },
   methods: {
@@ -141,13 +136,11 @@ export default {
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCards": () =>
-      import("../_components/card/z-advancedImgCards"),
+    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
     "z-showArticles": () => import("../_components/z-showArticles"),
-    "z-switch": () => import("../_components/card/z-switch"),
   },
 };
 </script>
@@ -192,4 +185,27 @@ h5 {
 .content {
   max-width: 315px;
 }
+.switch-button {
+  height: 28px;
+  width: 287px;
+  border: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+
+  &:hover {
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 6.93px;
+  }
+}
+.switchIsActive{
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 6.93px;
+}
+
 </style>
