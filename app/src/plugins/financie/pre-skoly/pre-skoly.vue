@@ -53,18 +53,29 @@
       </p>
     </div>
 
-    <div class="container">
-      <div class="row mb-4">
-        <z-advancedImgCards :cardContent="cardContent" :cardCategory="cardCategory"></z-advancedImgCards>
+    <div class="d-flex align-items-center justify-content-center mb-5">
+      <div class="background d-flex align-items-center justify-content-center">
+        <b-button-group>
+          <z-switch
+            :cardCategory="'Učebné materiály'"
+            v-on:click.native="changeCardCategory('advancedImgCardLink')"
+          ></z-switch>
+          <z-switch
+            :cardCategory="'Videá'"
+            v-on:click.native="changeCardCategory('advancedImgCardVideo')"
+          ></z-switch>
+        </b-button-group>
       </div>
     </div>
-    
-    <div class="d-flex align-items-center justify-content-center mb-5"> 
-      <z-switch></z-switch>
-    </div>
 
-   
-    
+    <div class="container">
+      <div class="row mb-4">
+        <z-advancedImgCards
+          :cardContent="cardContent"
+          :cardCategory="cardCategory"
+        ></z-advancedImgCards>
+      </div>
+    </div>
 
     <div class="container text-center mb-5 ">
       <b-button variant="primary" class="download-all mb-5"
@@ -115,21 +126,23 @@ export default {
   },
   methods: {
     changePageContent(val) {
-      this.skola = cardContent[val].category
-      this.title = cardContent[val].title
-      this.content = cardContent[val].content
-      this.cardContent = cardContent[val].defaultLink
+      this.skola = cardContent[val].category;
+      this.title = cardContent[val].title;
+      this.content = cardContent[val].content;
+      this.cardContent = cardContent[val].defaultLink;
     },
     changeCardContent(val) {
-      this.cardContent = val
+      this.cardContent = val;
     },
     changeCardCategory(val) {
-      this.cardCategory = val
+      this.cardCategory = val;
+      console.log(this.cardCategory)
     },
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
+    "z-advancedImgCards": () =>
+      import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
