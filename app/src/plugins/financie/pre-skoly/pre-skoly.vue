@@ -56,8 +56,8 @@
     <div class="d-flex align-items-center justify-content-center mb-5">
       <div class="background d-flex align-items-center justify-content-center">
         <b-button-group>
-          <button class=" switch-button p-0 " :class="{switchIsActive: active}" @click="changeCardCategory('advancedImgCardLink'); active=!active">Ucebne materialy</button>
-          <button class=" switch-button p-0 " :class="{switchIsActive: !active}" @click="changeCardCategory('advancedImgCardVideo'); active=!active" >videa</button>
+          <button class=" switch-button p-0 " :class="{switchIsActive: active}" @click="changeCardCategory('advancedImgCardLink'); active=!active">Učebné materiály</button>
+          <button class=" switch-button p-0 " :class="{switchIsActive: !active}" @click="changeCardCategory('advancedImgCardVideo'); active=!active">Videá</button>
         </b-button-group>
       </div>
     </div>
