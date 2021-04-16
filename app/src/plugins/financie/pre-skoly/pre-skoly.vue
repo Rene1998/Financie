@@ -190,7 +190,7 @@ h5 {
 
 .title{
   font-weight:700;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .switch-button {
