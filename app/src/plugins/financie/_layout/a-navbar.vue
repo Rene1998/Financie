@@ -62,10 +62,15 @@ export default {};
 .navbar {
   height: 63px;
 
-
   .nav-link:hover {
     color: #1eaee1 !important;
   }
+
+  a{
+    color: #192949 !important;
+  }
+
+ 
 
   hr {
     width: 30px;
@@ -77,6 +82,11 @@ export default {};
 }
 
 /deep/ {
+
+  &a{
+    color: #192949 !important;
+  }
+
   &.dropdown-toggle::after {
     display: none;
   }

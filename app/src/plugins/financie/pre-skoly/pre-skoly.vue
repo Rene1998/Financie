@@ -2,8 +2,8 @@
   <div>
     <div class="container-fluid preskoly-main">
       <div class="container ">
-        <div class="preskoly-welcome-text">
-          <h1>{{ title }}</h1>
+        <div class="preskoly-welcome-text mb-5">
+          <h1 class="title">{{ title }}</h1>
           <p class="content">
             {{ content }}
           </p>
@@ -184,7 +184,15 @@ h5 {
 }
 .content {
   max-width: 315px;
+  font-weight: 400;
+  font-size: 18px;
 }
+
+.title{
+  font-weight:700;
+  font-size: 48px;
+}
+
 .switch-button {
   height: 28px;
   width: 287px;

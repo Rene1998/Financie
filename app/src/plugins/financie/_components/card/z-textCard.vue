@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="card border-0 " v-for="textCard in textCards" :key="textCard.id">
+    <div class="card  " v-for="textCard in textCards" :key="textCard.id">
       <div class="card-body p-3">
-        <p class="timestamp">
+        <p class="timestamp mb-4 ">
           {{posted_at}} • {{textCard.time}} prečítanie
         </p>
-        <h5 class="card-text">
+        <h5 class="card-text mb-3">
           {{textCard.content}}
         </h5>
         <a href="#" class="card-link">Prečítať viac</a>
-        <div class="divider border-bottom m-3"></div>
+        
       </div>
 
     </div>
@@ -58,5 +58,20 @@ h5{
 }
 a{
   color: #1eaee1;
+}
+
+.card{
+  border: 0px;
+  border-radius: 0px;
+
+  &:not(:last-of-type){
+    border-bottom: 1px solid red;
+}
+
+.card-text{
+  max-width: 523px;
+}
+
+
 }
 </style>

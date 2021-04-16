@@ -78,6 +78,7 @@ span {
 }
 
 h5 {
+  font-weight: 400;
   font-family: HeadlandOne;
   font-size: 24px;
   line-height: 30px;
