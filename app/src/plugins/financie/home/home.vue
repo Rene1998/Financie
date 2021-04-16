@@ -22,9 +22,12 @@
           :key="card.title"
           :title="card.title"
           :icon="card.icon"
+          :link="card.link"
           class="col-4 mb-3"
         >
-          <z-homeCategoryCard class="mt-2" :card="card"></z-homeCategoryCard>
+          <router-link :to="'/osobne-financie/' + card.link">
+            <z-homeCategoryCard class="mt-2" :card="card"></z-homeCategoryCard>
+          </router-link>
         </div>
       </div>
     </div>
@@ -82,26 +85,32 @@ export default {
         {
           title: "Bývanie",
           icon: "Home.svg",
+          link: "byvanie",
         },
         {
           title: "Rodina a deti",
           icon: "Family-group.svg",
+          link: "rodina-a-deti",
         },
         {
           title: "Auto",
           icon: "Car.svg",
+          link: "auto",
         },
         {
           title: "Dôchodok",
           icon: "OldFamily-group.svg",
+          link: "dochodok",
         },
         {
           title: "Exekúcia",
           icon: "Execution.svg",
+          link: "exekucia",
         },
         {
           title: "Práca a dane",
           icon: "Work.svg",
+          link: "praca-a-dane",
         },
       ],
     };

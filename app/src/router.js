@@ -21,18 +21,18 @@ const routes = [
 			import('./plugins/financie/pre-skoly/pre-skoly.vue')
 	},
 	{
-		path: '/osobne-financie',
+		path: '/osobne-financie/:slug',
 		name: 'Osobne financie',
 		component: () =>
 			import('./plugins/financie/osobne-financie/osobne-financie.vue')
 	},
 
-	{
+	/*{
 		path: '/byvanie',
 		name: 'byvanie',
 		component: () =>
 			import('./plugins/financie/osobne-financie/byvanie.vue')
-	},
+	},*/
 ];
 
 const router = new VueRouter({
