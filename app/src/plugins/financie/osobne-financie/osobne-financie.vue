@@ -3,12 +3,13 @@
     <div class="container-fluid byvanie-main">
       <div class="container">
         <div class="byvanie-welcome-text">
-          <div class="col d-flex flex-column mb-5">
-            <a class="d-flex" @click="$router.go(-1)"><b-icon icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
-            <h1>{{ title }}</h1>
-            <p>
+          <div class="col d-flex flex-column mb-5 b-arrow">
+            <a class="mb-5 d-flex align-items-center " @click="$router.go(-1)"><b-icon class="mr-2"  icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
+            <h1 mt-5>{{ title }}</h1>
+            <p class="mb-5">
               {{ content }}
             </p>
+            <div class="m-5"></div>
           </div>
         </div>
       </div>
@@ -169,4 +170,14 @@ a {
   line-height: 24px;
   cursor: pointer;
 }
+
+.b-arrow{
+  .b-icon{
+    height: 20px !important;
+    width: 20px  !important;
+  }
+
+ 
+}
+
 </style>

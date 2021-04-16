@@ -156,7 +156,7 @@ export default {
   }
 }
 
-.b-card-link {
+.div {
   line-height: 24px;
 }
 

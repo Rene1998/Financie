@@ -14,65 +14,65 @@
       </b-card-text>
       <div class="hb">
         <b-card-body class="hb d-flex justify-content-between mr-2">
-          <b-card-link>
+          <div>
             <h6 class="mb-0">
               {{ advancedImgHomeCard.link1 }}
             </h6>
-          </b-card-link>
+          </div>
 
-          <b-card-link>
+          <div>
             <a :href="advancedImgHomeCard.link1_link" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
-          </b-card-link>
+          </div>
         </b-card-body>
         <hr class="hb m-0" />
       </div>
       <div class="hb">
         <b-card-body class="hb d-flex justify-content-between mr-2">
-          <b-card-link>
+          <div>
             <h6 class="mb-0">
               {{ advancedImgHomeCard.link2 }}
             </h6>
-          </b-card-link>
+          </div>
 
-          <b-card-link>
+          <div>
             <a :href="advancedImgHomeCard.link2_link" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
-          </b-card-link>
+          </div>
         </b-card-body>
         <hr class="hb m-0" />
       </div>
       <div class="hb">
         <b-card-body class="hb d-flex justify-content-between mr-2">
-          <b-card-link>
+          <div>
             <h6 class="mb-0">
               {{ advancedImgHomeCard.link3 }}
             </h6>
-          </b-card-link>
+          </div>
 
-          <b-card-link>
+          <div>
             <a :href="advancedImgHomeCard.link3_link" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
-          </b-card-link>
+          </div>
         </b-card-body>
         <hr class="hb m-0" />
       </div>
       <div v-if="advancedImgHomeCard.link4 != ''">
         <b-card-body class="hb d-flex justify-content-between mr-2">
-          <b-card-link>
+          <div>
             <h6 class="mb-0">
               {{ advancedImgHomeCard.link4 }}
             </h6>
-          </b-card-link>
+          </div>
 
-          <b-card-link>
+          <div>
             <a :href="advancedImgHomeCard.link4_link" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
-          </b-card-link>
+          </div>
         </b-card-body>
       </div>
     </b-card>
@@ -120,7 +120,7 @@ export default {
     margin-top: 17.5px;
   }
 
-  .b-card-link {
+  .div {
     line-height: 24px;
   }
 }
