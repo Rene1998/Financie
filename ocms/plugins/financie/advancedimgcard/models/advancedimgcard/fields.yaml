@@ -1,44 +1,7 @@
 fields:
     title:
         label: Nadpis
-        span: auto
-        type: text
-    content:
-        label: Obsah
-        size: tiny
-        span: auto
-        type: textarea
-    doc1_link:
-        label: 'Prvý link'
-        span: auto
-        type: text
-    doc2_link:
-        label: 'Druhý link'
-        span: auto
-        type: text
-    doc1_link_show:
-        label: 'Link na pozretie prvého súboru'
-        span: auto
-        type: text
-    doc2_link_show:
-        label: 'Link na pozretie druhého súboru'
-        span: auto
-        type: text
-    doc1_link_download:
-        label: 'Link na stiahnutie prvého súboru'
-        span: auto
-        type: text
-    doc2_link_download:
-        label: 'Link na stiahnutie druhého súboru'
-        span: auto
-        type: text
-    video_link:
-        label: 'Video link'
-        span: auto
-        type: text
-    video_show:
-        label: 'Link na pozretie videa'
-        span: auto
+        span: left
         type: text
     category:
         label: Kategórie
@@ -46,18 +9,66 @@ fields:
         descriptionFrom: description
         span: auto
         type: relation
+    content:
+        label: Obsah
+        size: tiny
+        span: left
+        type: textarea
     year_category:
         label: 'Kategórie ročníkov'
         showSearch: true
         span: auto
         type: dropdown
-    image:
-        label: Obrázok
-        span: auto
-        type: fileupload
-        mode: image
     type:
         label: 'Vyberte typ karty'
         showSearch: true
         span: right
         type: dropdown
+tabs:
+    fields:
+        doc1_link:
+            label: 'Prvý link'
+            span: left
+            type: text
+            tab: 'Prvý link'
+        doc1_link_show:
+            label: 'Link na pozretie prvého súboru'
+            span: left
+            type: text
+            tab: 'Prvý link'
+        doc1_link_download:
+            label: 'Link na stiahnutie prvého súboru'
+            span: left
+            type: text
+            tab: 'Prvý link'
+        doc2_link:
+            label: 'Druhý link'
+            span: left
+            type: text
+            tab: 'Druhý link'
+        doc2_link_show:
+            label: 'Link na pozretie druhého súboru'
+            span: left
+            type: text
+            tab: 'Druhý link'
+        doc2_link_download:
+            label: 'Link na stiahnutie druhého súboru'
+            span: left
+            type: text
+            tab: 'Druhý link'
+        video_link:
+            label: 'Video link'
+            span: left
+            type: text
+            tab: 'Video link'
+        video_show:
+            label: 'Link na pozretie videa'
+            span: left
+            type: text
+            tab: 'Video link'
+        image:
+            label: Obrázok
+            span: auto
+            type: fileupload
+            mode: image
+            tab: Obrázok

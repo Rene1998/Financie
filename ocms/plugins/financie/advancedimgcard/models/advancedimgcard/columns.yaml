@@ -4,4 +4,12 @@ columns:
         type: text
         searchable: true
         sortable: true
+    category:
+        label: Školy
+        relation: category
+        select: category_title
+    year_category:
+        label: Ročníky
+        relation: year_category
+        select: category_title
 
