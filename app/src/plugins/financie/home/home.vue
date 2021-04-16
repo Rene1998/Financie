@@ -25,9 +25,14 @@
           :link="card.link"
           class="col-4 mb-3"
         >
-          <router-link :to="'/osobne-financie/' + card.link">
-            <z-homeCategoryCard class="mt-2" :card="card"></z-homeCategoryCard>
-          </router-link>
+          <p>
+            <router-link :to="'/osobne-financie/' + card.link">
+              <z-homeCategoryCard
+                class="mt-2"
+                :card="card"
+              ></z-homeCategoryCard>
+            </router-link>
+          </p>
         </div>
       </div>
     </div>
@@ -145,6 +150,17 @@ export default {
     p {
       font-size: 18px;
     }
+  }
+}
+
+a {
+  color: rgba(25, 40, 59, 1);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  &:hover {
+    color: #1eaee1;
   }
 }
 
