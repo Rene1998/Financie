@@ -159,9 +159,6 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  &:hover {
-    color: #1eaee1;
-  }
 }
 
 .category-cards {

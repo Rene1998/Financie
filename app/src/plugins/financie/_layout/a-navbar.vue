@@ -18,7 +18,7 @@
 
         <b-navbar-nav class="d-flex align-items-center">
           <b-navbar-nav>
-            <b-nav-item
+            <b-nav-item to="/home"
               href="#"
               class="btn z-btn bp-3 d-flex align-items-center "
               >Osobné financie</b-nav-item

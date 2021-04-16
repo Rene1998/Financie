@@ -4,6 +4,7 @@
       <div class="container">
         <div class="byvanie-welcome-text">
           <div class="col d-flex flex-column mb-5">
+            <a class="d-flex" @click="$router.go(-1)"><b-icon icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
             <h1>{{ title }}</h1>
             <p>
               {{ content }}
@@ -157,5 +158,15 @@ export default {
   .col-4:not(:last-of-type) {
     border-right: 1px solid red;
   }
+}
+a {
+  color: #1eaee1;
+  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
 }
 </style>

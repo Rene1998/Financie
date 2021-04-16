@@ -1,30 +1,30 @@
 const byvanie = {
-	content: 'uga buga',
+	content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Bývanie',
 	defaultLink: 'byvanie'
 };
 const rodinaADeti = {
-	content: 'uga buga',
+	content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Rodina a deti',
 	defaultLink: 'rodina-a-deti'
 }
 const auto = {
-    content: 'uga buga',
+    content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Auto',
 	defaultLink: 'auto'
 }
 const dochodok = {
-    content: 'uga buga',
+    content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Dôchodok',
 	defaultLink: 'dochodok'
 }
 const exekucia = {
-    content: 'uga buga',
+    content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Exekúcia',
 	defaultLink: 'exekucia'
 }
 const pracaADane = {
-    content: 'uga buga',
+    content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Práca a dane',
 	defaultLink: 'praca-a-dane'
 }
