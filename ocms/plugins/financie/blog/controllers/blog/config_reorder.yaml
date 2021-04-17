@@ -1,0 +1,4 @@
+title: Blog
+modelClass: Financie\Blog\Models\Blog
+toolbar:
+    buttons: reorder_toolbar

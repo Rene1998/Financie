@@ -5,9 +5,14 @@ fields:
         type: text
     content:
         label: Obsah
-        size: large
+        size: small
         span: auto
         type: textarea
+    type:
+        label: 'Vyberte stránku na ktorej sa bude tato karta zobrazovať'
+        showSearch: true
+        span: left
+        type: dropdown
 tabs:
     fields:
         image:

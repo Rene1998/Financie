@@ -27,4 +27,11 @@ class Imgcard extends Model
     public $with = [
         'image'
     ];
+
+    public function getTypeOptions(){
+        return [
+            'preSkoly' => 'Pre-školy stránka',
+            'osobneFinancie' => 'Osobné-financie stránka',
+        ];
+    }
 }

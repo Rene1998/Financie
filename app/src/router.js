@@ -33,6 +33,12 @@ const routes = [
 		component: () =>
 			import('./plugins/financie/osobne-financie/byvanie.vue')
 	},*/
+	{
+		path: '/blog',
+		name: 'blog-page',
+		component: () =>
+			import('./plugins/financie/osobne-financie/blog.vue'),
+	},
 ];
 
 const router = new VueRouter({

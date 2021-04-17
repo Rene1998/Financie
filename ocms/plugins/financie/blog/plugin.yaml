@@ -1,0 +1,16 @@
+plugin:
+    name: 'financie.blog::lang.plugin.name'
+    description: 'financie.blog::lang.plugin.description'
+    author: Financie
+    icon: oc-icon-file-text-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Pridanie článku'
+        url: financie/blog/blog
+        icon: icon-file-text-o
+        sideMenu:
+            side-menu-item:
+                label: Kategórie
+                url: financie/blog/category
+                icon: icon-list

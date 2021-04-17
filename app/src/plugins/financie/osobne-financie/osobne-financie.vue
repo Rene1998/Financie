@@ -15,6 +15,7 @@
       </div>
     </div>
     <z-progressBar></z-progressBar>
+    
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -45,6 +46,12 @@
         Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
         na ktoré môžete naraziť vo vašom živote.
       </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <z-blogCards></z-blogCards>
+      </div>
     </div>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -85,6 +92,7 @@ export default {
     "z-miniCards": () => import("../_components/card/z-miniCards"),
     "z-linkCards": () => import("../_components/card/z-linkCards"),
     "z-progressBar": () => import("../osobne-financie/z-progressBar"),
+    "z-blogCards": () => import("../_components/card/z-blogCards"),
   },
   watch: {
     "$route.params.slug": {

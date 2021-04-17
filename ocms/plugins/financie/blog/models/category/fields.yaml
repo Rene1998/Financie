@@ -1,0 +1,12 @@
+fields:
+    category_title:
+        label: Názov
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: category_title
+            type: slug
+        type: text
