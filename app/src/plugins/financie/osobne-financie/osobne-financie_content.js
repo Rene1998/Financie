@@ -6,7 +6,7 @@ const byvanie = {
 const rodinaADeti = {
 	content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Rodina a deti',
-	defaultLink: 'rodina-a-deti'
+	defaultLink: 'rodina-deti'
 }
 const auto = {
     content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
@@ -26,14 +26,14 @@ const exekucia = {
 const pracaADane = {
     content: 'Chcete návod ako sa najrýchlejšie dopracovať k vlastnému bývaniu krok po kroku...',
 	title: 'Práca a dane',
-	defaultLink: 'praca-a-dane'
+	defaultLink: 'praca-dane'
 }
 
 export default {
 	'byvanie': byvanie,
-	'rodina-a-deti': rodinaADeti,
+	'rodina-deti': rodinaADeti,
 	'auto': auto,
     'dochodok': dochodok,
     'exekucia': exekucia,
-    'praca-a-dane': pracaADane
+    'praca-dane': pracaADane
 }

@@ -95,7 +95,7 @@ export default {
         {
           title: "Rodina a deti",
           icon: "Family-group.svg",
-          link: "rodina-a-deti",
+          link: "rodina-deti",
         },
         {
           title: "Auto",
@@ -115,7 +115,7 @@ export default {
         {
           title: "Práca a dane",
           icon: "Work.svg",
-          link: "praca-a-dane",
+          link: "praca-dane",
         },
       ],
     };

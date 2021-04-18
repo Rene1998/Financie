@@ -6,7 +6,7 @@
         <p class="mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
         <h5 class="card-title">{{blog.title}}</h5>
         <div v-html="blog.content" class="blog mt-0"></div>
-        <router-link class="mt-4" :to="rightPage + '/' + blog.title">Prečítať viac</router-link>
+        <router-link class="mt-4" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
       </div>
     </div>
   </div>

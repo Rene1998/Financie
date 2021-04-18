@@ -27,6 +27,7 @@ export default {
         this.changeRightBlog(val);
       },
     },
+    
   },
   async mounted() {
     await this._loadBlogs();
@@ -36,7 +37,7 @@ export default {
       try {
         const blogs = await apiService.get("blog");
         this.blog = blogs.data.data.find(e => e.slug === this.rightBlog);
-        console.log(blog);
+        console.log(this.blog);
       } catch (e) {
         console.error(e);
       }
