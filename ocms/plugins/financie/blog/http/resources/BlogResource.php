@@ -18,7 +18,7 @@ class BlogResource extends Resource
     }
 
     private static function _parseUrl($html){
-        $base_url = URL::to('');
+        $base_url = env('APP_URL');
         return preg_replace("~src=[\"]([^']+)[\"]~", 'src="' . $base_url .'$1' . '"', $html);
     }
 }
