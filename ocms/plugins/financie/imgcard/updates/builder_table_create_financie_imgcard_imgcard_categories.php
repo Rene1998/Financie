@@ -12,6 +12,7 @@ class BuilderTableCreateFinancieImgcardImgcardCategories extends Migration
             $table->engine = 'InnoDB';
             $table->integer('imgcard_id');
             $table->integer('category_id');
+            $table->primary(['imgcard_id','category_id']);
         });
     }
     

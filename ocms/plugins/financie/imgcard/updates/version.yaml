@@ -6,9 +6,6 @@
 1.0.4:
     - 'Created table financie_imgcard_categories'
     - builder_table_create_financie_imgcard_categories.php
-1.0.5:
-    - 'Created table financie_imgcard_imgcard_categories'
-    - builder_table_create_financie_imgcard_imgcard_categories_.php
-1.0.6:
+1.0.9:
     - 'Created table financie_imgcard_imgcard_categories'
     - builder_table_create_financie_imgcard_imgcard_categories.php
