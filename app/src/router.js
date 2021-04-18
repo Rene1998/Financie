@@ -26,6 +26,12 @@ const routes = [
 		component: () =>
 			import('./plugins/financie/osobne-financie/osobne-financie.vue')
 	},
+	{
+		path: '/osobne-financie/:slug/:slug',
+		name: 'Osobne financie',
+		component: () =>
+			import('./plugins/financie/osobne-financie/blog.vue')
+	},
 
 	/*{
 		path: '/byvanie',

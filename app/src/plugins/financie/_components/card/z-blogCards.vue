@@ -6,7 +6,7 @@
         <p class="mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
         <h5 class="card-title">{{blog.title}}</h5>
         <div v-html="blog.content" class="blog mt-0"></div>
-        <a href="#" class="mt-4">Prečítať viac</a>
+        <router-link class="mt-4" :to="rightPage + '/' + blog.title">Prečítať viac</router-link>
       </div>
     </div>
   </div>
@@ -20,7 +20,17 @@ export default {
   data() {
     return {
       blogCards: [],
+      rightPage: null,
     };
+  },
+  watch: {
+    "$route.params.slug": {
+      immediate: true,
+      handler(val) {
+        console.log(val)
+        this.changeRightPage(val);
+      },
+    },
   },
   async mounted() {
     await this._loadCards();
@@ -31,6 +41,9 @@ export default {
     }
   },
   methods: {
+    changeRightPage(page) {
+      this.rightPage = page
+    },
     async _loadCards() {
       try {
         const cards = await apiService.get('blog');

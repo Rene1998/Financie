@@ -1,29 +1,32 @@
 <template>
-    <div>
-        <div class="container">
-            <div v-for="blog in blogs" :key="blog.id">
-                <h1>
-                    {{blog.title}}
-                </h1>
+  <div>
+    <div class="container">
+      <h1>
+        {{ blog.title }}
+      </h1>
 
-                <div v-html="blog.content" class="blog">
-                  
-                </div>
-
-            </div>
-        </div>
+      <div v-html="blog.content" class="blog"></div>
     </div>
+  </div>
 </template>
 <script>
-
 import apiService from "../common/apiService";
-
 export default {
   name: "z-blog",
   data() {
     return {
-      blogs: [],
+      blog: [],
+      rightBlog: null,
     };
+  },
+  watch: {
+    "$route.params.slug": {
+      immediate: true,
+      handler(val) {
+        console.log(val);
+        this.changeRightBlog(val);
+      },
+    },
   },
   async mounted() {
     await this._loadBlogs();
@@ -32,11 +35,14 @@ export default {
     async _loadBlogs() {
       try {
         const blogs = await apiService.get("blog");
-        this.blogs = blogs.data.data;
-        console.log(blogs.data);
+        this.blog = blogs.data.data.find(e => e.slug === this.rightBlog);
+        console.log(blog);
       } catch (e) {
         console.error(e);
       }
+    },
+    changeRightBlog(blog) {
+      this.rightBlog = blog;
     },
   },
 };
