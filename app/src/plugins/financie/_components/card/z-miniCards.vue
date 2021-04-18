@@ -67,6 +67,7 @@ a{
     cursor: pointer;
     text-decoration: none;
     font-size: 14px;
+    color: #1EAEE1;
 }
 }
 

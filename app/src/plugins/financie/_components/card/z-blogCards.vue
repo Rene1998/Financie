@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <div class="card d-flex" style="width: 18rem;" v-for="blog in blogCards" :key="blog.id">
+  <div class="d-flex">
+    <div class="card d-flex m-5" style="width: 18rem;" v-for="blog in blogCards" :key="blog.id">
       <img src="../card/assets/imgcard.png" class="card-img-top" alt="..." />
       <div class="card-body p-0" >
-        <p class="mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
+        <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
         <h5 class="card-title">{{blog.title}}</h5>
         <div v-html="blog.content" class="blog mt-0"></div>
-        <router-link class="mt-4" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
+        <router-link class="link mt-4" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
       </div>
     </div>
   </div>
@@ -64,7 +64,30 @@ export default {
    overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
-   -webkit-line-clamp: 6; /* number of lines to show */
+   -webkit-line-clamp: 4; /* number of lines to show */
    -webkit-box-orient: vertical;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #192949;
+  }
+  .timestamp{
+    color: #898989;
+  }
+  .card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #192949;
+  }
+  .link{
+    text-decoration: none;
+    color: #1EAEE1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
   }
 </style>
