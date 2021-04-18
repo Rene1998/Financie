@@ -9,3 +9,8 @@ navigation:
         label: 'Karta s obrázkom'
         url: financie/imgcard/imgcard
         icon: icon-list
+        sideMenu:
+            side-menu-item:
+                label: Kategórie
+                url: financie/imgcard/category
+                icon: icon-list

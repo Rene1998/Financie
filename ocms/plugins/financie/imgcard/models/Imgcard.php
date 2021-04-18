@@ -25,13 +25,17 @@ class Imgcard extends Model
         'image' => 'System\Models\File'
     ];
     public $with = [
-        'image'
+        'image',
+        'category'
     ];
 
-    public function getTypeOptions(){
-        return [
-            'preSkoly' => 'Pre-školy stránka',
-            'osobneFinancie' => 'Osobné-financie stránka',
-        ];
-    }
+    public $belongsToMany =[
+        
+        'category' => [
+            'Financie\Imgcard\Models\Category',
+            'table' => 'financie_imgcard_imgcard_categories',
+
+        ]
+    ];
+    
 }

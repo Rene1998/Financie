@@ -8,11 +8,12 @@ fields:
         size: small
         span: auto
         type: textarea
-    type:
-        label: 'Vyberte stránku na ktorej sa bude tato karta zobrazovať'
-        showSearch: true
-        span: left
-        type: dropdown
+    category:
+        label: 'Vyberte stránku na ktorej sa bude táto karta zobrazovať'
+        nameFrom: category_title
+        descriptionFrom: description
+        span: auto
+        type: relation
 tabs:
     fields:
         image:
