@@ -33,7 +33,7 @@ export default {
     },
   },
   async mounted() {
-    await this._loadCards();
+    await this._loadCards(this.rightPage);
   },
   computed: {
     posted_at(){
@@ -44,11 +44,11 @@ export default {
     changeRightPage(page) {
       this.rightPage = page
     },
-    async _loadCards() {
+    async _loadCards(rightPage) {
       try {
-        const cards = await apiService.get('blog');
-        this.blogCards = cards.data.data;
-        console.log(cards.data);
+        const cards = await apiService.get(`blog/categories/slug/${rightPage}`);
+        this.blogCards = cards.data.blog;
+        console.log(this.blogCards);
       } catch (e) {
         console.error(e);
       }
