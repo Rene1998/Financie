@@ -1,16 +1,18 @@
 <template>
   <div>
-    <div class="card mb-3 border-0" v-for="imgCard in imgCards" :key="imgCard.id">
+    <div
+      class="card mb-3 border-0"
+      v-for="imgCard in imgCards"
+      :key="imgCard.id"
+    >
       <img :src="imgCard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
-        <p class="timestamp">
-          {{posted_at}} • {{imgCard.time}} prečítanie
-        </p>
+        <p class="timestamp">{{ posted_at }} • {{ imgCard.time }} prečítanie</p>
         <h5 class="card-title">
-          {{imgCard.title}}
+          {{ imgCard.title }}
         </h5>
         <p class="card-text">
-          {{imgCard.content}}
+          {{ imgCard.content }}
         </p>
         <p class="card-text">
           <a href="#">Prečítať viac</a>
@@ -28,7 +30,17 @@ export default {
   data() {
     return {
       imgCards: [],
+      rightPage: null,
     };
+  },
+  watch: {
+    "$route.params": {
+      immediate: true,
+      handler(val) {
+        this.actualPage(val);
+        console.log(this.page);
+      },
+    },
   },
   async mounted() {
     await this._loadCards();
@@ -48,21 +60,24 @@ export default {
         console.error(e);
       }
     },
+    actualPage(page) {
+      this.rightPage = page
+    },
   },
 }
 </script>
 <style lang="scss" scoped>
-.timestamp{
+.timestamp {
   color: #898989;
 }
-h5{
+h5 {
   font-size: 18px;
 }
-a{
+a {
   color: #1eaee1;
   text-decoration: none;
 }
-img{
+img {
   width: 538px;
   height: 302.35px;
 }
