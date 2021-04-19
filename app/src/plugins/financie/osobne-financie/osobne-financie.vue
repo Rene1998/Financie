@@ -165,7 +165,7 @@ export default {
 
 .border-center {
   .col-4:not(:last-of-type) {
-    border-right: 1px solid red;
+  border-right: 1px solid rgba(137, 137, 137, 0.2);
   }
 }
 a {

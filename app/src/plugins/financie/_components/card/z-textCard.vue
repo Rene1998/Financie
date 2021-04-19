@@ -8,7 +8,7 @@
         <h5 class="card-text mb-3">
           {{textCard.content}}
         </h5>
-        <a href="#" class="card-link">Prečítať viac</a>
+        <a href="#" class=" card-link">Prečítať viac</a>
         
       </div>
 
@@ -65,7 +65,7 @@ a{
   border-radius: 0px;
 
   &:not(:last-of-type){
-    border-bottom: 1px solid red;
+   border-bottom: 1px solid rgba(137, 137, 137, 0.2);
 }
 
 .card-text{

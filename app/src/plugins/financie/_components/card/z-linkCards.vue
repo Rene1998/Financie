@@ -52,7 +52,7 @@ export default {
   height: 175px;
   border-radius: 0px;
   &:not(:last-of-type){
-     border-bottom: 1px solid red;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.2);
   }
 
   h3{
