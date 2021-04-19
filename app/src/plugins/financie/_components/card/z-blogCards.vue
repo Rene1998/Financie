@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex">
-    <div class="card d-flex m-5" style="width: 18rem;" v-for="blog in blogCards" :key="blog.id">
+    <div class="card d-flex m-4" v-for="blog in blogCards" :key="blog.id">
       <img :src="blog.thumbnail_image.path" class="card-img-top" />
       <div class="card-body p-0" >
         <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
@@ -59,6 +59,10 @@ export default {
 <style lang="scss" scoped>
   .card { 
     border: none;
+    .card-img-top {
+      width: 363px;
+      height: 204px;
+    }
   }
   .blog {
    overflow: hidden;

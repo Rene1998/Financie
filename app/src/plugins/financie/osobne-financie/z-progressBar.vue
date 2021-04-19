@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid progressBar">
+  <div class="container-fluid progressBar d-flex align-items-center">
     <div class="container">
       <div class="row progressBar-row">
         <a href="" class="btn z-btn rounded-0">Vedeli ste, že...</a>
@@ -16,6 +16,10 @@
 <style lang="scss" scoped>
 .progressBar {
   background-color: #fbfbfc;
+  min-height: 70px;
+\  a:hover { 
+    color: #1eaee1;
+  }
   a {
     font-weight: 700;
   }
