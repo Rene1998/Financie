@@ -25,6 +25,16 @@ tabs:
             span: auto
             type: relation
             tab: 'Názov článku'
+        thumbnail_image:
+            label: 'Pridajte miniatúru k článku'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Názov článku'
         content:
             label: 'Tvorba Článku'
             size: ''

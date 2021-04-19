@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex">
     <div class="card d-flex m-5" style="width: 18rem;" v-for="blog in blogCards" :key="blog.id">
-      <img src="../card/assets/imgcard.png" class="card-img-top" alt="..." />
+      <img :src="blog.thumbnail_image.path" class="card-img-top" />
       <div class="card-body p-0" >
         <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
         <h5 class="card-title">{{blog.title}}</h5>

@@ -68,7 +68,11 @@ tabs:
             tab: 'Video link'
         image:
             label: Obrázok
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
             span: auto
             type: fileupload
-            mode: image
             tab: Obrázok

@@ -21,6 +21,14 @@ class Blog extends Model
     public $rules = [
     ];
 
+    public $attachOne = [
+        'thumbnail_image' => 'System\Models\File'
+    ];
+    public $with = [
+        'thumbnail_image'
+    ];
+
+
     public $belongsTo =[
         
         'category' => [
