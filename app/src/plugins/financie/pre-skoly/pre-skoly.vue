@@ -55,10 +55,12 @@
 
     <div class="d-flex align-items-center justify-content-center mb-5">
       <div class="background d-flex align-items-center justify-content-center">
-        <b-button-group>
+        <div class="switch-background d-flex align-items-center justify-content-center ">
+          <b-button-group>
           <button class=" switch-button p-0 " :class="{switchIsActive: active}" @click="changeCardCategory('advancedImgCardLink'); active=!active">Učebné materiály</button>
           <button class=" switch-button p-0 " :class="{switchIsActive: !active}" @click="changeCardCategory('advancedImgCardVideo'); active=!active">Videá</button>
         </b-button-group>
+        </div>
       </div>
     </div>
 
@@ -201,6 +203,7 @@ h5 {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  background-color: #E5E5E5;
 
   &:hover {
     background: #ffffff;
@@ -215,5 +218,13 @@ h5 {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
     border-radius: 6.93px;
 }
+
+.switch-background{
+  width: 578px;
+  height: 32px;
+  background-color: #E5E5E5;
+  border-radius: 6px; 
+}
+
 
 </style>

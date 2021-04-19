@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="card  " v-for="textCard in textCards" :key="textCard.id">
+    <div class="card mb-3 " v-for="textCard in textCards" :key="textCard.id">
       <div class="card-body p-3">
         <p class="timestamp mb-4 ">
           {{posted_at}} • {{textCard.time}} prečítanie
         </p>
-        <h5 class="card-text mb-3">
+        <h5 class="card-text mb-4">
           {{textCard.content}}
         </h5>
-        <a href="#" class=" card-link">Prečítať viac</a>
+        <a href="#" class="card-link">Prečítať viac</a>
         
       </div>
 

@@ -6,7 +6,7 @@
           <div class="col d-flex flex-column mb-5 b-arrow">
             <a class="mb-5 d-flex align-items-center " @click="$router.go(-1)"><b-icon class="mr-2"  icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
             <h1 mt-5>{{ title }}</h1>
-            <p class="mb-5">
+            <p class="mb-5 content">
               {{ content }}
             </p>
             <div class="m-5"></div>
@@ -186,6 +186,10 @@ a {
   }
 
  
+}
+
+.content{
+  max-width: 450px;
 }
 
 </style>
