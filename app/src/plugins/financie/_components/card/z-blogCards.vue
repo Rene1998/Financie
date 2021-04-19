@@ -1,12 +1,12 @@
 <template>
   <div class="d-flex">
-    <div class="card d-flex m-4" v-for="blog in blogCards" :key="blog.id">
+    <div class="card d-flex m-5" style="width: 18.7rem;" v-for="blog in blogCards" :key="blog.id">
       <img :src="blog.thumbnail_image.path" class="card-img-top" />
-      <div class="card-body p-0" >
+      <div class="card-body p-0 " >
         <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
-        <h5 class="card-title">{{blog.title}}</h5>
-        <div v-html="blog.content" class="blog mt-0"></div>
-        <router-link class="link mt-4" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
+        <h5 class="card-title mb-3">{{blog.title}}</h5>
+        <div v-html="blog.content" class="blog mt-0 mb-4"></div>
+        <router-link class="link" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
       </div>
     </div>
   </div>
@@ -60,8 +60,8 @@ export default {
   .card { 
     border: none;
     .card-img-top {
-      width: 363px;
-      height: 204px;
+      width: 300px;
+      height: 180px;
     }
   }
   .blog {
@@ -78,6 +78,7 @@ export default {
   }
   .timestamp{
     color: #898989;
+    font-size: 14px;
   }
   .card-title{
     font-style: normal;

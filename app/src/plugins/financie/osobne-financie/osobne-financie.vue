@@ -6,7 +6,7 @@
           <div class="col d-flex flex-column mb-5 b-arrow">
             <a class="mb-5 d-flex align-items-center " @click="$router.go(-1)"><b-icon class="mr-2"  icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
             <h1 mt-5>{{ title }}</h1>
-            <p class="mb-5 content">
+            <p class="mt-4 content">
               {{ content }}
             </p>
             <div class="m-5"></div>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <z-blogCards></z-blogCards>
       </div>
     </div>
@@ -61,6 +61,12 @@
       </p>
     </div>
 
+    <div class="container mb-5">
+      <div class="row d-flex justify-content-center">
+          <z-imgCard></z-imgCard>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row border-center mb-5">
         <div class="col-4 ">
@@ -68,7 +74,6 @@
             <b-icon icon="link45deg"></b-icon>
             <h6 class="m-0">Užitočné linky</h6>
           </div>
-          <!-- tie link card si nic nemaju nacitavat zo serveru, to si maju nacitat na tomto screene a do link cards poslat cez props iba data ktore maju vypisat/ -->
           <z-linkCards></z-linkCards>
         </div>
         <div class="col-4 d-flex align-items-center">
@@ -93,6 +98,7 @@ export default {
     "z-linkCards": () => import("../_components/card/z-linkCards"),
     "z-progressBar": () => import("../osobne-financie/z-progressBar"),
     "z-blogCards": () => import("../_components/card/z-blogCards"),
+    "z-imgCard": () => import("../_components/card/z-imgCard"),
   },
   watch: {
     "$route.params.slug": {
@@ -190,6 +196,9 @@ a {
 
 .content{
   max-width: 450px;
+}
+h1 {
+  font-weight: bold;
 }
 
 </style>

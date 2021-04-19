@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div class="d-flex">
     <div
-      class="card mb-3 border-0"
+      class="card mb-3 border-0 d-flex m-3"
+      style="width: 35rem;"
       v-for="imgCard in imgCards"
       :key="imgCard.id"
     >
