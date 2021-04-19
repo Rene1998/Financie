@@ -6,6 +6,10 @@
       </h1>
 
       <div v-html="blog.content" class="blog"></div>
+
+      <div class="col pr-5">
+          <z-imgCard></z-imgCard>
+      </div>
     </div>
   </div>
 </template>
@@ -45,6 +49,9 @@ export default {
     changeRightBlog(blog) {
       this.rightBlog = blog;
     },
+  },
+  components: {
+    "z-imgCard": () => import("../_components/card/z-imgCard"),
   },
 };
 </script>
