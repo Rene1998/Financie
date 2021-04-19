@@ -34,7 +34,7 @@ export default {
     };
   },
   watch: {
-    "$route.params.slug": {
+    "$route.name": {
       immediate: true,
       handler(val) {
         this.actualPage(val);

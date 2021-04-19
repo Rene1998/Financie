@@ -9,26 +9,26 @@ const routes = [
 		redirect: '/home',
 	},
 	{
-		path: '/:slug',
-		name: 'Homepage',
+		path: '/home',
+		name: 'home',
 		component: () =>
 			import('./plugins/financie/home/home.vue'),
 	},
 	{
-		path: '/:slug/:slug',
-		name: 'Pre skoly',
+		path: '/pre-skoly/:slug',
+		name: 'pre-skoly',
 		component: () =>
 			import('./plugins/financie/pre-skoly/pre-skoly.vue')
 	},
 	{
-		path: '/:slug/:slug',
-		name: 'Osobne financie',
+		path: '/osobne-financie/:slug',
+		name: 'osobne-financie',
 		component: () =>
 			import('./plugins/financie/osobne-financie/osobne-financie.vue')
 	},
 	{
-		path: '/:slug/:slug/:slug',
-		name: 'Osobne financie',
+		path: '/osobne-financie/:slug/:slug',
+		name: 'osobne-financie',
 		component: () =>
 			import('./plugins/financie/osobne-financie/blog.vue')
 	},
