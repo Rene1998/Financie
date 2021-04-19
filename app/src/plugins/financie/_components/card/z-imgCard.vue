@@ -34,11 +34,11 @@ export default {
     };
   },
   watch: {
-    "$route.params.slug": {
+    "$route.params": {
       immediate: true,
       handler(val) {
         this.actualPage(val);
-        console.log(this.rightPage);
+        console.log(this.page);
       },
     },
   },
@@ -53,9 +53,9 @@ export default {
   methods: {
     async _loadCards() {
       try {
-        const cards = await apiService.get("imgCard")
-        this.imgCards = cards.data.filter(x => x.category.filter(y => y.slug === this.rightPage).length > 0 ?true:false)
-        console.log(this.imgCards)
+        const cards = await apiService.get('imgCard');
+        this.imgCards = cards.data;
+        console.log(cards.data);
       } catch (e) {
         console.error(e);
       }
