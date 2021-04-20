@@ -316,7 +316,7 @@ return [
         'uploads' => [
             'disk'            => 'local',
             'folder'          => 'uploads',
-            'path'            => '/ocms/storage/app/uploads',
+            'path'            => '/storage/app/uploads',
             'temporaryUrlTTL' => 3600,
         ],
 
@@ -329,7 +329,7 @@ return [
         'resized' => [
             'disk'   => 'local',
             'folder' => 'resized',
-            'path'   => '/ocms/storage/app/resized',
+            'path'   => '/storage/app/resized',
         ],
 
     ],
