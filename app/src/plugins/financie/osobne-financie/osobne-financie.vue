@@ -4,7 +4,10 @@
       <div class="container">
         <div class="byvanie-welcome-text">
           <div class="col d-flex flex-column mb-5 b-arrow">
-            <a class="mb-5 d-flex align-items-center " @click="$router.go(-1)"><b-icon class="mr-2"  icon="arrow-left"></b-icon>Späť na hlavnú stránku</a>
+            <a class="mb-5 d-flex align-items-center " @click="$router.go(-1)"
+              ><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
+              stránku</a
+            >
             <h1 mt-5>{{ title }}</h1>
             <p class="mt-4 content">
               {{ content }}
@@ -15,7 +18,7 @@
       </div>
     </div>
     <z-progressBar></z-progressBar>
-    
+
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -63,34 +66,20 @@
 
     <div class="container mb-5">
       <div class="row d-flex justify-content-center">
-          <z-imgCard></z-imgCard>
+        <z-imgCard></z-imgCard>
       </div>
     </div>
 
     <div class="container">
       <div class="row border-center mb-5">
-        <div class="col-4 ">
-          <div class="d-flex align-items-center">
-            <b-icon icon="link45deg"></b-icon>
-            <h6 class="m-0">Užitočné linky</h6>
-          </div>
-          <z-linkCards></z-linkCards>
-        </div>
-        <div class="col-4 d-flex align-items-center">
-          <b-icon icon="question-circle-fill"></b-icon>
-          <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
-        </div>
-        <div class="col-4 d-flex align-items-center">
-          <b-icon icon="calculator-fill"></b-icon>
-          <h6 class="m-0">Kalkulačky a návody</h6>
-        </div>
+        <z-linkCards></z-linkCards>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import pageContent from "./osobne-financie_content.js"
+import pageContent from "./osobne-financie_content.js";
 export default {
   components: {
     "z-carousel": () => import("../home/z-carousel"),
@@ -138,8 +127,8 @@ export default {
   },
   methods: {
     changePageContent(val) {
-      this.title = pageContent[val].title
-      this.content = pageContent[val].content
+      this.title = pageContent[val].title;
+      this.content = pageContent[val].content;
     },
   },
 };
@@ -171,7 +160,7 @@ export default {
 
 .border-center {
   .col-4:not(:last-of-type) {
-  border-right: 1px solid rgba(137, 137, 137, 0.2);
+    border-right: 1px solid rgba(137, 137, 137, 0.2);
   }
 }
 a {
@@ -185,20 +174,17 @@ a {
   cursor: pointer;
 }
 
-.b-arrow{
-  .b-icon{
+.b-arrow {
+  .b-icon {
     height: 20px !important;
-    width: 20px  !important;
+    width: 20px !important;
   }
-
- 
 }
 
-.content{
+.content {
   max-width: 450px;
 }
 h1 {
   font-weight: bold;
 }
-
 </style>
