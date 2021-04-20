@@ -8,15 +8,15 @@
             {{ content }}
           </p>
           <p>
-            <router-link to="/pre-skoly/zakladne-skoly"
+            <router-link :class="{ isActiveA: activePage == 'zakladne-skoly' }"  to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link
             >
             •
-            <router-link to="/pre-skoly/stredne-skoly"
+            <router-link :class="{ isActiveA: activePage == 'stredne-skoly' }" to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link
             >
             •
-            <router-link to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
+            <router-link :class="{ isActiveA: activePage == 'vysoke-skoly' }" to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@
           class="col-3"
         >
           <div v-on:click="changeCardContent(card.link)">
-            <z-categoryCard :card="card"></z-categoryCard>
+            <z-categoryCard :card="card" :activeCard="activeCard"></z-categoryCard>
           </div>
         </div>
       </div>
@@ -128,6 +128,7 @@ export default {
       immediate: true,
       handler(val) {
         this.changePageContent(val);
+        console.log(val)
       },
     },
   },
@@ -139,6 +140,8 @@ export default {
       cardContent: null,
       cardCategory: "advancedImgCardLink",
       active: true,
+      activeCard: null,
+      activePage: null,
     };
   },
   methods: {
@@ -147,9 +150,12 @@ export default {
       this.title = cardContent[val].title;
       this.content = cardContent[val].content;
       this.cardContent = cardContent[val].defaultLink;
+      this.activeCard = cardContent[val].defaultLink;
+      this.activePage = val;
     },
     changeCardContent(val) {
-      this.cardContent = val;
+      this.cardContent = val
+      this.activeCard = val
     },
     changeCardCategory(val) {
       this.cardCategory = val;
@@ -238,6 +244,10 @@ h5 {
   border: 0.5px solid rgba(0, 0, 0, 0.04);
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
   border-radius: 6.93px;
+}
+
+.isActiveA {
+  color: #1eaee1
 }
 
 .switch-background {

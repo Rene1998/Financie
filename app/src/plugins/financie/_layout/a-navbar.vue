@@ -18,9 +18,11 @@
 
         <b-navbar-nav class="d-flex align-items-center">
           <b-navbar-nav>
-            <b-nav-item to="/home"
+            <b-nav-item
+              to="/home"
               href="#"
-              class="btn z-btn bp-3 d-flex align-items-center "
+              class="btn z-btn bp-3 d-flex align-items-center"
+              :class="{ isActive: active }"
               >Osobné financie</b-nav-item
             >
           </b-navbar-nav>
@@ -55,7 +57,28 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      page: "home",
+      active: true,
+    };
+  },
+  /*watch: {
+    "$route.name": {
+      immediate: true,
+      handler(val) {
+        this.actualPage(val);
+        console.log(val);
+      },
+    },
+  },
+  methods: {
+    actualPage(page) {
+      this.page = page
+    },
+  },*/
+};
 </script>
 
 <style lang="scss" scoped>
@@ -66,11 +89,9 @@ export default {};
     color: #1eaee1 !important;
   }
 
-  a{
+  a {
     color: #192949 !important;
   }
-
- 
 
   hr {
     width: 30px;
@@ -79,11 +100,22 @@ export default {};
     border: 0, 5px solid #f3f4f5;
     transform: rotate(90deg);
   }
+
+  .isActive {
+    color: #1eaee1 !important;
+  }
+}
+
+.isActive {
+    color: #1eaee1 !important;
 }
 
 /deep/ {
+  .isActive {
+    color: #1eaee1 !important;
+  }
 
-  &a{
+  &a {
     color: #192949 !important;
   }
 
