@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div>
+      <div class="col-4">
         <div class="col d-flex align-items-center">
           <b-icon icon="link45deg"></b-icon>
           <h6 class="m-0">Užitočné linky</h6>
@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="col-4 border">
         <div class="col d-flex align-items-center">
           <b-icon icon="question-circle-fill"></b-icon>
           <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="col-4">
         <div class="col d-flex align-items-center">
           <b-icon icon="calculator-fill"></b-icon>
           <h6 class="m-0">Kalkulačky a návody</h6>
@@ -138,4 +138,10 @@ export default {
     color: #1eaee1;
   }
 }
+.border {
+  border-top: none !important ; 
+  border-bottom: none !important ;
+}
+
+
 </style>
