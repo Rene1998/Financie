@@ -66,7 +66,7 @@
 
     <div class="container mb-5">
       <div class="row d-flex justify-content-center">
-        <z-imgCard></z-imgCard>
+          <z-imgCard></z-imgCard>
       </div>
     </div>
 

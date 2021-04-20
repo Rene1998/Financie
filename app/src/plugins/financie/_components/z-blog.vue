@@ -6,37 +6,6 @@
       </h1>
 
       <div v-html="blog.content" class="blog"></div>
-
-      <div class="container text-center mt-5 mb-5 hardcode-text">
-        <h4>Najlepšie produkty na našom trhu</h4>
-        <p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
-      </div>
-
-      <div class="container mb-5">
-        <div class="row d-flex justify-content-center">
-          <z-imgCard></z-imgCard>
-        </div>
-      </div>
-
-      <div class="container">
-      <div class="row border-center mb-5">
-        <div class="col-4 ">
-          <div class="d-flex align-items-center">
-            <b-icon icon="link45deg"></b-icon>
-            <h6 class="m-0">Užitočné linky</h6>
-          </div>
-          <z-linkCards></z-linkCards>
-        </div>
-        <div class="col-4 d-flex align-items-center">
-          <b-icon icon="question-circle-fill"></b-icon>
-          <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
-        </div>
-        <div class="col-4 d-flex align-items-center">
-          <b-icon icon="calculator-fill"></b-icon>
-          <h6 class="m-0">Kalkulačky a návody</h6>
-        </div>
-      </div>
-    </div>
     </div>
   </div>
 </template>
