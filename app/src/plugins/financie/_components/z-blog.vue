@@ -55,7 +55,6 @@ export default {
   font-family: Helvetica Neue;
   font-style: normal;
   color: #192949;
-  margin: 10% auto 20%;
 }
 h1 {
   margin-top: 30px;
