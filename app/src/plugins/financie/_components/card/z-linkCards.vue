@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row d-flex ">
       <div>
         <div class="col d-flex align-items-center">
           <b-icon icon="link45deg"></b-icon>

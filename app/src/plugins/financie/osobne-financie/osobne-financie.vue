@@ -71,7 +71,7 @@
     </div>
 
     <div class="container">
-      <div class="row border-center mb-5">
+      <div class="row border-center mb-5 d-flex justify-content-around">
         <z-linkCards></z-linkCards>
       </div>
     </div>
