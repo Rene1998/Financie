@@ -1,13 +1,28 @@
 <template>
-   <div class="container">
-      <div class="row">
-
-
-      <div class="col-4">
-        <div class=" d-flex align-items-center">
+  <div class="container">
+    <div class="row links mb-5">
+      <div class="col-4 p-0">
+        <div class="d-flex align-items-center">
           <b-icon icon="link45deg"></b-icon>
           <h6 class="m-0">Užitočné linky</h6>
         </div>
+      </div>
+      <div class="col-4 m-0 d-flex justify-content-center">
+        <div class="d-flex align-items-center">
+          <b-icon icon="question-circle-fill"></b-icon>
+          <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
+        </div>
+      </div>
+      <div class="col-4 p-0 d-flex justify-content-center">
+        <div class="d-flex align-items-center">
+          <b-icon icon="calculator-fill"></b-icon>
+          <h6 class="m-0">Kalkulačky a návody</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-0">
         <div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
           <div class="body">
             <p class="mt-4">
@@ -19,15 +34,8 @@
           </div>
         </div>
       </div>
-
-
-
-      <div class="col-4 border">
-        <div class=" d-flex align-items-center">
-          <b-icon icon="question-circle-fill"></b-icon>
-          <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
-        </div>
-        <div class="card" v-for="link2Card in link2Cards" :key="link2Card.id">
+      <div class="col-4 border p-0">
+        <div class="card ml-5" v-for="link2Card in link2Cards" :key="link2Card.id">
           <div class="body">
             <p class="mt-4">
               {{ posted_at }} • {{ link2Card.time }} prečítanie
@@ -39,14 +47,8 @@
         </div>
       </div>
 
-
-
-      <div class="col-4 ">
-        <div class=" d-flex align-items-center">
-          <b-icon icon="calculator-fill"></b-icon>
-          <h6 class="m-0">Kalkulačky a návody</h6>
-        </div>
-        <div class="card" v-for="link3Card in link3Cards" :key="link3Card.id">
+      <div class="col-4 p-0">
+        <div class="card ml-5 " v-for="link3Card in link3Cards" :key="link3Card.id">
           <div class="body">
             <p class="mt-4">
               {{ posted_at }} • {{ link3Card.time }} prečítanie
@@ -57,12 +59,8 @@
           </div>
         </div>
       </div>
-
-
-
-      
     </div>
-   </div>
+  </div>
 </template>
 <script>
 import apiService from "../../common/apiService";
@@ -80,9 +78,7 @@ export default {
   },
   computed: {
     posted_at() {
-      return moment(this.linkCards.created_at)
-        .lang("sk")
-        .format("LL");
+      return moment(this.linkCards.created_at).lang("sk").format("LL");
     },
   },
   async mounted() {
@@ -127,7 +123,6 @@ export default {
     border-bottom: 1px solid rgba(137, 137, 137, 0.2);
   }
 
-
   h3 {
     max-width: 235px;
     font-size: 18px;
@@ -153,11 +148,11 @@ export default {
   }
 }
 .border {
-  border-top: none !important ; 
+  border-top: none !important ;
   border-bottom: none !important ;
 }
-
-
-
-
+h6 {
+  font-size: 24px;
+  font-weight: bold;
+}
 </style>
