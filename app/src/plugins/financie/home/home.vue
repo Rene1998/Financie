@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-
+    <hr />
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -163,5 +163,11 @@ a {
 
 .category-cards {
   margin-top: -250px;
+}
+
+hr {
+  width: 1138px;
+  height: 0px;
+  border: 1px solid #f3f4f5;
 }
 </style>

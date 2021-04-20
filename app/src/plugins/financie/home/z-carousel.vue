@@ -1,6 +1,5 @@
 <template>
   <div class="mb-5">
-    <hr/>
     <div class="slider-info" style="display: flex; justify-content: center">
       <p>Vedeli ste, že...</p>
     </div>

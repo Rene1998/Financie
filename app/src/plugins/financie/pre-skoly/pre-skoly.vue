@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid preskoly-main">
-      <div class="container ">
+      <div class="container">
         <div class="preskoly-welcome-text mb-5">
           <h1 class="title">{{ title }}</h1>
           <p class="content">
@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-
+    <hr />
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -55,11 +55,31 @@
 
     <div class="d-flex align-items-center justify-content-center mb-5">
       <div class="background d-flex align-items-center justify-content-center">
-        <div class="switch-background d-flex align-items-center justify-content-center ">
+        <div
+          class="switch-background d-flex align-items-center justify-content-center"
+        >
           <b-button-group>
-          <button class=" switch-button p-0 " :class="{switchIsActive: active}" @click="changeCardCategory('advancedImgCardLink'); active=!active">Učebné materiály</button>
-          <button class=" switch-button p-0 " :class="{switchIsActive: !active}" @click="changeCardCategory('advancedImgCardVideo'); active=!active">Videá</button>
-        </b-button-group>
+            <button
+              class="switch-button p-0"
+              :class="{ switchIsActive: active }"
+              @click="
+                changeCardCategory('advancedImgCardLink');
+                active = !active;
+              "
+            >
+              Učebné materiály
+            </button>
+            <button
+              class="switch-button p-0"
+              :class="{ switchIsActive: !active }"
+              @click="
+                changeCardCategory('advancedImgCardVideo');
+                active = !active;
+              "
+            >
+              Videá
+            </button>
+          </b-button-group>
         </div>
       </div>
     </div>
@@ -73,7 +93,7 @@
       </div>
     </div>
 
-    <div class="container text-center mb-5 ">
+    <div class="container text-center mb-5">
       <b-button variant="primary" class="download-all mb-5"
         >Stiahnuť všetky dokumenty</b-button
       >
@@ -87,7 +107,7 @@
     </div>
 
     <div class="container">
-      <div class="row mb-5 ">
+      <div class="row mb-5">
         <div class="col pr-5">
           <z-imgCard></z-imgCard>
         </div>
@@ -133,12 +153,13 @@ export default {
     },
     changeCardCategory(val) {
       this.cardCategory = val;
-      console.log(this.cardCategory)
+      console.log(this.cardCategory);
     },
   },
   components: {
     "z-carousel": () => import("../home/z-carousel"),
-    "z-advancedImgCards": () => import("../_components/card/z-advancedImgCards"),
+    "z-advancedImgCards": () =>
+      import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
     "z-imgCard": () => import("../_components/card/z-imgCard"),
     "z-textCard": () => import("../_components/card/z-textCard"),
@@ -190,8 +211,8 @@ h5 {
   font-size: 18px;
 }
 
-.title{
-  font-weight:700;
+.title {
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -203,7 +224,7 @@ h5 {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 
   &:hover {
     background: #ffffff;
@@ -212,19 +233,23 @@ h5 {
     border-radius: 6.93px;
   }
 }
-.switchIsActive{
-    background: #ffffff;
-    border: 0.5px solid rgba(0, 0, 0, 0.04);
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 6.93px;
+.switchIsActive {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 6.93px;
 }
 
-.switch-background{
+.switch-background {
   width: 578px;
   height: 32px;
-  background-color: #E5E5E5;
-  border-radius: 6px; 
+  background-color: #e5e5e5;
+  border-radius: 6px;
 }
 
-
+hr {
+  width: 1138px;
+  height: 0px;
+  border: 1px solid #f3f4f5;
+}
 </style>
