@@ -143,9 +143,22 @@ export default {
     outline: none !important;
   }
 
-  .dropdown-toggle:hover,
-  .nav-item:hover /deep/ a[role="button"] {
-    color: #1eaee1 !important;
+  
+
+  .z-btn {
+  border-radius: 0px;
+  padding: 10px 15px;
+  border-bottom: 3px solid transparent;
+  &:hover {
+    border-bottom: 3px solid #1eaee1;
+    border-radius: 0px;
+    .nav-link {
+      color: #1eaee1 !important;
+    }
   }
+}
+
+
+
 }
 </style>
