@@ -154,6 +154,7 @@ export default {
 h6 {
   font-size: 24px;
   font-weight: bold;
+  width: 280px;
 }
 
 
