@@ -22,7 +22,8 @@
               to="/home"
               href="#"
               class="btn z-btn bp-3 d-flex align-items-center"
-              :class="{ isActive: active }"
+              :class="{ isActive: page=='home' || page=='osobne-financie' }"
+              
               >Osobné financie</b-nav-item
             >
           </b-navbar-nav>
@@ -32,6 +33,7 @@
               text="Pre školy"
               right
               class="btn z-btn bp-3 d-flex align-items-center "
+              :class="{ isActive: page=='pre-skoly' }"
             >
               <b-dropdown-item to="/pre-skoly/zakladne-skoly"
                 >Základné školy</b-dropdown-item
@@ -64,7 +66,7 @@ export default {
       active: true,
     };
   },
-  /*watch: {
+  watch: {
     "$route.name": {
       immediate: true,
       handler(val) {
@@ -77,7 +79,7 @@ export default {
     actualPage(page) {
       this.page = page
     },
-  },*/
+  },
 };
 </script>
 
@@ -101,19 +103,39 @@ export default {
     transform: rotate(90deg);
   }
 
-  .isActive {
-    color: #1eaee1 !important;
-  }
+  
 }
 
-.isActive {
-    color: #1eaee1 !important;
-}
+
 
 /deep/ {
-  .isActive {
-    color: #1eaee1 !important;
+
+
+  &a{
+  font-weight: 400 !important;
+}
+  
+  &.isActive {
+
+      border-radius: 0px;
+  padding: 10px 15px;
+  border-bottom: 3px solid transparent;
+    border-bottom: 3px solid #1eaee1;
+    border-radius: 0px;
+    
+  a{
+    color: #1eaee1!important;
   }
+
+  .dropdown-item{
+    color: #192949!important;
+    &:hover{
+      color: #1eaee1 !important;
+    }
+  }
+}
+
+
 
   &a {
     color: #192949 !important;
@@ -145,18 +167,7 @@ export default {
 
   
 
-  .z-btn {
-  border-radius: 0px;
-  padding: 10px 15px;
-  border-bottom: 3px solid transparent;
-  &:hover {
-    border-bottom: 3px solid #1eaee1;
-    border-radius: 0px;
-    .nav-link {
-      color: #1eaee1 !important;
-    }
-  }
-}
+  
 
 
 
