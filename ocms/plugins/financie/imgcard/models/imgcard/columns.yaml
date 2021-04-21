@@ -4,4 +4,8 @@ columns:
         type: text
         searchable: true
         sortable: true
+    category:
+        label: Stránky kde sa nachádza
+        relation: category
+        select: category_title
 

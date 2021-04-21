@@ -12,4 +12,9 @@ columns:
         label: Ročníky
         relation: year_category
         select: category_title
+    type:
+        label: Typ karty
+        type: text
+        searcheble: true
+        sortable: true
 

@@ -4,3 +4,8 @@ columns:
         type: text
         searchable: true
         sortable: true
+
+    category:
+        label: Kategórie
+        relation: category
+        select: category_title
