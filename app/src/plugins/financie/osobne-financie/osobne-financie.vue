@@ -18,61 +18,66 @@
       </div>
     </div>
     <z-progressBar></z-progressBar>
-
-    <z-carousel></z-carousel>
-
-    <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Základné články</h4>
-      <p>
-        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
-        na ktoré môžete naraziť vo vašom živote.
-      </p>
+    <div id="vedeliSte">
+      <z-carousel></z-carousel>
     </div>
+    <div id="zakladneInformacie">
+      <div class="container text-center mt-5 mb-5 hardcode-text">
+        <h4>Základné články</h4>
+        <p>
+          Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+          na ktoré môžete naraziť vo vašom živote.
+        </p>
+      </div>
 
-    <div class="container mt-5 mb-5">
-      <div class="row">
-        <div
-          v-for="card in cards"
-          :key="card.title"
-          :title="card.title"
-          :text="card.text"
-          class="col-3"
-        >
-          <z-miniCards :card="card"></z-miniCards>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div
+            v-for="card in cards"
+            :key="card.title"
+            :title="card.title"
+            :text="card.text"
+            class="col-3"
+          >
+            <z-miniCards :card="card"></z-miniCards>
+          </div>
         </div>
       </div>
     </div>
+    <div id="najnovsieClanky">
+      <div class="container text-center mt-5 mb-5 hardcode-text">
+        <h4>Najnovšie články o hypotekách</h4>
+        <p>
+          Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+          na ktoré môžete naraziť vo vašom živote.
+        </p>
+      </div>
 
-    <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Najnovšie články o hypotekách</h4>
-      <p>
-        Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
-        na ktoré môžete naraziť vo vašom živote.
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <z-blogCards></z-blogCards>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <z-blogCards></z-blogCards>
+        </div>
       </div>
     </div>
+    <div id="najnovsieProdukty">
+      <div class="container text-center mt-5 mb-5 hardcode-text">
+        <h4>Najlepšie produkty na našom trhu</h4>
+        <p>
+          Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
+        </p>
+      </div>
 
-    <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Najlepšie produkty na našom trhu</h4>
-      <p>
-        Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
-      </p>
-    </div>
-
-    <div class="container mb-5">
-      <div class="row d-flex justify-content-center">
+      <div class="container mb-5">
+        <div class="row d-flex justify-content-center">
           <z-imgCard></z-imgCard>
+        </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row border-center mb-5">
-        <z-linkCards></z-linkCards>
+    <div id="uzitocneLinky">
+      <div class="container">
+        <div class="row border-center mb-5">
+          <z-linkCards></z-linkCards>
+        </div>
       </div>
     </div>
   </div>
