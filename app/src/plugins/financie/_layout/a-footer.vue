@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="row footer-row d-flex align-content-center">
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Auto</a></li>
@@ -14,7 +14,7 @@
           </ul>
         </div>
 
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Finančné produkty</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">Poistenie</a></li>
@@ -26,9 +26,9 @@
           </ul>
         </div>
 
-        <div class="col-3">
+        <div class="col-3 d-none d-lg-block">
           <h5 class="text-left">Pomôcky</h5>
-          <ul class="pl-0 list-unstyled">
+          <ul class="pl-0 list-unstyled ">
             <li class="footer-li"><a href="#!">Porovnania</a></li>
             <li class="footer-li"><a href="#!">Nástrahy</a></li>
             <li class="footer-li"><a href="#!">Kalkulačky</a></li>
@@ -36,7 +36,7 @@
           </ul>
         </div>
 
-        <div class="col-3">
+        <div class="col-3 d-none d-lg-block">
           <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li"><a href="#!">O nás</a></li>
@@ -48,21 +48,17 @@
 
     <div class="container-fluid copyright-main">
       <div class="container copyright-container">
-        <div class="row copyright-row d-flex align-content-center">
-          <div
-            class="col-lg-12 copyright-col d-flex flex-row align-items-center"
-          >
+        <div class="row copyright-row d-sm-flex align-items-center">
+        
             <img class="mr-3" src="./assets/logodark.png" alt="logo" />
             <p class="copy m-0">
-              © 2021 www.financie.sk Všetky práva vyhradené.
+              © 2021 <a class="financie-link">www.financie.sk</a> Všetky práva vyhradené.
             </p>
-            <div class="ml-auto ">
+            <div class="ml-auto d-none d-lg-block">
               <a href="" class="btn z-btn rounded-0">Osobné financie</a>
-              <a href="" class="btn z-btn rounded-0"
-                >Pre školy</a
-              >
+              <a href="" class="btn z-btn rounded-0">Pre školy</a>
             </div>
-          </div>
+        
         </div>
       </div>
     </div>
@@ -93,6 +89,10 @@ footer {
   .copyright-row {
     background: #fbfbfc;
     min-height: 80px;
+
+  .financie-link {
+    color: #1EAEE1;
+  }
 
     .btn {
       padding: 21.5px 15px;
