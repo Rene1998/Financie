@@ -11,9 +11,10 @@ class BlogResource extends Resource
         return [
             'title' => $this->title,
             'slug' => $this->slug,
-            'content' => ($this->content),
+            'content' => $this->content,
             'time' => $this->time,
             'category_id' => $this->category_id,
+            'short_content' => $this->short_content,
         ];
     }
 }

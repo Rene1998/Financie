@@ -25,6 +25,11 @@ class Category extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'category_title' => 'required'
+    ];
+
+    public $customMessages = [
+        'category_title.required' => 'Musíte zadať názov kategórie.'
     ];
 
     public $hasMany = [

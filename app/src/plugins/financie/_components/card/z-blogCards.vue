@@ -5,7 +5,7 @@
       <div class="card-body p-0 " >
         <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
         <h5 class="card-title mb-3">{{blog.title}}</h5>
-        <div v-html="blog.content" class="blog mt-0 mb-4"></div>
+        <div v-html="blog.short_content" class="blog mt-0 mb-4"></div>
         <router-link class="link" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
       </div>
     </div>
@@ -65,11 +65,6 @@ export default {
     }
   }
   .blog {
-   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 4; /* number of lines to show */
-   -webkit-box-orient: vertical;
    font-style: normal;
    font-weight: normal;
    font-size: 14px;

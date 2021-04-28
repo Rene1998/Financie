@@ -4,10 +4,7 @@
  use Financie\Blog\Models\Category;
 
 Route::get('api/blog', function(){
-
-    $blog = BlogResource::collection(Blog::all());
-
-    return $blog;
+    return $blog = BlogResource::collection(Blog::all());
 });
 
 Route::get('api/blog/categories', function(){

@@ -19,6 +19,12 @@ class Advancedimghomecard extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'title' => 'required',
+        'image' => 'required'
+    ];
+    public $customMessages = [
+        'title.required' => 'Musíte zadať názov karty.',
+        'image.required' => 'Musíte zadať obrázok.'
     ];
 
     public $attachOne = [

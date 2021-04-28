@@ -1,5 +1,4 @@
 <?php namespace Financie\Advancedimgcard\Models;
-
 use Model;
 
 /**
@@ -19,10 +18,14 @@ class Advancedimgcard extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'title' => 'required',
+        'image' => 'required'
     ];
-
+    public $customMessages = [
+        'title.required' => 'Musíte zadať názov karty.',
+        'image.required' => 'Musíte zadať obrázok.'
+    ];
     
-
 
     public $belongsTo =[
         'year_category' => [

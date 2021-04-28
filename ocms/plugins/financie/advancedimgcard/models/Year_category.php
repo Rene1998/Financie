@@ -25,6 +25,11 @@ class Year_category extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'category_title' => 'required'
+    ];
+
+    public $customMessages = [
+        'category_title.required' => 'Musíte zadať názov kategórie.'
     ];
 
     public $belongsTo = [
@@ -36,7 +41,7 @@ class Year_category extends Model
     public $hasMany = [
         'advancedImgCards' => [
             'Financie\Advancedimgcard\Models\Advancedimgcard',
-            'delete' => 'true'
+            'delete' => true
         ]
     ];
 

@@ -4,10 +4,7 @@
  use Financie\Advancedimgcard\Models\Year_category;
 
 Route::get('api/advancedImgCard', function(){
-
-    $advancedImgCard = Advancedimgcard::all();
-
-    return $advancedImgCard;
+    return $advancedImgCard = Advancedimgcard::all();
 });
 
 Route::get('api/categories', function(){

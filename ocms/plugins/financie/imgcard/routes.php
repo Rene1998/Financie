@@ -3,10 +3,7 @@
  use Financie\Imgcard\Models\Category;
 
 Route::get('api/imgCard', function(){
-
-    $imgCard = Imgcard::all();
-
-    return $imgCard;
+    return $imgCard = Imgcard::all();
 });
 
 Route::get('api/imgCard/categories', function(){

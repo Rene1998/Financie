@@ -19,6 +19,10 @@ class Linkcard extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'content' => 'required'
+    ];
+    public $customMessages = [
+        'content.required' => 'Musíte zadať obsah.'
     ];
 
     public $belongsTo =[
