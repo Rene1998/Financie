@@ -14,7 +14,7 @@ class BuilderTableCreateFinancieImgcard extends Migration
             $table->string('title');
             $table->text('content');
             $table->timestamps();
-            $table->string('time');
+            $table->integer('time');
         });
     }
     

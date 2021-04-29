@@ -11,7 +11,7 @@ class BuilderTableCreateFinancieSlider extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('content');
+            $table->text('content');
             $table->timestamps();
         });
     }

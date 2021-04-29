@@ -11,11 +11,11 @@ class BuilderTableCreateFinancieLinkcard extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('content');
+            $table->text('content');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
-            $table->string('time');
-            $table->integer('category_id')->nullable();
+            $table->integer('time');
+            $table->integer('category_id')->index();
         });
     }
     

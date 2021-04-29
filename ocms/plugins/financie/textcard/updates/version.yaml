@@ -3,6 +3,3 @@
 1.0.2:
     - 'Created table financie_textcard_'
     - builder_table_create_financie_textcard_.php
-1.0.3:
-    - 'Updated table financie_textcard_'
-    - builder_table_update_financie_textcard_.php

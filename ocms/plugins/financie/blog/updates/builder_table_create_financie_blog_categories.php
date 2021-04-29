@@ -11,7 +11,7 @@ class BuilderTableCreateFinancieBlogCategories extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('title');
+            $table->string('category_title');
             $table->string('slug');
         });
     }

@@ -13,6 +13,7 @@ class BuilderTableCreateFinancieAdvancedimgcardYearCategories extends Migration
             $table->increments('id');
             $table->string('category_title');
             $table->string('slug');
+            $table->integer('category_id');
         });
     }
     
