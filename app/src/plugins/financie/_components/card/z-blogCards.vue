@@ -3,7 +3,7 @@
     <div class="card d-flex m-5" style="width: 18.7rem;" v-for="blog in blogCards" :key="blog.id">
       <img :src="blog.thumbnail_image.path" class="card-img-top" />
       <div class="card-body p-0 " >
-        <p class="timestamp mt-4"> {{posted_at}} • {{blog.time}} prečítanie </p>
+        <p class="timestamp mt-4"> {{posted_at}} • zaberie to iba {{blog.time}} min </p>
         <h5 class="card-title mb-3">{{blog.title}}</h5>
         <div v-html="blog.short_content" class="blog mt-0 mb-4"></div>
         <router-link class="link" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>

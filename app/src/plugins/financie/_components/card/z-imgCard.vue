@@ -8,7 +8,7 @@
     >
       <img :src="imgCard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
-        <p class="timestamp">{{ posted_at }} • {{ imgCard.time }} prečítanie</p>
+        <p class="timestamp">{{posted_at}} • zaberie to iba {{imgCard.time}} min</p>
         <h5 class="card-title">
           {{ imgCard.title }}
         </h5>

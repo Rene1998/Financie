@@ -26,7 +26,7 @@
         <div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
           <div class="body">
             <p class="mt-4">
-              {{ posted_at }} • {{ link1Card.time }} prečítanie
+              {{posted_at}} • zaberie to iba {{link1Card.time}} min
             </p>
             <h3>
               {{ link1Card.content }}
@@ -39,7 +39,7 @@
         <div class="card "  v-for="link2Card in link2Cards" :key="link2Card.id">
           <div class="body">
             <p class="mt-4">
-              {{ posted_at }} • {{ link2Card.time }} prečítanie
+              {{posted_at}} • zaberie to iba {{link2Card.time}} min
             </p>
             <h3>
               {{ link2Card.content }}
@@ -52,7 +52,7 @@
         <div class="card  " v-for="link3Card in link3Cards" :key="link3Card.id">
           <div class="body">
             <p class="mt-4">
-              {{ posted_at }} • {{ link3Card.time }} prečítanie
+              {{posted_at}} • zaberie to iba {{link3Card.time}} min
             </p>
             <h3>
               {{ link3Card.content }}
