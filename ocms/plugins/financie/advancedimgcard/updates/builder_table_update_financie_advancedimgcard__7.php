@@ -3,7 +3,7 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableUpdateFinancieAdvancedimgcard7 extends Migration
+class BuilderTableUpdateFinancieAdvancedimgcard extends Migration
 {
     public function up()
     {
