@@ -4,8 +4,8 @@
       class="card mb-3 border-0 d-flex m-3"
       style="width: 35rem;"
       v-for="imgCard in imgCards"
-      :key="imgCard.id"
-    >
+      :key="imgCard.id">
+
       <img :src="imgCard.image.path" class="card-img-top" alt="" />
       <div class="card-body p-0 pt-4 pr-5">
         <p class="timestamp">{{posted_at}} • zaberie to iba {{imgCard.time}} min</p>
@@ -79,7 +79,7 @@ a {
   text-decoration: none;
 }
 img {
-  width: 538px;
-  height: 302.35px;
+  width: auto;
+  height: auto;
 }
 </style>

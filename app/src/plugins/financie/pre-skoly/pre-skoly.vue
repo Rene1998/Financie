@@ -112,7 +112,7 @@
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
-        <div class="col pl-5 d-flex align-items-end">
+        <div class="col pl-2 pl-md-5 d-flex align-items-end">
           <z-textCard></z-textCard>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container">
-      <div class="row footer-row d-flex align-content-center">
+      <div class="row footer-row d-flex align-content-center pt-3 ml-3">
         <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
@@ -48,9 +48,11 @@
 
     <div class="container-fluid copyright-main">
       <div class="container copyright-container">
-        <div class="row copyright-row d-sm-flex align-items-center">
+        <div class="row copyright-row d-sm-flex align-items-center ml-3">
         
-            <img class="mr-3" src="./assets/logodark.png" alt="logo" />
+            <router-link to="/">
+            <img class="mr-3" src="./assets/logodark.svg" alt="logo" />
+            </router-link>
             <p class="copy m-0">
               © 2021 <a class="financie-link">www.financie.sk</a> Všetky práva vyhradené.
             </p>
