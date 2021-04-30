@@ -1,0 +1,10 @@
+name: Imgcard
+form: $/app/imgcard/models/imgcard/fields.yaml
+modelClass: App\Imgcard\Models\Imgcard
+defaultRedirect: app/imgcard/imgcard
+create:
+    redirect: 'app/imgcard/imgcard/update/:id'
+    redirectClose: app/imgcard/imgcard
+update:
+    redirect: app/imgcard/imgcard
+    redirectClose: app/imgcard/imgcard

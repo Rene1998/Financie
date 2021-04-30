@@ -1,0 +1,4 @@
+title: Categories
+modelClass: App\Linkcard\Models\Category
+toolbar:
+    buttons: reorder_toolbar

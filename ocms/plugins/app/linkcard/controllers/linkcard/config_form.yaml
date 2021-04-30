@@ -1,0 +1,10 @@
+name: Linkcard
+form: $/app/linkcard/models/linkcard/fields.yaml
+modelClass: App\Linkcard\Models\Linkcard
+defaultRedirect: app/linkcard/linkcard
+create:
+    redirect: 'app/linkcard/linkcard/update/:id'
+    redirectClose: app/linkcard/linkcard
+update:
+    redirect: app/linkcard/linkcard
+    redirectClose: app/linkcard/linkcard

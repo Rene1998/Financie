@@ -1,0 +1,10 @@
+name: Slider
+form: $/app/slider/models/slider/fields.yaml
+modelClass: App\Slider\Models\Slider
+defaultRedirect: app/slider/slider
+create:
+    redirect: 'app/slider/slider/update/:id'
+    redirectClose: app/slider/slider
+update:
+    redirect: app/slider/slider
+    redirectClose: app/slider/slider

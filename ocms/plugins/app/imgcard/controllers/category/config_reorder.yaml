@@ -1,0 +1,4 @@
+title: Category
+modelClass: App\Imgcard\Models\Category
+toolbar:
+    buttons: reorder_toolbar

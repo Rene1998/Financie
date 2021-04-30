@@ -1,0 +1,20 @@
+plugin:
+    name: 'app.advancedimgcard::lang.plugin.name'
+    description: 'app.advancedimgcard::lang.plugin.description'
+    author: app
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Advanced karta s obrázkom'
+        url: app/advancedimgcard/advancedimgcard
+        icon: icon-list
+        sideMenu:
+            side-menu-item:
+                label: Školy
+                url: app/advancedimgcard/categories
+                icon: icon-list
+            side-menu-item2:
+                label: Ročníky
+                url: app/advancedimgcard/year_categories
+                icon: icon-list

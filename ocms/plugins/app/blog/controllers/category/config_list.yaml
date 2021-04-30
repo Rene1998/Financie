@@ -1,0 +1,12 @@
+list: $/app/blog/models/category/columns.yaml
+modelClass: App\Blog\Models\Category
+title: Category
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'app/blog/category/update/:id'

@@ -1,0 +1,10 @@
+name: Textcard
+form: $/app/textcard/models/textcard/fields.yaml
+modelClass: App\Textcard\Models\Textcard
+defaultRedirect: app/textcard/textcard
+create:
+    redirect: 'app/textcard/textcard/update/:id'
+    redirectClose: app/textcard/textcard
+update:
+    redirect: app/textcard/textcard
+    redirectClose: app/textcard/textcard

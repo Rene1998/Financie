@@ -1,0 +1,4 @@
+title: Blog
+modelClass: App\Blog\Models\Blog
+toolbar:
+    buttons: reorder_toolbar

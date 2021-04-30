@@ -1,0 +1,12 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table app_advancedimgcard_'
+    - builder_table_create_app_advancedimgcard_.php
+1.0.3:
+    - 'Created table app_advancedimgcard_categories'
+    - builder_table_create_app_advancedimgcard_categories.php
+1.0.4:
+    - 'Created table app_advancedimgcard_year_categories'
+    - builder_table_create_app_advancedimgcard_year_categories.php
+

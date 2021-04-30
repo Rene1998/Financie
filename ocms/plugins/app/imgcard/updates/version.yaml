@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table app_imgcard_'
+    - builder_table_create_app_imgcard_.php
+1.0.3:
+    - 'Created table app_imgcard_categories'
+    - builder_table_create_app_imgcard_categories.php
+1.0.4:
+    - 'Created table app_imgcard_imgcard_categories'
+    - builder_table_create_app_imgcard_imgcard_categories.php

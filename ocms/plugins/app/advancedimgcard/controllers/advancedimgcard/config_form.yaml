@@ -1,0 +1,10 @@
+name: Advancedimgcard
+form: $/app/advancedimgcard/models/advancedimgcard/fields.yaml
+modelClass: app\Advancedimgcard\Models\Advancedimgcard
+defaultRedirect: app/advancedimgcard/advancedimgcard
+create:
+    redirect: 'app/advancedimgcard/advancedimgcard/update/:id'
+    redirectClose: app/advancedimgcard/advancedimgcard
+update:
+    redirect: app/advancedimgcard/advancedimgcard
+    redirectClose: app/advancedimgcard/advancedimgcard

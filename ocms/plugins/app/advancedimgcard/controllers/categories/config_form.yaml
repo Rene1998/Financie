@@ -1,0 +1,10 @@
+name: Categories
+form: $/app/advancedimgcard/models/category/fields.yaml
+modelClass: App\Advancedimgcard\Models\Category
+defaultRedirect: app/advancedimgcard/categories
+create:
+    redirect: 'app/advancedimgcard/categories/update/:id'
+    redirectClose: app/advancedimgcard/categories
+update:
+    redirect: app/advancedimgcard/categories
+    redirectClose: app/advancedimgcard/categories

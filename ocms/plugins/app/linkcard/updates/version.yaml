@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table app_linkcard_'
+    - builder_table_create_app_linkcard_.php
+1.0.3:
+    - 'Created table app_linkcard_categories'
+    - builder_table_create_app_linkcard_categories.php

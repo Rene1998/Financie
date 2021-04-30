@@ -1,0 +1,10 @@
+name: Categories
+form: $/app/linkcard/models/category/fields.yaml
+modelClass: App\Linkcard\Models\Category
+defaultRedirect: app/linkcard/categories
+create:
+    redirect: 'app/linkcard/categories/update/:id'
+    redirectClose: app/linkcard/categories
+update:
+    redirect: app/linkcard/categories
+    redirectClose: app/linkcard/categories

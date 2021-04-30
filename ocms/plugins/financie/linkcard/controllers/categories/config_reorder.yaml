@@ -1,4 +1,0 @@
-title: Categories
-modelClass: Financie\Linkcard\Models\Category
-toolbar:
-    buttons: reorder_toolbar

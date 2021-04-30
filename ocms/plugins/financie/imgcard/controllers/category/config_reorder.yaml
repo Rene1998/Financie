@@ -1,4 +1,0 @@
-title: Category
-modelClass: Financie\Imgcard\Models\Category
-toolbar:
-    buttons: reorder_toolbar

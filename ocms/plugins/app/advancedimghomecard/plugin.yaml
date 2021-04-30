@@ -1,0 +1,11 @@
+plugin:
+    name: 'app.advancedimghomecard::lang.plugin.name'
+    description: 'app.advancedimghomecard::lang.plugin.description'
+    author: app
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Advanced karta s obrázkom na homepage'
+        url: app/advancedimghomecard/advancedimghomecard
+        icon: icon-list

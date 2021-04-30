@@ -1,0 +1,16 @@
+plugin:
+    name: 'app.linkcard::lang.plugin.name'
+    description: 'app.linkcard::lang.plugin.description'
+    author: app
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Karta s linkmi'
+        url: app/linkcard/linkcard
+        icon: icon-list
+        sideMenu:
+            side-menu-item:
+                label: Kategórie
+                url: app/linkcard/categories
+                icon: icon-list

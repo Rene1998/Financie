@@ -1,0 +1,4 @@
+title: Year_categories
+modelClass: App\Advancedimgcard\Models\Year_category
+toolbar:
+    buttons: reorder_toolbar

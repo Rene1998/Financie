@@ -1,4 +1,0 @@
-title: Year_categories
-modelClass: Financie\Advancedimgcard\Models\Year_category
-toolbar:
-    buttons: reorder_toolbar

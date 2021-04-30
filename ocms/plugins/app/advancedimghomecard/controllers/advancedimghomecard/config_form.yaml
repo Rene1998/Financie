@@ -1,0 +1,10 @@
+name: Advancedimghomecard
+form: $/app/advancedimghomecard/models/advancedimghomecard/fields.yaml
+modelClass: App\Advancedimghomecard\Models\Advancedimghomecard
+defaultRedirect: app/advancedimghomecard/advancedimghomecard
+create:
+    redirect: 'app/advancedimghomecard/advancedimghomecard/update/:id'
+    redirectClose: app/advancedimghomecard/advancedimghomecard
+update:
+    redirect: app/advancedimghomecard/advancedimghomecard
+    redirectClose: app/advancedimghomecard/advancedimghomecard
