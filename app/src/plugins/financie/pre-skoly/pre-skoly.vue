@@ -262,4 +262,10 @@ hr {
   height: 0px;
   border: 1px solid #f3f4f5;
 }
+
+@media (max-width:600px){
+  .divider {
+    display: none;
+  }
+}
 </style>
