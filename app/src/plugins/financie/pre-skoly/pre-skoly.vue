@@ -190,6 +190,13 @@ export default {
   }
 }
 
+@media (max-width:500px) {
+  .preskoly-main {
+    background-image: none;
+    background-color: rgb(237,239,238);
+  }
+}
+
 .download-all {
   width: 223px;
   height: 59.47px;
