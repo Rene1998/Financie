@@ -95,7 +95,11 @@ footer {
   .financie-link {
     color: #1EAEE1;
   }
-
+    @media (max-width:500px) {
+      .copy {
+        font-size: 13px;
+      }
+    }
     .btn {
       padding: 21.5px 15px;
       &a:hover {

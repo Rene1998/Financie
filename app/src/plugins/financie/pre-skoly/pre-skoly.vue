@@ -258,8 +258,7 @@ h5 {
 }
 
 hr {
-  width: 1138px;
-  height: 0px;
+  max-width: 73%;
   border: 1px solid #f3f4f5;
 }
 
