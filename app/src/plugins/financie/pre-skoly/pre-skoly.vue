@@ -8,20 +8,46 @@
             {{ content }}
           </p>
           <p>
-            <router-link :class="{ isActiveA: activePage == 'zakladne-skoly' }"  to="/pre-skoly/zakladne-skoly"
+            <router-link
+              :class="{ isActiveA: activePage == 'zakladne-skoly' }"
+              to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link
             >
             •
-            <router-link :class="{ isActiveA: activePage == 'stredne-skoly' }" to="/pre-skoly/stredne-skoly"
+            <router-link
+              :class="{ isActiveA: activePage == 'stredne-skoly' }"
+              to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link
             >
             •
-            <router-link :class="{ isActiveA: activePage == 'vysoke-skoly' }" to="/pre-skoly/vysoke-skoly">Vysoke školy</router-link>
+            <router-link
+              :class="{ isActiveA: activePage == 'vysoke-skoly' }"
+              to="/pre-skoly/vysoke-skoly"
+              >Vysoke školy</router-link
+            >
           </p>
         </div>
       </div>
     </div>
 
+    <div class="d-block d-sm-block d-md-none">
+      <carousel :perPage="1">
+        <slide
+          v-for="card in skola"
+          :key="card.id"
+          :title="card.title"
+          :img="card.img"
+          :link="card.link"
+        >
+          <div v-on:click="changeCardContent(card.link)" class="col-3">
+            <z-categoryCard
+              :card="card"
+              :activeCard="activeCard"
+            ></z-categoryCard>
+          </div>
+        </slide>
+      </carousel>
+    </div>
     <div class="container">
       <div class="row">
         <div
@@ -30,10 +56,13 @@
           :title="card.title"
           :img="card.img"
           :link="card.link"
-          class="col-3"
+          class="col-3 d-none d-md-block d-lg-block d-xl-block"
         >
           <div v-on:click="changeCardContent(card.link)">
-            <z-categoryCard :card="card" :activeCard="activeCard"></z-categoryCard>
+            <z-categoryCard
+              :card="card"
+              :activeCard="activeCard"
+            ></z-categoryCard>
           </div>
         </div>
       </div>
@@ -121,14 +150,16 @@
 </template>
 
 <script>
+//docs => https://ssense.github.io/vue-carousel/api/
 import cardContent from "./pre-skoly_content.js";
+import { Carousel, Slide } from "vue-carousel";
 export default {
   watch: {
     "$route.params.slug": {
       immediate: true,
       handler(val) {
         this.changePageContent(val);
-        console.log(val)
+        console.log(val);
       },
     },
   },
@@ -154,8 +185,8 @@ export default {
       this.activePage = val;
     },
     changeCardContent(val) {
-      this.cardContent = val
-      this.activeCard = val
+      this.cardContent = val;
+      this.activeCard = val;
     },
     changeCardCategory(val) {
       this.cardCategory = val;
@@ -163,6 +194,8 @@ export default {
     },
   },
   components: {
+    Carousel,
+    Slide,
     "z-carousel": () => import("../home/z-carousel"),
     "z-advancedImgCards": () =>
       import("../_components/card/z-advancedImgCards"),
@@ -190,10 +223,10 @@ export default {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .preskoly-main {
     background-image: none;
-    background-color: rgb(237,239,238);
+    background-color: rgb(237, 239, 238);
   }
 }
 
@@ -254,7 +287,7 @@ h5 {
 }
 
 .isActiveA {
-  color: #1eaee1
+  color: #1eaee1;
 }
 
 .switch-background {
@@ -269,7 +302,7 @@ hr {
   border: 1px solid #f3f4f5;
 }
 
-@media (max-width:600px){
+@media (max-width: 600px) {
   .divider {
     display: none;
   }
