@@ -89,4 +89,10 @@ h6 {
   border-bottom: 5px solid #1eaee1;
   border-radius: 5px;
 }
+
+@media (max-width:500px) {
+  .card {
+    min-width: 18rem;
+  }
+}
 </style>
