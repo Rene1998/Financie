@@ -4,22 +4,18 @@
       <div class="container">
         <div class="preskoly-welcome-text mb-5">
           <h1 class="title">{{ title }}</h1>
-          <p class="content">
-            {{ content }}
-          </p>
+          <p class="content">{{ content }}</p>
           <p>
             <router-link
               :class="{ isActiveA: activePage == 'zakladne-skoly' }"
               to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link
-            >
-            •
+            >•
             <router-link
               :class="{ isActiveA: activePage == 'stredne-skoly' }"
               to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link
-            >
-            •
+            >•
             <router-link
               :class="{ isActiveA: activePage == 'vysoke-skoly' }"
               to="/pre-skoly/vysoke-skoly"
@@ -77,40 +73,35 @@
       </h4>
       <p>
         A preto sme učiteľom a ich žiakom na základných a stredných školách
-        pripravili príručky, cvičenia a videá, ktoré vás <br />
-        prevedú finančným vzdelaním.
+        pripravili príručky, cvičenia a videá, ktoré vás
+        <br />prevedú finančným vzdelaním.
       </p>
     </div>
 
-    <div class="d-flex align-items-center justify-content-center mb-5">
-      <div class="background d-flex align-items-center justify-content-center">
-        <div
-          class="switch-background d-flex align-items-center justify-content-center"
+    <div class="switch-wrapper mb-5">
+      <b-button-group>
+        <button
+          class="switch-button p-0"
+          :class="{ switchIsActive: active }"
+          @click="
+            changeCardCategory('advancedImgCardLink');
+            active = !active;
+          "
         >
-          <b-button-group>
-            <button
-              class="switch-button p-0"
-              :class="{ switchIsActive: active }"
-              @click="
-                changeCardCategory('advancedImgCardLink');
-                active = !active;
-              "
-            >
-              Učebné materiály
-            </button>
-            <button
-              class="switch-button p-0"
-              :class="{ switchIsActive: !active }"
-              @click="
-                changeCardCategory('advancedImgCardVideo');
-                active = !active;
-              "
-            >
-              Videá
-            </button>
-          </b-button-group>
-        </div>
-      </div>
+          Učebné materiály
+        </button>
+
+        <button
+          class="switch-button p-0"
+          :class="{ switchIsActive: !active }"
+          @click="
+            changeCardCategory('advancedImgCardVideo');
+            active = !active;
+          "
+        >
+          Videá
+        </button>
+      </b-button-group>
     </div>
 
     <div class="container">
@@ -262,23 +253,33 @@ h5 {
   font-size: 40px;
 }
 
-.switch-button {
-  height: 28px;
-  width: 287px;
-  border: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  background-color: #e5e5e5;
+.switch-wrapper {
+    margin: auto;
+    width: 95%;
+    max-width: 500px;
 
-  &:hover {
-    background: #ffffff;
-    border: 0.5px solid rgba(0, 0, 0, 0.04);
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 6.93px;
-  }
+    .btn-group {
+      background: rgba(118, 118, 128, 0.12);
+      padding: 2px;
+      border-radius: 8px;
+        width: 100%;
+
+        .switch-button {
+            width: 100%;
+            height: 28px;
+            border: 0px;
+
+             &:hover {
+                background: #ffffff;
+                border: 0.5px solid rgba(0, 0, 0, 0.04);
+                box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+                border-radius: 6.93px;
+            }
+        }
+    }
 }
+
+
 .switchIsActive {
   background: #ffffff;
   border: 0.5px solid rgba(0, 0, 0, 0.04);
@@ -288,13 +289,6 @@ h5 {
 
 .isActiveA {
   color: #1eaee1;
-}
-
-.switch-background {
-  width: 578px;
-  height: 32px;
-  background-color: #e5e5e5;
-  border-radius: 6px;
 }
 
 hr {
