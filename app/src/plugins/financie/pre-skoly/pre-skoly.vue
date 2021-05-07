@@ -10,12 +10,12 @@
               :class="{ isActiveA: activePage == 'zakladne-skoly' }"
               to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link
-            >•
+            > •
             <router-link
               :class="{ isActiveA: activePage == 'stredne-skoly' }"
               to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link
-            >•
+            > •
             <router-link
               :class="{ isActiveA: activePage == 'vysoke-skoly' }"
               to="/pre-skoly/vysoke-skoly"
