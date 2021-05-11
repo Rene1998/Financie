@@ -308,4 +308,20 @@ hr {
   }
 }
 
+/deep/ {
+  &.VueCarousel-dot:focus {
+    outline: none !important;
+  }
+
+  &.VueCarousel-dot--active {
+    background-color: #1eaee1 !important;
+  }
+
+  &.VueCarousel-dot {
+    width: 6px !important;
+    height: 6px !important;
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
 </style>
