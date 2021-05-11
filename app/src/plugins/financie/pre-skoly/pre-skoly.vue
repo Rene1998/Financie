@@ -27,13 +27,14 @@
     </div>
 
     <div class="d-block d-sm-block d-md-none">
-      <carousel :perPage="1">
-        <slide
+      <carousel class="carousel-wrapper" :perPage="1">
+        <slide class="slide"
           v-for="card in skola"
           :key="card.id"
           :title="card.title"
           :img="card.img"
           :link="card.link"
+        
         >
           <div v-on:click="changeCardContent(card.link)" class="col-3">
             <z-categoryCard
@@ -44,7 +45,7 @@
         </slide>
       </carousel>
     </div>
-    <div class="container">
+    <div class="container carousel-wrapper">
       <div class="row">
         <div
           v-for="card in skola"
@@ -199,6 +200,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.carousel-wrapper {
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
 .preskoly-main {
   background-image: url(/assets/group1.png);
   min-height: 500px;
@@ -301,4 +307,5 @@ hr {
     display: none;
   }
 }
+
 </style>
