@@ -36,7 +36,7 @@
           :link="card.link"
         
         >
-          <div v-on:click="changeCardContent(card.link)" class="col-3">
+          <div v-on:click="changeCardContent(card.link)" class="col-10 offset-1">
             <z-categoryCard
               :card="card"
               :activeCard="activeCard"
