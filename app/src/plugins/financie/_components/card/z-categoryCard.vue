@@ -73,11 +73,11 @@ export default {
 
   border-bottom: 5px solid transparent;
   &:hover {
-    border-bottom: 5px solid #1eaee1;
+    border-bottom: 5px solid #FFA800;
     border-radius: 5px;
   }
   &:focus {
-    border-bottom: 5px solid #1eaee1;
+    border-bottom: 5px solid #FFA800;
   }
 }
 h6 {
@@ -85,7 +85,7 @@ h6 {
   font-weight: 400;
 }
 .isActive {
-  border-bottom: 5px solid #1eaee1;
+  border-bottom: 5px solid #FFA800;
   border-radius: 5px;
 }
 
