@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="preskoly-wrapper">
-      <div class="container d-flex align-items-center">
+      <div class="container home-main d-flex align-items-center">
         <div class="preskoly-welcome-text">
           <h1>
             Prevedieme vás životnou
@@ -66,7 +66,7 @@
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
-        <div class="col pl-5">
+        <div class="col">
           <z-textCard></z-textCard>
         </div>
       </div>
@@ -165,5 +165,11 @@ a {
   margin-top: -250px;
 }
 
+@media (max-width: 500px) {
+  .preskoly-wrapper {
+    background-image: none;
+    background-color: rgb(237, 239, 238);
+  }
+}
 
 </style>
