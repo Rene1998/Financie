@@ -1,0 +1,14 @@
+Database info
+
+Database Name : financie
+Database Username : admin
+Database Password : admin
+Database Host : localhost
+Table Prefix : wp_
+
+Page info
+
+Site Title : Financie
+Username : admin
+Password : EH8o$&gQgyFwOBSDP1
+Your Email : financie@financie.sk
