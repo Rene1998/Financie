@@ -6,7 +6,7 @@ const poistenie = {
 	link1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
-    titulok3: 'Poistenie nehnuteľnosti/domácnosti (neživotné poistenie)',
+    titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
