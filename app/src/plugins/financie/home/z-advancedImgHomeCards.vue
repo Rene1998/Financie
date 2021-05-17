@@ -4,7 +4,7 @@
       v-for="advancedImgHomeCard in advancedImgHomeCards"
       :key="advancedImgHomeCard.id"
       :title="advancedImgHomeCard.title"
-      :img-src="advancedImgHomeCard.image.path"
+      :img-src="advancedImgHomeCard.image"
       img-alt="Image"
       tag="article"
       class="mb-2 border border-0 m-2"
@@ -16,12 +16,12 @@
         <b-card-body class="hb d-flex justify-content-between mr-2">
           <div>
             <h6 class="mb-0">
-              {{ advancedImgHomeCard.link1 }}
+              {{ advancedImgHomeCard.titulok1 }}
             </h6>
           </div>
 
           <div>
-            <a :href="advancedImgHomeCard.link1_link" class="blue card-link">
+            <a :href="advancedImgHomeCard.link1" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
           </div>
@@ -32,12 +32,12 @@
         <b-card-body class="hb d-flex justify-content-between mr-2">
           <div>
             <h6 class="mb-0">
-              {{ advancedImgHomeCard.link2 }}
+              {{ advancedImgHomeCard.titulok2 }}
             </h6>
           </div>
 
           <div>
-            <a :href="advancedImgHomeCard.link2_link" class="blue card-link">
+            <a :href="advancedImgHomeCard.link2" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
           </div>
@@ -48,28 +48,28 @@
         <b-card-body class="hb d-flex justify-content-between mr-2">
           <div>
             <h6 class="mb-0">
-              {{ advancedImgHomeCard.link3 }}
+              {{ advancedImgHomeCard.titulok3 }}
             </h6>
           </div>
 
           <div>
-            <a :href="advancedImgHomeCard.link3_link" class="blue card-link">
+            <a :href="advancedImgHomeCard.link3" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
           </div>
         </b-card-body>
         <hr class="hb m-0" />
       </div>
-      <div v-if="advancedImgHomeCard.link4 != ''">
+      <div v-if="advancedImgHomeCard.titulok4 != ''">
         <b-card-body class="hb d-flex justify-content-between mr-2">
           <div>
             <h6 class="mb-0">
-              {{ advancedImgHomeCard.link4 }}
+              {{ advancedImgHomeCard.titulok4 }}
             </h6>
           </div>
 
           <div>
-            <a :href="advancedImgHomeCard.link4_link" class="blue card-link">
+            <a :href="advancedImgHomeCard.link4" class="blue card-link">
               <b-icon icon="arrow-right"></b-icon>
             </a>
           </div>
@@ -80,16 +80,15 @@
 </template>
 
 <script>
-import apiService from "../common/apiService";
-
+import pageContent from "./osobne-financie_content_linky";
 export default {
   name: "z-advancedImgHomeCards",
   data() {
     return {
-      advancedImgHomeCards: [],
+      advancedImgHomeCards: pageContent,
     };
   },
-  async mounted() {
+  /*async mounted() {
     await this._loadCards();
   },
   methods: {
@@ -102,7 +101,7 @@ export default {
         console.error(e);
       }
     },
-  },
+  },*/
 };
 </script>
 
