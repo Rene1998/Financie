@@ -9,7 +9,7 @@
     >
       <router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
         <b-card-img :src="advancedImgHomeCard.image"></b-card-img>
-        <b-card-title>
+        <b-card-title class="card-title-adv">
           {{ advancedImgHomeCard.title }}
         </b-card-title>
         <b-card-text class="d-flex align-items-end mb-5">
@@ -131,6 +131,7 @@ a {
 
   &:hover {
     color: #1eaee1;
+    text-decoration: none !important;
   }
 }
 
@@ -145,4 +146,10 @@ a {
     border-top: 1px solid #1eaee1 !important;
   }
 }
+
+.card-title-adv {  
+  color: black;
+  text-decoration: none;
+}
+
 </style>
