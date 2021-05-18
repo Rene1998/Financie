@@ -14,7 +14,28 @@
         </div>
       </div>
     </div>
-
+    <div class="d-sm-block d-md-none">
+      <carousel class="carousel-wrapper" :perPage="1">
+        <slide
+          v-for="card in cards"
+          :key="card.title"
+          :title="card.title"
+          :icon="card.icon"
+          :link="card.link"
+          class="slide"
+        >
+          <p>
+            <router-link :to="'/osobne-financie/' + card.link">
+              <z-homeCategoryCard
+                class="mt-2"
+                :card="card"
+              ></z-homeCategoryCard>
+            </router-link>
+          </p>
+        </slide>
+      </carousel>
+    </div>
+    <div class="d-none d-md-block d-lg-block d-xl-block">
     <div class="container">
       <div class="row category-cards">
         <div
@@ -35,6 +56,7 @@
           </p>
         </div>
       </div>
+    </div>
     </div>
     <hr />
     <z-carousel></z-carousel>
@@ -74,8 +96,11 @@
   </div>
 </template>
 <script>
+import { Carousel, Slide } from "vue-carousel";
 export default {
   components: {
+    Carousel,
+    Slide,
     "z-homeCategoryCard": () =>
       import("../_components/card/z-homeCategoryCard"),
     "z-carousel": () => import("./z-carousel"),
@@ -172,4 +197,20 @@ a {
   }
 }
 
+/deep/ {
+  &.VueCarousel-dot:focus {
+    outline: none !important;
+  }
+
+  &.VueCarousel-dot--active {
+    background-color: #1eaee1 !important;
+  }
+
+  &.VueCarousel-dot {
+    width: 6px !important;
+    height: 6px !important;
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
 </style>

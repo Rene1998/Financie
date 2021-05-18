@@ -3,15 +3,19 @@
     <b-card
       v-for="advancedImgHomeCard in advancedImgHomeCards"
       :key="advancedImgHomeCard.id"
-      :title="advancedImgHomeCard.title"
-      :img-src="advancedImgHomeCard.image"
       img-alt="Image"
       tag="article"
       class="mb-2 border border-0 m-2"
     >
-      <b-card-text class="d-flex align-items-end mb-5">
-        {{ advancedImgHomeCard.content }}
-      </b-card-text>
+      <router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
+        <b-card-img :src="advancedImgHomeCard.image"></b-card-img>
+        <b-card-title>
+          {{ advancedImgHomeCard.title }}
+        </b-card-title>
+        <b-card-text class="d-flex align-items-end mb-5">
+          {{ advancedImgHomeCard.content }}
+        </b-card-text>
+      </router-link>
       <div class="hb">
         <b-card-body class="hb d-flex justify-content-between mr-2">
           <div>
@@ -88,20 +92,6 @@ export default {
       advancedImgHomeCards: pageContent,
     };
   },
-  /*async mounted() {
-    await this._loadCards();
-  },
-  methods: {
-    async _loadCards() {
-      try {
-        const cards = await apiService.get("advancedImgHomeCard");
-        this.advancedImgHomeCards = cards.data;
-        console.log(cards.data);
-      } catch (e) {
-        console.error(e);
-      }
-    },
-  },*/
 };
 </script>
 
