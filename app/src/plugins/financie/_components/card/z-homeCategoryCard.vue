@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card d-flex align-items-center flex-column text-center">
+    <div class="card">
       <div class="card-body d-flex align-items-center flex-column mt-3">
         <img class="category-card " :src="cardIcon" alt="" />
         <h6 class="card-title m-0 mt-3 d-flex align-items-end">
@@ -28,8 +28,6 @@ export default {
 <style lang="scss" scoped>
 .card {
   cursor: pointer;
-  height: 148px;
-  width: 363px;
   border: none;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
@@ -56,6 +54,15 @@ h6 {
   font-size: 18px;
   font-weight: 400;
 }
+
+@media (max-width:500px) {
+  .card {
+    max-width: 18rem !important;
+    margin: auto;
+  
+  }
+}
+
 
 
 </style>

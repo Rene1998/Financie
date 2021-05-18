@@ -36,7 +36,7 @@
       </carousel>
     </div>
     <div class="d-none d-md-block d-lg-block d-xl-block">
-    <div class="container">
+    <div class="container carousel-wrapper">
       <div class="row category-cards">
         <div
           v-for="card in cards"
@@ -154,6 +154,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.carousel-wrapper {
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
 .preskoly-wrapper {
   background-image: url("/assets/Group 1.png");
   min-height: 600px;
@@ -212,5 +216,10 @@ a {
     width: 6px !important;
     height: 6px !important;
   }
+}
+
+hr {
+  max-width: 73%;
+  border: 1px solid #f3f4f5;
 }
 </style>
