@@ -3,12 +3,16 @@ const byvanie = {
 	title: 'Bývanie',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'byvanie'
 };
 const rodinaADeti = {
@@ -16,12 +20,16 @@ const rodinaADeti = {
 	title: 'Rodina a deti',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'rodina-deti'
 }
 const auto = {
@@ -29,12 +37,16 @@ const auto = {
 	title: 'Auto',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'auto'
 }
 const dochodok = {
@@ -42,12 +54,16 @@ const dochodok = {
 	title: 'Dôchodok',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'dochodok'
 }
 const exekucia = {
@@ -55,12 +71,16 @@ const exekucia = {
 	title: 'Exekúcia',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'exekucia'
 }
 const pracaADane = {
@@ -68,12 +88,16 @@ const pracaADane = {
 	title: 'Práca a dane',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: '',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: '',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: '',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: '',
 	defaultLink: 'praca-dane'
 }
 const poistenie = {
@@ -83,12 +107,16 @@ const poistenie = {
 	link: 'poistenie',
 	titulok1: 'Životné poistenie',
 	link1: '',
+	text1: 'Hlavné parametre životného postenia',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: '',
+	text2: 'Prečo si uzavrieť havarijné poistenie keď mám PZP?',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
 	link3: '',
+	text3: 'Na čo si dávať pozor pri uzatváraní poistenia na dom?',
     titulok4: 'Cestovné poistenie',
 	link4: '',
+	text4: 'Kedy a prečo sa oplatí?',
 	defaultLink: 'poistenie'
 }
 const hypotekarnyUver = {
@@ -98,12 +126,16 @@ const hypotekarnyUver = {
     link: 'hypotekarny-uver',
 	titulok1: 'Hypotekárny úver - nadobudnutie bývania',
 	link1: '',
+	text1: 'Zabezpečenie hypotéky (zábezpeka, ručiteľ)',
     titulok2: 'Americká hypotéka',
 	link2: '',
+	text2: 'Čo je americká hypotéka ako funguje',
     titulok3: 'Žiadosť o úver',
 	link3: '',
+	text3: 'Ako dostať najlacnejšiu hypotéku?',
     titulok4: 'Splácanie úveru',
 	link4: '',
+	text4: 'Refinancovanie (ako prebieha, kedy refinancovať)',
 	defaultLink: 'hypotekarny-uver'
 }
 const uverNaSpotrebu = {
@@ -113,12 +145,16 @@ const uverNaSpotrebu = {
     link: 'uver-na-spotrebu',
 	titulok1: 'Spotrebný úver',
 	link1: '',
+	text1: 'Ako funguje spotrebný úver ',
     titulok2: 'Krátkodobé úvery',
 	link2: '',
+	text2: 'Nástrahy, úrokové sadzby',
     titulok3: 'Čerpanie a splácanie',
 	link3: '',
+	text3: 'Ako dlho trvá čerpanie úverov',
     titulok4: 'Nebankové úvery a pôžičky',
 	link4: '',
+	text4: 'Aký je rozdiel medzi bankovou anebankovou pôžičkou',
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
@@ -128,12 +164,16 @@ const investovanie = {
     link: 'investovanie',
 	titulok1: 'Základy investovania',
 	link1: '',
+	text1: 'Kedy začať investovať',
     titulok2: 'Základné Investičné Príležitosti',
 	link2: '',
+	text2: 'Investovanie do akcií',
     titulok3: 'Investičné princípy',
 	link3: '',
+	text3: 'Rozdiel medzi investovaním a sporením',
     titulok4: 'Aktívne vs. pasívne investovanie',
 	link4: '',
+	text4: 'Aké je to akívne investovanie -výhody anevýhody',
 	defaultLink: 'investovanie'
 }
 const bankoveUctyAPlatobneKarty = {
@@ -143,12 +183,16 @@ const bankoveUctyAPlatobneKarty = {
     link: 'bankove-ucty-a-platobne-karty',
 	titulok1: 'Bežný Účet',
 	link1: '',
+	text1: 'Ako mať bankový účet zadarmo',
     titulok2: 'Sporiaci Účet',
 	link2: '',
+	text2: 'Ako sa odlišuje sporiaci účet od bežného účtu',
     titulok3: 'Kreditná Karta',
 	link3: '',
+	text3: 'Čo je kreditná karta?',
     titulok4: 'Debetná Karta',
 	link4: '',
+	text4: 'Čo je debetná karta?',
 	defaultLink: 'bankove-ucty-a-platobne-karty'
 }
 const fintech = {
@@ -158,12 +202,16 @@ const fintech = {
     link: 'fintech',
 	titulok1: 'Internet a Mobile Banking',
 	link1: '',
+	text1: 'Peer-to-peer lending',
     titulok2: 'Neobanky (N26, 365.)',
 	link2: '',
+	text2: 'ApplePay, VIAMO',
     titulok3: 'Finančné platformy',
 	link3: '',
+	text3: 'Rozdiely oproti tradičným bankám',
     titulok4: 'Tu nieco pojde',
 	link4: '',
+	text4: 'Plus 500, eToro, Finax',
 	defaultLink: 'fintech'
 }
 

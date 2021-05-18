@@ -114,32 +114,37 @@ export default {
       link2: null,
       link3: null,
       link4: null,
+      text1: null,
+      text2: null,
+      text3: null,
+      text4: null,
+
       cards: [
         {
           id: 1,
           title: "",
-          text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+          text: "",
           link: "",
           icon: "Blue-home.svg",
         },
         {
           id: 2,
           title: "",
-          text: "Môžete refinancovať vašu hypotéku bez problémov.",
+          text: "",
           link: "",
           icon: "Slide-img.svg",
         },
         {
           id: 3,
           title: "",
-          text: "Čo znamená americká hypo",
+          text: "",
           link: "",
           icon: "Home$.svg",
         },
         {
           id: 4,
           title: "",
-          text: "Ako si vziat vyhodnu hypotenku? Ako môžete začať.",
+          text: "",
           link: "",
           icon: "Umbrella.svg",
         },
@@ -158,12 +163,17 @@ export default {
       this.link2 = pageContent[val].link2
       this.link3 = pageContent[val].link3
       this.link4 = pageContent[val].link4
+      this.text1 = pageContent[val].text1
+      this.text2 = pageContent[val].text2
+      this.text3 = pageContent[val].text3
+      this.text4 = pageContent[val].text4
     },
   },
   mounted() {
     this.cards.map((card,i) => {
       card.title = this[`titulok${i+1}`]
       card.link = this[`link${i+1}`]
+      card.text = this[`text${i+1}`]
     })
   },
 };
