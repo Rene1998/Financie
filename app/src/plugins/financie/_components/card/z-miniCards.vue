@@ -73,11 +73,8 @@ a{
 
 
 .height{
-  min-height: 50px;
+  height: 30px;
 }
 
-.card-title {
-  min-height: 30px;
-}
 
 </style>
