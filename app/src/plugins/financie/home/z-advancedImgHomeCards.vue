@@ -150,6 +150,7 @@ a {
 .card-title-adv {  
   color: black;
   text-decoration: none;
+  min-height: 60px !important;
 }
 
 </style>
