@@ -97,9 +97,6 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  width: 363px !important;
-  display: inline-block;
-
   img {
     height: 210px;
   }

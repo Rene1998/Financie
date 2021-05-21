@@ -80,4 +80,12 @@ a{
   min-height: 30px;
 }
 
+@media (max-width:800px) {
+  .card {
+    max-width: 17rem !important;
+    margin: auto;
+  
+  }
+}
+
 </style>

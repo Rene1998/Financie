@@ -1,14 +1,17 @@
 <template>
-  <div>
+  <div class="row">
     <div v-for="advancedImgCard in advancedImgCards"
-      :key="advancedImgCard.id">
+      :key="advancedImgCard.id"
+      class="col-12 col-lg-4 col-md-6"
+      >
+      
 
     <b-card
       :title="advancedImgCard.title"
       :img-src="advancedImgCard.image.path"
       img-alt="Image"
       tag="article"
-      class="mb-2 border border-0 m-2"
+      class="mb-2 border border-0"
     >
       <div>
         <b-card-text class="d-flex align-items-end mb-5">
@@ -145,15 +148,16 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  display: inline-block;
-
   img {
     height: 210px;
   }
 
   .card-title {
-    min-height: 35px;
     margin-top: 17.5px;
+    min-height: 20%;
+  }
+  .card-text{
+    min-height: 50px;
   }
 }
 
