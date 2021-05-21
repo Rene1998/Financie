@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="default-layout">
 		<a-infoBar>
 
 		</a-infoBar>
@@ -18,3 +18,8 @@ export default {
 	}
 }
 </script>
+<style scoped>
+.default-layout {
+	overflow-x: hidden;
+}
+</style>
