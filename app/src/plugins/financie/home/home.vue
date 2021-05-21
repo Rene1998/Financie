@@ -36,27 +36,27 @@
       </carousel>
     </div>
     <div class="d-none d-md-block d-lg-block d-xl-block">
-    <div class="container carousel-wrapper">
-      <div class="row category-cards">
-        <div
-          v-for="card in cards"
-          :key="card.title"
-          :title="card.title"
-          :icon="card.icon"
-          :link="card.link"
-          class="col-4 mb-3"
-        >
-          <p>
-            <router-link :to="'/osobne-financie/' + card.link">
-              <z-homeCategoryCard
-                class="mt-2"
-                :card="card"
-              ></z-homeCategoryCard>
-            </router-link>
-          </p>
+      <div class="container carousel-wrapper">
+        <div class="row category-cards">
+          <div
+            v-for="card in cards"
+            :key="card.title"
+            :title="card.title"
+            :icon="card.icon"
+            :link="card.link"
+            class="col-4 mb-3"
+          >
+            <p>
+              <router-link :to="'/osobne-financie/' + card.link">
+                <z-homeCategoryCard
+                  class="mt-2"
+                  :card="card"
+                ></z-homeCategoryCard>
+              </router-link>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <hr />
     <z-carousel></z-carousel>
