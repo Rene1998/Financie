@@ -106,12 +106,10 @@
     </div>
 
     <div class="container">
-      <div class="row mb-4">
         <z-advancedImgCards
           :cardContent="cardContent"
           :cardCategory="cardCategory"
         ></z-advancedImgCards>
-      </div>
     </div>
 
     <div class="container text-center mb-5">

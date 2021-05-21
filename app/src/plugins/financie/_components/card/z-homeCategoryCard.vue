@@ -55,9 +55,9 @@ h6 {
   font-weight: 400;
 }
 
-@media (max-width:500px) {
+@media (max-width:800px) {
   .card {
-    max-width: 18rem !important;
+    max-width: 17rem !important;
     margin: auto;
   
   }

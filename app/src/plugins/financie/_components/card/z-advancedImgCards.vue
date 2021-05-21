@@ -1,8 +1,9 @@
 <template>
   <div>
+    <div v-for="advancedImgCard in advancedImgCards"
+      :key="advancedImgCard.id">
+
     <b-card
-      v-for="advancedImgCard in advancedImgCards"
-      :key="advancedImgCard.id"
       :title="advancedImgCard.title"
       :img-src="advancedImgCard.image.path"
       img-alt="Image"
@@ -79,6 +80,7 @@
       </div>
     </b-card>
   </div>
+  </div>
 </template>
 
 <script>
@@ -143,7 +145,6 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  width: 363px !important;
   display: inline-block;
 
   img {

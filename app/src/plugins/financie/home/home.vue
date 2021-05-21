@@ -70,9 +70,7 @@
     </div>
 
     <div class="container">
-      <div class="row mb-4">
-        <z-advancedImgHomeCards></z-advancedImgHomeCards>
-      </div>
+      <z-advancedImgHomeCards></z-advancedImgHomeCards>
     </div>
     <div class="container">
       <div class="row">
@@ -194,7 +192,7 @@ a {
   margin-top: -250px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .preskoly-wrapper {
     background-image: none;
     background-color: rgb(237, 239, 238);
