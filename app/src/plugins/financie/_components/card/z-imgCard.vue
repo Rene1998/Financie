@@ -1,8 +1,7 @@
 <template>
-  <div class="d-flex">
-    <div
-      class="card mb-3 border-0 d-flex m-3"
-      style="width: 35rem;"
+  <div class="row">
+    <div 
+      class="card mb-3 border-0 d-flex col-12 col-lg-12 mb-5"
       v-for="imgCard in imgCards"
       :key="imgCard.id"
     >
@@ -76,21 +75,30 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.card-img-top {
+    width: auto;
+    max-height: 315px;
+  }
 .timestamp {
   color: #898989;
 }
 h5 {
   font-size: 18px;
+  color: #192949;
+  font-weight: bold;
+  font-style: normal;
 }
 a {
   color: #1eaee1;
   text-decoration: none;
 }
 
-@media (max-width: 500px) {
-  .img {
+@media (max-width: 800px) {
+  .card-img-top {
     width: auto;
-    height: auto;
+    min-height: auto;
   }
 }
+
+
 </style>

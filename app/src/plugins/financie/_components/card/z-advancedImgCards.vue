@@ -1,93 +1,92 @@
 <template>
   <div class="row">
-    <div v-for="advancedImgCard in advancedImgCards"
+    <div
+      v-for="advancedImgCard in advancedImgCards"
       :key="advancedImgCard.id"
       class="col-12 col-lg-4 col-md-6"
-      >
-      
-
-    <b-card
-      :title="advancedImgCard.title"
-      :img-src="advancedImgCard.image.path"
-      img-alt="Image"
-      tag="article"
-      class="mb-2 border border-0"
     >
-      <div>
-        <b-card-text class="d-flex align-items-end mb-5">
-          {{ advancedImgCard.content }}
-        </b-card-text>
-        <div class="hb">
-          <b-card-body
-            class="hb d-flex justify-content-between mr-2"
-            v-if="advancedImgCard.doc1_link != ''"
-          >
+      <b-card
+        :title="advancedImgCard.title"
+        :img-src="advancedImgCard.image.path"
+        img-alt="Image"
+        tag="article"
+        class="mb-2 border border-0"
+      >
+        <div>
+          <b-card-text class="d-flex align-items-end mb-5">
+            {{ advancedImgCard.content }}
+          </b-card-text>
+          <div class="hb">
+            <b-card-body
+              class="hb d-flex justify-content-between mr-2"
+              v-if="advancedImgCard.doc1_link != ''"
+            >
+              <div>
+                <h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
+              </div>
+
+              <div>
+                <a :href="advancedImgCard.doc1_link_download" class="card-link">
+                  <b-icon icon="download"></b-icon>
+                </a>
+                <a
+                  :href="advancedImgCard.doc1_link_show"
+                  target="_blank"
+                  class="card-link"
+                >
+                  <b-icon icon="eye"> </b-icon>
+                </a>
+              </div>
+            </b-card-body>
+            <hr class="hb m-0" />
+          </div>
+          <div class="hb">
+            <b-card-body
+              class="d-flex justify-content-between mr-2"
+              v-if="advancedImgCard.doc2_link != ''"
+            >
+              <div class="m-0">
+                <h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
+              </div>
+
+              <div>
+                <a :href="advancedImgCard.doc1_link_download" class="card-link">
+                  <b-icon icon="download"></b-icon>
+                </a>
+                <a
+                  :href="advancedImgCard.doc1_link_show"
+                  target="_blank"
+                  class="card-link"
+                >
+                  <b-icon icon="eye"></b-icon>
+                </a>
+              </div>
+            </b-card-body>
+            <hr class="hb m-0" />
+          </div>
+          <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <h6 class=" mb-0">{{ advancedImgCard.doc1_link }}</h6>
+              <h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
             </div>
 
             <div>
-              <a :href="advancedImgCard.doc1_link_download" class=" card-link">
-                <b-icon icon="download"></b-icon>
-              </a>
               <a
-                :href="advancedImgCard.doc1_link_show"
-                target="_blank"
-                class=" card-link"
-              >
-                <b-icon icon="eye"> </b-icon>
-              </a>
-            </div>
-          </b-card-body>
-          <hr class="hb m-0" />
-        </div>
-        <div class="hb">
-          <b-card-body
-            class="d-flex justify-content-between mr-2"
-            v-if="advancedImgCard.doc2_link != ''"
-          >
-            <div class="m-0">
-              <h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
-            </div>
-
-            <div>
-              <a :href="advancedImgCard.doc1_link_download" class="card-link">
-                <b-icon icon="download"></b-icon>
-              </a>
-              <a
-                :href="advancedImgCard.doc1_link_show"
+                :href="advancedImgCard.video_show"
                 target="_blank"
                 class="card-link"
               >
-                <b-icon icon="eye"></b-icon>
+                <b-icon icon="play-circle"></b-icon>
               </a>
             </div>
           </b-card-body>
-          <hr class="hb m-0" />
         </div>
-        <b-card-body class="hb d-flex justify-content-between mr-2">
-          <div>
-            <h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
-          </div>
-
-          <div>
-            <a
-              :href="advancedImgCard.video_show"
-              target="_blank"
-              class="card-link"
-            >
-              <b-icon icon="play-circle"></b-icon>
-            </a>
-          </div>
-        </b-card-body>
-      </div>
-    </b-card>
-  </div>
+      </b-card>
+    </div>
   </div>
 </template>
 
 <script>
-import apiService from "../../common/apiService"
+import apiService from "../../common/apiService";
 export default {
   name: "z-advancedImgCards",
   props: {
@@ -155,8 +154,11 @@ export default {
   .card-title {
     margin-top: 17.5px;
     min-height: 20%;
+    color: #192949;
+    font-weight: bold;
+    font-style: normal;
   }
-  .card-text{
+  .card-text {
     min-height: 50px;
   }
 }

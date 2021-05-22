@@ -65,12 +65,10 @@
           na ktoré môžete naraziť vo vašom živote.
         </p>
       </div>
+    </div>
 
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <z-blogCards></z-blogCards>
-        </div>
-      </div>
+    <div class="container">
+      <z-blogCards></z-blogCards>
     </div>
     <div id="najnovsieProdukty">
       <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -78,14 +76,16 @@
         <p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
       </div>
 
-      <div class="container mb-5">
-        <div class="row d-flex justify-content-center">
-          <z-imgCard></z-imgCard>
+      <div class="container mb-5 pracujemeNaTom">
+        <div class="row">
+          <div class="col-lg-6">
+            <z-imgCard></z-imgCard>
+          </div>
         </div>
       </div>
     </div>
     <div id="uzitocneLinky">
-      <div class="container">
+      <div class="container pracujemeNaTom">
         <div class="row border-center mb-5">
           <z-linkCards></z-linkCards>
         </div>
@@ -262,5 +262,15 @@ h1 {
     width: 6px !important;
     height: 6px !important;
   }
+}
+
+@media (max-width: 800px) {
+  .byvanie-main {
+    background-image: none;
+    background-color: rgb(237, 239, 238);
+  }
+}
+.pracujemeNaTom {
+  display: none;
 }
 </style>

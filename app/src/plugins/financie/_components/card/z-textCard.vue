@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="card mb-3 " v-for="textCard in textCards" :key="textCard.id">
+  <div class="row">
+    <div class="card mb-3 d-flex col-12 " v-for="textCard in textCards" :key="textCard.id">
       <div class="card-body p-3">
         <p class="timestamp mb-4 ">
           {{posted_at}} • zaberie to iba {{textCard.time}} min
@@ -55,6 +55,9 @@ export default {
 }
 h5{
   font-size: 18px;
+  color: #192949;
+  font-weight: bold;
+  font-style: normal;
 }
 a{
   color: #1eaee1;

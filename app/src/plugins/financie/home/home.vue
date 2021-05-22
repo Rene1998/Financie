@@ -62,7 +62,7 @@
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Budeme pri vás, počas toho ako si plníťe vaše sny a ciele</h4>
+      <h4>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4>
       <p>
         Pripravili sme pre vás všetky možné finančné otázky a odpovede
         <br />na ktoré móžete naraziť vo vašom živote.
@@ -82,11 +82,11 @@
 
     <div class="container">
       <div class="row mb-5">
-        <div class="col pr-5">
+        <div class="col">
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
-        <div class="col">
+        <div class="col pl-2 pl-md-5 d-flex align-items-end">
           <z-textCard></z-textCard>
         </div>
       </div>

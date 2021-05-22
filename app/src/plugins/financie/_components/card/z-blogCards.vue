@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex">
-    <div class="card d-flex m-5" style="width: 18.7rem;" v-for="blog in blogCards" :key="blog.id">
+  <div class="row">
+      <div class="card mb-5 col-12 col-lg-4 col-md-6 col-sm-6" v-for="blog in blogCards" :key="blog.id" style="width: 18.7rem;">
       <img :src="blog.thumbnail_image.path" class="card-img-top" />
       <div class="card-body p-0 " >
         <p class="timestamp mt-4"> {{posted_at}} • zaberie to iba {{blog.time}} min </p>
@@ -60,8 +60,8 @@ export default {
   .card { 
     border: none;
     .card-img-top {
-      width: 300px;
-      height: 180px;
+      width: auto;
+      height: 13.5rem;
     }
   }
   .blog {
@@ -76,6 +76,7 @@ export default {
     font-size: 14px;
   }
   .card-title{
+    min-height: 90px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;

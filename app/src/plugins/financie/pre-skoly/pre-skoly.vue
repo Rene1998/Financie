@@ -10,12 +10,14 @@
               :class="{ isActiveA: activePage == 'zakladne-skoly' }"
               to="/pre-skoly/zakladne-skoly"
               >Základné školy</router-link
-            > •
+            >
+            •
             <router-link
               :class="{ isActiveA: activePage == 'stredne-skoly' }"
               to="/pre-skoly/stredne-skoly"
               >Stredné školy</router-link
-            > •
+            >
+            •
             <router-link
               :class="{ isActiveA: activePage == 'vysoke-skoly' }"
               to="/pre-skoly/vysoke-skoly"
@@ -28,15 +30,18 @@
 
     <div class="d-block d-sm-block d-md-none">
       <carousel class="carousel-wrapper" :perPage="1">
-        <slide class="slide"
+        <slide
+          class="slide"
           v-for="card in skola"
           :key="card.id"
           :title="card.title"
           :img="card.img"
           :link="card.link"
-        
         >
-          <div v-on:click="changeCardContent(card.link)" class="col-10 offset-1">
+          <div
+            v-on:click="changeCardContent(card.link)"
+            class="col-10 offset-1"
+          >
             <z-categoryCard
               :card="card"
               :activeCard="activeCard"
@@ -106,10 +111,10 @@
     </div>
 
     <div class="container">
-        <z-advancedImgCards
-          :cardContent="cardContent"
-          :cardCategory="cardCategory"
-        ></z-advancedImgCards>
+      <z-advancedImgCards
+        :cardContent="cardContent"
+        :cardCategory="cardCategory"
+      ></z-advancedImgCards>
     </div>
 
     <div class="container text-center mb-5">
@@ -127,7 +132,7 @@
 
     <div class="container">
       <div class="row mb-5">
-        <div class="col pr-5">
+        <div class="col-12 col-md-6">
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
@@ -228,7 +233,7 @@ export default {
 .download-all {
   width: 223px;
   height: 59.47px;
-  background: #1eaee1;
+  background: #FFA800;
   border: none;
   border-radius: 5px !important;
 }
@@ -258,31 +263,34 @@ h5 {
 }
 
 .switch-wrapper {
-    margin: auto;
-    width: 95%;
-    max-width: 500px;
+  margin: auto;
+  width: 95%;
+  max-width: 500px;
 
-    .btn-group {
-      background: rgba(118, 118, 128, 0.12);
-      padding: 2px;
-      border-radius: 8px;
-        width: 100%;
+  .btn-group {
+    background: rgba(118, 118, 128, 0.12);
+    padding: 2px;
+    border-radius: 8px;
+    width: 100%;
 
-        .switch-button {
-            width: 100%;
-            height: 28px;
-            border: 0px;
+    .switch-button {
+      width: 100%;
+      height: 28px;
+      border: 0px;
+      color: #192949;
+      font-weight: 500;
+      font-style: normal;
 
-             &:hover {
-                background: #ffffff;
-                border: 0.5px solid rgba(0, 0, 0, 0.04);
-                box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-                border-radius: 6.93px;
-            }
-        }
+      &:hover {
+        background: #ffffff;
+        border: 0.5px solid rgba(0, 0, 0, 0.04);
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12),
+          0px 3px 1px rgba(0, 0, 0, 0.04);
+        border-radius: 6.93px;
+      }
     }
+  }
 }
-
 
 .switchIsActive {
   background: #ffffff;
@@ -321,5 +329,10 @@ hr {
     width: 6px !important;
     height: 6px !important;
   }
+}
+.hardoce-text {
+  color: #192949;
+  font-weight: bold;
+  font-style: normal;
 }
 </style>
