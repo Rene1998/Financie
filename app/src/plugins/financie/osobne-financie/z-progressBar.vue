@@ -81,22 +81,20 @@ export default {
   },
   methods: {
     setScrollPosition() {
-      this.pageScrollPositon = window.scrollY + (window.outerHeight / 2);
-      (this.vedeliSte = document.querySelector(
-        "#vedeliSte"
-      ).offsetTop),
-      (this.zakladneInformacie = document.querySelector(
-        "#zakladneInformacie"
-      ).offsetTop),
-      (this.najnovsieClanky = document.querySelector(
-        "#najnovsieClanky"
-      ).offsetTop),
-      (this.najnovsieProdukty = document.querySelector(
-        "#najnovsieProdukty"
-      ).offsetTop),
-      (this.uzitocneLinky = document.querySelector(
-        "#uzitocneLinky"
-      ).offsetTop);
+      this.pageScrollPositon = window.scrollY + window.outerHeight / 2;
+      (this.vedeliSte = document.querySelector("#vedeliSte").offsetTop),
+        (this.zakladneInformacie = document.querySelector(
+          "#zakladneInformacie"
+        ).offsetTop),
+        (this.najnovsieClanky = document.querySelector(
+          "#najnovsieClanky"
+        ).offsetTop),
+        (this.najnovsieProdukty = document.querySelector(
+          "#najnovsieProdukty"
+        ).offsetTop),
+        (this.uzitocneLinky = document.querySelector(
+          "#uzitocneLinky"
+        ).offsetTop);
     },
   },
 };
@@ -125,5 +123,26 @@ export default {
   z-index: 999;
   position: sticky;
   top: 0;
+}
+
+@media (max-width: 1231px) {
+  .progressBar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .progressBar-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-right: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  .btn {
+    min-width: 200px;
+  }
 }
 </style>

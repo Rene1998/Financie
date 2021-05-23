@@ -36,33 +36,33 @@
       </carousel>
     </div>
     <div class="d-none d-md-block d-lg-block d-xl-block">
-    <div class="container carousel-wrapper">
-      <div class="row category-cards">
-        <div
-          v-for="card in cards"
-          :key="card.title"
-          :title="card.title"
-          :icon="card.icon"
-          :link="card.link"
-          class="col-4 mb-3"
-        >
-          <p>
-            <router-link :to="'/osobne-financie/' + card.link">
-              <z-homeCategoryCard
-                class="mt-2"
-                :card="card"
-              ></z-homeCategoryCard>
-            </router-link>
-          </p>
+      <div class="container carousel-wrapper">
+        <div class="row category-cards">
+          <div
+            v-for="card in cards"
+            :key="card.title"
+            :title="card.title"
+            :icon="card.icon"
+            :link="card.link"
+            class="col-4 mb-3"
+          >
+            <p>
+              <router-link :to="'/osobne-financie/' + card.link">
+                <z-homeCategoryCard
+                  class="mt-2"
+                  :card="card"
+                ></z-homeCategoryCard>
+              </router-link>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <hr />
     <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Budeme pri vás, počas toho ako si plníťe vaše sny a ciele</h4>
+      <h4>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4>
       <p>
         Pripravili sme pre vás všetky možné finančné otázky a odpovede
         <br />na ktoré móžete naraziť vo vašom živote.
@@ -70,9 +70,7 @@
     </div>
 
     <div class="container">
-      <div class="row mb-4">
-        <z-advancedImgHomeCards></z-advancedImgHomeCards>
-      </div>
+      <z-advancedImgHomeCards></z-advancedImgHomeCards>
     </div>
     <div class="container">
       <div class="row">
@@ -84,11 +82,11 @@
 
     <div class="container">
       <div class="row mb-5">
-        <div class="col pr-5">
+        <div class="col">
           <z-imgCard></z-imgCard>
         </div>
         <span class="divider border-left"></span>
-        <div class="col">
+        <div class="col pl-2 pl-md-5 d-flex align-items-end">
           <z-textCard></z-textCard>
         </div>
       </div>
@@ -194,7 +192,7 @@ a {
   margin-top: -250px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .preskoly-wrapper {
     background-image: none;
     background-color: rgb(237, 239, 238);

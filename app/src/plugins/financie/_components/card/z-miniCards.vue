@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="row">
     <div class="card d-flex align-items-center flex-column text-center">
       <div class="card-body d-flex align-items-center flex-column">
         <img class="category-card mt-4" :src="cardIcon" alt="" />
@@ -78,6 +78,14 @@ a{
 
 .card-title {
   min-height: 30px;
+}
+
+@media (max-width:800px) {
+  .card {
+    max-width: 17rem !important;
+    margin: auto;
+  
+  }
 }
 
 </style>

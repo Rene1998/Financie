@@ -1,19 +1,19 @@
 <template>
   <div class="container">
     <div class="row links  mb-5">
-      <div class="col-4 pr-6 pl-0">
+      <div class="col-md-4 pr-6 pl-0">
         <div class="d-flex align-items-center">
           <b-icon icon="link45deg"></b-icon>
           <h6 class="m-0">Užitočné linky</h6>
         </div>
       </div>
-      <div class="col-4  pl-6 pr-6 d-flex justify-content-center">
+      <div class="col-md-4  pl-6 pr-6 d-flex justify-content-center">
         <div class="d-flex align-items-center ">
           <b-icon icon="question-circle-fill"></b-icon>
           <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
         </div>
       </div>
-      <div class="col-4 p-0 pl-6 pr-0 d-flex justify-content-center">
+      <div class="col-md-4 p-0 pl-6 pr-0 d-flex justify-content-center">
         <div class="d-flex align-items-center">
           <b-icon icon="calculator-fill"></b-icon>
           <h6 class="m-0">Kalkulačky a návody</h6>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="row p-0">
-      <div class="col-4 pr-6 pl-0">
+      <div class="col-md-4 pr-6 pl-0">
         <div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
           <div class="body">
             <p class="mt-4">
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="col-4 border pl-6 pr-6" >
+      <div class="col-md-4 border pl-6 pr-6" >
         <div class="card "  v-for="link2Card in link2Cards" :key="link2Card.id">
           <div class="body">
             <p class="mt-4">
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="col-4 pl-6 pr-0">
+      <div class="col-md-4 pl-6 pr-0">
         <div class="card  " v-for="link3Card in link3Cards" :key="link3Card.id">
           <div class="body">
             <p class="mt-4">
