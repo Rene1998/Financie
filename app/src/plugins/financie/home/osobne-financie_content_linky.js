@@ -1,7 +1,7 @@
 const poistenie = {
 	title: 'POISTENIE - Nenechaj všetko na náhodu',
     content: 'Prečo si uzavrieť poistenie? Kedy možno vypovedať zmluvu?',
-	image: '',
+	image: 'imgcard.png',
 	link: 'poistenie',
 	titulok1: 'Životné poistenie',
 	link1: '',
@@ -16,7 +16,7 @@ const poistenie = {
 const hypotekarnyUver = {
 	title: 'Hypotekárny Úver – Bývajte vo vlastnom',
 	content: 'Variabilná úroková  sadzba, Fixácia, Americká hypotéka',
-	image: 'denis_obezny.jpg',
+	image: 'imgcard.png',
     link: 'hypotekarny-uver',
 	titulok1: 'Hypotekárny úver - nadobudnutie bývania',
 	link1: '',
@@ -31,7 +31,7 @@ const hypotekarnyUver = {
 const uverNaSpotrebu = {
 	title: 'Úvery na spotrebu – Financujte svoje túžby',
 	content: 'Úrokové sadzby – p.a., p.m., p.s., Refinancovanie',
-	image: 'denis_obezny.jpg',
+	image: 'imgcard.png',
     link: 'uver-na-spotrebu',
 	titulok1: 'Spotrebný úver',
 	link1: '',
@@ -46,7 +46,7 @@ const uverNaSpotrebu = {
 const investovanie = {
 	title: 'INVESTOVANIE – Cesta kprvej investícií',
 	content: 'Čo sú dividendy? Akcia? Dlhopis?',
-	image: 'denis_obezny.jpg',
+	image: 'imgcard.png',
     link: 'investovanie',
 	titulok1: 'Základy investovania',
 	link1: '',
@@ -61,7 +61,7 @@ const investovanie = {
 const bankoveUctyAPlatobneKarty = {
 	title: 'Bankové účty a platobné karty – Orientujte sa v bankách',
 	content: 'IBAN, SEPA, SWIFT-BIC, Embosovaná platobná karta',
-	image: 'denis_obezny.jpg',
+	image: 'imgcard.png',
     link: 'bankove-ucty-a-platobne-karty',
 	titulok1: 'Bežný Účet',
 	link1: '',
@@ -76,7 +76,7 @@ const bankoveUctyAPlatobneKarty = {
 const fintech = {
 	title: 'Fintech – Technológie apenize',
 	content: 'Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny',
-	image: 'denis_obezny.jpg',
+	image: 'imgcard.png',
     link: 'fintech',
 	titulok1: 'Internet a Mobile Banking',
 	link1: '',

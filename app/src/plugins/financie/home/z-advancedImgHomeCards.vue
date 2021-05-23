@@ -7,7 +7,7 @@
     >
       <b-card img-alt="Image" tag="article" class="mb-2 border border-0 m-2">
         <router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
-          <b-card-img :src="advancedImgHomeCard.image"></b-card-img>
+          <b-card-img :src="cardImg(advancedImgHomeCard)"></b-card-img>
           <b-card-title class="card-title-adv">
             {{ advancedImgHomeCard.title }}
           </b-card-title>
@@ -91,6 +91,11 @@ export default {
     return {
       advancedImgHomeCards: pageContent,
     };
+  },
+  methods: {
+    cardImg(card) {
+      return require(`./assets/${card.image}`)
+    },
   },
 };
 </script>
