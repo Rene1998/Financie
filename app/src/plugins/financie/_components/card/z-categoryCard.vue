@@ -91,7 +91,8 @@ h6 {
 
 @media (max-width:500px) {
   .card {
-    min-width: 18rem;
+    margin: auto;
+    max-width: 18rem;
   }
 }
 </style>
