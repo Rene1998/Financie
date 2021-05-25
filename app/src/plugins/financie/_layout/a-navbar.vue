@@ -4,7 +4,7 @@
       
      
         <b-navbar-nav class="mr-auto d-flex aling-items-center">
-          <b-navbar-nav class="d-flex align-items-center">
+          <b-navbar-nav class=" d-none align-items-center ">
             <b-nav-item>
               <b-icon icon="list"></b-icon>
             </b-nav-item>
