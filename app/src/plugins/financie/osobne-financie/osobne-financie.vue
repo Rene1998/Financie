@@ -85,7 +85,7 @@
       </div>
     </div>
     <div id="uzitocneLinky">
-      <div class="container pracujemeNaTom">
+      <div class="container ">
         <div class="row border-center mb-5">
           <z-linkCards></z-linkCards>
         </div>
