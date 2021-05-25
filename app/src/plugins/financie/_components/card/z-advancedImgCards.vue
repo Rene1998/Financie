@@ -13,7 +13,7 @@
         class="mb-2 border border-0"
       >
         <div>
-          <b-card-text class="d-flex align-items-end mb-5">
+          <b-card-text class="d-flex mb-5">
             {{ advancedImgCard.content }}
           </b-card-text>
           <div class="hb">
@@ -159,7 +159,7 @@ export default {
     font-style: normal;
   }
   .card-text {
-    min-height: 50px;
+    min-height: 3.5vw;
   }
 }
 

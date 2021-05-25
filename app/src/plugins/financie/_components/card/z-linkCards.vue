@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row links mb-5">
       <div class="col">
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center mb-5">
           <b-icon icon="link45deg"></b-icon>
           <h6 class="m-0">Užitočné linky</h6>
         </div>
@@ -17,7 +17,7 @@
 
       <div class="col">
        
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-5">
             <b-icon icon="question-circle-fill"></b-icon>
             <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
           </div>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="col">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-5">
             <b-icon icon="calculator-fill"></b-icon>
             <h6 class="m-0">Kalkulačky a návody</h6>
           </div>
@@ -45,7 +45,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 import apiService from "../../common/apiService";
