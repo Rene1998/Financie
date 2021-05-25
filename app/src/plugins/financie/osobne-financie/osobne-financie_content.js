@@ -101,7 +101,7 @@ const pracaADane = {
 	defaultLink: 'praca-dane'
 }
 const poistenie = {
-	title: 'POISTENIE - Nenechaj všetko na náhodu',
+	title: 'Nenechaj všetko na náhodu',
     content: 'Prečo si uzavrieť poistenie? Kedy možno vypovedať zmluvu?',
 	image: '',
 	link: 'poistenie',
@@ -120,7 +120,7 @@ const poistenie = {
 	defaultLink: 'poistenie'
 }
 const hypotekarnyUver = {
-	title: 'Hypotekárny Úver – Bývajte vo vlastnom',
+	title: 'Bývajte vo vlastnom',
 	content: 'Variabilná úroková sadzba, Fixácia, Americká hypotéka',
 	image: '',
     link: 'hypotekarny-uver',
@@ -139,7 +139,7 @@ const hypotekarnyUver = {
 	defaultLink: 'hypotekarny-uver'
 }
 const uverNaSpotrebu = {
-	title: 'Úvery na spotrebu – Financujte svoje túžby',
+	title: 'Financujte svoje túžby',
 	content: 'Úrokové sadzby – p.a., p.m., p.s., Refinancovanie',
 	image: '',
     link: 'uver-na-spotrebu',
@@ -158,7 +158,7 @@ const uverNaSpotrebu = {
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
-	title: 'INVESTOVANIE – Cesta kprvej investícií',
+	title: 'Cesta kprvej investícií',
 	content: 'Čo sú dividendy? Akcia? Dlhopis?',
 	image: '',
     link: 'investovanie',
@@ -177,7 +177,7 @@ const investovanie = {
 	defaultLink: 'investovanie'
 }
 const bankoveUctyAPlatobneKarty = {
-	title: 'Bankové účty a platobné karty – Orientujte sa v bankách',
+	title: 'Orientujte sa v bankách',
 	content: 'IBAN, SEPA, SWIFT-BIC, Embosovaná platobná karta',
 	image: '',
     link: 'bankove-ucty-a-platobne-karty',
@@ -196,7 +196,7 @@ const bankoveUctyAPlatobneKarty = {
 	defaultLink: 'bankove-ucty-a-platobne-karty'
 }
 const fintech = {
-	title: 'Fintech – Technológie apenize',
+	title: 'Technológie apenize',
 	content: 'Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny',
 	image: '',
     link: 'fintech',

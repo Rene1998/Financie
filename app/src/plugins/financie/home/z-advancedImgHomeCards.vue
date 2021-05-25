@@ -11,7 +11,7 @@
           <b-card-title class="card-title-adv">
             {{ advancedImgHomeCard.title }}
           </b-card-title>
-          <b-card-text class="d-flex align-items-end mb-5">
+          <b-card-text class="d-flex mb-5">
             {{ advancedImgHomeCard.content }}
           </b-card-text>
         </router-link>
@@ -107,7 +107,6 @@ export default {
   }
 
   .card-title {
-    min-height: 35px;
     margin-top: 17.5px;
     color: #192949;
     font-weight: bold;
@@ -121,7 +120,7 @@ export default {
 .card-text {
   text-decoration: none;
   color: #192949;
-  min-height: 60px;
+  min-height: 2.5vw;
 }
 .card-body {
   padding: 10px;
@@ -159,6 +158,5 @@ a {
 .card-title-adv {
   color: black;
   text-decoration: none;
-  min-height: 80px !important;
 }
 </style>
