@@ -37,15 +37,19 @@ export default {
 </script>
 <style lang="scss" scoped>
 .pre-skoly {
-	background-color: red !important;
+	background-color: #ffa800 !important;
+  a {
+    color: #3a4757!important;
+  }
 }
 .container-fluid {
   color: white;
   font-style: normal;
   min-height: 35px;
-  background-color: #ffa800;
+  background-color: #19283B;
   a {
-    color: #3a4757;
+    color: #1EAEE1;
+    
     margin-left: 6px;
   }
 
