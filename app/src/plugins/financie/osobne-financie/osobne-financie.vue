@@ -76,12 +76,8 @@
         <p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
       </div>
 
-      <div class="container mb-5 pracujemeNaTom">
-        <div class="row">
-          <div class="col-lg-6">
-            <z-imgCard></z-imgCard>
-          </div>
-        </div>
+      <div class="container mb-5">
+          <z-imgCard></z-imgCard> 
       </div>
     </div>
     <div id="uzitocneLinky">

@@ -1,24 +1,26 @@
 <template>
   <div class="row">
-    <div 
-      class="card mb-3 border-0 d-flex col-12 col-lg-12 mb-5"
-      v-for="imgCard in imgCards"
-      :key="imgCard.id"
-    >
-      <img :src="imgCard.image.path" class="card-img-top" alt="" />
-      <div class="card-body p-0 pt-4">
-        <p class="timestamp">
-          {{ posted_at }} • zaberie to iba {{ imgCard.time }} min
-        </p>
-        <h5 class="card-title">
-          {{ imgCard.title }}
-        </h5>
-        <p class="card-text">
-          {{ imgCard.content }}
-        </p>
-        <p class="card-text">
-          <a href="#">Prečítať viac</a>
-        </p>
+    <div class="col-12 col-md-6" v-for="imgCard in imgCards"
+        :key="imgCard.id">
+      <div
+        class="card mb-3 border-0 mb-5"
+        
+      >
+        <img :src="imgCard.image.path" class="card-img-top" alt="" />
+        <div class="card-body p-0 pt-4">
+          <p class="timestamp">
+            {{ posted_at }} • zaberie to iba {{ imgCard.time }} min
+          </p>
+          <h5 class="card-title">
+            {{ imgCard.title }}
+          </h5>
+          <p class="card-text">
+            {{ imgCard.content }}
+          </p>
+          <p class="card-text">
+            <a href="#">Prečítať viac</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -76,9 +78,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 .card-img-top {
-    width: auto;
-    max-height: 315px;
-  }
+  width: auto;
+  max-height: 315px;
+}
 .timestamp {
   color: #898989;
 }
@@ -99,6 +101,4 @@ a {
     min-height: auto;
   }
 }
-
-
 </style>
