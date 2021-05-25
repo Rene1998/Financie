@@ -83,7 +83,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col">
-          <z-imgCard></z-imgCard>
+          <z-imgCard :single='true'></z-imgCard>
         </div>
         <span class="divider border-left"></span>
         <div class="col pl-2 pl-md-5 d-flex align-items-end">

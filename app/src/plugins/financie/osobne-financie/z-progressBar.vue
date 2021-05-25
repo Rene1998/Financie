@@ -76,25 +76,21 @@ export default {
     },
   },
   mounted() {
-    this.setScrollPosition();
-    window.addEventListener("scroll", this.setScrollPosition);
+    this.setScrollPosition()
+    window.addEventListener("scroll", this.setScrollPosition)
+
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.setScrollPosition)
   },
   methods: {
     setScrollPosition() {
-      this.pageScrollPositon = window.scrollY + window.outerHeight / 2;
+      (this.pageScrollPositon = window.scrollY + window.outerHeight / 2),
       (this.vedeliSte = document.querySelector("#vedeliSte").offsetTop),
-        (this.zakladneInformacie = document.querySelector(
-          "#zakladneInformacie"
-        ).offsetTop),
-        (this.najnovsieClanky = document.querySelector(
-          "#najnovsieClanky"
-        ).offsetTop),
-        (this.najnovsieProdukty = document.querySelector(
-          "#najnovsieProdukty"
-        ).offsetTop),
-        (this.uzitocneLinky = document.querySelector(
-          "#uzitocneLinky"
-        ).offsetTop);
+      (this.zakladneInformacie = document.querySelector("#zakladneInformacie").offsetTop),
+      (this.najnovsieClanky = document.querySelector("#najnovsieClanky").offsetTop),
+      (this.najnovsieProdukty = document.querySelector("#najnovsieProdukty").offsetTop),
+      (this.uzitocneLinky = document.querySelector("#uzitocneLinky").offsetTop)
     },
   },
 };
@@ -138,8 +134,8 @@ export default {
   }
 
   ::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
+    width: 0;
+    background: transparent;
   }
   .btn {
     min-width: 200px;

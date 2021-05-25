@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-12 col-md-6" v-for="imgCard in imgCards"
+    <div class="col-12" :class="{'col-md-6':!single}" v-for="imgCard in imgCards"
         :key="imgCard.id">
       <div
         class="card mb-3 border-0 mb-5"
@@ -30,7 +30,11 @@ import apiService from "../../common/apiService";
 import moment from "moment";
 
 export default {
-  name: "z-imgCard",
+  props: {
+    single: {
+      type: Boolean,
+    },
+  },
   data() {
     return {
       imgCards: [],
