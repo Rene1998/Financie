@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-flex justify-content-center text-center" :class="{'osobneFinancie' :page}">
+  <div class="container-fluid d-flex justify-content-center text-center" :class="{'pre-skoly': page}">
     <div class="row d-flex flex-sm-col">
       <p class="d-flex align-items-center justify-content-center mt-0 mb-0">
         Informácie ktoré vám pomôžu k správnemu investovaniu.
@@ -12,29 +12,33 @@
 </template>
 <script>
 export default {
-  watch: {
-    "$route.name": {
-      immediate:true,
-      handler(val){
-        this.ugabuga(val),
-        console.log(val)
-      },
-    }
-  },
+	watch: {
+		"$route.name": {
+		immediate: true,
+			handler(val){
+				this.ugabuga(val),
+				console.log(val)
+			},
+		}
+	},
+
   data(){
     return{
-      page:null
+      page: false
     }
   },
   methods:{
     ugabuga(val){
       console.log(val)
-      val == 'osobne-financie'? this.page = true:this.page = false
+      val == 'pre-skoly' && (this.page = true)
     }
   }
 }
 </script>
 <style lang="scss" scoped>
+.pre-skoly {
+	background-color: red !important;
+}
 .container-fluid {
   color: white;
   font-style: normal;
@@ -45,22 +49,20 @@ export default {
     margin-left: 6px;
   }
 
-  @media (max-width: 600px) {
-    p {
-      font-size: 12px;
-      display: block !important;
-    }
+	@media (max-width: 600px) {
+		p {
+			font-size: 12px;
+			display: block !important;
+		}
 
-    a {
-      margin: 0;
-    }
-    .row{
-      height: 65px;
-      align-items: center;
-    }
-  }
-  .osobneFinancie {
-    background-color: #19283B!important;
-  }
+		a {
+			margin: 0;
+		}
+		.row{
+			height: 65px;
+			align-items: center;
+		}
+	}
+
 }
 </style>
