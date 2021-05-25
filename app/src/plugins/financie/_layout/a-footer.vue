@@ -5,34 +5,34 @@
         <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
-            <li class="footer-li"><a href="#!">Auto</a></li>
-            <li class="footer-li"><a href="#!">Práce a dane</a></li>
-            <li class="footer-li"><a href="#!">Rodina a deti</a></li>
-            <li class="footer-li"><a href="#!">Bývanie</a></li>
-            <li class="footer-li"><a href="#!">Dôchodok</a></li>
-            <li class="footer-li"><a href="#!">Exekúcia</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Auto</router-link></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Práce a dane</router-link><a href="#!">Práce a dane</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Rodina a deti</router-link><a href="#!">Rodina a deti</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Bývanie</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Dôchodok</router-link><a href="#!">Dôchodok</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Exekúcia</router-link><a href="#!">Exekúcia</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Finančné produkty</h5>
           <ul class="pl-0 list-unstyled">
-            <li class="footer-li"><a href="#!">Poistenie</a></li>
-            <li class="footer-li"><a href="#!">Hypotekárny úver</a></li>
-            <li class="footer-li"><a href="#!">Úver na spotrebu</a></li>
-            <li class="footer-li"><a href="#!">Investovanie</a></li>
-            <li class="footer-li"><a href="#!">Účty a karty</a></li>
-            <li class="footer-li"><a href="#!">Fintech</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Poistenie</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Hypotekárny úver</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Úver na spotrebu</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Investovanie</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Účty a karty</a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Fintech</a></li>
           </ul>
         </div>
 
         <div class="col-3 d-none d-lg-block">
           <h5 class="text-left">Pomôcky</h5>
           <ul class="pl-0 list-unstyled ">
-            <li class="footer-li"><a href="#!">Porovnania</a></li>
-            <li class="footer-li"><a href="#!">Nástrahy</a></li>
-            <li class="footer-li"><a href="#!">Kalkulačky</a></li>
-            <li class="footer-li"><a href="#!">Slovník </a></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
+            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
           </ul>
         </div>
 
@@ -67,7 +67,31 @@
   </footer>
 </template>
 <script>
-export default {};
+export default {
+  watch: {
+    "$route.name": {
+      immediate: true,
+      handler(val) {
+        console.log(val);
+      },
+    },
+  },
+  data() {
+    return {
+      link: null,
+    }
+    
+  },
+  methods: {
+    ugabuga(val) {
+      if(val != 'osobne-financie'){
+        link = 'osobne-financie/'
+      } else {
+        link = ''
+      }
+    }
+  },
+};
 </script>
 
 <style lang="scss" scoped>
