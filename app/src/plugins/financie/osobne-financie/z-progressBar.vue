@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid progressBar" :class="{isSticky: !pageScrollPositon > progressBar}">
+  <div class="container-fluid progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}">
     <div class="container">
       <div class="row progressBar-row d-flex m-0">
         <a
@@ -61,7 +61,8 @@ export default {
   },
   data() {
     return {
-      progressBar:null,
+      progressBar: null,
+      pageScrollBarPositon: null,
       pageScrollPositon: null,
       vedeliSte: null,
       zakladneInformacie: null,
@@ -87,6 +88,7 @@ export default {
   methods: {
     setScrollPosition() {
       (this.pageScrollPositon = window.scrollY + window.outerHeight / 2),
+      (this.pageScrollBarPositon = window.scrollY),
       (this.progressBar = document.querySelector('#progressBar').offsetTop),
       (this.vedeliSte = document.querySelector("#vedeliSte").offsetTop),
       (this.zakladneInformacie = document.querySelector("#zakladneInformacie").offsetTop),
