@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-flex justify-content-center text-center">
+  <div class="container-fluid d-flex justify-content-center text-center" :class="{'osobneFinancie' :page}">
     <div class="row d-flex flex-sm-col">
       <p class="d-flex align-items-center justify-content-center mt-0 mb-0">
         Informácie ktoré vám pomôžu k správnemu investovaniu.
@@ -10,7 +10,30 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  watch: {
+    "$route.name": {
+      immediate:true,
+      handler(val){
+        this.ugabuga(val),
+        console.log(val)
+      },
+    }
+  },
+  data(){
+    return{
+      page:null
+    }
+  },
+  methods:{
+    ugabuga(val){
+      console.log(val)
+      val == 'osobne-financie'? this.page = true:this.page = false
+    }
+  }
+}
+</script>
 <style lang="scss" scoped>
 .container-fluid {
   color: white;
@@ -35,6 +58,9 @@
       height: 65px;
       align-items: center;
     }
+  }
+  .osobneFinancie {
+    background-color: #19283B!important;
   }
 }
 </style>
