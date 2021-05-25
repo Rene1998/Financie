@@ -31,6 +31,10 @@
     a {
       margin: 0;
     }
+    .row{
+      height: 65px;
+      align-items: center;
+    }
   }
 }
 </style>
