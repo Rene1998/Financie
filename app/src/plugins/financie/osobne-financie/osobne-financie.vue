@@ -17,7 +17,9 @@
         </div>
       </div>
     </div>
-    <z-progressBar></z-progressBar>
+    <div id="progressBar">
+      <z-progressBar></z-progressBar>
+    </div>
     <div id="vedeliSte">
       <z-carousel></z-carousel>
     </div>
