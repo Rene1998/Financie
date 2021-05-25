@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid d-flex justify-content-center text-center">
     <div class="row d-flex flex-sm-col">
-      <p class="d-flex align-items-center mt-0 mb-0">
+      <p class="d-flex align-items-center justify-content-center mt-0 mb-0">
         Informácie ktoré vám pomôžu k správnemu investovaniu.
-        <a class="d-flex align-items-center" href=""
+        <a class="d-flex justify-content-center" href=""
           >Sledujte naše video podcasty</a
         >
       </p>

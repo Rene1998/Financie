@@ -138,6 +138,7 @@ export default {
   }
 
   ::-webkit-scrollbar {
+    height: 0;
     width: 0;
     background: transparent;
   }

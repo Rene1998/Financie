@@ -153,7 +153,7 @@ export default {
 
   .card-title {
     margin-top: 17.5px;
-    min-height: 20%;
+    min-height: 55px;
     color: #192949;
     font-weight: bold;
     font-style: normal;

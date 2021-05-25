@@ -5,34 +5,72 @@
         <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Životné situácie</h5>
           <ul class="pl-0 list-unstyled">
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Auto</router-link></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Práce a dane</router-link><a href="#!">Práce a dane</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Rodina a deti</router-link><a href="#!">Rodina a deti</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Bývanie</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Dôchodok</router-link><a href="#!">Dôchodok</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Exekúcia</router-link><a href="#!">Exekúcia</a></li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/auto">Auto</router-link>
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/praca-dane"
+                >Práce a dane</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/rodina-deti"
+                >Rodina a deti</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/byvanie">Bývanie</router-link>
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/dochodok">Dôchodok</router-link>
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/exekucia">Exekúcia</router-link>
+            </li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-sm-6">
           <h5 class="text-left">Finančné produkty</h5>
           <ul class="pl-0 list-unstyled">
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Poistenie</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Hypotekárny úver</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Úver na spotrebu</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Investovanie</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Účty a karty</a></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link><a href="#!">Fintech</a></li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/poistenie"
+                >Poistenie</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/hypotekarny-uver"
+                >Hypotekárny úver</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/uver-na-spotrebu"
+                >Úver na spotrebu</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/investovanie"
+                >Investovanie</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/bankove-ucty-a-platobne-karty"
+                >Účty a karty</router-link
+              >
+            </li>
+            <li class="footer-li">
+              <router-link to="/osobne-financie/fintech">Fintech</router-link>
+            </li>
           </ul>
         </div>
 
         <div class="col-3 d-none d-lg-block">
           <h5 class="text-left">Pomôcky</h5>
-          <ul class="pl-0 list-unstyled ">
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
-            <li class="footer-li"><router-link to="/osobne-financie/auto">Bývanie</router-link></li>
+          <ul class="pl-0 list-unstyled">
+            <li class="footer-li"><a href="#!">Porovnania</a></li>
+            <li class="footer-li"><a href="#!">Nástrahy</a></li>
+            <li class="footer-li"><a href="#!">Kalkulačky</a></li>
+            <li class="footer-li"><a href="#!">Slovník </a></li>
           </ul>
         </div>
 
@@ -49,18 +87,22 @@
     <div class="container-fluid copyright-main">
       <div class="container copyright-container">
         <div class="row copyright-row d-sm-flex align-items-center ml-3">
-        
-            <router-link to="/">
+          <router-link to="/">
             <img class="mr-3" src="./assets/logodark.svg" alt="logo" />
-            </router-link>
-            <p class="copy m-0">
-              © 2021 <a class="financie-link">www.financie.sk</a> Všetky práva vyhradené.
-            </p>
-            <div class="ml-auto d-none d-lg-block">
-              <a href="" class="btn z-btn rounded-0">Osobné financie</a>
-              <a href="" class="btn z-btn rounded-0">Pre školy</a>
-            </div>
-        
+          </router-link>
+          <p class="copy m-0">
+            © 2021 <a class="financie-link">www.financie.sk</a> Všetky práva
+            vyhradené.
+          </p>
+          <div class="ml-auto d-none d-lg-block">
+            <router-link to="/home"
+              ><a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link
+            >
+            
+            <router-link to="/pre-skoly/zakladne-skoly"
+              ><a class="btn z-btn rounded-0">Pre školy</a></router-link
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -79,17 +121,16 @@ export default {
   data() {
     return {
       link: null,
-    }
-    
+    };
   },
   methods: {
     ugabuga(val) {
-      if(val != 'osobne-financie'){
-        link = 'osobne-financie/'
+      if (val != "osobne-financie") {
+        link = "osobne-financie/";
       } else {
-        link = ''
+        link = "";
       }
-    }
+    },
   },
 };
 </script>
@@ -116,10 +157,10 @@ footer {
     background: #fbfbfc;
     min-height: 80px;
 
-  .financie-link {
-    color: #1EAEE1;
-  }
-    @media (max-width:500px) {
+    .financie-link {
+      color: #1eaee1;
+    }
+    @media (max-width: 500px) {
       .copy {
         font-size: 13px;
       }

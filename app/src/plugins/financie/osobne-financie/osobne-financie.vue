@@ -4,9 +4,11 @@
       <div class="container">
         <div class="byvanie-welcome-text">
           <div class="col d-flex flex-column mb-5 b-arrow">
-            <a class="mb-5 d-flex align-items-center" @click="$router.go(-1)"
-              ><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
-              stránku</a
+            <router-link to="/home"
+              ><a class="mb-5 d-flex align-items-center"
+                ><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
+                stránku</a
+              ></router-link
             >
             <h1 mt-5>{{ title }}</h1>
             <p class="mt-4 content">
@@ -79,7 +81,7 @@
       </div>
 
       <div class="container mb-5">
-          <z-imgCard></z-imgCard> 
+        <z-imgCard></z-imgCard>
       </div>
     </div>
     <div id="uzitocneLinky">
