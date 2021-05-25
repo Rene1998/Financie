@@ -30,7 +30,7 @@ export default {
   methods:{
     ugabuga(val){
       console.log(val)
-      val == 'pre-skoly' && (this.page = true)
+     this.page =  val == 'pre-skoly' ? true : false
     }
   }
 }
