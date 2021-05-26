@@ -7,11 +7,11 @@
       <p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
     </div>
 
-    <div class="container mb-5 pracujemeNaTom">
+    <div class="container mb-5">
       <z-imgCard></z-imgCard>
     </div>
 
-    <div class="container pracujemeNaTom">
+    <div class="container">
       <div class="row border-center mb-5">
         <z-linkCards></z-linkCards>
       </div>
@@ -28,7 +28,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.pracujemeNaTom{
-  display: none;
-}
+
 </style>
