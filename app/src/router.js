@@ -32,13 +32,12 @@ const routes = [
 		component: () =>
 			import('./plugins/financie/osobne-financie/blog.vue')
 	},
-
-	/*{
-		path: '/byvanie',
-		name: 'byvanie',
+	{
+		path: '/clanky/:slug',
+		name: 'clanky',
 		component: () =>
-			import('./plugins/financie/osobne-financie/byvanie.vue')
-	},*/
+			import('./plugins/financie/osobne-financie/articles.vue')
+	},
 	{
 		path: '/blog',
 		name: 'blog-page',
