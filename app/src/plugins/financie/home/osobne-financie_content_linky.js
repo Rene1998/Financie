@@ -4,7 +4,7 @@ const poistenie = {
 	image: 'image1.png',
 	link: 'poistenie',
 	titulok1: 'Životné poistenie',
-	link1: 'clanok1',
+	link1: 'zivotnePoistenie',
     titulok2: 'Poistenie auta (neživotné poistenie)',
 	link2: 'clanok2',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',

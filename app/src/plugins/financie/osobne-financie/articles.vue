@@ -1,9 +1,11 @@
 <template>
   <div>
     <div class="container">
-      <h1 class="mt-5">{{ title }}</h1>
-      <p>{{ content }}</p>
-      <img :src="image" alt="">
+      <div class="row d-flex justify-content-center flex-column p-3">
+        <h1 class="mt-5">{{ title }}</h1>
+        <p>{{ content }}</p>
+        <img :src="image" alt="" />
+      </div>
     </div>
   </div>
 </template>
@@ -48,5 +50,8 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   line-height: 50px;
+}
+img {
+  min-width: 50%;
 }
 </style>
