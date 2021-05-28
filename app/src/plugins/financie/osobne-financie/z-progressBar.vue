@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row progressBar-row d-flex m-0">
         <a
-          href=""
+          @click="scrollTo(vedeliSte)"
           class="z-btn btn rounded-0"
           :class="{
             isActive:
@@ -12,7 +12,7 @@
           >Vedeli ste, že...</a
         >
         <a
-          href=""
+          @click="scrollTo(zakladneInformacie)"
           class="z-btn btn rounded-0"
           :class="{
             isActive:
@@ -22,7 +22,7 @@
           >Základné informácie</a
         >
         <a
-          href=""
+          @click="scrollTo(najnovsieClanky)"
           class="z-btn btn rounded-0"
           :class="{
             isActive:
@@ -32,7 +32,7 @@
           >Najnovšie články</a
         >
         <a
-          href=""
+          @click="scrollTo(najnovsieProdukty)"
           class="z-btn btn rounded-0"
           :class="{
             isActive:
@@ -42,7 +42,7 @@
           >Najnovšie produkty a služby</a
         >
         <a
-          href=""
+          @click="scrollTo(uzitocneLinky)"
           class="z-btn btn rounded-0"
           :class="{ isActive: uzitocneLinky <= pageScrollPositon }"
           >Užitočné linky a zaujímavosti</a
@@ -86,6 +86,9 @@ export default {
     window.removeEventListener("scroll", this.setScrollPosition)
   },
   methods: {
+    scrollTo(val){
+      window.scrollTo(0,val-window.outerHeight / 2)
+    },
     setScrollPosition() {
       (this.pageScrollPositon = window.scrollY + window.outerHeight / 2),
       (this.pageScrollBarPositon = window.scrollY),
