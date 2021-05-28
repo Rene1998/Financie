@@ -6,11 +6,11 @@ const poistenie = {
 	titulok1: 'Životné poistenie',
 	link1: 'zivotnePoistenie',
     titulok2: 'Poistenie auta (neživotné poistenie)',
-	link2: 'clanok2',
+	link2: 'poistenieAuta',
     titulok3: 'Poistenie nehnuteľnosti/domácnosti',
-	link3: 'clanok3',
+	link3: 'poistenieNehnutelnosti',
     titulok4: 'Cestovné poistenie',
-	link4: 'clanok4',
+	link4: 'cestovnePoistenie',
 	defaultLink: 'poistenie'
 }
 const hypotekarnyUver = {
@@ -19,13 +19,13 @@ const hypotekarnyUver = {
 	image: 'image2.png',
     link: 'hypotekarny-uver',
 	titulok1: 'Hypotekárny úver - nadobudnutie bývania',
-	link1: 'clanok5',
+	link1: 'hypotekarnyUver',
     titulok2: 'Americká hypotéka',
-	link2: 'clanok6',
+	link2: 'americkaHypoteka',
     titulok3: 'Žiadosť o úver',
-	link3: 'clanok7',
+	link3: 'ziadostOUver',
     titulok4: 'Splácanie úveru',
-	link4: 'clanok8',
+	link4: 'splacanieUveru',
 	defaultLink: 'hypotekarny-uver'
 }
 const uverNaSpotrebu = {
@@ -34,13 +34,13 @@ const uverNaSpotrebu = {
 	image: 'image3.png',
     link: 'uver-na-spotrebu',
 	titulok1: 'Spotrebný úver',
-	link1: 'clanok9',
+	link1: 'spotrebnyUver',
     titulok2: 'Krátkodobé úvery',
-	link2: 'clanok10',
+	link2: 'kratkodobeUvery',
     titulok3: 'Čerpanie a splácanie',
-	link3: 'clanok11',
+	link3: 'cerpacnieASplacanie',
     titulok4: 'Nebankové úvery a pôžičky',
-	link4: 'clanok12',
+	link4: 'nebankoveUveryAPozicky',
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
@@ -49,13 +49,13 @@ const investovanie = {
 	image: 'image4.png',
     link: 'investovanie',
 	titulok1: 'Základy investovania',
-	link1: 'clanok13',
+	link1: 'zakladyInvestovania',
     titulok2: 'Základné Investičné Príležitosti',
-	link2: 'clanok14',
+	link2: 'zakladneInvesticnePrilezitosti',
     titulok3: 'Investičné princípy',
-	link3: 'clanok15',
+	link3: 'investicnePrincipy',
     titulok4: 'Aktívne vs. pasívne investovanie',
-	link4: 'clanok16',
+	link4: 'aktivnePasivneInvestovanie',
 	defaultLink: 'investovanie'
 }
 const bankoveUctyAPlatobneKarty = {
@@ -64,13 +64,13 @@ const bankoveUctyAPlatobneKarty = {
 	image: 'image5.png',
     link: 'bankove-ucty-a-platobne-karty',
 	titulok1: 'Bežný Účet',
-	link1: 'clanok17',
+	link1: 'beznyUcet',
     titulok2: 'Sporiaci Účet',
-	link2: 'clanok18',
+	link2: 'sporiaciUcet',
     titulok3: 'Kreditná Karta',
-	link3: 'clanok19',
+	link3: 'kreditnaKarta',
     titulok4: 'Debetná Karta',
-	link4: 'clanok20',
+	link4: 'debetnaKarta',
 	defaultLink: 'bankove-ucty-a-platobne-karty'
 }
 const fintech = {
@@ -79,13 +79,13 @@ const fintech = {
 	image: 'image6.png',
     link: 'fintech',
 	titulok1: 'Internet a Mobile Banking',
-	link1: 'clanok21',
+	link1: 'internetAMobileBanking',
     titulok2: 'Neobanky (N26, 365.)',
-	link2: 'clanok22',
+	link2: 'neobanky',
     titulok3: 'Finančné platformy',
-	link3: 'clanok23',
+	link3: 'financnePlatformy',
     titulok4: 'Tu nieco pojde',
-	link4: 'clanok24',
+	link4: 'tuNiecoPojde',
 	defaultLink: 'fintech'
 }
 

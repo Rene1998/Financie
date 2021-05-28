@@ -27,16 +27,16 @@ const routes = [
 			import('./plugins/financie/osobne-financie/osobne-financie.vue')
 	},
 	{
+		path: '/osobne-financie/clanky/:slug',
+		name: 'clanky',
+		component: () =>
+			import('./plugins/financie/osobne-financie/articles.vue')
+	},
+	{
 		path: '/osobne-financie/:slug/:slug',
 		name: 'osobne-financie',
 		component: () =>
 			import('./plugins/financie/osobne-financie/blog.vue')
-	},
-	{
-		path: '/clanky/:slug',
-		name: 'clanky',
-		component: () =>
-			import('./plugins/financie/osobne-financie/articles.vue')
 	},
 	{
 		path: '/blog',

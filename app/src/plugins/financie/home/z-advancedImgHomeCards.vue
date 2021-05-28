@@ -18,7 +18,7 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link1">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
                 <h6 class="mb-0">
                   {{ advancedImgHomeCard.titulok1 }}
                 </h6>
@@ -26,7 +26,7 @@
             </div>
 
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link1">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
                 <a class="blue card-link">
                   <b-icon icon="arrow-right"></b-icon>
                 </a>
@@ -38,7 +38,7 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link2">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
                 <h6 class="mb-0">
                   {{ advancedImgHomeCard.titulok2 }}
                 </h6>
@@ -46,7 +46,7 @@
             </div>
 
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link2">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
                 <a class="blue card-link">
                   <b-icon icon="arrow-right"></b-icon>
                 </a>
@@ -58,7 +58,7 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link3">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
                 <h6 class="mb-0">
                   {{ advancedImgHomeCard.titulok3 }}
                 </h6>
@@ -66,7 +66,7 @@
             </div>
 
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link3">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
                 <a class="blue card-link">
                   <b-icon icon="arrow-right"></b-icon>
                 </a>
@@ -78,7 +78,7 @@
         <div>
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link4">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link4">
                 <h6 class="mb-0">
                   {{ advancedImgHomeCard.titulok4 }}
                 </h6>
@@ -86,7 +86,7 @@
             </div>
 
             <div>
-              <router-link :to="'/clanky/' + advancedImgHomeCard.link">
+              <router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link">
                 <a class="blue card-link">
                   <b-icon icon="arrow-right"></b-icon>
                 </a>
