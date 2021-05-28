@@ -13,9 +13,15 @@ const clanok3 = {
 	content: 'Obsah 3',
 	image: 'https://cdn.discordapp.com/attachments/695278638609727553/819538568397062144/denis_obezny.jpg',
 }
+const clanok4 = {
+	title: 'Clanok 4',
+	content: 'Obsah 4',
+	image: 'https://cdn.discordapp.com/attachments/695278638609727553/819538568397062144/denis_obezny.jpg',
+}
 
 export default {
 	'clanok1': clanok1,
     'clanok2': clanok2,
-    'clanok3': clanok3
+    'clanok3': clanok3,
+	'clanok4': clanok4
 }

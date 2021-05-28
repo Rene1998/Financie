@@ -18,15 +18,19 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <h6 class="mb-0">
-                {{ advancedImgHomeCard.titulok1 }}
-              </h6>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link1">
+                <h6 class="mb-0">
+                  {{ advancedImgHomeCard.titulok1 }}
+                </h6>
+              </router-link>
             </div>
 
             <div>
-              <a :href="advancedImgHomeCard.link1" class="blue card-link">
-                <b-icon icon="arrow-right"></b-icon>
-              </a>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link1">
+                <a class="blue card-link">
+                  <b-icon icon="arrow-right"></b-icon>
+                </a>
+              </router-link>
             </div>
           </b-card-body>
           <hr class="hb m-0" />
@@ -34,15 +38,19 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <h6 class="mb-0">
-                {{ advancedImgHomeCard.titulok2 }}
-              </h6>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link2">
+                <h6 class="mb-0">
+                  {{ advancedImgHomeCard.titulok2 }}
+                </h6>
+              </router-link>
             </div>
 
             <div>
-              <a :href="advancedImgHomeCard.link2" class="blue card-link">
-                <b-icon icon="arrow-right"></b-icon>
-              </a>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link2">
+                <a class="blue card-link">
+                  <b-icon icon="arrow-right"></b-icon>
+                </a>
+              </router-link>
             </div>
           </b-card-body>
           <hr class="hb m-0" />
@@ -50,31 +58,39 @@
         <div class="hb">
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <h6 class="mb-0">
-                {{ advancedImgHomeCard.titulok3 }}
-              </h6>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link3">
+                <h6 class="mb-0">
+                  {{ advancedImgHomeCard.titulok3 }}
+                </h6>
+              </router-link>
             </div>
 
             <div>
-              <a :href="advancedImgHomeCard.link3" class="blue card-link">
-                <b-icon icon="arrow-right"></b-icon>
-              </a>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link3">
+                <a class="blue card-link">
+                  <b-icon icon="arrow-right"></b-icon>
+                </a>
+              </router-link>
             </div>
           </b-card-body>
           <hr class="hb m-0" />
         </div>
-        <div v-if="advancedImgHomeCard.titulok4 != ''">
+        <div>
           <b-card-body class="hb d-flex justify-content-between mr-2">
             <div>
-              <h6 class="mb-0">
-                {{ advancedImgHomeCard.titulok4 }}
-              </h6>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link4">
+                <h6 class="mb-0">
+                  {{ advancedImgHomeCard.titulok4 }}
+                </h6>
+              </router-link>
             </div>
 
             <div>
-              <a :href="advancedImgHomeCard.link4" class="blue card-link">
-                <b-icon icon="arrow-right"></b-icon>
-              </a>
+              <router-link :to="'/clanky/' + advancedImgHomeCard.link">
+                <a class="blue card-link">
+                  <b-icon icon="arrow-right"></b-icon>
+                </a>
+              </router-link>
             </div>
           </b-card-body>
         </div>
@@ -94,7 +110,7 @@ export default {
   },
   methods: {
     cardImg(card) {
-      return require(`./assets/${card.image}`)
+      return require(`./assets/${card.image}`);
     },
   },
 };
