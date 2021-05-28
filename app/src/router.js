@@ -33,7 +33,7 @@ const routes = [
 			import('./plugins/financie/osobne-financie/blog.vue')
 	},
 	{
-		path: '/osobne-financie/clanky/:slug',
+		path: '/clanky/:slug',
 		name: 'clanky',
 		component: () =>
 			import('./plugins/financie/osobne-financie/articles.vue')
