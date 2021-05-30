@@ -158,7 +158,7 @@ const uverNaSpotrebu = {
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
-	title: 'Cesta kprvej investícií',
+	title: 'Cesta k prvej investícií',
 	content: 'Čo sú dividendy? Akcia? Dlhopis?',
 	image: '',
     link: 'investovanie',
