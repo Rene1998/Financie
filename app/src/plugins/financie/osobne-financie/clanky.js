@@ -1,121 +1,121 @@
 const zivotnePoistenie = {
 	title: 'Životné positenie',
-	content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.', 
+	content: 'Pripravujeme pre vás obsah', 
 	image: '',
 }
 const poistenieAuta = {
 	title: 'Poistenie auta (neživotné poistenie)',
-	content: 'Obsah 2',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const poistenieNehnutelnosti = {
 	title: 'Poistenie nehnuteľnosti/domácnosti',
-	content: 'Obsah 3',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const cestovnePoistenie = {
 	title: 'Cestovné poistnie',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const hypotekarnyUver = {
 	title: 'Hypotekárny úver - nadobudnutie bývania',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const americkaHypoteka = {
 	title: 'Americká hypotéka',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const ziadostOUver = {
 	title: 'Žiadosť o úver',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const splacanieUveru = {
 	title: 'Splácanie úveru',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const spotrebnyUver = {
 	title: 'Spotrebný úver',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const kratkodobeUvery = {
 	title: 'Krátkodobé úvery',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const cerpacnieASplacanie = {
 	title: 'Čerpanie a splácanie',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const nebankoveUveryAPozicky = {
 	title: 'Nebankové úvery a pôžičky',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const zakladyInvestovania = {
 	title: 'Základy investovania',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const zakladneInvesticnePrilezitosti = {
 	title: 'Základné investičné príležitosti',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const investicnePrincipy = {
 	title: 'Investičné princípy',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const aktivnePasivneInvestovanie = {
 	title: 'Aktívne vs. pasívne investovanie',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const beznyUcet = {
 	title: 'Bežný účet',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const sporiaciUcet = {
 	title: 'Sporiaci účet',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const kreditnaKarta = {
 	title: 'Kreditná karta',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const debetnaKarta = {
 	title: 'Debetná karta',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const internetAMobileBanking = {
 	title: 'Internet a mobile banking',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const neobanky = {
 	title: 'Neobanky (N26, 365.)',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const financnePlatformy = {
 	title: 'Finančné platformy',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 const tuNiecoPojde = {
 	title: 'Tu nieco pojde',
-	content: 'Obsah 4',
+	content: 'Pripravujeme pre vás obsah',
 	image: ' ',
 }
 
