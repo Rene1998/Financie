@@ -9,7 +9,7 @@
         <p class="mt-4 height">
           {{ card.text }}
         </p>
-        <router-link :to="'/osobne-financie/clanky/' + card.link"><a class="mt-4">Prečítať viac</a></router-link>
+        <router-link :to="'/osobne-financie/clanky/' + card.link"><p class="mt-4">Prečítať viac</p></router-link>
       </div>
     </div>
   </div>

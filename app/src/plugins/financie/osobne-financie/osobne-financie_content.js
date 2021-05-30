@@ -12,7 +12,7 @@ const byvanie = {
 	text3: 'Ako zabezpečiť dom?',
     titulok4: 'Technológie čo vedia ušetriť',
 	link4: '',
-	text4: '',
+	text4: 'Presvedčte sa ako môžete ušetri’t využívaním moderných technológii',
 	defaultLink: 'byvanie'
 };
 const rodinaADeti = {
@@ -46,7 +46,7 @@ const auto = {
 	text3: 'Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?',
     titulok4: 'Údržba auta',
 	link4: '',
-	text4: '',
+	text4: 'Nerobte si starosti súdržbou vášho auta',
 	defaultLink: 'auto'
 }
 const dochodok = {
@@ -63,7 +63,7 @@ const dochodok = {
 	text3: 'K čomu je? Ako funguje? Ako si z neho vybrať peniaze?',
     titulok4: 'Súkromne Sporenie',
 	link4: '',
-	text4: '',
+	text4: 'Nespoliahjte sa na štáat avytvorte si vlastný zdroj dôchodku',
 	defaultLink: 'dochodok'
 }
 const exekucia = {
@@ -80,7 +80,7 @@ const exekucia = {
 	text3: 'Aké druhy oddlženia existujú? Aký druh mám vybrať ak nechcem prísť o majetok?',
     titulok4: 'Právo a financie',
 	link4: '',
-	text4: '',
+	text4: 'Orientujte sa vo finančno-právnom svete',
 	defaultLink: 'exekucia'
 }
 const pracaADane = {
