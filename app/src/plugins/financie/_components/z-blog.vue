@@ -1,11 +1,13 @@
 <template>
   <div>
     <div class="container">
-      <h1 class="mt-5">
-        {{ blog.title }}
-      </h1>
+      <div class="row p-3">
+        <h1 class="mt-5">
+          {{ blog.title }}
+        </h1>
 
-      <div v-html="blog.content" class="blog"></div>
+        <div v-html="blog.content" class="blog"></div>
+      </div>
     </div>
   </div>
 </template>
