@@ -57,6 +57,11 @@ export default {
   font-family: Helvetica Neue;
   font-style: normal;
   color: #192949;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
 }
 h1 {
   margin-top: 30px;
