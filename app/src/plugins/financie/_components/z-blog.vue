@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row p-3">
+      <div class="row d-flex p-3">
         <h1 class="mt-5">
           {{ blog.title }}
         </h1>
