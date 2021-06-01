@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row d-flex p-3">
+      <div class="row d-flex m-auto">
         <h1 class="mt-5">
           {{ blog.title }}
         </h1>
@@ -76,5 +76,8 @@ h1 {
   &:hover {
     color: #1eaee1;
   }
+}
+.row {
+  width: 100%;
 }
 </style>
