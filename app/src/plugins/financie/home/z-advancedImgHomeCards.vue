@@ -102,7 +102,6 @@
 <script>
 import pageContent from "./osobne-financie_content_linky";
 export default {
-  name: "z-advancedImgHomeCards",
   data() {
     return {
       advancedImgHomeCards: pageContent,

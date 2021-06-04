@@ -20,9 +20,7 @@
 <script>
 import apiService from "../../common/apiService"
 import moment from 'moment'
-
 export default {
-  name: "z-textCard",
   data() {
     return {
       textCards: [],

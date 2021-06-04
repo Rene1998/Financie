@@ -88,7 +88,6 @@
 <script>
 import apiService from "../../common/apiService";
 export default {
-  name: "z-advancedImgCards",
   props: {
     cardCategory: {
       type: String,

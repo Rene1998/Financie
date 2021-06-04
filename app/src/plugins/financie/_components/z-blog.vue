@@ -14,7 +14,6 @@
 <script>
 import apiService from "../common/apiService";
 export default {
-  name: "z-blog",
   data() {
     return {
       blog: [],

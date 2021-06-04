@@ -51,7 +51,6 @@ import apiService from "../../common/apiService";
 import moment from "moment";
 
 export default {
-  name: "z-linkCards",
   data() {
     return {
       linkCards: [],

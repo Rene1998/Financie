@@ -1,51 +1,54 @@
 <template>
   <div>
-    <b-navbar  type="light">
-      
-     
-        <b-navbar-nav class="mr-auto d-flex aling-items-center">
-          <b-navbar-nav class=" d-none align-items-center ">
-            <b-nav-item>
-              <b-icon icon="list"></b-icon>
-            </b-nav-item>
-          </b-navbar-nav>
-
-          
-          <router-link to="/">
-            <img class="logo" src="./assets/logo.svg" alt="logo" />
-          </router-link>
+    <b-navbar type="light">
+      <b-navbar-nav class="mr-auto d-flex aling-items-center">
+        <b-navbar-nav class="d-none align-items-center">
+          <b-nav-item>
+            <b-icon icon="list"></b-icon>
+          </b-nav-item>
         </b-navbar-nav>
 
-        <b-navbar-nav class="d-flex align-items-center">
-          <b-navbar-nav>
-            <b-nav-item
-              to="/home"
-              href="#"
-              class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
-              :class="{ isActive: page == 'home' || page == 'osobne-financie' }"
-            >Osobné financie</b-nav-item>
-          </b-navbar-nav>
-          <hr />
-          <b-navbar-nav>
-            <b-nav-dropdown
-              text="Pre školy"
-              right
-              class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
-              :class="{ isActive: page == 'pre-skoly' }"
+        <router-link to="/">
+          <img class="logo" src="./assets/logo.svg" alt="logo" />
+        </router-link>
+      </b-navbar-nav>
+
+      <b-navbar-nav class="d-flex align-items-center">
+        <b-navbar-nav>
+          <b-nav-item
+            to="/home"
+            href="#"
+            class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
+            :class="{ isActive: page == 'home' || page == 'osobne-financie' }"
+            >Osobné financie</b-nav-item
+          >
+        </b-navbar-nav>
+        <hr />
+        <b-navbar-nav>
+          <b-nav-dropdown
+            text="Pre školy"
+            right
+            class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
+            :class="{ isActive: page == 'pre-skoly' }"
+          >
+            <b-dropdown-item to="/pre-skoly/zakladne-skoly"
+              >Základné školy</b-dropdown-item
             >
-              <b-dropdown-item to="/pre-skoly/zakladne-skoly">Základné školy</b-dropdown-item>
-              <b-dropdown-item to="/pre-skoly/stredne-skoly">Stredné školy</b-dropdown-item>
-              <b-dropdown-item to="/pre-skoly/vysoke-skoly">Vysoké školy</b-dropdown-item>
-            </b-nav-dropdown>
-          </b-navbar-nav>
-          <hr />
-          <b-navbar-nav>
-            <b-nav-item>
-              <b-icon icon="search"></b-icon>
-            </b-nav-item>
-          </b-navbar-nav>
+            <b-dropdown-item to="/pre-skoly/stredne-skoly"
+              >Stredné školy</b-dropdown-item
+            >
+            <b-dropdown-item to="/pre-skoly/vysoke-skoly"
+              >Vysoké školy</b-dropdown-item
+            >
+          </b-nav-dropdown>
         </b-navbar-nav>
-     
+        <hr />
+        <b-navbar-nav>
+          <b-nav-item>
+            <b-icon icon="search"></b-icon>
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-navbar-nav>
     </b-navbar>
   </div>
 </template>
@@ -149,54 +152,41 @@ export default {
   }
 }
 
-
-
-
-
-
 @media only screen and (max-width: 420px) {
-
-  .navbar{
-   max-width: 420px;
+  .navbar {
+    max-width: 420px;
   }
 
-  .osobne-financie{
-    display: none  !important;
+  .osobne-financie {
+    display: none !important;
   }
 
-  .pre-skoly{
+  .pre-skoly {
     max-width: 92px;
-
   }
 
-  .logo{
+  .logo {
     width: 102px;
     height: 27px;
   }
 }
 
 @media only screen and (max-width: 350px) {
-
-  .navbar{
-   max-width: 350;
+  .navbar {
+    max-width: 350;
   }
 
-  .osobne-financie{
-    display: none  !important;
+  .osobne-financie {
+    display: none !important;
   }
 
-  .pre-skoly{
+  .pre-skoly {
     max-width: 92px;
-
   }
 
-  .logo{
+  .logo {
     width: 102px;
     height: 27px;
   }
-  
 }
-
-
-
 </style>
