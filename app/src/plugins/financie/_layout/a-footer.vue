@@ -114,7 +114,6 @@ export default {
     "$route.name": {
       immediate: true,
       handler(val) {
-        console.log(val);
       },
     },
   },

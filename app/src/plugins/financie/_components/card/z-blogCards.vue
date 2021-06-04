@@ -25,7 +25,6 @@ export default {
     "$route.params.slug": {
       immediate: true,
       handler(val) {
-        console.log(val)
         this.changeRightPage(val);
       },
     },
@@ -46,7 +45,6 @@ export default {
       try {
         const cards = await apiService.get(`blog/categories/slug/${rightPage}`);
         this.blogCards = cards.data.blog;
-        console.log(this.blogCards);
       } catch (e) {
         console.error(e);
       }

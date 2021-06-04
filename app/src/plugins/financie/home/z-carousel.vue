@@ -43,14 +43,12 @@ export default {
   },
   async mounted() {
     await this._loadSliders();
-    console.log(this.sliders);
   },
   methods: {
     async _loadSliders() {
       try {
         const sliders = await apiService.get("slider");
         this.sliders = sliders.data;
-        console.log(sliders.data);
       } catch (e) {
         console.error(e);
       }

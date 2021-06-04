@@ -56,7 +56,6 @@
 export default {
   watch: {
     scrollHeight(val) {
-      console.log(val);
     },
   },
   data() {

@@ -42,9 +42,8 @@ export default {
   },
   methods: {
     actCard() {
-      if (this.card.link == this.activeCard) {
-        this.act = true
-      }
+      if (this.card.link != this.activeCard) return 
+      this.act = true
     },
     actCard2(val) {
       this.act = false

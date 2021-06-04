@@ -66,7 +66,7 @@ export default {
       immediate: true,
       handler(val) {
         this.actualPage(val);
-        console.log(val);
+
       },
     },
   },

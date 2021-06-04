@@ -45,7 +45,6 @@ export default {
       immediate: true,
       handler(val) {
         this.actualPage(val);
-        console.log(this.rightPage);
       },
     },
   },
@@ -68,7 +67,6 @@ export default {
             ? true
             : false
         );
-        console.log(this.imgCards);
       } catch (e) {
         console.error(e);
       }

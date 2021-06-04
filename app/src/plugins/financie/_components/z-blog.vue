@@ -24,7 +24,6 @@ export default {
     "$route.params.slug": {
       immediate: true,
       handler(val) {
-        console.log(val);
         this.changeRightBlog(val);
       },
     },
@@ -37,7 +36,6 @@ export default {
       try {
         const blogs = await apiService.get("blog");
         this.blog = blogs.data.data.find((e) => e.slug === this.rightBlog);
-        console.log(this.blog);
       } catch (e) {
         console.error(e);
       }

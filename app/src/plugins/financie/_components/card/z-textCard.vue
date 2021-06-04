@@ -39,7 +39,6 @@ export default {
       try {
         const cards = await apiService.get('textCard');
         this.textCards = cards.data;
-        console.log(cards.data);
       } catch (e) {
         console.error(e);
       }

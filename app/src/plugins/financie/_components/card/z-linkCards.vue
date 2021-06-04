@@ -84,10 +84,6 @@ export default {
         this.link1Cards = cards2.data.link_cards;
         this.link2Cards = cards3.data.link_cards;
         this.link3Cards = cards4.data.link_cards;
-        console.log(cards.data);
-        console.log(this.link1Cards);
-        console.log(this.link2Cards);
-        console.log(this.link3Cards);
       } catch (e) {
         console.error(e);
       }

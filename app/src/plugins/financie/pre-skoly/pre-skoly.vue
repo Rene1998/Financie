@@ -154,7 +154,6 @@ export default {
       immediate: true,
       handler(val) {
         this.changePageContent(val);
-        console.log(val);
       },
     },
   },
@@ -185,7 +184,6 @@ export default {
     },
     changeCardCategory(val) {
       this.cardCategory = val;
-      console.log(this.cardCategory);
     },
   },
   components: {

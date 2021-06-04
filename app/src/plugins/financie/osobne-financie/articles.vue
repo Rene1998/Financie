@@ -26,7 +26,6 @@ export default {
       immediate: true,
       handler(val) {
         this.changePageContent(val);
-        console.log(val);
       },
     },
   },

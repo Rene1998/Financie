@@ -126,13 +126,11 @@ export default {
   },
   methods: {
     async _loadCards(rocnik, stranka, kategoria) {
-      console.log(rocnik, stranka, kategoria);
       try {
         const cards = await apiService.get(`categories/slug/${stranka}`);
         this.advancedImgCards = cards.data.year_category
           .find((e) => e.slug === rocnik)
           .advanced_img_cards.filter((e) => e.type === kategoria);
-        console.log(this.advancedImgCards);
       } catch (e) {
         console.error(e);
       }
