@@ -3,15 +3,13 @@
     <div
       v-for="advancedImgCard in advancedImgCards"
       :key="advancedImgCard.id"
-      class="col-12 col-lg-4 col-md-6"
-    >
+      class="col-12 col-lg-4 col-md-6">
       <b-card
         :title="advancedImgCard.title"
         :img-src="advancedImgCard.image.path"
         img-alt="Image"
         tag="article"
-        class="mb-2 border border-0"
-      >
+        class="mb-2 border border-0">
         <div>
           <b-card-text class="d-flex mb-5">
             {{ advancedImgCard.content }}
@@ -19,8 +17,7 @@
           <div class="hb">
             <b-card-body
               class="hb d-flex justify-content-between mr-2"
-              v-if="advancedImgCard.doc1_link != ''"
-            >
+              v-if="advancedImgCard.doc1_link != ''">
               <div>
                 <h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
               </div>
@@ -32,8 +29,7 @@
                 <a
                   :href="advancedImgCard.doc1_link_show"
                   target="_blank"
-                  class="card-link"
-                >
+                  class="card-link">
                   <b-icon icon="eye"> </b-icon>
                 </a>
               </div>
@@ -43,8 +39,7 @@
           <div class="hb">
             <b-card-body
               class="d-flex justify-content-between mr-2"
-              v-if="advancedImgCard.doc2_link != ''"
-            >
+              v-if="advancedImgCard.doc2_link != ''">
               <div class="m-0">
                 <h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
               </div>
@@ -56,8 +51,7 @@
                 <a
                   :href="advancedImgCard.doc1_link_show"
                   target="_blank"
-                  class="card-link"
-                >
+                  class="card-link">
                   <b-icon icon="eye"></b-icon>
                 </a>
               </div>
@@ -73,8 +67,7 @@
               <a
                 :href="advancedImgCard.video_show"
                 target="_blank"
-                class="card-link"
-              >
+                class="card-link">
                 <b-icon icon="play-circle"></b-icon>
               </a>
             </div>

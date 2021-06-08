@@ -22,8 +22,7 @@
           :title="card.title"
           :icon="card.icon"
           :link="card.link"
-          class="slide"
-        >
+          class="slide">
           <p>
             <router-link :to="'/osobne-financie/' + card.link">
               <z-homeCategoryCard
@@ -44,8 +43,7 @@
             :title="card.title"
             :icon="card.icon"
             :link="card.link"
-            class="col-4 mb-3"
-          >
+            class="col-4 mb-3">
             <p>
               <router-link :to="'/osobne-financie/' + card.link">
                 <z-homeCategoryCard

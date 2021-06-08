@@ -9,12 +9,10 @@
               <router-link to="/osobne-financie/auto">Auto</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/praca-dane"
-                >Práce a dane</router-link>
+              <router-link to="/osobne-financie/praca-dane">Práce a dane</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/rodina-deti"
-                >Rodina a deti</router-link>
+              <router-link to="/osobne-financie/rodina-deti">Rodina a deti</router-link>
             </li>
             <li class="footer-li">
               <router-link to="/osobne-financie/byvanie">Bývanie</router-link>
@@ -79,14 +77,15 @@
             <img class="mr-3" src="./assets/logodark.svg" alt="logo" />
           </router-link>
           <p class="copy m-0">
-            © 2021 <a class="financie-link">www.financie.sk</a> Všetky práva
-            vyhradené.
+            © 2021 <a href="#" class="financie-link">www.financie.sk</a> 
+            Všetky práva vyhradené.
           </p>
           <div class="ml-auto d-none d-lg-block">
-            <router-link to="/home"
-              ><a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link>
-            <router-link to="/pre-skoly/zakladne-skoly"
-              ><a class="btn z-btn rounded-0">Pre školy</a></router-link>
+            <router-link to="/home">
+              <a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link>
+            <router-link to="/pre-skoly/zakladne-skoly">
+              <a class="btn z-btn rounded-0">Pre školy</a>
+            </router-link>
           </div>
         </div>
       </div>

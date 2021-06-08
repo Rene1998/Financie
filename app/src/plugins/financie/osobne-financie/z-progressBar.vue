@@ -9,8 +9,7 @@
             isActive:
               0 <= pageScrollPositon && pageScrollPositon < zakladneInformacie,
           }"
-          >Vedeli ste, že...</a
-        >
+          >Vedeli ste, že...</a>
         <a
           @click="scrollTo(zakladneInformacie)"
           class="z-btn btn rounded-0"
@@ -19,8 +18,7 @@
               zakladneInformacie <= pageScrollPositon &&
               pageScrollPositon < najnovsieClanky,
           }"
-          >Základné informácie</a
-        >
+          >Základné informácie</a>
         <a
           @click="scrollTo(najnovsieClanky)"
           class="z-btn btn rounded-0"
@@ -29,8 +27,7 @@
               najnovsieClanky <= pageScrollPositon &&
               pageScrollPositon < najnovsieProdukty,
           }"
-          >Najnovšie články</a
-        >
+          >Najnovšie články</a>
         <a
           @click="scrollTo(najnovsieProdukty)"
           class="z-btn btn rounded-0"
@@ -39,14 +36,12 @@
               najnovsieProdukty <= pageScrollPositon &&
               pageScrollPositon < uzitocneLinky,
           }"
-          >Najnovšie produkty a služby</a
-        >
+          >Najnovšie produkty a služby</a>
         <a
           @click="scrollTo(uzitocneLinky)"
           class="z-btn btn rounded-0"
           :class="{ isActive: uzitocneLinky <= pageScrollPositon }"
-          >Užitočné linky a zaujímavosti</a
-        >
+          >Užitočné linky a zaujímavosti</a>
         <a href="" class="z-btn btn rounded-0">Kvíz</a>
       </div>
     </div>

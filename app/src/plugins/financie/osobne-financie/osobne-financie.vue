@@ -8,8 +8,7 @@
               ><a class="mb-5 d-flex align-items-center"
                 ><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
                 stránku</a
-              ></router-link
-            >
+              ></router-link>
             <h1 mt-5>{{ title }}</h1>
             <p class="mt-4 content">
               {{ content }}
@@ -39,8 +38,7 @@
             v-for="card in cards"
             :key="card.id"
             :title="card.title"
-            :text="card.text"
-          >
+            :text="card.text">
             <z-miniCards :card="card"></z-miniCards>
           </slide>
         </carousel>
@@ -53,8 +51,7 @@
               :key="card.id"
               :title="card.title"
               :text="card.text"
-              class="col-3"
-            >
+              class="col-3">
               <z-miniCards :card="card"></z-miniCards>
             </div>
           </div>

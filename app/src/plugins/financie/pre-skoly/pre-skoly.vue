@@ -92,8 +92,7 @@
           @click="
             changeCardCategory('advancedImgCardLink');
             active = !active;
-          "
-        >
+          ">
           Učebné materiály
         </button>
 
@@ -103,8 +102,7 @@
           @click="
             changeCardCategory('advancedImgCardVideo');
             active = !active;
-          "
-        >
+          ">
           Videá
         </button>
       </b-button-group>
@@ -119,8 +117,7 @@
 
     <div class="container text-center mb-5">
       <b-button variant="primary" class="download-all mb-5"
-        >Stiahnuť všetky dokumenty</b-button
-      >
+        >Stiahnuť všetky dokumenty</b-button>
     </div>
     <div class="container">
       <div class="row">

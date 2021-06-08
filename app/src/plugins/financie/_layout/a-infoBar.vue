@@ -4,8 +4,7 @@
       <p class="d-flex align-items-center justify-content-center mt-0 mb-0">
         Informácie ktoré vám pomôžu k správnemu investovaniu.
         <a class="d-flex justify-content-center" href=""
-          >Sledujte naše video podcasty</a
-        >
+          >Sledujte naše video podcasty</a>
       </p>
     </div>
   </div>

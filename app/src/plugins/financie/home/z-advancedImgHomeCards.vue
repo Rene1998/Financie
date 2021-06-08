@@ -3,8 +3,7 @@
     <div
       v-for="advancedImgHomeCard in advancedImgHomeCards"
       :key="advancedImgHomeCard.id"
-      class="col-12 col-lg-4 col-md-6"
-    >
+      class="col-12 col-lg-4 col-md-6">
       <b-card img-alt="Image" tag="article" class="mb-2 border border-0 m-2">
         <router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
           <b-card-img :src="cardImg(advancedImgHomeCard)"></b-card-img>

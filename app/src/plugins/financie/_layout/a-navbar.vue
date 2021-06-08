@@ -20,8 +20,7 @@
             href="#"
             class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
             :class="{ isActive: page == 'home' || page == 'osobne-financie' }"
-            >Osobné financie</b-nav-item
-          >
+            >Osobné financie</b-nav-item>
         </b-navbar-nav>
         <hr />
         <b-navbar-nav>
@@ -29,17 +28,13 @@
             text="Pre školy"
             right
             class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
-            :class="{ isActive: page == 'pre-skoly' }"
-          >
+            :class="{ isActive: page == 'pre-skoly' }">
             <b-dropdown-item to="/pre-skoly/zakladne-skoly"
-              >Základné školy</b-dropdown-item
-            >
+              >Základné školy</b-dropdown-item>
             <b-dropdown-item to="/pre-skoly/stredne-skoly"
-              >Stredné školy</b-dropdown-item
-            >
+              >Stredné školy</b-dropdown-item>
             <b-dropdown-item to="/pre-skoly/vysoke-skoly"
-              >Vysoké školy</b-dropdown-item
-            >
+              >Vysoké školy</b-dropdown-item>
           </b-nav-dropdown>
         </b-navbar-nav>
         <hr />
