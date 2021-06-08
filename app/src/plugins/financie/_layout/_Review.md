@@ -1,3 +1,9 @@
+# 8.5 Rene
+[] dať prečo watcher, keď nič nerobí
+[] normálne názvy premenných a metód nie ugabuga
+[] použiť radšej early return / exit než if else
+[] vyhodiť premenné čo nič nerobia
+
 # 24.3. psycho
 [] bodkociarky :'(
 [] dvojite uvodzovky nieee :'(
@@ -5,7 +11,7 @@
 
 
 
-# Glasnak 18.3. 
+# Glasnak 18.3.
 
 # a-navbar.vue
 
@@ -13,7 +19,7 @@ STYLOVACKA
 [1] .financie by som dal vystiznejsi nazov, napriklad .logo
 [1] ked vnaras scss tak vzdy pred vnorenim dalsieho daj prazdny riadok
 [!] V navigacii v lavo ma byt od vertikalnej ciary rovnaka medzera aj v lavo aj v pravo
-- inak to vyzera dobre :) 
+- inak to vyzera dobre :)
 
 FRONTEND
 [] vyhodit prazdny script

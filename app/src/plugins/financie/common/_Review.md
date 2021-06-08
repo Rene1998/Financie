@@ -1,3 +1,6 @@
+# 8.5 Rene
+[] aby ti apiservice rovno vracal res.data
+
 # 24.3. psycho
 [] ak to neni screen, tak by som dal s underscorom, ze to je pomocka len..
 [] config mi pride zbytocne, sak tam hodim ten process.env.XX

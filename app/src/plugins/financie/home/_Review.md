@@ -1,3 +1,9 @@
+# 8.5 Rene
+[] normálne zarovnať importy  components
+[] nedával by som hardcodded veci do data
+[-] zvážiť používanie muckov namiesto content.js
+[] prazne súbory
+
 # 24.3. psycho
 [] kubo more: inline styly sa vyhybat
     [] display flex a podobne su v bootstrap utility classes
