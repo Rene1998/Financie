@@ -1,3 +1,9 @@
+# 8.5 Rene
+[] nastaviť linter
+[] v apiService bz som returnoval rovno data, abz si to potom nemusel všade písať
+[] spravil by som si konzistentnú štruktúru ako budeš zoraďovať datas, methods, lifecycle hooks ...
+[] pri async kontente by som ošetroval v-ifkami
+
 # 24.3. psycho
 [] pouzivat jednoite uvodzovky
     [] a v celej app
