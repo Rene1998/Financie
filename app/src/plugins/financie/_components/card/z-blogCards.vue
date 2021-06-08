@@ -1,14 +1,16 @@
 <template>
   <div class="row">
       <div class="card mb-5 col-12 col-lg-4 col-md-6 col-sm-6" v-for="blog in blogCards" :key="blog.id" style="width: 18.7rem;">
-      <img :src="blog.thumbnail_image.path" class="card-img-top" />
-      <div class="card-body p-0 " >
-        <p class="timestamp mt-4"> {{posted_at}} • zaberie to iba {{blog.time}} min </p>
-        <h5 class="card-title mb-3">{{blog.title}}</h5>
-        <div v-html="blog.short_content" class="blog mt-0 mb-4"></div>
-        <router-link class="link" :to="rightPage + '/' + blog.slug">Prečítať viac</router-link>
+        <img :src="blog.thumbnail_image.path" class="card-img-top" />
+          <div class="card-body p-0 " >
+            <p class="timestamp mt-4"> {{posted_at}} • zaberie to iba {{blog.time}} min </p>
+            <h5 class="card-title mb-3">{{blog.title}}</h5>
+            <div v-html="blog.short_content" class="blog mt-0 mb-4"></div>
+            <router-link class="link" :to="rightPage + '/' + blog.slug">
+              Prečítať 
+            </router-link>
+          </div>
       </div>
-    </div>
   </div>
 </template>
 <script>

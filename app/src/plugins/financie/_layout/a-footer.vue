@@ -10,13 +10,11 @@
             </li>
             <li class="footer-li">
               <router-link to="/osobne-financie/praca-dane"
-                >Práce a dane</router-link
-              >
+                >Práce a dane</router-link>
             </li>
             <li class="footer-li">
               <router-link to="/osobne-financie/rodina-deti"
-                >Rodina a deti</router-link
-              >
+                >Rodina a deti</router-link>
             </li>
             <li class="footer-li">
               <router-link to="/osobne-financie/byvanie">Bývanie</router-link>
@@ -34,29 +32,19 @@
           <h5 class="text-left">Finančné produkty</h5>
           <ul class="pl-0 list-unstyled">
             <li class="footer-li">
-              <router-link to="/osobne-financie/poistenie"
-                >Poistenie</router-link
-              >
+              <router-link to="/osobne-financie/poistenie">Poistenie</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/hypotekarny-uver"
-                >Hypotekárny úver</router-link
-              >
+              <router-link to="/osobne-financie/hypotekarny-uver">Hypotekárny úver</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/uver-na-spotrebu"
-                >Úver na spotrebu</router-link
-              >
+              <router-link to="/osobne-financie/uver-na-spotrebu">Úver na spotrebu</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/investovanie"
-                >Investovanie</router-link
-              >
+              <router-link to="/osobne-financie/investovanie">Investovanie</router-link>
             </li>
             <li class="footer-li">
-              <router-link to="/osobne-financie/bankove-ucty-a-platobne-karty"
-                >Účty a karty</router-link
-              >
+              <router-link to="/osobne-financie/bankove-ucty-a-platobne-karty">Účty a karty</router-link>
             </li>
             <li class="footer-li">
               <router-link to="/osobne-financie/fintech">Fintech</router-link>
@@ -96,12 +84,9 @@
           </p>
           <div class="ml-auto d-none d-lg-block">
             <router-link to="/home"
-              ><a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link
-            >
-            
+              ><a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link>
             <router-link to="/pre-skoly/zakladne-skoly"
-              ><a class="btn z-btn rounded-0">Pre školy</a></router-link
-            >
+              ><a class="btn z-btn rounded-0">Pre školy</a></router-link>
           </div>
         </div>
       </div>

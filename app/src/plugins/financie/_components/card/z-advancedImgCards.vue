@@ -145,7 +145,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   img {
-    height: 210px;
+    min-height: 210px;
   }
 
   .card-title {
@@ -158,10 +158,6 @@ export default {
   .card-text {
     min-height: 3.5vw;
   }
-}
-
-.div {
-  line-height: 24px;
 }
 
 p {
