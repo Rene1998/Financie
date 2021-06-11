@@ -29,12 +29,12 @@
             right
             class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
             :class="{ isActive: page == 'pre-skoly' }">
-            <b-dropdown-item to="/pre-skoly/zakladne-skoly"
-              >Základné školy</b-dropdown-item>
-            <b-dropdown-item to="/pre-skoly/stredne-skoly"
-              >Stredné školy</b-dropdown-item>
-            <b-dropdown-item to="/pre-skoly/vysoke-skoly"
-              >Vysoké školy</b-dropdown-item>
+            <b-dropdown-item to="/pre-skoly/zakladna-skola-1.stupen"
+              >Základná škola 1. stupeň</b-dropdown-item>
+            <b-dropdown-item to="/pre-skoly/zakladna-skola-2.stupen"
+              >Základná škola 2. stupeň</b-dropdown-item>
+            <b-dropdown-item to="/pre-skoly/stredna-skola"
+              >Stredná škola</b-dropdown-item>
           </b-nav-dropdown>
         </b-navbar-nav>
         <hr />

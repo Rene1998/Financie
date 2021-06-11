@@ -83,7 +83,7 @@
           <div class="ml-auto d-none d-lg-block">
             <router-link to="/home">
               <a href="" class="btn z-btn rounded-0">Osobné financie</a></router-link>
-            <router-link to="/pre-skoly/zakladne-skoly">
+            <router-link to="/pre-skoly/zakladna-skola-1.stupen">
               <a class="btn z-btn rounded-0">Pre školy</a>
             </router-link>
           </div>

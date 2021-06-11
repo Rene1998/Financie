@@ -7,21 +7,21 @@
           <p class="content">{{ content }}</p>
           <p>
             <router-link
-              :class="{ isActiveA: activePage == 'zakladne-skoly' }"
-              to="/pre-skoly/zakladne-skoly"
-              >Základné školy</router-link
+              :class="{ isActiveA: activePage == 'zakladna-skola-1.stupen' }"
+              to="/pre-skoly/zakladna-skola-1.stupen"
+              >Základná škola 1. stupeň</router-link
             >
             •
             <router-link
-              :class="{ isActiveA: activePage == 'stredne-skoly' }"
-              to="/pre-skoly/stredne-skoly"
-              >Stredné školy</router-link
+              :class="{ isActiveA: activePage == 'zakladna-skola-2.stupen' }"
+              to="/pre-skoly/zakladna-skola-2.stupen"
+              >Základná škola 2. stupeň</router-link
             >
             •
             <router-link
-              :class="{ isActiveA: activePage == 'vysoke-skoly' }"
-              to="/pre-skoly/vysoke-skoly"
-              >Vysoke školy</router-link
+              :class="{ isActiveA: activePage == 'stredna-skola' }"
+              to="/pre-skoly/stredna-skola"
+              >Stredná škola</router-link
             >
           </p>
         </div>
@@ -69,8 +69,6 @@
         </div>
       </div>
     </div>
-    <hr />
-    <z-carousel></z-carousel>
 
     <div class="container text-center mt-5 mb-5 hardcode-text">
       <h4>
@@ -186,7 +184,6 @@ export default {
   components: {
     Carousel,
     Slide,
-    "z-carousel": () => import("../home/z-carousel"),
     "z-advancedImgCards": () =>
       import("../_components/card/z-advancedImgCards"),
     "z-categoryCard": () => import("../_components/card/z-categoryCard"),
@@ -247,7 +244,7 @@ h5 {
   font-size: 24px;
 }
 .content {
-  max-width: 315px;
+  max-width: 500px;
   font-weight: 400;
   font-size: 18px;
 }
