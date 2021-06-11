@@ -80,7 +80,7 @@ export default {
 <style lang="scss" scoped>
 .card-img-top {
   width: auto;
-  max-height: 315px;
+  min-height: 315px;
 }
 .timestamp {
   color: #898989;
