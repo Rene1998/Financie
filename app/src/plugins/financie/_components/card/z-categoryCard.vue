@@ -1,60 +1,60 @@
 <template>
-  <div>
-    <div
-      class="card d-flex align-items-center flex-column text-center"
-      :class="{ isActive: act }">
-      <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card" :src="cardImg" alt="" />
-        <h6 class="card-title mt-3">{{ card.title }}</h6>
-      </div>
-    </div>
-  </div>
+	<div>
+		<div
+			class="card d-flex align-items-center flex-column text-center"
+			:class="{ isActive: act }">
+			<div class="card-body d-flex align-items-center flex-column">
+				<img class="category-card" :src="cardImg" alt="" />
+				<h6 class="card-title mt-3">{{ card.title }}</h6>
+			</div>
+		</div>
+	</div>
 </template>
 <script>
 export default {
-  props: {
-    card: {
-      type: Object,
-      required: true,
-    },
-    activeCard: {
-      type: String,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      act: false,
-    };
-  },
-  watch: {
-    activeCard: {
-      handler(val){
-        this.actCard2(val)
-      }
-    }
-  },
-  computed: {
-    cardImg() {
-      return require(`./assets/${this.card.img}`);
-    },
-  },
-  methods: {
-    actCard() {
-      if (this.card.link != this.activeCard) return 
-      this.act = true
-    },
-    actCard2(val) {
-      this.act = false
-      if (this.card.link == val) {
-        this.act = true
-      }
-    },
-  },
-  mounted() {
-    this.actCard()
-  },
-};
+	props: {
+		card: {
+			type: Object,
+			required: true
+		},
+		activeCard: {
+			type: String,
+			required: true
+		}
+	},
+	data () {
+		return {
+			act: false
+		}
+	},
+	watch: {
+		activeCard: {
+			handler (val) {
+				this.actCard2(val)
+			}
+		}
+	},
+	computed: {
+		cardImg () {
+			return require(`./assets/${this.card.img}`)
+		}
+	},
+	methods: {
+		actCard () {
+			if (this.card.link != this.activeCard) return
+			this.act = true
+		},
+		actCard2 (val) {
+			this.act = false
+			if (this.card.link == val) {
+				this.act = true
+			}
+		}
+	},
+	mounted () {
+		this.actCard()
+	}
+}
 </script>
 <style lang="scss" scoped>
 .card {

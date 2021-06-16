@@ -1,49 +1,49 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="row d-flex justify-content-center flex-column p-3">
-        <div class="col-12">
-          <router-link to="/home"
-            ><a class="mb-5 d-flex align-items-center"
-              ><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
-              stránku</a
-            ></router-link
-          >
-          <h1 class="mt-5">{{ title }}</h1>
-          <p class="mt-5">{{ content }}</p>
-          <img :src="image" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
+	<div>
+		<div class="container">
+			<div class="row d-flex justify-content-center flex-column p-3">
+				<div class="col-12">
+					<router-link to="/home"
+					><a class="mb-5 d-flex align-items-center"
+					><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
+						stránku</a
+					></router-link
+					>
+					<h1 class="mt-5">{{ title }}</h1>
+					<p class="mt-5">{{ content }}</p>
+					<img :src="image" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
-import articleContent from "./clanky.js";
+import articleContent from './clanky.js'
 export default {
-  watch: {
-    "$route.params.slug": {
-      immediate: true,
-      handler(val) {
-        this.changePageContent(val);
-      },
-    },
-  },
-  data() {
-    return {
-      title: null,
-      content: null,
-      image: null,
-    };
-  },
-  methods: {
-    changePageContent(val) {
-      this.title = articleContent[val].title;
-      this.content = articleContent[val].content;
-      this.image = articleContent[val].image;
-    },
-  },
-};
+	watch: {
+		'$route.params.slug': {
+			immediate: true,
+			handler (val) {
+				this.changePageContent(val)
+			}
+		}
+	},
+	data () {
+		return {
+			title: null,
+			content: null,
+			image: null
+		}
+	},
+	methods: {
+		changePageContent (val) {
+			this.title = articleContent[val].title
+			this.content = articleContent[val].content
+			this.image = articleContent[val].image
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>

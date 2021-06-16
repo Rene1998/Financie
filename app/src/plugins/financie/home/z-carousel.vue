@@ -1,60 +1,60 @@
 <template>
-  <div class="mb-5">
-    <div class="slider-info" style="display: flex; justify-content: center">
-      <p>Vedeli ste, že...</p>
-    </div>
-    <div style="display: flex; justify-content: center">
-      <carousel
-        :loop="true"
-        :autoplay="true"
-        :autoplayTimeout="5000"
-        :perPage="1"
-        style="width: 800px"
-      >
-        <slide
-          class="slide"
-          v-for="slider in sliders"
-          :key="slider.id"
-          style="text-align: center"
-        >
-          <h5>{{ slider.content }}</h5>
-        </slide>
-      </carousel>
-    </div>
-    <hr />
-    
-  </div>
+	<div class="mb-5">
+		<div class="slider-info" style="display: flex; justify-content: center">
+			<p>Vedeli ste, že...</p>
+		</div>
+		<div style="display: flex; justify-content: center">
+			<carousel
+				:loop="true"
+				:autoplay="true"
+				:autoplayTimeout="5000"
+				:perPage="1"
+				style="width: 800px"
+			>
+				<slide
+					class="slide"
+					v-for="slider in sliders"
+					:key="slider.id"
+					style="text-align: center"
+				>
+					<h5>{{ slider.content }}</h5>
+				</slide>
+			</carousel>
+		</div>
+		<hr />
+
+	</div>
 </template>
 
 <script>
-//docs => https://ssense.github.io/vue-carousel/api/
-import apiService from "../common/apiService";
-import { Carousel, Slide } from "vue-carousel";
+// docs => https://ssense.github.io/vue-carousel/api/
+import apiService from '../common/apiService'
+import { Carousel, Slide } from 'vue-carousel'
 export default {
-  components: {
-    Carousel,
-    Slide,
-  },
-  name: "z-carousel",
-  data() {
-    return {
-      sliders: [],
-    };
-  },
-  async mounted() {
-    await this._loadSliders();
-  },
-  methods: {
-    async _loadSliders() {
-      try {
-        const sliders = await apiService.get("slider");
-        this.sliders = sliders.data;
-      } catch (e) {
-        console.error(e);
-      }
-    },
-  },
-};
+	components: {
+		Carousel,
+		Slide
+	},
+	name: 'z-carousel',
+	data () {
+		return {
+			sliders: []
+		}
+	},
+	async mounted () {
+		await this._loadSliders()
+	},
+	methods: {
+		async _loadSliders () {
+			try {
+				const sliders = await apiService.get('slider')
+				this.sliders = sliders.data
+			} catch (e) {
+				console.error(e)
+			}
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>

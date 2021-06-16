@@ -1,95 +1,95 @@
 <template>
-  <div class="container">
-    <div class="row links mb-5">
-      <div class="col">
-        <div class="d-flex align-items-center mb-5">
-          <b-icon icon="link45deg"></b-icon>
-          <h6 class="m-0">Užitočné linky</h6>
-        </div>
+	<div class="container">
+		<div class="row links mb-5">
+			<div class="col">
+				<div class="d-flex align-items-center mb-5">
+					<b-icon icon="link45deg"></b-icon>
+					<h6 class="m-0">Užitočné linky</h6>
+				</div>
 
-        <div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
-          <div class="body">
-            <p class="mt-4">{{posted_at}} • zaberie to iba {{link1Card.time}} min</p>
-            <h3>{{ link1Card.content }}</h3>
-          </div>
-        </div>
-      </div>
+				<div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
+					<div class="body">
+						<p class="mt-4">{{posted_at}} • zaberie to iba {{link1Card.time}} min</p>
+						<h3>{{ link1Card.content }}</h3>
+					</div>
+				</div>
+			</div>
 
-      <div class="col">
-       
-          <div class="d-flex align-items-center mb-5">
-            <b-icon icon="question-circle-fill"></b-icon>
-            <h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
-          </div>
+			<div class="col">
 
-          <div class="card" v-for="link2Card in link2Cards" :key="link2Card.id">
-            <div class="body">
-              <p class="mt-4">{{posted_at}} • zaberie to iba {{link2Card.time}} min</p>
-              <h3>{{ link2Card.content }}</h3>
-            </div>
-          </div>
-        </div>
+				<div class="d-flex align-items-center mb-5">
+					<b-icon icon="question-circle-fill"></b-icon>
+					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
+				</div>
 
-        <div class="col">
-          <div class="d-flex align-items-center mb-5">
-            <b-icon icon="calculator-fill"></b-icon>
-            <h6 class="m-0">Kalkulačky a návody</h6>
-          </div>
+				<div class="card" v-for="link2Card in link2Cards" :key="link2Card.id">
+					<div class="body">
+						<p class="mt-4">{{posted_at}} • zaberie to iba {{link2Card.time}} min</p>
+						<h3>{{ link2Card.content }}</h3>
+					</div>
+				</div>
+			</div>
 
-          <div class="card" v-for="link3Card in link3Cards" :key="link3Card.id">
-            <div class="body">
-              <p class="mt-4">{{posted_at}} • zaberie to iba {{link3Card.time}} min</p>
-              <h3>{{ link3Card.content }}</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			<div class="col">
+				<div class="d-flex align-items-center mb-5">
+					<b-icon icon="calculator-fill"></b-icon>
+					<h6 class="m-0">Kalkulačky a návody</h6>
+				</div>
+
+				<div class="card" v-for="link3Card in link3Cards" :key="link3Card.id">
+					<div class="body">
+						<p class="mt-4">{{posted_at}} • zaberie to iba {{link3Card.time}} min</p>
+						<h3>{{ link3Card.content }}</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 <script>
-import apiService from "../../common/apiService";
-import moment from "moment";
+import apiService from '../../common/apiService'
+import moment from 'moment'
 
 export default {
-  data() {
-    return {
-      linkCards: [],
-      link1Cards: [],
-      link2Cards: [],
-      link3Cards: [],
-    };
-  },
-  computed: {
-    posted_at() {
-      return moment(this.linkCards.created_at).lang("sk").format("LL");
-    },
-  },
-  async mounted() {
-    await this._loadCards();
-  },
-  methods: {
-    async _loadCards() {
-      try {
-        const cards = await apiService.get("linkCard");
-        const cards2 = await apiService.get(
-          `linkCard/categories/slug/uzitocne-linky`
-        );
-        const cards3 = await apiService.get(
-          `linkCard/categories/slug/mohlo-vas-zaujimat`
-        );
-        const cards4 = await apiService.get(
-          `linkCard/categories/slug/kalkulacky-navody`
-        );
-        this.linkCards = cards.data;
-        this.link1Cards = cards2.data.link_cards;
-        this.link2Cards = cards3.data.link_cards;
-        this.link3Cards = cards4.data.link_cards;
-      } catch (e) {
-        console.error(e);
-      }
-    },
-  },
-};
+	data () {
+		return {
+			linkCards: [],
+			link1Cards: [],
+			link2Cards: [],
+			link3Cards: []
+		}
+	},
+	computed: {
+		posted_at () {
+			return moment(this.linkCards.created_at).lang('sk').format('LL')
+		}
+	},
+	async mounted () {
+		await this._loadCards()
+	},
+	methods: {
+		async _loadCards () {
+			try {
+				const cards = await apiService.get('linkCard')
+				const cards2 = await apiService.get(
+					'linkCard/categories/slug/uzitocne-linky'
+				)
+				const cards3 = await apiService.get(
+					'linkCard/categories/slug/mohlo-vas-zaujimat'
+				)
+				const cards4 = await apiService.get(
+					'linkCard/categories/slug/kalkulacky-navody'
+				)
+				this.linkCards = cards.data
+				this.link1Cards = cards2.data.link_cards
+				this.link2Cards = cards3.data.link_cards
+				this.link3Cards = cards4.data.link_cards
+			} catch (e) {
+				console.error(e)
+			}
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>

@@ -1,53 +1,53 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="row d-flex m-auto">
-        <h1 class="mt-5">
-          {{ blog.title }}
-        </h1>
+	<div>
+		<div class="container">
+			<div class="row d-flex m-auto">
+				<h1 class="mt-5">
+					{{ blog.title }}
+				</h1>
 
-        <div v-html="blog.content" class="blog"></div>
-      </div>
-    </div>
-  </div>
+				<div v-html="blog.content" class="blog"></div>
+			</div>
+		</div>
+	</div>
 </template>
 <script>
-import apiService from "../common/apiService";
+import apiService from '../common/apiService'
 export default {
-  data() {
-    return {
-      blog: [],
-      rightBlog: null,
-    };
-  },
-  watch: {
-    "$route.params.slug": {
-      immediate: true,
-      handler(val) {
-        this.changeRightBlog(val);
-      },
-    },
-  },
-  async mounted() {
-    await this._loadBlogs();
-  },
-  methods: {
-    async _loadBlogs() {
-      try {
-        const blogs = await apiService.get("blog");
-        this.blog = blogs.data.data.find((e) => e.slug === this.rightBlog);
-      } catch (e) {
-        console.error(e);
-      }
-    },
-    changeRightBlog(blog) {
-      this.rightBlog = blog;
-    },
-  },
-  components: {
-    "z-imgCard": () => import("../_components/card/z-imgCard"),
-  },
-};
+	data () {
+		return {
+			blog: [],
+			rightBlog: null
+		}
+	},
+	watch: {
+		'$route.params.slug': {
+			immediate: true,
+			handler (val) {
+				this.changeRightBlog(val)
+			}
+		}
+	},
+	async mounted () {
+		await this._loadBlogs()
+	},
+	methods: {
+		async _loadBlogs () {
+			try {
+				const blogs = await apiService.get('blog')
+				this.blog = blogs.data.data.find((e) => e.slug === this.rightBlog)
+			} catch (e) {
+				console.error(e)
+			}
+		},
+		changeRightBlog (blog) {
+			this.rightBlog = blog
+		}
+	},
+	components: {
+		'z-imgCard': () => import('../_components/card/z-imgCard')
+	}
+}
 </script>
 <style lang="scss" scoped>
 .blog {

@@ -1,138 +1,138 @@
 <template>
-  <div class="row">
-    <div
-      v-for="advancedImgCard in advancedImgCards"
-      :key="advancedImgCard.id"
-      class="col-12 col-lg-4 col-md-6">
-      <b-card
-        :title="advancedImgCard.title"
-        :img-src="advancedImgCard.image.path"
-        img-alt="Image"
-        tag="article"
-        class="mb-2 border border-0">
-        <div>
-          <b-card-text class="d-flex mb-5">
-            {{ advancedImgCard.content }}
-          </b-card-text>
-          <div class="hb">
-            <b-card-body
-              class="hb d-flex justify-content-between mr-2"
-              v-if="advancedImgCard.doc1_link != ''">
-              <div>
-                <h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
-              </div>
+	<div class="row">
+		<div
+			v-for="advancedImgCard in advancedImgCards"
+			:key="advancedImgCard.id"
+			class="col-12 col-lg-4 col-md-6">
+			<b-card
+				:title="advancedImgCard.title"
+				:img-src="advancedImgCard.image.path"
+				img-alt="Image"
+				tag="article"
+				class="mb-2 border border-0">
+				<div>
+					<b-card-text class="d-flex mb-5">
+						{{ advancedImgCard.content }}
+					</b-card-text>
+					<div class="hb">
+						<b-card-body
+							class="hb d-flex justify-content-between mr-2"
+							v-if="advancedImgCard.doc1_link != ''">
+							<div>
+								<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
+							</div>
 
-              <div>
-                <a :href="advancedImgCard.doc1_link_download" class="card-link">
-                  <b-icon icon="download"></b-icon>
-                </a>
-                <a
-                  :href="advancedImgCard.doc1_link_show"
-                  target="_blank"
-                  class="card-link">
-                  <b-icon icon="eye"> </b-icon>
-                </a>
-              </div>
-            </b-card-body>
-            <hr class="hb m-0" />
-          </div>
-          <div class="hb">
-            <b-card-body
-              class="d-flex justify-content-between mr-2"
-              v-if="advancedImgCard.doc2_link != ''">
-              <div class="m-0">
-                <h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
-              </div>
+							<div>
+								<a :href="advancedImgCard.doc1_link_download" class="card-link">
+									<b-icon icon="download"></b-icon>
+								</a>
+								<a
+									:href="advancedImgCard.doc1_link_show"
+									target="_blank"
+									class="card-link">
+									<b-icon icon="eye"> </b-icon>
+								</a>
+							</div>
+						</b-card-body>
+						<hr class="hb m-0" />
+					</div>
+					<div class="hb">
+						<b-card-body
+							class="d-flex justify-content-between mr-2"
+							v-if="advancedImgCard.doc2_link != ''">
+							<div class="m-0">
+								<h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
+							</div>
 
-              <div>
-                <a :href="advancedImgCard.doc1_link_download" class="card-link">
-                  <b-icon icon="download"></b-icon>
-                </a>
-                <a
-                  :href="advancedImgCard.doc1_link_show"
-                  target="_blank"
-                  class="card-link">
-                  <b-icon icon="eye"></b-icon>
-                </a>
-              </div>
-            </b-card-body>
-            <hr class="hb m-0" />
-          </div>
-          <b-card-body class="hb d-flex justify-content-between mr-2">
-            <div>
-              <h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
-            </div>
+							<div>
+								<a :href="advancedImgCard.doc1_link_download" class="card-link">
+									<b-icon icon="download"></b-icon>
+								</a>
+								<a
+									:href="advancedImgCard.doc1_link_show"
+									target="_blank"
+									class="card-link">
+									<b-icon icon="eye"></b-icon>
+								</a>
+							</div>
+						</b-card-body>
+						<hr class="hb m-0" />
+					</div>
+					<b-card-body class="hb d-flex justify-content-between mr-2">
+						<div>
+							<h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
+						</div>
 
-            <div>
-              <a
-                :href="advancedImgCard.video_show"
-                target="_blank"
-                class="card-link">
-                <b-icon icon="play-circle"></b-icon>
-              </a>
-            </div>
-          </b-card-body>
-        </div>
-      </b-card>
-    </div>
-  </div>
+						<div>
+							<a
+								:href="advancedImgCard.video_show"
+								target="_blank"
+								class="card-link">
+								<b-icon icon="play-circle"></b-icon>
+							</a>
+						</div>
+					</b-card-body>
+				</div>
+			</b-card>
+		</div>
+	</div>
 </template>
 
 <script>
-import apiService from "../../common/apiService";
+import apiService from '../../common/apiService'
 export default {
-  props: {
-    cardCategory: {
-      type: String,
-      required: true,
-    },
-    cardContent: {
-      type: String,
-      required: true,
-    },
-  },
-  watch: {
-    "$route.params.slug": {
-      immediate: true,
-      handler(val) {
-        this.actualPage(val);
-        console.log(this.page);
-      },
-    },
-    cardContent: {
-      immediate: true,
-      handler(val) {
-        this._loadCards(val, this.page, this.cardCategory);
-      },
-    },
-    cardCategory: {
-      handler(val) {
-        this._loadCards(this.cardContent, this.page, val);
-      },
-    },
-  },
-  data() {
-    return {
-      advancedImgCards: [],
-      page: "",
-    };
-  },
-  methods: {
-    async _loadCards(rocnik, stranka, kategoria) {
-      try {
-        const cards = await apiService.get(`categories/slug/${stranka}`);
-        this.advancedImgCards = cards.data.year_category
-          .find((e) => e.slug === rocnik)
-          .advanced_img_cards.filter((e) => e.type === kategoria);
-      } catch (e) {
-        console.error(e);
-      }
-    },
-    actualPage(stranka) {
-      this.page = stranka;
-    },
-  },
-};
+	props: {
+		cardCategory: {
+			type: String,
+			required: true
+		},
+		cardContent: {
+			type: String,
+			required: true
+		}
+	},
+	watch: {
+		'$route.params.slug': {
+			immediate: true,
+			handler (val) {
+				this.actualPage(val)
+				console.log(this.page)
+			}
+		},
+		cardContent: {
+			immediate: true,
+			handler (val) {
+				this._loadCards(val, this.page, this.cardCategory)
+			}
+		},
+		cardCategory: {
+			handler (val) {
+				this._loadCards(this.cardContent, this.page, val)
+			}
+		}
+	},
+	data () {
+		return {
+			advancedImgCards: [],
+			page: ''
+		}
+	},
+	methods: {
+		async _loadCards (rocnik, stranka, kategoria) {
+			try {
+				const cards = await apiService.get(`categories/slug/${stranka}`)
+				this.advancedImgCards = cards.data.year_category
+					.find((e) => e.slug === rocnik)
+					.advanced_img_cards.filter((e) => e.type === kategoria)
+			} catch (e) {
+				console.error(e)
+			}
+		},
+		actualPage (stranka) {
+			this.page = stranka
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>

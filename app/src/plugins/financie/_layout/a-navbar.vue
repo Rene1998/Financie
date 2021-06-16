@@ -1,76 +1,75 @@
 <template>
-  <div>
-    <b-navbar type="light">
-      <b-navbar-nav class="mr-auto d-flex aling-items-center">
-        <b-navbar-nav class="d-none align-items-center">
-          <b-nav-item>
-            <b-icon icon="list"></b-icon>
-          </b-nav-item>
-        </b-navbar-nav>
+	<div>
+		<b-navbar type="light">
+			<b-navbar-nav class="mr-auto d-flex aling-items-center">
+				<b-navbar-nav class="d-none align-items-center">
+					<b-nav-item>
+						<b-icon icon="list"></b-icon>
+					</b-nav-item>
+				</b-navbar-nav>
 
-        <router-link to="/">
-          <img class="logo" src="./assets/logo.svg" alt="logo" />
-        </router-link>
-      </b-navbar-nav>
+				<router-link to="/">
+					<img class="logo" src="./assets/logo.svg" alt="logo" />
+				</router-link>
+			</b-navbar-nav>
 
-      <b-navbar-nav class="d-flex align-items-center">
-        <b-navbar-nav>
-          <b-nav-item
-            to="/home"
-            href="#"
-            class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
-            :class="{ isActive: page == 'home' || page == 'osobne-financie' }"
-            >Osobné financie</b-nav-item>
-        </b-navbar-nav>
-        <hr />
-        <b-navbar-nav>
-          <b-nav-dropdown
-            text="Pre školy"
-            right
-            class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
-            :class="{ isActive: page == 'pre-skoly' }">
-            <b-dropdown-item to="/pre-skoly/zakladna-skola-1.stupen"
-              >Základná škola 1. stupeň</b-dropdown-item>
-            <b-dropdown-item to="/pre-skoly/zakladna-skola-2.stupen"
-              >Základná škola 2. stupeň</b-dropdown-item>
-            <b-dropdown-item to="/pre-skoly/stredna-skola"
-              >Stredná škola</b-dropdown-item>
-          </b-nav-dropdown>
-        </b-navbar-nav>
-        <hr />
-        <b-navbar-nav>
-          <b-nav-item>
-            <b-icon icon="search"></b-icon>
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-navbar-nav>
-    </b-navbar>
-  </div>
+			<b-navbar-nav class="d-flex align-items-center">
+				<b-navbar-nav>
+					<b-nav-item
+						to="/home"
+						href="#"
+						class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
+						:class="{ isActive: page == 'home' || page == 'osobne-financie' }"
+					>Osobné financie</b-nav-item>
+				</b-navbar-nav>
+				<hr />
+				<b-navbar-nav>
+					<b-nav-dropdown
+						text="Pre školy"
+						right
+						class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
+						:class="{ isActive: page == 'pre-skoly' }">
+						<b-dropdown-item to="/pre-skoly/zakladna-skola-1.stupen"
+						>Základná škola 1. stupeň</b-dropdown-item>
+						<b-dropdown-item to="/pre-skoly/zakladna-skola-2.stupen"
+						>Základná škola 2. stupeň</b-dropdown-item>
+						<b-dropdown-item to="/pre-skoly/stredna-skola"
+						>Stredná škola</b-dropdown-item>
+					</b-nav-dropdown>
+				</b-navbar-nav>
+				<hr />
+				<b-navbar-nav>
+					<b-nav-item>
+						<b-icon icon="search"></b-icon>
+					</b-nav-item>
+				</b-navbar-nav>
+			</b-navbar-nav>
+		</b-navbar>
+	</div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      page: "home",
-      active: true,
-    };
-  },
-  watch: {
-    "$route.name": {
-      immediate: true,
-      handler(val) {
-        this.actualPage(val);
-
-      },
-    },
-  },
-  methods: {
-    actualPage(page) {
-      this.page = page;
-    },
-  },
-};
+	data () {
+		return {
+			page: 'home',
+			active: true
+		}
+	},
+	watch: {
+		'$route.name': {
+			immediate: true,
+			handler (val) {
+				this.actualPage(val)
+			}
+		}
+	},
+	methods: {
+		actualPage (page) {
+			this.page = page
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>

@@ -1,33 +1,33 @@
 <template>
-  <div class="row">
-    <div class="card d-flex align-items-center flex-column text-center">
-      <div class="card-body d-flex align-items-center flex-column">
-        <img class="category-card mt-4" :src="cardIcon" alt="" />
-        <h6 class="card-title m-2">
-          {{ card.title }}
-        </h6>
-        <p class="mt-4 height">
-          {{ card.text }}
-        </p>
-        <router-link :to="'/osobne-financie/clanky/' + card.link"><p class="mt-4">Prečítať viac</p></router-link>
-      </div>
-    </div>
-  </div>
+	<div class="row">
+		<div class="card d-flex align-items-center flex-column text-center">
+			<div class="card-body d-flex align-items-center flex-column">
+				<img class="category-card mt-4" :src="cardIcon" alt="" />
+				<h6 class="card-title m-2">
+					{{ card.title }}
+				</h6>
+				<p class="mt-4 height">
+					{{ card.text }}
+				</p>
+				<router-link :to="'/osobne-financie/clanky/' + card.link"><p class="mt-4">Prečítať viac</p></router-link>
+			</div>
+		</div>
+	</div>
 </template>
 <script>
 export default {
-  props: {
-    card: {
-      type: Object,
-      required: true,
-    },
-  },
-  computed: {
-    cardIcon() {
-      return require(`./assets/${this.card.icon}`);
-    },
-  },
-};
+	props: {
+		card: {
+			type: Object,
+			required: true
+		}
+	},
+	computed: {
+		cardIcon () {
+			return require(`./assets/${this.card.icon}`)
+		}
+	}
+}
 </script>
 
 <style lang="scss" scoped>
@@ -45,8 +45,6 @@ export default {
       border-radius: 4px;
       border-bottom: 6px solid #1eaee1;
   }
-
-
 
   .category-card{
     width: 35.75px;
@@ -71,7 +69,6 @@ a{
 }
 }
 
-
 .height{
   min-height: 50px;
 }
@@ -84,7 +81,7 @@ a{
   .card {
     max-width: 17rem !important;
     margin: auto;
-  
+
   }
 }
 

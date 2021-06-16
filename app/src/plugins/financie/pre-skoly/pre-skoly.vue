@@ -1,197 +1,197 @@
 <template>
-  <div>
-    <div class="container-fluid preskoly-main">
-      <div class="container">
-        <div class="preskoly-welcome-text mb-5">
-          <h1 class="title">{{ title }}</h1>
-          <p class="content">{{ content }}</p>
-          <p>
-            <router-link
-              :class="{ isActiveA: activePage == 'zakladna-skola-1.stupen' }"
-              to="/pre-skoly/zakladna-skola-1.stupen"
-              >Základná škola 1. stupeň</router-link
-            >
-            •
-            <router-link
-              :class="{ isActiveA: activePage == 'zakladna-skola-2.stupen' }"
-              to="/pre-skoly/zakladna-skola-2.stupen"
-              >Základná škola 2. stupeň</router-link
-            >
-            •
-            <router-link
-              :class="{ isActiveA: activePage == 'stredna-skola' }"
-              to="/pre-skoly/stredna-skola"
-              >Stredná škola</router-link
-            >
-          </p>
-        </div>
-      </div>
-    </div>
+	<div>
+		<div class="container-fluid preskoly-main">
+			<div class="container">
+				<div class="preskoly-welcome-text mb-5">
+					<h1 class="title">{{ title }}</h1>
+					<p class="content">{{ content }}</p>
+					<p>
+						<router-link
+							:class="{ isActiveA: activePage == 'zakladna-skola-1.stupen' }"
+							to="/pre-skoly/zakladna-skola-1.stupen"
+						>Základná škola 1. stupeň</router-link
+						>
+						•
+						<router-link
+							:class="{ isActiveA: activePage == 'zakladna-skola-2.stupen' }"
+							to="/pre-skoly/zakladna-skola-2.stupen"
+						>Základná škola 2. stupeň</router-link
+						>
+						•
+						<router-link
+							:class="{ isActiveA: activePage == 'stredna-skola' }"
+							to="/pre-skoly/stredna-skola"
+						>Stredná škola</router-link
+						>
+					</p>
+				</div>
+			</div>
+		</div>
 
-    <div class="d-block d-sm-block d-md-none">
-      <carousel class="carousel-wrapper" :perPage="1">
-        <slide
-          class="slide"
-          v-for="card in skola"
-          :key="card.id"
-          :title="card.title"
-          :img="card.img"
-          :link="card.link"
-        >
-          <div
-            v-on:click="changeCardContent(card.link)"
-            class="col-10 offset-1"
-          >
-            <z-categoryCard
-              :card="card"
-              :activeCard="activeCard"
-            ></z-categoryCard>
-          </div>
-        </slide>
-      </carousel>
-    </div>
-    <div class="container carousel-wrapper">
-      <div class="row">
-        <div
-          v-for="card in skola"
-          :key="card.id"
-          :title="card.title"
-          :img="card.img"
-          :link="card.link"
-          class="col-3 d-none d-md-block d-lg-block d-xl-block"
-        >
-          <div v-on:click="changeCardContent(card.link)">
-            <z-categoryCard
-              :card="card"
-              :activeCard="activeCard"
-            ></z-categoryCard>
-          </div>
-        </div>
-      </div>
-    </div>
+		<div class="d-block d-sm-block d-md-none">
+			<carousel class="carousel-wrapper" :perPage="1">
+				<slide
+					class="slide"
+					v-for="card in skola"
+					:key="card.id"
+					:title="card.title"
+					:img="card.img"
+					:link="card.link"
+				>
+					<div
+						v-on:click="changeCardContent(card.link)"
+						class="col-10 offset-1"
+					>
+						<z-categoryCard
+							:card="card"
+							:activeCard="activeCard"
+						></z-categoryCard>
+					</div>
+				</slide>
+			</carousel>
+		</div>
+		<div class="container carousel-wrapper">
+			<div class="row">
+				<div
+					v-for="card in skola"
+					:key="card.id"
+					:title="card.title"
+					:img="card.img"
+					:link="card.link"
+					class="col-3 d-none d-md-block d-lg-block d-xl-block"
+				>
+					<div v-on:click="changeCardContent(card.link)">
+						<z-categoryCard
+							:card="card"
+							:activeCard="activeCard"
+						></z-categoryCard>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>
-        Boli by sme radi, aby už na základnej škole mali deti finančné
-        vzdelávanie.
-      </h4>
-      <p>
-        A preto sme učiteľom a ich žiakom na základných a stredných školách
-        pripravili príručky, cvičenia a videá, ktoré vás
-        <br />prevedú finančným vzdelaním.
-      </p>
-    </div>
+		<div class="container text-center mt-5 mb-5 hardcode-text">
+			<h4>
+				Boli by sme radi, aby už na základnej škole mali deti finančné
+				vzdelávanie.
+			</h4>
+			<p>
+				A preto sme učiteľom a ich žiakom na základných a stredných školách
+				pripravili príručky, cvičenia a videá, ktoré vás
+				<br />prevedú finančným vzdelaním.
+			</p>
+		</div>
 
-    <div class="switch-wrapper mb-5">
-      <b-button-group>
-        <button
-          class="switch-button p-0"
-          :class="{ switchIsActive: active }"
-          @click="
-            changeCardCategory('advancedImgCardLink');
-            active = !active;
-          ">
-          Učebné materiály
-        </button>
+		<div class="switch-wrapper mb-5">
+			<b-button-group>
+				<button
+					class="switch-button p-0"
+					:class="{ switchIsActive: active }"
+					@click="
+						changeCardCategory('advancedImgCardLink');
+						active = !active;
+					">
+					Učebné materiály
+				</button>
 
-        <button
-          class="switch-button p-0"
-          :class="{ switchIsActive: !active }"
-          @click="
-            changeCardCategory('advancedImgCardVideo');
-            active = !active;
-          ">
-          Videá
-        </button>
-      </b-button-group>
-    </div>
+				<button
+					class="switch-button p-0"
+					:class="{ switchIsActive: !active }"
+					@click="
+						changeCardCategory('advancedImgCardVideo');
+						active = !active;
+					">
+					Videá
+				</button>
+			</b-button-group>
+		</div>
 
-    <div class="container">
-      <z-advancedImgCards
-        :cardContent="cardContent"
-        :cardCategory="cardCategory"
-      ></z-advancedImgCards>
-    </div>
+		<div class="container">
+			<z-advancedImgCards
+				:cardContent="cardContent"
+				:cardCategory="cardCategory"
+			></z-advancedImgCards>
+		</div>
 
-    <div class="container text-center mb-5">
-      <b-button variant="primary" class="download-all mb-5"
-        >Stiahnuť všetky dokumenty</b-button>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <z-showArticles></z-showArticles>
-        </div>
-      </div>
-    </div>
+		<div class="container text-center mb-5">
+			<b-button variant="primary" class="download-all mb-5"
+			>Stiahnuť všetky dokumenty</b-button>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<z-showArticles></z-showArticles>
+				</div>
+			</div>
+		</div>
 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 col-md-6">
-          <z-imgCard :single='true'></z-imgCard>
-        </div>
-        <span class="divider border-left"></span>
-        <div class="col pl-2 pl-md-5 d-flex align-items-end">
-          <z-textCard></z-textCard>
-        </div>
-      </div>
-    </div>
-  </div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-12 col-md-6">
+					<z-imgCard :single='true'></z-imgCard>
+				</div>
+				<span class="divider border-left"></span>
+				<div class="col pl-2 pl-md-5 d-flex align-items-end">
+					<z-textCard></z-textCard>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
-//docs => https://ssense.github.io/vue-carousel/api/
-import cardContent from "./pre-skoly_content.js";
-import { Carousel, Slide } from "vue-carousel";
+// docs => https://ssense.github.io/vue-carousel/api/
+import cardContent from './pre-skoly_content.js'
+import { Carousel, Slide } from 'vue-carousel'
 export default {
-  watch: {
-    "$route.params.slug": {
-      immediate: true,
-      handler(val) {
-        this.changePageContent(val);
-      },
-    },
-  },
-  data() {
-    return {
-      skola: null,
-      title: null,
-      content: null,
-      cardContent: null,
-      cardCategory: "advancedImgCardLink",
-      active: true,
-      activeCard: null,
-      activePage: null,
-    };
-  },
-  methods: {
-    changePageContent(val) {
-      this.skola = cardContent[val].category;
-      this.title = cardContent[val].title;
-      this.content = cardContent[val].content;
-      this.cardContent = cardContent[val].defaultLink;
-      this.activeCard = cardContent[val].defaultLink;
-      this.activePage = val;
-    },
-    changeCardContent(val) {
-      this.cardContent = val;
-      this.activeCard = val;
-    },
-    changeCardCategory(val) {
-      this.cardCategory = val;
-    },
-  },
-  components: {
-    Carousel,
-    Slide,
-    "z-advancedImgCards": () =>
-      import("../_components/card/z-advancedImgCards"),
-    "z-categoryCard": () => import("../_components/card/z-categoryCard"),
-    "z-imgCard": () => import("../_components/card/z-imgCard"),
-    "z-textCard": () => import("../_components/card/z-textCard"),
-    "z-showArticles": () => import("../_components/z-showArticles"),
-  },
-};
+	watch: {
+		'$route.params.slug': {
+			immediate: true,
+			handler (val) {
+				this.changePageContent(val)
+			}
+		}
+	},
+	data () {
+		return {
+			skola: null,
+			title: null,
+			content: null,
+			cardContent: null,
+			cardCategory: 'advancedImgCardLink',
+			active: true,
+			activeCard: null,
+			activePage: null
+		}
+	},
+	methods: {
+		changePageContent (val) {
+			this.skola = cardContent[val].category
+			this.title = cardContent[val].title
+			this.content = cardContent[val].content
+			this.cardContent = cardContent[val].defaultLink
+			this.activeCard = cardContent[val].defaultLink
+			this.activePage = val
+		},
+		changeCardContent (val) {
+			this.cardContent = val
+			this.activeCard = val
+		},
+		changeCardCategory (val) {
+			this.cardCategory = val
+		}
+	},
+	components: {
+		Carousel,
+		Slide,
+		'z-advancedImgCards': () =>
+			import('../_components/card/z-advancedImgCards'),
+		'z-categoryCard': () => import('../_components/card/z-categoryCard'),
+		'z-imgCard': () => import('../_components/card/z-imgCard'),
+		'z-textCard': () => import('../_components/card/z-textCard'),
+		'z-showArticles': () => import('../_components/z-showArticles')
+	}
+}
 </script>
 
 <style lang="scss" scoped>

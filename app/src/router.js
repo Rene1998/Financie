@@ -1,18 +1,18 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
 	{
 		path: '/',
-		redirect: '/home',
+		redirect: '/home'
 	},
 	{
 		path: '/home',
 		name: 'home',
 		component: () =>
-			import('./plugins/financie/home/home.vue'),
+			import('./plugins/financie/home/home.vue')
 	},
 	{
 		path: '/pre-skoly/:slug',
@@ -42,17 +42,17 @@ const routes = [
 		path: '/blog',
 		name: 'blog-page',
 		component: () =>
-			import('./plugins/financie/osobne-financie/blog.vue'),
-	},
-];
+			import('./plugins/financie/osobne-financie/blog.vue')
+	}
+]
 
 const router = new VueRouter({
 	mode: 'history',
 	base: process.env.BASE_URL,
 	routes,
-	scrollBehavior(to,from,savedPosition){
-		return {x:0,y:0}
+	scrollBehavior (to, from, savedPosition) {
+		return { x: 0, y: 0 }
 	}
-});
+})
 
-export default router;
+export default router

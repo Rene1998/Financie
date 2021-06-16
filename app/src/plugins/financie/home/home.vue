@@ -1,153 +1,153 @@
 <template>
-  <div>
-    <div class="preskoly-wrapper">
-      <div class="container home-main d-flex align-items-center">
-        <div class="preskoly-welcome-text">
-          <h1>
-            Prevedieme vás životnou
-            <br />finančnou cestou.
-          </h1>
-          <p class="p-0 mt-4 mb-5">
-            Získajte odborníka na kľúčové finančné momenty
-            <br />vo vašom živote.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="d-sm-block d-md-none">
-      <carousel class="carousel-wrapper" :perPage="1">
-        <slide
-          v-for="card in cards"
-          :key="card.title"
-          :title="card.title"
-          :icon="card.icon"
-          :link="card.link"
-          class="slide">
-          <p>
-            <router-link :to="'/osobne-financie/' + card.link">
-              <z-homeCategoryCard
-                class="mt-2"
-                :card="card"
-              ></z-homeCategoryCard>
-            </router-link>
-          </p>
-        </slide>
-      </carousel>
-    </div>
-    <div class="d-none d-md-block d-lg-block d-xl-block">
-      <div class="container carousel-wrapper">
-        <div class="row category-cards">
-          <div
-            v-for="card in cards"
-            :key="card.title"
-            :title="card.title"
-            :icon="card.icon"
-            :link="card.link"
-            class="col-4 mb-3">
-            <p>
-              <router-link :to="'/osobne-financie/' + card.link">
-                <z-homeCategoryCard
-                  class="mt-2"
-                  :card="card"
-                ></z-homeCategoryCard>
-              </router-link>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <z-carousel></z-carousel>
+	<div>
+		<div class="preskoly-wrapper">
+			<div class="container home-main d-flex align-items-center">
+				<div class="preskoly-welcome-text">
+					<h1>
+						Prevedieme vás životnou
+						<br />finančnou cestou.
+					</h1>
+					<p class="p-0 mt-4 mb-5">
+						Získajte odborníka na kľúčové finančné momenty
+						<br />vo vašom živote.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="d-sm-block d-md-none">
+			<carousel class="carousel-wrapper" :perPage="1">
+				<slide
+					v-for="card in cards"
+					:key="card.title"
+					:title="card.title"
+					:icon="card.icon"
+					:link="card.link"
+					class="slide">
+					<p>
+						<router-link :to="'/osobne-financie/' + card.link">
+							<z-homeCategoryCard
+								class="mt-2"
+								:card="card"
+							></z-homeCategoryCard>
+						</router-link>
+					</p>
+				</slide>
+			</carousel>
+		</div>
+		<div class="d-none d-md-block d-lg-block d-xl-block">
+			<div class="container carousel-wrapper">
+				<div class="row category-cards">
+					<div
+						v-for="card in cards"
+						:key="card.title"
+						:title="card.title"
+						:icon="card.icon"
+						:link="card.link"
+						class="col-4 mb-3">
+						<p>
+							<router-link :to="'/osobne-financie/' + card.link">
+								<z-homeCategoryCard
+									class="mt-2"
+									:card="card"
+								></z-homeCategoryCard>
+							</router-link>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<z-carousel></z-carousel>
 
-    <div class="container text-center mt-5 mb-5 hardcode-text">
-      <h4>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4>
-      <p>
-        Pripravili sme pre vás všetky možné finančné otázky a odpovede
-        <br />na ktoré móžete naraziť vo vašom živote.
-      </p>
-    </div>
+		<div class="container text-center mt-5 mb-5 hardcode-text">
+			<h4>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4>
+			<p>
+				Pripravili sme pre vás všetky možné finančné otázky a odpovede
+				<br />na ktoré móžete naraziť vo vašom živote.
+			</p>
+		</div>
 
-    <div class="container">
-      <z-advancedImgHomeCards></z-advancedImgHomeCards>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <z-showArticles></z-showArticles>
-        </div>
-      </div>
-    </div>
+		<div class="container">
+			<z-advancedImgHomeCards></z-advancedImgHomeCards>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<z-showArticles></z-showArticles>
+				</div>
+			</div>
+		</div>
 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col">
-          <z-imgCard :single='true'></z-imgCard>
-        </div>
-        <span class="divider border-left"></span>
-        <div class="col pl-2 pl-md-5 d-flex align-items-end">
-          <z-textCard></z-textCard>
-        </div>
-      </div>
-    </div>
-  </div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col">
+					<z-imgCard :single='true'></z-imgCard>
+				</div>
+				<span class="divider border-left"></span>
+				<div class="col pl-2 pl-md-5 d-flex align-items-end">
+					<z-textCard></z-textCard>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 <script>
-import { Carousel, Slide } from "vue-carousel";
+import { Carousel, Slide } from 'vue-carousel'
 export default {
-  components: {
-    Carousel,
-    Slide,
-    "z-homeCategoryCard": () =>
-      import("../_components/card/z-homeCategoryCard"),
-    "z-carousel": () => import("./z-carousel"),
-    "z-showArticles": () => import("../_components/z-showArticles"),
-    "z-imgCard": () => import("../_components/card/z-imgCard"),
-    "z-textCard": () => import("../_components/card/z-textCard"),
-    "z-advancedImgHomeCards": () => import("./z-advancedImgHomeCards"),
-  },
-  data() {
-    return {
-      cards: [
-        {
-          title: "Bývanie",
-          icon: "Home.svg",
-          link: "byvanie",
-        },
-        {
-          title: "Rodina a deti",
-          icon: "Family-group.svg",
-          link: "rodina-deti",
-        },
-        {
-          title: "Auto",
-          icon: "Car.svg",
-          link: "auto",
-        },
-        {
-          title: "Dôchodok",
-          icon: "OldFamily-group.svg",
-          link: "dochodok",
-        },
-        {
-          title: "Exekúcia",
-          icon: "Execution.svg",
-          link: "exekucia",
-        },
-        {
-          title: "Práca a dane",
-          icon: "Work.svg",
-          link: "praca-dane",
-        },
-      ],
-    };
-  },
+	components: {
+		Carousel,
+		Slide,
+		'z-homeCategoryCard': () =>
+			import('../_components/card/z-homeCategoryCard'),
+		'z-carousel': () => import('./z-carousel'),
+		'z-showArticles': () => import('../_components/z-showArticles'),
+		'z-imgCard': () => import('../_components/card/z-imgCard'),
+		'z-textCard': () => import('../_components/card/z-textCard'),
+		'z-advancedImgHomeCards': () => import('./z-advancedImgHomeCards')
+	},
+	data () {
+		return {
+			cards: [
+				{
+					title: 'Bývanie',
+					icon: 'Home.svg',
+					link: 'byvanie'
+				},
+				{
+					title: 'Rodina a deti',
+					icon: 'Family-group.svg',
+					link: 'rodina-deti'
+				},
+				{
+					title: 'Auto',
+					icon: 'Car.svg',
+					link: 'auto'
+				},
+				{
+					title: 'Dôchodok',
+					icon: 'OldFamily-group.svg',
+					link: 'dochodok'
+				},
+				{
+					title: 'Exekúcia',
+					icon: 'Execution.svg',
+					link: 'exekucia'
+				},
+				{
+					title: 'Práca a dane',
+					icon: 'Work.svg',
+					link: 'praca-dane'
+				}
+			]
+		}
+	}
 
-  /*mounted: function(){
+	/* mounted: function(){
         axios.get('http://localhost:8081/api/zaicard').then(function(response){
             this.zaicard = response.data;
         })
-    }*/
-};
+    } */
+}
 </script>
 <style lang="scss" scoped>
 .carousel-wrapper {
