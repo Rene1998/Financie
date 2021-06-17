@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import apiService from '../../common/apiService'
+import apiService from '@apiService'
 export default {
 	props: {
 		cardCategory: {
@@ -95,8 +95,7 @@ export default {
 		'$route.params.slug': {
 			immediate: true,
 			handler (val) {
-				this.actualPage(val)
-				console.log(this.page)
+				this._actualPage(val)
 			}
 		},
 		cardContent: {
@@ -114,13 +113,13 @@ export default {
 	data () {
 		return {
 			advancedImgCards: [],
-			page: ''
+			page: null
 		}
 	},
 	methods: {
-		async _loadCards (rocnik, stranka, kategoria) {
+		async _loadCards (rocnik, page, kategoria) {
 			try {
-				const cards = await apiService.get(`categories/slug/${stranka}`)
+				const cards = await apiService.get(`categories/slug/${page}`)
 				this.advancedImgCards = cards.data.year_category
 					.find((e) => e.slug === rocnik)
 					.advanced_img_cards.filter((e) => e.type === kategoria)
@@ -128,8 +127,8 @@ export default {
 				console.error(e)
 			}
 		},
-		actualPage (stranka) {
-			this.page = stranka
+		_actualPage (page) {
+			this.page = page
 		}
 	}
 }

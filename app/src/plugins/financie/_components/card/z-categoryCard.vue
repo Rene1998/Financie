@@ -30,7 +30,7 @@ export default {
 	watch: {
 		activeCard: {
 			handler (val) {
-				this.actCard2(val)
+				this._actCard2(val)
 			}
 		}
 	},
@@ -39,21 +39,21 @@ export default {
 			return require(`./assets/${this.card.img}`)
 		}
 	},
+	mounted () {
+		this._actCard()
+	},
 	methods: {
-		actCard () {
+		_actCard () {
 			if (this.card.link != this.activeCard) return
 			this.act = true
 		},
-		actCard2 (val) {
+		_actCard2 (val) {
 			this.act = false
 			if (this.card.link == val) {
 				this.act = true
 			}
 		}
 	},
-	mounted () {
-		this.actCard()
-	}
 }
 </script>
 <style lang="scss" scoped>

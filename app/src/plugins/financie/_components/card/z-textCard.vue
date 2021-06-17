@@ -17,7 +17,7 @@
 	</div>
 </template>
 <script>
-import apiService from '../../common/apiService'
+import apiService from '@apiService'
 import moment from 'moment'
 export default {
 	data () {

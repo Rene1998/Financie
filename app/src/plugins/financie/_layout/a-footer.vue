@@ -93,29 +93,6 @@
 	</footer>
 </template>
 <script>
-export default {
-	watch: {
-		'$route.name': {
-			immediate: true,
-			handler (val) {
-			}
-		}
-	},
-	data () {
-		return {
-			link: null
-		}
-	},
-	methods: {
-		ugabuga (val) {
-			if (val != 'osobne-financie') {
-				link = 'osobne-financie/'
-			} else {
-				link = ''
-			}
-		}
-	}
-}
 </script>
 
 <style lang="scss" scoped>

@@ -15,7 +15,7 @@ export default {
 		'$route.name': {
 			immediate: true,
 			handler (val) {
-				this.ugabuga(val)
+				this.page(val)
 			}
 		}
 	},
@@ -26,7 +26,7 @@ export default {
 		}
 	},
 	methods: {
-		ugabuga (val) {
+		page (val) {
 			this.page = val == 'pre-skoly'
 		}
 	}

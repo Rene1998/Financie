@@ -26,7 +26,7 @@
 	</div>
 </template>
 <script>
-import apiService from '../../common/apiService'
+import apiService from '@apiService'
 import moment from 'moment'
 export default {
 	props: {
@@ -44,7 +44,7 @@ export default {
 		'$route.name': {
 			immediate: true,
 			handler (val) {
-				this.actualPage(val)
+				this._actualPage(val)
 			}
 		}
 	},
@@ -63,13 +63,13 @@ export default {
 			try {
 				const cards = await apiService.get('imgCard')
 				this.imgCards = cards.data.filter((x) =>
-					x.category.filter((y) => y.slug === this.rightPage).length > 0
+					x.category.filter((y) => y.slug === this.rightPage).length
 				)
 			} catch (e) {
 				console.error(e)
 			}
 		},
-		actualPage (page) {
+		_actualPage (page) {
 			this.rightPage = page
 		}
 	}

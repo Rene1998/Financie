@@ -14,7 +14,7 @@
 	</div>
 </template>
 <script>
-import apiService from '../../common/apiService'
+import apiService from '@apiService'
 import moment from 'moment'
 export default {
 	data () {
@@ -27,7 +27,7 @@ export default {
 		'$route.params.slug': {
 			immediate: true,
 			handler (val) {
-				this.changeRightPage(val)
+				this._changeRightPage(val)
 			}
 		}
 	},
@@ -40,13 +40,13 @@ export default {
 		}
 	},
 	methods: {
-		changeRightPage (page) {
+		_changeRightPage (page) {
 			this.rightPage = page
 		},
 		async _loadCards (rightPage) {
 			try {
-				const cards = await apiService.get(`blog/categories/slug/${rightPage}`)
-				this.blogCards = cards.data.blog
+				const cards = await apiService.get(`blog/categories/slug/${rightPage}`).blog
+				this.blogCards = cards
 			} catch (e) {
 				console.error(e)
 			}
