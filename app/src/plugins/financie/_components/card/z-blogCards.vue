@@ -66,6 +66,9 @@ export default {
 <style lang="scss" scoped>
 .card {
 	border: none;
+	img {
+		max-height: 250px;
+	}
 }
 .blog {
 	font-style: normal;
