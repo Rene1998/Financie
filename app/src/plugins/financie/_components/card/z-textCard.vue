@@ -8,16 +8,15 @@
 				<h5 class="card-text mb-4">
 					{{textCard.content}}
 				</h5>
-				<a href="#" class="card-link">Prečítať viac</a>
-
+				<a href="#" class="card-link">
+					Prečítať viac
+				</a>
 			</div>
-
 		</div>
-
 	</div>
 </template>
 <script>
-import apiService from '@apiService'
+import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
 export default {
 	data () {

@@ -12,7 +12,7 @@
 	</div>
 </template>
 <script>
-import apiService from '../common/apiService'
+import apiService from '@/plugins/financie/common/apiService'
 export default {
 	data () {
 		return {
@@ -35,7 +35,7 @@ export default {
 		async _loadBlogs () {
 			try {
 				const blogs = await apiService.get('blog')
-				this.blog = blogs.data.data.find((e) => e.slug === this.rightBlog)
+				this.blog = blogs.data.data.find((e) => e.slug == this.rightBlog)
 			} catch (e) {
 				console.error(e)
 			}

@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="card d-flex align-items-center flex-column text-center">
 			<div class="card-body d-flex align-items-center flex-column">
-				<img class="category-card mt-4" :src="cardIcon" alt="" />
+				<img class="category-card mt-4" :src="cardIcon"/>
 				<h6 class="card-title m-2">
 					{{ card.title }}
 				</h6>

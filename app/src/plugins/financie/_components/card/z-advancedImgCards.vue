@@ -1,41 +1,36 @@
 <template>
-	<div class="row">
+	<b-row>
 		<div
-			v-for="advancedImgCard in advancedImgCards"
-			:key="advancedImgCard.id"
-			class="col-12 col-lg-4 col-md-6">
+			class="col-12 col-lg-4 col-md-6"
+			v-for="advancedImgCard in advancedImgCards" :key="advancedImgCard.id">
 			<b-card
-				:title="advancedImgCard.title"
-				:img-src="advancedImgCard.image.path"
+				class="mb-2 border border-0"
 				img-alt="Image"
 				tag="article"
-				class="mb-2 border border-0">
+				:title="advancedImgCard.title"
+				:img-src="advancedImgCard.image.path">
 				<div>
 					<b-card-text class="d-flex mb-5">
 						{{ advancedImgCard.content }}
 					</b-card-text>
-					<div class="hb">
-						<b-card-body
-							class="hb d-flex justify-content-between mr-2"
-							v-if="advancedImgCard.doc1_link != ''">
-							<div>
-								<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
-							</div>
-
-							<div>
-								<a :href="advancedImgCard.doc1_link_download" class="card-link">
-									<b-icon icon="download"></b-icon>
-								</a>
-								<a
-									:href="advancedImgCard.doc1_link_show"
-									target="_blank"
-									class="card-link">
-									<b-icon icon="eye"> </b-icon>
-								</a>
-							</div>
-						</b-card-body>
-						<hr class="hb m-0" />
-					</div>
+						<div class="hb">	
+							<b-card-body
+								class="hb d-flex justify-content-between mr-2"
+								v-if="advancedImgCard.doc1_link != ''">
+								<div>
+									<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
+								</div>
+								<div>
+									<a class="card-link" :href="advancedImgCard.doc1_link_download" >
+										<b-icon icon="download"></b-icon>
+									</a>
+									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+										<b-icon icon="eye"> </b-icon>
+									</a>
+								</div>
+							</b-card-body>
+							<hr class="hb m-0" />
+						</div>
 					<div class="hb">
 						<b-card-body
 							class="d-flex justify-content-between mr-2"
@@ -43,15 +38,11 @@
 							<div class="m-0">
 								<h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
 							</div>
-
 							<div>
-								<a :href="advancedImgCard.doc1_link_download" class="card-link">
+								<a class="card-link" :href="advancedImgCard.doc1_link_download">
 									<b-icon icon="download"></b-icon>
 								</a>
-								<a
-									:href="advancedImgCard.doc1_link_show"
-									target="_blank"
-									class="card-link">
+								<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
 									<b-icon icon="eye"></b-icon>
 								</a>
 							</div>
@@ -62,12 +53,8 @@
 						<div>
 							<h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
 						</div>
-
 						<div>
-							<a
-								:href="advancedImgCard.video_show"
-								target="_blank"
-								class="card-link">
+							<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
 								<b-icon icon="play-circle"></b-icon>
 							</a>
 						</div>
@@ -75,11 +62,11 @@
 				</div>
 			</b-card>
 		</div>
-	</div>
+	</b-row>
 </template>
 
 <script>
-import apiService from '@apiService'
+import apiService from '@/plugins/financie/common/apiService'
 export default {
 	props: {
 		cardCategory: {
@@ -121,8 +108,8 @@ export default {
 			try {
 				const cards = await apiService.get(`categories/slug/${page}`)
 				this.advancedImgCards = cards.data.year_category
-					.find((e) => e.slug === rocnik)
-					.advanced_img_cards.filter((e) => e.type === kategoria)
+					.find((e) => e.slug == rocnik)
+					.advanced_img_cards.filter((e) => e.type == kategoria)
 			} catch (e) {
 				console.error(e)
 			}

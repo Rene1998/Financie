@@ -47,7 +47,7 @@
 	</div>
 </template>
 <script>
-import apiService from '@apiService'
+import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
 
 export default {

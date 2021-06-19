@@ -14,7 +14,7 @@
 	</div>
 </template>
 <script>
-import apiService from '@apiService'
+import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
 export default {
 	data () {
@@ -45,8 +45,8 @@ export default {
 		},
 		async _loadCards (rightPage) {
 			try {
-				const cards = await apiService.get(`blog/categories/slug/${rightPage}`).blog
-				this.blogCards = cards
+				const cards = await apiService.get(`blog/categories/slug/${rightPage}`)
+				this.blogCards = cards.data.blog
 			} catch (e) {
 				console.error(e)
 			}

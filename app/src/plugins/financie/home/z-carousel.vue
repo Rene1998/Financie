@@ -28,7 +28,7 @@
 
 <script>
 // docs => https://ssense.github.io/vue-carousel/api/
-import apiService from '../common/apiService'
+import apiService from '@/plugins/financie/common/apiService'
 import { Carousel, Slide } from 'vue-carousel'
 export default {
 	components: {

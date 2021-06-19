@@ -6,7 +6,7 @@
 				class="card mb-3 border-0 mb-5"
 
 			>
-				<img :src="imgCard.image.path" class="card-img-top" alt="" />
+				<img :src="imgCard.image.path" class="card-img-top"/>
 				<div class="card-body p-0 pt-4">
 					<p class="timestamp">
 						{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
@@ -26,7 +26,7 @@
 	</div>
 </template>
 <script>
-import apiService from '@apiService'
+import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
 export default {
 	props: {
@@ -63,7 +63,7 @@ export default {
 			try {
 				const cards = await apiService.get('imgCard')
 				this.imgCards = cards.data.filter((x) =>
-					x.category.filter((y) => y.slug === this.rightPage).length
+					x.category.filter((y) => y.slug == this.rightPage).length
 				)
 			} catch (e) {
 				console.error(e)

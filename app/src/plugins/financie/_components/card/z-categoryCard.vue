@@ -4,7 +4,7 @@
 			class="card d-flex align-items-center flex-column text-center"
 			:class="{ isActive: act }">
 			<div class="card-body d-flex align-items-center flex-column">
-				<img class="category-card" :src="cardImg" alt="" />
+				<img class="category-card" :src="cardImg"/>
 				<h6 class="card-title mt-3">{{ card.title }}</h6>
 			</div>
 		</div>
@@ -53,7 +53,7 @@ export default {
 				this.act = true
 			}
 		}
-	},
+	}
 }
 </script>
 <style lang="scss" scoped>

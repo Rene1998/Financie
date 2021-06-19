@@ -15,7 +15,7 @@ export default {
 		'$route.name': {
 			immediate: true,
 			handler (val) {
-				this.page(val)
+				this.page = val == 'pre-skoly'
 			}
 		}
 	},
@@ -23,11 +23,6 @@ export default {
 	data () {
 		return {
 			page: false
-		}
-	},
-	methods: {
-		page (val) {
-			this.page = val == 'pre-skoly'
 		}
 	}
 }
