@@ -14,7 +14,7 @@
 				</b-card-title>
 				<b-card-text class="blog mt-0 mb-4" v-html="blog.short_content"/>
 				<router-link class="link" :to="rightPage + '/' + blog.slug">
-					Prečítať
+					Prečítať viac
 				</router-link>
 			</b-card-body>
 		</b-card>
