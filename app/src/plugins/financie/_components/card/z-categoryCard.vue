@@ -1,15 +1,18 @@
 <template>
 	<div>
-		<div
-			class="card d-flex align-items-center flex-column text-center"
+		<b-card 
+			class="d-flex align-items-center flex-column text-center"
 			:class="{ isActive: act }">
-			<div class="card-body d-flex align-items-center flex-column">
-				<img class="category-card" :src="cardImg"/>
-				<h6 class="card-title mt-3">{{ card.title }}</h6>
-			</div>
-		</div>
+			<b-card-body class="d-flex align-items-center flex-column p-0">
+				<b-img class="category-card" :src="cardImg"/>
+				<b-card-title class="mt-3">
+						{{ card.title }}
+				</b-card-title>	
+			</b-card-body>
+		</b-card>	
 	</div>
 </template>
+
 <script>
 export default {
 	props: {
@@ -56,41 +59,35 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
 .card {
-  cursor: pointer;
-  border: none;
+	cursor: pointer;
+	border: none;
+	background: #ffffff;
+	box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
+	border-bottom: 5px solid transparent;
 
-  a {
-    color: #ffffff;
-  }
-
-  background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
-  border-radius: 4px;
-
-  border-bottom: 5px solid transparent;
-  &:hover {
-    border-bottom: 5px solid #FFA800;
-    border-radius: 5px;
-  }
-  &:focus {
-    border-bottom: 5px solid #FFA800;
-  }
+	&:hover {
+		border-bottom: 5px solid #FFA800;
+		border-radius: 5px;
+	}
+	&:focus {
+		border-bottom: 5px solid #FFA800;
+	}
 }
-h6 {
-  font-size: 18px;
-  font-weight: 400;
+.card-title {
+	font-size: 18px;
+	font-weight: 400;
 }
 .isActive {
-  border-bottom: 5px solid #FFA800;
-  border-radius: 5px;
+	border-bottom: 5px solid #FFA800;
+	border-radius: 5px;
 }
-
 @media (max-width:500px) {
-  .card {
-    margin: auto;
-    max-width: 18rem;
-  }
+	.card {
+		margin: auto;
+		max-width: 18rem;
+	}
 }
 </style>

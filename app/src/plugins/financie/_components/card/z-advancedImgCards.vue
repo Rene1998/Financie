@@ -31,34 +31,34 @@
 							</b-card-body>
 							<hr class="hb m-0" />
 						</div>
-					<div class="hb">
-						<b-card-body
-							class="d-flex justify-content-between mr-2"
-							v-if="advancedImgCard.doc2_link != ''">
-							<div class="m-0">
-								<h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
-							</div>
-							<div>
-								<a class="card-link" :href="advancedImgCard.doc1_link_download">
-									<b-icon icon="download"></b-icon>
-								</a>
-								<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-									<b-icon icon="eye"></b-icon>
-								</a>
-							</div>
-						</b-card-body>
-						<hr class="hb m-0" />
-					</div>
-					<b-card-body class="hb d-flex justify-content-between mr-2">
-						<div>
-							<h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
+						<div class="hb">
+							<b-card-body
+								class="d-flex justify-content-between mr-2"
+								v-if="advancedImgCard.doc2_link != ''">
+								<div class="m-0">
+									<h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
+								</div>
+								<div>
+									<a class="card-link" :href="advancedImgCard.doc1_link_download">
+										<b-icon icon="download"></b-icon>
+									</a>
+									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+										<b-icon icon="eye"></b-icon>
+									</a>
+								</div>
+							</b-card-body>
+							<hr class="hb m-0" />
 						</div>
-						<div>
-							<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
-								<b-icon icon="play-circle"></b-icon>
-							</a>
-						</div>
-					</b-card-body>
+							<b-card-body class="hb d-flex justify-content-between mr-2">
+								<div>
+									<h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
+								</div>
+								<div>
+									<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
+										<b-icon icon="play-circle"></b-icon>
+									</a>
+								</div>
+							</b-card-body>
 				</div>
 			</b-card>
 		</div>
@@ -123,60 +123,55 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  img {
-    min-height: 210px;
-  }
+	img {
+		min-height: 210px;
+	}
 
-  .card-title {
-    margin-top: 17.5px;
-    min-height: 55px;
-    color: #192949;
-    font-weight: bold;
-    font-style: normal;
-  }
-  .card-text {
-    min-height: 3.5vw;
-  }
+  	.card-title {
+		margin-top: 17.5px;
+		min-height: 4vw;
+		color: #192949;
+		font-weight: bold;
+		font-style: normal;
+  	}
+	.card-text {
+		min-height: 4vw;
+	}
 }
-
 p {
-  font-size: 14px;
-  color: #192949;
+	font-size: 14px;
+	color: #192949;
 }
-
 .card-img-top {
-  border-radius: 4px;
+  	border-radius: 4px;
 }
-
 .card-body {
-  padding: 10px;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+	padding: 10px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 
-  .hb:hover {
-    color: #1eaee1 !important;
+	.hb:hover {
+		color: #1eaee1 !important;
 
-    a {
-      color: #1eaee1;
-    }
+		a {
+		color: #1eaee1;
+		}
 
-    hr {
-      border-top: 1px solid #1eaee1 !important;
-    }
-  }
+		hr {
+		border-top: 1px solid #1eaee1 !important;
+		}
+	}
 }
-
 h6 {
-  font-size: 16px;
-  line-height: 30px color #192949;
-  font-weight: 400;
+	font-size: 16px;
+	line-height: 30px color #192949;
+	font-weight: 400;
 }
-
 a {
-  color: #d1d4d8;
+  	color: #d1d4d8;
 
-  &:hover {
-    color: #1eaee1;
-  }
+	&:hover {
+		color: #1eaee1;
+	}
 }
 </style>

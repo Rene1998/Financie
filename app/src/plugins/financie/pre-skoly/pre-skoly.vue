@@ -113,10 +113,13 @@
 			></z-advancedImgCards>
 		</div>
 
-		<div class="container text-center mb-5">
-			<b-button variant="primary" class="download-all mb-5"
-			>Stiahnuť všetky dokumenty</b-button>
-		</div>
+		<b-container class="text-center mb-5">
+			<b-button variant="primary" class="download-all mb-5">
+				Stiahnuť všetky dokumenty
+			</b-button>
+		</b-container>
+			
+		
 		<div class="container">
 			<div class="row">
 				<div class="col">

@@ -1,5 +1,5 @@
 # 8.5 Rene
-[zatial(z-advancedImgCards,)] Štruktúru html by som si nejak upratal, najprv by som používal klasické html atribúty, potom by som to stackoval podla toho do riadkov, ďalej by som dal vue listenery, bindy ...
+[zatial(z-advancedImgCards,z-categoryCard,z-homeCategoryCard,z-imgCard,z-textCard,z-blogCards)] Štruktúru html by som si nejak upratal, najprv by som používal klasické html atribúty, potom by som to stackoval podla toho do riadkov, ďalej by som dal vue listenery, bindy ...
 [-] Radšj by som použil !str.length namiesto str != ''"
 [x] Importy by som dával zo sourcu čiže @ a nie ../../../
 [x] Zbytočné čiarky za objektami, funkciami, etc ... keď za nimi nič nenasleduje

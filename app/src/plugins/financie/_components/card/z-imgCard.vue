@@ -1,30 +1,29 @@
 <template>
-	<div class="row">
-		<div class="col-12" :class="{'col-md-6':!single}" v-for="imgCard in imgCards"
-			:key="imgCard.id">
-			<div
-				class="card mb-3 border-0 mb-5"
-
-			>
-				<img :src="imgCard.image.path" class="card-img-top"/>
-				<div class="card-body p-0 pt-4">
-					<p class="timestamp">
-						{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
-					</p>
-					<h5 class="card-title">
-						{{ imgCard.title }}
-					</h5>
-					<p class="card-text">
-						{{ imgCard.content }}
-					</p>
-					<p class="card-text">
-						<a href="#">Prečítať viac</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+	<b-row>
+		<b-col class="p-0" cols="12" 
+			v-for="imgCard in imgCards"
+			:class="{'col-md-6':!single}" :key="imgCard.id">
+				<b-card class="mb-2 border-0">
+					<b-card-body class="p-0 pt-4">
+						<b-img class="card-img-top pb-3" :src="imgCard.image.path"/>
+						<b-card-text class="timestamp">
+							{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
+						</b-card-text>
+						<b-card-title>
+							{{ imgCard.title }}
+						</b-card-title>
+						<b-card-text class="content">
+							{{ imgCard.content }}
+						</b-card-text>
+						<b-card-text>
+							<a href="#">Prečítať viac</a>
+						</b-card-text>
+					</b-card-body>
+				</b-card>
+		</b-col>
+	</b-row>
 </template>
+
 <script>
 import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
@@ -75,29 +74,23 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
-.card-img-top {
-  width: auto;
-  min-height: 315px;
+img {
+	max-height: 285px !important;
 }
-.timestamp {
-  color: #898989;
+.card-title{
+	font-size: 18px;
+	color: #192949;
+	font-weight: bold;
+	font-style: normal;
+	min-height: 2.5vw;
 }
-h5 {
-  font-size: 18px;
-  color: #192949;
-  font-weight: bold;
-  font-style: normal;
+.content {
+	min-height: 5.5vw;
 }
 a {
-  color: #1eaee1;
-  text-decoration: none;
-}
-
-@media (max-width: 800px) {
-  .card-img-top {
-    width: auto;
-    min-height: auto;
-  }
+	color: #1eaee1;
+	text-decoration: none;
 }
 </style>

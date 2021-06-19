@@ -1,20 +1,28 @@
 <template>
-	<div class="row">
-		<div class="card mb-3 d-flex col-12 " v-for="textCard in textCards" :key="textCard.id">
-			<div class="card-body p-3">
-				<p class="timestamp mb-4 ">
-					{{posted_at}} • zaberie to iba {{textCard.time}} min
-				</p>
-				<h5 class="card-text mb-4">
-					{{textCard.content}}
-				</h5>
-				<a href="#" class="card-link">
-					Prečítať viac
-				</a>
-			</div>
-		</div>
-	</div>
+	<b-row>
+		<b-col 
+			cols="12">
+			<b-card
+				class="mb-3 d-flex" 
+				v-for="textCard in textCards" :key="textCard.id">
+					<b-card-body class="p-2">
+						<b-card-text class="timestamp mb-4">
+							{{posted_at}} • zaberie to iba {{textCard.time}} min
+						</b-card-text>
+						<b-card-title class="mb-4">
+							{{textCard.content}}
+						</b-card-title>
+						<b-card-text>
+							<a href="#">
+								Prečítať viac
+							</a>
+						</b-card-text>
+					</b-card-body>
+			</b-card>
+		</b-col>
+	</b-row>
 </template>
+
 <script>
 import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
@@ -44,31 +52,28 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
-.timestamp{
-  color: #898989;
+.card-title {
+	font-size: 18px;
+	color: #192949;
+	font-weight: bold;
+	font-style: normal;
 }
-h5{
-  font-size: 18px;
-  color: #192949;
-  font-weight: bold;
-  font-style: normal;
-}
-a{
-  color: #1eaee1;
+a {
+  	color: #1eaee1;
 }
 
-.card{
-  border: 0px;
-  border-radius: 0px;
+.card {
+  	border: 0px;
+  	border-radius: 0px;
 
-  &:not(:last-of-type){
-   border-bottom: 1px solid rgba(137, 137, 137, 0.2);
-}
+  	&:not(:last-of-type){
+   		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
+	}
 
-.card-text{
-  max-width: 523px;
-}
-
+	.card-text {
+  		max-width: 523px;
+	}
 }
 </style>

@@ -1,18 +1,26 @@
 <template>
-	<div class="row">
-		<div class="card mb-5 col-12 col-lg-4 col-md-6 col-sm-6" v-for="blog in blogCards" :key="blog.id" style="width: 18.7rem;">
-			<img :src="blog.thumbnail_image.path" class="card-img-top" />
-			<div class="card-body p-0 " >
-				<p class="timestamp mt-4"> {{posted_at}} • zaberie to iba {{blog.time}} min </p>
-				<h5 class="card-title mb-3">{{blog.title}}</h5>
-				<div v-html="blog.short_content" class="blog mt-0 mb-4"></div>
+	<b-row>
+		<b-card 
+			class="mb-5 col-12 col-lg-4 col-md-6 col-sm-6 p-0" 
+			style="min-width: 18.7rem;"
+			v-for="blog in blogCards" :key="blog.id">
+			<b-card-body class="p-0">
+				<b-img class="card-img-top pb-4" :src="blog.thumbnail_image.path"/>
+				<b-card-text class="timestamp mt-0">
+					{{posted_at}} • zaberie to iba {{blog.time}} min 
+				</b-card-text>
+				<b-card-title class="mb-3">
+					{{blog.title}}
+				</b-card-title>
+				<b-card-text class="blog mt-0 mb-4" v-html="blog.short_content"/>
 				<router-link class="link" :to="rightPage + '/' + blog.slug">
 					Prečítať
 				</router-link>
-			</div>
-		</div>
-	</div>
+			</b-card-body>
+		</b-card>
+	</b-row>
 </template>
+
 <script>
 import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
@@ -54,39 +62,36 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
-  .card {
-    border: none;
-    .card-img-top {
-      width: auto;
-      height: 13.5rem;
-    }
-  }
-  .blog {
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 24px;
-   color: #192949;
-  }
-  .timestamp{
-    color: #898989;
-    font-size: 14px;
-  }
-  .card-title{
-    min-height: 90px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
-    color: #192949;
-  }
-  .link{
-    text-decoration: none;
-    color: #1EAEE1;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-  }
+.card {
+	border: none;
+}
+.blog {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #192949;
+}
+.timestamp {
+	color: #898989;
+	font-size: 14px;
+}
+.card-title {
+	min-height: 90px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #192949;
+}
+.link {
+	text-decoration: none;
+	color: #1EAEE1;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
 </style>

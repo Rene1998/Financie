@@ -1,7 +1,17 @@
 * {
-  font-family: 'Helvetica Neue' sans-serif;
+  font-family: "Helvetica Neue" sans-serif;
 }
 
-* {
-  color: #192949;
+.hardcode-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hardcode-text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.timestamp {
+  color: #898989;
 }
