@@ -1,14 +1,13 @@
 <template>
 	<div>
-		<b-card 
-			class="d-flex align-items-center flex-column text-center"
+		<b-card class="d-flex align-items-center flex-column text-center"
 			:class="{ isActive: act }">
-			<b-card-body class="d-flex align-items-center flex-column p-0">
+			<div class="d-flex align-items-center flex-column">
 				<b-img class="category-card" :src="cardImg"/>
 				<b-card-title class="mt-3">
-						{{ card.title }}
+					{{ card.title }}
 				</b-card-title>	
-			</b-card-body>
+			</div>
 		</b-card>	
 	</div>
 </template>

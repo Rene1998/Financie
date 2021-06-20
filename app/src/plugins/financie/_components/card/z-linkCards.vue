@@ -1,51 +1,55 @@
 <template>
-	<div class="container">
-		<div class="row links mb-5">
-			<div class="col">
+	<b-container>
+		<b-row class="mb-5">
+			<b-col>
 				<div class="d-flex align-items-center mb-5">
-					<b-icon icon="link45deg"></b-icon>
+					<b-icon icon="link45deg"/>
 					<h6 class="m-0">Užitočné linky</h6>
 				</div>
-
-				<div class="card" v-for="link1Card in link1Cards" :key="link1Card.id">
-					<div class="body">
-						<p class="mt-4">{{posted_at}} • zaberie to iba {{link1Card.time}} min</p>
-						<h3>{{ link1Card.content }}</h3>
-					</div>
-				</div>
-			</div>
-
-			<div class="col">
-
+				<b-card no-body
+					v-for="link1Card in link1Cards" :key="link1Card.id">
+					<b-card-text class="timestamp mt-4">
+						{{posted_at}} • zaberie to iba {{link1Card.time}} min
+					</b-card-text>
+					<b-card-title>
+						{{ link1Card.content }}
+					</b-card-title>
+				</b-card>
+			</b-col>
+			<b-col>
 				<div class="d-flex align-items-center mb-5">
 					<b-icon icon="question-circle-fill"></b-icon>
 					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
 				</div>
-
-				<div class="card" v-for="link2Card in link2Cards" :key="link2Card.id">
-					<div class="body">
-						<p class="mt-4">{{posted_at}} • zaberie to iba {{link2Card.time}} min</p>
-						<h3>{{ link2Card.content }}</h3>
-					</div>
-				</div>
-			</div>
-
-			<div class="col">
+				<b-card no-body
+					v-for="link2Card in link2Cards" :key="link2Card.id">
+					<b-card-text class="timestamp mt-4">
+						{{posted_at}} • zaberie to iba {{link2Card.time}} min
+					</b-card-text>
+					<b-card-title>
+						{{ link2Card.content }}
+					</b-card-title>
+				</b-card>
+			</b-col>
+			<b-col>
 				<div class="d-flex align-items-center mb-5">
 					<b-icon icon="calculator-fill"></b-icon>
 					<h6 class="m-0">Kalkulačky a návody</h6>
 				</div>
-
-				<div class="card" v-for="link3Card in link3Cards" :key="link3Card.id">
-					<div class="body">
-						<p class="mt-4">{{posted_at}} • zaberie to iba {{link3Card.time}} min</p>
-						<h3>{{ link3Card.content }}</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+				<b-card no-body
+					v-for="link3Card in link3Cards" :key="link3Card.id">
+					<b-card-text class="timestamp mt-4">
+						{{posted_at}} • zaberie to iba {{link3Card.time}} min
+					</b-card-text>
+					<b-card-title>
+						{{ link3Card.content }}
+					</b-card-title>
+				</b-card>
+			</b-col>
+		</b-row>
+	</b-container>
 </template>
+
 <script>
 import apiService from '@/plugins/financie/common/apiService'
 import moment from 'moment'
@@ -94,51 +98,38 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  border: none;
-  height: 175px;
-  border-radius: 0px;
-  &:not(:last-of-type) {
-    border-bottom: 1px solid rgba(137, 137, 137, 0.2);
-  }
+	min-height: 175px;
 
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
+	&:not(:last-of-type) {
+		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
+	}
 
-    &:hover {
-      cursor: pointer;
-      color: #1eaee1;
-    }
-  }
+	.card-title {
+		font-size: 18px;
+		font-weight: 700;
 
-  p {
-    font-size: 14px;
-    color: #898989;
-  }
+		&:hover {
+			cursor: pointer;
+			color: #1eaee1;
+		}
+	}
 }
 .b-icon {
-  cursor: pointer;
-  width: 28px;
-  height: 28px;
-  &:hover {
-    color: #1eaee1;
-  }
+	cursor: pointer;
+	min-width: 28px;
+	min-height: 28px;
+
+	&:hover {
+		color: #1eaee1;
+	}
 }
 .border {
-  border-top: none !important ;
-  border-bottom: none !important ;
+	border-top: none !important ;
+	border-bottom: none !important ;
 }
 h6 {
-  font-size: 24px;
-  font-weight: bold;
-  width: 280px;
-}
-
-.pr-6 {
-  padding-right: 60px;
-}
-
-.pl-6 {
-  padding-left: 60px;
+	font-size: 24px;
+	font-weight: bold;
+	width: 280px;
 }
 </style>

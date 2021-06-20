@@ -1,10 +1,8 @@
 <template>
 	<b-row>
-		<div
-			class="col-12 col-lg-4 col-md-6"
+		<div class="col-12 col-lg-4 col-md-6"
 			v-for="advancedImgCard in advancedImgCards" :key="advancedImgCard.id">
-			<b-card
-				class="mb-2 border border-0"
+			<b-card class="mb-2 border border-0"
 				img-alt="Image"
 				tag="article"
 				:title="advancedImgCard.title"
@@ -13,24 +11,23 @@
 					<b-card-text class="d-flex mb-5">
 						{{ advancedImgCard.content }}
 					</b-card-text>
-						<div class="hb">	
-							<b-card-body
-								class="hb d-flex justify-content-between mr-2"
-								v-if="advancedImgCard.doc1_link != ''">
-								<div>
-									<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
-								</div>
-								<div>
-									<a class="card-link" :href="advancedImgCard.doc1_link_download" >
-										<b-icon icon="download"></b-icon>
-									</a>
-									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-										<b-icon icon="eye"> </b-icon>
-									</a>
-								</div>
-							</b-card-body>
-							<hr class="hb m-0" />
-						</div>
+					<div class="hb">	
+						<b-card-body class="hb d-flex justify-content-between mr-2"
+							v-if="advancedImgCard.doc1_link != ''">
+							<div>
+								<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
+							</div>
+							<div>
+								<a class="card-link" :href="advancedImgCard.doc1_link_download" >
+									<b-icon icon="download"></b-icon>
+								</a>
+								<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+									<b-icon icon="eye"> </b-icon>
+								</a>
+							</div>
+						</b-card-body>
+						<hr class="hb m-0" />
+					</div>
 						<div class="hb">
 							<b-card-body
 								class="d-flex justify-content-between mr-2"

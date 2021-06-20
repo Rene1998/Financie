@@ -1,12 +1,12 @@
 <template>
     <div>
-        <b-card style="max-height:148px">
-            <b-card-body class="d-flex align-items-center flex-column">
-                <b-img class="category-card " :src="cardIcon"/>
-                <b-card-title class="m-0 mt-3 d-flex align-items-end">
-                  {{ card.title }}
+        <b-card class="d-flex align-items-center flex-column text-center">
+            <div class="d-flex align-items-center flex-column">
+                <b-img class="category-card mt-3" :src="cardIcon"/>
+                <b-card-title class="mt-3">
+                    {{ card.title }}
                 </b-card-title>
-            </b-card-body>
+            </div>
         </b-card>
     </div>
 </template>
@@ -30,10 +30,8 @@ export default {
 <style lang="scss" scoped>
 .card {
     cursor: pointer;
-    border: none;
     background: #ffffff;
     box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
-    border-radius: 4px;
     border-bottom: 6px solid transparent;
 
     &:hover {

@@ -1,22 +1,18 @@
 <template>
 	<b-row>
-		<b-card 
-			class="mb-5 col-12 col-lg-4 col-md-6 col-sm-6 p-0" 
-			style="min-width: 18.7rem;"
+		<b-card no-body class="mb-5 col-12 col-lg-4 col-md-6 col-sm-6" style="min-width: 18.7rem;"
 			v-for="blog in blogCards" :key="blog.id">
-			<b-card-body class="p-0">
-				<b-img class="card-img-top pb-4" :src="blog.thumbnail_image.path"/>
-				<b-card-text class="timestamp mt-0">
-					{{posted_at}} • zaberie to iba {{blog.time}} min 
-				</b-card-text>
-				<b-card-title class="mb-3">
-					{{blog.title}}
-				</b-card-title>
-				<b-card-text class="blog mt-0 mb-4" v-html="blog.short_content"/>
-				<router-link class="link" :to="rightPage + '/' + blog.slug">
-					Prečítať viac
-				</router-link>
-			</b-card-body>
+			<b-img class="card-img-top pb-4" :src="blog.thumbnail_image.path"/>
+			<b-card-text class="timestamp mt-0">
+				{{posted_at}} • zaberie to iba {{blog.time}} min 
+			</b-card-text>
+			<b-card-title class="mb-3">
+				{{blog.title}}
+			</b-card-title>
+			<b-card-text class="blog mt-0 mb-4" v-html="blog.short_content"/>
+			<router-link class="link" :to="rightPage + '/' + blog.slug">
+				Prečítať viac
+			</router-link>
 		</b-card>
 	</b-row>
 </template>
@@ -65,7 +61,6 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-	border: none;
 	img {
 		max-height: 250px;
 	}
@@ -76,10 +71,6 @@ export default {
 	font-size: 14px;
 	line-height: 24px;
 	color: #192949;
-}
-.timestamp {
-	color: #898989;
-	font-size: 14px;
 }
 .card-title {
 	min-height: 90px;

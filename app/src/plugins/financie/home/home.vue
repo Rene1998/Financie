@@ -80,7 +80,7 @@
 
 		<div class="container">
 			<div class="row mb-5">
-				<div class="col">
+				<div class="col-12 col-md-6">
 					<z-imgCard :single='true'></z-imgCard>
 				</div>
 				<span class="divider border-left"></span>
