@@ -5,9 +5,11 @@
 			<b-card class="mb-2 border border-0"
 				img-alt="Image"
 				tag="article"
-				:title="advancedImgCard.title"
 				:img-src="advancedImgCard.image.path">
 				<div>
+					<b-card-title class="d-flex align-items-center">
+						{{ advancedImgCard.title }}
+					</b-card-title>
 					<b-card-text class="d-flex mb-5">
 						{{ advancedImgCard.content }}
 					</b-card-text>
@@ -125,8 +127,7 @@ export default {
 	}
 
   	.card-title {
-		margin-top: 17.5px;
-		min-height: 5vw;
+		min-height: 100px;
 		color: #192949;
 		font-weight: bold;
 		font-style: normal;
