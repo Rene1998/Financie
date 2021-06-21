@@ -144,7 +144,7 @@ export default {
 
 	/* mounted: function(){
         axios.get('http://localhost:8081/api/zaicard').then(function(response){
-            this.zaicard = response.data;
+            this.zaicard = response;
         })
     } */
 }

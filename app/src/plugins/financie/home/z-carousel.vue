@@ -48,7 +48,7 @@ export default {
 		async _loadSliders () {
 			try {
 				const sliders = await apiService.get('slider')
-				this.sliders = sliders.data
+				this.sliders = sliders
 			} catch (e) {
 				console.error(e)
 			}

@@ -42,7 +42,7 @@ export default {
 		async _loadCards () {
 			try {
 				const cards = await apiService.get('textCard')
-				this.textCards = cards.data
+				this.textCards = cards
 			} catch (e) {
 				console.error(e)
 			}
@@ -66,7 +66,7 @@ a {
   	&:not(:last-of-type){
    		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
 	}
-	
+
 	.card-text {
   		max-width: 523px;
 	}

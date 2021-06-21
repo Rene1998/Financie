@@ -51,9 +51,11 @@ export default {
 		},
 		_actCard2 (val) {
 			this.act = false
-			if (this.card.link == val) {
-				this.act = true
-			}
+			if (this.card.link != val) return
+			this.act = true
+			// if (this.card.link == val) {
+			// 	this.act = true
+			// }
 		}
 	}
 }

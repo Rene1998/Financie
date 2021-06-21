@@ -74,20 +74,10 @@ export default {
 	methods: {
 		async _loadCards () {
 			try {
-				const cards = await apiService.get('linkCard')
-				const cards2 = await apiService.get(
-					'linkCard/categories/slug/uzitocne-linky'
-				)
-				const cards3 = await apiService.get(
-					'linkCard/categories/slug/mohlo-vas-zaujimat'
-				)
-				const cards4 = await apiService.get(
-					'linkCard/categories/slug/kalkulacky-navody'
-				)
-				this.linkCards = cards.data
-				this.link1Cards = cards2.data.link_cards
-				this.link2Cards = cards3.data.link_cards
-				this.link3Cards = cards4.data.link_cards
+				this.linkCards = await apiService.get('linkCard')
+				this.link1Cards = await apiService.get('linkCard/categories/slug/uzitocne-linky', 'link_cards')
+				this.link2Cards = await apiService.get('linkCard/categories/slug/mohlo-vas-zaujimat', 'link_cards')
+				this.link3Cards = await apiService.get('linkCard/categories/slug/kalkulacky-navody', 'link_cards')
 			} catch (e) {
 				console.error(e)
 			}

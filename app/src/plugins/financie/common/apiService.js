@@ -16,10 +16,14 @@ const apiService = {
 		})
 	},
 
-	get (resource, slug = '') {
-		return Vue.axios.get(`${resource}/${slug}`).catch(e => {
-		  throw new Error(e)
-		})
+	get (resource, property_key = '') {
+		return Vue.axios.get(`${resource}`)
+			.then(response => {
+				return property_key ? response.data[property_key] : response.data
+			})
+			.catch(e => {
+		  		throw new Error(e)
+			})
 	},
 
 	post (resource, params) {

@@ -50,7 +50,7 @@ export default {
 		async _loadCards (rightPage) {
 			try {
 				const cards = await apiService.get(`blog/categories/slug/${rightPage}`)
-				this.blogCards = cards.data.blog
+				this.blogCards = cards.blog
 			} catch (e) {
 				console.error(e)
 			}

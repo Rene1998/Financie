@@ -16,7 +16,7 @@
 [] keď používate moment vo viacerých súboroch, tak lang môžete nastaviť globálne
 [x] v najnovšej verzii routera na menili jeho atribúty, že sa už nebindujú, čiže :to => to=
 [] používal by som skôr js literals namiesto niečo + " " + niečo2, a keď už tak si nájsť konzistentný spôsob a nepoužívať to niekde tak a inde inak ...
-[] this.blogCards = cards.data.blog; možeš to ukladať rovno do this.blogCards a za await dáš len .blog
+[x] this.blogCards = cards.data.blog; možeš to ukladať rovno do this.blogCards a za await dáš len .blog
 [-] loadovať z apiny v created namiesto v mounted ?
 [] spraviť si štruktúru v importoch najprv by som dával hlavné importy ako cudzie libky a potom až svoje veci alebo naopak, nájsť si svôj spôsob a spraviť to konzistentne
 [x] prázdne html atribúty dať preč alt="" ...
@@ -24,7 +24,7 @@
 [] pri if nemusíš používať zložené zátvorky keď nemáš else if
 [] .length > 0 môžeš nahradiť iba .length
 [] nepoužívať `` keď v tom nie sú premenné
-[]        this.link1Cards = cards2.data.link_cards;
+[x]     this.link1Cards = cards2.data.link_cards;
         this.link2Cards = cards3.data.link_cards;
         this.link3Cards = cards4.data.link_cards;
 		toto je uplne useless, možeš dať za await.link_cards ...

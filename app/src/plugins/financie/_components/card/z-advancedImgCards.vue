@@ -104,7 +104,7 @@ export default {
 		async _loadCards (rocnik, page, kategoria) {
 			try {
 				const cards = await apiService.get(`categories/slug/${page}`)
-				this.advancedImgCards = cards.data.year_category
+				this.advancedImgCards = cards.year_category
 					.find((e) => e.slug == rocnik)
 					.advanced_img_cards.filter((e) => e.type == kategoria)
 			} catch (e) {

@@ -59,7 +59,7 @@ export default {
 		async _loadCards () {
 			try {
 				const cards = await apiService.get('imgCard')
-				this.imgCards = cards.data.filter((x) =>
+				this.imgCards = cards.filter((x) =>
 					x.category.filter((y) => y.slug == this.rightPage).length
 				)
 			} catch (e) {

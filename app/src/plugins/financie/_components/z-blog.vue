@@ -35,7 +35,7 @@ export default {
 		async _loadBlogs () {
 			try {
 				const blogs = await apiService.get('blog')
-				this.blog = blogs.data.data.find((e) => e.slug == this.rightBlog)
+				this.blog = blogs.data.find((e) => e.slug == this.rightBlog)
 			} catch (e) {
 				console.error(e)
 			}
