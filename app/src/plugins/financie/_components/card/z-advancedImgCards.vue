@@ -126,13 +126,13 @@ export default {
 
   	.card-title {
 		margin-top: 17.5px;
-		min-height: 4vw;
+		min-height: 5vw;
 		color: #192949;
 		font-weight: bold;
 		font-style: normal;
   	}
 	.card-text {
-		min-height: 4vw;
+		min-height: 5vw;
 	}
 }
 p {
