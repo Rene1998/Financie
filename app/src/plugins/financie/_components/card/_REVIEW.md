@@ -1,5 +1,5 @@
 # 8.5 Rene
-[zatial(z-advancedImgCards,z-categoryCard,z-homeCategoryCard,z-imgCard,z-textCard,z-blogCards)] Štruktúru html by som si nejak upratal, najprv by som používal klasické html atribúty, potom by som to stackoval podla toho do riadkov, ďalej by som dal vue listenery, bindy ...
+[zatial(z-advancedImgCards,z-categoryCard,z-homeCategoryCard,z-imgCard,z-textCard,z-blogCards)x] Štruktúru html by som si nejak upratal, najprv by som používal klasické html atribúty, potom by som to stackoval podla toho do riadkov, ďalej by som dal vue listenery, bindy ...
 [-] Radšj by som použil !str.length namiesto str != ''"
 [x] Importy by som dával zo sourcu čiže @ a nie ../../../
 [x] Zbytočné čiarky za objektami, funkciami, etc ... keď za nimi nič nenasleduje
@@ -13,7 +13,7 @@
 [] keď používaš js metódy, tak by som element neobaloval do zátvoriek, je to zbytočné
 [x] pre private methods ako actualPage, changeRightPage ... by som dával prefix _, a v tomto prípade mi príde táto metóda celkom zbytočná ... možeš to spraviť rovno v handleri
 [este spravim] náhodné medzeri v kóde
-[] keď používate moment vo viacerých súboroch, tak lang môžete nastaviť globálne
+[-] keď používate moment vo viacerých súboroch, tak lang môžete nastaviť globálne
 [x] v najnovšej verzii routera na menili jeho atribúty, že sa už nebindujú, čiže :to => to=
 [] používal by som skôr js literals namiesto niečo + " " + niečo2, a keď už tak si nájsť konzistentný spôsob a nepoužívať to niekde tak a inde inak ...
 [x] this.blogCards = cards.data.blog; možeš to ukladať rovno do this.blogCards a za await dáš len .blog

@@ -1,52 +1,55 @@
 <template>
-	<div class="container-fluid progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}">
-		<div class="container">
-			<div class="row progressBar-row d-flex m-0">
-				<a
+	<b-container fluid class="progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}" >
+		<b-container>
+			<b-row class="progressBar-row d-flex m-0">
+				<a class="z-btn btn rounded-0"
 					@click="scrollTo(vedeliSte)"
-					class="z-btn btn rounded-0"
 					:class="{
 						isActive:
 							0 <= pageScrollPositon && pageScrollPositon < zakladneInformacie,
-					}"
-				>Vedeli ste, že...</a>
-				<a
+					}">
+					Vedeli ste, že...
+				</a>
+				<a class="z-btn btn rounded-0"
 					@click="scrollTo(zakladneInformacie)"
-					class="z-btn btn rounded-0"
 					:class="{
 						isActive:
 							zakladneInformacie <= pageScrollPositon &&
 							pageScrollPositon < najnovsieClanky,
-					}"
-				>Základné informácie</a>
-				<a
+					}">
+					Základné informácie
+				</a>
+				<a class="z-btn btn rounded-0"
 					@click="scrollTo(najnovsieClanky)"
-					class="z-btn btn rounded-0"
 					:class="{
 						isActive:
 							najnovsieClanky <= pageScrollPositon &&
 							pageScrollPositon < najnovsieProdukty,
-					}"
-				>Najnovšie články</a>
-				<a
+					}">
+					Najnovšie články
+				</a>
+				<a class="z-btn btn rounded-0"
 					@click="scrollTo(najnovsieProdukty)"
-					class="z-btn btn rounded-0"
 					:class="{
 						isActive:
 							najnovsieProdukty <= pageScrollPositon &&
 							pageScrollPositon < uzitocneLinky,
-					}"
-				>Najnovšie produkty a služby</a>
-				<a
+					}">
+					Najnovšie produkty a služby
+				</a>
+				<a class="z-btn btn rounded-0"
 					@click="scrollTo(uzitocneLinky)"
-					class="z-btn btn rounded-0"
-					:class="{ isActive: uzitocneLinky <= pageScrollPositon }"
-				>Užitočné linky a zaujímavosti</a>
-				<a href="" class="z-btn btn rounded-0">Kvíz</a>
-			</div>
-		</div>
-	</div>
+					:class="{ isActive: uzitocneLinky <= pageScrollPositon }">
+					Užitočné linky a zaujímavosti
+				</a>
+				<a href="" class="z-btn btn rounded-0">
+					Kvíz
+				</a>
+			</b-row>
+		</b-container>
+	</b-container>
 </template>
+
 <script>
 export default {
 	watch: {
@@ -98,48 +101,48 @@ export default {
 
 <style lang="scss" scoped>
 .progressBar {
-  background-color: #fbfbfc;
-  min-height: 70px;
-  a:hover {
-    color: #1eaee1;
-  }
-  a {
-    font-weight: 700;
-  }
+	background-color: #fbfbfc;
+	min-height: 70px;
+	a:hover {
+		color: #1eaee1;
+	}
+	a {
+		font-weight: 700;
+	}
 }
 .btn {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
+	min-height: 70px;
+	display: flex;
+	align-items: center;
 }
 .isActive {
-  color: #1eaee1;
+  	color: #1eaee1;
 }
 .isSticky {
-  z-index: 999;
-  position: fixed;
-  top: 0;
+	z-index: 999;
+	position: fixed;
+	top: 0;
 }
 
 @media (max-width: 1231px) {
-  .progressBar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .progressBar-row {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    padding-right: 0;
-  }
+	.progressBar {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.progressBar-row {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		padding-right: 0;
+	}
 
-  ::-webkit-scrollbar {
-    height: 0;
-    width: 0;
-    background: transparent;
-  }
-  .btn {
-    min-width: 200px;
-  }
+	::-webkit-scrollbar {
+		height: 0;
+		width: 0;
+		background: transparent;
+	}
+	.btn {
+		min-width: 200px;
+	}
 }
 </style>

@@ -1,92 +1,97 @@
 <template>
 	<div>
-		<div class="container-fluid byvanie-main">
-			<div class="container">
+		<b-container fluid class="byvanie-main">
+			<b-container>
 				<div class="byvanie-welcome-text">
-					<div class="col d-flex flex-column mb-5 b-arrow">
-						<router-link to="/home"
-						><a class="mb-5 d-flex align-items-center"
-						><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
-							stránku</a
-						></router-link>
+					<b-col class="d-flex flex-column mb-5 b-arrow">
+						<router-link to="/home">
+							<a class="mb-5 d-flex align-items-center">
+								<b-icon class="mr-2" icon="arrow-left"/>
+								Späť na hlavnú stránku</a>
+						</router-link>
 						<h1 mt-5>{{ title }}</h1>
 						<p class="mt-4 content">
 							{{ content }}
 						</p>
-						<div class="m-5"></div>
-					</div>
+						<div class="m-5">
+
+						</div>
+					</b-col>
 				</div>
-			</div>
-		</div>
+			</b-container>
+		</b-container>
 		<div id="progressBar">
-			<z-progressBar></z-progressBar>
+			<z-progressBar/>
 		</div>
 		<div id="vedeliSte">
-			<z-carousel></z-carousel>
+			<z-carousel/>
 		</div>
 		<div id="zakladneInformacie">
-			<div class="container text-center mt-5 mb-5 hardcode-text">
-				<h4>Základné články</h4>
+			<b-container class="text-center mt-5 mb-5 hardcode-text">
+				<h4>
+					Základné články
+				</h4>
 				<p>
 					Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
 					na ktoré môžete naraziť vo vašom živote.
 				</p>
-			</div>
+			</b-container>
 			<div class="d-sm-block d-md-none">
 				<carousel class="carousel-wrapper" :perPage="1">
 					<slide
-						v-for="card in cards"
-						:key="card.id"
 						:title="card.title"
-						:text="card.text">
-						<z-miniCards :card="card"></z-miniCards>
+						:text="card.text"
+						v-for="card in cards" :key="card.id">
+						<z-miniCards :card="card"/>
 					</slide>
 				</carousel>
 			</div>
 			<div class="d-none d-md-block d-lgblock d-xl-block">
-				<div class="container mt-5 mb-5">
-					<div class="row">
-						<div
-							v-for="card in cards"
-							:key="card.id"
+				<b-container class="mt-5 mb-5">
+					<b-row>
+						<div class="col-3"
 							:title="card.title"
 							:text="card.text"
-							class="col-3">
-							<z-miniCards :card="card"></z-miniCards>
+							v-for="card in cards" :key="card.id">
+							<z-miniCards :card="card"/>
 						</div>
-					</div>
-				</div>
+					</b-row>
+				</b-container>
 			</div>
 		</div>
 		<div id="najnovsieClanky">
-			<div class="container text-center mt-5 mb-5 hardcode-text">
-				<h4>Najnovšie články o hypotekách</h4>
+			<b-container class="text-center mt-5 mb-5 hardcode-text">
+				<h4>
+					Najnovšie články o hypotekách
+				</h4>
 				<p>
 					Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
 					na ktoré môžete naraziť vo vašom živote.
 				</p>
-			</div>
+			</b-container>
 		</div>
-
-		<div class="container">
-			<z-blogCards></z-blogCards>
-		</div>
+		<b-container>
+			<z-blogCards/>
+		</b-container>
 		<div id="najnovsieProdukty">
-			<div class="container text-center mt-5 mb-5 hardcode-text">
-				<h4>Najlepšie produkty na našom trhu</h4>
-				<p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
-			</div>
-
-			<div class="container mb-5">
-				<z-imgCard></z-imgCard>
-			</div>
+			<b-container class="text-center mt-5 mb-5 hardcode-text">
+				<h4>
+					Najlepšie produkty na našom trhu
+				</h4>
+				<p>
+					Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
+				</p>
+			</b-container>
+			<b-container class="mb-5">
+				<z-imgCard/>
+			</b-container>
 		</div>
 		<div id="uzitocneLinky">
-			<div class="container ">
-				<div class="row border-center mb-5">
-					<z-linkCards></z-linkCards>
-				</div>
-			</div>
+			<b-container>
+				<b-row class="border-center mb-5">
+					<z-linkCards/>
+				</b-row>
+			</b-container>
 		</div>
 	</div>
 </template>
@@ -192,82 +197,80 @@ export default {
 
 <style lang="scss" scoped>
 .byvanie-main {
-  background-image: url(/assets/byvanie-img.png);
-  max-height: 370px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  .container {
-    display: flex;
-    align-items: center;
-    min-height: 500px;
-  }
+	background-image: url(/assets/byvanie-img.png);
+	max-height: 370px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.container {
+		display: flex;
+		align-items: center;
+		min-height: 500px;
+	}
 }
 
 .b-icon {
-  cursor: pointer;
-  width: 28px;
-  height: 28px;
-  &:hover {
-    color: #1eaee1;
-  }
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+
+	&:hover {
+		color: #1eaee1;
+	}
 }
 
 .border-center {
-  .col-4:not(:last-of-type) {
-    border-right: 1px solid rgba(137, 137, 137, 0.2);
-  }
+  	.col-4:not(:last-of-type) {
+    	border-right: 1px solid rgba(137, 137, 137, 0.2);
+  	}
 }
 a {
-  color: #1eaee1;
-  text-decoration: none;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  cursor: pointer;
+	color: #1eaee1;
+	text-decoration: none;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	cursor: pointer;
 }
 
 .b-arrow {
-  .b-icon {
-    height: 20px !important;
-    width: 20px !important;
-  }
+	.b-icon {
+		height: 20px !important;
+		width: 20px !important;
+	}
 }
 
 .content {
-  max-width: 450px;
+  	max-width: 450px;
 }
 h1 {
-  font-weight: bold;
+  	font-weight: bold;
 }
 
 /deep/ {
-  &.VueCarousel-dot:focus {
-    outline: none !important;
-  }
+  	&.VueCarousel-dot:focus {
+    	outline: none !important;
+  	}
 
-  &.VueCarousel-dot--active {
-    background-color: #1eaee1 !important;
-  }
+  	&.VueCarousel-dot--active {
+    	background-color: #1eaee1 !important;
+  	}
 
-  &.VueCarousel-dot {
-    width: 6px !important;
-    height: 6px !important;
-    width: 6px !important;
-    height: 6px !important;
-  }
+  	&.VueCarousel-dot {
+		width: 6px !important;
+		height: 6px !important;
+		width: 6px !important;
+		height: 6px !important;
+  	}
 }
 
 @media (max-width: 800px) {
-  .byvanie-main {
-    background-image: none;
-    background-color: rgb(237, 239, 238);
-  }
-}
-.pracujemeNaTom {
-  display: none;
+	.byvanie-main {
+		background-image: none;
+		background-color: rgb(237, 239, 238);
+	}
 }
 </style>

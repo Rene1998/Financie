@@ -1,14 +1,17 @@
 <template>
-	<div class="container-fluid d-flex justify-content-center text-center" :class="{'pre-skoly': page}">
-		<div class="row d-flex flex-sm-col">
+	<b-container fluid class="d-flex justify-content-center text-center"
+		:class="{'pre-skoly': page}">
+		<b-row class="d-flex flex-sm-col">
 			<p class="d-flex align-items-center justify-content-center mt-0 mb-0">
 				Informácie ktoré vám pomôžu k správnemu investovaniu.
-				<a class="d-flex justify-content-center" target="blank" href=""
-				>Sledujte naše video podcasty</a>
+				<a class="d-flex justify-content-center" target="blank" href="">
+					Sledujte naše video podcasty
+				</a>
 			</p>
-		</div>
-	</div>
+		</b-row>
+	</b-container>
 </template>
+
 <script>
 export default {
 	watch: {
@@ -27,6 +30,7 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
 .pre-skoly {
 	background-color: #ffa800 !important;
@@ -59,6 +63,5 @@ export default {
 			align-items: center;
 		}
 	}
-
 }
 </style>

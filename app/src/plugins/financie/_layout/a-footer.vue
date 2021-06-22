@@ -1,9 +1,11 @@
 <template>
 	<footer>
-		<div class="container">
-			<div class="row footer-row d-flex align-content-center pt-3 ml-3">
-				<div class="col-lg-3 col-sm-6">
-					<h5 class="text-left">Životné situácie</h5>
+		<b-container>
+			<b-row class="footer-row d-flex align-content-center pt-3 ml-3">
+				<b-col cols="12" lg="3" sm="6">
+					<h5 class="text-left">
+						Životné situácie
+					</h5>
 					<ul class="pl-0 list-unstyled">
 						<li class="footer-li">
 							<router-link to="/osobne-financie/auto">Auto</router-link>
@@ -24,9 +26,8 @@
 							<router-link to="/osobne-financie/exekucia">Exekúcia</router-link>
 						</li>
 					</ul>
-				</div>
-
-				<div class="col-lg-3 col-sm-6">
+				</b-col>
+				<b-col cols="12" lg="3" sm="6">
 					<h5 class="text-left">Finančné produkty</h5>
 					<ul class="pl-0 list-unstyled">
 						<li class="footer-li">
@@ -48,33 +49,43 @@
 							<router-link to="/osobne-financie/fintech">Fintech</router-link>
 						</li>
 					</ul>
-				</div>
-
-				<div class="col-3 d-none d-lg-block">
+				</b-col>
+				<b-col cols="3" class="d-none d-lg-block">
 					<h5 class="text-left">Pomôcky</h5>
 					<ul class="pl-0 list-unstyled">
-						<li class="footer-li"><a href="#!">Porovnania</a></li>
-						<li class="footer-li"><a href="#!">Nástrahy</a></li>
-						<li class="footer-li"><a href="#!">Kalkulačky</a></li>
-						<li class="footer-li"><a href="#!">Slovník </a></li>
+						<li class="footer-li">
+							<a href="#!">Porovnania</a>
+						</li>
+						<li class="footer-li">
+							<a href="#!">Nástrahy</a>
+						</li>
+						<li class="footer-li">
+							<a href="#!">Kalkulačky</a>
+						</li>
+						<li class="footer-li">
+							<a href="#!">Slovník </a>
+						</li>
 					</ul>
-				</div>
-
-				<div class="col-3 d-none d-lg-block">
+				</b-col>
+				<b-col cols="3" class="d-none d-lg-block">
 					<h5 class="text-left">Životné situácie</h5>
 					<ul class="pl-0 list-unstyled">
-						<li class="footer-li"><a href="#!">O nás</a></li>
-						<li class="footer-li"><a href="#!">Kontakt</a></li>
+						<li class="footer-li">
+							<a href="#!">O nás</a>
+						</li>
+						<li class="footer-li">
+							<a href="#!">Kontakt</a>
+						</li>
 					</ul>
-				</div>
-			</div>
-		</div>
+				</b-col>
+			</b-row>
+		</b-container>
 
-		<div class="container-fluid copyright-main">
-			<div class="container copyright-container">
-				<div class="row copyright-row d-sm-flex align-items-center ml-3">
+		<b-container fluid class="copyright-main">
+			<b-container class="copyright-container">
+				<b-row class="copyright-row d-sm-flex align-items-center ml-3">
 					<router-link to="/">
-						<img class="mr-3" src="./assets/logodark.svg" alt="logo" />
+						<b-img :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
 					</router-link>
 					<p class="copy m-0">
 						© 2021 <a href="#" class="financie-link">www.financie.sk</a>
@@ -87,13 +98,11 @@
 							<a class="btn z-btn rounded-0">Pre školy</a>
 						</router-link>
 					</div>
-				</div>
-			</div>
-		</div>
+				</b-row>
+			</b-container>
+		</b-container>
 	</footer>
 </template>
-<script>
-</script>
 
 <style lang="scss" scoped>
 footer {
@@ -113,12 +122,20 @@ footer {
     color: #19283b;
   }
 
+  p {
+	  font-size: 14px;
+  }
+
   .copyright-row {
     background: #fbfbfc;
     min-height: 80px;
 
+	img {
+		vertical-align:baseline;
+	}
     .financie-link {
       color: #1eaee1;
+	  font-size: 14px;
     }
     @media (max-width: 500px) {
       .copy {

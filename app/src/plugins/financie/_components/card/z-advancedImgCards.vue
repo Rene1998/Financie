@@ -123,7 +123,7 @@ export default {
 <style lang="scss" scoped>
 .card {
 	img {
-		min-height: 210px;
+		max-height: 210px;
 	}
 
   	.card-title {

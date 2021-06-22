@@ -1,13 +1,11 @@
 <template>
-	<div class="row">
-		<div
-			v-for="advancedImgHomeCard in advancedImgHomeCards"
-			:key="advancedImgHomeCard.id"
-			class="col-12 col-lg-4 col-md-6">
-			<b-card img-alt="Image" tag="article" class="mb-2 border border-0 m-2">
+	<b-row>
+		<div class="col-12 col-lg-4 col-md-6"
+			v-for="advancedImgHomeCard in advancedImgHomeCards" :key="advancedImgHomeCard.id">
+			<b-card class="mb-2 border border-0 m-2" tag="article">
 				<router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
-					<b-card-img :src="cardImg(advancedImgHomeCard)"></b-card-img>
-					<b-card-title class="card-title-adv">
+					<b-card-img :src="cardImg(advancedImgHomeCard)" alt="Image"/>
+					<b-card-title class="d-flex align-items-center">
 						{{ advancedImgHomeCard.title }}
 					</b-card-title>
 					<b-card-text class="d-flex mb-5">
@@ -23,16 +21,15 @@
 								</h6>
 							</router-link>
 						</div>
-
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"></b-icon>
+									<b-icon icon="arrow-right"/>
 								</a>
 							</router-link>
 						</div>
 					</b-card-body>
-					<hr class="hb m-0" />
+					<hr class="hb m-0"/>
 				</div>
 				<div class="hb">
 					<b-card-body class="hb d-flex justify-content-between mr-2">
@@ -43,16 +40,15 @@
 								</h6>
 							</router-link>
 						</div>
-
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"></b-icon>
+									<b-icon icon="arrow-right"/>
 								</a>
 							</router-link>
 						</div>
 					</b-card-body>
-					<hr class="hb m-0" />
+					<hr class="hb m-0"/>
 				</div>
 				<div class="hb">
 					<b-card-body class="hb d-flex justify-content-between mr-2">
@@ -63,16 +59,15 @@
 								</h6>
 							</router-link>
 						</div>
-
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"></b-icon>
+									<b-icon icon="arrow-right"/>
 								</a>
 							</router-link>
 						</div>
 					</b-card-body>
-					<hr class="hb m-0" />
+					<hr class="hb m-0"/>
 				</div>
 				<div>
 					<b-card-body class="hb d-flex justify-content-between mr-2">
@@ -87,7 +82,7 @@
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"></b-icon>
+									<b-icon icon="arrow-right"/>
 								</a>
 							</router-link>
 						</div>
@@ -95,7 +90,7 @@
 				</div>
 			</b-card>
 		</div>
-	</div>
+	</b-row>
 </template>
 
 <script>
@@ -116,61 +111,56 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  img {
-    height: 210px;
-  }
+	img {
+		min-height: 210px;
+	}
 
-  .card-title {
-    margin-top: 17.5px;
-    color: #192949;
-    font-weight: bold;
-    font-style: normal;
-  }
+	.card-title {
+		min-height: 80px;
+		color: #192949;
+		font-weight: bold;
+		font-style: normal;
+	}
 
-  .div {
-    line-height: 24px;
-  }
+	.div {
+		line-height: 24px;
+	}
 }
 .card-text {
-  text-decoration: none;
-  color: #192949;
-  min-height: 2.5vw;
+	text-decoration: none;
+	color: #192949;
+	min-height: 3vw;
 }
 .card-body {
-  padding: 10px;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+	padding: 10px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 
-  h6 {
-    font-size: 16px;
-    line-height: 30px color #192949;
-    font-weight: 400;
-  }
+	h6 {
+		font-size: 16px;
+		line-height: 30px color #192949;
+		font-weight: 400;
+	}
 }
 
 a {
-  color: #19283B;
+	color: #19283B;
 
-  &:hover {
-    color: #1eaee1;
-    text-decoration: none !important;
-  }
+	&:hover {
+		color: #1eaee1;
+		text-decoration: none !important;
+	}
 }
 
 .hb:hover {
-  color: #1eaee1 !important;
+	color: #1eaee1 !important;
 
-  a {
-    color: #1eaee1;
-  }
+	a {
+		color: #1eaee1;
+	}
 
-  hr {
-    border-top: 1px solid #1eaee1 !important;
-  }
-}
-
-.card-title-adv {
-  color: black;
-  text-decoration: none;
+	hr {
+		border-top: 1px solid #1eaee1 !important;
+	}
 }
 </style>

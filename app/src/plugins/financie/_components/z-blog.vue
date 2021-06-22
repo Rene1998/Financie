@@ -1,16 +1,14 @@
 <template>
-	<div>
-		<div class="container">
-			<div class="row d-flex m-auto">
+		<b-container>
+			<b-row class="d-flex m-auto">
 				<h1 class="mt-5">
 					{{ blog.title }}
 				</h1>
-
-				<div v-html="blog.content" class="blog"></div>
-			</div>
-		</div>
-	</div>
+				<div class="blog" v-html="blog.content" />
+			</b-row>
+		</b-container>
 </template>
+
 <script>
 import apiService from '@/plugins/financie/common/apiService'
 export default {
@@ -49,37 +47,29 @@ export default {
 	}
 }
 </script>
+
 <style lang="scss" scoped>
 .blog {
-  font-family: Helvetica Neue;
-  font-style: normal;
-  color: #192949;
-  width: 100%;
-
-  img {
-    width: 100%;
-  }
+	font-family: Helvetica Neue;
+	font-style: normal;
+	color: #192949;
 }
 h1 {
-  margin-top: 30px;
-  color: #192949;
-  max-width: 800px;
-  justify-content: center;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 50px;
+	color: #192949;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
 }
 .b-icon {
-  cursor: pointer;
-  width: 28px;
-  height: 28px;
-  &:hover {
-    color: #1eaee1;
-  }
+	cursor: pointer;
+	width: 28px;
+	height: 28px;
+  	&:hover {
+    	color: #1eaee1;
+  	}
 }
 .row {
-  width: 100%;
+  	width: 100%;
 }
 </style>

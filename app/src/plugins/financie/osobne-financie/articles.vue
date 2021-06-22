@@ -1,20 +1,20 @@
 <template>
 	<div>
-		<div class="container">
-			<div class="row d-flex justify-content-center flex-column p-3">
-				<div class="col-12">
-					<router-link to="/home"
-					><a class="mb-5 d-flex align-items-center"
-					><b-icon class="mr-2" icon="arrow-left"></b-icon>Späť na hlavnú
-						stránku</a
-					></router-link
-					>
+		<b-container>
+			<b-row class="d-flex justify-content-center flex-column p-3">
+				<b-col cols="12">
+					<router-link to="/home">
+						<a class="mb-5 d-flex align-items-center">
+							<b-icon class="mr-2" icon="arrow-left"/>
+							Späť na hlavnú stránku
+						</a>
+					</router-link>
 					<h1 class="mt-5">{{ title }}</h1>
 					<p class="mt-5">{{ content }}</p>
-					<img :src="image" alt="" />
-				</div>
-			</div>
-		</div>
+					<img :src="image"/>
+				</b-col>
+			</b-row>
+		</b-container>
 	</div>
 </template>
 
@@ -48,37 +48,37 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  min-height: 100vh;
+  	min-height: 100vh;
 
-  h1 {
-    margin-top: 30px;
-    color: #192949;
-    max-width: 800px;
-    justify-content: center;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-  }
-  img {
-    min-width: 50%;
-  }
+	h1 {
+		margin-top: 30px;
+		color: #192949;
+		max-width: 800px;
+		justify-content: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 50px;
+	}
+	img {
+		min-width: 50%;
+	}
 
-  p {
-    font-family: Helvetica Neue;
-    font-style: normal;
-    color: #192949;
-  }
-  a {
-  color: #1eaee1;
-  text-decoration: none;
-  font-family: Helvetica Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  cursor: pointer;
-}
+	p {
+		font-family: Helvetica Neue;
+		font-style: normal;
+		color: #192949;
+	}
+	a {
+		color: #1eaee1;
+		text-decoration: none;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 24px;
+		cursor: pointer;
+	}
 }
 </style>

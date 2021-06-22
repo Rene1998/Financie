@@ -1,21 +1,22 @@
 <template>
 	<div>
-		<z-blog></z-blog>
-
-		<div class="container text-center mt-5 mb-5 hardcode-text">
-			<h4>Najlepšie produkty na našom trhu</h4>
-			<p>Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...</p>
-		</div>
-
-		<div class="container mb-5">
-			<z-imgCard></z-imgCard>
-		</div>
-
-		<div class="container">
-			<div class="row border-center mb-5">
-				<z-linkCards></z-linkCards>
-			</div>
-		</div>
+		<z-blog/>
+		<b-container class="text-center mt-5 mb-5 hardcode-text">
+			<h4>
+				Najlepšie produkty na našom trhu
+			</h4>
+			<p>
+				Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
+			</p>
+		</b-container>
+		<b-container class="mb-5">
+			<z-imgCard/>
+		</b-container>
+		<b-container>
+			<b-row class="border center mb-5">
+				<z-linkCards/>
+			</b-row>
+		</b-container>
 	</div>
 </template>
 <script>
@@ -27,6 +28,3 @@ export default {
 	}
 }
 </script>
-<style lang="scss" scoped>
-
-</style>

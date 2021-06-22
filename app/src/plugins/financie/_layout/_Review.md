@@ -1,8 +1,8 @@
 # 8.5 Rene
 [] dať prečo watcher, keď nič nerobí
-[] normálne názvy premenných a metód nie ugabuga
+[x] normálne názvy premenných a metód nie ugabuga
 [] použiť radšej early return / exit než if else
-[] vyhodiť premenné čo nič nerobia
+[x] vyhodiť premenné čo nič nerobia
 
 # 24.3. psycho
 [] bodkociarky :'(
