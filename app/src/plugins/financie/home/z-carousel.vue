@@ -1,28 +1,27 @@
 <template>
 	<div class="mb-5">
-		<div class="slider-info" style="display: flex; justify-content: center">
-			<p>Vedeli ste, že...</p>
+		<div class="slider-info d-flex justify-content-center">
+			<p>
+				Vedeli ste, že...
+			</p>
 		</div>
-		<div style="display: flex; justify-content: center">
+		<div class="d-flex justify-content-center">
 			<carousel
+				style="width: 800px"
 				:loop="true"
 				:autoplay="true"
 				:autoplayTimeout="5000"
-				:perPage="1"
-				style="width: 800px"
-			>
-				<slide
-					class="slide"
+				:perPage="1">
+				<slide class="slide text-center"
 					v-for="slider in sliders"
-					:key="slider.id"
-					style="text-align: center"
-				>
-					<h5>{{ slider.content }}</h5>
+					:key="slider.id">
+					<h5>
+						{{ slider.content }}
+					</h5>
 				</slide>
 			</carousel>
 		</div>
 		<hr />
-
 	</div>
 </template>
 

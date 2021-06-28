@@ -14,50 +14,55 @@
 						{{ advancedImgCard.content }}
 					</b-card-text>
 					<div class="hb">	
-						<b-card-body class="hb d-flex justify-content-between mr-2"
-							v-if="advancedImgCard.doc1_link != ''">
-							<div>
-								<h6 class="mb-0">{{ advancedImgCard.doc1_link }}</h6>
-							</div>
-							<div>
-								<a class="card-link" :href="advancedImgCard.doc1_link_download" >
-									<b-icon icon="download"></b-icon>
-								</a>
-								<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-									<b-icon icon="eye"> </b-icon>
-								</a>
-							</div>
-						</b-card-body>
-						<hr class="hb m-0" />
-					</div>
-						<div class="hb">
-							<b-card-body
-								class="d-flex justify-content-between mr-2"
-								v-if="advancedImgCard.doc2_link != ''">
-								<div class="m-0">
-									<h6 class="m-0 mb-0">{{ advancedImgCard.doc2_link }}</h6>
-								</div>
-								<div>
-									<a class="card-link" :href="advancedImgCard.doc1_link_download">
-										<b-icon icon="download"></b-icon>
-									</a>
-									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-										<b-icon icon="eye"></b-icon>
-									</a>
-								</div>
-							</b-card-body>
-							<hr class="hb m-0" />
+					<b-card-body class="hb d-flex justify-content-between mr-2"
+						v-if="advancedImgCard.doc1_link != ''">
+						<div>
+							<h6 class="mb-0">
+								{{ advancedImgCard.doc1_link }}
+							</h6>
 						</div>
-							<b-card-body class="hb d-flex justify-content-between mr-2">
-								<div>
-									<h6 class="mb-0">{{ advancedImgCard.video_link }}</h6>
-								</div>
-								<div>
-									<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
-										<b-icon icon="play-circle"></b-icon>
-									</a>
-								</div>
-							</b-card-body>
+						<div>
+							<a class="card-link" :href="advancedImgCard.doc1_link_download">
+								<b-icon icon="download"/>
+							</a>
+							<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+								<b-icon icon="eye"/>
+							</a>
+						</div>
+					</b-card-body>
+					<hr class="hb m-0" />
+				</div>
+				<div class="hb">
+					<b-card-body class="d-flex justify-content-between mr-2"
+						v-if="advancedImgCard.doc2_link != ''">
+						<div class="m-0">
+							<h6 class="m-0 mb-0">
+								{{ advancedImgCard.doc2_link }}
+							</h6>
+						</div>
+						<div>
+							<a class="card-link" :href="advancedImgCard.doc1_link_download">
+								<b-icon icon="download"/>
+							</a>
+							<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+								<b-icon icon="eye"/>
+							</a>
+						</div>
+					</b-card-body>
+					<hr class="hb m-0" />
+				</div>
+					<b-card-body class="hb d-flex justify-content-between mr-2">
+						<div>
+							<h6 class="mb-0">
+								{{ advancedImgCard.video_link }}
+							</h6>
+						</div>
+						<div>
+							<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
+								<b-icon icon="play-circle"/>
+							</a>
+						</div>
+					</b-card-body>
 				</div>
 			</b-card>
 		</div>
@@ -103,12 +108,12 @@ export default {
 		}
 	},
 	methods: {
-		async _loadCards (rocnik, page, kategoria) {
+		async _loadCards (year, page, category) {
 			try {
 				const cards = await apiService.get(`categories/slug/${page}`)
 				this.advancedImgCards = cards.year_category
-					.find((e) => e.slug == rocnik)
-					.advanced_img_cards.filter((e) => e.type == kategoria)
+					.find((e) => e.slug == year)
+					.advanced_img_cards.filter((e) => e.type == category)
 			} catch (e) {
 				console.error(e)
 			}

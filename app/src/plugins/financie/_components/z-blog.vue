@@ -4,7 +4,7 @@
 				<h1 class="mt-5">
 					{{ blog.title }}
 				</h1>
-				<div class="blog" v-html="blog.content" />
+				<div class="blog" v-html="blog.content"/>
 			</b-row>
 		</b-container>
 </template>
