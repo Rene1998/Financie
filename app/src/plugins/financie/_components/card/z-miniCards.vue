@@ -1,6 +1,7 @@
 <template>
     <b-row>
-        <b-card class="d-flex align-items-center flex-column text-center">
+        <b-col>
+          <b-card class="d-flex align-items-center flex-column text-center">
             <div class="d-flex align-items-center flex-column">
                 <b-img class="category-card mt-4" :src="cardIcon"/>
                 <b-card-title class="m-2">
@@ -13,7 +14,8 @@
                     Prečítať viac
                 </router-link>
             </div>
-        </b-card>
+          </b-card>
+        </b-col>
     </b-row>
 </template>
 

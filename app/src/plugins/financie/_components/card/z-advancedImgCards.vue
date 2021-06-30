@@ -1,6 +1,6 @@
 <template>
 	<b-row>
-		<div class="col-12 col-lg-4 col-md-6"
+		<b-col cols="12" lg="4" md="6"
 			v-for="advancedImgCard in advancedImgCards" :key="advancedImgCard.id">
 			<b-card class="mb-2 border border-0"
 				img-alt="Image"
@@ -65,7 +65,7 @@
 					</b-card-body>
 				</div>
 			</b-card>
-		</div>
+		</b-col>
 	</b-row>
 </template>
 
