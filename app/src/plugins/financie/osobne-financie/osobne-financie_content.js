@@ -196,7 +196,7 @@ const bankoveUctyAPlatobneKarty = {
 	defaultLink: 'bankove-ucty-a-platobne-karty'
 }
 const fintech = {
-	title: 'Technológie apenize',
+	title: 'Technológie a peniaze',
 	content: 'Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny',
 	image: '',
 	link: 'fintech',
