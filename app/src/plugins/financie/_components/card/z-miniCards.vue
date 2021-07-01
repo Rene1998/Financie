@@ -1,21 +1,21 @@
 <template>
     <b-row>
-        <b-col>
-          <b-card class="d-flex align-items-center flex-column text-center">
-            <div class="d-flex align-items-center flex-column">
-                <b-img class="category-card mt-4" :src="cardIcon"/>
-                <b-card-title class="m-2">
-                    {{ card.title }}
-                </b-card-title>
-                <b-card-text class="mt-3 height">
-                    {{ card.text }}
-                </b-card-text>
-                <router-link :to="'/osobne-financie/clanky/' + card.link">
-                    Prečítať viac
-                </router-link>
-            </div>
-          </b-card>
-        </b-col>
+      <b-col>
+        <b-card class="d-flex align-items-center flex-column text-center">
+          <div class="d-flex align-items-center flex-column">
+            <b-img class="category-card mt-4" :src="cardIcon"/>
+            <b-card-title class="d-flex align-items-center m-2">
+                {{ card.title }}
+            </b-card-title>
+            <b-card-text class="mt-3 height">
+                {{ card.text }}
+            </b-card-text>
+            <router-link :to="'/osobne-financie/clanky/' + card.link">
+                Prečítať viac
+            </router-link>
+          </div>
+        </b-card>
+      </b-col>
     </b-row>
 </template>
 
@@ -37,8 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    min-width: 270px;
-    min-height: 282px;
+    min-height: 280px;
     background: #ffffff;
     box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
 
@@ -49,28 +48,28 @@ export default {
     }
 
     .category-card{
-        max-width: 35.75px;
-        max-height: 48px;
-  }
+        max-width: 34px;
+        max-height: 34px;
+    }
 
-  .card-title {
-      font-size: 18px;
-      font-weight: 700;
-      min-height: 45px;
-  }
+    .card-title {
+        font-size: 18px;
+        font-weight: 700;
+        min-height: 45px;
+    }
 
-  .card-text {
-      font-weight: 400;
-      font-size: 14px;
-      min-height: 60px;
-  }
+    .card-text {
+        font-weight: 400;
+        font-size: 14px;
+        min-height: 60px;
+    }
 
-  a {
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 14px;
-      color: #1EAEE1;
-  }
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+        color: #1EAEE1;
+    }
 }
 
 .height {

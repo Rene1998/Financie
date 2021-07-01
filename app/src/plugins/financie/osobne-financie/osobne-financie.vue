@@ -49,12 +49,12 @@
 			<div class="d-none d-md-block d-lgblock d-xl-block">
 				<b-container class="mt-5 mb-5">
 					<b-row>
-						<div class="col-3"
+						<b-col lg="3" md="6"
 							:title="card.title"
 							:text="card.text"
 							v-for="card in cards" :key="card.id">
 							<z-miniCards :card="card"/>
-						</div>
+						</b-col>
 					</b-row>
 				</b-container>
 			</div>

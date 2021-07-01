@@ -3,21 +3,21 @@
 		<b-col class="p-0" cols="12" 
 			v-for="imgCard in imgCards"
 			:class="{'col-md-6':!single}" :key="imgCard.id">
-				<b-card no-body class="mb-2 border-0 p-4">
-						<b-img class="card-img-top pb-3" :src="imgCard.image.path"/>
-						<b-card-text class="timestamp">
-							{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
-						</b-card-text>
-						<b-card-title>
-							{{ imgCard.title }}
-						</b-card-title>
-						<b-card-text class="content">
-							{{ imgCard.content }}
-						</b-card-text>
-						<b-card-text class="pt-3">
-							<a href="#">Prečítať viac</a>
-						</b-card-text>
-				</b-card>
+			<b-card no-body class="mb-2 border-0 p-4">
+					<b-img class="card-img-top pb-3" :src="imgCard.image.path"/>
+					<b-card-text class="d-flex align-items-center timestamp">
+						{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
+					</b-card-text>
+					<b-card-title>
+						{{ imgCard.title }}
+					</b-card-title>
+					<b-card-text class="content">
+						{{ imgCard.content }}
+					</b-card-text>
+					<b-card-text class="pt-3">
+						<a href="#">Prečítať viac</a>
+					</b-card-text>
+			</b-card>
 		</b-col>
 	</b-row>
 </template>
@@ -75,20 +75,23 @@ export default {
 
 <style lang="scss" scoped>
 img {
-	max-height: 285px !important;
+	height: 285px;
 }
 .card-title{
 	font-size: 18px;
 	color: #192949;
 	font-weight: bold;
 	font-style: normal;
-	min-height: 2.5vw;
+	min-height: 3vw;
 }
 .content {
-	min-height: 5.5vw;
+	min-height: 6vw;
 }
 a {
 	color: #1eaee1;
 	text-decoration: none;
+}
+.timestamp {
+	min-height: 50px;
 }
 </style>
