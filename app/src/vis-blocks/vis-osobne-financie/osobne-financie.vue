@@ -197,7 +197,7 @@ export default {
 
 <style lang="scss" scoped>
 .byvanie-main {
-	background-image: url(/assets/byvanie-img.png);
+	background-image: url(./assets/byvanie-img.png);
 	max-height: 370px;
 	width: 100%;
 	background-position: center;

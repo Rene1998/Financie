@@ -183,7 +183,7 @@ export default {
 }
 
 .preskoly-main {
-	background-image: url(/assets/group1.png);
+	background-image: url(./assets/group1.png);
 	min-height: 500px;
 	width: 100%;
 	background-position: center;

@@ -154,7 +154,7 @@ export default {
 	margin-bottom: 80px;
 }
 .preskoly-wrapper {
-	background-image: url("/assets/Group 1.png");
+	background-image: url("./assets/Group 1.png");
 	min-height: 600px;
 	width: 100%;
 	background-position: top right;
