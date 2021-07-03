@@ -12,37 +12,37 @@ const routes = [
 		path: '/home',
 		name: 'home',
 		component: () =>
-			import('./plugins/financie/home/home.vue')
+			import('./vis-blocks/vis-home/home.vue')
 	},
 	{
 		path: '/pre-skoly/:slug',
 		name: 'pre-skoly',
 		component: () =>
-			import('./plugins/financie/pre-skoly/pre-skoly.vue')
+			import('./vis-blocks/vis-pre-skoly/pre-skoly.vue')
 	},
 	{
 		path: '/osobne-financie/:slug',
 		name: 'osobne-financie',
 		component: () =>
-			import('./plugins/financie/osobne-financie/osobne-financie.vue')
+			import('./vis-blocks/vis-osobne-financie/osobne-financie.vue')
 	},
 	{
 		path: '/osobne-financie/clanky/:slug',
 		name: 'clanky',
 		component: () =>
-			import('./plugins/financie/osobne-financie/articles.vue')
+			import('./vis-blocks/vis-osobne-financie/articles.vue')
 	},
 	{
 		path: '/osobne-financie/:slug/:slug',
 		name: 'osobne-financie',
 		component: () =>
-			import('./plugins/financie/osobne-financie/blog.vue')
+			import('./vis-blocks/vis-osobne-financie/blog.vue')
 	},
 	{
 		path: '/blog',
 		name: 'blog-page',
 		component: () =>
-			import('./plugins/financie/osobne-financie/blog.vue')
+			import('./vis-blocks/vis-osobne-financie/blog.vue')
 	}
 ]
 
