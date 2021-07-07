@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="preskoly-wrapper">
-			<b-container class="home-main d-flex align-items-center">
+			<div class="container home-main d-flex align-items-center">
 				<div>
 					<h1>
 						Prevedieme vás životnou
@@ -12,7 +12,7 @@
 						<br />vo vašom živote.
 					</p>
 				</div>
-			</b-container>
+			</div>
 		</div>
 		<div class="d-sm-block d-md-none">
 			<carousel class="carousel-wrapper" :perPage="1">
@@ -35,8 +35,8 @@
 			</carousel>
 		</div>
 		<div class="d-none d-md-block d-lg-block d-xl-block">
-			<b-container class="carousel-wrapper">
-				<b-row class="category-cards">
+			<div class="container carousel-wrapper">
+				<div class="row category-cards">
 					<div
 						class="col-4 mb-3"
 						:title="card.title"
@@ -53,14 +53,14 @@
 							</router-link>
 						</p>
 					</div>
-				</b-row>
-			</b-container>
+				</div>
+			</div>
 		</div>
 		<hr />
 
 		<z-carousel/>
 
-		<b-container class="text-center mt-5 mb-5 hardcode-text">
+		<div class="container text-center mt-5 mb-5 hardcode-text">
 			<h4>
 				Budeme pri vás, počas toho ako si plníte vaše sny a ciele
 			</h4>
@@ -68,31 +68,31 @@
 				Pripravili sme pre vás všetky možné finančné otázky a odpovede
 				<br />na ktoré móžete naraziť vo vašom živote.
 			</p>
-		</b-container>
+		</div>
 
-		<b-container>
+		<div class="container">
 			<z-advancedImgHomeCards/>
-		</b-container>
+		</div>
 
-		<b-container>
-			<b-row>
-				<b-col>
+		<div class="container">
+			<div class="row">
+				<div class="col">
 					<z-showArticles/>
-				</b-col>
-			</b-row>
-		</b-container>
+				</div>
+			</div>
+		</div>
 
-		<b-container>
-			<b-row class="mb-5">
-				<b-col cols="12" md="6">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col" cols="12" md="6">
 					<z-imgCard :single='true'/>
-				</b-col>
+				</div>
 				<span class="divider border-left"></span>
-				<b-col class="pl-2 pl-md-5 d-flex align-items-end">
+				<div class="col pl-2 pl-md-5 d-flex align-items-end">
 					<z-textCard/>
-				</b-col>
-			</b-row>
-		</b-container>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
