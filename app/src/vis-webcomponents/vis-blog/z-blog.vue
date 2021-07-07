@@ -1,12 +1,12 @@
 <template>
-		<b-container>
-			<b-row class="d-flex m-auto">
+		<div class="container">
+			<div class="row d-flex m-auto">
 				<h1 class="mt-5">
 					{{ blog.title }}
 				</h1>
 				<div class="blog" v-html="blog.content"/>
-			</b-row>
-		</b-container>
+			</div>
+		</div>
 </template>
 
 <script>

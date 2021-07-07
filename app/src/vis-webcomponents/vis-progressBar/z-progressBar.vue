@@ -1,7 +1,7 @@
 <template>
-	<b-container fluid class="progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}" >
-		<b-container>
-			<b-row class="progressBar-row d-flex m-0">
+	<div class="progressBar container-fluid" :class="{isSticky: pageScrollBarPositon > progressBar}" >
+		<div class="container">
+			<div class="progressBar-row row d-flex m-0">
 				<a class="z-btn btn rounded-0"
 					@click="scrollTo(vedeliSte)"
 					:class="{
@@ -45,9 +45,9 @@
 				<a href="" class="z-btn btn rounded-0">
 					Kvíz
 				</a>
-			</b-row>
-		</b-container>
-	</b-container>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>

@@ -1,53 +1,53 @@
 <template>
-	<b-container>
-		<b-row class="mb-5">
-			<b-col>
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col">
 				<div class="d-flex align-items-center mb-5">
 					<b-icon icon="link45deg"/>
 					<h6 class="m-0">Užitočné linky</h6>
 				</div>
-				<b-card no-body
+				<div class="card no-body" 
 					v-for="link1Card in link1Cards" :key="link1Card.id">
-					<b-card-text class="timestamp mt-4">
+					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link1Card.time}} min
-					</b-card-text>
-					<b-card-title>
+					</p>
+					<h5>
 						{{ link1Card.content }}
-					</b-card-title>
-				</b-card>
-			</b-col>
-			<b-col>
+					</h5>
+				</div>
+			</div>
+			<div class="col">
 				<div class="d-flex align-items-center mb-5">
 					<b-icon icon="question-circle-fill"></b-icon>
 					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
 				</div>
-				<b-card no-body
+				<div class="card no-body" 
 					v-for="link2Card in link2Cards" :key="link2Card.id">
-					<b-card-text class="timestamp mt-4">
+					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link2Card.time}} min
-					</b-card-text>
-					<b-card-title>
+					</p>
+					<h5>
 						{{ link2Card.content }}
-					</b-card-title>
-				</b-card>
-			</b-col>
-			<b-col>
+					</h5>
+				</div>
+			</div>
+			<div class="col">
 				<div class="d-flex align-items-center mb-5">
 					<b-icon icon="calculator-fill"></b-icon>
 					<h6 class="m-0">Kalkulačky a návody</h6>
 				</div>
-				<b-card no-body
+				<div class="card no-body" 
 					v-for="link3Card in link3Cards" :key="link3Card.id">
-					<b-card-text class="timestamp mt-4">
+					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link3Card.time}} min
-					</b-card-text>
-					<b-card-title>
+					</p>
+					<h5>
 						{{ link3Card.content }}
-					</b-card-title>
-				</b-card>
-			</b-col>
-		</b-row>
-	</b-container>
+					</h5>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -94,7 +94,7 @@ export default {
 		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
 	}
 
-	.card-title {
+	h5 {
 		font-size: 18px;
 		font-weight: 700;
 
