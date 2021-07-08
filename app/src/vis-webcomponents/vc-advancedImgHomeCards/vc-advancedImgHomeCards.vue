@@ -24,7 +24,7 @@
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"/>
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</router-link>
 						</div>
@@ -43,7 +43,7 @@
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"/>
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</router-link>
 						</div>
@@ -62,7 +62,7 @@
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"/>
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</router-link>
 						</div>
@@ -82,7 +82,7 @@
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link">
 								<a class="blue card-link">
-									<b-icon icon="arrow-right"/>
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</router-link>
 						</div>

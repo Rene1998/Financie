@@ -3,7 +3,7 @@
 		<div class="row mb-5">
 			<div class="col">
 				<div class="d-flex align-items-center mb-5">
-					<b-icon icon="link45deg"/>
+					<i class="bi bi-link-45deg icon"/>
 					<h6 class="m-0">Užitočné linky</h6>
 				</div>
 				<div class="card" 
@@ -18,7 +18,7 @@
 			</div>
 			<div class="col">
 				<div class="d-flex align-items-center mb-5">
-					<b-icon icon="question-circle-fill"></b-icon>
+					<i class="bi bi-question-circle-fill icon"/>
 					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
 				</div>
 				<div class="card" 
@@ -33,7 +33,7 @@
 			</div>
 			<div class="col">
 				<div class="d-flex align-items-center mb-5">
-					<b-icon icon="calculator-fill"></b-icon>
+					<i class="bi bi-calculator-fill icon"/>
 					<h6 class="m-0">Kalkulačky a návody</h6>
 				</div>
 				<div class="card" 
@@ -104,10 +104,8 @@ export default {
 		}
 	}
 }
-.b-icon {
+.icon {
 	cursor: pointer;
-	min-width: 28px;
-	min-height: 28px;
 
 	&:hover {
 		color: #1eaee1;

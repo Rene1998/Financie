@@ -5,7 +5,7 @@
 				<div class="col-12">
 					<router-link to="/home">
 						<a class="mb-5 d-flex align-items-center">
-							<b-icon class="mr-2" icon="arrow-left"/>
+							<i class="bi bi-arrow-left"/>
 							Späť na hlavnú stránku
 						</a>
 						<h1 class="mt-5">{{ title }}</h1>

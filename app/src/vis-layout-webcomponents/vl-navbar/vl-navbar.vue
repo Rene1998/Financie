@@ -4,7 +4,7 @@
             <b-navbar-nav class="mr-auto d-flex aling-items-center">
                 <b-navbar-nav class="d-none align-items-center">
                     <b-nav-item>
-                      <b-icon icon="list"></b-icon>
+                        <i class="bi bi-list"/>
                     </b-nav-item>
                 </b-navbar-nav>
                 <router-link to="/">
@@ -39,7 +39,7 @@
                 <hr />
                 <b-navbar-nav>
                     <b-nav-item>
-                        <b-icon icon="search"></b-icon>
+                        <i class="bi bi-search"/>
                     </b-nav-item>
                 </b-navbar-nav>
             </b-navbar-nav>

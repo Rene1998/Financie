@@ -22,10 +22,10 @@
 								</div>
 								<div>
 									<a class="card-link" :href="advancedImgCard.doc1_link_download">
-										<b-icon icon="download"/>
+										<i class="bi bi-download"/>
 									</a>
 									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-										<b-icon icon="eye"/>
+										<i class="bi bi-eye"/>
 									</a>
 								</div>
 							</div>
@@ -43,10 +43,10 @@
 								</div>
 								<div>
 									<a class="card-link" :href="advancedImgCard.doc1_link_download">
-										<b-icon icon="download"/>
+										<i class="bi bi-download"/>
 									</a>
 									<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
-										<b-icon icon="eye"/>
+										<i class="bi bi-eye"/>
 									</a>
 								</div>
 							</div>
@@ -62,7 +62,7 @@
 							</div>
 							<div>
 								<a class="card-link" target="_blank" :href="advancedImgCard.video_show">
-									<b-icon icon="play-circle"/>
+									<i class="bi bi-play-circle"/>
 								</a>
 							</div>
 						</div>
