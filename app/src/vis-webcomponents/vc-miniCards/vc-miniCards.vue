@@ -1,22 +1,22 @@
 <template>
-    <b-row>
-      <b-col>
-        <b-card class="d-flex align-items-center flex-column text-center">
-          <div class="d-flex align-items-center flex-column">
-            <b-img class="category-card mt-4" :src="cardIcon"/>
-            <b-card-title class="d-flex align-items-center m-2">
-                {{ card.title }}
-            </b-card-title>
-            <b-card-text class="mt-3 height">
-                {{ card.text }}
-            </b-card-text>
-            <router-link :to="'/osobne-financie/clanky/' + card.link">
-                Prečítať viac
-            </router-link>
-          </div>
-        </b-card>
-      </b-col>
-    </b-row>
+    <div class="row">
+        <div class="col">
+            <div class="card d-flex align-items-center flex-column text-center">
+                <div class="card-body d-flex align-items-center flex-column">
+                    <img class="category-card mt-4" :src="cardIcon"/>
+                    <h4 class="card-title d-flex align-items-center m-2">
+                        {{ card.title }}
+                    </h4>
+                    <p class="card-text mt-3 height">
+                        {{ card.text }}
+                    </p>
+                    <router-link :to="'/osobne-financie/clanky/' + card.link">
+                        Prečítať viac
+                    </router-link>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>

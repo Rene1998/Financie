@@ -43,7 +43,7 @@ export default {
 		}
 	},
 	components: {
-		'z-imgCard': () => import('@/vis-webcomponents/vis-imgCard/z-imgCard.vue')
+		'vc-imgCard': () => import('@/vis-webcomponents/vc-imgCard/vc-imgCard.vue')
 	}
 }
 </script>

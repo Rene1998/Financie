@@ -10,7 +10,7 @@
 <script>
 export default {
 	components: {
-		default: () => import('./vis-layout-webcomponents/vis-default/default.vue')
+		default: () => import('./vis-layout-webcomponents/vl-default/default.vue')
 	}
 }
 </script>

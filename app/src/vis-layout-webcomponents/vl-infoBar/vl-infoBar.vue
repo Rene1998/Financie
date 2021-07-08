@@ -1,15 +1,15 @@
 <template>
-	<b-container fluid class="d-flex justify-content-center text-center"
+	<div class="container-fluid d-flex justify-content-center text-center"
 		:class="{'pre-skoly': page}">
-		<b-row class="d-flex flex-sm-col">
+		<div class="row d-flex flex-sm-col">
 			<p class="d-flex align-items-center justify-content-center mt-0 mb-0">
 				Informácie ktoré vám pomôžu k správnemu investovaniu.
 				<a class="d-flex justify-content-center" target="blank" href="">
 					Sledujte naše video podcasty
 				</a>
 			</p>
-		</b-row>
-	</b-container>
+		</div>
+	</div>
 </template>
 
 <script>

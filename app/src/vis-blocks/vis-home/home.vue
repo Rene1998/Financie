@@ -25,10 +25,9 @@
 					:key="card.title">
 					<p>
 						<router-link :to="'/osobne-financie/' + card.link">
-							<z-homeCategoryCard
+							<vc-homeCategoryCard
 								class="mt-2"
-								:card="card"
-							></z-homeCategoryCard>
+								:card="card"/>
 						</router-link>
 					</p>
 				</slide>
@@ -46,10 +45,9 @@
 						:key="card.title">
 						<p>
 							<router-link :to="'/osobne-financie/' + card.link">
-								<z-homeCategoryCard
+								<vc-homeCategoryCard
 									class="mt-2"
-									:card="card"
-								></z-homeCategoryCard>
+									:card="card"/>
 							</router-link>
 						</p>
 					</div>
@@ -58,7 +56,7 @@
 		</div>
 		<hr />
 
-		<z-carousel/>
+		<vc-carousel/>
 
 		<div class="container text-center mt-5 mb-5 hardcode-text">
 			<h4>
@@ -71,25 +69,25 @@
 		</div>
 
 		<div class="container">
-			<z-advancedImgHomeCards/>
+			<vc-advancedImgHomeCards/>
 		</div>
 
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<z-showArticles/>
+					<vc-showArticles/>
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="row mb-5">
-				<div class="col" cols="12" md="6">
-					<z-imgCard :single='true'/>
+				<div class="col-12 col-md-6">
+					<vc-imgCard :single='true'/>
 				</div>
 				<span class="divider border-left"></span>
 				<div class="col pl-2 pl-md-5 d-flex align-items-end">
-					<z-textCard/>
+					<vc-textCard/>
 				</div>
 			</div>
 		</div>
@@ -102,12 +100,12 @@ export default {
 	components: {
 		Carousel,
 		Slide,
-		'z-homeCategoryCard': () => import('@/vis-webcomponents/vis-homeCategoryCard/z-homeCategoryCard.vue'),
-		'z-carousel': () => import('@/vis-webcomponents/vis-carousel/z-carousel.vue'),
-		'z-showArticles': () => import('@/vis-webcomponents/vis-showArticles/z-showArticles.vue'),
-		'z-imgCard': () => import('@/vis-webcomponents/vis-imgCard/z-imgCard.vue'),
-		'z-textCard': () => import('@/vis-webcomponents/vis-textCard/z-textCard.vue'),
-		'z-advancedImgHomeCards': () => import('@/vis-webcomponents/vis-advancedImgHomeCards/z-advancedImgHomeCards.vue')
+		'vc-homeCategoryCard': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue'),
+		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
+		'vc-showArticles': () => import('@/vis-webcomponents/vc-showArticles/vc-showArticles.vue'),
+		'vc-imgCard': () => import('@/vis-webcomponents/vc-imgCard/vc-imgCard.vue'),
+		'vc-textCard': () => import('@/vis-webcomponents/vc-textCard/vc-textCard.vue'),
+		'vc-advancedImgHomeCards': () => import('@/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue')
 	},
 	data () {
 		return {

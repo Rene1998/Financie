@@ -1,24 +1,24 @@
 <template>
-	<b-row>
-		<b-col cols="12">
-			<b-card class="mb-3"
+	<div class="row">
+		<div class="col-12">
+			<div class="card mb-5"
 				v-for="textCard in textCards" :key="textCard.id">
-				<div class="p-2">
-					<b-card-text class="timestamp mb-4">
+				<div class="card-body p-2">
+					<p class="card-text timestamp mb-4">
 						{{posted_at}} • zaberie to iba {{textCard.time}} min
-					</b-card-text>
-					<b-card-title class="mb-4">
+					</p>
+					<h4 class="card-title mb-4">
 						{{textCard.content}}
-					</b-card-title>
-					<b-card-text>
+					</h4>
+					<p class="card-text">
 						<a href="#">
 							Prečítať viac
 						</a>
-					</b-card-text>
+					</p>
 				</div>
-			</b-card>
-		</b-col>
-	</b-row>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>

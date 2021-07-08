@@ -1,13 +1,14 @@
 <template>
 	<div>
-		<b-container fluid class="byvanie-main">
-			<b-container>
+		<div class="container-fluid byvanie-main">
+			<div class="container">
 				<div class="byvanie-welcome-text">
-					<b-col class="d-flex flex-column mb-5 b-arrow">
+					<div class="col d-flex flex-column mb-5 b-arrow">
 						<router-link to="/home">
 							<a class="mb-5 d-flex align-items-center">
 								<b-icon class="mr-2" icon="arrow-left"/>
-								Späť na hlavnú stránku</a>
+								Späť na hlavnú stránku
+							</a>
 						</router-link>
 						<h1 mt-5>{{ title }}</h1>
 						<p class="mt-4 content">
@@ -16,18 +17,18 @@
 						<div class="m-5">
 
 						</div>
-					</b-col>
+					</div>
 				</div>
-			</b-container>
-		</b-container>
+			</div>
+		</div>
 		<div id="progressBar">
-			<z-progressBar/>
+			<vc-progressBar/>
 		</div>
 		<div id="vedeliSte">
-			<z-carousel/>
+			<vc-carousel/>
 		</div>
 		<div id="zakladneInformacie">
-			<b-container class="text-center mt-5 mb-5 hardcode-text">
+			<div class="container text-center mt-5 mb-5 hardcode-text">
 				<h4>
 					Základné články
 				</h4>
@@ -35,32 +36,32 @@
 					Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
 					na ktoré môžete naraziť vo vašom živote.
 				</p>
-			</b-container>
+			</div>
 			<div class="d-sm-block d-md-none">
 				<carousel class="carousel-wrapper" :perPage="1">
 					<slide
 						:title="card.title"
 						:text="card.text"
 						v-for="card in cards" :key="card.id">
-						<z-miniCards :card="card"/>
+						<vc-miniCards :card="card"/>
 					</slide>
 				</carousel>
 			</div>
 			<div class="d-none d-md-block d-lgblock d-xl-block">
-				<b-container class="mt-5 mb-5">
-					<b-row>
-						<b-col lg="3" md="6"
+				<div class="container mt-5 mb-5">
+					<div class="row">
+						<div class="col col-lg-3 col-md-6"
 							:title="card.title"
 							:text="card.text"
 							v-for="card in cards" :key="card.id">
-							<z-miniCards :card="card"/>
-						</b-col>
-					</b-row>
-				</b-container>
+							<vc-miniCards :card="card"/>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="najnovsieClanky">
-			<b-container class="text-center mt-5 mb-5 hardcode-text">
+			<div class="container text-center mt-5 mb-5 hardcode-text">
 				<h4>
 					Najnovšie články o hypotekách
 				</h4>
@@ -68,30 +69,30 @@
 					Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
 					na ktoré môžete naraziť vo vašom živote.
 				</p>
-			</b-container>
+			</div>
 		</div>
-		<b-container>
-			<z-blogCards/>
-		</b-container>
+		<div class="container">
+			<vc-blogCards/>
+		</div>
 		<div id="najnovsieProdukty">
-			<b-container class="text-center mt-5 mb-5 hardcode-text">
+			<div class="container text-center mt-5 mb-5 hardcode-text">
 				<h4>
 					Najlepšie produkty na našom trhu
 				</h4>
 				<p>
 					Pripravili sme pre vás tie najlepšie produkty v ramci hypotek...
 				</p>
-			</b-container>
-			<b-container class="mb-5">
-				<z-imgCard/>
-			</b-container>
+			</div>
+			<div class="container mb-5">
+				<vc-imgCard/>
+			</div>
 		</div>
 		<div id="uzitocneLinky">
-			<b-container>
-				<b-row class="border-center mb-5">
-					<z-linkCards/>
-				</b-row>
-			</b-container>
+			<div class="container">
+				<div class="row border-center mb-5">
+					<vc-linkCards/>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -103,12 +104,12 @@ export default {
 	components: {
 		Carousel,
 		Slide,
-		'z-carousel': () => import('@/vis-webcomponents/vis-carousel/z-carousel.vue'),
-		'z-miniCards': () => import('@/vis-webcomponents/vis-miniCards/z-miniCards.vue'),
-		'z-linkCards': () => import('@/vis-webcomponents/vis-linkCards/z-linkCards.vue'),
-		'z-progressBar': () => import('@/vis-webcomponents/vis-progressBar/z-progressBar.vue'),
-		'z-blogCards': () => import('@/vis-webcomponents/vis-blogCards/z-blogCards.vue'),
-		'z-imgCard': () => import('@/vis-webcomponents/vis-imgCard/z-imgCard.vue')
+		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
+		'vc-miniCards': () => import('@/vis-webcomponents/vc-miniCards/vc-miniCards.vue'),
+		'vc-linkCards': () => import('@/vis-webcomponents/vc-linkCards/vc-linkCards.vue'),
+		'vc-progressBar': () => import('@/vis-webcomponents/vc-progressBar/vc-progressBar.vue'),
+		'vc-blogCards': () => import('@/vis-webcomponents/vc-blogCards/vc-blogCards.vue'),
+		'vc-imgCard': () => import('@/vis-webcomponents/vc-imgCard/vc-imgCard.vue')
 	},
 	watch: {
 		'$route.params.slug': {

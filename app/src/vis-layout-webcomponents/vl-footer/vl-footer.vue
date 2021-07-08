@@ -1,8 +1,8 @@
 <template>
 	<footer>
-		<b-container>
-			<b-row class="footer-row d-flex align-content-center pt-3 ml-3">
-				<b-col cols="12" lg="3" sm="6">
+		<div class="container">
+			<div class="row footer-row d-flex align-content-center pt-3 ml-3">
+				<div class="col-12 col-lg-3 col-sm-6">
 					<h5 class="text-left">
 						Životné situácie
 					</h5>
@@ -26,8 +26,8 @@
 							<router-link to="/osobne-financie/exekucia">Exekúcia</router-link>
 						</li>
 					</ul>
-				</b-col>
-				<b-col cols="12" lg="3" sm="6">
+				</div>
+				<div class="col-12 col-lg-3 col-sm-6">
 					<h5 class="text-left">Finančné produkty</h5>
 					<ul class="pl-0 list-unstyled">
 						<li class="footer-li">
@@ -49,8 +49,8 @@
 							<router-link to="/osobne-financie/fintech">Fintech</router-link>
 						</li>
 					</ul>
-				</b-col>
-				<b-col cols="3" class="d-none d-lg-block">
+				</div>
+				<div class="col-3 d-none d-lg-block">
 					<h5 class="text-left">Pomôcky</h5>
 					<ul class="pl-0 list-unstyled">
 						<li class="footer-li">
@@ -66,8 +66,8 @@
 							<a href="#!">Slovník </a>
 						</li>
 					</ul>
-				</b-col>
-				<b-col cols="3" class="d-none d-lg-block">
+				</div>
+				<div class="col-3 d-none d-lg-block">
 					<h5 class="text-left">Životné situácie</h5>
 					<ul class="pl-0 list-unstyled">
 						<li class="footer-li">
@@ -77,13 +77,13 @@
 							<a href="#!">Kontakt</a>
 						</li>
 					</ul>
-				</b-col>
-			</b-row>
-		</b-container>
+				</div>
+			</div>
+		</div>
 
-		<b-container fluid class="copyright-main">
-			<b-container class="copyright-container">
-				<b-row class="copyright-row d-sm-flex align-items-center ml-3">
+		<div class="container-fluid copyright-main">
+			<div class="container copyright-container">
+				<div class="row copyright-row d-sm-flex align-items-center ml-3">
 					<router-link to="/">
 						<b-img :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
 					</router-link>
@@ -98,9 +98,9 @@
 							<a class="btn z-btn rounded-0">Pre školy</a>
 						</router-link>
 					</div>
-				</b-row>
-			</b-container>
-		</b-container>
+				</div>
+			</div>
+		</div>
 	</footer>
 </template>
 

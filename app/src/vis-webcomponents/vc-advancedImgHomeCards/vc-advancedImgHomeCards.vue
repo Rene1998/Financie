@@ -1,19 +1,19 @@
 <template>
-	<b-row>
+	<div class="row">
 		<div class="col-12 col-lg-4 col-md-6"
 			v-for="advancedImgHomeCard in advancedImgHomeCards" :key="advancedImgHomeCard.id">
-			<b-card class="mb-2 border border-0 m-2" tag="article">
+			<div class="card mb-2 border border-0 m-2" tag="article">
 				<router-link :to="'/osobne-financie/' + advancedImgHomeCard.link">
-					<b-card-img :src="cardImg(advancedImgHomeCard)" alt="Image"/>
-					<b-card-title class="d-flex align-items-center">
+					<img class="card-img-top" :src="cardImg(advancedImgHomeCard)" alt="Image"/>
+					<h4 class="card-title d-flex align-items-center">
 						{{ advancedImgHomeCard.title }}
-					</b-card-title>
-					<b-card-text class="d-flex mb-5">
+					</h4>
+					<p class="card-text d-flex mb-5">
 						{{ advancedImgHomeCard.content }}
-					</b-card-text>
+					</p>
 				</router-link>
 				<div class="hb">
-					<b-card-body class="hb d-flex justify-content-between mr-2">
+					<div class="card-body hb d-flex justify-content-between mr-2">
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
 								<h6 class="mb-0">
@@ -28,11 +28,11 @@
 								</a>
 							</router-link>
 						</div>
-					</b-card-body>
+					</div>
 					<hr class="hb m-0"/>
 				</div>
 				<div class="hb">
-					<b-card-body class="hb d-flex justify-content-between mr-2">
+					<div class="card-body hb d-flex justify-content-between mr-2">
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
 								<h6 class="mb-0">
@@ -47,11 +47,11 @@
 								</a>
 							</router-link>
 						</div>
-					</b-card-body>
+					</div>
 					<hr class="hb m-0"/>
 				</div>
 				<div class="hb">
-					<b-card-body class="hb d-flex justify-content-between mr-2">
+					<div class="card-body hb d-flex justify-content-between mr-2">
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
 								<h6 class="mb-0">
@@ -66,11 +66,11 @@
 								</a>
 							</router-link>
 						</div>
-					</b-card-body>
+					</div>
 					<hr class="hb m-0"/>
 				</div>
 				<div>
-					<b-card-body class="hb d-flex justify-content-between mr-2">
+					<div class="card-body hb d-flex justify-content-between mr-2">
 						<div>
 							<router-link :to="'/osobne-financie/clanky/' + advancedImgHomeCard.link4">
 								<h6 class="mb-0">
@@ -86,11 +86,11 @@
 								</a>
 							</router-link>
 						</div>
-					</b-card-body>
+					</div>
 				</div>
-			</b-card>
+			</div>
 		</div>
-	</b-row>
+	</div>
 </template>
 
 <script>

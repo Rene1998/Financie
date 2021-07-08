@@ -1,20 +1,20 @@
 <template>
-	<b-row>
-		<b-card no-body class="mb-5 col-12 col-lg-4 col-md-6 col-sm-6" style="min-width: 18.7rem;"
+	<div class="row">
+		<div class="card col-12 col-lg-4 col-md-6 col-sm-6 mb-5" style="min-width: 18.7rem;"
 			v-for="blog in blogCards" :key="blog.id">
-			<b-img class="card-img-top pb-4" :src="blog.thumbnail_image.path"/>
-			<b-card-text class="timestamp mt-0">
+			<img class="card-img-top pb-4" :src="blog.thumbnail_image.path"/>
+			<p class="timestamp mt-0">
 				{{posted_at}} • zaberie to iba {{blog.time}} min 
-			</b-card-text>
-			<b-card-title class="mb-3">
+			</p>
+			<h4 class="card-title mb-3">
 				{{blog.title}}
-			</b-card-title>
-			<b-card-text class="blog mt-0 mb-4" v-html="blog.short_content"/>
+			</h4>
+			<div class="blog mt-0 mb-4" v-html="blog.short_content"/>
 			<router-link class="link" :to="rightPage + '/' + blog.slug">
 				Prečítať viac
 			</router-link>
-		</b-card>
-	</b-row>
+		</div>
+	</div>
 </template>
 
 <script>

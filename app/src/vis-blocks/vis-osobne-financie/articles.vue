@@ -1,20 +1,20 @@
 <template>
 	<div>
-		<b-container>
-			<b-row class="d-flex justify-content-center flex-column p-3">
-				<b-col cols="12">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
 					<router-link to="/home">
 						<a class="mb-5 d-flex align-items-center">
 							<b-icon class="mr-2" icon="arrow-left"/>
 							Späť na hlavnú stránku
 						</a>
+						<h1 class="mt-5">{{ title }}</h1>
+						<p class="mt-5">{{ content }}</p>
+						<img :src="image"/>
 					</router-link>
-					<h1 class="mt-5">{{ title }}</h1>
-					<p class="mt-5">{{ content }}</p>
-					<img :src="image"/>
-				</b-col>
-			</b-row>
-		</b-container>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 

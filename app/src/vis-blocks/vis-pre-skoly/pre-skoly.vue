@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<b-container fluid class="preskoly-main">
-			<b-container>
+		<div class="container-fluid preskoly-main">
+			<div class="container">
 				<div class="preskoly-welcome-text mb-5">
 					<h1 class="title">
 						{{ title }}
@@ -29,8 +29,8 @@
 						</router-link>
 					</p>
 				</div>
-			</b-container>
-		</b-container>
+			</div>
+		</div>
 		<div class="d-block d-sm-block d-md-none">
 			<carousel class="carousel-wrapper" :perPage="1">
 				<slide class="slide"
@@ -38,31 +38,31 @@
 					:img="card.img"
 					:link="card.link"
 					v-for="card in skola" :key="card.id">
-					<b-col cols="10" offset="1" 
+					<div class="col-10 offset-1"
 						v-on:click="changeCardContent(card.link)">
-						<z-categoryCard
+						<vc-categoryCard
 							:card="card"
 							:activeCard="activeCard"/>
-					</b-col>
+					</div>
 				</slide>
 			</carousel>
 		</div>
-		<b-container class="carousel-wrapper">
-			<b-row>
+		<div class="container carousel-wrapper">
+			<div class="row">
 				<div class="col-3 d-none d-md-block d-lg-block d-xl-block"
 					:title="card.title"
 					:img="card.img"
 					:link="card.link"
 					v-for="card in skola" :key="card.id">
 					<div v-on:click="changeCardContent(card.link)">
-						<z-categoryCard
+						<vc-categoryCard
 							:card="card"
 							:activeCard="activeCard"/>
 					</div>
 				</div>
-			</b-row>
-		</b-container>
-		<b-container class="text-center mt-5 mb-5 hardcode-text">
+			</div>
+		</div>
+		<div class="container text-center mt-5 mb-5 hardcode-text">
 			<h4>
 				Boli by sme radi, aby už na základnej škole mali deti finančné
 				vzdelávanie.
@@ -72,9 +72,9 @@
 				pripravili príručky, cvičenia a videá, ktoré vás
 				<br />prevedú finančným vzdelaním.
 			</p>
-		</b-container>
+		</div>
 		<div class="switch-wrapper mb-5">
-			<b-button-group>
+			<div class="btn-group">
 				<button class="switch-button p-0"
 					:class="{ switchIsActive: active }"
 					@click="
@@ -89,36 +89,36 @@
 						active = !active">
 					Videá
 				</button>
-			</b-button-group>
+			</div>
 		</div>
-		<b-container>
-			<z-advancedImgCards
+		<div class="container">
+			<vc-advancedImgCards
 				:cardContent="cardContent"
 				:cardCategory="cardCategory"/>
-		</b-container>
-		<b-container class="text-center mb-5">
-			<b-button variant="primary" class="download-all mb-5">
+		</div>
+		<div class="container text-center mb-5">
+			<button class="btn-primary download-all mb-5">
 				Stiahnuť všetky dokumenty
-			</b-button>
-		</b-container>
-		<b-container>
-			<b-row>
-				<b-col>
-					<z-showArticles/>
-				</b-col>
-			</b-row>
-		</b-container>
-		<b-container>
-			<b-row class="mb-5">
-				<b-col cols="12" md="6">
-					<z-imgCard :single='true'/>
-				</b-col>
+			</button>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<vc-showArticles/>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-12 col-md-6">
+					<vc-imgCard :single='true'/>
+				</div>
 				<span class="divider border-left"></span>
-				<b-col class="d-flex align-items-end pl-2 pl-md-5">
-					<z-textCard/>
-				</b-col>
-			</b-row>
-		</b-container>
+				<div class="col d-flex align-items-end pl-2 pl-md-5">
+					<vc-textCard/>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -167,11 +167,11 @@ export default {
 	components: {
 		Carousel,
 		Slide,
-		'z-advancedImgCards': () => import('@/vis-webcomponents/vis-advancedImgCards/z-advancedImgCards.vue'),
-		'z-categoryCard': () => import('@/vis-webcomponents/vis-categoryCard/z-categoryCard.vue'),
-		'z-imgCard': () => import('@/vis-webcomponents/vis-imgCard/z-imgCard.vue'),
-		'z-textCard': () => import('@/vis-webcomponents/vis-textCard/z-textCard.vue'),
-		'z-showArticles': () => import('@/vis-webcomponents/vis-showArticles/z-showArticles.vue')
+		'vc-advancedImgCards': () => import('@/vis-webcomponents/vc-advancedImgCards/vc-advancedImgCards.vue'),
+		'vc-categoryCard': () => import('@/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue'),
+		'vc-imgCard': () => import('@/vis-webcomponents/vc-imgCard/vc-imgCard.vue'),
+		'vc-textCard': () => import('@/vis-webcomponents/vc-textCard/vc-textCard.vue'),
+		'vc-showArticles': () => import('@/vis-webcomponents/vc-showArticles/vc-showArticles.vue')
 	}
 }
 </script>

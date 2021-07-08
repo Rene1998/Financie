@@ -6,7 +6,7 @@
 					<b-icon icon="link45deg"/>
 					<h6 class="m-0">Užitočné linky</h6>
 				</div>
-				<div class="card no-body" 
+				<div class="card" 
 					v-for="link1Card in link1Cards" :key="link1Card.id">
 					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link1Card.time}} min
@@ -21,7 +21,7 @@
 					<b-icon icon="question-circle-fill"></b-icon>
 					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
 				</div>
-				<div class="card no-body" 
+				<div class="card" 
 					v-for="link2Card in link2Cards" :key="link2Card.id">
 					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link2Card.time}} min
@@ -36,7 +36,7 @@
 					<b-icon icon="calculator-fill"></b-icon>
 					<h6 class="m-0">Kalkulačky a návody</h6>
 				</div>
-				<div class="card no-body" 
+				<div class="card" 
 					v-for="link3Card in link3Cards" :key="link3Card.id">
 					<p class="timestamp mt-4">
 						{{posted_at}} • zaberie to iba {{link3Card.time}} min

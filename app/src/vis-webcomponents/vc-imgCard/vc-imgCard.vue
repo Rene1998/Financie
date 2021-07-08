@@ -1,25 +1,25 @@
 <template>
-	<b-row>
-		<b-col class="p-0" cols="12" 
+	<div class="row">
+		<div class="col-12 p-0"
 			v-for="imgCard in imgCards"
 			:class="{'col-md-6':!single}" :key="imgCard.id">
-			<b-card no-body class="mb-2 border-0 p-4">
-					<b-img class="card-img-top pb-3" :src="imgCard.image.path"/>
-					<b-card-text class="d-flex align-items-center timestamp">
-						{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
-					</b-card-text>
-					<b-card-title>
-						{{ imgCard.title }}
-					</b-card-title>
-					<b-card-text class="content">
-						{{ imgCard.content }}
-					</b-card-text>
-					<b-card-text class="pt-3">
-						<a href="#">Prečítať viac</a>
-					</b-card-text>
-			</b-card>
-		</b-col>
-	</b-row>
+			<div class="card mb-2 border-0 p-4">
+				<img class="card-img-top pb-3" :src="imgCard.image.path"/>
+				<p class="card-text d-flex align-items-center timestamp">
+					{{ posted_at }} • zaberie to iba {{ imgCard.time }} min
+				</p>
+				<h4 class="card-title">
+					{{ imgCard.title }}
+				</h4>
+				<p class="card-text content">
+					{{ imgCard.content }}
+				</p>
+				<p class="card-text pt-3">
+					<a href="#">Prečítať viac</a>
+				</p>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -75,7 +75,7 @@ export default {
 
 <style lang="scss" scoped>
 img {
-	height: 285px;
+	height: 290px;
 }
 .card-title{
 	font-size: 18px;

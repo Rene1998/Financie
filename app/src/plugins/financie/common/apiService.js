@@ -17,7 +17,9 @@ const apiService = {
 	},
 
 	get (resource, property_key = '') {
-		return Vue.axios.get(`${resource}`)
+		let url = window.ocmsHost || ''
+		url += resource
+		return axios.get(url)
 			.then(response => {
 				return property_key ? response.data[property_key] : response.data
 			})
