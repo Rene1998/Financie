@@ -106,7 +106,6 @@ export default {
 }
 .icon {
 	cursor: pointer;
-
 	&:hover {
 		color: #1eaee1;
 	}
