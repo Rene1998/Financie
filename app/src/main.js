@@ -49,3 +49,8 @@ window.customElements.define('vc-mini-cards', miniCards)
 
 const imgCard  = wrap(Vue, imgCard)
 window.customElements.define('vc-img-card', imgCard)
+
+//layout webcomponents
+
+const footer  = wrap(Vue, footer)
+window.customElements.define('vl-footer', footer)

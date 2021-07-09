@@ -85,7 +85,7 @@
 			<div class="container copyright-container">
 				<div class="row copyright-row d-sm-flex align-items-center ml-3">
 					<router-link to="/">
-						<b-img :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
+						<img :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
 					</router-link>
 					<p class="copy m-0">
 						© 2021 <a href="#" class="financie-link">www.financie.sk</a>

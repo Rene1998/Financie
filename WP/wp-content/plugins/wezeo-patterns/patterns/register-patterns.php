@@ -28,6 +28,18 @@ pattern
             ]
         );
 
+        register_block_pattern(
+            'bpc/homepage',
+            [
+                'title'       => __( 'Home', 'block-patterns-collection' ),
+                'description' => __( 'Homepage', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> <script src="https://unpkg.com/vue"></script> <script src="../../vis-webcomponents/vc-carousel/dist/vc-carousel-slide.js"></script> <script src="../../vis-webcomponents/vc-advancedImgHomeCards/dist/vc-advanced-img-home-cards.js"></script> <script src="../../vis-webcomponents/vc-showArticles/dist/vc-show-articles.js"></script> <script src="../../vis-webcomponents/vc-textCard/dist/vc-text-card.js"></script> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> </head><body><div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1> Prevedieme vás životnou <br />finančnou cestou.</h1><p class="p-0 mt-4 mb-5"> Získajte odborníka na kľúčové finančné momenty <br />vo vašom živote.</p></div></div></div><div class="container"><div class="row justify-content-center text-center"> <vc-carousel-slide></vc-carousel-slide></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />na ktoré móžete naraziť vo vašom živote.</p></div><div class="container"><div class="row"> <vc-advanced-img-home-cards></vc-advanced-img-home-cards></div></div><div class="container"><div class="row text-center"><div class="col"> <vc-show-articles/></div></div></div><div class="container"><div class="row"><div class="col-6"></div><div class="col-6 pl-2 pl-md-5 d-flex align-items-end"> <vc-text-card/></div></div></div></body><style lang="sccs" scoped>.preskoly-wrapper{background-image:url("./assets/Group 1.png");min-height:600px;width:100%;background-position:top right;background-repeat:no-repeat;background-size:cover}.container{min-height:500px}h1{font-weight:bold;font-size:40px}p{font-size:18px}</style></html>
+pattern
+            ]
+        );
+
 
            /**
          * TEST Section
