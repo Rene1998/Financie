@@ -1,6 +1,11 @@
 <template>
     <div>
-        <b-navbar type="light">
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        />
+        <!-- <b-navbar type="light">
             <b-navbar-nav class="mr-auto d-flex aling-items-center">
                 <b-navbar-nav class="d-none align-items-center">
                     <b-nav-item>
@@ -43,7 +48,38 @@
                     </b-nav-item>
                 </b-navbar-nav>
             </b-navbar-nav>
-        </b-navbar>
+        </b-navbar> -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img lass="logo" :src="require('./assets/logo.svg')" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="btn osobne-financie z-btn bp-3 d-flex align-items-center" href="#">Osobné financie</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pre školy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Základná škola 1. stupeň</a>
+                            <a class="dropdown-item" href="#">Základná škola 2. stupeň</a>
+                            <a class="dropdown-item" href="#"> Stredná škola</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="bi bi-search"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 </template>
 
@@ -74,6 +110,8 @@ export default {
 <style lang="scss" scoped>
 .navbar {
     height: 63px;
+    background: #fff;
+    justify-content: space-between;
 
     .nav-link:hover {
         color: #1eaee1 !important;
@@ -89,6 +127,10 @@ export default {
         border: 0, 5px solid #f3f4f5;
         transform: rotate(90deg);
     }
+
+    .navbar-collapse {
+        flex-grow: unset;
+    }
 }
 
 /deep/ {
@@ -96,12 +138,23 @@ export default {
     font-weight: 400 !important;
 }
 
-&.isActive {
-    border-radius: 0px;
-    padding: 10px 15px;
+.nav-item {
     border-bottom: 3px solid transparent;
-    border-bottom: 3px solid #1eaee1;
     border-radius: 0px;
+
+     a {
+        padding: 18px 15px;
+        border: none;
+        border-radius: 0;
+
+        &:hover {
+            border-bottom: none;
+        }
+     }
+}
+
+&.active {
+    border-bottom: 3px solid #1eaee1;
 
     a {
         color: #1eaee1 !important;
