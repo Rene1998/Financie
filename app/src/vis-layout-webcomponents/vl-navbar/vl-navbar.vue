@@ -49,36 +49,40 @@
                 </b-navbar-nav>
             </b-navbar-nav>
         </b-navbar> -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img lass="logo" :src="require('./assets/logo.svg')" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand navbar-light d-flex align-items-center ">
+            <a class="navbar-brand" 
+                href="#"><img 
+                class="logo" :src="require('./assets/logo.svg')" alt="logo"></a>
+         
+                <div class="navbar-nav  d-flex align-items-center">
                     <li class="nav-item active">
                         <a class="btn osobne-financie z-btn bp-3 d-flex align-items-center" href="#">Osobné financie</a>
                     </li>
+                    <hr >
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
+                            href="#" id="navbarDropdown" 
+                            role="button"
+                            data-toggle="dropdown" 
+                            aria-haspopup="true" 
+                            aria-expanded="false"
+                            >
                             Pre školy
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu dropdown-menu-right nav-item " aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Základná škola 1. stupeň</a>
                             <a class="dropdown-item" href="#">Základná škola 2. stupeň</a>
                             <a class="dropdown-item" href="#"> Stredná škola</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a href="#">
-                            <i class="bi bi-search"/>
+                    <hr class="">
+                    <li class="hover-none nav-item d-flex align-items-center justify-content-center">
+                        <a class="nav-item " href="#">
+                            <i class=" bi bi-search"/>
                         </a>
                     </li>
-                </ul>
-            </div>
+                </div>
+            
         </nav>
     </div>
 </template>
@@ -117,10 +121,6 @@ export default {
         color: #1eaee1 !important;
     }
 
-    a {
-        color: #192949 !important;
-    }
-
     hr {
         width: 30px;
         height: 0px;
@@ -133,21 +133,54 @@ export default {
     }
 }
 
+.hover-none{
+    &:hover{
+        border-color: transparent !important;
+    }
+}
 /deep/ {
 &a {
     font-weight: 400 !important;
+    font-size: 16px !important;
+    box-shadow: none;
+
+    .bi{
+        font-size: 20px;
+    }
 }
 
-.nav-item {
+&.navbar-nav{
+    &>.nav-item{
+        &:hover{
+            border-bottom: 3px solid #1eaee1;
+
+            &>a{
+                color: #1eaee1 !important;
+            }
+        }
+
+    }
+}
+
+
+&.nav-item {
+    border: 1px solid transparent;
     border-bottom: 3px solid transparent;
     border-radius: 0px;
+    
+    
+    
+    
 
      a {
+         height: 61px;
         padding: 18px 15px;
         border: none;
         border-radius: 0;
+      
 
         &:hover {
+
             border-bottom: none;
         }
      }
@@ -178,10 +211,19 @@ export default {
 }
 
 &.dropdown-menu {
-    width: 285px;
-    height: 138px;
-    border: none;
-    border-radius: 0px;
+    min-width: 285px !important;
+    min-height: 138px !important;
+    border: none ;
+    border-radius: 0px !important;
+
+    a{
+        padding: 4px 24px !important;
+        margin: 6px 0px 0px !important;
+        max-height: 32px !important;
+
+    }
+
+    
 }
 
 &a:hover {
@@ -196,6 +238,9 @@ export default {
 &.nav-link:focus {
     outline: none !important;
 }
+
+
+
 }
 
 @media only screen and (max-width: 420px) {
