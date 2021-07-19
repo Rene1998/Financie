@@ -1,49 +1,52 @@
 <template>
-	<div class="container">
-		<div class="row mb-5">
-			<div class="col">
-				<div class="d-flex align-items-center mb-5">
-					<i class="bi bi-link-45deg icon"/>
-					<h6 class="m-0">Užitočné linky</h6>
+	<div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col">
+					<div class="d-flex align-items-center mb-5">
+						<i class="bi bi-link-45deg icon"/>
+						<h6 class="m-0">Užitočné linky</h6>
+					</div>
+					<div class="card" 
+						v-for="link1Card in link1Cards" :key="link1Card.id">
+						<p class="timestamp mt-4">
+							{{posted_at}} • zaberie to iba {{link1Card.time}} min
+						</p>
+						<h5>
+							{{ link1Card.content }}
+						</h5>
+					</div>
 				</div>
-				<div class="card" 
-					v-for="link1Card in link1Cards" :key="link1Card.id">
-					<p class="timestamp mt-4">
-						{{posted_at}} • zaberie to iba {{link1Card.time}} min
-					</p>
-					<h5>
-						{{ link1Card.content }}
-					</h5>
+				<div class="col">
+					<div class="d-flex align-items-center mb-5">
+						<i class="bi bi-question-circle-fill icon"/>
+						<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
+					</div>
+					<div class="card" 
+						v-for="link2Card in link2Cards" :key="link2Card.id">
+						<p class="timestamp mt-4">
+							{{posted_at}} • zaberie to iba {{link2Card.time}} min
+						</p>
+						<h5>
+							{{ link2Card.content }}
+						</h5>
+					</div>
 				</div>
-			</div>
-			<div class="col">
-				<div class="d-flex align-items-center mb-5">
-					<i class="bi bi-question-circle-fill icon"/>
-					<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
-				</div>
-				<div class="card" 
-					v-for="link2Card in link2Cards" :key="link2Card.id">
-					<p class="timestamp mt-4">
-						{{posted_at}} • zaberie to iba {{link2Card.time}} min
-					</p>
-					<h5>
-						{{ link2Card.content }}
-					</h5>
-				</div>
-			</div>
-			<div class="col">
-				<div class="d-flex align-items-center mb-5">
-					<i class="bi bi-calculator-fill icon"/>
-					<h6 class="m-0">Kalkulačky a návody</h6>
-				</div>
-				<div class="card" 
-					v-for="link3Card in link3Cards" :key="link3Card.id">
-					<p class="timestamp mt-4">
-						{{posted_at}} • zaberie to iba {{link3Card.time}} min
-					</p>
-					<h5>
-						{{ link3Card.content }}
-					</h5>
+				<div class="col">
+					<div class="d-flex align-items-center mb-5">
+						<i class="bi bi-calculator-fill icon"/>
+						<h6 class="m-0">Kalkulačky a návody</h6>
+					</div>
+					<div class="card" 
+						v-for="link3Card in link3Cards" :key="link3Card.id">
+						<p class="timestamp mt-4">
+							{{posted_at}} • zaberie to iba {{link3Card.time}} min
+						</p>
+						<h5>
+							{{ link3Card.content }}
+						</h5>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -87,6 +90,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .card {
 	min-height: 175px;
 

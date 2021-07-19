@@ -1,0 +1,62 @@
+.carousel-wrapper {
+  margin-top: -80px;
+  margin-bottom: 80px;
+}
+
+.preskoly-wrapper {
+  background-image: url("../image/Group\ 1.png");
+  min-height: 600px;
+  width: 100%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preskoly-wrapper .container {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+
+.preskoly-wrapper .container h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.preskoly-wrapper .container p {
+  font-size: 18px;
+}
+
+a {
+  color: #19283b;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.category-cards {
+  margin-top: -250px;
+}
+
+@media (max-width: 800px) {
+  .preskoly-wrapper {
+    background-image: none;
+    background-color: #edefee;
+  }
+}
+
+hr {
+  max-width: 73%;
+  border: 1px solid #f3f4f5;
+}
+
+.hardcode-text h4 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+
+.hardcode-text p {
+  font-size: 18px;
+  font-weight: 400;
+}

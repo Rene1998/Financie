@@ -13,6 +13,32 @@ function wzo_register_block_patterns() {
 
     if ( function_exists( 'register_block_pattern' ) ) {
 
+        /*Home-page (vis-home.vue)*/ 
+
+        register_block_pattern(
+            'bpc/vis-home',
+            [
+                'title'       => __( 'Homepage', 'block-patterns-collection' ),
+                'description' => __( 'financie.sk Homepage', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> <div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1>Prevedieme vás životnou finančnou cestou.</h1><p class="p-0 mb-5">Získajte odborníka na kľúčové finančné momenty vo vašom živote.</p></div></div></div><div class="container carousel-wrapper"><div class="row category-cards"><div class="col-4"> <vc-home-category-card title="Bývanie" img="Home.svg" link="https://financie.hybridlab.dev/osobne-financie/byvanie"> </vc-home-category-card></div><div class="col-4"> <vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="https://financie.hybridlab.dev/osobne-financie/rodina-deti"> </vc-home-category-card></div><div class="col-4"> <vc-home-category-card title="Auto" img="Car.svg" link="https://financie.hybridlab.dev/osobne-financie/auto"> </vc-home-category-card></div></div><div class="row category-cards mt-4"><div class="col-4"> <vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="https://financie.hybridlab.dev/osobne-financie/dochodok"> </vc-home-category-card></div><div class="col-4"> <vc-home-category-card title="Exekúcia" img="Execution.svg" link="https://financie.hybridlab.dev/osobne-financie/exekucia"> </vc-home-category-card></div><div class="col-4"> <vc-home-category-card title="Práca a dane" img="Work.svg" link="https://financie.hybridlab.dev/osobne-financie/praca-dane"> </vc-home-category-card></div></div></div> <vc-carousel></vc-carousel><div class="container text-center mt-5 mb-5 hardcode-text"><h4>Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4><p class="mb-0">Pripravili sme pre vás všetky možné finančné otázky a odpovede</p> na ktoré móžete naraziť vo vašom živote.</div><div class="container"> <vc-advanced-img-home-cards> </vc-advanced-img-home-cards></div><div class="container"><div class="row"><div class="col"> <vc-show-articles> </vc-show-articles></div></div></div><div class="container"><div class="row mb-5"><div class="col-12 col-md-6"> <vc-img-card> </vc-img-card></div><div class="col pl-2 pl-md-5 d-flex align-items-end"> <vc-text-card> </vc-text-card></div></div></div></div>
+pattern
+            ]
+        );
+
+        register_block_pattern(
+            'bpc/vis-pre-skoly',
+            [
+                'title'       => __( 'Pre-skoly', 'block-patterns-collection' ),
+                'description' => __( 'financie.sk Pre-skoly', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> <div><div class="container-fluid preskoly-main"><div class="container"><div class="preskoly-welcome-text mb-5"><h1 class="title"> Základná škola 1. stupeň</h1><p class="content"> Pripravili sme pre vás materiály pre učiteľov z prvého stupňa <br> základných škôl.</p><p class="d-flex align-items-center"> <a class="pr-2" href="/pre-skoly/zakladna-skola-1.stupen"> Základná škola 1. stupeň </a> • <a class="p-2" href="/pre-skoly/zakladna-skola-2.stupen"> Základná škola 2. stupeň </a> • <a class="p-2" href="/pre-skoly/stredna-skola"> Stredná škola </a></p></div></div></div></div><div class="container carousel-wrapper"><div class="row"><div class="col-3"> <vc-category-card title="1. Ročník" img="rocnik1.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="2. Ročník" img="rocnik2.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="3. Ročník" img="rocnik3.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="4. Ročník" img="rocnik4.svg" link="#"></vc-category-card></div></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Boli by sme radi, aby už na základnej škole mali deti finančné vzdelávanie.</h4><p> A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br />prevedú finančným vzdelaním.</p></div><div class="switch-wrapper mb-5"><div class="btn-group"> <button class="switch-button p-0"> Učebné materiály </button> <button class="switch-button p-0"> Videá </button></div></div><div class="container"> <vc-advanced-img-cards page="zakladna-skola-1.stupen" year="1-rocnik" category="advancedImgCardLink"/></div><div class="container text-center mb-5"> <button class="btn-primary download-all mb-5"> Stiahnuť všetky dokumenty </button></div><div class="container"><div class="row"><div class="col"> <vc-show-articles/></div></div></div><div class="container"><div class="row mb-5"><div class="col-12 col-md-6"> <vc-img-card/></div> <span class="divider border-left"></span><div class="col d-flex align-items-end pl-2 pl-md-5"> <vc-text-card/></div></div></div></div>
+pattern
+            ]
+        );
+
         /**
          * Intro Section
          */
@@ -139,6 +165,7 @@ pattern
                 'content'     => "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:columns {\"className\":\"tw-mb-0 large-text-block\"} -->\n<div class=\"wp-block-columns tw-mb-0 large-text-block\"><!-- wp:column {\"className\":\"container\"} -->\n<div class=\"wp-block-column container\"><!-- wp:heading {\"className\":\"text-blue\"} -->\n<h2 class=\"text-blue\"><span class=\"text-grey\">Share your knowledge about</span>\&nbsp;running, yoga, mental health, business, entrepreneurship, blockchain, finances,…</h2>\n<!-- /wp:heading --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->"
             ]
         );
+        
 
         /**
          * Section with four cards

@@ -1,10 +1,10 @@
 * {
-  font-family: "Helvetica Neue" sans-serif;
+  font-family: "Helvetica Neue" sans-serif !important;
 }
 
 .hardcode-text h4 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 24px !important;
+  font-weight: 700 !important;
 }
 
 .hardcode-text p {

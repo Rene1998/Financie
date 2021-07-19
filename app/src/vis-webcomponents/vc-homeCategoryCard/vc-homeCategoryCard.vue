@@ -1,33 +1,31 @@
 <template>
     <div>
-        <div class="card d-flex align-items-center flex-column text-center">
-            <div class="card-body d-flex align-items-center flex-column">
-                <img class="category-card mt-3" :src="cardIcon"/>
-                <h4 class="card-title mt-3">
-                    {{ card.title }}
-                </h4>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <a class="text-decoration-none" :href="link">
+            <div class="card d-flex align-items-center flex-column text-center">
+                <div class="card-body d-flex align-items-center flex-column">
+                    <img class="category-card mt-3" :src="require(`./assets/${img}`)"/>
+                    <h4 class="card-title mt-3">
+                        {{ title }}
+                    </h4>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 </template>
 
 <script>
 export default {
-	  props: {
-        card: {
-            type: Object,
-            required: true
-        }
-    },
-    computed: {
-        cardIcon () {
-            return require(`./assets/${this.card.icon}`)
-        }
+	props: {
+        title: String,
+		img: String,
+        link: String
     }
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .card {
     cursor: pointer;
     background: #ffffff;
@@ -58,5 +56,11 @@ export default {
         max-width: 17rem !important;
         margin: auto;
     }
+}
+a {
+	color: #19283b;
+	&:hover {
+		color: #19283b;
+	}
 }
 </style>

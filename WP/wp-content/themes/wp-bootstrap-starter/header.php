@@ -16,11 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script src="https://unpkg.com/vue@latest/dist/vue.js"></script>
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/home-style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pre-skoly-style.css">
 </head>
 
 <body <?php body_class(); ?>>
-
+    <vl-info-bar></vl-info-bar>
+    <vl-navbar></vl-navbar>
 <?php 
 
     // WordPress 5.2 wp_body_open implementation

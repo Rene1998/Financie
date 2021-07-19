@@ -27,7 +27,7 @@
 	</footer><!-- #colophon -->
 <?php endif; ?>
 </div><!-- #page -->
-
+<vl-footer></vl-footer>
 <?php wp_footer(); ?>
 </body>
 </html>

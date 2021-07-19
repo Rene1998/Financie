@@ -1,50 +1,53 @@
 <template>
-	<div class="progressBar container-fluid" :class="{isSticky: pageScrollBarPositon > progressBar}" >
-		<div class="container">
-			<div class="progressBar-row row d-flex m-0">
-				<a class="z-btn btn rounded-0"
-					@click="scrollTo(vedeliSte)"
-					:class="{
-						isActive:
-							0 <= pageScrollPositon && pageScrollPositon < zakladneInformacie,
-					}">
-					Vedeli ste, že...
-				</a>
-				<a class="z-btn btn rounded-0"
-					@click="scrollTo(zakladneInformacie)"
-					:class="{
-						isActive:
-							zakladneInformacie <= pageScrollPositon &&
-							pageScrollPositon < najnovsieClanky,
-					}">
-					Základné informácie
-				</a>
-				<a class="z-btn btn rounded-0"
-					@click="scrollTo(najnovsieClanky)"
-					:class="{
-						isActive:
-							najnovsieClanky <= pageScrollPositon &&
-							pageScrollPositon < najnovsieProdukty,
-					}">
-					Najnovšie články
-				</a>
-				<a class="z-btn btn rounded-0"
-					@click="scrollTo(najnovsieProdukty)"
-					:class="{
-						isActive:
-							najnovsieProdukty <= pageScrollPositon &&
-							pageScrollPositon < uzitocneLinky,
-					}">
-					Najnovšie produkty a služby
-				</a>
-				<a class="z-btn btn rounded-0"
-					@click="scrollTo(uzitocneLinky)"
-					:class="{ isActive: uzitocneLinky <= pageScrollPositon }">
-					Užitočné linky a zaujímavosti
-				</a>
-				<a href="" class="z-btn btn rounded-0">
-					Kvíz
-				</a>
+	<div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<div class="progressBar container-fluid" :class="{isSticky: pageScrollBarPositon > progressBar}" >
+			<div class="container">
+				<div class="progressBar-row row d-flex m-0">
+					<a class="z-btn btn rounded-0"
+						@click="scrollTo(vedeliSte)"
+						:class="{
+							isActive:
+								0 <= pageScrollPositon && pageScrollPositon < zakladneInformacie,
+						}">
+						Vedeli ste, že...
+					</a>
+					<a class="z-btn btn rounded-0"
+						@click="scrollTo(zakladneInformacie)"
+						:class="{
+							isActive:
+								zakladneInformacie <= pageScrollPositon &&
+								pageScrollPositon < najnovsieClanky,
+						}">
+						Základné informácie
+					</a>
+					<a class="z-btn btn rounded-0"
+						@click="scrollTo(najnovsieClanky)"
+						:class="{
+							isActive:
+								najnovsieClanky <= pageScrollPositon &&
+								pageScrollPositon < najnovsieProdukty,
+						}">
+						Najnovšie články
+					</a>
+					<a class="z-btn btn rounded-0"
+						@click="scrollTo(najnovsieProdukty)"
+						:class="{
+							isActive:
+								najnovsieProdukty <= pageScrollPositon &&
+								pageScrollPositon < uzitocneLinky,
+						}">
+						Najnovšie produkty a služby
+					</a>
+					<a class="z-btn btn rounded-0"
+						@click="scrollTo(uzitocneLinky)"
+						:class="{ isActive: uzitocneLinky <= pageScrollPositon }">
+						Užitočné linky a zaujímavosti
+					</a>
+					<a href="" class="z-btn btn rounded-0">
+						Kvíz
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -100,6 +103,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .progressBar {
 	background-color: #fbfbfc;
 	min-height: 70px;

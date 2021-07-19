@@ -1,67 +1,31 @@
 <template>
 	<div>
-		<div class="card d-flex align-items-center flex-column text-center"
-			:class="{ isActive: act }">
-			<div class="card-body d-flex align-items-center flex-column">
-				<img class="category-card" :src="cardImg"/>
-				<h4 class="card-title mt-3">
-					{{ card.title }}
-				</h4>	
-			</div>
-		</div>	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<a class="text-decoration-none" :href="link">
+			<div class="card d-flex align-items-center flex-column text-center">
+				<div class="card-body d-flex align-items-center flex-column">
+					<img class="category-card" :src="require(`./assets/${img}`)"/>
+					<h4 class="card-title mt-3">
+						{{ title }}
+					</h4>	
+				</div>
+			</div>	
+		</a>
 	</div>
 </template>
 
 <script>
 export default {
 	props: {
-		card: {
-			type: Object,
-			required: true
-		},
-		activeCard: {
-			type: String,
-			required: true
-		}
-	},
-	data () {
-		return {
-			act: false
-		}
-	},
-	watch: {
-		activeCard: {
-			handler (val) {
-				this._actCard2(val)
-			}
-		}
-	},
-	computed: {
-		cardImg () {
-			return require(`./assets/${this.card.img}`)
-		}
-	},
-	mounted () {
-		this._actCard()
-	},
-	methods: {
-		_actCard () {
-			if (this.card.link != this.activeCard) return
-			this.act = true
-		},
-		_actCard2 (val) {
-			this.act = false
-			if (this.card.link != val) return
-			this.act = true
-			// if (this.card.link == val) {
-			// 	this.act = true
-			// }
-		}
+		title: String,
+		img: String,
+		link: String
 	}
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .card {
 	cursor: pointer;
 	border: none;
@@ -89,6 +53,12 @@ export default {
 	.card {
 		margin: auto;
 		max-width: 18rem;
+	}
+}
+a {
+	color: #19283b;
+	&:hover {
+		color: #19283b;
 	}
 }
 </style>

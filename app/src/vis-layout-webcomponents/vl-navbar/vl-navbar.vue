@@ -1,88 +1,39 @@
 <template>
     <div>
-        <link
-            type="text/css"
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        />
-        <!-- <b-navbar type="light">
-            <b-navbar-nav class="mr-auto d-flex aling-items-center">
-                <b-navbar-nav class="d-none align-items-center">
-                    <b-nav-item>
-                        <i class="bi bi-list"/>
-                    </b-nav-item>
-                </b-navbar-nav>
-                <router-link to="/">
-                    <b-img class="logo" :src="require('./assets/logo.svg')" alt="logo" />
-                </router-link>
-            </b-navbar-nav>
-            <b-navbar-nav class="d-flex align-items-center">
-                <b-navbar-nav>
-                    <b-nav-item class="btn osobne-financie z-btn bp-3 d-flex align-items-center"
-                        href="#"
-                        to="/home"
-                        :class="{ isActive: page == 'home' || page == 'osobne-financie' }">
-                        Osobné financie
-                    </b-nav-item>
-                </b-navbar-nav>
-                <hr />
-                <b-navbar-nav>
-                    <b-nav-dropdown right class="btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center"
-                        text="Pre školy"
-                        :class="{ isActive: page == 'pre-skoly' }">
-                        <b-dropdown-item to="/pre-skoly/zakladna-skola-1.stupen">
-                            Základná škola 1. stupeň
-                        </b-dropdown-item>
-                        <b-dropdown-item to="/pre-skoly/zakladna-skola-2.stupen">
-                            Základná škola 2. stupeň
-                        </b-dropdown-item>
-                        <b-dropdown-item to="/pre-skoly/stredna-skola">
-                            Stredná škola
-                        </b-dropdown-item>
-                    </b-nav-dropdown>
-                </b-navbar-nav>
-                <hr />
-                <b-navbar-nav>
-                    <b-nav-item>
-                        <i class="bi bi-search"/>
-                    </b-nav-item>
-                </b-navbar-nav>
-            </b-navbar-nav>
-        </b-navbar> -->
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"/>
         <nav class="navbar navbar-expand navbar-light d-flex align-items-center ">
-            <a class="navbar-brand" 
-                href="#"><img 
-                class="logo" :src="require('./assets/logo.svg')" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img 
+                class="logo" :src="require('./assets/logo.svg')" alt="logo">
+            </a>
          
-                <div class="navbar-nav  d-flex align-items-center">
-                    <li class="nav-item active">
-                        <a class="btn osobne-financie z-btn bp-3 d-flex align-items-center" href="#">Osobné financie</a>
-                    </li>
-                    <hr >
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
-                            href="#" id="navbarDropdown" 
-                            role="button"
-                            data-toggle="dropdown" 
-                            aria-haspopup="true" 
-                            aria-expanded="false"
-                            >
-                            Pre školy
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right nav-item " aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Základná škola 1. stupeň</a>
-                            <a class="dropdown-item" href="#">Základná škola 2. stupeň</a>
-                            <a class="dropdown-item" href="#"> Stredná škola</a>
-                        </div>
-                    </li>
-                    <hr class="">
-                    <li class="hover-none nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-item " href="#">
-                            <i class=" bi bi-search"/>
-                        </a>
-                    </li>
-                </div>
-            
+            <div class="navbar-nav  d-flex align-items-center">
+                <li class="nav-item active">
+                    <a class="btn osobne-financie z-btn bp-3 d-flex align-items-center" href="#">Osobné financie</a>
+                </li>
+                <hr >
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
+                        href="#" id="navbarDropdown" 
+                        role="button"
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                        >
+                        Pre školy
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right nav-item " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Základná škola 1. stupeň</a>
+                        <a class="dropdown-item" href="#">Základná škola 2. stupeň</a>
+                        <a class="dropdown-item" href="#"> Stredná škola</a>
+                    </div>
+                </li>
+                <hr class="">
+                <li class="hover-none nav-item d-flex align-items-center justify-content-center">
+                    <a class="nav-item " href="#">
+                        <i class=" bi bi-search"/>
+                    </a>
+                </li>
+            </div>
         </nav>
     </div>
 </template>
@@ -112,6 +63,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .navbar {
     height: 63px;
     background: #fff;

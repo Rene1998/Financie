@@ -1,20 +1,23 @@
 <template>
-	<div class="row">
-		<div class="col-12">
-			<div class="card mb-5"
-				v-for="textCard in textCards" :key="textCard.id">
-				<div class="card-body p-2">
-					<p class="card-text timestamp mb-4">
-						{{posted_at}} • zaberie to iba {{textCard.time}} min
-					</p>
-					<h4 class="card-title mb-4">
-						{{textCard.content}}
-					</h4>
-					<p class="card-text">
-						<a href="#">
-							Prečítať viac
-						</a>
-					</p>
+	<div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<div class="row">
+			<div class="col-12">
+				<div class="card mb-5"
+					v-for="textCard in textCards" :key="textCard.id">
+					<div class="card-body p-2">
+						<p class="card-text timestamp mb-4">
+							{{posted_at}} • zaberie to iba {{textCard.time}} min
+						</p>
+						<h4 class="card-title mb-4">
+							{{textCard.content}}
+						</h4>
+						<p class="card-text">
+							<a href="#">
+								Prečítať viac
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -52,6 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .card-title {
 	font-size: 18px;
 	color: #192949;
@@ -59,7 +63,8 @@ export default {
 	font-style: normal;
 }
 a {
-  	color: #1eaee1;
+  	color: #1eaee1 !important;
+	text-decoration: none !important;
 }
 
 .card {

@@ -1,18 +1,21 @@
 <template>
-    <div class="row">
-        <div class="col">
-            <div class="card d-flex align-items-center flex-column text-center">
-                <div class="card-body d-flex align-items-center flex-column">
-                    <img class="category-card mt-4" :src="cardIcon"/>
-                    <h4 class="card-title d-flex align-items-center m-2">
-                        {{ card.title }}
-                    </h4>
-                    <p class="card-text mt-3 height">
-                        {{ card.text }}
-                    </p>
-                    <router-link :to="'/osobne-financie/clanky/' + card.link">
-                        Prečítať viac
-                    </router-link>
+    <div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <div class="row">
+            <div class="col">
+                <div class="card d-flex align-items-center flex-column text-center">
+                    <div class="card-body d-flex align-items-center flex-column">
+                        <img class="category-card mt-4" :src="require(`./assets/${img}`)">
+                        <h4 class="card-title d-flex align-items-center m-2">
+                            {{ title }}
+                        </h4>
+                        <p class="card-text mt-3 height">
+                            {{ desc }}
+                        </p>
+                        <a :href="link">
+                            Prečítať viac
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -22,20 +25,16 @@
 <script>
 export default {
     props: {
-        card: {
-            type: Object,
-            required: true
-        }
-    },
-    computed: {
-        cardIcon () {
-            return require(`./assets/${this.card.icon}`)
-        }
+        title: String,
+        desc: String,
+        img: String,
+        link: String
     }
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../../plugins/financie/_theme/index.scss';
 .card {
     min-height: 280px;
     background: #ffffff;
