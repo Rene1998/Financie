@@ -67,7 +67,7 @@ s<template>
 			</div>
 		</div>
 		<div class="container">
-			<vc-advanced-img-cards page="zakladna-skola-1.stupen" year="1-rocnik" category="advancedImgCardLink"/>
+			<vc-advanced-img-cards page="stredna-skola" year="4-rocnik" category="advancedImgCardLink"/>
 		</div>
 		<div class="container text-center mb-5">
 			<button class="btn-primary download-all mb-5">
