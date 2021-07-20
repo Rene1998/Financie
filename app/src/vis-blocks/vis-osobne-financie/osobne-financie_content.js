@@ -63,7 +63,7 @@ const dochodok = {
 	text3: 'K čomu je? Ako funguje? Ako si z neho vybrať peniaze?',
 	titulok4: 'Súkromne Sporenie',
 	link4: '',
-	text4: 'Nespoliahjte sa na štáat avytvorte si vlastný zdroj dôchodku',
+	text4: 'Nespoliahjte sa na štát avytvorte si vlastný zdroj dôchodku',
 	defaultLink: 'dochodok'
 }
 const exekucia = {

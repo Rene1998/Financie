@@ -11,6 +11,7 @@ import './plugins/financie/_theme/index.scss'
 import './vis-blocks/vis-home/home-style.scss'
 import './vis-blocks/vis-pre-skoly/pre-skoly-style.scss'
 
+
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 

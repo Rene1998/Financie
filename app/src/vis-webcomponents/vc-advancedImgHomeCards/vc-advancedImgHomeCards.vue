@@ -6,7 +6,7 @@
 			<div class="col-12 col-lg-4 col-md-6"
 				v-for="advancedImgHomeCard in advancedImgHomeCards" :key="advancedImgHomeCard.id">
 				<div class="card mb-2 border border-0 m-2" tag="article">
-					<a :href="'/osobne-financie/' + advancedImgHomeCard.link">
+					<a :href="advancedImgHomeCard.link">
 						<img class="card-img-top" :src="cardImg(advancedImgHomeCard)" alt="Image"/>
 						<h4 class="card-title d-flex align-items-center">
 							{{ advancedImgHomeCard.title }}

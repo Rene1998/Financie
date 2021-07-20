@@ -10,22 +10,22 @@
 						</h5>
 						<ul class="pl-0 list-unstyled">
 							<li class="footer-li">
-								<a href="/osobne-financie/auto">Auto</a>
+								<a href="./osobne-financie-auto">Auto</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/praca-dane">Práce a dane</a>
+								<a href="./osobne-financie-praca-a-dane">Práce a dane</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/rodina-deti">Rodina a deti</a>
+								<a href="./osobne-financie-rodina-a-deti">Rodina a deti</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/byvanie">Bývanie</a>
+								<a href="./osobne-financie-byvanie">Bývanie</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/dochodok">Dôchodok</a>
+								<a href="./osobne-financie-dochodok">Dôchodok</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/exekucia">Exekúcia</a>
+								<a href="./osobne-financie-exekucia">Exekúcia</a>
 							</li>
 						</ul>
 					</div>
@@ -33,22 +33,22 @@
 						<h5 class="text-left">Finančné produkty</h5>
 						<ul class="pl-0 list-unstyled">
 							<li class="footer-li">
-								<a href="/osobne-financie/poistenie">Poistenie</a>
+								<a href="./osobne-financie-poistenie">Poistenie</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/hypotekarny-uver">Hypotekárny úver</a>
+								<a href="./osobne-financie-hypotekarny-uver">Hypotekárny úver</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/uver-na-spotrebu">Úver na spotrebu</a>
+								<a href="./osobne-financie-uver-na-spotrebu">Úver na spotrebu</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/inveshrefvanie">Inveshrefvanie</a>
+								<a href="./osobne-financie-inveshrefvanie">Inveshrefvanie</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/bankove-ucty-a-plahrefbne-karty">Účty a karty</a>
+								<a href="./osobne-financie-ucty-a-karty">Účty a karty</a>
 							</li>
 							<li class="footer-li">
-								<a href="/osobne-financie/fintech">Fintech</a>
+								<a href="./osobne-financie-fintech">Fintech</a>
 							</li>
 						</ul>
 					</div>
@@ -86,7 +86,7 @@
 			<div class="container-fluid copyright-main">
 				<div class="container copyright-container">
 					<div class="row copyright-row d-sm-flex align-items-center ml-3">
-						<a href="/">
+						<a href="./home">
 							<img :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
 						</a>
 						<p class="copy m-0">
@@ -94,9 +94,9 @@
 							Všetky práva vyhradené.
 						</p>
 						<div class="ml-auto d-none d-lg-block">
-							<a href="/home">
-								<a href="" class="btn z-btn rounded-0">Osobné financie</a></a>
-							<a href="/pre-skoly/zakladna-skola-1.stupen">
+							<a href="./home">
+								<a class="btn z-btn rounded-0">Osobné financie</a></a>
+							<a href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik">
 								<a class="btn z-btn rounded-0">Pre školy</a>
 							</a>
 						</div>

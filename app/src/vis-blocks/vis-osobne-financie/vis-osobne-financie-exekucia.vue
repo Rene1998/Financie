@@ -1,0 +1,79 @@
+<template>
+	<div>
+        <div class="container-fluid byvanie-main">
+			<div class="container">
+				<div class="byvanie-welcome-text">
+					<div class="col d-flex flex-column mb-5 b-arrow">
+						<a href="./home" class="mb-5 d-flex align-items-center">
+                            <i class="bi bi-arrow-left mr-2"></i>
+                            Späť na hlavnú stránku
+                        </a>
+						<h1 mt-5>
+                            Exekúcia
+                        </h1>
+						<p class="mt-4 content">
+							Exekúcia, nevymožiteľná čiastka, osobný bankrot, exekučná zrážka
+						</p>
+						<div class="m-5">
+
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        <vc-progress-bar/>
+
+        <vc-carousel/>
+
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Základné články
+            </h4>
+            <p>
+                Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+                na ktoré môžete naraziť vo vašom živote.
+            </p>
+        </div>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <vc-mini-card title="Exekúcia" desc="Na čo sa vzťahuje exekúcia? Na čo sa nevzťahuje exekúcia?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                </div>
+                <div class="col-md-3">
+                    <vc-mini-card title="Pred Exekúciou" desc="Čo robiť ak mi hrozí exekúcia? Je možné dostať úver, keď som v exekúcií?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                </div>
+                <div class="col-md-3">
+                    <vc-mini-card title="Počas exekúcie" desc="Aké druhy oddlženia existujú? Aký druh mám vybrať ak nechcem prísť o majetok?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                </div>
+                <div class="col-md-3">
+                    <vc-mini-card title="Právo a financie" desc="Orientujte sa vo finančno-právnom svete" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Najnovšie články o exekúcií
+            </h4>
+            <p>
+                Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+                na ktoré môžete naraziť vo vašom živote.
+            </p>
+        </div>
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Najlepšie produkty na našom trhu
+            </h4>
+            <p>
+                Pripravili sme pre vás tie najlepšie produkty v ramci bývania...
+            </p>
+        </div>
+        <div class="container mb-5">
+            <vc-img-card/>
+        </div>
+        <div class="container">
+            <div class="row border-center mb-5">
+                <vc-link-cards/>
+            </div>
+        </div>
+	</div>
+</template>

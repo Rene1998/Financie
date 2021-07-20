@@ -1,7 +1,5 @@
 <template>
 	<div>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-		<script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script>
 		<div class="preskoly-wrapper">
 			<div class="container home-main d-flex align-items-center">
 				<div>
@@ -18,25 +16,23 @@
 		</div>
 		<div class="container carousel-wrapper">
 			<div class="row category-cards">
-				<div class="col-4">
-					<vc-home-category-card title="Bývanie" img="Home.svg" link="https://financie.hybridlab.dev/osobne-financie/byvanie"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie-byvanie"/>
 				</div>
-				<div class="col-4">
-					<vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="https://financie.hybridlab.dev/osobne-financie/rodina-deti"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="./osobne-financie-rodina-a-deti"/>
 				</div>
-				<div class="col-4">
-					<vc-home-category-card title="Auto" img="Car.svg" link="https://financie.hybridlab.dev/osobne-financie/auto"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Auto" img="Car.svg" link="./osobne-financie-auto"/>
 				</div>
-			</div>
-			<div class="row category-cards">
-				<div class="col-4">
-					<vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="https://financie.hybridlab.dev/osobne-financie/dochodok"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="./osobne-financie-dochodok"/>
 				</div>
-				<div class="col-4">
-					<vc-home-category-card title="Exekúcia" img="Execution.svg" link="https://financie.hybridlab.dev/osobne-financie/exekucia"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Exekúcia" img="Execution.svg" link="./osobne-financie-exekucia"/>
 				</div>
-				<div class="col-4">
-					<vc-home-category-card title="Práca a dane" img="Work.svg" link="https://financie.hybridlab.dev/osobne-financie/praca-dane"/>
+				<div class="col-4 mb-3">
+					<vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie-praca-a-dane"/>
 				</div>
 			</div>
 		</div>
