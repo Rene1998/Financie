@@ -13,15 +13,15 @@
 							Pripravili sme pre vás materiály pre učiteľov z prvého stupňa <br> základných škôl.
 						</p>
 						<p class="d-flex align-items-center">
-							<a class="pr-2" href="/pre-skoly/zakladna-skola-1.stupen">
+							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik">
 								Základná škola 1. stupeň
 							</a>
 							•
-							<a class="p-2" href="/pre-skoly/zakladna-skola-2.stupen">
+							<a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik">
 								Základná škola 2. stupeň
 							</a>
 							•
-							<a class="p-2" href="/pre-skoly/stredna-skola">
+							<a class="p-2" href="./pre-skoly-stredna-skola-1-rocnik">
 								Stredná škola
 							</a>
 						</p>
@@ -32,16 +32,16 @@
 		<div class="container carousel-wrapper">
 			<div class="row">
 				<div class="col-3">
-					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="#"></vc-category-card>
+					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="#"></vc-category-card>
+					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-1-stupen-2-rocnik"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="#"></vc-category-card>
+					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-zakladna-skola-1-stupen-3-rocnik"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="#"></vc-category-card>
+					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-1-stupen-4-rocnik"></vc-category-card>
 				</div>
 			</div>
 		</div>
