@@ -5,21 +5,21 @@
 				<div class="container">
 					<div class="preskoly-welcome-text mb-5">
 						<h1 class="title">
-							Základná škola 1. stupeň
+							Stredná škola
 						</h1>
 						<p class="content">
-							Pripravili sme pre vás materiály pre učiteľov z prvého stupňa <br> základných škôl.
+							Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.
 						</p>
 						<p class="d-flex align-items-center">
-							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik">
+							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">
 								Základná škola 1. stupeň
 							</a>
 							•
-							<a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik">
+							<a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy">
 								Základná škola 2. stupeň
 							</a>
 							•
-							<a class="p-2" href="./pre-skoly-stredna-skola-1-rocnik">
+							<a class="p-2" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">
 								Stredná škola
 							</a>
 						</p>
@@ -30,16 +30,16 @@
 		<div class="container carousel-wrapper">
 			<div class="row">
 				<div class="col-3">
-					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik"></vc-category-card>
+					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-1-stupen-2-rocnik"></vc-category-card>
+					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-zakladna-skola-1-stupen-3-rocnik"></vc-category-card>
+					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-1-stupen-4-rocnik"></vc-category-card>
+					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
 			</div>
 		</div>
@@ -56,16 +56,16 @@
 		</div>
 		<div class="switch-wrapper mb-5">
 			<div class="btn-group">
-				<button class="switch-button p-0">
-					Učebné materiály
+				<button class="switch-button p-0 switchIsActive">
+					<a href="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy">Učebné materiály</a>
 				</button>
 				<button class="switch-button p-0">
-					Videá
+					<a href="./pre-skoly-stredna-skola-2-rocnik-videa">Videá</a>	
 				</button>
 			</div>
 		</div>
 		<div class="container">
-			<vc-advanced-img-cards page="zakladna-skola-1.stupen" year="4-rocnik" category="advancedImgCardLink"/>
+			<vc-advanced-img-cards page="stredna-skola" year="2-rocnik" category="advancedImgCardLink"/>
 		</div>
 		<div class="container text-center mb-5">
 			<button class="btn-primary download-all mb-5">
@@ -92,5 +92,3 @@
 		</div>
 	</div>
 </template>
-
-
