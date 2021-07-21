@@ -12,7 +12,7 @@
                 </li>
                 <hr >
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle btn z-btn pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
+                    <a class="nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
                         href="#" id="navbarDropdown" 
                         role="button"
                         data-toggle="dropdown" 
@@ -27,7 +27,7 @@
                         <a class="dropdown-item" href="#"> Stredná škola</a>
                     </div>
                 </li>
-                <hr class="">
+                <hr>
                 <li class="hover-none nav-item d-flex align-items-center justify-content-center">
                     <a class="nav-item " href="#">
                         <i class=" bi bi-search"/>
