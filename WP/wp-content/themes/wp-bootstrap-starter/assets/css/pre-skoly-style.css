@@ -38,6 +38,7 @@
   
   a:hover {
     color: #1eaee1;
+    text-decoration: none;
   }
   
   h5 {
@@ -101,6 +102,7 @@
   
   .isActiveA {
     color: #1eaee1;
+    text-decoration: none;
   }
   
   hr {

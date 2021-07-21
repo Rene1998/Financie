@@ -19,7 +19,7 @@
 								Základná škola 2. stupeň
 							</a>
 							•
-							<a class="p-2" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">
+							<a class="p-2 isActiveA" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">
 								Stredná škola
 							</a>
 						</p>
@@ -36,7 +36,7 @@
 					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
 				<div class="col-3">
-					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy"></vc-category-card>
+					<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
 				</div>
 				<div class="col-3">
 					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy"></vc-category-card>

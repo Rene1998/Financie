@@ -1,6 +1,8 @@
 <template>
     <div>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
         <nav class="navbar navbar-expand navbar-light d-flex align-items-center ">
             <a class="navbar-brand" href="#"><img 
                 class="logo" :src="require('./assets/logo.svg')" alt="logo">
@@ -13,7 +15,8 @@
                 <hr >
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
-                        href="#" id="navbarDropdown" 
+                        href="#" 
+                        id="navbarDropdown" 
                         role="button"
                         data-toggle="dropdown" 
                         aria-haspopup="true" 

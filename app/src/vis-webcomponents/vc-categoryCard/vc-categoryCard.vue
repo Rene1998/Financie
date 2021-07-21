@@ -2,7 +2,7 @@
 	<div>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 		<a class="text-decoration-none" :href="link">
-			<div class="card d-flex align-items-center flex-column text-center">
+			<div class="card d-flex align-items-center flex-column text-center" :class="{isActive:isactive}">
 				<div class="card-body d-flex align-items-center flex-column">
 					<img class="category-card" :src="require(`./assets/${img}`)"/>
 					<h4 class="card-title mt-3">
@@ -19,7 +19,8 @@ export default {
 	props: {
 		title: String,
 		img: String,
-		link: String
+		link: String,
+		isactive: String
 	}
 }
 </script>

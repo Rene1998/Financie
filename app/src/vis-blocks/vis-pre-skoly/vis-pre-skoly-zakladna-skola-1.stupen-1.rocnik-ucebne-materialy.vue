@@ -11,7 +11,7 @@
 							Pripravili sme pre vás materiály pre učiteľov z prvého stupňa <br> základných škôl.
 						</p>
 						<p class="d-flex align-items-center">
-							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">
+							<a class="pr-2 isActiveA" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">
 								Základná škola 1. stupeň
 							</a>
 							•
@@ -30,7 +30,7 @@
 		<div class="container carousel-wrapper">
 			<div class="row">
 				<div class="col-3">
-					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"></vc-category-card>
+					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
 				</div>
 				<div class="col-3">
 					<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-1-stupen-2-rocnik-ucebne-materialy"></vc-category-card>

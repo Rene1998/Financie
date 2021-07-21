@@ -15,7 +15,7 @@
 								Základná škola 1. stupeň
 							</a>
 							•
-							<a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy">
+							<a class="p-2 isActiveA" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy">
 								Základná škola 2. stupeň
 							</a>
 							•
@@ -30,7 +30,7 @@
 		<div class="container carousel-wrapper">
 			<div class="row">
 				<div class="col-3">
-					<vc-category-card title="5. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"></vc-category-card>
+					<vc-category-card title="5. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
 				</div>
 				<div class="col-3">
 					<vc-category-card title="6. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"></vc-category-card>

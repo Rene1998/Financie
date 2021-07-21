@@ -301,20 +301,6 @@ function addStyle (obj /* StyleObjectPart */, shadowRoot) {
 
 /***/ }),
 
-/***/ "5265":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-3ad8f69a]{font-weight:300}.z-btn[data-v-3ad8f69a]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-3ad8f69a]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-3ad8f69a]{color:#1eaee1!important}.z-btn[data-v-3ad8f69a]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card .card-img-top[data-v-3ad8f69a]{border-radius:4px}*[data-v-3ad8f69a]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-3ad8f69a]{font-size:24px;font-weight:700}.hardcode-text p[data-v-3ad8f69a]{font-size:18px;font-weight:400}.timestamp[data-v-3ad8f69a]{color:#898989}.card[data-v-3ad8f69a]{cursor:pointer;border:none;background:#fff;box-shadow:0 4px 20px hsla(0,0%,69.4%,.15);border-bottom:5px solid transparent}.card[data-v-3ad8f69a]:hover{border-radius:5px}.card[data-v-3ad8f69a]:focus,.card[data-v-3ad8f69a]:hover{border-bottom:5px solid #ffa800}.card-title[data-v-3ad8f69a]{font-size:18px;font-weight:400}.isActive[data-v-3ad8f69a]{border-bottom:5px solid #ffa800;border-radius:5px}@media (max-width:500px){.card[data-v-3ad8f69a]{margin:auto;max-width:18rem}}a[data-v-3ad8f69a],a[data-v-3ad8f69a]:hover{color:#19283b}", "",{"version":3,"sources":["C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/card.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/fonts.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CCjBpC,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCahB,uBACC,cAAe,CACf,WAAY,CACZ,eAAmB,CACnB,0CAAkD,CAClD,mCAAoC,CALrC,6BASE,iBAAkB,CATpB,0DAQE,+BAIgC,CAChC,6BAGD,cAAe,CACf,eAAgB,CAChB,2BAEA,+BAAgC,CAChC,iBAAkB,CAClB,yBAEA,uBACC,WAAY,CACZ,eAAgB,CAChB,CAEF,4CAGE,aAAc","file":"vc-categoryCard.vue","sourcesContent":[".btn {\r\n  font-weight: 300;\r\n}\r\n\r\n.z-btn {\r\n  border-radius: 0px;\r\n  padding: 10px 15px;\r\n  border-bottom: 3px solid transparent;\r\n  &:hover {\r\n    border-bottom: 3px solid #1eaee1;\r\n    border-radius: 0px;\r\n    .nav-link {\r\n      color: #1eaee1 !important;\r\n    }\r\n  }\r\n  &:focus {\r\n    box-shadow: none;\r\n    border-bottom: 3px solid #1eaee1;\r\n  }\r\n}\r\n",".card {\r\n    border: none;\r\n    .card-img-top{\r\n        border-radius: 4px;\r\n    }\r\n}","* {\r\n  font-family: \"Helvetica Neue\" sans-serif !important;\r\n}\r\n\r\n.hardcode-text {\r\n  h4 {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n  }\r\n  p {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n.timestamp {\r\n  color: #898989;\r\n}\r\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../plugins/financie/_theme/index.scss';\r\n.card {\r\n\tcursor: pointer;\r\n\tborder: none;\r\n\tbackground: #ffffff;\r\n\tbox-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);\r\n\tborder-bottom: 5px solid transparent;\r\n\r\n\t&:hover {\r\n\t\tborder-bottom: 5px solid #FFA800;\r\n\t\tborder-radius: 5px;\r\n\t}\r\n\t&:focus {\r\n\t\tborder-bottom: 5px solid #FFA800;\r\n\t}\r\n}\r\n.card-title {\r\n\tfont-size: 18px;\r\n\tfont-weight: 400;\r\n}\r\n.isActive {\r\n\tborder-bottom: 5px solid #FFA800;\r\n\tborder-radius: 5px;\r\n}\r\n@media (max-width:500px) {\r\n\t.card {\r\n\t\tmargin: auto;\r\n\t\tmax-width: 18rem;\r\n\t}\r\n}\r\na {\r\n\tcolor: #19283b;\r\n\t&:hover {\r\n\t\tcolor: #19283b;\r\n\t}\r\n}\r\n"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "5a74":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -725,12 +711,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4d1d90ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=template&id=3ad8f69a&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('a',{staticClass:"text-decoration-none",attrs:{"href":_vm.link}},[_c('div',{staticClass:"card d-flex align-items-center flex-column text-center"},[_c('div',{staticClass:"card-body d-flex align-items-center flex-column"},[_c('img',{staticClass:"category-card",attrs:{"src":__webpack_require__("c72d")("./" + _vm.img)}}),_c('h4',{staticClass:"card-title mt-3"},[_vm._v(" "+_vm._s(_vm.title)+" ")])])])])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4d1d90ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=template&id=43af7ba6&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('a',{staticClass:"text-decoration-none",attrs:{"href":_vm.link}},[_c('div',{staticClass:"card d-flex align-items-center flex-column text-center",class:{isActive:_vm.isactive}},[_c('div',{staticClass:"card-body d-flex align-items-center flex-column"},[_c('img',{staticClass:"category-card",attrs:{"src":__webpack_require__("c72d")("./" + _vm.img)}}),_c('h4',{staticClass:"card-title mt-3"},[_vm._v(" "+_vm._s(_vm.title)+" ")])])])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=template&id=3ad8f69a&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=template&id=43af7ba6&scoped=true&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=script&lang=js&shadow
 //
@@ -753,7 +739,8 @@ var staticRenderFns = []
   props: {
     title: String,
     img: String,
-    link: String
+    link: String,
+    isactive: String
   }
 });
 // CONCATENATED MODULE: ./src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue?vue&type=script&lang=js&shadow
@@ -764,7 +751,7 @@ var staticRenderFns = []
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("f54c")
+  var style0 = __webpack_require__("773e")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -777,7 +764,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "3ad8f69a",
+  "43af7ba6",
   null
   ,true
 )
@@ -798,20 +785,15 @@ window.customElements.define('vc-category-card', vue_wc_wrapper(external_Vue_def
 
 /***/ }),
 
-/***/ "7682":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "773e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_43af7ba6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f50a");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_43af7ba6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_43af7ba6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_43af7ba6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_43af7ba6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
-// load the styles
-var content = __webpack_require__("5265");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("67b1a298", content, shadowRoot)
-};
 
 /***/ }),
 
@@ -921,6 +903,20 @@ module.exports = __webpack_require__.p + "img/rocnik1.a6b9a6e1.svg";
 
 /***/ }),
 
+/***/ "b56e":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-43af7ba6]{font-weight:300}.z-btn[data-v-43af7ba6]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-43af7ba6]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-43af7ba6]{color:#1eaee1!important}.z-btn[data-v-43af7ba6]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card .card-img-top[data-v-43af7ba6]{border-radius:4px}*[data-v-43af7ba6]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-43af7ba6]{font-size:24px;font-weight:700}.hardcode-text p[data-v-43af7ba6]{font-size:18px;font-weight:400}.timestamp[data-v-43af7ba6]{color:#898989}.card[data-v-43af7ba6]{cursor:pointer;border:none;background:#fff;box-shadow:0 4px 20px hsla(0,0%,69.4%,.15);border-bottom:5px solid transparent}.card[data-v-43af7ba6]:hover{border-radius:5px}.card[data-v-43af7ba6]:focus,.card[data-v-43af7ba6]:hover{border-bottom:5px solid #ffa800}.card-title[data-v-43af7ba6]{font-size:18px;font-weight:400}.isActive[data-v-43af7ba6]{border-bottom:5px solid #ffa800;border-radius:5px}@media (max-width:500px){.card[data-v-43af7ba6]{margin:auto;max-width:18rem}}a[data-v-43af7ba6],a[data-v-43af7ba6]:hover{color:#19283b}", "",{"version":3,"sources":["C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/card.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/fonts.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CCjBpC,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCchB,uBACC,cAAe,CACf,WAAY,CACZ,eAAmB,CACnB,0CAAkD,CAClD,mCAAoC,CALrC,6BASE,iBAAkB,CATpB,0DAQE,+BAIgC,CAChC,6BAGD,cAAe,CACf,eAAgB,CAChB,2BAEA,+BAAgC,CAChC,iBAAkB,CAClB,yBAEA,uBACC,WAAY,CACZ,eAAgB,CAChB,CAEF,4CAGE,aAAc","file":"vc-categoryCard.vue","sourcesContent":[".btn {\r\n  font-weight: 300;\r\n}\r\n\r\n.z-btn {\r\n  border-radius: 0px;\r\n  padding: 10px 15px;\r\n  border-bottom: 3px solid transparent;\r\n  &:hover {\r\n    border-bottom: 3px solid #1eaee1;\r\n    border-radius: 0px;\r\n    .nav-link {\r\n      color: #1eaee1 !important;\r\n    }\r\n  }\r\n  &:focus {\r\n    box-shadow: none;\r\n    border-bottom: 3px solid #1eaee1;\r\n  }\r\n}\r\n\r\n",".card {\r\n    border: none;\r\n    .card-img-top{\r\n        border-radius: 4px;\r\n    }\r\n}","* {\r\n  font-family: \"Helvetica Neue\" sans-serif !important;\r\n}\r\n\r\n.hardcode-text {\r\n  h4 {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n  }\r\n  p {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n.timestamp {\r\n  color: #898989;\r\n}\r\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../plugins/financie/_theme/index.scss';\r\n.card {\r\n\tcursor: pointer;\r\n\tborder: none;\r\n\tbackground: #ffffff;\r\n\tbox-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);\r\n\tborder-bottom: 5px solid transparent;\r\n\r\n\t&:hover {\r\n\t\tborder-bottom: 5px solid #FFA800;\r\n\t\tborder-radius: 5px;\r\n\t}\r\n\t&:focus {\r\n\t\tborder-bottom: 5px solid #FFA800;\r\n\t}\r\n}\r\n.card-title {\r\n\tfont-size: 18px;\r\n\tfont-weight: 400;\r\n}\r\n.isActive {\r\n\tborder-bottom: 5px solid #FFA800;\r\n\tborder-radius: 5px;\r\n}\r\n@media (max-width:500px) {\r\n\t.card {\r\n\t\tmargin: auto;\r\n\t\tmax-width: 18rem;\r\n\t}\r\n}\r\na {\r\n\tcolor: #19283b;\r\n\t&:hover {\r\n\t\tcolor: #19283b;\r\n\t}\r\n}\r\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "c419":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -967,15 +963,20 @@ module.exports = __webpack_require__.p + "img/rocnik4.f2e527ff.svg";
 
 /***/ }),
 
-/***/ "f54c":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "f50a":
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_3ad8f69a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("7682");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_3ad8f69a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_3ad8f69a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_3ad8f69a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_categoryCard_vue_vue_type_style_index_0_id_3ad8f69a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__("b56e");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("b8d3c7ec", content, shadowRoot)
+};
 
 /***/ })
 
