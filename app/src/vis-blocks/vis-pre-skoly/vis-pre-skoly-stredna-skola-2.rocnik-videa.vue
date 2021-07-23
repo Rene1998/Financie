@@ -10,7 +10,7 @@
 						<p class="content">
 							Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.
 						</p>
-						<p class="d-flex align-items-center">
+						<p>
 							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">
 								Základná škola 1. stupeň
 							</a>
@@ -27,7 +27,7 @@
 				</div>
 		</div>
 		</div>
-		<div class="container carousel-wrapper">
+		<div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block">
 			<div class="row">
 				<div class="col-3">
 					<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"></vc-category-card>
@@ -41,6 +41,11 @@
 				<div class="col-3">
 					<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy"></vc-category-card>
 				</div>
+			</div>
+		</div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-pre-skoly-stredna-skola-carousel/>
 			</div>
 		</div>
 		<div class="container text-center mt-5 mb-5 hardcode-text">

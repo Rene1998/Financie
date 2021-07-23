@@ -14,7 +14,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container carousel-wrapper">
+		<div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block">
 			<div class="row category-cards">
 				<div class="col-4 mb-3">
 					<vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie-byvanie"/>
@@ -34,6 +34,11 @@
 				<div class="col-4 mb-3">
 					<vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie-praca-a-dane"/>
 				</div>
+			</div>
+		</div>
+		<div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-home-carousel/>
 			</div>
 		</div>
 
