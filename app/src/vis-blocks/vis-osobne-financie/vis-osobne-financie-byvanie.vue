@@ -34,22 +34,46 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
-                    <vc-mini-card title="Kúpa alebo prenájom" desc="Je lepšie kúpiť alebo prenajať?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Kúpa alebo prenájom" desc="Je lepšie kúpiť alebo prenajať?" img="Blue-home.svg" link="/osobne-financie-byvanie-kupa-alebo-prenajom-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Financovanie kúpy" desc="Ako dofinancovať úver?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Financovanie kúpy" desc="Ako dofinancovať úver?" img="Blue-home.svg" link="/osobne-financie-byvanie-financovanie-kupy-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Poistenie" desc="Ako zabezpečiť dom?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Poistenie" desc="Ako zabezpečiť dom?" img="Blue-home.svg" link="/osobne-financie-byvanie-poistenie-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Technológie čo vedia ušetriť" desc="Presvedčte sa ako môžete ušetri’t využívaním moderných technológii" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Technológie čo vedia ušetriť" desc="Presvedčte sa ako môžete ušetri’t využívaním moderných technológii" img="Blue-home.svg" link="/osobne-financie-byvanie-technologie-clanok"/>
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Kúpa alebo prenájom"
+                    card1_desc="Je lepšie kúpiť alebo prenajať?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-byvanie-kupa-alebo-prenajom-clanok"
+
+                    card2_title="Financovanie kúpy"
+                    card2_desc="Ako dofinancovať úver?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-byvanie-financovanie-kupy-clanok"
+
+                    card3_title="Poistenie"
+                    card3_desc="Ako zabezpečiť dom?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-byvanie-poistenie-clanok"
+
+                    card4_title="Technológie čo vedia ušetriť"
+                    card4_desc="Presvedčte sa ako môžete ušetri’t využívaním moderných technológii"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-byvanie-technologie-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o bývaní

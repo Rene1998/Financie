@@ -1,19 +1,18 @@
 <template>
     <div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
         <nav class="navbar navbar-expand navbar-light d-flex align-items-center ">
-            <a class="navbar-brand" href="#"><img 
-                class="logo" :src="require('./assets/logo.svg')" alt="logo">
+            <a class="navbar-brand" href="./home">
+            <img class="logo" :src="require('./assets/logo.svg')" alt="logo">
             </a>
          
             <div class="navbar-nav  d-flex align-items-center">
-                <li class="nav-item active">
-                    <a class="btn osobne-financie z-btn bp-3 d-flex align-items-center" href="#">Osobné financie</a>
+                <li class="nav-item d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
+                    <a class="btn osobne-financie bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
                 </li>
                 <hr >
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" :class="{'active': preSkolypage}">
                     <a class="nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
                         href="#" 
                         id="navbarDropdown" 
@@ -25,9 +24,9 @@
                         Pre školy
                     </a>
                     <div class="dropdown-menu dropdown-menu-right nav-item " aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Základná škola 1. stupeň</a>
-                        <a class="dropdown-item" href="#">Základná škola 2. stupeň</a>
-                        <a class="dropdown-item" href="#"> Stredná škola</a>
+                        <a class="dropdown-item" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">Základná škola 1. stupeň</a>
+                        <a class="dropdown-item" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy">Základná škola 2. stupeň</a>
+                        <a class="dropdown-item" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"> Stredná škola</a>
                     </div>
                 </li>
                 <hr>
@@ -43,25 +42,17 @@
 
 <script>
 export default {
-    data () {
-        return {
-            page: 'home',
-            active: true
-        }
-    },
-    watch: {
-        '$route.name': {
-            immediate: true,
-            handler (val) {
-              this.actualPage(val)
-            }
-        }
-    },
-    methods: {
-        actualPage (page) {
-            this.page = page
-        }
-    }
+	data() {
+		return {
+			osobneFinanciepage: false,
+      preSkolypage: false
+
+		}
+	},
+	mounted() {
+    this.osobneFinanciepage = window.location.pathname.startsWith('/osobne-financie'),
+    this.preSkolypage = window.location.pathname.startsWith('/pre-skoly')
+	}
 }
 </script>
 
@@ -234,5 +225,9 @@ export default {
         width: 102px;
         height: 27px;
     }
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
 }
 </style>

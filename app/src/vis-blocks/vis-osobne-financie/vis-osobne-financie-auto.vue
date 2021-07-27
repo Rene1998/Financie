@@ -1,6 +1,6 @@
 <template>
 	<div>
-        <div class="container-fluid byvanie-main">
+    <div class="container-fluid byvanie-main">
 			<div class="container">
 				<div class="byvanie-welcome-text">
 					<div class="col d-flex flex-column mb-5 b-arrow">
@@ -19,8 +19,8 @@
 						</div>
 					</div>
 				</div>
-            </div>
-        </div>
+      </div>
+    </div>
         <vc-progress-bar/>
 
         <vc-carousel/>
@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Financovanie auta"
+                    card1_desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-auto-financovanie-auta-clanok"
+
+                    card2_title="Poistenie Auta"
+                    card2_desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-auto-poistenie-auta-clanok"
+
+                    card3_title="Kúpa a predaj"
+                    card3_desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-auto-kupa-a-predaj-clanok"
+
+                    card4_title="Údržba auta"
+                    card4_desc="Nerobte si starosti súdržbou vášho auta"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-auto-udrzba-auta-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o autách

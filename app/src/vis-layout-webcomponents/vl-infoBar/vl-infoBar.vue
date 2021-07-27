@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<div class="container-fluid d-flex justify-content-center text-center">
+		<div class="container-fluid d-flex justify-content-center text-center" :class="{'PreSkolyBar': page}">
 			<div class="row d-flex flex-sm-col">
 				<p class="d-flex align-items-center justify-content-center mt-0 mb-0">
 					Informácie ktoré vám pomôžu k správnemu investovaniu.
@@ -13,15 +13,21 @@
 		</div>
 	</div>
 </template>
-
+<script>
+export default {
+	data() {
+		return {
+			page: false
+		}
+	},
+	mounted() {
+    this.page = window.location.pathname.startsWith('/pre-skoly')
+    console.log(this.page, window.location.pathname)
+	}
+}
+</script>
 <style lang="scss" scoped>
 @import '../../plugins/financie/_theme/index.scss';
-.pre-skoly {
-	background-color: #ffa800 !important;
-  a {
-    color: #3a4757!important;
-  }
-}
 .container-fluid {
   color: white;
   font-style: normal;
@@ -48,4 +54,11 @@
 		}
 	}
 }
+.PreSkolyBar {
+  background-color: #ffa800 !important;
+}
+.PreSkolyBar a {
+  color: #3a4757!important;
+}
+
 </style>

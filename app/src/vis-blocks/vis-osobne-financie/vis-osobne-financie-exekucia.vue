@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Exekúcia" desc="Na čo sa vzťahuje exekúcia? Na čo sa nevzťahuje exekúcia?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Exekúcia"
+                    card1_desc="Na čo sa vzťahuje exekúcia? Na čo sa nevzťahuje exekúcia?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-exekucia-clanok"
+
+                    card2_title="Pred Exekúciou"
+                    card2_desc="Čo robiť ak mi hrozí exekúcia? Je možné dostať úver, keď som v exekúcií?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-exekucia-pred-exekuciou-clanok"
+
+                    card3_title="Počas exekúcie"
+                    card3_desc="Aké druhy oddlženia existujú? Aký druh mám vybrať ak nechcem prísť o majetok?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-exekucia-pocas-exekucie-clanok"
+
+                    card4_title="Právo a financie"
+                    card4_desc="Orientujte sa vo finančno-právnom svete"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-exekucia-pravo-a-financie-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o exekúcií

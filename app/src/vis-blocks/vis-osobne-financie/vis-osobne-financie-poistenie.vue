@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Životné poistenie" desc="Hlavné parametre životného postenia" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Životné poistenie"
+                    card1_desc="Hlavné parametre životného postenia"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-poistenie-zivotne-poistenie-clanok"
+
+                    card2_title="Poistenie auta (neživotné poistenie)"
+                    card2_desc="Prečo si uzavrieť havarijné poistenie keď mám PZP?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-poistenie-auta-clanok"
+
+                    card3_title="Poistenie nehnuteľnosti/domácnosti"
+                    card3_desc="Na čo si dávať pozor pri uzatváraní poistenia na dom?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-poistenie-nehnutelnosti-clanok"
+
+                    card4_title="Cestovné poistenie"
+                    card4_desc="Kedy a prečo sa oplatí?"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-poistenie-cestovne-poistenie-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o praci a danich

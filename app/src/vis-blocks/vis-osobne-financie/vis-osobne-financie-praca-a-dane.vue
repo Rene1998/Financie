@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Dane" desc="Za akých podmienok musím zdaniť príjem z predaja bytu?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Dane"
+                    card1_desc="Za akých podmienok musím zdaniť príjem z predaja bytu?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-praca-a-dane-clanok"
+
+                    card2_title="Samostatná zárobková činnosť"
+                    card2_desc="Aké sú lehoty na podanie daňového priznania pre SZČO?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-praca-a-dane-samostatna-zarobkova-cinnost-clanok"
+
+                    card3_title="Ako si zvýšiť príjem?"
+                    card3_desc="Ako si privyrábať?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-praca-a-dane-zvysenie-prijmu-clanok"
+
+                    card4_title="Pracujem"
+                    card4_desc="Začínam pracovať po škole. Na čo myslieť?"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-praca-a-dane-pracujem-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o praci a danich

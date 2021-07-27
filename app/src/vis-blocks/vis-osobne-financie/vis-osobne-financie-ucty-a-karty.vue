@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Bežný Účet" desc="Ako mať bankový účet zadarmo" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Bežný Účet"
+                    card1_desc="Ako mať bankový účet zadarmo"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-ucty-a-karty-bezny-ucet-clanok"
+
+                    card2_title="Sporiaci Účet"
+                    card2_desc="Ako sa odlišuje sporiaci účet od bežného účtu"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-ucty-a-karty-sporiaci-ucet-clanok"
+
+                    card3_title="Kreditná Karta"
+                    card3_desc="Čo je kreditná karta?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-ucty-a-karty-kreditna-karta-clanok"
+
+                    card4_title="Debetná Karta"
+                    card4_desc="Čo je debetná karta?"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-ucty-a-karty-debetna-karta-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o praci a danich

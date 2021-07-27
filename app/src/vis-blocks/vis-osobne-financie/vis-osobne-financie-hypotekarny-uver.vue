@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Hypotekárny úver - nadobudnutie bývania" desc="Zabezpečenie hypotéky (zábezpeka, ručiteľ)" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Hypotekárny úver - nadobudnutie bývania"
+                    card1_desc="Zabezpečenie hypotéky (zábezpeka, ručiteľ)"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-hypotekarny-uver-nadobudnutie-byvania-clanok"
+
+                    card2_title="Americká hypotéka"
+                    card2_desc="Čo je americká hypotéka ako funguje"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-hypotekarny-uver-americka-hypoteka-clanok"
+
+                    card3_title="Žiadosť o úver"
+                    card3_desc="Ako dostať najlacnejšiu hypotéku?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-hypotekarny-uver-ziadost-o-uver-clanok"
+
+                    card4_title="Splácanie úveru"
+                    card4_desc="Refinancovanie (ako prebieha, kedy refinancovať)"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-hypotekarny-uver-splacanie-uveru-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o praci a danich

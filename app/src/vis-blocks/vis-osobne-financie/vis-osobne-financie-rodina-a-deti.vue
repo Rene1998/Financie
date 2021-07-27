@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Rozpočet domácnosti" desc="Aké sú základné princípy pre hospodárenie domácnosti?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Rozpočet domácnosti"
+                    card1_desc="Aké sú základné princípy pre hospodárenie domácnosti?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-rodina-a-deti-rozpocet-domacnosti-clanok"
+
+                    card2_title="Deti"
+                    card2_desc="Ako je najvýhodnejšie sporiť deťom?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-rodina-a-deti-clanok"
+
+                    card3_title="Manželstvo"
+                    card3_desc="Ako sa finančne pripraviť na svadbu? Na čo myslieť z finančného hľadiska?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-rodina-a-deti-manzelstvo-clanok"
+
+                    card4_title="Ako financovať vzdelanie?"
+                    card4_desc="Ako financovať vzdelanie?"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-rodina-a-deti-financovanie-vzdelania-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o rodine
