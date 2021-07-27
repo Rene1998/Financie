@@ -1,0 +1,5 @@
+<template>
+<!-- wp:separator -->
+    <hr class="wp-block-separator"/>
+<!-- /wp:separator -->
+</template>
