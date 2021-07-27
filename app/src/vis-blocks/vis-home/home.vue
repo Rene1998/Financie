@@ -91,6 +91,7 @@
 				</div>
 			</div>
 		</div>
+		<custom-tags-blog></custom-tags-blog>
 	</div>
 </template>
 
@@ -100,6 +101,7 @@ export default {
 	components: {
 		Carousel,
 		Slide,
+		'custom-tags-blog': () => import('../../native-components/custom-tags-blog.vue'),
 		'vc-homeCategoryCard': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue'),
 		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
 		'vc-showArticles': () => import('@/vis-webcomponents/vc-showArticles/vc-showArticles.vue'),
