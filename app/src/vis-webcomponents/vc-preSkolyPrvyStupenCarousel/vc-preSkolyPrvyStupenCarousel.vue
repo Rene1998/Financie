@@ -159,6 +159,9 @@ hr {
 		-webkit-touch-callout: none;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		outline: none;
+    visibility: visible;
+    flex-basis: 100%;
+    width: 100%;
 	}
 	&.VueCarousel-slide-adjustableHeight {
 		display: table;

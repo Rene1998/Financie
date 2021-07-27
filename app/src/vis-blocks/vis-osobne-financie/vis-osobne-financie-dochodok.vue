@@ -34,22 +34,46 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
-                    <vc-mini-card title="1. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="1. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="/osobne-financie-dochodok-1-pilier-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="2. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="2. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="/osobne-financie-dochodok-2-pilier-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="3. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="3. pilier" desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?" img="Blue-home.svg" link="/osobne-financie-dochodok-3-pilier-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Súkromne Sporenie" desc="Nespoliahjte sa na štát avytvorte si vlastný zdroj dôchodku" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Súkromne Sporenie" desc="Nespoliahjte sa na štát avytvorte si vlastný zdroj dôchodku" img="Blue-home.svg" link="/osobne-financie-dochodok-sukromne-sporenie-clanok"/>
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="1. pilier"
+                    card1_desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-dochodok-1-pilier-clanok"
+
+                    card2_title="2. pilier"
+                    card2_desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-dochodok-2-pilier-clanok"
+
+                    card3_title="3. pilier"
+                    card3_desc="K čomu je? Ako funguje? Ako si z neho vybrať peniaze?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-dochodok-3-pilier-clanok"
+
+                    card4_title="Súkromne Sporenie"
+                    card4_desc="Nespoliahjte sa na štát avytvorte si vlastný zdroj dôchodku"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-dochodok-sukromne-sporenie-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o dôchodku

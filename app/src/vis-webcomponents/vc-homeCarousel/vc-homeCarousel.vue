@@ -4,8 +4,8 @@
         <div class="mb-5">
 			<div class="d-flex justify-content-center">
 				<carousel
-                    class="carousel-wrapper"
-					style="width: 800px"
+          class="carousel-wrapper"
+					style="width: 100%"
 					:loop="true"
 					:autoplay="true"
 					:autoplayTimeout="5000"
@@ -53,7 +53,10 @@ export default {
 		Carousel,
         Slide,
 
-}
+	},
+	props: {
+		card_title: String,
+	}
 }
 </script>
 <style lang="scss" scoped>
@@ -169,6 +172,9 @@ hr {
 		-webkit-touch-callout: none;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		outline: none;
+    visibility: visible;
+    flex-basis: 100%;
+    width: 100%;
 	}
 	&.VueCarousel-slide-adjustableHeight {
 		display: table;

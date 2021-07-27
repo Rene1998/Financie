@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<div class="container-fluid d-flex justify-content-center text-center">
-			<div class="row d-flex flex-sm-col" :class="{PreSkolyBar:preSkoly}">
+		<div class="container-fluid d-flex justify-content-center text-center" :class="{'PreSkolyBar': page}">
+			<div class="row d-flex flex-sm-col">
 				<p class="d-flex align-items-center justify-content-center mt-0 mb-0">
 					Informácie ktoré vám pomôžu k správnemu investovaniu.
 					<a class="d-flex justify-content-center" target="blank" href="">
@@ -15,8 +15,14 @@
 </template>
 <script>
 export default {
-	props: {
-		preSkoly: String
+	data() {
+		return {
+			page: false
+		}
+	},
+	mounted() {
+    this.page = window.location.pathname.startsWith('/pre-skoly')
+    console.log(this.page, window.location.pathname)
 	}
 }
 </script>
@@ -48,4 +54,11 @@ export default {
 		}
 	}
 }
+.PreSkolyBar {
+  background-color: #ffa800 !important;
+}
+.PreSkolyBar a {
+  color: #3a4757!important;
+}
+
 </style>

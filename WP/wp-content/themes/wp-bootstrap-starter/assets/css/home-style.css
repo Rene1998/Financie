@@ -65,3 +65,7 @@ hr {
   border-bottom: 5px solid #ffa800;
   border-radius: 5px;
 }
+
+.line-height {
+  line-height: normal;
+}

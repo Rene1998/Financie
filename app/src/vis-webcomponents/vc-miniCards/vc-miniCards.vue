@@ -77,7 +77,8 @@ export default {
 
 @media (max-width:800px) {
     .card {
-        max-width: 17rem !important;
+        max-width: 20rem !important;
+        height: 300px !important;
         margin: auto;
     }
 }

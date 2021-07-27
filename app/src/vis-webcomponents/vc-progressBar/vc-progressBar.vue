@@ -16,7 +16,8 @@
 						@click="scrollTo(zakladneInformacie)"
 						:class="{
 							isActive:
-								zakladneInformacie <= pageScrollPositon &&
+								zakladneInformacie <= pageScrollPositon
+                 &&
 								pageScrollPositon < najnovsieClanky,
 						}">
 						Základné informácie
@@ -62,6 +63,7 @@ export default {
 	data () {
 		return {
 			progressBar: null,
+      offsetTop: null,
 			pageScrollBarPositon: null,
 			pageScrollPositon: null,
 			vedeliSte: null,

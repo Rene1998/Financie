@@ -8,11 +8,11 @@
             </a>
          
             <div class="navbar-nav  d-flex align-items-center">
-                <li class="nav-item active">
-                    <a class="btn osobne-financie bp-3 d-flex align-items-center" href="#">Osobné financie</a>
+                <li class="nav-item d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
+                    <a class="btn osobne-financie bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
                 </li>
                 <hr >
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" :class="{'active': preSkolypage}">
                     <a class="nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
                         href="#" 
                         id="navbarDropdown" 
@@ -41,7 +41,19 @@
 </template>
 
 <script>
+export default {
+	data() {
+		return {
+			osobneFinanciepage: false,
+      preSkolypage: false
 
+		}
+	},
+	mounted() {
+    this.osobneFinanciepage = window.location.pathname.startsWith('/osobne-financie'),
+    this.preSkolypage = window.location.pathname.startsWith('/pre-skoly')
+	}
+}
 </script>
 
 <style lang="scss" scoped>

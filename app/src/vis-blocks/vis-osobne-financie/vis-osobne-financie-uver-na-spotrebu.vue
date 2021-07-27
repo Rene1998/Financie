@@ -34,7 +34,7 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
                     <vc-mini-card title="Základy investovania" desc="Kedy začať investovať" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
@@ -50,6 +50,30 @@
                 </div>
             </div>
         </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-osobne-financie-carousel 
+                    card1_title="Základy investovania"
+                    card1_desc="Kedy začať investovať"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-uver-na-spotrebu-zaklady-investovania-clanok"
+
+                    card2_title="Základné Investičné Príležitosti"
+                    card2_desc="Investovanie do akcií"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-uver-na-spotrebu-zakladne-investicne-prilezitosti-clanok"
+
+                    card3_title="Investičné princípy"
+                    card3_desc="Rozdiel medzi investovaním a sporením"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-uver-na-spotrebu-investicne-principy-clanok"
+
+                    card4_title="Aktívne vs. pasívne investovanie"
+                    card4_desc="Aké je to akívne investovanie -výhody anevýhody"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-uver-na-spotrebu-aktivne-vs-pasivne-investovanie-clanok"/>
+			</div>
+		</div>
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o praci a danich

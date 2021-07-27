@@ -199,20 +199,6 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "299a":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-680305b6]{font-weight:300}.z-btn[data-v-680305b6]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-680305b6]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-680305b6]{color:#1eaee1!important}.z-btn[data-v-680305b6]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-680305b6]{border:none}.card .card-img-top[data-v-680305b6]{border-radius:4px}*[data-v-680305b6]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-680305b6]{font-size:24px;font-weight:700}.hardcode-text p[data-v-680305b6]{font-size:18px;font-weight:400}.timestamp[data-v-680305b6]{color:#898989}.slider-info[data-v-680305b6]{margin-top:40px}.VueCarousel-dot-container[data-v-680305b6]{margin-top:-20px!important}span[data-v-680305b6]{font-size:18px;color:#192949;width:951px}h5[data-v-680305b6],span[data-v-680305b6]{font-weight:400;line-height:30px}h5[data-v-680305b6]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-680305b6]{max-width:73%;border:1px solid #f3f4f5}[data-v-680305b6] .VueCarousel-dot:focus{outline:none!important}[data-v-680305b6] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-680305b6] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-680305b6] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-680305b6] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-680305b6] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-680305b6] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-680305b6] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none;margin-top:40px!important}[data-v-680305b6] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-680305b6] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-680305b6] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-680305b6] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-680305b6] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden}[data-v-680305b6] .VueCarousel-inner--center{justify-content:center}[data-v-680305b6] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none}[data-v-680305b6] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/card.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/fonts.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCmChB,8BACE,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CACb,yBAA0B,CA/C5B,yCAkDE,yBAA4B,CAlD9B,+BAqDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAvDpB,wCA0DE,6BAA8B,CA1DhC,uCA6DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA/DlB,qCAkEE,YAAa,CACb,kBAAmB,CACnB,kCAAqB,CAArB,0BAA2B,CApE7B,6CAuEE,sBAAuB,CAvEzB,qCA0EE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CAjFf,sDAoFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-pre-skoly-druhy-stupen-carousel.vue","sourcesContent":[".btn {\r\n  font-weight: 300;\r\n}\r\n\r\n.z-btn {\r\n  border-radius: 0px;\r\n  padding: 10px 15px;\r\n  border-bottom: 3px solid transparent;\r\n  &:hover {\r\n    border-bottom: 3px solid #1eaee1;\r\n    border-radius: 0px;\r\n    .nav-link {\r\n      color: #1eaee1 !important;\r\n    }\r\n  }\r\n  &:focus {\r\n    box-shadow: none;\r\n    border-bottom: 3px solid #1eaee1;\r\n  }\r\n}\r\n\r\n",".card {\r\n    border: none;\r\n    .card-img-top{\r\n        border-radius: 4px;\r\n    }\r\n}","* {\r\n  font-family: \"Helvetica Neue\" sans-serif !important;\r\n}\r\n\r\n.hardcode-text {\r\n  h4 {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n  }\r\n  p {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n.timestamp {\r\n  color: #898989;\r\n}\r\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../plugins/financie/_theme/index.scss';\r\n.slider-info {\r\n  margin-top: 40px;\r\n}\r\n\r\n.VueCarousel-dot-container {\r\n  margin-top: -20px !important;\r\n}\r\n\r\nspan {\r\n  font-weight: 400;\r\n  font-size: 18px;\r\n  line-height: 30px;\r\n  color: #192949;\r\n  width: 951px;\r\n}\r\n\r\nh5 {\r\n  font-weight: 400;\r\n  font-family: HeadlandOne;\r\n  font-size: 24px;\r\n  line-height: 30px;\r\n  color: #000000;\r\n}\r\n\r\nhr {\r\n  max-width: 73%;\r\n  border: 1px solid #f3f4f5;\r\n}\r\n\r\n/deep/ {\r\n  &.VueCarousel-dot:focus {\r\n    outline: none !important;\r\n  }\r\n\r\n  &.VueCarousel-dot--active {\r\n    background-color: #1eaee1 !important;\r\n  }\r\n\r\n  &.VueCarousel-dot {\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n  }\r\n\r\n  &.VueCarousel-pagination {\r\n    margin-top: -45px;\r\n  }\r\n\r\n\t&.VueCarousel-pagination {\r\n\t\twidth: 100%;\r\n\t\ttext-align: center;\r\n\t}\r\n\t&.VueCarousel-pagination--top-overlay {\r\n\t\tposition: absolute;\r\n\t\ttop: 0;\r\n\t}\r\n\t&.VueCarousel-pagination--bottom-overlay {\r\n\t\tposition: absolute;\r\n\t\tbottom: 0;\r\n\t}\r\n\t&.VueCarousel-dot-container {\r\n\t\tdisplay: inline-block;\r\n\t\tmargin: 0 auto;\r\n\t\tpadding: 0;\r\n\t}\r\n\t&.VueCarousel-dot {\r\n\t\tdisplay: inline-block;\r\n\t\tcursor: pointer;\r\n\t\tappearance: none;\r\n\t\tborder: none;\r\n\t\tbackground-clip: content-box;\r\n\t\tbox-sizing: content-box;\r\n\t\tpadding: 0;\r\n\t\tborder-radius: 100%;\r\n\t\toutline: none;\r\n\t\tmargin-top: 40px!important;\r\n\t}\r\n\t&.VueCarousel-dot:focus {\r\n\t\toutline: 1px solid lightblue;\r\n\t}\r\n\t&.VueCarousel {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t\tposition: relative;\r\n\t}\r\n\t&.VueCarousel--reverse {\r\n\t\tflex-direction: column-reverse;\r\n\t}\r\n\t&.VueCarousel-wrapper {\r\n\t\twidth: 100%;\r\n\t\tposition: relative;\r\n\t\toverflow: hidden;\r\n\t}\r\n\t&.VueCarousel-inner {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: row;\r\n\t\tbackface-visibility: hidden;\r\n\t}\r\n\t&.VueCarousel-inner--center {\r\n\t\tjustify-content: center;\r\n\t}\r\n\t&.VueCarousel-slide {\r\n\t\tflex-basis: inherit;\r\n\t\tflex-grow: 0;\r\n\t\tflex-shrink: 0;\r\n\t\tuser-select: none;\r\n\t\tbackface-visibility: hidden;\r\n\t\t-webkit-touch-callout: none;\r\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\r\n\t\toutline: none;\r\n\t}\r\n\t&.VueCarousel-slide-adjustableHeight {\r\n\t\tdisplay: table;\r\n\t\tflex-basis: auto;\r\n\t\twidth: 100%;\r\n\t}\r\n}\r\n"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "35d6":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -737,17 +723,17 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4d1d90ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue?vue&type=template&id=680305b6&scoped=true&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4d1d90ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue?vue&type=template&id=0e55c6e0&scoped=true&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"mb-5"},[_c('div',{staticClass:"d-flex justify-content-center"},[_c('carousel',{staticClass:"carousel-wrapper",staticStyle:{"width":"800px"},attrs:{"loop":true,"autoplay":true,"autoplayTimeout":5000,"perPage":1}},[_c('slide',{staticClass:"slide text-center"},[_c('h5',[_c('vc-category-card',{attrs:{"title":"5. Ročník","img":"rocnik1.svg","link":"./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"}})],1)]),_c('slide',{staticClass:"slide text-center"},[_c('h5',[_c('vc-category-card',{attrs:{"title":"6. Ročník","img":"rocnik2.svg","link":"./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"}})],1)]),_c('slide',{staticClass:"slide text-center"},[_c('h5',[_c('vc-category-card',{attrs:{"title":"7. Ročník","img":"rocnik3.svg","link":"./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy"}})],1)]),_c('slide',{staticClass:"slide text-center"},[_c('h5',[_c('vc-category-card',{attrs:{"title":"8-9. Ročník","img":"rocnik4.svg","link":"./pre-skoly-zakladna-skola-2-stupen-8-9-rocnik-ucebne-materialy"}})],1)])],1)],1)])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue?vue&type=template&id=680305b6&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue?vue&type=template&id=0e55c6e0&scoped=true&shadow
 
 // EXTERNAL MODULE: ./node_modules/vue-carousel/dist/vue-carousel.min.js
 var vue_carousel_min = __webpack_require__("0a63");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue?vue&type=script&lang=js&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue?vue&type=script&lang=js&shadow
 //
 //
 //
@@ -787,21 +773,21 @@ var vue_carousel_min = __webpack_require__("0a63");
 //
 //
 
-/* harmony default export */ var vc_pre_skoly_druhy_stupen_carouselvue_type_script_lang_js_shadow = ({
+/* harmony default export */ var vc_preSkolyDruhyStupenCarouselvue_type_script_lang_js_shadow = ({
   components: {
     Carousel: vue_carousel_min["Carousel"],
     Slide: vue_carousel_min["Slide"]
   }
 });
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue?vue&type=script&lang=js&shadow
- /* harmony default export */ var vc_pre_skoly_druhy_stupen_carousel_vc_pre_skoly_druhy_stupen_carouselvue_type_script_lang_js_shadow = (vc_pre_skoly_druhy_stupen_carouselvue_type_script_lang_js_shadow); 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-pre-skoly-druhy-stupen-carousel/vc-pre-skoly-druhy-stupen-carousel.vue?shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue?vue&type=script&lang=js&shadow
+ /* harmony default export */ var vc_preSkolyDruhyStupenCarousel_vc_preSkolyDruhyStupenCarouselvue_type_script_lang_js_shadow = (vc_preSkolyDruhyStupenCarouselvue_type_script_lang_js_shadow); 
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue?shadow
 
 
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("84d0")
+  var style0 = __webpack_require__("e511")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -809,17 +795,17 @@ if (style0.__inject__) style0.__inject__(context)
 /* normalize component */
 
 var component = normalizeComponent(
-  vc_pre_skoly_druhy_stupen_carousel_vc_pre_skoly_druhy_stupen_carouselvue_type_script_lang_js_shadow,
+  vc_preSkolyDruhyStupenCarousel_vc_preSkolyDruhyStupenCarouselvue_type_script_lang_js_shadow,
   render,
   staticRenderFns,
   false,
   injectStyles,
-  "680305b6",
+  "0e55c6e0",
   null
   ,true
 )
 
-/* harmony default export */ var vc_pre_skoly_druhy_stupen_carouselshadow = (component.exports);
+/* harmony default export */ var vc_preSkolyDruhyStupenCarouselshadow = (component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-wc.js
 
 
@@ -831,35 +817,23 @@ var component = normalizeComponent(
 
 
 
-window.customElements.define('vc-pre-skoly-druhy-stupen-carousel', vue_wc_wrapper(external_Vue_default.a, vc_pre_skoly_druhy_stupen_carouselshadow))
+window.customElements.define('vc-pre-skoly-druhy-stupen-carousel', vue_wc_wrapper(external_Vue_default.a, vc_preSkolyDruhyStupenCarouselshadow))
 
 /***/ }),
 
-/***/ "84d0":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_pre_skoly_druhy_stupen_carousel_vue_vue_type_style_index_0_id_680305b6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("868b");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_pre_skoly_druhy_stupen_carousel_vue_vue_type_style_index_0_id_680305b6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_pre_skoly_druhy_stupen_carousel_vue_vue_type_style_index_0_id_680305b6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_pre_skoly_druhy_stupen_carousel_vue_vue_type_style_index_0_id_680305b6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_pre_skoly_druhy_stupen_carousel_vue_vue_type_style_index_0_id_680305b6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ "868b":
+/***/ "70a0":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("299a");
+var content = __webpack_require__("b1a3");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to Shadow Root
 var add = __webpack_require__("35d6").default
 module.exports.__inject__ = function (shadowRoot) {
-  add("d4fe4480", content, shadowRoot)
+  add("170b9a32", content, shadowRoot)
 };
 
 /***/ }),
@@ -953,6 +927,32 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ (function(module, exports) {
 
 module.exports = Vue;
+
+/***/ }),
+
+/***/ "b1a3":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-0e55c6e0]{font-weight:300}.z-btn[data-v-0e55c6e0]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-0e55c6e0]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-0e55c6e0]{color:#1eaee1!important}.z-btn[data-v-0e55c6e0]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-0e55c6e0]{border:none}.card .card-img-top[data-v-0e55c6e0]{border-radius:4px}*[data-v-0e55c6e0]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-0e55c6e0]{font-size:24px;font-weight:700}.hardcode-text p[data-v-0e55c6e0]{font-size:18px;font-weight:400}.timestamp[data-v-0e55c6e0]{color:#898989}.slider-info[data-v-0e55c6e0]{margin-top:40px}.VueCarousel-dot-container[data-v-0e55c6e0]{margin-top:-20px!important}span[data-v-0e55c6e0]{font-size:18px;color:#192949;width:951px}h5[data-v-0e55c6e0],span[data-v-0e55c6e0]{font-weight:400;line-height:30px}h5[data-v-0e55c6e0]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-0e55c6e0]{max-width:73%;border:1px solid #f3f4f5}[data-v-0e55c6e0] .VueCarousel-dot:focus{outline:none!important}[data-v-0e55c6e0] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-0e55c6e0] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-0e55c6e0] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-0e55c6e0] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-0e55c6e0] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-0e55c6e0] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-0e55c6e0] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none;margin-top:40px!important}[data-v-0e55c6e0] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-0e55c6e0] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-0e55c6e0] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-0e55c6e0] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-0e55c6e0] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden;flex-basis:375px!important;visibility:visible!important}[data-v-0e55c6e0] .VueCarousel-inner--center{justify-content:center}[data-v-0e55c6e0] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none;visibility:visible;flex-basis:100%;width:100%}[data-v-0e55c6e0] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/card.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/fonts.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-preSkolyDruhyStupenCarousel/vc-preSkolyDruhyStupenCarousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCmChB,8BACE,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CACb,yBAA0B,CA/C5B,yCAkDE,yBAA4B,CAlD9B,+BAqDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAvDpB,wCA0DE,6BAA8B,CA1DhC,uCA6DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA/DlB,qCAkEE,YAAa,CACb,kBAAmB,CACnB,kCAA2B,CAA3B,0BAA2B,CACzB,0BAA4B,CAC5B,4BAA8B,CAtElC,6CAyEE,sBAAuB,CAzEzB,qCA4EE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CACX,kBAAmB,CACnB,eAAgB,CAChB,UAAW,CAtFf,sDAyFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-preSkolyDruhyStupenCarousel.vue","sourcesContent":[".btn {\r\n  font-weight: 300;\r\n}\r\n\r\n.z-btn {\r\n  border-radius: 0px;\r\n  padding: 10px 15px;\r\n  border-bottom: 3px solid transparent;\r\n  &:hover {\r\n    border-bottom: 3px solid #1eaee1;\r\n    border-radius: 0px;\r\n    .nav-link {\r\n      color: #1eaee1 !important;\r\n    }\r\n  }\r\n  &:focus {\r\n    box-shadow: none;\r\n    border-bottom: 3px solid #1eaee1;\r\n  }\r\n}\r\n\r\n",".card {\r\n    border: none;\r\n    .card-img-top{\r\n        border-radius: 4px;\r\n    }\r\n}","* {\r\n  font-family: \"Helvetica Neue\" sans-serif !important;\r\n}\r\n\r\n.hardcode-text {\r\n  h4 {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n  }\r\n  p {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n.timestamp {\r\n  color: #898989;\r\n}\r\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../plugins/financie/_theme/index.scss';\r\n.slider-info {\r\n  margin-top: 40px;\r\n}\r\n\r\n.VueCarousel-dot-container {\r\n  margin-top: -20px !important;\r\n}\r\n\r\nspan {\r\n  font-weight: 400;\r\n  font-size: 18px;\r\n  line-height: 30px;\r\n  color: #192949;\r\n  width: 951px;\r\n}\r\n\r\nh5 {\r\n  font-weight: 400;\r\n  font-family: HeadlandOne;\r\n  font-size: 24px;\r\n  line-height: 30px;\r\n  color: #000000;\r\n}\r\n\r\nhr {\r\n  max-width: 73%;\r\n  border: 1px solid #f3f4f5;\r\n}\r\n\r\n/deep/ {\r\n  &.VueCarousel-dot:focus {\r\n    outline: none !important;\r\n  }\r\n\r\n  &.VueCarousel-dot--active {\r\n    background-color: #1eaee1 !important;\r\n  }\r\n\r\n  &.VueCarousel-dot {\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n  }\r\n\r\n  &.VueCarousel-pagination {\r\n    margin-top: -45px;\r\n  }\r\n\r\n\t&.VueCarousel-pagination {\r\n\t\twidth: 100%;\r\n\t\ttext-align: center;\r\n\t}\r\n\t&.VueCarousel-pagination--top-overlay {\r\n\t\tposition: absolute;\r\n\t\ttop: 0;\r\n\t}\r\n\t&.VueCarousel-pagination--bottom-overlay {\r\n\t\tposition: absolute;\r\n\t\tbottom: 0;\r\n\t}\r\n\t&.VueCarousel-dot-container {\r\n\t\tdisplay: inline-block;\r\n\t\tmargin: 0 auto;\r\n\t\tpadding: 0;\r\n\t}\r\n\t&.VueCarousel-dot {\r\n\t\tdisplay: inline-block;\r\n\t\tcursor: pointer;\r\n\t\tappearance: none;\r\n\t\tborder: none;\r\n\t\tbackground-clip: content-box;\r\n\t\tbox-sizing: content-box;\r\n\t\tpadding: 0;\r\n\t\tborder-radius: 100%;\r\n\t\toutline: none;\r\n\t\tmargin-top: 40px!important;\r\n\t}\r\n\t&.VueCarousel-dot:focus {\r\n\t\toutline: 1px solid lightblue;\r\n\t}\r\n\t&.VueCarousel {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t\tposition: relative;\r\n\t}\r\n\t&.VueCarousel--reverse {\r\n\t\tflex-direction: column-reverse;\r\n\t}\r\n\t&.VueCarousel-wrapper {\r\n\t\twidth: 100%;\r\n\t\tposition: relative;\r\n\t\toverflow: hidden;\r\n\t}\r\n\t&.VueCarousel-inner {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: row;\r\n\t\tbackface-visibility: hidden;\r\n    flex-basis: 375px !important;\r\n    visibility: visible !important;\r\n\t}\r\n\t&.VueCarousel-inner--center {\r\n\t\tjustify-content: center;\r\n\t}\r\n\t&.VueCarousel-slide {\r\n\t\tflex-basis: inherit;\r\n\t\tflex-grow: 0;\r\n\t\tflex-shrink: 0;\r\n\t\tuser-select: none;\r\n\t\tbackface-visibility: hidden;\r\n\t\t-webkit-touch-callout: none;\r\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\r\n\t\toutline: none;\r\n    visibility: visible;\r\n    flex-basis: 100%;\r\n    width: 100%;\r\n\t}\r\n\t&.VueCarousel-slide-adjustableHeight {\r\n\t\tdisplay: table;\r\n\t\tflex-basis: auto;\r\n\t\twidth: 100%;\r\n\t}\r\n}\r\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "e511":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_preSkolyDruhyStupenCarousel_vue_vue_type_style_index_0_id_0e55c6e0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("70a0");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_preSkolyDruhyStupenCarousel_vue_vue_type_style_index_0_id_0e55c6e0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_preSkolyDruhyStupenCarousel_vue_vue_type_style_index_0_id_0e55c6e0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_preSkolyDruhyStupenCarousel_vue_vue_type_style_index_0_id_0e55c6e0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_preSkolyDruhyStupenCarousel_vue_vue_type_style_index_0_id_0e55c6e0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ })
 
