@@ -1,5 +1,14 @@
 <template>
-    <!-- wp:heading {"level":2} -->
-        <h1>kokot</h1>
-    <!-- /wp:heading -->
+    <span v-html="content"></span>
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+            content: ' <!-- wp:heading {"level":2} --><h2>kokot</h2><!-- /wp:heading -->'
+        }
+    },
+    comments: true
+}
+</script>
