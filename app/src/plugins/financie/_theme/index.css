@@ -47,3 +47,6 @@
 .timestamp {
   color: #898989;
 }
+.fake {
+	opacity: 0.2 !important;
+}
