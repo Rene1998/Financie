@@ -42,7 +42,7 @@
 								<a href="./osobne-financie-uver-na-spotrebu">Úver na spotrebu</a>
 							</li>
 							<li class="footer-li">
-								<a href="./osobne-financie-inveshrefvanie">Inveshrefvanie</a>
+								<a href="./osobne-financie-inveshrefvanie">Investovanie</a>
 							</li>
 							<li class="footer-li">
 								<a href="./osobne-financie-ucty-a-karty">Účty a karty</a>
@@ -55,16 +55,16 @@
 					<div class="col-3 d-none d-lg-block">
 						<h5 class="text-left">Pomôcky</h5>
 						<ul class="pl-0 list-unstyled">
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">Porovnania</a>
 							</li>
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">Nástrahy</a>
 							</li>
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">Kalkulačky</a>
 							</li>
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">Slovník </a>
 							</li>
 						</ul>
@@ -72,10 +72,10 @@
 					<div class="col-3 d-none d-lg-block">
 						<h5 class="text-left">Životné situácie</h5>
 						<ul class="pl-0 list-unstyled">
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">O nás</a>
 							</li>
-							<li class="footer-li">
+							<li class="footer-li fake">
 								<a href="#!">Kontakt</a>
 							</li>
 						</ul>

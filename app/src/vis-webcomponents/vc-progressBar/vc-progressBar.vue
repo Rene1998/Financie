@@ -63,7 +63,6 @@ export default {
 	data () {
 		return {
 			progressBar: null,
-      offsetTop: null,
 			pageScrollBarPositon: null,
 			pageScrollPositon: null,
 			vedeliSte: null,
@@ -78,10 +77,15 @@ export default {
 		scrollHeight () {
 			return window.scrollHeight
 		}
+		
 	},
 	mounted () {
-		this.setScrollPosition()
-		window.addEventListener('scroll', this.setScrollPosition)
+		document.onreadystatechange = () => {
+			if (document.readyState === 'complete') {
+				this.setScrollPosition()
+				window.addEventListener('scroll', this.setScrollPosition)
+			}
+		}
 	},
 	beforeDestroy () {
 		window.removeEventListener('scroll', this.setScrollPosition)
@@ -91,14 +95,14 @@ export default {
 			window.scrollTo(0, val - window.outerHeight / 2)
 		},
 		setScrollPosition () {
-			(this.pageScrollPositon = window.scrollY + window.outerHeight / 2),
-			(this.pageScrollBarPositon = window.scrollY),
-			(this.progressBar = document.querySelector('#progressBar').offsetTop),
-			(this.vedeliSte = document.querySelector('#vedeliSte').offsetTop),
-			(this.zakladneInformacie = document.querySelector('#zakladneInformacie').offsetTop),
-			(this.najnovsieClanky = document.querySelector('#najnovsieClanky').offsetTop),
-			(this.najnovsieProdukty = document.querySelector('#najnovsieProdukty').offsetTop),
-			(this.uzitocneLinky = document.querySelector('#uzitocneLinky').offsetTop)
+			this.pageScrollPositon = window.scrollY + window.outerHeight / 2
+			this.pageScrollBarPositon = window.scrollY
+			this.progressBar = document.querySelector('#progressBar').offsetTop
+			this.vedeliSte = document.querySelector('#vedeliSte').offsetTop
+			this.zakladneInformacie = document.querySelector('#zakladneInformacie').offsetTop
+			this.najnovsieClanky = document.querySelector('#najnovsieClanky').offsetTop
+			this.najnovsieProdukty = document.querySelector('#najnovsieProdukty').offsetTop
+			this.uzitocneLinky = document.querySelector('#uzitocneLinky').offsetTop
 		}
 	}
 }

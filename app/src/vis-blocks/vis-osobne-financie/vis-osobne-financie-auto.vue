@@ -1,5 +1,5 @@
 <template>
-	<div>
+    <div>
     <div class="container-fluid byvanie-main">
 			<div class="container">
 				<div class="byvanie-welcome-text">
@@ -21,10 +21,13 @@
 				</div>
       </div>
     </div>
-        <vc-progress-bar/>
-
-        <vc-carousel/>
-
+    <div id="progressBar">
+		<vc-progress-bar/>
+	</div>
+    <div id="vedeliSte">
+		<vc-carousel/>
+	</div>
+    <div id="zakladneInformacie">
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Základné články
@@ -37,16 +40,16 @@
         <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
-                    <vc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="/osobne-financie-auto-financovanie-auta-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Poistenie Auta" desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Poistenie Auta" desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" img="Blue-home.svg" link="/osobne-financie-auto-poistenie-auta-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Kúpa a predaj" desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Kúpa a predaj" desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" img="Blue-home.svg" link="/osobne-financie-auto-kupa-a-predaj-clanok"/>
                 </div>
                 <div class="col-md-3">
-                    <vc-mini-card title="Údržba auta" desc="Nerobte si starosti súdržbou vášho auta" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/>
+                    <vc-mini-card title="Údržba auta" desc="Nerobte si starosti súdržbou vášho auta" img="Blue-home.svg" link="/osobne-financie-auto-udrzba-auta-clanok"/>
                 </div>
             </div>
         </div>
@@ -74,6 +77,8 @@
                     card4_link="/osobne-financie-auto-udrzba-auta-clanok"/>
 			</div>
 		</div>
+    </div>
+    <div id="najnovsieClanky">
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najnovšie články o autách
@@ -83,6 +88,8 @@
                 na ktoré môžete naraziť vo vašom živote.
             </p>
         </div>
+    </div>
+    <div id="najnovsieProdukty">
         <div class="container text-center mt-5 mb-5 hardcode-text">
             <h4>
                 Najlepšie produkty na našom trhu
@@ -91,13 +98,13 @@
                 Pripravili sme pre vás tie najlepšie produkty v ramci bývania...
             </p>
         </div>
-        <div class="container mb-5">
-            <vc-img-card/>
-        </div>
+    </div>
+    <div id="uzitocneLinky">
         <div class="container">
             <div class="row border-center mb-5">
                 <vc-link-cards/>
             </div>
         </div>
+    </div>
 	</div>
 </template>

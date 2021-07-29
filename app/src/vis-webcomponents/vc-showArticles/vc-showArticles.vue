@@ -8,7 +8,7 @@
 			<p>
 				Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.
 			</p>
-			<a href="">Zobraziť všetky články</a>
+			<a class="fake" href="">Zobraziť všetky články</a>
 		</div>
 	</div>
 </template>

@@ -16,88 +16,68 @@
 						</p>
 					</a>
 					<div class="hb">
-						<a
-								href=""
-								class="card-body hb d-flex justify-content-between mr-2" > 
+						<a class="card-body hb d-flex justify-content-between mr-2" 
+						   :href="advancedImgHomeCard.link1"> 
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
-									<h6 class="mb-0">
-										{{ advancedImgHomeCard.titulok1 }}
-									</h6>
-								</a>
+								<h6 class="mb-0">
+									{{ advancedImgHomeCard.titulok1 }}
+								</h6>
 							</div>
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
-									<a class="blue card-link">
-										<i class="bi bi-arrow-right"/>
-									</a>
+								<a class="blue card-link">
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</div>
 						</a>
 						<hr class="hb m-0"/>
 					</div>
 					<div class="hb">
-						<a
-							href=""
-							class="card-body hb d-flex justify-content-between mr-2">
+						<a class="card-body hb d-flex justify-content-between mr-2" 
+						   :href="advancedImgHomeCard.link2"> 
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
-									<h6 class="mb-0">
-										{{ advancedImgHomeCard.titulok2 }}
-									</h6>
-								</a>
+								<h6 class="mb-0">
+									{{ advancedImgHomeCard.titulok2 }}
+								</h6>
 							</div>
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
-									<a class="blue card-link">
-										<i class="bi bi-arrow-right"/>
-									</a>
+								<a class="blue card-link">
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</div>
 						</a>
 						<hr class="hb m-0"/>
 					</div>
 					<div class="hb">
-						<a
-							href=""
-							class="card-body hb d-flex justify-content-between mr-2">
+						<a class="card-body hb d-flex justify-content-between mr-2" 
+						   :href="advancedImgHomeCard.link3"> 
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
-									<h6 class="mb-0">
-										{{ advancedImgHomeCard.titulok3 }}
-									</h6>
-								</a>
+								<h6 class="mb-0">
+									{{ advancedImgHomeCard.titulok3 }}
+								</h6>
 							</div>
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
-									<a class="blue card-link">
-										<i class="bi bi-arrow-right"/>
-									</a>
+								<a class="blue card-link">
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</div>
 						</a>
 						<hr class="hb m-0"/>
 					</div>
-					<div>
-						<a
-							href=""
-							class="card-body hb d-flex justify-content-between mr-2">
+					<div class="hb">
+						<a class="card-body hb d-flex justify-content-between mr-2" 
+						   :href="advancedImgHomeCard.link4"> 
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link4">
-									<h6 class="mb-0">
-										{{ advancedImgHomeCard.titulok4 }}
-									</h6>
-								</a>
+								<h6 class="mb-0">
+									{{ advancedImgHomeCard.titulok4 }}
+								</h6>
 							</div>
-
 							<div>
-								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link">
-									<a class="blue card-link">
-										<i class="bi bi-arrow-right"/>
-									</a>
+								<a class="blue card-link">
+									<i class="bi bi-arrow-right"/>
 								</a>
 							</div>
 						</a>
+						<hr class="hb m-0"/>
 					</div>
 				</div>
 			</div>

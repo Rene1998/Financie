@@ -4,13 +4,13 @@ const poistenie = {
 	image: 'image1.png',
 	link: './osobne-financie-poistenie',
 	titulok1: 'Životné poistenie',
-	link1: 'zivotnePoistenie',
+	link1: './osobne-financie-poistenie-zivotne-poistenie-clanok',
 	titulok2: 'Poistenie auta (neživotné poistenie)',
-	link2: 'poistenieAuta',
+	link2: './osobne-financie-poistenie-auta-clanok',
 	titulok3: 'Poistenie nehnuteľnosti/domácnosti',
-	link3: 'poistenieNehnutelnosti',
+	link3: './osobne-financie-poistenie-nehnutelnosti-clanok',
 	titulok4: 'Cestovné poistenie',
-	link4: 'cestovnePoistenie',
+	link4: './osobne-financie-poistenie-cestovne-poistenie-clanok',
 	defaultLink: 'poistenie'
 }
 const hypotekarnyUver = {
@@ -19,13 +19,13 @@ const hypotekarnyUver = {
 	image: 'image2.png',
 	link: './osobne-financie-hypotekarny-uver',
 	titulok1: 'Hypotekárny úver - nadobudnutie bývania',
-	link1: 'hypotekarnyUver',
+	link1: './osobne-financie-hypotekarny-uver-nadobudnutie-byvania-clanok',
 	titulok2: 'Americká hypotéka',
-	link2: 'americkaHypoteka',
+	link2: './osobne-financie-hypotekarny-uver-americka-hypoteka-clanok',
 	titulok3: 'Žiadosť o úver',
-	link3: 'ziadostOUver',
+	link3: './osobne-financie-hypotekarny-uver-ziadost-o-uver-clanok',
 	titulok4: 'Splácanie úveru',
-	link4: 'splacanieUveru',
+	link4: './osobne-financie-hypotekarny-uver-splacanie-uveru-clanok',
 	defaultLink: 'hypotekarny-uver'
 }
 const uverNaSpotrebu = {
@@ -34,13 +34,13 @@ const uverNaSpotrebu = {
 	image: 'image3.png',
 	link: './osobne-financie-uver-na-spotrebu',
 	titulok1: 'Spotrebný úver',
-	link1: 'spotrebnyUver',
+	link1: './osobne-financie-uver-na-spotrebu-zaklady-investovania-clanok',
 	titulok2: 'Krátkodobé úvery',
-	link2: 'kratkodobeUvery',
+	link2: './osobne-financie-uver-na-spotrebu-zakladne-investicne-prilezitosti-clanok',
 	titulok3: 'Čerpanie a splácanie',
-	link3: 'cerpacnieASplacanie',
+	link3: './osobne-financie-uver-na-spotrebu-investicne-principy-clanok',
 	titulok4: 'Nebankové úvery a pôžičky',
-	link4: 'nebankoveUveryAPozicky',
+	link4: './osobne-financie-uver-na-spotrebu-aktivne-vs-pasivne-investovanie-clanok',
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
@@ -49,13 +49,13 @@ const investovanie = {
 	image: 'image4.png',
 	link: './osobne-financie-investovanie',
 	titulok1: 'Základy investovania',
-	link1: 'zakladyInvestovania',
+	link1: './osobne-financie-investovanie-spotrebny-uver-clanok',
 	titulok2: 'Základné Investičné Príležitosti',
-	link2: 'zakladneInvesticnePrilezitosti',
+	link2: './osobne-financie-investovanie-kratkodobe-uvery-clanok',
 	titulok3: 'Investičné princípy',
-	link3: 'investicnePrincipy',
+	link3: './osobne-financie-investovanie-cerpanie-a-splacanie-clanok',
 	titulok4: 'Aktívne vs. pasívne investovanie',
-	link4: 'aktivnePasivneInvestovanie',
+	link4: './osobne-financie-investovanie-nebankove-uvery-a-pozicky-clanok',
 	defaultLink: 'investovanie'
 }
 const bankoveUctyAPlatobneKarty = {
@@ -64,13 +64,13 @@ const bankoveUctyAPlatobneKarty = {
 	image: 'image5.png',
 	link: './osobne-financie-ucty-a-karty',
 	titulok1: 'Bežný Účet',
-	link1: 'beznyUcet',
+	link1: './osobne-financie-ucty-a-karty-bezny-ucet-clanok',
 	titulok2: 'Sporiaci Účet',
-	link2: 'sporiaciUcet',
+	link2: './osobne-financie-ucty-a-karty-sporiaci-ucet-clanok',
 	titulok3: 'Kreditná Karta',
-	link3: 'kreditnaKarta',
+	link3: './osobne-financie-ucty-a-karty-kreditna-karta-clanok',
 	titulok4: 'Debetná Karta',
-	link4: 'debetnaKarta',
+	link4: './osobne-financie-ucty-a-karty-debetna-karta-clanok',
 	defaultLink: 'bankove-ucty-a-platobne-karty'
 }
 const fintech = {
@@ -79,13 +79,13 @@ const fintech = {
 	image: 'image6.png',
 	link: './osobne-financie-fintech',
 	titulok1: 'Internet a Mobile Banking',
-	link1: 'internetAMobileBanking',
+	link1: './osobne-financie-fintech-internet-a-mobile-banking-clanok',
 	titulok2: 'Neobanky (N26, 365.)',
-	link2: 'neobanky',
+	link2: './osobne-financie-fintech-Neobanky-clanok',
 	titulok3: 'Finančné platformy',
-	link3: 'financnePlatformy',
+	link3: './osobne-financie-fintech-financne-platformy-clanok',
 	titulok4: 'Tu nieco pojde',
-	link4: 'tuNiecoPojde',
+	link4: './osobne-financie-fintech-zatial-nic-clanok',
 	defaultLink: 'fintech'
 }
 

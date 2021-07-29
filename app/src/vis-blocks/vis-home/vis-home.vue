@@ -65,17 +65,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-12 col-md-6">
-					<vc-img-card/>
-				</div>
-				<div class="col pl-2 pl-md-5 d-flex align-items-end">
-					<vc-text-card/>
-				</div>
-			</div>
-		</div>
 	</div>
 </template>
 

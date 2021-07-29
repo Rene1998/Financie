@@ -15,8 +15,8 @@
 							{{ advancedImgCard.content }}
 						</p>
 						<div class="hb">
-							<div class="card-body ">
-								<div class="hb d-flex justify-content-between align-items-center mr-2"
+							<div class="card-body">
+								<div class="d-flex justify-content-between align-items-center mr-2"
 									v-if="advancedImgCard.doc1_link != ''">
 									<div>
 										<h6 class="mb-0">
@@ -119,16 +119,6 @@ export default {
 	padding: 10px;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-	.hb:hover {
-		color: #1eaee1 !important;
-		a {
-			color: #1eaee1;
-		}
-
-		hr {
-			border-top: 1px solid #1eaee1 !important;
-		}
-	}
 }
   	.card-title {
 		min-height: 100px;
