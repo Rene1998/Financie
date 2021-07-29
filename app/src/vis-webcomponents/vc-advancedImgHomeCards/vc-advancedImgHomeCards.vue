@@ -1,22 +1,24 @@
 <template>
-	<div>
+	<div class="mt-2">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 		<div class="row">
-			<div class="col-12 col-lg-4 col-md-6"
+			<div class="col-12 col-lg-4 col-md-6 shad mt-2 "
 				v-for="advancedImgHomeCard in advancedImgHomeCards" :key="advancedImgHomeCard.id">
 				<div class="card mb-2 border border-0 m-2" tag="article">
 					<a :href="advancedImgHomeCard.link">
-						<img class="card-img-top" :src="cardImg(advancedImgHomeCard)" alt="Image"/>
-						<h4 class="card-title d-flex align-items-center">
+						<img class="card-img-top " :src="cardImg(advancedImgHomeCard)" alt="Image"/>
+						<h4 class="card-title d-flex align-items-center hb">
 							{{ advancedImgHomeCard.title }}
 						</h4>
-						<p class="card-text d-flex mb-5">
+						<p class="card-text d-flex mb-5 hb">
 							{{ advancedImgHomeCard.content }}
 						</p>
 					</a>
 					<div class="hb">
-						<div class="card-body hb d-flex justify-content-between mr-2">
+						<a
+								href=""
+								class="card-body hb d-flex justify-content-between mr-2" > 
 							<div>
 								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link1">
 									<h6 class="mb-0">
@@ -31,11 +33,13 @@
 									</a>
 								</a>
 							</div>
-						</div>
+						</a>
 						<hr class="hb m-0"/>
 					</div>
 					<div class="hb">
-						<div class="card-body hb d-flex justify-content-between mr-2">
+						<a
+							href=""
+							class="card-body hb d-flex justify-content-between mr-2">
 							<div>
 								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link2">
 									<h6 class="mb-0">
@@ -50,11 +54,13 @@
 									</a>
 								</a>
 							</div>
-						</div>
+						</a>
 						<hr class="hb m-0"/>
 					</div>
 					<div class="hb">
-						<div class="card-body hb d-flex justify-content-between mr-2">
+						<a
+							href=""
+							class="card-body hb d-flex justify-content-between mr-2">
 							<div>
 								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link3">
 									<h6 class="mb-0">
@@ -69,11 +75,13 @@
 									</a>
 								</a>
 							</div>
-						</div>
+						</a>
 						<hr class="hb m-0"/>
 					</div>
 					<div>
-						<div class="card-body hb d-flex justify-content-between mr-2">
+						<a
+							href=""
+							class="card-body hb d-flex justify-content-between mr-2">
 							<div>
 								<a :href="'/osobne-financie/clanky/' + advancedImgHomeCard.link4">
 									<h6 class="mb-0">
@@ -89,7 +97,7 @@
 									</a>
 								</a>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -127,9 +135,7 @@ export default {
 		font-style: normal;
 	}
 
-	.div {
-		line-height: 24px;
-	}
+
 }
 .card-text {
 	text-decoration: none;
@@ -137,9 +143,11 @@ export default {
 	min-height: 3vw;
 }
 .card-body {
+	cursor: pointer;
 	padding: 10px;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+	line-height: 24px;
 
 	h6 {
 		font-size: 16px;
@@ -168,4 +176,11 @@ a {
 		border-top: 1px solid #1eaee1 !important;
 	}
 }
+
+
+hr{
+	max-width: 500px;
+	border: 1px solid #E7E7E7;
+}
+
 </style>

@@ -11,9 +11,9 @@
                 <li class="nav-item d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
                     <a class="btn osobne-financie bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
                 </li>
-                <hr >
+                <hr class="m-0" >
                 <li class="nav-item dropdown" :class="{'active': preSkolypage}">
-                    <a class="nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
+                    <a class="pl-3 pr-3 nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
                         href="#" 
                         id="navbarDropdown" 
                         role="button"
@@ -29,10 +29,10 @@
                         <a class="dropdown-item" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"> Stredná škola</a>
                     </div>
                 </li>
-                <hr>
+                <hr class="m-0">
                 <li class="hover-none nav-item d-flex align-items-center justify-content-center">
                     <a class="nav-item " href="#">
-                        <i class=" bi bi-search"/>
+                        <i class="fake bi bi-search"/>
                     </a>
                 </li>
             </div>
@@ -63,6 +63,16 @@ export default {
     background: #fff;
     justify-content: space-between;
 
+
+    .pre-skoly{
+        min-width: 120px !important;
+    }    
+
+    .osobne-financie{
+        box-shadow: none !important;
+    }
+
+
     .nav-link:hover {
         color: #1eaee1 !important;
     }
@@ -85,6 +95,19 @@ export default {
     }
 }
 /deep/ {
+
+
+&li.nav-item.d-sm-none.d-md-block.active :focus-visible{
+    display: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}    
+
+
+
+
+
 &a {
     font-weight: 400 !important;
     font-size: 16px !important;
@@ -157,10 +180,13 @@ export default {
 }
 
 &.dropdown-menu {
-    min-width: 285px !important;
+
+    min-width: 230px !important;
     min-height: 138px !important;
     border: none ;
     border-radius: 0px !important;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
 
     a{
         padding: 4px 24px !important;
@@ -215,6 +241,7 @@ export default {
 
     .osobne-financie {
         display: none !important;
+
     }
 
     .pre-skoly {
