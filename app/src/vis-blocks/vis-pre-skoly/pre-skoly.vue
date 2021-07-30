@@ -73,31 +73,32 @@
 				<br />prevedú finančným vzdelaním.
 			</p>
 		</div>
-		<div class="switch-wrapper mb-5">
-			<div class="btn-group">
-				<button class="switch-button p-0"
-					:class="{ switchIsActive: active }"
-					@click="
-						changeCardCategory('advancedImgCardLink');
-						active = !active">
-					Učebné materiály
-				</button>
-				<button class="switch-button p-0"
-					:class="{ switchIsActive: !active }"
-					@click="
-						changeCardCategory('advancedImgCardVideo');
-						active = !active">
-					Videá
-				</button>
+
+		<div class="container">
+			<div class="switch-wrapper mb-5">
+				<div class="row switch d-flex justify-content-center align-items-center text-center">
+					<a 
+						class="switch-button p-0 switchIsActive col-6 d-flex justify-content-center align-items-center text-center"
+						href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">Učebné materiály
+					</a>
+				
+					<a 
+						class="switch-button p-0 col-6 d-flex justify-content-center align-items-center text-center"
+						href="./pre-skoly-stredna-skola-1-rocnik-videa">Videá
+					</a>
+				</div>
 			</div>
 		</div>
+
+
+
 		<div class="container">
 			<vc-advancedImgCards
 				:cardContent="cardContent"
 				:cardCategory="cardCategory"/>
 		</div>
 		<div class="container text-center mb-5">
-			<button class="btn-primary download-all mb-5">
+			<button class="btn download-all mb-5">
 				Stiahnuť všetky dokumenty
 			</button>
 		</div>
@@ -210,6 +211,24 @@ export default {
 	background: #FFA800;
 	border: none;
 	border-radius: 5px !important;
+	color: white;
+	border: 1px solid #ffA800;
+
+	&:hover{
+		background-color: 	#ff9900;
+		color: white;
+		border: 1px solid #ffA800
+	}
+
+	&:focus{
+		background: #FFA800;
+		border: none;
+		box-shadow: none;
+		border: 1px solid #ff9900;
+	}
+
+
+
 }
 a {
 	color: rgba(25, 40, 59, 1);
@@ -239,17 +258,17 @@ h5 {
 
 .switch-wrapper {
 	margin: auto;
-	width: 95%;
+
 	max-width: 500px;
 
-	.btn-group {
+	.switch {
 		background: rgba(118, 118, 128, 0.12);
 		padding: 2px;
 		border-radius: 8px;
-		width: 100%;
+		max-width: 498px;
 
 		.switch-button {
-		width: 100%;
+		max-width: 249px;
 		height: 28px;
 		border: 0px;
 		color: #192949;
@@ -264,6 +283,11 @@ h5 {
 			border-radius: 6.93px;
 		}
 		}
+
+		a{
+			text-decoration: none;
+		}
+
 	}
 }
 
