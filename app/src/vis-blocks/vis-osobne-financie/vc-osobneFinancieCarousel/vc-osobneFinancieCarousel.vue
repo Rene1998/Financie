@@ -6,9 +6,6 @@
 				<carousel
                     class="carousel-wrapper"
 					style="width: 100%"
-					:loop="true"
-					:autoplay="true"
-					:autoplayTimeout="5000"
 					:perPage="1">
 					<slide class="slide text-center">
 						<h5>

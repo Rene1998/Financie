@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
 							Finančná rezerva, rodinný rozpočet, príjmy, výdavky, dedičstvo
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>

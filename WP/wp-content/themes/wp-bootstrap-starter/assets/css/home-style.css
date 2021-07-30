@@ -69,3 +69,29 @@ hr {
 .line-height {
   line-height: normal;
 }
+.timestamp {
+  color: #898989 !important;
+  font-family: "Helvetica Neue" sans-serif !important;
+  font-size: 14px !important;
+}
+.blog-title {
+  font-size: 18px !important;
+  color: #192949 !important;
+  font-weight: 700 !important;
+  font-style: normal!important;
+}
+.blog-title:hover {
+  color: #1eaee1!important;
+}
+
+.card-content {
+  color: #19283b;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal!important;
+}
+
+.card-content:hover {
+  color: #1eaee1!important;
+}

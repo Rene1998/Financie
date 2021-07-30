@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
 							Exekúcia, nevymožiteľná čiastka, osobný bankrot, exekučná zrážka
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>

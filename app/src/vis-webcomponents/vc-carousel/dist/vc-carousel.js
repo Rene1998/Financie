@@ -86,6 +86,20 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "0431":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-22e75c3b]{font-weight:300}.z-btn[data-v-22e75c3b]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-22e75c3b]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-22e75c3b]{color:#1eaee1!important}.z-btn[data-v-22e75c3b]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-22e75c3b]{border:none}.card .card-img-top[data-v-22e75c3b]{border-radius:4px}*[data-v-22e75c3b]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-22e75c3b]{font-size:24px;font-weight:700}.hardcode-text p[data-v-22e75c3b]{font-size:18px;font-weight:400}.timestamp[data-v-22e75c3b]{color:#898989}.fake[data-v-22e75c3b]{opacity:.2}.slider-info[data-v-22e75c3b]{margin-top:40px}.VueCarousel-dot-container[data-v-22e75c3b]{margin-top:-20px!important}span[data-v-22e75c3b]{font-size:18px;color:#192949;width:951px}h5[data-v-22e75c3b],span[data-v-22e75c3b]{font-weight:400;line-height:30px}h5[data-v-22e75c3b]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-22e75c3b]{max-width:73%;border:1px solid #f3f4f5}[data-v-22e75c3b] .VueCarousel-dot:focus{outline:none!important}[data-v-22e75c3b] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-22e75c3b] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-22e75c3b] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-22e75c3b] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-22e75c3b] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-22e75c3b] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-22e75c3b] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none}[data-v-22e75c3b] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-22e75c3b] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-22e75c3b] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-22e75c3b] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-22e75c3b] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden}[data-v-22e75c3b] .VueCarousel-inner--center{justify-content:center}[data-v-22e75c3b] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none}[data-v-22e75c3b] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-carousel/vc-carousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Db,8BACE,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CA9Cf,yCAiDE,yBAA4B,CAjD9B,+BAoDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAtDpB,wCAyDE,6BAA8B,CAzDhC,uCA4DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA9DlB,qCAiEE,YAAa,CACb,kBAAmB,CACnB,kCAAqB,CAArB,0BAA2B,CAnE7B,6CAsEE,sBAAuB,CAtEzB,qCAyEE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CAhFf,sDAmFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-carousel.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.slider-info {\n  margin-top: 40px;\n}\n\n.VueCarousel-dot-container {\n  margin-top: -20px !important;\n}\n\nspan {\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 30px;\n  color: #192949;\n  width: 951px;\n}\n\nh5 {\n  font-weight: 400;\n  font-family: HeadlandOne;\n  font-size: 24px;\n  line-height: 30px;\n  color: #000000;\n}\n\nhr {\n  max-width: 73%;\n  border: 1px solid #f3f4f5;\n}\n\n/deep/ {\n  &.VueCarousel-dot:focus {\n    outline: none !important;\n  }\n\n  &.VueCarousel-dot--active {\n    background-color: #1eaee1 !important;\n  }\n\n  &.VueCarousel-dot {\n    width: 6px !important;\n    height: 6px !important;\n    width: 6px !important;\n    height: 6px !important;\n  }\n\n  &.VueCarousel-pagination {\n    margin-top: -45px;\n  }\n\n\t&.VueCarousel-pagination {\n\t\twidth: 100%;\n\t\ttext-align: center;\n\t}\n\t&.VueCarousel-pagination--top-overlay {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t}\n\t&.VueCarousel-pagination--bottom-overlay {\n\t\tposition: absolute;\n\t\tbottom: 0;\n\t}\n\t&.VueCarousel-dot-container {\n\t\tdisplay: inline-block;\n\t\tmargin: 0 auto;\n\t\tpadding: 0;\n\t}\n\t&.VueCarousel-dot {\n\t\tdisplay: inline-block;\n\t\tcursor: pointer;\n\t\tappearance: none;\n\t\tborder: none;\n\t\tbackground-clip: content-box;\n\t\tbox-sizing: content-box;\n\t\tpadding: 0;\n\t\tborder-radius: 100%;\n\t\toutline: none;\n\t}\n\t&.VueCarousel-dot:focus {\n\t\toutline: 1px solid lightblue;\n\t}\n\t&.VueCarousel {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tposition: relative;\n\t}\n\t&.VueCarousel--reverse {\n\t\tflex-direction: column-reverse;\n\t}\n\t&.VueCarousel-wrapper {\n\t\twidth: 100%;\n\t\tposition: relative;\n\t\toverflow: hidden;\n\t}\n\t&.VueCarousel-inner {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tbackface-visibility: hidden;\n\t}\n\t&.VueCarousel-inner--center {\n\t\tjustify-content: center;\n\t}\n\t&.VueCarousel-slide {\n\t\tflex-basis: inherit;\n\t\tflex-grow: 0;\n\t\tflex-shrink: 0;\n\t\tuser-select: none;\n\t\tbackface-visibility: hidden;\n\t\t-webkit-touch-callout: none;\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n\t\toutline: none;\n\t}\n\t&.VueCarousel-slide-adjustableHeight {\n\t\tdisplay: table;\n\t\tflex-basis: auto;\n\t\twidth: 100%;\n\t}\n}\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "0a06":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -236,17 +250,20 @@ module.exports = function spread(callback) {
 
 /***/ }),
 
-/***/ "1609":
+/***/ "122b":
 /***/ (function(module, exports, __webpack_require__) {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-33854d6c]{font-weight:300}.z-btn[data-v-33854d6c]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-33854d6c]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-33854d6c]{color:#1eaee1!important}.z-btn[data-v-33854d6c]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-33854d6c]{border:none}.card .card-img-top[data-v-33854d6c]{border-radius:4px}*[data-v-33854d6c]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-33854d6c]{font-size:24px;font-weight:700}.hardcode-text p[data-v-33854d6c]{font-size:18px;font-weight:400}.timestamp[data-v-33854d6c]{color:#898989}.slider-info[data-v-33854d6c]{margin-top:40px}.VueCarousel-dot-container[data-v-33854d6c]{margin-top:-20px!important}span[data-v-33854d6c]{font-size:18px;color:#192949;width:951px}h5[data-v-33854d6c],span[data-v-33854d6c]{font-weight:400;line-height:30px}h5[data-v-33854d6c]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-33854d6c]{max-width:73%;border:1px solid #f3f4f5}[data-v-33854d6c] .VueCarousel-dot:focus{outline:none!important}[data-v-33854d6c] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-33854d6c] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-33854d6c] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-33854d6c] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-33854d6c] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-33854d6c] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-33854d6c] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none}[data-v-33854d6c] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-33854d6c] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-33854d6c] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-33854d6c] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-33854d6c] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden}[data-v-33854d6c] .VueCarousel-inner--center{justify-content:center}[data-v-33854d6c] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none}[data-v-33854d6c] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/bootsrap/card.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/plugins/financie/_theme/fonts.scss","C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/C:/Users/42190/Desktop/Openlab/Financie/app/src/vis-webcomponents/vc-carousel/vc-carousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCgDhB,8BACE,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CA9Cf,yCAiDE,yBAA4B,CAjD9B,+BAoDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAtDpB,wCAyDE,6BAA8B,CAzDhC,uCA4DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA9DlB,qCAiEE,YAAa,CACb,kBAAmB,CACnB,kCAAqB,CAArB,0BAA2B,CAnE7B,6CAsEE,sBAAuB,CAtEzB,qCAyEE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CAhFf,sDAmFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-carousel.vue","sourcesContent":[".btn {\r\n  font-weight: 300;\r\n}\r\n\r\n.z-btn {\r\n  border-radius: 0px;\r\n  padding: 10px 15px;\r\n  border-bottom: 3px solid transparent;\r\n  &:hover {\r\n    border-bottom: 3px solid #1eaee1;\r\n    border-radius: 0px;\r\n    .nav-link {\r\n      color: #1eaee1 !important;\r\n    }\r\n  }\r\n  &:focus {\r\n    box-shadow: none;\r\n    border-bottom: 3px solid #1eaee1;\r\n  }\r\n}\r\n",".card {\r\n    border: none;\r\n    .card-img-top{\r\n        border-radius: 4px;\r\n    }\r\n}","* {\r\n  font-family: \"Helvetica Neue\" sans-serif !important;\r\n}\r\n\r\n.hardcode-text {\r\n  h4 {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n  }\r\n  p {\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n.timestamp {\r\n  color: #898989;\r\n}\r\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../plugins/financie/_theme/index.scss';\r\n.slider-info {\r\n  margin-top: 40px;\r\n}\r\n\r\n.VueCarousel-dot-container {\r\n  margin-top: -20px !important;\r\n}\r\n\r\nspan {\r\n  font-weight: 400;\r\n  font-size: 18px;\r\n  line-height: 30px;\r\n  color: #192949;\r\n  width: 951px;\r\n}\r\n\r\nh5 {\r\n  font-weight: 400;\r\n  font-family: HeadlandOne;\r\n  font-size: 24px;\r\n  line-height: 30px;\r\n  color: #000000;\r\n}\r\n\r\nhr {\r\n  max-width: 73%;\r\n  border: 1px solid #f3f4f5;\r\n}\r\n\r\n/deep/ {\r\n  &.VueCarousel-dot:focus {\r\n    outline: none !important;\r\n  }\r\n\r\n  &.VueCarousel-dot--active {\r\n    background-color: #1eaee1 !important;\r\n  }\r\n\r\n  &.VueCarousel-dot {\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n    width: 6px !important;\r\n    height: 6px !important;\r\n  }\r\n\r\n  &.VueCarousel-pagination {\r\n    margin-top: -45px;\r\n  }\r\n\r\n\t&.VueCarousel-pagination {\r\n\t\twidth: 100%;\r\n\t\ttext-align: center;\r\n\t}\r\n\t&.VueCarousel-pagination--top-overlay {\r\n\t\tposition: absolute;\r\n\t\ttop: 0;\r\n\t}\r\n\t&.VueCarousel-pagination--bottom-overlay {\r\n\t\tposition: absolute;\r\n\t\tbottom: 0;\r\n\t}\r\n\t&.VueCarousel-dot-container {\r\n\t\tdisplay: inline-block;\r\n\t\tmargin: 0 auto;\r\n\t\tpadding: 0;\r\n\t}\r\n\t&.VueCarousel-dot {\r\n\t\tdisplay: inline-block;\r\n\t\tcursor: pointer;\r\n\t\tappearance: none;\r\n\t\tborder: none;\r\n\t\tbackground-clip: content-box;\r\n\t\tbox-sizing: content-box;\r\n\t\tpadding: 0;\r\n\t\tborder-radius: 100%;\r\n\t\toutline: none;\r\n\t}\r\n\t&.VueCarousel-dot:focus {\r\n\t\toutline: 1px solid lightblue;\r\n\t}\r\n\t&.VueCarousel {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t\tposition: relative;\r\n\t}\r\n\t&.VueCarousel--reverse {\r\n\t\tflex-direction: column-reverse;\r\n\t}\r\n\t&.VueCarousel-wrapper {\r\n\t\twidth: 100%;\r\n\t\tposition: relative;\r\n\t\toverflow: hidden;\r\n\t}\r\n\t&.VueCarousel-inner {\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: row;\r\n\t\tbackface-visibility: hidden;\r\n\t}\r\n\t&.VueCarousel-inner--center {\r\n\t\tjustify-content: center;\r\n\t}\r\n\t&.VueCarousel-slide {\r\n\t\tflex-basis: inherit;\r\n\t\tflex-grow: 0;\r\n\t\tflex-shrink: 0;\r\n\t\tuser-select: none;\r\n\t\tbackface-visibility: hidden;\r\n\t\t-webkit-touch-callout: none;\r\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\r\n\t\toutline: none;\r\n\t}\r\n\t&.VueCarousel-slide-adjustableHeight {\r\n\t\tdisplay: table;\r\n\t\tflex-basis: auto;\r\n\t\twidth: 100%;\r\n\t}\r\n}\r\n"]}]);
-// Exports
-module.exports = exports;
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__("0431");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("a499fed6", content, shadowRoot)
+};
 
 /***/ }),
 
@@ -1013,6 +1030,18 @@ module.exports = function mergeConfig(config1, config2) {
 
 /***/ }),
 
+/***/ "4e5e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("122b");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
 /***/ "5270":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1510,12 +1539,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4d1d90ec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=33854d6c&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"mb-5"},[_vm._m(0),_c('div',{staticClass:"d-flex justify-content-center"},[_c('carousel',{staticStyle:{"width":"800px"},attrs:{"loop":true,"autoplay":true,"autoplayTimeout":5000,"perPage":1}},_vm._l((_vm.sliders),function(slider){return _c('slide',{key:slider.id,staticClass:"slide text-center"},[_c('h5',[_vm._v(" "+_vm._s(slider.content)+" ")])])}),1)],1),_c('hr')])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=22e75c3b&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.sliders)?_c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"mb-5"},[_vm._m(0),_c('div',{staticClass:"d-flex justify-content-center"},[_c('carousel',{staticStyle:{"width":"800px"},attrs:{"loop":true,"autoplay":true,"autoplayTimeout":5000,"perPage":1}},_vm._l((_vm.sliders),function(slider){return _c('slide',{key:slider.id,staticClass:"slide text-center"},[_c('h5',[_vm._v(" "+_vm._s(slider.content)+" ")])])}),1)],1),_c('hr')])]):_vm._e()}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slider-info d-flex justify-content-center"},[_c('p',[_vm._v(" Vedeli ste, že... ")])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=33854d6c&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=22e75c3b&scoped=true&shadow
 
 // EXTERNAL MODULE: ./node_modules/axios/index.js
 var axios = __webpack_require__("bc3a");
@@ -1526,36 +1555,39 @@ var vue_axios_es5 = __webpack_require__("2106");
 var vue_axios_es5_default = /*#__PURE__*/__webpack_require__.n(vue_axios_es5);
 
 // CONCATENATED MODULE: ./src/plugins/financie/common/config.js
-var API_URL = "https://financie.hybridlab.dev/ocms/api/";
+const API_URL = "https://financie.hybridlab.dev/ocms/api/";
 /* harmony default export */ var config = (API_URL);
 // CONCATENATED MODULE: ./src/plugins/financie/common/apiService.js
 
 
 
 
-var apiService = {
-  init: function init() {
+const apiService = {
+  init() {
     external_Vue_default.a.use(vue_axios_es5_default.a, axios_default.a);
     external_Vue_default.a.axios.defaults.baseURL = API_URL;
   },
-  query: function query(resource, params) {
-    return external_Vue_default.a.axios.get(resource, params).catch(function (e) {
+
+  query(resource, params) {
+    return external_Vue_default.a.axios.get(resource, params).catch(e => {
       throw new Error(e);
     });
   },
-  get: function get(resource) {
-    var property_key = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
-    var url = window.ocmsHost || '';
+
+  get(resource, property_key = '') {
+    let url = window.ocmsHost || '';
     url += resource;
-    return axios_default.a.get(url).then(function (response) {
+    return axios_default.a.get(url).then(response => {
       return property_key ? response.data[property_key] : response.data;
-    }).catch(function (e) {
+    }).catch(e => {
       throw new Error(e);
     });
   },
-  post: function post(resource, params) {
-    return external_Vue_default.a.axios.post("".concat(resource), params);
+
+  post(resource, params) {
+    return external_Vue_default.a.axios.post(`${resource}`, params);
   }
+
 };
 /* harmony default export */ var common_apiService = (apiService);
 /* export const zaicard = {
@@ -1655,7 +1687,7 @@ var vue_carousel_min = __webpack_require__("0a63");
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("ae0d")
+  var style0 = __webpack_require__("4e5e")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -1668,7 +1700,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "33854d6c",
+  "22e75c3b",
   null
   ,true
 )
@@ -1977,35 +2009,6 @@ CancelToken.source = function source() {
 };
 
 module.exports = CancelToken;
-
-
-/***/ }),
-
-/***/ "8eb7":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("1609");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("57b2f48a", content, shadowRoot)
-};
-
-/***/ }),
-
-/***/ "ae0d":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_33854d6c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8eb7");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_33854d6c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_33854d6c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_33854d6c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_33854d6c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),

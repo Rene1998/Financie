@@ -77,7 +77,6 @@
 								</a>
 							</div>
 						</a>
-						<hr class="hb m-0"/>
 					</div>
 				</div>
 			</div>

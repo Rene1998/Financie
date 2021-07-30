@@ -45,7 +45,27 @@
 		</div>
 		<div class="d-block d-sm-block d-md-none">
 			<div class="carousel-wrapper">
-				<vc-pre-skoly-stredna-skola-carousel/>
+				<div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-pre-skoly-carousel
+					card1_title="1. Ročník"
+					card1_img="rocnik1.svg"
+					card1_link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"
+
+					card2_title="2. Ročník"
+					card2_img="rocnik2.svg"
+					card2_link="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy"
+
+					card3_title="3. Ročník"
+					card3_img="rocnik3.svg"
+					card3_link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy"
+
+					card4_title="4. Ročník"
+					card4_img="rocnik4.svg"
+					card4_link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy"
+				/>
+			</div>
+		</div>
 			</div>
 		</div>
 		<div class="container text-center mt-5 mb-5 hardcode-text">
@@ -59,14 +79,19 @@
 				<br />prevedú finančným vzdelaním.
 			</p>
 		</div>
-		<div class="switch-wrapper mb-5">
-			<div class="btn-group">
-				<button class="switch-button p-0 switchIsActive">
-					<a href="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy">Učebné materiály</a>
-				</button>
-				<button class="switch-button p-0">
-					<a href="./pre-skoly-stredna-skola-4-rocnik-videa">Videá</a>
-				</button>
+		<div class="container">
+			<div class="switch-wrapper mb-5">
+				<div class="row switch d-flex justify-content-center align-items-center text-center">
+					<a 
+						class="switch-button p-0 switchIsActive col-6 d-flex justify-content-center align-items-center text-center"
+						href="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy">Učebné materiály
+					</a>
+				
+					<a 
+						class="switch-button p-0 col-6 d-flex justify-content-center align-items-center text-center"
+						href="./pre-skoly-stredna-skola-4-rocnik-videa">Videá
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="container">

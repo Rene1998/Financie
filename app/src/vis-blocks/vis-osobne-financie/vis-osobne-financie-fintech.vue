@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
                             Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>

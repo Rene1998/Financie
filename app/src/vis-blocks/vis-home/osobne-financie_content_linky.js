@@ -34,13 +34,13 @@ const uverNaSpotrebu = {
 	image: 'image3.png',
 	link: './osobne-financie-uver-na-spotrebu',
 	titulok1: 'Spotrebný úver',
-	link1: './osobne-financie-uver-na-spotrebu-zaklady-investovania-clanok',
+	link1: './osobne-financie-uver-na-spotrebu-spotrebny-uver-clanok',
 	titulok2: 'Krátkodobé úvery',
-	link2: './osobne-financie-uver-na-spotrebu-zakladne-investicne-prilezitosti-clanok',
+	link2: './osobne-financie-uver-na-spotrebu-kratkodobe-uvery-clanok',
 	titulok3: 'Čerpanie a splácanie',
-	link3: './osobne-financie-uver-na-spotrebu-investicne-principy-clanok',
+	link3: './osobne-financie-uver-na-spotrebu-cerpanie-a-splacanie-clanok',
 	titulok4: 'Nebankové úvery a pôžičky',
-	link4: './osobne-financie-uver-na-spotrebu-aktivne-vs-pasivne-investovanie-clanok',
+	link4: './osobne-financie-uver-na-spotrebu-nebankove-uvery-a-pozicky-clanok',
 	defaultLink: 'uver-na-spotrebu'
 }
 const investovanie = {
@@ -49,13 +49,13 @@ const investovanie = {
 	image: 'image4.png',
 	link: './osobne-financie-investovanie',
 	titulok1: 'Základy investovania',
-	link1: './osobne-financie-investovanie-spotrebny-uver-clanok',
+	link1: './osobne-financie-investovanie-zaklady-investovania-clanok',
 	titulok2: 'Základné Investičné Príležitosti',
-	link2: './osobne-financie-investovanie-kratkodobe-uvery-clanok',
+	link2: './osobne-financie-investovanie-zakladne-investicne-prilezitosti-clanok',
 	titulok3: 'Investičné princípy',
-	link3: './osobne-financie-investovanie-cerpanie-a-splacanie-clanok',
+	link3: './osobne-financie-investovanie-investicne-principy-clanok',
 	titulok4: 'Aktívne vs. pasívne investovanie',
-	link4: './osobne-financie-investovanie-nebankove-uvery-a-pozicky-clanok',
+	link4: './osobne-financie-investovanie-aktivne-vs-pasivne-investovanie-clanok',
 	defaultLink: 'investovanie'
 }
 const bankoveUctyAPlatobneKarty = {

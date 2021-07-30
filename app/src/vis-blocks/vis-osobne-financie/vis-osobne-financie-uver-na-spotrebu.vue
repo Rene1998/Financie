@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
 							Čo sú dividendy? Akcia? Dlhopis?
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
                             
 						</div>
 					</div>
@@ -37,44 +37,44 @@
                     na ktoré môžete naraziť vo vašom živote.
                 </p>
             </div>
-            <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
                 <div class="row">
                     <div class="col-md-3">
-                        <vc-mini-card title="Základy investovania" desc="Kedy začať investovať" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-zaklady-investovania-clanok"/>
+                        <vc-mini-card title="Spotrebný úver" desc="Ako funguje spotrebný úver" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-spotrebny-uver-clanok"/>
                     </div>
                     <div class="col-md-3">
-                        <vc-mini-card title="Základné Investičné Príležitosti" desc="Investovanie do akcií" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-zakladne-investicne-prilezitosti-clanok"/>
+                        <vc-mini-card title="Krátkodobé úvery" desc="Nástrahy, úrokové sadzby" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-kratkodobe-uvery-clanok"/>
                     </div>
                     <div class="col-md-3">
-                        <vc-mini-card title="Investičné princípy" desc="Rozdiel medzi investovaním a sporením" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-investicne-principy-clanok"/>
+                        <vc-mini-card title="Čerpanie a splácanie" desc="Ako dlho trvá čerpanie úverov" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-cerpanie-a-splacanie-clanok"/>
                     </div>
                     <div class="col-md-3">
-                        <vc-mini-card title="Aktívne vs. pasívne investovanie" desc="Aké je to akívne investovanie -výhody anevýhody" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-aktivne-vs-pasivne-investovanie-clanok"/>
+                        <vc-mini-card title="Nebankové úvery a pôžičky" desc="Aký je rozdiel medzi bankovou anebankovou pôžičkou" img="Blue-home.svg" link="/osobne-financie-uver-na-spotrebu-nebankove-uvery-a-pozicky-clanok"/>
                     </div>
                 </div>
             </div>
             <div class="d-block d-sm-block d-md-none">
                 <div class="carousel-wrapper">
                     <vc-osobne-financie-carousel 
-                        card1_title="Základy investovania"
-                        card1_desc="Kedy začať investovať"
+                        card1_title="Spotrebný úver"
+                        card1_desc="Ako funguje spotrebný úver"
                         card1_img="Blue-home.svg"
-                        card1_link="/osobne-financie-uver-na-spotrebu-zaklady-investovania-clanok"
+                        card1_link="/osobne-financie-uver-na-spotrebu-spotrebny-uver-clanok"
 
-                        card2_title="Základné Investičné Príležitosti"
-                        card2_desc="Investovanie do akcií"
+                        card2_title="Krátkodobé úvery"
+                        card2_desc="Nástrahy, úrokové sadzby"
                         card2_img="Blue-home.svg"
-                        card2_link="/osobne-financie-uver-na-spotrebu-zakladne-investicne-prilezitosti-clanok"
+                        card2_link="/osobne-financie-uver-na-spotrebu-kratkodobe-uvery-clanok"
 
-                        card3_title="Investičné princípy"
-                        card3_desc="Rozdiel medzi investovaním a sporením"
+                        card3_title="Čerpanie a splácanie"
+                        card3_desc="Ako dlho trvá čerpanie úverov"
                         card3_img="Blue-home.svg"
-                        card3_link="/osobne-financie-uver-na-spotrebu-investicne-principy-clanok"
+                        card3_link="/osobne-financie-uver-na-spotrebu-cerpanie-a-splacanie-clanok"
 
-                        card4_title="Aktívne vs. pasívne investovanie"
-                        card4_desc="Aké je to akívne investovanie -výhody anevýhody"
+                        card4_title="Nebankové úvery a pôžičky"
+                        card4_desc="Aký je rozdiel medzi bankovou anebankovou pôžičkou"
                         card4_img="Blue-home.svg"
-                        card4_link="/osobne-financie-uver-na-spotrebu-aktivne-vs-pasivne-investovanie-clanok"/>
+                        card4_link="/osobne-financie-uver-na-spotrebu-nebankove-uvery-a-pozicky-clanok"/>
                 </div>
             </div>
         </div>

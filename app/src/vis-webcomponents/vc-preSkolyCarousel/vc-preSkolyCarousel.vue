@@ -6,28 +6,25 @@
 				<carousel
                     class="carousel-wrapper"
 					style="width: 800px"
-					:loop="true"
-					:autoplay="true"
-					:autoplayTimeout="5000"
 					:perPage="1">
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"></vc-category-card>
+							<vc-category-card :title="card1_title" :img="card1_img" :link="card1_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-1-stupen-2-rocnik-ucebne-materialy"></vc-category-card>
+							<vc-category-card :title="card2_title" :img="card2_img"  :link="card2_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-zakladna-skola-1-stupen-3-rocnik-ucebne-materialy" ></vc-category-card>
+							<vc-category-card :title="card3_title" :img="card3_img" :link="card3_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-1-stupen-4-rocnik-ucebne-materialy" ></vc-category-card>
+							<vc-category-card :title="card4_title" :img="card4_img" :link="card4_link"></vc-category-card>
 						</h5>
 					</slide>
 				</carousel>
@@ -42,8 +39,21 @@ export default {
     components: {
 		Carousel,
         Slide,
-
-}
+	},
+    props: {
+		card1_title: String,
+        card1_img: String,
+        card1_link: String,
+        card2_title: String,
+        card2_img: String,
+        card2_link: String,
+        card3_title: String,
+        card3_img: String,
+        card3_link: String,
+        card4_title: String,
+        card4_img: String,
+        card4_link: String
+	}
 }
 </script>
 <style lang="scss" scoped>
@@ -146,6 +156,8 @@ hr {
 		display: flex;
 		flex-direction: row;
 		backface-visibility: hidden;
+    flex-basis: 375px !important;
+    visibility: visible !important;
 	}
 	&.VueCarousel-inner--center {
 		justify-content: center;

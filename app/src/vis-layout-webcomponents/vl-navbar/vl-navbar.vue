@@ -8,7 +8,7 @@
             </a>
          
             <div class="navbar-nav  d-flex align-items-center">
-                <li class="nav-item d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
+                <li class="nav-item d-none d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
                     <a class="btn osobne-financie bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
                 </li>
                 <hr class="m-0" >

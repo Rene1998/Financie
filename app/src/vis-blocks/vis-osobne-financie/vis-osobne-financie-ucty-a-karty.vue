@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
                             IBAN, SEPA, SWIFT-BIC, Embosovaná platobná karta
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>

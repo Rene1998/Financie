@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
 							Kedy začať sporiť na dôchodok? Ako sporiť na dôchodok? Koľko si odkladať na dôchodok?
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>

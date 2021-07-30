@@ -20,14 +20,6 @@
     }
   }
   
-  .download-all {
-    width: 223px;
-    height: 59.47px;
-    background: #FFA800;
-    border: none;
-    border-radius: 5px !important;
-  }
-  
   a {
     color: #19283b;
     text-decoration: none;
@@ -37,7 +29,7 @@
   }
   
   a:hover {
-    color: #1eaee1;
+    color: #1eaee1 !important;
     text-decoration: none;
   }
   
@@ -58,41 +50,34 @@
   
   .switch-wrapper {
     margin: auto;
-    width: 95%;
     max-width: 500px;
   }
   
-  .switch-wrapper .btn-group {
-    background: rgba(118, 118, 128, 0.12);
-    padding: 2px;
-    border-radius: 8px;
-    width: 100%;
+  .switch-wrapper .switch {
+      background: rgba(118, 118, 128, 0.12);
+      padding: 2px;
+      border-radius: 8px;
+      max-width: 498px;
+  }
+  .switch a {
+      text-decoration: none;
   }
   
-  .switch-wrapper .btn-group .switch-button {
-    width: 100%;
-    height: 28px;
-    border: 0px;
-    color: #192949;
-    font-weight: 500;
-    font-style: normal;
+  .switch .switch-button {
+      max-width: 249px;
+      height: 28px;
+      border: 0px;
+      color: #192949;
+      font-weight: 500;
+      font-style: normal;
   }
-  
-  .switch-wrapper .btn-group .switch-button:hover {
-    background: #ffffff;
-    border: 0.5px solid rgba(0, 0, 0, 0.04);
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 6.93px;
+  .switch .switch-button:hover {
+      background: #ffffff;
+      border: 0.5px solid rgba(0, 0, 0, 0.04);
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12),
+      0px 3px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 6.93px;
   }
-
-  .switch-wrapper a {
-    text-decoration: none;
-    color: #192949;
-    font-weight: 500;
-    font-style: normal;
-    overflow: hidden;
-  }
-  
   .switchIsActive {
     background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.04);
@@ -129,4 +114,27 @@
   .isActive:hover {
     border-bottom: 5px solid #ffa800;
     border-radius: 5px;
+  }
+
+  .download-all {
+    width: 223px;
+    height: 59.47px;
+    background: #FFA800;
+    border: none;
+    border-radius: 5px !important;
+    color: white;
+    border: 1px solid #ffA800;
+  }
+
+  .download-all:hover{
+    background-color: 	#ff9900;
+    color: white;
+    border: 1px solid #ffA800
+  }
+
+  .download-all:focus{
+    background: #FFA800;
+    border: none;
+    box-shadow: none;
+    border: 1px solid #ff9900;
   }

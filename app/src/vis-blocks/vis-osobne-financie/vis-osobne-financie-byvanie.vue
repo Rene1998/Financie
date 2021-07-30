@@ -14,7 +14,7 @@
 						<p class="mt-4 content">
 							Hypotéka, refinancovanie, dofinancovanie
 						</p>
-						<div class="m-5">
+						<div class="mb-5">
 
 						</div>
 					</div>
