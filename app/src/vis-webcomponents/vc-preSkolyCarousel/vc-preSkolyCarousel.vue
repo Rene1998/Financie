@@ -4,6 +4,7 @@
         <div class="mb-5">
 			<div class="d-flex justify-content-center">
 				<carousel
+					:navigateTo="[1]"
                     class="carousel-wrapper"
 					style="width: 800px"
 					:perPage="1">
