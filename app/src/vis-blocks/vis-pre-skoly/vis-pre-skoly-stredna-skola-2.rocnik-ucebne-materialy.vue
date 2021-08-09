@@ -46,6 +46,7 @@
 		<div class="d-block d-sm-block d-md-none">
 			<div class="carousel-wrapper">
 				<vc-pre-skoly-carousel
+					isactive="card2"
 					card1_title="1. Ročník"
 					card1_img="rocnik1.svg"
 					card1_link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"
@@ -80,12 +81,12 @@
 				<div class="row switch d-flex justify-content-center align-items-center text-center">
 					<a 
 						class="switch-button p-0 switchIsActive col-6 d-flex justify-content-center align-items-center text-center"
-						href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">Učebné materiály
+						href="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy">Učebné materiály
 					</a>
 				
 					<a 
 						class="switch-button p-0 col-6 d-flex justify-content-center align-items-center text-center"
-						href="./pre-skoly-stredna-skola-1-rocnik-videa">Videá
+						href="./pre-skoly-stredna-skola-2-rocnik-videa">Videá
 					</a>
 				</div>
 			</div>

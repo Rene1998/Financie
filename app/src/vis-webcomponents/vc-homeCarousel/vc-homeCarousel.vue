@@ -49,6 +49,7 @@ export default {
     components: {
 		Carousel,
         Slide,
+		'vc-home-category-card': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue')
 
 	},
 	props: {

@@ -189,15 +189,12 @@
 			}
 
 			UAGBTableOfContents._showHideScroll();
+			UAGBTableOfContents.hyperLinks();
 		},
 	}
 
 	$( document ).ready(function() {
 		UAGBTableOfContents.init();
-	})
-
-	$( window ).load(function() {
-		UAGBTableOfContents.hyperLinks();
 	})
 
 } )( jQuery )

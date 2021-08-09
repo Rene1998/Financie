@@ -14,42 +14,31 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-sm-block d-md-none">
-			<carousel class="carousel-wrapper" :perPage="1">
-				<slide
-					class="slide"
-					:title="card.title"
-					:icon="card.icon"
-					:link="card.link"
-					v-for="card in cards"
-					:key="card.title">
-					<p>
-						<router-link :to="'/osobne-financie/' + card.link">
-							<vc-homeCategoryCard
-								class="mt-2"
-								:card="card"/>
-						</router-link>
-					</p>
-				</slide>
-			</carousel>
+		<div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<vc-home-carousel/>
+			</div>
 		</div>
 		<div class="d-none d-md-block d-lg-block d-xl-block">
 			<div class="container carousel-wrapper">
 				<div class="row category-cards">
-					<div
-						class="col-4 mb-3"
-						:title="card.title"
-						:icon="card.icon"
-						:link="card.link"
-						v-for="card in cards"
-						:key="card.title">
-						<p>
-							<router-link :to="'/osobne-financie/' + card.link">
-								<vc-homeCategoryCard
-									class="mt-2"
-									:card="card"/>
-							</router-link>
-						</p>
+					<div class="col-md-4  mb-3">
+						<vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie/byvanie"/>
+					</div>
+					<div class="col-md-4 mb-3">
+						<vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="./osobne-financie/rodina-deti"/>
+					</div>
+					<div class="col-md-4 mb-3">
+						<vc-home-category-card title="Auto" img="Car.svg" link="./osobne-financie/auto"/>
+					</div>
+					<div class="col-md-4">
+						<vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="./osobne-financie/dochodok"/>
+					</div>
+					<div class="col-md-4">
+						<vc-home-category-card title="Exekúcia" img="Execution.svg" link="./osobne-financie/exekucia"/>
+					</div>
+					<div class="col-md-4">
+						<vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie/praca-dane"/>
 					</div>
 				</div>
 			</div>
@@ -71,27 +60,6 @@
 		<div class="container">
 			<vc-advancedImgHomeCards/>
 		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<vc-showArticles/>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-12 col-md-6">
-					<vc-imgCard :single='true'/>
-				</div>
-				<span class="divider border-left"></span>
-				<div class="col pl-2 pl-md-5 d-flex align-items-end">
-					<vc-textCard/>
-				</div>
-			</div>
-		</div>
-		<custom-tags-blog></custom-tags-blog>
 	</div>
 </template>
 
@@ -101,49 +69,10 @@ export default {
 	components: {
 		Carousel,
 		Slide,
-		'custom-tags-blog': () => import('../../native-components/custom-tags-blog.vue'),
-		'vc-homeCategoryCard': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue'),
 		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
-		'vc-showArticles': () => import('@/vis-webcomponents/vc-showArticles/vc-showArticles.vue'),
-		'vc-imgCard': () => import('@/vis-webcomponents/vc-imgCard/vc-imgCard.vue'),
-		'vc-textCard': () => import('@/vis-webcomponents/vc-textCard/vc-textCard.vue'),
+		'vc-home-carousel': () => import('@/vis-webcomponents/vc-homeCarousel/vc-homeCarousel.vue'),
+		'vc-home-category-card': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue'),
 		'vc-advancedImgHomeCards': () => import('@/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue')
-	},
-	data () {
-		return {
-			cards: [
-				{
-					title: 'Bývanie',
-					icon: 'Home.svg',
-					link: 'byvanie'
-				},
-				{
-					title: 'Rodina a deti',
-					icon: 'Family-group.svg',
-					link: 'rodina-deti'
-				},
-				{
-					title: 'Auto',
-					icon: 'Car.svg',
-					link: 'auto'
-				},
-				{
-					title: 'Dôchodok',
-					icon: 'OldFamily-group.svg',
-					link: 'dochodok'
-				},
-				{
-					title: 'Exekúcia',
-					icon: 'Execution.svg',
-					link: 'exekucia'
-				},
-				{
-					title: 'Práca a dane',
-					icon: 'Work.svg',
-					link: 'praca-dane'
-				}
-			]
-		}
 	}
 }
 </script>

@@ -22,14 +22,10 @@
       </div>
     </div>
     <div id="progressBar">
-        <!-- wp:html -->
         <vc-progress-bar/>
-        <!-- /wp:html -->
 	</div>
     <div id="vedeliSte">
-        <!-- wp:html -->
         <vc-carousel/>
-        <!-- /wp:html -->
 	</div>
     <div id="zakladneInformacie">
         <div class="container text-center mt-5 mb-5 hardcode-text">
@@ -44,24 +40,16 @@
         <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
             <div class="row">
                 <div class="col-md-3">
-                    <!-- wp:html -->
                     <vc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="/osobne-financie-auto-financovanie-auta-clanok"/>
-                    <!-- /wp:html -->
                 </div>
                 <div class="col-md-3">
-                    <!-- wp:html -->
                     <vc-mini-card title="Poistenie Auta" desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" img="Blue-home.svg" link="/osobne-financie-auto-poistenie-auta-clanok"/>
-                    <!-- /wp:html -->
                 </div>
                 <div class="col-md-3">
-                    <!-- wp:html -->
                     <vc-mini-card title="Kúpa a predaj" desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" img="Blue-home.svg" link="/osobne-financie-auto-kupa-a-predaj-clanok"/>
-                    <!-- /wp:html -->
                 </div>
                 <div class="col-md-3">
-                    <!-- wp:html -->
                     <vc-mini-card title="Údržba auta" desc="Nerobte si starosti súdržbou vášho auta" img="Blue-home.svg" link="/osobne-financie-auto-udrzba-auta-clanok"/>
-                    <!-- /wp:html -->
                 </div>
             </div>
         </div>
@@ -114,9 +102,7 @@
     <div id="uzitocneLinky">
         <div class="container">
             <div class="row border-center mb-5">
-                <!-- wp:html -->
                 <vc-link-cards/>
-                <!-- /wp:html -->
             </div>
         </div>
     </div>

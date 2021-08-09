@@ -46,6 +46,7 @@
 		<div class="d-block d-sm-block d-md-none">
 			<div class="carousel-wrapper">
 				<vc-pre-skoly-carousel
+					isactive="card1"
 					card1_title="1. Ročník"
 					card1_img="rocnik1.svg"
 					card1_link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"
@@ -98,12 +99,14 @@
 				Stiahnuť všetky dokumenty
 			</button>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<vc-show-articles/>
-				</div>
-			</div>
+		<div class="container text-center mt-5 mb-5 hardcode-text">
+			<h4>
+				Informácie ktoré vám pomôžu k správnemu investovaniu.
+			</h4>
+			<p>
+				Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.
+			</p>
+			<a class="fake" href="">Zobraziť všetky články</a>
 		</div>
 	</div>
 </template>

@@ -17,21 +17,27 @@
 		<div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block">
 			<div class="row category-cards">
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie-byvanie"/>
 				</div>
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="./osobne-financie-rodina-a-deti"/>
 				</div>
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Auto" img="Car.svg" link="./osobne-financie-auto"/>
 				</div>
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="./osobne-financie-dochodok"/>
 				</div>
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Exekúcia" img="Execution.svg" link="./osobne-financie-exekucia"/>
 				</div>
 				<div class="col-4 mb-3">
+					<img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt="">
 					<vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie-praca-a-dane"/>
 				</div>
 			</div>
@@ -58,12 +64,14 @@
 			<vc-advanced-img-home-cards/>
 		</div>
 
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<vc-show-articles/>
-				</div>
-			</div>
+		<div class="container text-center mt-5 mb-5 hardcode-text">
+			<h4>
+				Informácie ktoré vám pomôžu k správnemu investovaniu.
+			</h4>
+			<p>
+				Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.
+			</p>
+			<a class="fake" href="">Zobraziť všetky články</a>
 		</div>
 	</div>
 </template>

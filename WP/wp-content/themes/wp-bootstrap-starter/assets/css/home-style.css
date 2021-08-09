@@ -32,7 +32,7 @@ a {
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 14px;cursor: pointer;
 }
 
 .category-cards {
@@ -94,4 +94,19 @@ hr {
 
 .card-content:hover {
   color: #1eaee1!important;
+}
+
+
+.hardcode-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hardcode-text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fake {
+	opacity: 0.2 !important;
 }

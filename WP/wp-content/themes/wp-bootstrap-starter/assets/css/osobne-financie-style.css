@@ -61,3 +61,8 @@ h1 {
 .byvanie-welcome-text {
   margin-bottom: 3rem;
 }
+
+img .border{
+  border: 3px solid red !important;
+}
+

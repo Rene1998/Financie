@@ -13,7 +13,7 @@ function wzo_register_block_patterns() {
 
     if ( function_exists( 'register_block_pattern' ) ) {
 
-        /*Home-page (vis-home.vue)*/ 
+        //Bloky celych stranok
 
         register_block_pattern(
             'bpc/vis-home',
@@ -22,7 +22,7 @@ function wzo_register_block_patterns() {
                 'description' => __( 'financie.sk Homepage', 'block-patterns-collection' ),
                 'categories'  => [ 'wezeo-patterns' ],
                 'content'     => <<<pattern
-                <div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> <div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1> Prevedieme vás životnou <br />finančnou cestou.</h1><p class="p-0 mt-4 mb-5"> Získajte odborníka na kľúčové finančné momenty <br />vo vašom živote.</p></div></div></div><div class="container carousel-wrapper"><div class="row category-cards"><div class="col-4"> <vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie-byvanie"/></div><div class="col-4"> <vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="./osobne-financie-rodina-a-deti"/></div><div class="col-4"> <vc-home-category-card title="Auto" img="Car.svg" link="./osobne-financie-auto"/></div></div><div class="row category-cards"><div class="col-4"> <vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="./osobne-financie-dochodok"/></div><div class="col-4"> <vc-home-category-card title="Exekúcia" img="Execution.svg" link="./osobne-financie-exekucia"/></div><div class="col-4"> <vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie-praca-a-dane"/></div></div></div><vc-carousel/><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />na ktoré móžete naraziť vo vašom živote.</p></div><div class="container"> <vc-advanced-img-home-cards/></div><div class="container"><div class="row"><div class="col"> <vc-show-articles/></div></div></div><div class="container"><div class="row mb-5"><div class="col-12 col-md-6"> <vc-img-card/></div><div class="col pl-2 pl-md-5 d-flex align-items-end"> <vc-text-card/></div></div></div></div>
+<div><div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1> Prevedieme vás životnou <br />finančnou cestou.</h1><p class="p-0 mt-4 mb-5"> Získajte odborníka na kľúčové finančné momenty <br />vo vašom živote.</p></div></div></div><div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block"><div class="row category-cards"><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Bývanie" img="Home.svg" link="./osobne-financie-byvanie"/></div><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Rodina a deti" img="Family-group.svg" link="./osobne-financie-rodina-a-deti"/></div><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Auto" img="Car.svg" link="./osobne-financie-auto"/></div><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Dôchodok" img="OldFamily-group.svg" link="./osobne-financie-dochodok"/></div><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Exekúcia" img="Execution.svg" link="./osobne-financie-exekucia"/></div><div class="col-4 mb-3"> <img class="d-none" src="http://wp.test/wp-content/uploads/2021/07/Snímka-obrazovky-2021-08-03-o-15.50.37.png" alt=""> <vc-home-category-card title="Práca a dane" img="Work.svg" link="./osobne-financie-praca-a-dane"/></div></div></div><div class="d-block d-sm-block d-md-none"><div class="carousel-wrapper"> <vc-home-carousel/></div></div><vc-carousel/><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />na ktoré móžete naraziť vo vašom živote.</p></div><div class="container"> <vc-advanced-img-home-cards/></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Informácie ktoré vám pomôžu k správnemu investovaniu.</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.</p> <a class="fake" href="">Zobraziť všetky články</a></div></div>
 pattern
             ]
         );
@@ -34,7 +34,7 @@ pattern
                 'description' => __( 'financie.sk Pre-skoly', 'block-patterns-collection' ),
                 'categories'  => [ 'wezeo-patterns' ],
                 'content'     => <<<pattern
-<div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> <div><div class="container-fluid preskoly-main"><div class="container"><div class="preskoly-welcome-text mb-5"><h1 class="title"> Základná škola 1. stupeň</h1><p class="content"> Pripravili sme pre vás materiály pre učiteľov z prvého stupňa <br> základných škôl.</p><p class="d-flex align-items-center"> <a class="pr-2" href="/pre-skoly/zakladna-skola-1.stupen"> Základná škola 1. stupeň </a> • <a class="p-2" href="/pre-skoly/zakladna-skola-2.stupen"> Základná škola 2. stupeň </a> • <a class="p-2" href="/pre-skoly/stredna-skola"> Stredná škola </a></p></div></div></div></div><div class="container carousel-wrapper"><div class="row"><div class="col-3"> <vc-category-card title="1. Ročník" img="rocnik1.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="2. Ročník" img="rocnik2.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="3. Ročník" img="rocnik3.svg" link="#"></vc-category-card></div><div class="col-3"> <vc-category-card title="4. Ročník" img="rocnik4.svg" link="#"></vc-category-card></div></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Boli by sme radi, aby už na základnej škole mali deti finančné vzdelávanie.</h4><p> A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br />prevedú finančným vzdelaním.</p></div><div class="switch-wrapper mb-5"><div class="btn-group"> <button class="switch-button p-0"> Učebné materiály </button> <button class="switch-button p-0"> Videá </button></div></div><div class="container"> <vc-advanced-img-cards page="zakladna-skola-1.stupen" year="1-rocnik" category="advancedImgCardLink"/></div><div class="container text-center mb-5"> <button class="btn-primary download-all mb-5"> Stiahnuť všetky dokumenty </button></div><div class="container"><div class="row"><div class="col"> <vc-show-articles/></div></div></div><div class="container"><div class="row mb-5"><div class="col-12 col-md-6"> <vc-img-card/></div> <span class="divider border-left"></span><div class="col d-flex align-items-end pl-2 pl-md-5"> <vc-text-card/></div></div></div></div>
+<div><div><div class="container-fluid preskoly-main"><div class="container"><div class="preskoly-welcome-text mb-5"><h1 class="title"> Stredná škola</h1><p class="content"> Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.</p><p> <a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"> Základná škola 1. stupeň </a> • <a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"> Základná škola 2. stupeň </a> • <a class="p-2 isActiveA" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"> Stredná škola </a></p></div></div></div></div><div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block"><div class="row"><div class="col-3"> <vc-category-card title="1. Ročník" img="rocnik1.svg" link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy" isactive="true"></vc-category-card></div><div class="col-3"> <vc-category-card title="2. Ročník" img="rocnik2.svg" link="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy"></vc-category-card></div><div class="col-3"> <vc-category-card title="3. Ročník" img="rocnik3.svg" link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy"></vc-category-card></div><div class="col-3"> <vc-category-card title="4. Ročník" img="rocnik4.svg" link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy"></vc-category-card></div></div></div><div class="d-block d-sm-block d-md-none"><div class="carousel-wrapper"> <vc-pre-skoly-carousel card1_title="1. Ročník" card1_img="rocnik1.svg" card1_link="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"card2_title="2. Ročník" card2_img="rocnik2.svg" card2_link="./pre-skoly-stredna-skola-2-rocnik-ucebne-materialy"card3_title="3. Ročník" card3_img="rocnik3.svg" card3_link="./pre-skoly-stredna-skola-3-rocnik-ucebne-materialy"card4_title="4. Ročník" card4_img="rocnik4.svg" card4_link="./pre-skoly-stredna-skola-4-rocnik-ucebne-materialy" /></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Boli by sme radi, aby už na základnej škole mali deti finančné vzdelávanie.</h4><p> A preto sme učiteľom a ich žiakom na základných a stredných školách pripravili príručky, cvičenia a videá, ktoré vás <br />prevedú finančným vzdelaním.</p></div><div class="container"><div class="switch-wrapper mb-5"><div class="row switch d-flex justify-content-center align-items-center text-center"> <a class="switch-button p-0 switchIsActive col-6 d-flex justify-content-center align-items-center text-center" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy">Učebné materiály </a> <a class="switch-button p-0 col-6 d-flex justify-content-center align-items-center text-center" href="./pre-skoly-stredna-skola-1-rocnik-videa">Videá </a></div></div></div><div class="container"> <vc-advanced-img-cards page="stredna-skola" year="1-rocnik" category="advancedImgCardLink"/></div><div class="container text-center mb-5"> <button class="btn-primary download-all mb-5"> Stiahnuť všetky dokumenty </button></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Informácie ktoré vám pomôžu k správnemu investovaniu.</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.</p> <a class="fake" href="">Zobraziť všetky články</a></div></div>
 pattern
             ]
         );
@@ -46,7 +46,75 @@ pattern
                 'description' => __( 'financie.sk Osobne financie', 'block-patterns-collection' ),
                 'categories'  => [ 'wezeo-patterns' ],
                 'content'     => <<<pattern
-<div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> <div class="container-fluid byvanie-main"><div class="container"><div class="byvanie-welcome-text"><div class="col d-flex flex-column mb-5 b-arrow"> <a href="/home"> <a class="mb-5 d-flex align-items-center"> <i class="bi bi-arrow-left mr-2"></i> Späť na hlavnú stránku </a> </a><h1 mt-5> Bývanie</h1><p class="mt-4 content"> Hypotéka, refinancovanie, dofinancovanie</p><div class="m-5"></div></div></div></div></div> <vc-progress-bar/><vc-carousel/><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Základné články</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br /> na ktoré môžete naraziť vo vašom živote.</p></div><div class="container mt-5 mb-5"><div class="row"><div class="col-md-3"> <vc-mini-card title="Kúpa alebo prenájom" desc="Je lepšie kúpiť alebo prenajať?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/></div><div class="col-md-3"> <vc-mini-card title="Financovanie kúpy" desc="Ako dofinancovať úver?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/></div><div class="col-md-3"> <vc-mini-card title="Poistenie" desc="Ako zabezpečiť dom?" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/></div><div class="col-md-3"> <vc-mini-card title="Technológie čo vedia ušetriť" desc="Presvedčte sa ako môžete ušetri’t využívaním moderných technológii" img="Blue-home.svg" link="https://financie.hybridlab.dev/pre-skoly/zakladna-skola-1.stupen"/></div></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Najnovšie články o bývaní</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br /> na ktoré môžete naraziť vo vašom živote.</p></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Najlepšie produkty na našom trhu</h4><p> Pripravili sme pre vás tie najlepšie produkty v ramci bývania...</p></div><div class="container mb-5"> <vc-img-card/></div><div class="container"><div class="row border-center mb-5"> <vc-link-cards/></div></div></div>
+<div><div class="container-fluid byvanie-main"><div class="container"><div class="byvanie-welcome-text"><div class="col d-flex flex-column mb-5 b-arrow"> <a href="./home" class="mb-5 d-flex align-items-center"> <i class="bi bi-arrow-left mr-2"></i> Späť na hlavnú stránku </a><h1 mt-5> Auto</h1><p class="mt-4 content"> Leasing, finančný lízing, operatívny lízing, akontácia, amortizácia</p><div class="mb-5"></div></div></div></div></div><div id="progressBar"> <vc-progress-bar/></div><div id="vedeliSte"> <vc-carousel/></div><div id="zakladneInformacie"><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Základné články</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br /> na ktoré môžete naraziť vo vašom živote.</p></div><div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block"><div class="row"><div class="col-md-3"> <vc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="/osobne-financie-auto-financovanie-auta-clanok"/></div><div class="col-md-3"> <vc-mini-card title="Poistenie Auta" desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" img="Blue-home.svg" link="/osobne-financie-auto-poistenie-auta-clanok"/></div><div class="col-md-3"> <vc-mini-card title="Kúpa a predaj" desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" img="Blue-home.svg" link="/osobne-financie-auto-kupa-a-predaj-clanok"/></div><div class="col-md-3"> <vc-mini-card title="Údržba auta" desc="Nerobte si starosti súdržbou vášho auta" img="Blue-home.svg" link="/osobne-financie-auto-udrzba-auta-clanok"/></div></div></div><div class="d-block d-sm-block d-md-none"><div class="carousel-wrapper"> <vc-osobne-financie-carousel card1_title="Financovanie auta" card1_desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" card1_img="Blue-home.svg" card1_link="/osobne-financie-auto-financovanie-auta-clanok"card2_title="Poistenie Auta" card2_desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" card2_img="Blue-home.svg" card2_link="/osobne-financie-auto-poistenie-auta-clanok"card3_title="Kúpa a predaj" card3_desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" card3_img="Blue-home.svg" card3_link="/osobne-financie-auto-kupa-a-predaj-clanok"card4_title="Údržba auta" card4_desc="Nerobte si starosti súdržbou vášho auta" card4_img="Blue-home.svg" card4_link="/osobne-financie-auto-udrzba-auta-clanok"/></div></div></div><div id="najnovsieClanky"><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Najnovšie články o autách</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br /> na ktoré môžete naraziť vo vašom živote.</p></div></div><div id="najnovsieProdukty"><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Najlepšie produkty na našom trhu</h4><p> Pripravili sme pre vás tie najlepšie produkty v ramci bývania...</p></div></div><div id="uzitocneLinky"><div class="container"><div class="row border-center mb-5"> <vc-link-cards/></div></div></div></div>
+pattern
+            ]
+        );
+
+        //welcome contenty ku kazdej stranke
+
+        register_block_pattern(
+            'bpc/home-page-welcome-content',
+            [
+                'title'       => __( 'Home-page-welcome-content', 'block-patterns-collection' ),
+                'description' => __( 'home-page-welcome-content(text & background)', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1> Prevedieme vás životnou <br />finančnou cestou.</h1><p class="p-0 mt-4 mb-5"> Získajte odborníka na kľúčové finančné momenty <br />vo vašom živote.</p></div></div></div>
+pattern
+            ]
+        );
+
+
+        register_block_pattern(
+            'bpc/osobne-financie-welcome-content',
+            [
+                'title'       => __( 'Osobne-financie-welcome-content', 'block-patterns-collection' ),
+                'description' => __( 'osobne-financie-welcome-content(text & background)', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div class="container-fluid byvanie-main"><div class="container"><div class="byvanie-welcome-text"><div class="col d-flex flex-column mb-5 b-arrow"> <a href="./home" class="mb-5 d-flex align-items-center"> <i class="bi bi-arrow-left mr-2"></i> Späť na hlavnú stránku </a><h1 mt-5> Auto</h1><p class="mt-4 content"> Leasing, finančný lízing, operatívny lízing, akontácia, amortizácia</p><div class="mb-5"></div></div></div></div></div>
+pattern
+            ]
+        );
+
+        register_block_pattern(
+            'bpc/pre-skoly-welcome-content',
+            [
+                'title'       => __( 'Pre-skoly-welcome-content', 'block-patterns-collection' ),
+                'description' => __( 'pre-skoly-welcome-content(text & background)', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div><div class="container-fluid preskoly-main"><div class="container"><div class="preskoly-welcome-text mb-5"><h1 class="title"> Stredná škola</h1><p class="content"> Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.</p><p> <a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"> Základná škola 1. stupeň </a> • <a class="p-2" href="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"> Základná škola 2. stupeň </a> • <a class="p-2 isActiveA" href="./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"> Stredná škola </a></p></div></div></div></div>
+pattern
+            ]
+        );
+
+        //editovatelne tecty vo wp
+
+
+        //Plne editovatelna H4 a p
+        register_block_pattern(
+            'bpc/osobne-financie-h4&p',
+            [
+                'title'       => __( 'osobne-financie-h4&p', 'block-patterns-collection' ),
+                'description' => __( 'osobne-financie-h4&p', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div class="container text-center mt-5 mb-5 hardcode-text"><h4> Základné články</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br /> na ktoré môžete naraziť vo vašom živote.</p></div>
+pattern
+            ]
+        );
+
+        //Plne editovatelna H4, p a a
+        register_block_pattern(
+            'bpc/home-pre-skoly-h4,p,a',
+            [
+                'title'       => __( 'Home-pre-skoly-h4,p,a', 'block-patterns-collection' ),
+                'description' => __( 'home-pre-skoly-h4,p,a', 'block-patterns-collection' ),
+                'categories'  => [ 'wezeo-patterns' ],
+                'content'     => <<<pattern
+<div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Informácie ktoré vám pomôžu k správnemu investovaniu.</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.</p> <a class="fake" href="">Zobraziť všetky články</a></div></div>
 pattern
             ]
         );
@@ -63,32 +131,6 @@ pattern
                 'content'     => <<<pattern
 <div class="row"><div class="col-lg-4"> <img src="http://placehold.jp/150x150.png" alt=""><h2>Heading</h2><p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p><p><a class="btn btn-secondary" href="#">View details &raquo;</a></p></div><div class="col-lg-4"> <img src="http://placehold.jp/150x150.png" alt=""><h2>Heading</h2><p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p><p><a class="btn btn-secondary" href="#">View details &raquo;</a></p></div><div class="col-lg-4"> <img src="http://placehold.jp/150x150.png" alt=""><h2>Heading</h2><p>And lastly this, the third column of representative placeholder content.</p><p><a class="btn btn-secondary" href="#">View details &raquo;</a></p></div></div>
 pattern
-            ]
-        );
-
-        register_block_pattern(
-            'bpc/homepage',
-            [
-                'title'       => __( 'Home', 'block-patterns-collection' ),
-                'description' => __( 'Homepage', 'block-patterns-collection' ),
-                'categories'  => [ 'wezeo-patterns' ],
-                'content'     => <<<pattern
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> <script src="https://unpkg.com/vue"></script> <script src="../../vis-webcomponents/vc-carousel/dist/vc-carousel-slide.js"></script> <script src="../../vis-webcomponents/vc-advancedImgHomeCards/dist/vc-advanced-img-home-cards.js"></script> <script src="../../vis-webcomponents/vc-showArticles/dist/vc-show-articles.js"></script> <script src="../../vis-webcomponents/vc-textCard/dist/vc-text-card.js"></script> <script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script> </head><body><div class="preskoly-wrapper"><div class="container home-main d-flex align-items-center"><div><h1> Prevedieme vás životnou <br />finančnou cestou.</h1><p class="p-0 mt-4 mb-5"> Získajte odborníka na kľúčové finančné momenty <br />vo vašom živote.</p></div></div></div><div class="container"><div class="row justify-content-center text-center"> <vc-carousel-slide></vc-carousel-slide></div></div><div class="container text-center mt-5 mb-5 hardcode-text"><h4> Budeme pri vás, počas toho ako si plníte vaše sny a ciele</h4><p> Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />na ktoré móžete naraziť vo vašom živote.</p></div><div class="container"><div class="row"> <vc-advanced-img-home-cards></vc-advanced-img-home-cards></div></div><div class="container"><div class="row text-center"><div class="col"> <vc-show-articles/></div></div></div><div class="container"><div class="row"><div class="col-6"></div><div class="col-6 pl-2 pl-md-5 d-flex align-items-end"> <vc-text-card/></div></div></div></body><style lang="sccs" scoped>.preskoly-wrapper{background-image:url("./assets/Group 1.png");min-height:600px;width:100%;background-position:top right;background-repeat:no-repeat;background-size:cover}.container{min-height:500px}h1{font-weight:bold;font-size:40px}p{font-size:18px}</style></html>
-pattern
-            ]
-        );
-
-
-           /**
-         * TEST Section
-         */
-        register_block_pattern(
-            'bpc/test',
-            [
-                'title'       => __( 'Test', 'block-patterns-collection' ),
-                'description' => __( 'Section with three columns', 'block-patterns-collection' ),
-                'categories'  => [ 'wezeo-patterns' ],
-                'content'     => '<div class="card"><div class="card-body d-flex align-items-center flex-column mt-3"> <img class="category-card " src="#" alt="" /><h6 class="card-title m-0 mt-3 d-flex align-items-end"> gsjghrsijhrsd</h6></div></div>'
             ]
         );
         /**

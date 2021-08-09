@@ -4,28 +4,27 @@
         <div class="mb-5">
 			<div class="d-flex justify-content-center">
 				<carousel
-					:navigateTo="[1]"
                     class="carousel-wrapper"
 					style="width: 800px"
 					:perPage="1">
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card :title="card1_title" :img="card1_img" :link="card1_link"></vc-category-card>
+							<vc-category-card :isactive="isactive=='card1'" :title="card1_title" :img="card1_img" :link="card1_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card :title="card2_title" :img="card2_img"  :link="card2_link"></vc-category-card>
+							<vc-category-card :isactive="isactive=='card2'" :title="card2_title" :img="card2_img"  :link="card2_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card :title="card3_title" :img="card3_img" :link="card3_link"></vc-category-card>
+							<vc-category-card :isactive="isactive=='card3'" :title="card3_title" :img="card3_img" :link="card3_link"></vc-category-card>
 						</h5>
 					</slide>
 					<slide class="slide text-center">
 						<h5>
-							<vc-category-card :title="card4_title" :img="card4_img" :link="card4_link"></vc-category-card>
+							<vc-category-card :isactive="isactive=='card4'" :title="card4_title" :img="card4_img" :link="card4_link"></vc-category-card>
 						</h5>
 					</slide>
 				</carousel>
@@ -53,7 +52,8 @@ export default {
         card3_link: String,
         card4_title: String,
         card4_img: String,
-        card4_link: String
+        card4_link: String,
+		isactive: String
 	}
 }
 </script>

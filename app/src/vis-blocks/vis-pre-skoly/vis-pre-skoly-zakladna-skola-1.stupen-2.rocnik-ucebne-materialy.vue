@@ -46,6 +46,7 @@
 		<div class="d-block d-sm-block d-md-none">
 			<div class="carousel-wrapper">
 				<vc-pre-skoly-carousel
+					isactive="card2"
 					card1_title="1. Ročník"
 					card1_img="rocnik1.svg"
 					card1_link="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"

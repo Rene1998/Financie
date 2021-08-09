@@ -89,9 +89,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
 		<div class="container">
 			<vc-advancedImgCards
 				:cardContent="cardContent"
@@ -101,24 +98,6 @@
 			<button class="btn download-all mb-5">
 				Stiahnuť všetky dokumenty
 			</button>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<vc-showArticles/>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-12 col-md-6">
-					<vc-imgCard :single='true'/>
-				</div>
-				<span class="divider border-left"></span>
-				<div class="col d-flex align-items-end pl-2 pl-md-5">
-					<vc-textCard/>
-				</div>
-			</div>
 		</div>
 	</div>
 </template>
