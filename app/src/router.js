@@ -25,24 +25,6 @@ const routes = [
 		name: 'osobne-financie',
 		component: () =>
 			import('./vis-blocks/vis-osobne-financie/osobne-financie.vue')
-	},
-	{
-		path: '/osobne-financie/clanky/:slug',
-		name: 'clanky',
-		component: () =>
-			import('./vis-blocks/vis-osobne-financie/articles.vue')
-	},
-	{
-		path: '/osobne-financie/:slug/:slug',
-		name: 'osobne-financie',
-		component: () =>
-			import('./vis-blocks/vis-osobne-financie/blog.vue')
-	},
-	{
-		path: '/blog',
-		name: 'blog-page',
-		component: () =>
-			import('./vis-blocks/vis-osobne-financie/blog.vue')
 	}
 ]
 

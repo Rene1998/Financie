@@ -104,7 +104,6 @@
 
 <script>
 // docs => https://ssense.github.io/vue-carousel/api/
-import cardContent from './pre-skoly_content.js'
 import { Carousel, Slide } from 'vue-carousel'
 export default {
 	watch: {

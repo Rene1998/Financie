@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "161d":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_59bbd94c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6f63");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_59bbd94c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_59bbd94c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_59bbd94c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_59bbd94c_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
 /***/ "24fb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -718,19 +730,153 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=39252f8a&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('footer',[_vm._m(0),_c('div',{staticClass:"container-fluid copyright-main"},[_c('div',{staticClass:"container copyright-container"},[_c('div',{staticClass:"row copyright-row d-sm-flex align-items-center ml-3"},[_c('a',{attrs:{"href":"./home"}},[_c('img',{staticClass:"mr-3",attrs:{"src":__webpack_require__("2568"),"alt":"logo"}})]),_vm._m(1),_vm._m(2)])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('div',{staticClass:"row footer-row d-flex align-content-center pt-3 ml-3"},[_c('div',{staticClass:"col-12 col-lg-3 col-sm-6"},[_c('h5',{staticClass:"text-left"},[_vm._v(" Životné situácie ")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-auto"}},[_vm._v("Auto")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-praca-a-dane"}},[_vm._v("Práce a dane")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-rodina-a-deti"}},[_vm._v("Rodina a deti")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-byvanie"}},[_vm._v("Bývanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-dochodok"}},[_vm._v("Dôchodok")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-exekucia"}},[_vm._v("Exekúcia")])])])]),_c('div',{staticClass:"col-12 col-lg-3 col-sm-6"},[_c('h5',{staticClass:"text-left"},[_vm._v("Finančné produkty")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-poistenie"}},[_vm._v("Poistenie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-hypotekarny-uver"}},[_vm._v("Hypotekárny úver")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-uver-na-spotrebu"}},[_vm._v("Úver na spotrebu")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-inveshrefvanie"}},[_vm._v("Investovanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-ucty-a-karty"}},[_vm._v("Účty a karty")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-fintech"}},[_vm._v("Fintech")])])])]),_c('div',{staticClass:"col-3 d-none d-lg-block"},[_c('h5',{staticClass:"text-left"},[_vm._v("Pomôcky")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Porovnania")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Nástrahy")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Kalkulačky")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Slovník ")])])])]),_c('div',{staticClass:"col-3 d-none d-lg-block"},[_c('h5',{staticClass:"text-left"},[_vm._v("Životné situácie")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("O nás")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Kontakt")])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"copy m-0"},[_vm._v(" © 2021 "),_c('a',{staticClass:"financie-link",attrs:{"href":"#"}},[_vm._v("www.financie.sk")]),_vm._v(" Všetky práva vyhradené. ")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ml-auto d-none d-lg-block"},[_c('a',{attrs:{"href":"./home"}},[_c('a',{staticClass:"btn z-btn rounded-0"},[_vm._v("Osobné financie")])]),_c('a',{attrs:{"href":"./pre-skoly-zakladna-skola-1-stupen-1-rocnik"}},[_c('a',{staticClass:"btn z-btn rounded-0"},[_vm._v("Pre školy")])])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=59bbd94c&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('footer',{class:{'PreSkolyFooter': _vm.page}},[_vm._m(0),_c('div',{staticClass:"container-fluid copyright-main"},[_c('div',{staticClass:"container copyright-container"},[_c('div',{staticClass:"row copyright-row d-sm-flex align-items-center ml-3"},[_c('a',{attrs:{"href":"./home"}},[(_vm.page)?_c('img',{staticClass:"mr-3",attrs:{"src":__webpack_require__("2568"),"alt":"logo"}}):_c('img',{staticClass:"mr-3 kokot",attrs:{"src":__webpack_require__("c0a6"),"alt":"logo"}})]),_vm._m(1),_vm._m(2)])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('div',{staticClass:"row footer-row d-flex align-content-center pt-3 ml-0"},[_c('div',{staticClass:"col-12 col-lg-3 col-sm-6"},[_c('h5',{staticClass:"text-left"},[_vm._v(" Životné situácie ")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-auto"}},[_vm._v("Auto")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-praca-a-dane"}},[_vm._v("Práce a dane")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-rodina-a-deti"}},[_vm._v("Rodina a deti")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-byvanie"}},[_vm._v("Bývanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-dochodok"}},[_vm._v("Dôchodok")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-exekucia"}},[_vm._v("Exekúcia")])])])]),_c('div',{staticClass:"col-12 col-lg-3 col-sm-6"},[_c('h5',{staticClass:"text-left"},[_vm._v("Finančné produkty")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-poistenie"}},[_vm._v("Poistenie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-hypotekarny-uver"}},[_vm._v("Hypotekárny úver")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-uver-na-spotrebu"}},[_vm._v("Úver na spotrebu")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-investovanie"}},[_vm._v("Investovanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-ucty-a-karty"}},[_vm._v("Účty a karty")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-fintech"}},[_vm._v("Fintech")])])])]),_c('div',{staticClass:"col-3 d-none d-lg-block"},[_c('h5',{staticClass:"text-left"},[_vm._v("Pomôcky")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Porovnania")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Nástrahy")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Kalkulačky")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Slovník ")])])])]),_c('div',{staticClass:"col-3 d-none d-lg-block"},[_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_c('h5',[_vm._v(" O nás ")])])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_c('h5',[_vm._v(" Kontakt ")])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"copy m-0"},[_vm._v(" © 2021 "),_c('a',{staticClass:"financie-link",attrs:{"href":"#"}},[_vm._v("www.financie.sk")]),_vm._v(" Všetky práva vyhradené. ")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ml-auto d-none d-lg-block"},[_c('a',{attrs:{"href":"./home"}},[_c('a',{staticClass:"btn footer-navigation rounded-0"},[_vm._v("Osobné financie")])]),_c('a',{attrs:{"href":"./pre-skoly-zakladna-skola-1-stupen-1-rocnik"}},[_c('a',{staticClass:"btn footer-navigation rounded-0"},[_vm._v("Pre školy")])])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=39252f8a&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=59bbd94c&scoped=true&shadow
 
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=script&lang=js&shadow
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var vl_footervue_type_script_lang_js_shadow = ({
+  data() {
+    return {
+      page: false
+    };
+  },
+
+  mounted() {
+    this.page = window.location.pathname.startsWith('/pre-skoly');
+    console.log(this.page, window.location.pathname);
+  }
+
+});
+// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=script&lang=js&shadow
+ /* harmony default export */ var vl_footer_vl_footervue_type_script_lang_js_shadow = (vl_footervue_type_script_lang_js_shadow); 
 // CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?shadow
 
-var script = {}
+
+
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("c7e6")
+  var style0 = __webpack_require__("161d")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -738,12 +884,12 @@ if (style0.__inject__) style0.__inject__(context)
 /* normalize component */
 
 var component = normalizeComponent(
-  script,
+  vl_footer_vl_footervue_type_script_lang_js_shadow,
   render,
   staticRenderFns,
   false,
   injectStyles,
-  "39252f8a",
+  "59bbd94c",
   null
   ,true
 )
@@ -761,6 +907,23 @@ var component = normalizeComponent(
 
 
 window.customElements.define('vl-footer', vue_wc_wrapper(external_Vue_default.a, vl_footershadow))
+
+/***/ }),
+
+/***/ "6f63":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("b140");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("1b1603db", content, shadowRoot)
+};
 
 /***/ }),
 
@@ -856,46 +1019,24 @@ module.exports = Vue;
 
 /***/ }),
 
-/***/ "b45e":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("ce84");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("148f6f79", content, shadowRoot)
-};
-
-/***/ }),
-
-/***/ "c7e6":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_39252f8a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b45e");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_39252f8a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_39252f8a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_39252f8a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_39252f8a_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ "ce84":
+/***/ "b140":
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, ".btn[data-v-39252f8a]{font-weight:300}.z-btn[data-v-39252f8a]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-39252f8a]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-39252f8a]{color:#1eaee1!important}.z-btn[data-v-39252f8a]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-39252f8a]{border:none}.card .card-img-top[data-v-39252f8a]{border-radius:4px}*[data-v-39252f8a]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-39252f8a]{font-size:24px;font-weight:700}.hardcode-text p[data-v-39252f8a]{font-size:18px;font-weight:400}.timestamp[data-v-39252f8a]{color:#898989}.fake[data-v-39252f8a]{opacity:.2}footer[data-v-39252f8a]{background:#fcfcfb}footer .footer-row[data-v-39252f8a]{min-height:310px}footer a[data-v-39252f8a]{text-decoration:none;font-size:14px;line-height:30px;color:#19283b}footer h5[data-v-39252f8a]{font-size:15px;color:#19283b}footer p[data-v-39252f8a]{font-size:14px}footer .copyright-row[data-v-39252f8a]{background:#fbfbfc;min-height:80px}footer .copyright-row img[data-v-39252f8a]{vertical-align:baseline}footer .copyright-row .financie-link[data-v-39252f8a]{color:#1eaee1;font-size:14px}@media (max-width:500px){footer .copyright-row .copy[data-v-39252f8a]{font-size:13px}}footer .copyright-row .btn[data-v-39252f8a]{padding:21.5px 15px}footer .copyright-row .btna[data-v-39252f8a]:hover{color:#1eaee1!important}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-layout-webcomponents/vl-footer/vl-footer.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Gb,wBACE,kBAAmB,CADrB,oCAGI,gBAAiB,CAHrB,0BAMI,oBAAqB,CACrB,cAAe,CACf,gBAAiB,CACjB,aAAc,CATlB,2BAaI,cAAe,CACf,aAAc,CAdlB,0BAkBG,cAAe,CAlBlB,uCAsBI,kBAAmB,CACnB,eAAgB,CAvBpB,2CA0BE,uBAAuB,CA1BzB,sDA6BM,aAAc,CACjB,cAAe,CACb,yBA/BL,6CAkCQ,cAAe,CAChB,CAnCP,4CAsCM,mBAAoB,CAtC1B,mDAwCQ,uBAAyB","file":"vl-footer.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\nfooter {\n  background: #fcfcfb;\n  .footer-row {\n    min-height: 310px;\n  }\n  a {\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 30px;\n    color: #19283b;\n  }\n\n  h5 {\n    font-size: 15px;\n    color: #19283b;\n  }\n\n  p {\n\t  font-size: 14px;\n  }\n\n  .copyright-row {\n    background: #fbfbfc;\n    min-height: 80px;\n\n\timg {\n\t\tvertical-align:baseline;\n\t}\n    .financie-link {\n      color: #1eaee1;\n\t  font-size: 14px;\n    }\n    @media (max-width: 500px) {\n      .copy {\n        font-size: 13px;\n      }\n    }\n    .btn {\n      padding: 21.5px 15px;\n      &a:hover {\n        color: #1eaee1 !important;\n      }\n    }\n  }\n}\n"]}]);
+exports.push([module.i, ".btn[data-v-59bbd94c]{font-weight:300}.z-btn[data-v-59bbd94c]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-59bbd94c]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-59bbd94c]{color:#1eaee1!important}.z-btn[data-v-59bbd94c]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-59bbd94c]{border:none}.card .card-img-top[data-v-59bbd94c]{border-radius:4px}*[data-v-59bbd94c]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-59bbd94c]{font-size:24px;font-weight:700}.hardcode-text p[data-v-59bbd94c]{font-size:18px;font-weight:400}.timestamp[data-v-59bbd94c]{color:#898989}.fake[data-v-59bbd94c]{opacity:.2}footer[data-v-59bbd94c]{background:#19283b}footer .footer-row[data-v-59bbd94c]{min-height:310px}footer a[data-v-59bbd94c]{text-decoration:none;font-size:14px;line-height:30px}footer a[data-v-59bbd94c],footer a[data-v-59bbd94c]:hover,footer h5[data-v-59bbd94c]{color:#fff}footer h5[data-v-59bbd94c]{font-size:15px;font-weight:700}footer .footer-navigation[data-v-59bbd94c]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}footer .footer-navigation[data-v-59bbd94c]:hover{border-bottom:3px solid #1eaee1;border-radius:0}footer p[data-v-59bbd94c]{font-size:14px;color:#fff}footer .copyright-row[data-v-59bbd94c]{background:#19283b;min-height:80px}footer .copyright-row img[data-v-59bbd94c]{vertical-align:baseline}footer .copyright-row .financie-link[data-v-59bbd94c]{color:#1eaee1;font-size:14px}@media (max-width:500px){footer .copyright-row .copy[data-v-59bbd94c]{font-size:13px}}footer .copyright-row .btn[data-v-59bbd94c]{padding:21.5px 15px}footer .copyright-row .btna[data-v-59bbd94c]:hover{color:#1eaee1!important}.PreSkolyFooter[data-v-59bbd94c]{background:#ffa800}.PreSkolyFooter .footer-row[data-v-59bbd94c]{min-height:310px}.PreSkolyFooter a[data-v-59bbd94c]{text-decoration:none;font-size:14px;line-height:30px;color:#19283b}.PreSkolyFooter a[data-v-59bbd94c]:hover{color:#19283b}.PreSkolyFooter h5[data-v-59bbd94c]{font-size:15px;color:#19283b;font-weight:700}.PreSkolyFooter .footer-navigation[data-v-59bbd94c]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.PreSkolyFooter .footer-navigation[data-v-59bbd94c]:hover{border-bottom:3px solid #19283b;border-radius:0}.PreSkolyFooter p[data-v-59bbd94c]{font-size:14px}.PreSkolyFooter .copyright-row[data-v-59bbd94c]{background:#ffa800;min-height:80px}.PreSkolyFooter .copyright-row img[data-v-59bbd94c]{vertical-align:baseline}.PreSkolyFooter .copyright-row .financie-link[data-v-59bbd94c]{color:#19283b;font-size:14px}@media (max-width:500px){.PreSkolyFooter .copyright-row .copy[data-v-59bbd94c]{font-size:13px}}.PreSkolyFooter .copyright-row .btn[data-v-59bbd94c]{padding:21.5px 15px}.PreSkolyFooter .copyright-row .btna[data-v-59bbd94c]:hover{color:#1eaee1!important}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-layout-webcomponents/vl-footer/vl-footer.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCiIb,wBACE,kBAAmB,CADrB,oCAGI,gBAAiB,CAHrB,0BAMI,oBAAqB,CACrB,cAAe,CACf,gBACc,CATlB,qFASI,UAUc,CAnBlB,2BAiBI,cAAe,CAElB,eAAiB,CAnBlB,2CAuBC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAzBrC,iDA6BC,+BAAgC,CAC9B,eAAkB,CA9BrB,0BAkCG,cAAe,CACf,UAAc,CAnCjB,uCAuCI,kBAAmB,CACnB,eAAgB,CAxCpB,2CA2CE,uBAAuB,CA3CzB,sDA+CM,aAAc,CACjB,cAAe,CACb,yBAjDL,6CAoDQ,cAAe,CAChB,CArDP,4CAwDM,mBAAoB,CAxD1B,mDA0DQ,uBAAyB,CAC1B,iCAML,kBAAmB,CADrB,6CAGI,gBAAiB,CAHrB,mCAMI,oBAAqB,CACrB,cAAe,CACf,gBAAiB,CACjB,aAAc,CATlB,yCAaG,aAAc,CAbjB,oCAiBI,cAAe,CACf,aAAc,CACjB,eAAiB,CAnBlB,oDAuBC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAzBrC,0DA6BC,+BAAgC,CAC9B,eAAkB,CA9BrB,mCAkCG,cAAe,CAlClB,gDAsCI,kBAAmB,CACnB,eAAgB,CAvCpB,oDA0CE,uBAAuB,CA1CzB,+DA6CM,aAAc,CACjB,cAAe,CACb,yBA/CL,sDAkDQ,cAAe,CAChB,CAnDP,qDAsDM,mBAAoB,CAtD1B,4DAwDQ,uBAAyB","file":"vl-footer.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\nfooter {\n  background: #19283b;\n  .footer-row {\n    min-height: 310px;\n  }\n  a {\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 30px;\n    color: #FFFFFF;\n  }\n\n  a:hover {\n\t  color: #FFFFFF;\n  }\n\n  h5 {\n    font-size: 15px;\n    color: #FFFFFF;\n\tfont-weight: bold;\n  }\n\n  .footer-navigation {\n\tborder-radius: 0px;\n\tpadding: 10px 15px;\n\tborder-bottom: 3px solid transparent;\n  }\n  \n  .footer-navigation:hover {\n\tborder-bottom: 3px solid #1eaee1;\n  \tborder-radius: 0px;\n  }\n\n  p {\n\t  font-size: 14px;\n\t  color: #FFFFFF;\n  }\n\n  .copyright-row {\n    background: #19283b;\n    min-height: 80px;\n\n\timg {\n\t\tvertical-align:baseline;\n\t}\n\n    .financie-link {\n      color: #1eaee1;\n\t  font-size: 14px;\n    }\n    @media (max-width: 500px) {\n      .copy {\n        font-size: 13px;\n      }\n    }\n    .btn {\n      padding: 21.5px 15px;\n      &a:hover {\n        color: #1eaee1 !important;\n      }\n    }\n  }\n}\n\n.PreSkolyFooter {\n  background: #FFA800;\n  .footer-row {\n    min-height: 310px;\n  }\n  a {\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 30px;\n    color: #19283b;\n  }\n\n  a:hover {\n\t  color: #19283b;\n  }\n\n  h5 {\n    font-size: 15px;\n    color: #19283b;\n\tfont-weight: bold;\n  }\n\n  .footer-navigation {\n\tborder-radius: 0px;\n\tpadding: 10px 15px;\n\tborder-bottom: 3px solid transparent;\n  }\n  \n  .footer-navigation:hover {\n\tborder-bottom: 3px solid #19283b;\n  \tborder-radius: 0px;\n  }\n\n  p {\n\t  font-size: 14px;\n  }\n\n  .copyright-row {\n    background: #FFA800;\n    min-height: 80px;\n\n\timg {\n\t\tvertical-align:baseline;\n\t}\n    .financie-link {\n      color: #19283b;\n\t  font-size: 14px;\n    }\n    @media (max-width: 500px) {\n      .copy {\n        font-size: 13px;\n      }\n    }\n    .btn {\n      padding: 21.5px 15px;\n      &a:hover {\n        color: #1eaee1 !important;\n      }\n    }\n  }\n}\n"]}]);
 // Exports
 module.exports = exports;
 
+
+/***/ }),
+
+/***/ "c0a6":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/logo-osobne-financie.27b434ce.svg";
 
 /***/ })
 

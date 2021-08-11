@@ -29,7 +29,7 @@
   }
   
   a:hover {
-    color: #1eaee1 !important;
+    color: #ffa800 !important;
     text-decoration: none;
   }
   
@@ -86,7 +86,7 @@
   }
   
   .isActiveA {
-    color: #1eaee1;
+    color: #ffa800;
     text-decoration: none;
   }
   

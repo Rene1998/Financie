@@ -2,6 +2,9 @@
 	<div>
         <div>
 			<div class="container-fluid preskoly-main">
+				<div class="d-none">
+					<img style="border: 5px solid red" src="../wp-content/uploads/2021/08/group1.png"/>
+				</div>
 				<div class="container">
 					<div class="preskoly-welcome-text mb-5">
 						<h1 class="title">
@@ -25,7 +28,7 @@
 						</p>
 					</div>
 				</div>
-		</div>
+			</div>
 		</div>
 		<div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block">
 			<div class="row">

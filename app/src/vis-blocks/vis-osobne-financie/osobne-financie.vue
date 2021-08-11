@@ -98,7 +98,6 @@
 </template>
 
 <script>
-import pageContent from './osobne-financie_content.js'
 import { Carousel, Slide } from 'vue-carousel'
 export default {
 	components: {
