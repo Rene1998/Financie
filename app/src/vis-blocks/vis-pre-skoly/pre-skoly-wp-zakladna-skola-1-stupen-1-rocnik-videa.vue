@@ -166,7 +166,7 @@
             <!-- /wp:freeform -->
 
             <!-- wp:html -->
-                <vc-advanced-img-cards page="zakladna-skola-1.stupen" year="1-rocnik" category="advancedimgCardVideo"></vc-advanced-img-cards>
+                <vc-advanced-img-cards page="zakladna-skola-1.stupen" year="1-rocnik" category="advancedImgCardVideo"></vc-advanced-img-cards>
             <!-- /wp:html -->
         <!-- /wp:wp-bootstrap-blocks/container -->
     </div>

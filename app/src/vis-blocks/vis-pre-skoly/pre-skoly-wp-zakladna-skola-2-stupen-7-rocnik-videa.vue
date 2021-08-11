@@ -186,7 +186,7 @@
             <!-- /wp:freeform -->
 
             <!-- wp:html -->
-                <vc-advanced-img-cards page="zakladna-skola-2.stupen" year="7-rocnik" category="advancedimgCardVideo"></vc-advanced-img-cards>
+                <vc-advanced-img-cards page="zakladna-skola-2.stupen" year="7-rocnik" category="advancedImgCardVideo"></vc-advanced-img-cards>
             <!-- /wp:html -->
         <!-- /wp:wp-bootstrap-blocks/container -->
     </div>

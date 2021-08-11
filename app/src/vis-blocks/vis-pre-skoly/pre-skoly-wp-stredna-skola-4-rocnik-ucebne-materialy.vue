@@ -166,7 +166,7 @@
             <!-- /wp:freeform -->
 
             <!-- wp:html -->
-                <vc-advanced-img-cards page="stredna-skola" year="4-rocnik" category="advancedimgCardLink"></vc-advanced-img-cards>
+                <vc-advanced-img-cards page="stredna-skola" year="4-rocnik" category="advancedImgCardLink"></vc-advanced-img-cards>
             <!-- /wp:html -->
         <!-- /wp:wp-bootstrap-blocks/container -->
 
