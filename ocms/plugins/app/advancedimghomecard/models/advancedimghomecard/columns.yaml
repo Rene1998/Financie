@@ -1,6 +1,0 @@
-columns:
-    title:
-        label: Názov
-        type: text
-        searchable: true
-        sortable: true
