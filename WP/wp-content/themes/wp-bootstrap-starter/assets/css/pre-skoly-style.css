@@ -7,116 +7,120 @@
     background-size: cover;
   }
   
-  .preskoly-main .container {
+.preskoly-main .container {
     display: flex;
     align-items: center;
     min-height: 500px;
-  }
+}
   
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
     .preskoly-main {
-      background-image: none;
-      background-color: #edefee;
+        background-image: none;
+        background-color: #edefee;
     }
-  }
+}
   
-  a {
+a {
     color: #19283b;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-  }
-  
-  a:hover {
+}
+
+.preskoly-welcome-text a:hover {
     color: #ffa800 !important;
     text-decoration: none;
-  }
-  
-  h5 {
+}
+
+h5 {
     font-size: 24px;
-  }
+}
   
-  .content {
-    max-width: 500px;
-    font-weight: 400;
-    font-size: 18px;
-  }
-  
-  .title {
+.title {
     font-weight: 700;
     font-size: 40px;
-  }
-  
-  .switch-wrapper {
+}
+
+.content {
+      max-width: 500px;
+      font-weight: 400;
+      font-size: 18px;
+}
+
+.hardoce-text {
+    color: #192949;
+    font-weight: bold;
+    font-style: normal;
+}
+    
+.switch-wrapper {
     margin: auto;
     max-width: 500px;
-  }
+}
   
-  .switch-wrapper .switch {
-      background: rgba(118, 118, 128, 0.12);
-      padding: 2px;
-      border-radius: 8px;
-      max-width: 498px;
-  }
-  .switch a {
-      text-decoration: none;
-  }
+.switch-wrapper .switch {
+    background: rgba(118, 118, 128, 0.12);
+    padding: 2px;
+    border-radius: 8px;
+    max-width: 498px;
+}
+
+.switch a {
+    text-decoration: none;
+}
   
-  .switch .switch-button {
-      max-width: 249px;
-      height: 28px;
-      border: 0px;
-      color: #192949;
-      font-weight: 500;
-      font-style: normal;
-  }
-  .switch .switch-button:hover {
-      background: #ffffff;
-      border: 0.5px solid rgba(0, 0, 0, 0.04);
-      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12),
-      0px 3px 1px rgba(0, 0, 0, 0.04);
-      border-radius: 6.93px;
-  }
-  .switchIsActive {
+.switch .switch-button {
+    max-width: 249px;
+    height: 28px;
+    border: 0px;
+    color: #192949;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.switch .switch-button:hover {
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12),
+    0px 3px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 6.93px;
+}
+
+.switchIsActive {
     background: #ffffff;
     border: 0.5px solid rgba(0, 0, 0, 0.04);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
     border-radius: 6.93px;
-  }
+}
   
-  .isActiveA {
+.isActiveA {
     color: #ffa800;
     text-decoration: none;
-  }
+}
   
-  hr {
+hr {
     max-width: 73%;
     border: 1px solid #f3f4f5;
-  }
-  
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .divider {
-      display: none;
+        display: none;
     }
-  }
-  .hardoce-text {
-    color: #192949;
-    font-weight: bold;
-    font-style: normal;
-  }
+}
 
-  .isActive {
+.isActive {
     border-bottom: 5px solid #ffa800;
     border-radius: 5px;
-  }
+}
 
-  .isActive:hover {
+.isActive:hover {
     border-bottom: 5px solid #ffa800;
     border-radius: 5px;
-  }
+}
 
-  .download-all {
+.download-all {
     width: 223px;
     height: 59.47px;
     background: #FFA800;
@@ -124,17 +128,17 @@
     border-radius: 5px !important;
     color: white;
     border: 1px solid #ffA800;
-  }
+}
 
-  .download-all:hover{
+.download-all:hover {
     background-color: 	#ff9900;
     color: white;
-    border: 1px solid #ffA800
-  }
+    border: 1px solid #ffA800;
+}
 
-  .download-all:focus{
+.download-all:focus {
     background: #FFA800;
     border: none;
     box-shadow: none;
     border: 1px solid #ff9900;
-  }
+}

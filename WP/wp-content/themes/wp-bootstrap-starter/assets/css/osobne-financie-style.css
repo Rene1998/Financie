@@ -13,18 +13,8 @@
   min-height: 500px;
 }
 
-.b-icon {
-  cursor: pointer;
-  width: 28px;
-  height: 28px;
-}
-
-.b-icon:hover {
-  color: #1eaee1;
-}
-
-.border-center .col-4:not(:last-of-type) {
-  border-right: 1px solid rgba(137, 137, 137, 0.2);
+.byvanie-welcome-text {
+  margin-bottom: 3rem;
 }
 
 .byvanie-main a {
@@ -38,28 +28,38 @@
   cursor: pointer;
 }
 
-.b-arrow .b-icon {
-  height: 20px !important;
-  width: 20px !important;
+h1 {
+  font-weight: bold;
 }
 
 .content {
   max-width: 450px;
 }
 
-h1 {
-  font-weight: bold;
+.b-icon {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
 }
 
+.b-arrow .b-icon {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.b-icon:hover {
+  color: #1eaee1;
+}
+
+.border-center .col-4:not(:last-of-type) {
+  border-right: 1px solid rgba(137, 137, 137, 0.2);
+}
 
 @media (max-width: 800px) {
   .byvanie-main {
     background-image: none;
     background-color: #edefee;
   }
-}
-.byvanie-welcome-text {
-  margin-bottom: 3rem;
 }
 
 img .border{
