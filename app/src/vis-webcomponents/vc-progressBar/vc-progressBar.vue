@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<div class="container-fluid progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}" >
-			<div class="container">
+		<div class=" container-fluid progressBar" :class="{isSticky: pageScrollBarPositon > progressBar}" >
+			<div class="container ">
 				<div class="progressBar-row row d-flex m-0">
-					<a class="z-btn btn rounded-0"
+					<a class="z-btn btn rounded-0 sm"
 						@click="scrollTo(vedeliSte)"
 						:class="{
 							isActive:
@@ -12,7 +12,7 @@
 						}">
 						Vedeli ste, že...
 					</a>
-					<a class="z-btn btn rounded-0"
+					<a class="z-btn btn rounded-0 md"
 						@click="scrollTo(zakladneInformacie)"
 						:class="{
 							isActive:
@@ -21,7 +21,7 @@
 						}">
 						Základné informácie
 					</a>
-					<a class="z-btn btn rounded-0"
+					<a class="z-btn btn rounded-0 md"
 						@click="scrollTo(najnovsieClanky)"
 						:class="{
 							isActive:
@@ -39,12 +39,12 @@
 						}">
 						Najnovšie produkty a služby
 					</a>
-					<a class="z-btn btn rounded-0"
+					<a class="z-btn btn rounded-0 md"
 						@click="scrollTo(uzitocneLinky)"
 						:class="{ isActive: uzitocneLinky <= pageScrollPositon }">
 						Užitočné linky a zaujímavosti
 					</a>
-					<a href="" class="z-btn btn rounded-0 fake">
+					<a href="" class="z-btn btn rounded-0 fake xs">
 						Kvíz
 					</a>
 				</div>
@@ -151,7 +151,21 @@ export default {
 		background: transparent;
 	}
 	.btn {
-		min-width: 200px;
+		min-width:200px ;
+		display: flex;
+		justify-content: center;
+	}
+
+	.sm{
+		min-width: 150px !important;
+	}
+
+	.md{
+		min-width: 190px !important;
+	}
+
+	.xs{
+		min-width: 100px !important;
 	}
 }
 </style>
