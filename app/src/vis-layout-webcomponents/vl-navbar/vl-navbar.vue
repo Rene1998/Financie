@@ -8,11 +8,11 @@
             </a>
          
             <div class="navbar-nav  d-flex align-items-center">
-                <li class="nav-item d-none d-sm-none d-md-block" :class="{'active': osobneFinanciepage}">
-                    <a class="btn osobne-financie bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
+                <li class="nav-item osobne-financie d-none d-sm-none d-md-block" :class="{'activeOsobne-financie': osobneFinanciepage}">
+                    <a class="btn bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
                 </li>
                 <hr class="m-0" >
-                <li class="nav-item dropdown" :class="{'active': preSkolypage}">
+                <li class="nav-item pre-skoly dropdown" :class="{'activePre-skoly': preSkolypage}">
                     <a class="pl-3 pr-3 nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center " 
                         href="#" 
                         id="navbarDropdown" 
@@ -32,7 +32,7 @@
                 <hr class="m-0">
                 <li class="hover-none nav-item d-flex align-items-center justify-content-center">
                     <a class="nav-item " href="#">
-                        <i class="fake bi bi-search"/>
+                        <i class="bi bi-search fake "/>
                     </a>
                 </li>
             </div>
@@ -104,10 +104,6 @@ export default {
 
 }    
 
-
-
-
-
 &a {
     font-weight: 400 !important;
     font-size: 16px !important;
@@ -119,12 +115,29 @@ export default {
 }
 
 &.navbar-nav{
-    &>.nav-item{
+    &>.osobne-financie {
         &:hover{
             border-bottom: 3px solid #1eaee1;
 
             &>a{
                 color: #1eaee1 !important;
+            }
+        }
+
+    }
+
+    &>.pre-skoly {
+        &:hover{
+            border-bottom: 3px solid #ffa800;
+
+            &>a{
+                color: #ffa800 !important;
+            }
+        }
+        .dropdown-item {
+            color: #192949 !important;
+            &:hover {
+                color: #ffa800 !important;
             }
         }
 
@@ -137,15 +150,12 @@ export default {
     border-bottom: 3px solid transparent;
     border-radius: 0px;
     
-    
-    
-    
-
      a {
-         height: 61px;
+        height: 61px;
         padding: 18px 15px;
         border: none;
         border-radius: 0;
+        box-shadow: none;
       
 
         &:hover {
@@ -155,18 +165,26 @@ export default {
      }
 }
 
-&.active {
+&.activeOsobne-financie {
     border-bottom: 3px solid #1eaee1;
 
     a {
         color: #1eaee1 !important;
+    }
+}
+
+&.activePre-skoly {
+    border-bottom: 3px solid #ffa800;
+
+    a {
+        color: #ffa800!important;
     }
 
     .dropdown-item {
         color: #192949 !important;
 
         &:hover {
-            color: #1eaee1 !important;
+            color: #ffa800 !important;
         }
     }
 }
@@ -187,7 +205,6 @@ export default {
     border-radius: 0px !important;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 
-
     a{
         padding: 4px 24px !important;
         margin: 6px 0px 0px !important;
@@ -195,11 +212,9 @@ export default {
 
     }
 
-    
 }
 
 &a:hover {
-    color: #1eaee1 !important;
     background-color: #ffffff !important;
 }
 
@@ -210,8 +225,6 @@ export default {
 &.nav-link:focus {
     outline: none !important;
 }
-
-
 
 }
 

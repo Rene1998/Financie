@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="preskoly-wrapper">
+		<!--<div class="preskoly-wrapper">
 			<div class="container home-main d-flex align-items-center">
 				<div>
 					<h1>
@@ -60,6 +60,11 @@
 		<div class="container">
 			<vc-advancedImgHomeCards/>
 		</div>
+		<vc-two-info-columns></vc-two-info-columns>-->
+		<vc-aboutUs></vc-aboutUs>
+		<vc-twoInfoColumns></vc-twoInfoColumns>
+		<vc-contactUs></vc-contactUs>
+		<vc-partners></vc-partners>
 	</div>
 </template>
 
@@ -72,7 +77,11 @@ export default {
 		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
 		'vc-home-carousel': () => import('@/vis-webcomponents/vc-homeCarousel/vc-homeCarousel.vue'),
 		'vc-home-category-card': () => import('@/vis-webcomponents/vc-homeCategoryCard/vc-homeCategoryCard.vue'),
-		'vc-advancedImgHomeCards': () => import('@/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue')
+		'vc-advancedImgHomeCards': () => import('@/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue'),
+		'vc-twoInfoColumns': () => import('@/vis-webcomponents/vc-twoInfoColumns/vc-twoInfoColumns.vue'),
+		'vc-aboutUs': () => import('@/vis-webcomponents/vc-aboutUs/vc-aboutUs.vue'),
+		'vc-contactUs': () => import('@/vis-webcomponents/vc-contactUs/vc-contactUs.vue'),
+		'vc-partners': () => import('@/vis-webcomponents/vc-partners/vc-partners.vue')
 	}
 }
 </script>

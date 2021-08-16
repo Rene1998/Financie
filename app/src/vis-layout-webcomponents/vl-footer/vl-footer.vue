@@ -72,14 +72,14 @@
 					<div class="col-3 d-none d-lg-block">
 						<ul class="pl-0 list-unstyled">
 							<li class="footer-li fake">
-								<a href="#!">
+								<a href="o-nas/#dozvite-sa-o-nas-viac">
 									<h5>
 										O nás
 									</h5>
 								</a>
 							</li>
 							<li class="footer-li fake">
-								<a href="#!">
+								<a href="o-nas/#kontaktujte-nas">
 									<h5>
 										Kontakt
 									</h5>
@@ -90,12 +90,12 @@
 				</div>
 			</div>
 
-			<div class="container-fluid copyright-main">
+			<div class="container-fluid copyright-main p-0">
 				<div class="container copyright-container">
 					<div class="row copyright-row d-sm-flex align-items-center ml-3">
 						<a href="./home">
 							<img v-if="page" :src="require('./assets/logodark.svg')" class="mr-3" alt="logo"/>
-							<img v-else :src="require('./assets/logo-osobne-financie.svg')" class="mr-3 kokot" alt="logo"/>
+							<img v-else :src="require('./assets/logo-osobne-financie.svg')" class="mr-3" alt="logo"/>
 						</a>
 						<p class="copy m-0">
 							© 2021 <a href="#" class="financie-link">www.financie.sk</a>
@@ -136,6 +136,7 @@ footer {
   .footer-row {
     min-height: 310px;
   }
+
   a {
     text-decoration: none;
     font-size: 14px;
@@ -182,9 +183,9 @@ footer {
 	  font-size: 14px;
     }
     @media (max-width: 500px) {
-      .copy {
-        font-size: 13px;
-      }
+		.copy {
+			font-size: 13px;
+		}
     }
     .btn {
       padding: 21.5px 15px;
