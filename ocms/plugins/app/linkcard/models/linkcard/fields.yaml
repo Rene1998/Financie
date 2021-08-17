@@ -3,8 +3,8 @@ fields:
         label: Obsah
         span: full
         type: text
-    time:
-        label: 'Trvanie prečítania'
+    link:
+        label: Prelinkovanie
         span: auto
         type: text
     category:
@@ -13,3 +13,7 @@ fields:
         descriptionFrom: description
         span: auto
         type: relation
+    time:
+        label: 'Trvanie prečítania'
+        span: auto
+        type: text

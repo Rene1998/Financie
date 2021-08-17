@@ -6,3 +6,12 @@
 1.0.3:
     - 'Created table app_linkcard_categories'
     - builder_table_create_app_linkcard_categories.php
+1.0.4:
+    - 'Updated table app_linkcard_'
+    - builder_table_update_app_linkcard_.php
+1.0.5:
+    - 'Updated table app_linkcard_'
+    - builder_table_update_app_linkcard_.php
+1.0.6:
+    - 'Updated table app_linkcard_'
+    - builder_table_update_app_linkcard__2.php

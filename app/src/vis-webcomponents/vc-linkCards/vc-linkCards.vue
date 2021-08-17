@@ -3,7 +3,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 		<div class="container">
-			<div class="row mb-5 fake">
+			<div class="row mb-5">
 				<div class="col">
 					<div class="d-flex align-items-center mb-5">
 						<i class="bi bi-link-45deg icon"/>
@@ -11,9 +11,11 @@
 					</div>
 					<div class="card" 
 						v-for="link1Card in link1Cards" :key="link1Card.id">
-						<h5>
-							{{ link1Card.content }}
-						</h5>
+						<a :href="link1Card.link">
+              <h5>
+							  {{ link1Card.content }}
+						  </h5>
+            </a>
 					</div>
 				</div>
 				<div class="col">
@@ -23,9 +25,11 @@
 					</div>
 					<div class="card" 
 						v-for="link2Card in link2Cards" :key="link2Card.id">
-						<h5>
-							{{ link2Card.content }}
-						</h5>
+						<a :href="link2Card.link">
+              <h5>
+							  {{ link2Card.content }}
+						  </h5>
+            </a>
 					</div>
 				</div>
 				<div class="col">
@@ -35,9 +39,11 @@
 					</div>
 					<div class="card" 
 						v-for="link3Card in link3Cards" :key="link3Card.id">
-						<h5>
-							{{ link3Card.content }}
-						</h5>
+						<a :href="link3Card.link">
+              <h5>
+							  {{ link3Card.content }}
+						  </h5>
+            </a>
 					</div>
 				</div>
 			</div>
@@ -90,7 +96,9 @@ export default {
 		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
 	}
 
-	h5 {
+	a {
+    text-decoration:none;
+    color:#192949;
 		font-size: 18px;
 		font-weight: 700;
 
@@ -111,6 +119,7 @@ export default {
 	border-bottom: none !important ;
 }
 h6 {
+  color:#192949;
 	font-size: 24px;
 	font-weight: bold;
 	width: 280px;
