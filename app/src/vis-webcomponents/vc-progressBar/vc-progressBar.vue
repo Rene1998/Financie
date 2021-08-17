@@ -114,10 +114,9 @@ export default {
 	min-height: 70px;
 	
 	a {
-		color:#192949;
 		font-weight: 700;
 	}
-
+	
 	a:hover {
 		color: #1eaee1;
 	}
