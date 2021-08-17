@@ -130,13 +130,13 @@ export default {
 
 	h6 {
 		font-size: 16px;
-		line-height: 30px color #192949;
+		line-height: 30px;
 		font-weight: 400;
 	}
 }
 
 a {
-	color: #19283B;
+	color: #192949;
 
 	&:hover {
 		color: #1eaee1;

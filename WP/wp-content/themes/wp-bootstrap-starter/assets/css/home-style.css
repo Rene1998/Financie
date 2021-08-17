@@ -19,20 +19,24 @@
 }
 
 .preskoly-wrapper .container h1 {
+  color: #19283b;
   font-weight: bold;
   font-size: 40px;
 }
 
 .preskoly-wrapper .container p {
+  color: #19283b;
   font-size: 18px;
 }
 
 .hardcode-text h4 {
+  color: #192949;
   font-size: 24px !important;
   font-weight: 700 !important;
 }
 
 .hardcode-text p {
+  color: #192949;
   font-size: 18px;
   font-weight: 400;
 }

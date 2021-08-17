@@ -62,6 +62,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../plugins/financie/_theme/index.scss';
 .slider-info {
+  color:#192949;
   margin-top: 40px;
 }
 

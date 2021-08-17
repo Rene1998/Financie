@@ -3,7 +3,7 @@
         <div>
             <div class="container-fluid preskoly-main">
                 <div class="d-none">
-                    <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/group1.png"/>
+                    <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/group1.png"/>
                 </div>
                 <div class="container">
                     <div class="preskoly-welcome-text mb-5">
@@ -39,13 +39,13 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
 
                             <!-- wp:html -->
-                                <vc-category-card title="5. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"></vc-category-card>
+                                <vc-category-card title="5. Ročník" img="rocnik5.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"></vc-category-card>
                             <!-- /wp:html -->
                         </div>
                     <!-- /wp:column -->
@@ -55,13 +55,13 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
 
                             <!-- wp:html -->
-                                <vc-category-card title="6. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"></vc-category-card>
+                                <vc-category-card title="6. Ročník" img="rocnik6.svg" link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"></vc-category-card>
                             <!-- /wp:html -->
                         </div>
                     <!-- /wp:column -->
@@ -71,13 +71,13 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
 
                             <!-- wp:html -->
-                                <vc-category-card title="7. Ročník" img="rocnik3.svg" link="./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
+                                <vc-category-card title="7. Ročník" img="rocnik7.svg" link="./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
                             <!-- /wp:html -->
                         </div>
                     <!-- /wp:column -->
@@ -87,13 +87,13 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
 
                             <!-- wp:html -->
-                                <vc-category-card title="8. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-2-stupen-8-rocnik-ucebne-materialy"></vc-category-card>
+                                <vc-category-card title="8. Ročník" img="rocnik8.svg" link="./pre-skoly-zakladna-skola-2-stupen-8-rocnik-ucebne-materialy"></vc-category-card>
                             <!-- /wp:html -->
                         </div>
                     <!-- /wp:column -->
@@ -103,13 +103,13 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
 
                             <!-- wp:html -->
-                                <vc-category-card title="9. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-2-stupen-9-rocnik-ucebne-materialy"></vc-category-card>
+                                <vc-category-card title="9. Ročník" img="rocnik9.svg" link="./pre-skoly-zakladna-skola-2-stupen-9-rocnik-ucebne-materialy"></vc-category-card>
                             <!-- /wp:html -->
                         </div>
                     <!-- /wp:column -->
@@ -121,7 +121,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/pre-skoly-carousel.png">
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/pre-skoly-carousel.png">
                     </div>
                 </div>
             <!-- /wp:freeform -->
@@ -130,23 +130,23 @@
             <vc-pre-skoly-advanced-carousel 
                 isactive="card3" 
                 card1_title="5. Ročník" 
-                card1_img="rocnik1.svg" 
+                card1_img="rocnik5.svg" 
                 card1_link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy" 
                 
                 card2_title="6. Ročník" 
-                card2_img="rocnik2.svg" 
+                card2_img="rocnik6.svg" 
                 card2_link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy" 
                 
                 card3_title="7. Ročník" 
-                card3_img="rocnik3.svg" 
+                card3_img="rocnik7.svg" 
                 card3_link="./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy" 
                 
                 card4_title="8. Ročník" 
-                card4_img="rocnik4.svg" 
+                card4_img="rocnik8.svg" 
                 card4_link="./pre-skoly-zakladna-skola-2-stupen-8-rocnik-ucebne-materialy" 
                 
                 card5_title="9. Ročník" 
-                card5_img="rocnik4.svg" 
+                card5_img="rocnik9.svg" 
                 card5_link="./pre-skoly-zakladna-skola-2-stupen-9-rocnik-ucebne-materialy">
             </vc-pre-skoly-advanced-carousel>
             <!-- /wp:html -->
@@ -180,7 +180,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/advanced-img-card.png"/>
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-card.png"/>
                     </div>
                 </div>
             <!-- /wp:freeform -->

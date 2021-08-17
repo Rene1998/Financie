@@ -4,7 +4,7 @@
             <div class="d-none">
                 <img
                 style="border: 5px solid red"
-                src="../wp-content/uploads/2021/08/Group-1.png"
+                src="../wp-content/plugins/reusable-blocks-extended/assets/Group 1.png"
                 />
             </div>
             <div class="container home-main d-flex align-items-center">
@@ -25,7 +25,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -40,7 +40,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -55,7 +55,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -72,7 +72,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -87,7 +87,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -102,7 +102,7 @@
                     <!-- wp:freeform -->
                         <div>
                             <div class="d-none">
-                                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-category-card.png"/>
+                                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-category-card.png"/>
                             </div>
                         </div>
                     <!-- /wp:freeform -->
@@ -119,7 +119,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/home-carousel.png"/>
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/home-carousel.png"/>
                     </div>
                 </div>
             <!-- /wp:freeform -->
@@ -132,7 +132,7 @@
 
         <div>
             <div class="d-none">
-                <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/carousel.png"/>
+                <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/carousel.png"/>
             </div>
         </div>
 
@@ -154,7 +154,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/advanced-img-home-cards.png"/>
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-cards.png"/>
                     </div>
                 </div>
             <!-- /wp:freeform -->

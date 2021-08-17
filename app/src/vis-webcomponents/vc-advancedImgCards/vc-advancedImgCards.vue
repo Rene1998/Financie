@@ -138,8 +138,9 @@ p {
   	border-radius: 4px;
 }
 h6 {
+	color:#192949;
 	font-size: 16px;
-	line-height: 30px color #192949;
+	line-height: 30px;
 	font-weight: 400;
 }
 a {

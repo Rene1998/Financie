@@ -12,10 +12,10 @@
 					<div class="card" 
 						v-for="link1Card in link1Cards" :key="link1Card.id">
 						<a :href="link1Card.link">
-              <h5>
+              				<h5>
 							  {{ link1Card.content }}
-						  </h5>
-            </a>
+						  	</h5>
+           				</a>
 					</div>
 				</div>
 				<div class="col">
@@ -26,10 +26,10 @@
 					<div class="card" 
 						v-for="link2Card in link2Cards" :key="link2Card.id">
 						<a :href="link2Card.link">
-              <h5>
+              				<h5>
 							  {{ link2Card.content }}
-						  </h5>
-            </a>
+						  	</h5>
+            			</a>
 					</div>
 				</div>
 				<div class="col">
@@ -40,10 +40,10 @@
 					<div class="card" 
 						v-for="link3Card in link3Cards" :key="link3Card.id">
 						<a :href="link3Card.link">
-              <h5>
+              				<h5>
 							  {{ link3Card.content }}
-						  </h5>
-            </a>
+						  	</h5>
+            			</a>
 					</div>
 				</div>
 			</div>

@@ -86,6 +86,20 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "020f":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/rocnik8.98110a78.svg";
+
+/***/ }),
+
+/***/ "1991":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/rocnik5.2cbc9199.svg";
+
+/***/ }),
+
 /***/ "24fb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -785,6 +799,13 @@ window.customElements.define('vc-category-card', vue_wc_wrapper(external_Vue_def
 
 /***/ }),
 
+/***/ "5e66":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/rocnik7.b0230de3.svg";
+
+/***/ }),
+
 /***/ "773e":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -917,6 +938,13 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "bdbc":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/rocnik9.ad2f0b4e.svg";
+
+/***/ }),
+
 /***/ "c419":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -931,7 +959,12 @@ var map = {
 	"./rocnik1.svg": "936a",
 	"./rocnik2.svg": "85d4",
 	"./rocnik3.svg": "c419",
-	"./rocnik4.svg": "eaa7"
+	"./rocnik4.svg": "eaa7",
+	"./rocnik5.svg": "1991",
+	"./rocnik6.svg": "e518",
+	"./rocnik7.svg": "5e66",
+	"./rocnik8.svg": "020f",
+	"./rocnik9.svg": "bdbc"
 };
 
 
@@ -953,6 +986,13 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "c72d";
+
+/***/ }),
+
+/***/ "e518":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/rocnik6.eb0c0011.svg";
 
 /***/ }),
 

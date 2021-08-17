@@ -86,20 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "0431":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-22e75c3b]{font-weight:300}.z-btn[data-v-22e75c3b]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-22e75c3b]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-22e75c3b]{color:#1eaee1!important}.z-btn[data-v-22e75c3b]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-22e75c3b]{border:none}.card .card-img-top[data-v-22e75c3b]{border-radius:4px}*[data-v-22e75c3b]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-22e75c3b]{font-size:24px;font-weight:700}.hardcode-text p[data-v-22e75c3b]{font-size:18px;font-weight:400}.timestamp[data-v-22e75c3b]{color:#898989}.fake[data-v-22e75c3b]{opacity:.2}.slider-info[data-v-22e75c3b]{margin-top:40px}.VueCarousel-dot-container[data-v-22e75c3b]{margin-top:-20px!important}span[data-v-22e75c3b]{font-size:18px;color:#192949;width:951px}h5[data-v-22e75c3b],span[data-v-22e75c3b]{font-weight:400;line-height:30px}h5[data-v-22e75c3b]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-22e75c3b]{max-width:73%;border:1px solid #f3f4f5}[data-v-22e75c3b] .VueCarousel-dot:focus{outline:none!important}[data-v-22e75c3b] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-22e75c3b] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-22e75c3b] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-22e75c3b] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-22e75c3b] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-22e75c3b] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-22e75c3b] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none}[data-v-22e75c3b] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-22e75c3b] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-22e75c3b] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-22e75c3b] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-22e75c3b] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden}[data-v-22e75c3b] .VueCarousel-inner--center{justify-content:center}[data-v-22e75c3b] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none}[data-v-22e75c3b] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-carousel/vc-carousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Db,8BACE,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CA9Cf,yCAiDE,yBAA4B,CAjD9B,+BAoDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAtDpB,wCAyDE,6BAA8B,CAzDhC,uCA4DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA9DlB,qCAiEE,YAAa,CACb,kBAAmB,CACnB,kCAAqB,CAArB,0BAA2B,CAnE7B,6CAsEE,sBAAuB,CAtEzB,qCAyEE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CAhFf,sDAmFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-carousel.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.slider-info {\n  margin-top: 40px;\n}\n\n.VueCarousel-dot-container {\n  margin-top: -20px !important;\n}\n\nspan {\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 30px;\n  color: #192949;\n  width: 951px;\n}\n\nh5 {\n  font-weight: 400;\n  font-family: HeadlandOne;\n  font-size: 24px;\n  line-height: 30px;\n  color: #000000;\n}\n\nhr {\n  max-width: 73%;\n  border: 1px solid #f3f4f5;\n}\n\n/deep/ {\n  &.VueCarousel-dot:focus {\n    outline: none !important;\n  }\n\n  &.VueCarousel-dot--active {\n    background-color: #1eaee1 !important;\n  }\n\n  &.VueCarousel-dot {\n    width: 6px !important;\n    height: 6px !important;\n    width: 6px !important;\n    height: 6px !important;\n  }\n\n  &.VueCarousel-pagination {\n    margin-top: -45px;\n  }\n\n\t&.VueCarousel-pagination {\n\t\twidth: 100%;\n\t\ttext-align: center;\n\t}\n\t&.VueCarousel-pagination--top-overlay {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t}\n\t&.VueCarousel-pagination--bottom-overlay {\n\t\tposition: absolute;\n\t\tbottom: 0;\n\t}\n\t&.VueCarousel-dot-container {\n\t\tdisplay: inline-block;\n\t\tmargin: 0 auto;\n\t\tpadding: 0;\n\t}\n\t&.VueCarousel-dot {\n\t\tdisplay: inline-block;\n\t\tcursor: pointer;\n\t\tappearance: none;\n\t\tborder: none;\n\t\tbackground-clip: content-box;\n\t\tbox-sizing: content-box;\n\t\tpadding: 0;\n\t\tborder-radius: 100%;\n\t\toutline: none;\n\t}\n\t&.VueCarousel-dot:focus {\n\t\toutline: 1px solid lightblue;\n\t}\n\t&.VueCarousel {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tposition: relative;\n\t}\n\t&.VueCarousel--reverse {\n\t\tflex-direction: column-reverse;\n\t}\n\t&.VueCarousel-wrapper {\n\t\twidth: 100%;\n\t\tposition: relative;\n\t\toverflow: hidden;\n\t}\n\t&.VueCarousel-inner {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tbackface-visibility: hidden;\n\t}\n\t&.VueCarousel-inner--center {\n\t\tjustify-content: center;\n\t}\n\t&.VueCarousel-slide {\n\t\tflex-basis: inherit;\n\t\tflex-grow: 0;\n\t\tflex-shrink: 0;\n\t\tuser-select: none;\n\t\tbackface-visibility: hidden;\n\t\t-webkit-touch-callout: none;\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n\t\toutline: none;\n\t}\n\t&.VueCarousel-slide-adjustableHeight {\n\t\tdisplay: table;\n\t\tflex-basis: auto;\n\t\twidth: 100%;\n\t}\n}\n"]}]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "0a06":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -247,23 +233,6 @@ module.exports = function spread(callback) {
   };
 };
 
-
-/***/ }),
-
-/***/ "122b":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("0431");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("a499fed6", content, shadowRoot)
-};
 
 /***/ }),
 
@@ -1030,18 +999,6 @@ module.exports = function mergeConfig(config1, config2) {
 
 /***/ }),
 
-/***/ "4e5e":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("122b");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_22e75c3b_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
 /***/ "5270":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1539,12 +1496,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=22e75c3b&scoped=true&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=16409114&scoped=true&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.sliders)?_c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"mb-5"},[_vm._m(0),_c('div',{staticClass:"d-flex justify-content-center"},[_c('carousel',{staticStyle:{"width":"800px"},attrs:{"loop":true,"autoplay":true,"autoplayTimeout":5000,"perPage":1}},_vm._l((_vm.sliders),function(slider){return _c('slide',{key:slider.id,staticClass:"slide text-center"},[_c('h5',[_vm._v(" "+_vm._s(slider.content)+" ")])])}),1)],1),_c('hr')])]):_vm._e()}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slider-info d-flex justify-content-center"},[_c('p',[_vm._v(" Vedeli ste, že... ")])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=22e75c3b&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-carousel/vc-carousel.vue?vue&type=template&id=16409114&scoped=true&shadow
 
 // EXTERNAL MODULE: ./node_modules/axios/index.js
 var axios = __webpack_require__("bc3a");
@@ -1687,7 +1644,7 @@ var vue_carousel_min = __webpack_require__("0a63");
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("4e5e")
+  var style0 = __webpack_require__("683a")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -1700,7 +1657,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "22e75c3b",
+  "16409114",
   null
   ,true
 )
@@ -1737,6 +1694,35 @@ module.exports = function isAxiosError(payload) {
   return (typeof payload === 'object') && (payload.isAxiosError === true);
 };
 
+
+/***/ }),
+
+/***/ "683a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_16409114_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("74a3");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_16409114_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_16409114_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_16409114_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_carousel_vue_vue_type_style_index_0_id_16409114_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "74a3":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("8d3e");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("5d343828", content, shadowRoot)
+};
 
 /***/ }),
 
@@ -1945,6 +1931,20 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ (function(module, exports) {
 
 module.exports = Vue;
+
+/***/ }),
+
+/***/ "8d3e":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-16409114]{font-weight:300}.z-btn[data-v-16409114]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-16409114]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-16409114]{color:#1eaee1!important}.z-btn[data-v-16409114]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-16409114]{border:none}.card .card-img-top[data-v-16409114]{border-radius:4px}*[data-v-16409114]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-16409114]{font-size:24px;font-weight:700}.hardcode-text p[data-v-16409114]{font-size:18px;font-weight:400}.timestamp[data-v-16409114]{color:#898989}.fake[data-v-16409114]{opacity:.2}.slider-info[data-v-16409114]{color:#192949;margin-top:40px}.VueCarousel-dot-container[data-v-16409114]{margin-top:-20px!important}span[data-v-16409114]{font-size:18px;color:#192949;width:951px}h5[data-v-16409114],span[data-v-16409114]{font-weight:400;line-height:30px}h5[data-v-16409114]{font-family:HeadlandOne;font-size:24px;color:#000}hr[data-v-16409114]{max-width:73%;border:1px solid #f3f4f5}[data-v-16409114] .VueCarousel-dot:focus{outline:none!important}[data-v-16409114] .VueCarousel-dot--active{background-color:#1eaee1!important}[data-v-16409114] .VueCarousel-dot{width:6px!important;height:6px!important}[data-v-16409114] .VueCarousel-pagination{margin-top:-45px;width:100%;text-align:center}[data-v-16409114] .VueCarousel-pagination--top-overlay{position:absolute;top:0}[data-v-16409114] .VueCarousel-pagination--bottom-overlay{position:absolute;bottom:0}[data-v-16409114] .VueCarousel-dot-container{display:inline-block;margin:0 auto;padding:0}[data-v-16409114] .VueCarousel-dot{display:inline-block;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;background-clip:content-box;box-sizing:content-box;padding:0;border-radius:100%;outline:none}[data-v-16409114] .VueCarousel-dot:focus{outline:1px solid #add8e6}[data-v-16409114] .VueCarousel{display:flex;flex-direction:column;position:relative}[data-v-16409114] .VueCarousel--reverse{flex-direction:column-reverse}[data-v-16409114] .VueCarousel-wrapper{width:100%;position:relative;overflow:hidden}[data-v-16409114] .VueCarousel-inner{display:flex;flex-direction:row;-webkit-backface-visibility:hidden;backface-visibility:hidden}[data-v-16409114] .VueCarousel-inner--center{justify-content:center}[data-v-16409114] .VueCarousel-slide{flex-basis:inherit;flex-grow:0;flex-shrink:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none}[data-v-16409114] .VueCarousel-slide-adjustableHeight{display:table;flex-basis:auto;width:100%}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-carousel/vc-carousel.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Db,8BACE,aAAa,CACb,eAAgB,CACjB,4CAGC,0BAA4B,CAC7B,sBAIC,cAAe,CAEf,aAAc,CACd,WAAY,CACb,0CALC,eAAgB,CAEhB,gBAUc,CAPf,oBAIC,uBAAwB,CACxB,cAAe,CAEf,UAAc,CACf,oBAGC,aAAc,CACd,wBAAyB,CAC1B,yCAIG,sBAAwB,CAF5B,2CAMI,kCAAoC,CANxC,mCAYI,mBAAqB,CACrB,oBAAsB,CAb1B,0CAiBI,gBAAA,CAIF,UAAW,CACX,iBALmB,CAjBrB,uDAyBE,iBAAkB,CAClB,KAAM,CA1BR,0DA6BE,iBAAkB,CAClB,QAAS,CA9BX,6CAiCE,oBAAqB,CACrB,aAAc,CACd,SAAU,CAnCZ,mCAsCE,oBAAqB,CACrB,cAAe,CACf,uBAAgB,CAAhB,oBAAgB,CAAhB,eAAgB,CAChB,WAAY,CACZ,2BAA4B,CAC5B,sBAAuB,CACvB,SAAU,CACV,kBAAmB,CACnB,YAAa,CA9Cf,yCAiDE,yBAA4B,CAjD9B,+BAoDE,YAAa,CACb,qBAAsB,CACtB,iBAAkB,CAtDpB,wCAyDE,6BAA8B,CAzDhC,uCA4DE,UAAW,CACX,iBAAkB,CAClB,eAAgB,CA9DlB,qCAiEE,YAAa,CACb,kBAAmB,CACnB,kCAAqB,CAArB,0BAA2B,CAnE7B,6CAsEE,sBAAuB,CAtEzB,qCAyEE,kBAAmB,CACnB,WAAY,CACZ,aAAc,CACd,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,kCAA2B,CAA3B,0BAA2B,CAC3B,0BAA2B,CAC3B,yCAA6C,CAC7C,YAAa,CAhFf,sDAmFE,aAAc,CACd,eAAgB,CAChB,UAAW","file":"vc-carousel.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.slider-info {\n  color:#192949;\n  margin-top: 40px;\n}\n\n.VueCarousel-dot-container {\n  margin-top: -20px !important;\n}\n\nspan {\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 30px;\n  color: #192949;\n  width: 951px;\n}\n\nh5 {\n  font-weight: 400;\n  font-family: HeadlandOne;\n  font-size: 24px;\n  line-height: 30px;\n  color: #000000;\n}\n\nhr {\n  max-width: 73%;\n  border: 1px solid #f3f4f5;\n}\n\n/deep/ {\n  &.VueCarousel-dot:focus {\n    outline: none !important;\n  }\n\n  &.VueCarousel-dot--active {\n    background-color: #1eaee1 !important;\n  }\n\n  &.VueCarousel-dot {\n    width: 6px !important;\n    height: 6px !important;\n    width: 6px !important;\n    height: 6px !important;\n  }\n\n  &.VueCarousel-pagination {\n    margin-top: -45px;\n  }\n\n\t&.VueCarousel-pagination {\n\t\twidth: 100%;\n\t\ttext-align: center;\n\t}\n\t&.VueCarousel-pagination--top-overlay {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t}\n\t&.VueCarousel-pagination--bottom-overlay {\n\t\tposition: absolute;\n\t\tbottom: 0;\n\t}\n\t&.VueCarousel-dot-container {\n\t\tdisplay: inline-block;\n\t\tmargin: 0 auto;\n\t\tpadding: 0;\n\t}\n\t&.VueCarousel-dot {\n\t\tdisplay: inline-block;\n\t\tcursor: pointer;\n\t\tappearance: none;\n\t\tborder: none;\n\t\tbackground-clip: content-box;\n\t\tbox-sizing: content-box;\n\t\tpadding: 0;\n\t\tborder-radius: 100%;\n\t\toutline: none;\n\t}\n\t&.VueCarousel-dot:focus {\n\t\toutline: 1px solid lightblue;\n\t}\n\t&.VueCarousel {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tposition: relative;\n\t}\n\t&.VueCarousel--reverse {\n\t\tflex-direction: column-reverse;\n\t}\n\t&.VueCarousel-wrapper {\n\t\twidth: 100%;\n\t\tposition: relative;\n\t\toverflow: hidden;\n\t}\n\t&.VueCarousel-inner {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tbackface-visibility: hidden;\n\t}\n\t&.VueCarousel-inner--center {\n\t\tjustify-content: center;\n\t}\n\t&.VueCarousel-slide {\n\t\tflex-basis: inherit;\n\t\tflex-grow: 0;\n\t\tflex-shrink: 0;\n\t\tuser-select: none;\n\t\tbackface-visibility: hidden;\n\t\t-webkit-touch-callout: none;\n\t\t-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n\t\toutline: none;\n\t}\n\t&.VueCarousel-slide-adjustableHeight {\n\t\tdisplay: table;\n\t\tflex-basis: auto;\n\t\twidth: 100%;\n\t}\n}\n"]}]);
+// Exports
+module.exports = exports;
+
 
 /***/ }),
 

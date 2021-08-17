@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/uploads/2021/08/about-us.png"></div>
+            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/about-us.png"></div>
         </div>
 
         <div id="dozvite-sa-o-nas-viac">
@@ -11,7 +11,7 @@
         </div>
 
         <div>
-            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/uploads/2021/08/two-info-columns.png"></div>
+            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/two-info-columns.png"></div>
         </div>
 
         <!-- wp:html -->
@@ -19,7 +19,7 @@
         <!-- /wp:html -->
 
         <div>
-            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/uploads/2021/08/contact-us.png"></div>
+            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/contact-us.png"></div>
         </div>
 
         <div id="kontaktujte-nas">
@@ -29,7 +29,7 @@
         </div>
 
         <div>
-            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/uploads/2021/08/partners.png"></div>
+            <div class="d-none"><img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/partners.png"></div>
         </div>
 
         <!-- wp:html -->

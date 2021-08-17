@@ -11,10 +11,10 @@
             </section>
             <section class="content">
                 <p class="mb-3">
-                    Sme nezisková organizácia Financie Slovensko. Našim cieľom a poslaním je prispievať k zlepšovaniu finančnej gramotnosti <br> na školách a medzi obyvateľmi.
+                    Sme nezisková organizácia Financie Slovensko. Našim cieľom a poslaním je prispievať k zlepšovaniu finančnej gramotnosti na školách a medzi obyvateľmi.
                 </p>
                 <p class="mb-3">
-                    Financie sú pre nás vášňou a napĺňa nás o nich vzdelávať a pomáhať ľuďom, aby peniaze neboli jadrom <br> ich starostí.
+                    Financie sú pre nás vášňou a napĺňa nás o nich vzdelávať a pomáhať ľuďom, aby peniaze neboli jadrom ich starostí.
                 </p>
                 <p class="mb-1">
                     Vidíme ako kľúčové o financiách vzdelávať a rozprávať sa už na základnej škole. Chceme, <br> 

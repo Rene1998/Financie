@@ -69,16 +69,16 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-3 d-none d-lg-block">
+					<div class="col-3">
 						<ul class="pl-0 list-unstyled">
-							<li class="footer-li fake">
+							<li class="footer-li">
 								<a href="o-nas/#dozvite-sa-o-nas-viac">
 									<h5>
 										O nás
 									</h5>
 								</a>
 							</li>
-							<li class="footer-li fake">
+							<li class="footer-li">
 								<a href="o-nas/#kontaktujte-nas">
 									<h5>
 										Kontakt

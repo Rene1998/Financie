@@ -5544,18 +5544,6 @@ exports.features = {};
 
 /***/ }),
 
-/***/ "4546":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_3394f142_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9e38");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_3394f142_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_3394f142_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_3394f142_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_3394f142_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
 /***/ "4678":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7185,6 +7173,20 @@ module.exports = function dispatchRequest(config) {
 
 /***/ }),
 
+/***/ "5997":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-e86d2eaa]{font-weight:300}.z-btn[data-v-e86d2eaa]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-e86d2eaa]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-e86d2eaa]{color:#1eaee1!important}.z-btn[data-v-e86d2eaa]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-e86d2eaa]{border:none}.card .card-img-top[data-v-e86d2eaa]{border-radius:4px}*[data-v-e86d2eaa]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-e86d2eaa]{font-size:24px;font-weight:700}.hardcode-text p[data-v-e86d2eaa]{font-size:18px;font-weight:400}.timestamp[data-v-e86d2eaa]{color:#898989}.fake[data-v-e86d2eaa]{opacity:.2}.card[data-v-e86d2eaa]{min-height:175px}.card[data-v-e86d2eaa]:not(:last-of-type){border-bottom:1px solid hsla(0,0%,53.7%,.2)}.card a[data-v-e86d2eaa]{text-decoration:none;color:#192949;font-size:18px;font-weight:700}.card a[data-v-e86d2eaa]:hover{color:#1eaee1}.card a[data-v-e86d2eaa]:hover,.icon[data-v-e86d2eaa]{cursor:pointer}.icon[data-v-e86d2eaa]:hover{color:#1eaee1}.border[data-v-e86d2eaa]{border-top:none!important;border-bottom:none!important}h6[data-v-e86d2eaa]{color:#192949;font-size:24px;font-weight:700;width:280px}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-linkCards/vc-linkCards.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCuFb,uBACC,gBAAiB,CADlB,0CAIE,2CAAiD,CAJnD,yBAQI,oBAAoB,CACpB,aAAa,CACf,cAAe,CACf,eAAgB,CAXlB,+BAeG,aAAc,CACd,sDAFA,cAMa,CADhB,6BAGE,aAAc,CACd,yBAGD,yBAA4B,CAC5B,4BAA+B,CAC/B,oBAEC,aAAa,CACd,cAAe,CACf,eAAiB,CACjB,WAAY","file":"vc-linkCards.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.card {\n\tmin-height: 175px;\n\n\t&:not(:last-of-type) {\n\t\tborder-bottom: 1px solid rgba(137, 137, 137, 0.2);\n\t}\n\n\ta {\n    text-decoration:none;\n    color:#192949;\n\t\tfont-size: 18px;\n\t\tfont-weight: 700;\n\n\t\t&:hover {\n\t\t\tcursor: pointer;\n\t\t\tcolor: #1eaee1;\n\t\t}\n\t}\n}\n.icon {\n\tcursor: pointer;\n\t&:hover {\n\t\tcolor: #1eaee1;\n\t}\n}\n.border {\n\tborder-top: none !important ;\n\tborder-bottom: none !important ;\n}\nh6 {\n  color:#192949;\n\tfont-size: 24px;\n\tfont-weight: bold;\n\twidth: 280px;\n}\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "5a74":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7595,12 +7597,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-linkCards/vc-linkCards.vue?vue&type=template&id=3394f142&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"}}),_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"container"},[_c('div',{staticClass:"row mb-5 fake"},[_c('div',{staticClass:"col"},[_vm._m(0),_vm._l((_vm.link1Cards),function(link1Card){return _c('div',{key:link1Card.id,staticClass:"card"},[_c('h5',[_vm._v(" "+_vm._s(link1Card.content)+" ")])])})],2),_c('div',{staticClass:"col"},[_vm._m(1),_vm._l((_vm.link2Cards),function(link2Card){return _c('div',{key:link2Card.id,staticClass:"card"},[_c('h5',[_vm._v(" "+_vm._s(link2Card.content)+" ")])])})],2),_c('div',{staticClass:"col"},[_vm._m(2),_vm._l((_vm.link3Cards),function(link3Card){return _c('div',{key:link3Card.id,staticClass:"card"},[_c('h5',[_vm._v(" "+_vm._s(link3Card.content)+" ")])])})],2)])])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-linkCards/vc-linkCards.vue?vue&type=template&id=e86d2eaa&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"}}),_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"container"},[_c('div',{staticClass:"row mb-5"},[_c('div',{staticClass:"col"},[_vm._m(0),_vm._l((_vm.link1Cards),function(link1Card){return _c('div',{key:link1Card.id,staticClass:"card"},[_c('a',{attrs:{"href":link1Card.link}},[_c('h5',[_vm._v(" "+_vm._s(link1Card.content)+" ")])])])})],2),_c('div',{staticClass:"col"},[_vm._m(1),_vm._l((_vm.link2Cards),function(link2Card){return _c('div',{key:link2Card.id,staticClass:"card"},[_c('a',{attrs:{"href":link2Card.link}},[_c('h5',[_vm._v(" "+_vm._s(link2Card.content)+" ")])])])})],2),_c('div',{staticClass:"col"},[_vm._m(2),_vm._l((_vm.link3Cards),function(link3Card){return _c('div',{key:link3Card.id,staticClass:"card"},[_c('a',{attrs:{"href":link3Card.link}},[_c('h5',[_vm._v(" "+_vm._s(link3Card.content)+" ")])])])})],2)])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-flex align-items-center mb-5"},[_c('i',{staticClass:"bi bi-link-45deg icon"}),_c('h6',{staticClass:"m-0"},[_vm._v("Užitočné linky")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-flex align-items-center mb-5"},[_c('i',{staticClass:"bi bi-question-circle-fill icon"}),_c('h6',{staticClass:"m-0 ml-1"},[_vm._v("Mohlo by vás zaujímať")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-flex align-items-center mb-5"},[_c('i',{staticClass:"bi bi-calculator-fill icon"}),_c('h6',{staticClass:"m-0"},[_vm._v("Kalkulačky a návody")])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-linkCards/vc-linkCards.vue?vue&type=template&id=3394f142&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-linkCards/vc-linkCards.vue?vue&type=template&id=e86d2eaa&scoped=true&shadow
 
 // EXTERNAL MODULE: ./node_modules/axios/index.js
 var axios = __webpack_require__("bc3a");
@@ -7721,6 +7723,12 @@ var moment_default = /*#__PURE__*/__webpack_require__.n(moment);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ var vc_linkCardsvue_type_script_lang_js_shadow = ({
@@ -7766,7 +7774,7 @@ var moment_default = /*#__PURE__*/__webpack_require__.n(moment);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("4546")
+  var style0 = __webpack_require__("b193")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -7779,7 +7787,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "3394f142",
+  "e86d2eaa",
   null
   ,true
 )
@@ -10702,6 +10710,23 @@ module.exports = (
 
 /***/ }),
 
+/***/ "83a8":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("5997");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("03c7869a", content, shadowRoot)
+};
+
+/***/ }),
+
 /***/ "83b9":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12949,23 +12974,6 @@ module.exports = CancelToken;
 
 /***/ }),
 
-/***/ "9e38":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("c31e");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("6beb5b3a", content, shadowRoot)
-};
-
-/***/ }),
-
 /***/ "9f26":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13640,6 +13648,18 @@ module.exports.__inject__ = function (shadowRoot) {
     return uk;
 
 })));
+
+
+/***/ }),
+
+/***/ "b193":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_e86d2eaa_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("83a8");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_e86d2eaa_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_e86d2eaa_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_e86d2eaa_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_linkCards_vue_vue_type_style_index_0_id_e86d2eaa_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -20495,20 +20515,6 @@ module.exports = __webpack_require__("cee4");
 })));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("62e4")(module)))
-
-/***/ }),
-
-/***/ "c31e":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-3394f142]{font-weight:300}.z-btn[data-v-3394f142]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-3394f142]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-3394f142]{color:#1eaee1!important}.z-btn[data-v-3394f142]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-3394f142]{border:none}.card .card-img-top[data-v-3394f142]{border-radius:4px}*[data-v-3394f142]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-3394f142]{font-size:24px;font-weight:700}.hardcode-text p[data-v-3394f142]{font-size:18px;font-weight:400}.timestamp[data-v-3394f142]{color:#898989}.fake[data-v-3394f142]{opacity:.2}.card[data-v-3394f142]{min-height:175px}.card[data-v-3394f142]:not(:last-of-type){border-bottom:1px solid hsla(0,0%,53.7%,.2)}.card h5[data-v-3394f142]{font-size:18px;font-weight:700}.card h5[data-v-3394f142]:hover{cursor:pointer;color:#1eaee1}.icon[data-v-3394f142]{cursor:pointer}.icon[data-v-3394f142]:hover{color:#1eaee1}.border[data-v-3394f142]{border-top:none!important;border-bottom:none!important}h6[data-v-3394f142]{font-size:24px;font-weight:700;width:280px}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-linkCards/vc-linkCards.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCiFb,uBACC,gBAAiB,CADlB,0CAIE,2CAAiD,CAJnD,0BAQE,cAAe,CACf,eAAgB,CATlB,gCAYG,cAAe,CACf,aAAc,CACd,uBAIF,cAAe,CADhB,6BAGE,aAAc,CACd,yBAGD,yBAA4B,CAC5B,4BAA+B,CAC/B,oBAEA,cAAe,CACf,eAAiB,CACjB,WAAY","file":"vc-linkCards.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.card {\n\tmin-height: 175px;\n\n\t&:not(:last-of-type) {\n\t\tborder-bottom: 1px solid rgba(137, 137, 137, 0.2);\n\t}\n\n\th5 {\n\t\tfont-size: 18px;\n\t\tfont-weight: 700;\n\n\t\t&:hover {\n\t\t\tcursor: pointer;\n\t\t\tcolor: #1eaee1;\n\t\t}\n\t}\n}\n.icon {\n\tcursor: pointer;\n\t&:hover {\n\t\tcolor: #1eaee1;\n\t}\n}\n.border {\n\tborder-top: none !important ;\n\tborder-bottom: none !important ;\n}\nh6 {\n\tfont-size: 24px;\n\tfont-weight: bold;\n\twidth: 280px;\n}\n"]}]);
-// Exports
-module.exports = exports;
-
 
 /***/ }),
 

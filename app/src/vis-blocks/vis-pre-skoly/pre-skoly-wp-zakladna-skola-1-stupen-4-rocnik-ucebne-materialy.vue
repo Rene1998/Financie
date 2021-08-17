@@ -3,7 +3,7 @@
         <div>
             <div class="container-fluid preskoly-main">
                 <div class="d-none">
-                    <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/group1.png"/>
+                    <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/group1.png"/>
                 </div>
                 <div class="container">
                     <div class="preskoly-welcome-text mb-5">
@@ -39,7 +39,7 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
@@ -55,7 +55,7 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
@@ -71,7 +71,7 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
@@ -87,7 +87,7 @@
                             <!-- wp:freeform -->
                                 <div>
                                     <div class="d-none">
-                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/category-card.png"/>
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/category-card.png"/>
                                     </div>
                                 </div>
                             <!-- /wp:freeform -->
@@ -105,7 +105,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/pre-skoly-carousel.png"/>
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/pre-skoly-carousel.png"/>
                     </div>
                 </div>
             <!-- /wp:freeform -->
@@ -160,7 +160,7 @@
             <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/advanced-img-card.png"/>
+                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-card.png"/>
                     </div>
                 </div>
             <!-- /wp:freeform -->

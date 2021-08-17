@@ -187,6 +187,23 @@ function toComment(sourceMap) {
 
 /***/ }),
 
+/***/ "330a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("dcaa");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("5c499a78", content, shadowRoot)
+};
+
+/***/ }),
+
 /***/ "35d6":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -711,7 +728,7 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-progressBar/vc-progressBar.vue?vue&type=template&id=5e422fcd&scoped=true&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-progressBar/vc-progressBar.vue?vue&type=template&id=524dcb22&scoped=true&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:" container-fluid progressBar",class:{isSticky: _vm.pageScrollBarPositon > _vm.progressBar}},[_c('div',{staticClass:"container "},[_c('div',{staticClass:"progressBar-row row d-flex m-0"},[_c('a',{staticClass:"z-btn btn rounded-0 sm",class:{
 						isActive:
 							0 <= _vm.pageScrollPositon && _vm.pageScrollPositon < _vm.zakladneInformacie,
@@ -731,7 +748,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-progressBar/vc-progressBar.vue?vue&type=template&id=5e422fcd&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-progressBar/vc-progressBar.vue?vue&type=template&id=524dcb22&scoped=true&shadow
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-progressBar/vc-progressBar.vue?vue&type=script&lang=js&shadow
 //
@@ -855,7 +872,7 @@ var staticRenderFns = []
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("aa53")
+  var style0 = __webpack_require__("6dbe")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -868,7 +885,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "5e422fcd",
+  "524dcb22",
   null
   ,true
 )
@@ -886,6 +903,18 @@ var component = normalizeComponent(
 
 
 window.customElements.define('vc-progress-bar', vue_wc_wrapper(external_Vue_default.a, vc_progressBarshadow))
+
+/***/ }),
+
+/***/ "6dbe":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_524dcb22_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("330a");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_524dcb22_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_524dcb22_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_524dcb22_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_524dcb22_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 
@@ -981,46 +1010,17 @@ module.exports = Vue;
 
 /***/ }),
 
-/***/ "aa53":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_5e422fcd_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cfb1");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_5e422fcd_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_5e422fcd_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_5e422fcd_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_progressBar_vue_vue_type_style_index_0_id_5e422fcd_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ "bd3d":
+/***/ "dcaa":
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, ".btn[data-v-5e422fcd]{font-weight:300}.z-btn[data-v-5e422fcd]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-5e422fcd]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-5e422fcd]{color:#1eaee1!important}.z-btn[data-v-5e422fcd]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-5e422fcd]{border:none}.card .card-img-top[data-v-5e422fcd]{border-radius:4px}*[data-v-5e422fcd]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-5e422fcd]{font-size:24px;font-weight:700}.hardcode-text p[data-v-5e422fcd]{font-size:18px;font-weight:400}.timestamp[data-v-5e422fcd]{color:#898989}.fake[data-v-5e422fcd]{opacity:.2}.progressBar[data-v-5e422fcd]{background-color:#fbfbfc;min-height:70px}.progressBar a[data-v-5e422fcd]:hover{color:#1eaee1}.progressBar a[data-v-5e422fcd]{font-weight:700}.btn[data-v-5e422fcd]{min-height:70px;display:flex;align-items:center}.isActive[data-v-5e422fcd]{color:#1eaee1}.isSticky[data-v-5e422fcd]{z-index:999;position:fixed;top:0}@media (max-width:1231px){.container[data-v-5e422fcd],.progressBar[data-v-5e422fcd]{padding-right:0}.progressBar-row[data-v-5e422fcd]{display:flex;flex-wrap:nowrap;overflow-x:scroll;padding-right:0}[data-v-5e422fcd]::-webkit-scrollbar{height:0;width:0;background:transparent}.btn[data-v-5e422fcd]{min-width:200px;display:flex;justify-content:center}.sm[data-v-5e422fcd]{min-width:150px!important}.md[data-v-5e422fcd]{min-width:190px!important}.xs[data-v-5e422fcd]{min-width:100px!important}}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-progressBar/vc-progressBar.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Gb,8BACC,wBAAyB,CACzB,eAAgB,CAFjB,sCAIE,aAAc,CAJhB,gCAOE,eAAgB,CAChB,sBAGD,eAAgB,CAChB,YAAa,CACb,kBAAmB,CACnB,2BAEE,aAAc,CAChB,2BAEA,WAAY,CACZ,cAAe,CACf,KAAM,CACN,0BAGA,0DACC,eAAgB,CAChB,kCAGA,YAAa,CACb,gBAAiB,CACjB,iBAAkB,CAClB,eAAgB,CAChB,qCAGA,QAAS,CACT,OAAQ,CACR,sBAAuB,CACvB,sBAEA,eAAgB,CAChB,YAAa,CACb,sBAAuB,CACvB,qBAGA,yBAA2B,CAC3B,qBAGA,yBAA2B,CAC3B,qBAGA,yBAA2B,CAC3B","file":"vc-progressBar.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.progressBar {\n\tbackground-color: #fbfbfc;\n\tmin-height: 70px;\n\ta:hover {\n\t\tcolor: #1eaee1;\n\t}\n\ta {\n\t\tfont-weight: 700;\n\t}\n}\n.btn {\n\tmin-height: 70px;\n\tdisplay: flex;\n\talign-items: center;\n}\n.isActive {\n  \tcolor: #1eaee1;\n}\n.isSticky {\n\tz-index: 999;\n\tposition: fixed;\n\ttop: 0;\n}\n\n@media (max-width: 1231px) {\n\t.progressBar, .container {\n\t\tpadding-right: 0;\n\t}\n\n\t.progressBar-row {\n\t\tdisplay: flex;\n\t\tflex-wrap: nowrap;\n\t\toverflow-x: scroll;\n\t\tpadding-right: 0;\n\t}\n\n\t::-webkit-scrollbar {\n\t\theight: 0;\n\t\twidth: 0;\n\t\tbackground: transparent;\n\t}\n\t.btn {\n\t\tmin-width:200px ;\n\t\tdisplay: flex;\n\t\tjustify-content: center;\n\t}\n\n\t.sm{\n\t\tmin-width: 150px !important;\n\t}\n\n\t.md{\n\t\tmin-width: 190px !important;\n\t}\n\n\t.xs{\n\t\tmin-width: 100px !important;\n\t}\n}\n"]}]);
+exports.push([module.i, ".btn[data-v-524dcb22]{font-weight:300}.z-btn[data-v-524dcb22]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-524dcb22]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-524dcb22]{color:#1eaee1!important}.z-btn[data-v-524dcb22]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-524dcb22]{border:none}.card .card-img-top[data-v-524dcb22]{border-radius:4px}*[data-v-524dcb22]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-524dcb22]{font-size:24px;font-weight:700}.hardcode-text p[data-v-524dcb22]{font-size:18px;font-weight:400}.timestamp[data-v-524dcb22]{color:#898989}.fake[data-v-524dcb22]{opacity:.2}.progressBar[data-v-524dcb22]{background-color:#fbfbfc;min-height:70px}.progressBar a[data-v-524dcb22]{color:#192949;font-weight:700}.progressBar a[data-v-524dcb22]:hover{color:#1eaee1}.btn[data-v-524dcb22]{min-height:70px;display:flex;align-items:center}.isActive[data-v-524dcb22]{color:#1eaee1}.isSticky[data-v-524dcb22]{z-index:999;position:fixed;top:0}@media (max-width:1231px){.container[data-v-524dcb22],.progressBar[data-v-524dcb22]{padding-right:0}.progressBar-row[data-v-524dcb22]{display:flex;flex-wrap:nowrap;overflow-x:scroll;padding-right:0}[data-v-524dcb22]::-webkit-scrollbar{height:0;width:0;background:transparent}.btn[data-v-524dcb22]{min-width:200px;display:flex;justify-content:center}.sm[data-v-524dcb22]{min-width:150px!important}.md[data-v-524dcb22]{min-width:190px!important}.xs[data-v-524dcb22]{min-width:100px!important}}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-progressBar/vc-progressBar.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CC2Gb,8BACC,wBAAyB,CACzB,eAAgB,CAFjB,gCAKE,aAAa,CACb,eAAgB,CANlB,sCAUE,aAAc,CACd,sBAGD,eAAgB,CAChB,YAAa,CACb,kBAAmB,CACnB,2BAEE,aAAc,CAChB,2BAEA,WAAY,CACZ,cAAe,CACf,KAAM,CACN,0BAGA,0DACC,eAAgB,CAChB,kCAGA,YAAa,CACb,gBAAiB,CACjB,iBAAkB,CAClB,eAAgB,CAChB,qCAGA,QAAS,CACT,OAAQ,CACR,sBAAuB,CACvB,sBAEA,eAAgB,CAChB,YAAa,CACb,sBAAuB,CACvB,qBAGA,yBAA2B,CAC3B,qBAGA,yBAA2B,CAC3B,qBAGA,yBAA2B,CAC3B","file":"vc-progressBar.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.progressBar {\n\tbackground-color: #fbfbfc;\n\tmin-height: 70px;\n\t\n\ta {\n\t\tcolor:#192949;\n\t\tfont-weight: 700;\n\t}\n\n\ta:hover {\n\t\tcolor: #1eaee1;\n\t}\n}\n.btn {\n\tmin-height: 70px;\n\tdisplay: flex;\n\talign-items: center;\n}\n.isActive {\n  \tcolor: #1eaee1;\n}\n.isSticky {\n\tz-index: 999;\n\tposition: fixed;\n\ttop: 0;\n}\n\n@media (max-width: 1231px) {\n\t.progressBar, .container {\n\t\tpadding-right: 0;\n\t}\n\n\t.progressBar-row {\n\t\tdisplay: flex;\n\t\tflex-wrap: nowrap;\n\t\toverflow-x: scroll;\n\t\tpadding-right: 0;\n\t}\n\n\t::-webkit-scrollbar {\n\t\theight: 0;\n\t\twidth: 0;\n\t\tbackground: transparent;\n\t}\n\t.btn {\n\t\tmin-width:200px ;\n\t\tdisplay: flex;\n\t\tjustify-content: center;\n\t}\n\n\t.sm{\n\t\tmin-width: 150px !important;\n\t}\n\n\t.md{\n\t\tmin-width: 190px !important;\n\t}\n\n\t.xs{\n\t\tmin-width: 100px !important;\n\t}\n}\n"]}]);
 // Exports
 module.exports = exports;
 
-
-/***/ }),
-
-/***/ "cfb1":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("bd3d");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("f3801b3e", content, shadowRoot)
-};
 
 /***/ })
 

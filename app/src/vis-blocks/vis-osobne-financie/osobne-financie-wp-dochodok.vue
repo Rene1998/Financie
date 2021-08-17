@@ -2,7 +2,7 @@
     <div>
         <div>
             <div class="d-none">
-                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/byvanie-img.png"/>
+                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/byvanie-img.png"/>
             </div>
         </div>
         <div class="container-fluid byvanie-main">
@@ -26,7 +26,7 @@
 
         <div>
             <div class="d-none">
-                <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/progress-bar.png"/>
+                <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/progress-bar.png"/>
             </div>
         </div>
         <div id="progressBar">
@@ -36,7 +36,7 @@
         </div>
         <div>
             <div class="d-none">
-                <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/carousel.png"/>
+                <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/carousel.png"/>
             </div>
         </div>
         <div id="vedeliSte">
@@ -63,7 +63,7 @@
                                 <!-- wp:freeform -->
                                     <div>
                                         <div class="d-none">
-                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/mini-card.png"/>
+                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/mini-card.png"/>
                                         </div>
                                     </div>
                                 <!-- /wp:freeform -->
@@ -79,7 +79,7 @@
                                 <!-- wp:freeform -->
                                     <div>
                                         <div class="d-none">
-                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/mini-card.png"/>
+                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/mini-card.png"/>
                                         </div>
                                     </div>
                                 <!-- /wp:freeform -->
@@ -95,7 +95,7 @@
                                 <!-- wp:freeform -->
                                     <div>
                                         <div class="d-none">
-                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/mini-card.png"/>
+                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/mini-card.png"/>
                                         </div>
                                     </div>
                                 <!-- /wp:freeform -->
@@ -111,7 +111,7 @@
                                 <!-- wp:freeform -->
                                     <div>
                                         <div class="d-none">
-                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/uploads/2021/08/mini-card.png"/>
+                                            <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/mini-card.png"/>
                                         </div>
                                 </div>
                                 <!-- /wp:freeform -->
@@ -129,7 +129,7 @@
                 <!-- wp:freeform -->
                     <div>
                         <div class="d-none">
-                            <img style="border: 5px solid red" class="aligncenter" src="../wp-content/uploads/2021/08/mini-cards-carousel.png"/>
+                            <img style="border: 5px solid red" class="aligncenter" src="../wp-content/plugins/reusable-blocks-extended/assets/mini-cards-carousel.png"/>
                         </div>
                     </div>
                 <!-- /wp:freeform -->
@@ -185,7 +185,7 @@
                 <!-- wp:freeform -->
                 <div>
                     <div class="d-none">
-                        <img style="border: 5px solid red" src="../wp-content/uploads/2021/08/link-cards.png">
+                        <img style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/link-cards.png">
                     </div>
                 </div>
                 <!-- /wp:freeform -->
