@@ -16,6 +16,7 @@ class BuilderTableCreateAppLinkcard extends Migration
             $table->timestamp('updated_at')->nullable();
             $table->integer('time');
             $table->integer('category_id')->index();
+            $table->string('link');
         });
     }
     
