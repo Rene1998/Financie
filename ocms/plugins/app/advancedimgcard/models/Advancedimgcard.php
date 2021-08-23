@@ -45,7 +45,8 @@ class Advancedimgcard extends Model
         'doc2_link_download' => 'System\Models\File'
     ];
     public $with = [
-        'image'
+        'image',
+        'doc2_link_show'
     ];
 
     public function getYearCategoryOptions(){
