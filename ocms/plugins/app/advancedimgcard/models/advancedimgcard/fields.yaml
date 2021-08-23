@@ -33,13 +33,17 @@ tabs:
             tab: 'Prvý link'
         doc1_link_show:
             label: 'Link na pozretie prvého súboru'
+            mode: file
+            span: auto
+            type: fileupload
             span: left
-            type: text
             tab: 'Prvý link'
         doc1_link_download:
             label: 'Link na stiahnutie prvého súboru'
+            mode: file
+            span: auto
+            type: fileupload
             span: left
-            type: text
             tab: 'Prvý link'
         doc2_link:
             label: 'Druhý link'
@@ -48,13 +52,17 @@ tabs:
             tab: 'Druhý link'
         doc2_link_show:
             label: 'Link na pozretie druhého súboru'
+            mode: file
+            span: auto
+            type: fileupload
             span: left
-            type: text
             tab: 'Druhý link'
         doc2_link_download:
             label: 'Link na stiahnutie druhého súboru'
+            mode: file
+            span: auto
+            type: fileupload
             span: left
-            type: text
             tab: 'Druhý link'
         video_link:
             label: 'Video link'

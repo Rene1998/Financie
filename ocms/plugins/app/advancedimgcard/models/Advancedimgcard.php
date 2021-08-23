@@ -38,7 +38,11 @@ class Advancedimgcard extends Model
     ];
 
     public $attachOne = [
-        'image' => 'System\Models\File'
+        'image' => 'System\Models\File',
+        'doc1_link_show' => 'System\Models\File',
+        'doc1_link_download' => 'System\Models\File',
+        'doc2_link_show' => 'System\Models\File',
+        'doc2_link_download' => 'System\Models\File'
     ];
     public $with = [
         'image'
