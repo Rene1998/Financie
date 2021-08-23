@@ -300,3 +300,12 @@ require get_template_directory() . '/inc/plugin-compatibility/plugin-compatibili
 if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
     require_once(get_template_directory() . '/inc/wp_bootstrap_navwalker.php');
 }
+
+add_action( 'after_setup_theme', 'financie_gutenberg_css' );
+
+function financie_gutenberg_css(){
+
+	add_theme_support( 'editor-styles' ); // if you don't add this line, your stylesheet won't be added
+	add_editor_style( './assets/css/style-editor.css' ); // tries to include style-editor.css directly from your theme folder
+
+}

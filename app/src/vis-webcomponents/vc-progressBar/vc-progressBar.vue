@@ -128,6 +128,7 @@ export default {
 }
 .isActive {
   	color: #1eaee1;
+	  border-bottom: 3px solid #1eaee1;
 }
 .isSticky {
 	z-index: 999;

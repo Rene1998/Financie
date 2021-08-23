@@ -191,7 +191,7 @@
         <!-- /wp:wp-bootstrap-blocks/container -->
 
         <div class="container text-center mb-5" style="text-align: center">
-            <button class="btn-primary download-all mb-5">
+            <button type="submit" onclick="window.open('../wp-content/themes/wp-bootstrap-starter/assets/pdf/5. ročník - financie.sk.zip')" class="btn-primary download-all mb-5">
                 Stiahnuť všetky dokumenty
             </button>
         </div>

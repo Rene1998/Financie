@@ -24,10 +24,10 @@
 										</h6>
 									</div>
 									<div>
-										<a class="card-link" :href="advancedImgCard.doc1_link_download">
+										<a class="card-link" :href="advancedImgCard.doc1_link_download.path">
 											<i class="bi bi-download"/>
 										</a>
-										<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+										<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show.path">
 											<i class="bi bi-eye"/>
 										</a>
 									</div>
@@ -45,10 +45,10 @@
 										</h6>
 									</div>
 									<div>
-										<a class="card-link" :href="advancedImgCard.doc1_link_download">
+										<a class="card-link" :href="advancedImgCard.doc2_link_download.path">
 											<i class="bi bi-download"/>
 										</a>
-										<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show">
+										<a class="card-link" target="_blank" :href="advancedImgCard.doc2_link_show.path">
 											<i class="bi bi-eye"/>
 										</a>
 									</div>
@@ -78,6 +78,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import apiService from '@/plugins/financie/common/apiService'
 export default {
 	props: {

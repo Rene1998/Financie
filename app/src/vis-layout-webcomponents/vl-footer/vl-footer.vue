@@ -4,7 +4,7 @@
 		<footer  :class="{'PreSkolyFooter': page}">
 			<div class="container">
 				<div class="row footer-row d-flex align-content-center pt-3 ml-0">
-					<div class="col-12 col-lg-3 col-sm-6">
+					<div class="col-12 col-lg-3 col-sm-6 main-footer">
 						<h5 class="text-left">
 							Životné situácie
 						</h5>
@@ -137,6 +137,12 @@ footer {
     min-height: 310px;
   }
 
+  @media (max-width: 575px) {
+		.main-footer {
+	  		padding-top: 10px;
+  		}
+  }
+
   a {
     text-decoration: none;
     font-size: 14px;
@@ -201,6 +207,13 @@ footer {
   .footer-row {
     min-height: 310px;
   }
+
+  @media (max-width: 575px) {
+		.main-footer {
+	  		padding-top: 10px;
+  		}
+  }
+  
   a {
     text-decoration: none;
     font-size: 14px;

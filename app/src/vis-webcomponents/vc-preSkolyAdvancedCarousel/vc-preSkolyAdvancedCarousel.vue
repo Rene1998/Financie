@@ -5,7 +5,7 @@
 			<div class="d-flex justify-content-center">
 				<carousel
                     class="carousel-wrapper"
-					style="width: 800px"
+					style="width: 100%"
 					:perPage="1">
 					<slide class="slide text-center">
 						<h5>
