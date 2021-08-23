@@ -46,7 +46,10 @@ class Advancedimgcard extends Model
     ];
     public $with = [
         'image',
-        'doc2_link_show'
+        'doc1_link_show',
+        'doc1_link_download',
+        'doc2_link_show',
+        'doc2_link_download'
     ];
 
     public function getYearCategoryOptions(){
