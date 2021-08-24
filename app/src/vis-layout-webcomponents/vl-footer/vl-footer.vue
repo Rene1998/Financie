@@ -10,10 +10,10 @@
 						</h5>
 						<ul class="pl-0 list-unstyled">
 							<li class="footer-li">
-								<a href="./osobne-financie-auto">Auto</a>
+								<a href="/osobne-financie-auto">Auto</a>
 							</li>
 							<li class="footer-li">
-								<a href="./osobne-financie-praca-a-dane">Práce a dane</a>
+								<a href="/osobne-financie-praca-a-dane">Práce a dane</a>
 							</li>
 							<li class="footer-li">
 								<a href="./osobne-financie-rodina-a-deti">Rodina a deti</a>

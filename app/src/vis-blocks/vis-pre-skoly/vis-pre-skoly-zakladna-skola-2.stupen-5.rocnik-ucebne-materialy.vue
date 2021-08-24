@@ -29,18 +29,13 @@
 		</div>
 		<div class="container carousel-wrapper d-none d-md-block d-lg-block d-xl-block">
 			<div class="row">
-				<div class="col-3">
-					<vc-category-card title="5. Ročník" img="rocnik1.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
+				<div class="col-2">
+					<vc-category-card title="5. Ročník" img="rocnik5.svg" link="./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy" isactive="true"></vc-category-card>
 				</div>
-				<div class="col-3">
-					<vc-category-card title="6. Ročník" img="rocnik2.svg" link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"></vc-category-card>
-				</div>
-				<div class="col-3">
-					<vc-category-card title="7. Ročník" img="rocnik3.svg" link="./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy"></vc-category-card>
-				</div>
-				<div class="col-3">
-					<vc-category-card title="8-9. Ročník" img="rocnik4.svg" link="./pre-skoly-zakladna-skola-2-stupen-8-9-rocnik-ucebne-materialy"></vc-category-card>
-				</div>
+				<vc-category-card title="6. Ročník" img="rocnik6.svg" link="./pre-skoly-zakladna-skola-2-stupen-6-rocnik-ucebne-materialy"></vc-category-card>
+				<vc-category-card title="7. Ročník" img="rocnik7.svg" link="./pre-skoly-zakladna-skola-2-stupen-7-rocnik-ucebne-materialy"></vc-category-card>
+				<vc-category-card title="8. Ročník" img="rocnik8.svg" link="./pre-skoly-zakladna-skola-2-stupen-8-rocnik-ucebne-materialy"></vc-category-card>
+				<vc-category-card title="9. Ročník" img="rocnik9.svg" link="./pre-skoly-zakladna-skola-2-stupen-9-rocnik-ucebne-materialy"></vc-category-card>
 			</div>
 		</div>
 		<div class="d-block d-sm-block d-md-none">

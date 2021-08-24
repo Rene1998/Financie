@@ -55,9 +55,10 @@
 								</div>
 							</div>
 						</div>
-						<hr class="hb m-0"/>
+						<hr class="hb m-0" v-if="advancedImgCard.video_link != ''"/>
 						<div class="card-body">
-							<div class="hb d-flex justify-content-between align-items-center mr-2">
+							<div class="hb d-flex justify-content-between align-items-center mr-2" 
+								v-if="advancedImgCard.video_link != ''">
 								<div>
 									<h6 class="mb-0">
 										{{ advancedImgCard.video_link }}
