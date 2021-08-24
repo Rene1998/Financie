@@ -15,10 +15,10 @@ const routes = [
 			import('./vis-blocks/vis-home/home.vue')
 	},
 	{
-		path: '/pre-skoly/:slug',
+		path: '/pre-skoly/zakladna-skola-2-stupen-5-rocnik',
 		name: 'pre-skoly',
 		component: () =>
-			import('./vis-blocks/vis-pre-skoly/pre-skoly.vue')
+			import('./vis-blocks/vis-pre-skoly/vis-pre-skoly-zakladna-skola-2.stupen-5.rocnik-ucebne-materialy.vue')
 	},
 	{
 		path: '/osobne-financie/:slug',

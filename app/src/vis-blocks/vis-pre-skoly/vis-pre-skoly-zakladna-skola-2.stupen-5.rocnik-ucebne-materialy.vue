@@ -109,4 +109,171 @@
 	</div>
 </template>
 
+<script>
+export default {
+  components: {
+    'vc-advanced-img-cards': () => import('@/vis-webcomponents/vc-advancedImgCards/vc-advancedImgCards.vue'),
+		'vc-category-card': () => import('@/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue')
+  }
+}
+</script>
+<style lang="scss" scoped>
+.carousel-wrapper {
+	margin-top: -80px;
+	margin-bottom: 80px;
+}
+
+.preskoly-main {
+	background-image: url(./assets/group1.png);
+	min-height: 500px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.container {
+		display: flex;
+		align-items: center;
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.preskoly-main {
+		background-image: none;
+		background-color: rgb(237, 239, 238);
+	}
+}
+
+.download-all {
+	width: 223px;
+	height: 59.47px;
+	background: #FFA800;
+	border: none;
+	border-radius: 5px !important;
+	color: white;
+	border: 1px solid #ffA800;
+
+	&:hover{
+		background-color: 	#ff9900;
+		color: white;
+		border: 1px solid #ffA800
+	}
+
+	&:focus{
+		background: #FFA800;
+		border: none;
+		box-shadow: none;
+		border: 1px solid #ff9900;
+	}
+
+
+
+}
+a {
+	color: rgba(25, 40, 59, 1);
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+
+	&:hover {
+		color: #1eaee1;
+	}
+}
+
+h5 {
+	font-size: 24px;
+	}
+.content {
+	max-width: 500px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.switch-wrapper {
+	margin: auto;
+
+	max-width: 500px;
+
+	.switch {
+		background: rgba(118, 118, 128, 0.12);
+		padding: 2px;
+		border-radius: 8px;
+		max-width: 498px;
+
+		.switch-button {
+		max-width: 249px;
+		height: 28px;
+		border: 0px;
+		color: #192949;
+		font-weight: 500;
+		font-style: normal;
+
+		&:hover {
+			background: #ffffff;
+			border: 0.5px solid rgba(0, 0, 0, 0.04);
+			box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12),
+			0px 3px 1px rgba(0, 0, 0, 0.04);
+			border-radius: 6.93px;
+		}
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+	}
+}
+
+.switchIsActive {
+	background: #ffffff;
+	border: 0.5px solid rgba(0, 0, 0, 0.04);
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 6.93px;
+}
+
+.isActiveA {
+  	color: #1eaee1;
+}
+
+hr {
+	max-width: 73%;
+	border: 1px solid #f3f4f5;
+}
+
+@media (max-width: 600px) {
+	.divider {
+		display: none;
+	}
+}
+
+/deep/ {
+  &.VueCarousel-dot:focus {
+    	outline: none !important;
+  }
+
+  &.VueCarousel-dot--active {
+    	background-color: #1eaee1 !important;
+  }
+
+  &.VueCarousel-dot {
+		width: 6px !important;
+		height: 6px !important;
+		width: 6px !important;
+		height: 6px !important;
+  }
+}
+.hardoce-text {
+	color: #192949;
+	font-weight: bold;
+	font-style: normal;
+}
+</style>
+
 
