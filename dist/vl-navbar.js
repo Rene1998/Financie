@@ -86,6 +86,20 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "0774":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-fec07de6]{font-weight:300}.z-btn[data-v-fec07de6]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-fec07de6]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-fec07de6]{color:#1eaee1!important}.z-btn[data-v-fec07de6]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-fec07de6]{border:none}.card .card-img-top[data-v-fec07de6]{border-radius:4px}*[data-v-fec07de6]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-fec07de6]{font-size:24px;font-weight:700}.hardcode-text p[data-v-fec07de6]{font-size:18px;font-weight:400}.timestamp[data-v-fec07de6]{color:#898989}.fake[data-v-fec07de6]{opacity:.2}.navbar[data-v-fec07de6]{height:63px;background:#fff;justify-content:space-between}.navbar .pre-skoly[data-v-fec07de6]{min-width:120px!important}.navbar .osobne-financie[data-v-fec07de6]{box-shadow:none!important}.navbar .nav-link[data-v-fec07de6]:hover{color:#1eaee1!important}.navbar hr[data-v-fec07de6]{width:30px;height:0;border:0 5px solid #f3f4f5;transform:rotate(90deg)}.navbar .navbar-collapse[data-v-fec07de6]{flex-grow:unset}.hover-none[data-v-fec07de6]:hover{border-color:transparent!important}[data-v-fec07de6] li.nav-item.d-sm-none.d-md-block.active :focus-visible{display:none!important;outline:none!important;box-shadow:none!important}[data-v-fec07de6] a{font-weight:400!important;font-size:16px!important;box-shadow:none}[data-v-fec07de6] a .bi{font-size:20px}[data-v-fec07de6] .navbar-nav>.osobne-financie:hover{border-bottom:3px solid #1eaee1}[data-v-fec07de6] .navbar-nav>.osobne-financie:hover>a{color:#1eaee1!important}[data-v-fec07de6] .navbar-nav>.pre-skoly:hover{border-bottom:3px solid #ffa800}[data-v-fec07de6] .navbar-nav>.pre-skoly:hover>a{color:#ffa800!important}[data-v-fec07de6] .navbar-nav>.pre-skoly .dropdown-item{color:#192949!important}[data-v-fec07de6] .navbar-nav>.pre-skoly .dropdown-item:hover{color:#ffa800!important}[data-v-fec07de6] .nav-item{border:1px solid transparent;border-bottom:3px solid transparent;border-radius:0}[data-v-fec07de6] .nav-item a{height:61px;padding:18px 15px;border:none;border-radius:0;box-shadow:none}[data-v-fec07de6] .nav-item a:hover{border-bottom:none}[data-v-fec07de6] .activeOsobne-financie{border-bottom:3px solid #1eaee1}[data-v-fec07de6] .activeOsobne-financie a{color:#1eaee1!important}[data-v-fec07de6] .activePre-skoly{border-bottom:3px solid #ffa800}[data-v-fec07de6] .activePre-skoly a{color:#ffa800!important}[data-v-fec07de6] .activePre-skoly .dropdown-item{color:#192949!important}[data-v-fec07de6] .activePre-skoly .dropdown-item:hover{color:#ffa800!important}[data-v-fec07de6] a{color:#192949!important}[data-v-fec07de6] .dropdown-toggle:after{display:none}[data-v-fec07de6] .dropdown-menu{min-width:230px!important;min-height:138px!important;border:none;border-radius:0!important;box-shadow:0 10px 10px -10px rgba(33,35,38,.1)}[data-v-fec07de6] .dropdown-menu a{padding:4px 24px!important;margin:6px 0 0!important;max-height:32px!important}[data-v-fec07de6] a:hover{background-color:#fff!important}[data-v-fec07de6] .dropdown-item{margin-top:6px}[data-v-fec07de6] .nav-link:focus{outline:none!important}@media only screen and (max-width:420px){.navbar[data-v-fec07de6]{max-width:420px}.osobne-financie[data-v-fec07de6]{display:none!important}.pre-skoly[data-v-fec07de6]{max-width:92px}.logo[data-v-fec07de6]{width:102px;height:27px}}@media only screen and (max-width:350px){.navbar[data-v-fec07de6]{max-width:350}.osobne-financie[data-v-fec07de6]{display:none!important}.pre-skoly[data-v-fec07de6]{max-width:92px}.logo[data-v-fec07de6]{width:102px;height:27px}}.dropdown:hover>.dropdown-menu[data-v-fec07de6]{display:block}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCwDb,yBACI,WAAY,CACZ,eAAgB,CAChB,6BAA8B,CAHlC,oCAOQ,yBAA2B,CAPnC,0CAWQ,yBAA2B,CAXnC,yCAgBQ,uBAAyB,CAhBjC,4BAoBQ,UAAW,CACX,QAAW,CACX,0BAA4B,CAC5B,uBAAwB,CAvBhC,0CA2BQ,eAAgB,CACnB,mCAKG,kCAAoC,CACvC,yEAMD,sBAAwB,CACxB,sBAAwB,CACxB,yBAA2B,CAE9B,oBAGG,yBAA2B,CAC3B,wBAA0B,CAC1B,eAAgB,CAHnB,wBAMO,cAAe,CAhBvB,qDAuBY,+BAAgC,CAvB5C,uDA0BgB,uBAAyB,CA1BzC,+CAkCY,+BAAgC,CAlC5C,iDAqCgB,uBAAyB,CArCzC,wDAyCY,uBAAyB,CAzCrC,8DA2CgB,uBAAyB,CA3CzC,4BAoDI,4BAA6B,CAC7B,mCAAoC,CACpC,eAAkB,CAtDtB,8BAyDQ,WAAY,CACZ,iBAAkB,CAClB,WAAY,CACZ,eAAgB,CAChB,eAAgB,CA7DxB,oCAkEY,kBAAmB,CAlE/B,yCAwEI,+BAAgC,CAxEpC,2CA2EQ,uBAAyB,CA3EjC,mCAgFI,+BAAgC,CAhFpC,qCAmFQ,uBAAwB,CAnFhC,kDAuFQ,uBAAyB,CAvFjC,wDA0FY,uBAAyB,CAC5B,oBAKL,uBAAyB,CAhG7B,yCAoGI,YAAa,CApGjB,iCAyGI,yBAA2B,CAC3B,0BAA4B,CAC5B,WAAa,CACb,yBAA6B,CAC7B,8CAAqD,CA7GzD,mCAgHQ,0BAA4B,CAC5B,wBAA8B,CAC9B,yBAA2B,CAE9B,0BAKD,+BAAoC,CAzHxC,iCA6HI,cAAe,CA7HnB,kCAiII,sBAAwB,CAC3B,yCAKG,yBACI,eAAgB,CACnB,kCAGG,sBAAwB,CAC3B,4BAGG,cAAe,CAClB,uBAGG,WAAY,CACZ,WAAY,CACf,CAGL,yCACI,yBACI,aAAc,CACjB,kCAGG,sBAAwB,CAE3B,4BAGG,cAAe,CAClB,uBAGG,WAAY,CACZ,WAAY,CACf,CAGL,gDACI,aAAc","file":"vl-navbar.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.navbar {\n    height: 63px;\n    background: #fff;\n    justify-content: space-between;\n\n\n    .pre-skoly{\n        min-width: 120px !important;\n    }    \n\n    .osobne-financie{\n        box-shadow: none !important;\n    }\n\n\n    .nav-link:hover {\n        color: #1eaee1 !important;\n    }\n\n    hr {\n        width: 30px;\n        height: 0px;\n        border: 0, 5px solid #f3f4f5;\n        transform: rotate(90deg);\n    }\n\n    .navbar-collapse {\n        flex-grow: unset;\n    }\n}\n\n.hover-none{\n    &:hover{\n        border-color: transparent !important;\n    }\n}\n/deep/ {\n\n\n&li.nav-item.d-sm-none.d-md-block.active :focus-visible{\n    display: none !important;\n    outline: none !important;\n    box-shadow: none !important;\n\n}    \n\n&a {\n    font-weight: 400 !important;\n    font-size: 16px !important;\n    box-shadow: none;\n\n    .bi{\n        font-size: 20px;\n    }\n}\n\n&.navbar-nav{\n    &>.osobne-financie {\n        &:hover{\n            border-bottom: 3px solid #1eaee1;\n\n            &>a{\n                color: #1eaee1 !important;\n            }\n        }\n\n    }\n\n    &>.pre-skoly {\n        &:hover{\n            border-bottom: 3px solid #ffa800;\n\n            &>a{\n                color: #ffa800 !important;\n            }\n        }\n        .dropdown-item {\n            color: #192949 !important;\n            &:hover {\n                color: #ffa800 !important;\n            }\n        }\n\n    }\n}\n\n\n&.nav-item {\n    border: 1px solid transparent;\n    border-bottom: 3px solid transparent;\n    border-radius: 0px;\n    \n     a {\n        height: 61px;\n        padding: 18px 15px;\n        border: none;\n        border-radius: 0;\n        box-shadow: none;\n      \n\n        &:hover {\n\n            border-bottom: none;\n        }\n     }\n}\n\n&.activeOsobne-financie {\n    border-bottom: 3px solid #1eaee1;\n\n    a {\n        color: #1eaee1 !important;\n    }\n}\n\n&.activePre-skoly {\n    border-bottom: 3px solid #ffa800;\n\n    a {\n        color: #ffa800!important;\n    }\n\n    .dropdown-item {\n        color: #192949 !important;\n\n        &:hover {\n            color: #ffa800 !important;\n        }\n    }\n}\n\n&a {\n    color: #192949 !important;\n}\n\n&.dropdown-toggle::after {\n    display: none;\n}\n\n&.dropdown-menu {\n\n    min-width: 230px !important;\n    min-height: 138px !important;\n    border: none ;\n    border-radius: 0px !important;\n    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;\n\n    a{\n        padding: 4px 24px !important;\n        margin: 6px 0px 0px !important;\n        max-height: 32px !important;\n\n    }\n\n}\n\n&a:hover {\n    background-color: #ffffff !important;\n}\n\n&.dropdown-item {\n    margin-top: 6px;\n}\n\n&.nav-link:focus {\n    outline: none !important;\n}\n\n}\n\n@media only screen and (max-width: 420px) {\n    .navbar {\n        max-width: 420px;\n    }\n\n    .osobne-financie {\n        display: none !important;\n    }\n\n    .pre-skoly {\n        max-width: 92px;\n    }\n\n    .logo {\n        width: 102px;\n        height: 27px;\n    }\n}\n\n@media only screen and (max-width: 350px) {\n    .navbar {\n        max-width: 350;\n    }\n\n    .osobne-financie {\n        display: none !important;\n\n    }\n\n    .pre-skoly {\n        max-width: 92px;\n    }\n\n    .logo {\n        width: 102px;\n        height: 27px;\n    }\n}\n\n.dropdown:hover > .dropdown-menu {\n    display: block;\n}\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "24fb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -184,30 +198,6 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
-
-/***/ }),
-
-/***/ "2568":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/logodark.08302a6c.svg";
-
-/***/ }),
-
-/***/ "2c6f":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("eb7f");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("bf01c2de", content, shadowRoot)
-};
 
 /***/ }),
 
@@ -735,14 +725,14 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=6d48119e&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('footer',{class:{'PreSkolyFooter': _vm.page}},[_vm._m(0),_c('div',{staticClass:"container-fluid copyright-main p-0"},[_c('div',{staticClass:"container copyright-container"},[_c('div',{staticClass:"row copyright-row d-sm-flex align-items-center ml-3"},[_c('a',{attrs:{"href":"./home"}},[(_vm.page)?_c('img',{staticClass:"mr-3",attrs:{"src":__webpack_require__("2568"),"alt":"logo"}}):_c('img',{staticClass:"mr-3",attrs:{"src":__webpack_require__("c0a6"),"alt":"logo"}})]),_vm._m(1),_vm._m(2)])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('div',{staticClass:"row footer-row d-flex align-content-center pt-3 ml-0"},[_c('div',{staticClass:"col-12 col-lg-3 col-sm-6 main-footer"},[_c('h5',{staticClass:"text-left"},[_vm._v(" Životné situácie ")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"/osobne-financie-auto"}},[_vm._v("Auto")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"/osobne-financie-praca-a-dane"}},[_vm._v("Práce a dane")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-rodina-a-deti"}},[_vm._v("Rodina a deti")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-byvanie"}},[_vm._v("Bývanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-dochodok"}},[_vm._v("Dôchodok")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-exekucia"}},[_vm._v("Exekúcia")])])])]),_c('div',{staticClass:"col-12 col-lg-3 col-sm-6"},[_c('h5',{staticClass:"text-left"},[_vm._v("Finančné produkty")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-poistenie"}},[_vm._v("Poistenie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-hypotekarny-uver"}},[_vm._v("Hypotekárny úver")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-uver-na-spotrebu"}},[_vm._v("Úver na spotrebu")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-investovanie"}},[_vm._v("Investovanie")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-ucty-a-karty"}},[_vm._v("Účty a karty")])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"./osobne-financie-fintech"}},[_vm._v("Fintech")])])])]),_c('div',{staticClass:"col-3 d-none d-lg-block"},[_c('h5',{staticClass:"text-left"},[_vm._v("Pomôcky")]),_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Porovnania")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Nástrahy")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Kalkulačky")])]),_c('li',{staticClass:"footer-li fake"},[_c('a',{attrs:{"href":"#!"}},[_vm._v("Slovník ")])])])]),_c('div',{staticClass:"col-3"},[_c('ul',{staticClass:"pl-0 list-unstyled"},[_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"o-nas/#dozvite-sa-o-nas-viac"}},[_c('h5',[_vm._v(" O nás ")])])]),_c('li',{staticClass:"footer-li"},[_c('a',{attrs:{"href":"o-nas/#kontaktujte-nas"}},[_c('h5',[_vm._v(" Kontakt ")])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"copy m-0"},[_vm._v(" © 2021 "),_c('a',{staticClass:"financie-link",attrs:{"href":"#"}},[_vm._v("www.financie.sk")]),_vm._v(" Všetky práva vyhradené. ")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ml-auto d-none d-lg-block"},[_c('a',{attrs:{"href":"./home"}},[_c('a',{staticClass:"btn footer-navigation rounded-0"},[_vm._v("Osobné financie")])]),_c('a',{attrs:{"href":"./pre-skoly-zakladna-skola-1-stupen-1-rocnik"}},[_c('a',{staticClass:"btn footer-navigation rounded-0"},[_vm._v("Pre školy")])])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue?vue&type=template&id=fec07de6&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"}}),_c('link',{attrs:{"type":"text/css","rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"}}),_c('nav',{staticClass:"navbar navbar-expand navbar-light d-flex align-items-center "},[_c('a',{staticClass:"navbar-brand",attrs:{"href":"./home"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__("afc1"),"alt":"logo"}})]),_c('div',{staticClass:"navbar-nav  d-flex align-items-center"},[_c('li',{staticClass:"nav-item osobne-financie d-none d-sm-none d-md-block",class:{'activeOsobne-financie': _vm.osobneFinanciepage}},[_c('a',{staticClass:"btn bp-3 d-flex align-items-center",attrs:{"href":"/osobne-financie-byvanie"}},[_vm._v("Osobné financie")])]),_c('hr',{staticClass:"m-0"}),_c('li',{staticClass:"nav-item pre-skoly dropdown",class:{'activePre-skoly': _vm.preSkolypage}},[_c('a',{staticClass:"pl-3 pr-3 nav-link dropdown-toggle pre-skoly bp-3 d-flex align-items-center text-center justify-content-center ",attrs:{"href":"#","id":"navbarDropdown","role":"button","data-toggle":"dropdown","aria-haspopup":"true","aria-expanded":"false"}},[_vm._v(" Pre školy ")]),_vm._m(0)]),_c('hr',{staticClass:"m-0"}),_vm._m(1)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"dropdown-menu dropdown-menu-right nav-item ",attrs:{"aria-labelledby":"navbarDropdown"}},[_c('a',{staticClass:"dropdown-item",attrs:{"href":"./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy"}},[_vm._v("Základná škola 1. stupeň")]),_c('a',{staticClass:"dropdown-item",attrs:{"href":"./pre-skoly-zakladna-skola-2-stupen-5-rocnik-ucebne-materialy"}},[_vm._v("Základná škola 2. stupeň")]),_c('a',{staticClass:"dropdown-item",attrs:{"href":"./pre-skoly-stredna-skola-1-rocnik-ucebne-materialy"}},[_vm._v(" Stredná škola")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',{staticClass:"hover-none nav-item d-flex align-items-center justify-content-center"},[_c('a',{staticClass:"nav-item ",attrs:{"href":"#"}},[_c('i',{staticClass:"bi bi-search fake "})])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=template&id=6d48119e&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue?vue&type=template&id=fec07de6&scoped=true&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=script&lang=js&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue?vue&type=script&lang=js&shadow
 //
 //
 //
@@ -785,103 +775,28 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var vl_footervue_type_script_lang_js_shadow = ({
+/* harmony default export */ var vl_navbarvue_type_script_lang_js_shadow = ({
   data() {
     return {
-      page: false
+      osobneFinanciepage: false,
+      preSkolypage: false
     };
   },
 
   mounted() {
-    this.page = window.location.pathname.startsWith('/pre-skoly');
-    console.log(this.page, window.location.pathname);
+    this.osobneFinanciepage = window.location.pathname.startsWith('/osobne-financie'), this.preSkolypage = window.location.pathname.startsWith('/pre-skoly');
   }
 
 });
-// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?vue&type=script&lang=js&shadow
- /* harmony default export */ var vl_footer_vl_footervue_type_script_lang_js_shadow = (vl_footervue_type_script_lang_js_shadow); 
-// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-footer/vl-footer.vue?shadow
+// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue?vue&type=script&lang=js&shadow
+ /* harmony default export */ var vl_navbar_vl_navbarvue_type_script_lang_js_shadow = (vl_navbarvue_type_script_lang_js_shadow); 
+// CONCATENATED MODULE: ./src/vis-layout-webcomponents/vl-navbar/vl-navbar.vue?shadow
 
 
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("7058")
+  var style0 = __webpack_require__("5b95")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -889,17 +804,17 @@ if (style0.__inject__) style0.__inject__(context)
 /* normalize component */
 
 var component = normalizeComponent(
-  vl_footer_vl_footervue_type_script_lang_js_shadow,
+  vl_navbar_vl_navbarvue_type_script_lang_js_shadow,
   render,
   staticRenderFns,
   false,
   injectStyles,
-  "6d48119e",
+  "fec07de6",
   null
   ,true
 )
 
-/* harmony default export */ var vl_footershadow = (component.exports);
+/* harmony default export */ var vl_navbarshadow = (component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-wc.js
 
 
@@ -911,18 +826,18 @@ var component = normalizeComponent(
 
 
 
-window.customElements.define('vl-footer', vue_wc_wrapper(external_Vue_default.a, vl_footershadow))
+window.customElements.define('vl-navbar', vue_wc_wrapper(external_Vue_default.a, vl_navbarshadow))
 
 /***/ }),
 
-/***/ "7058":
+/***/ "5b95":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_6d48119e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2c6f");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_6d48119e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_6d48119e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_6d48119e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_footer_vue_vue_type_style_index_0_id_6d48119e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_navbar_vue_vue_type_style_index_0_id_fec07de6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cc83");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_navbar_vue_vue_type_style_index_0_id_fec07de6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_navbar_vue_vue_type_style_index_0_id_fec07de6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_navbar_vue_vue_type_style_index_0_id_fec07de6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vl_navbar_vue_vue_type_style_index_0_id_fec07de6_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1019,26 +934,29 @@ module.exports = Vue;
 
 /***/ }),
 
-/***/ "c0a6":
+/***/ "afc1":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo-osobne-financie.27b434ce.svg";
+module.exports = __webpack_require__.p + "img/logo.f12352be.svg";
 
 /***/ }),
 
-/***/ "eb7f":
+/***/ "cc83":
 /***/ (function(module, exports, __webpack_require__) {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-6d48119e]{font-weight:300}.z-btn[data-v-6d48119e]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-6d48119e]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-6d48119e]{color:#1eaee1!important}.z-btn[data-v-6d48119e]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-6d48119e]{border:none}.card .card-img-top[data-v-6d48119e]{border-radius:4px}*[data-v-6d48119e]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-6d48119e]{font-size:24px;font-weight:700}.hardcode-text p[data-v-6d48119e]{font-size:18px;font-weight:400}.timestamp[data-v-6d48119e]{color:#898989}.fake[data-v-6d48119e]{opacity:.2}footer[data-v-6d48119e]{background:#19283b}footer .footer-row[data-v-6d48119e]{min-height:310px}@media (max-width:575px){footer .main-footer[data-v-6d48119e]{padding-top:10px}}footer a[data-v-6d48119e]{text-decoration:none;font-size:14px;line-height:30px}footer a[data-v-6d48119e],footer a[data-v-6d48119e]:hover,footer h5[data-v-6d48119e]{color:#fff}footer h5[data-v-6d48119e]{font-size:15px;font-weight:700}footer .footer-navigation[data-v-6d48119e]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}footer .footer-navigation[data-v-6d48119e]:hover{border-bottom:3px solid #1eaee1;border-radius:0}footer p[data-v-6d48119e]{font-size:14px;color:#fff}footer .copyright-row[data-v-6d48119e]{background:#19283b;min-height:80px}footer .copyright-row img[data-v-6d48119e]{vertical-align:baseline}footer .copyright-row .financie-link[data-v-6d48119e]{color:#1eaee1;font-size:14px}@media (max-width:500px){footer .copyright-row .copy[data-v-6d48119e]{font-size:13px}}footer .copyright-row .btn[data-v-6d48119e]{padding:21.5px 15px}footer .copyright-row .btna[data-v-6d48119e]:hover{color:#1eaee1!important}.PreSkolyFooter[data-v-6d48119e]{background:#ffa800}.PreSkolyFooter .footer-row[data-v-6d48119e]{min-height:310px}@media (max-width:575px){.PreSkolyFooter .main-footer[data-v-6d48119e]{padding-top:10px}}.PreSkolyFooter a[data-v-6d48119e]{text-decoration:none;font-size:14px;line-height:30px;color:#19283b}.PreSkolyFooter a[data-v-6d48119e]:hover{color:#19283b}.PreSkolyFooter h5[data-v-6d48119e]{font-size:15px;color:#19283b;font-weight:700}.PreSkolyFooter .footer-navigation[data-v-6d48119e]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.PreSkolyFooter .footer-navigation[data-v-6d48119e]:hover{border-bottom:3px solid #19283b;border-radius:0}.PreSkolyFooter p[data-v-6d48119e]{font-size:14px}.PreSkolyFooter .copyright-row[data-v-6d48119e]{background:#ffa800;min-height:80px}.PreSkolyFooter .copyright-row img[data-v-6d48119e]{vertical-align:baseline}.PreSkolyFooter .copyright-row .financie-link[data-v-6d48119e]{color:#19283b;font-size:14px}@media (max-width:500px){.PreSkolyFooter .copyright-row .copy[data-v-6d48119e]{font-size:13px}}.PreSkolyFooter .copyright-row .btn[data-v-6d48119e]{padding:21.5px 15px}.PreSkolyFooter .copyright-row .btna[data-v-6d48119e]:hover{color:#1eaee1!important}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-layout-webcomponents/vl-footer/vl-footer.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCiIb,wBACE,kBAAmB,CADrB,oCAGI,gBAAiB,CAClB,yBAJH,qCAQK,gBAAiB,CACjB,CATL,0BAaI,oBAAqB,CACrB,cAAe,CACf,gBACc,CAhBlB,qFAgBI,UAUc,CA1BlB,2BAwBI,cAAe,CAElB,eAAiB,CA1BlB,2CA8BC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAhCrC,iDAoCC,+BAAgC,CAC9B,eAAkB,CArCrB,0BAyCG,cAAe,CACf,UAAc,CA1CjB,uCA8CI,kBAAmB,CACnB,eAAgB,CA/CpB,2CAkDE,uBAAuB,CAlDzB,sDAsDM,aAAc,CACjB,cAAe,CACb,yBAxDL,6CA2DG,cAAe,CACf,CA5DH,4CA+DM,mBAAoB,CA/D1B,mDAiEQ,uBAAyB,CAC1B,iCAML,kBAAmB,CADrB,6CAGI,gBAAiB,CAClB,yBAJH,8CAQK,gBAAiB,CACjB,CATL,mCAaI,oBAAqB,CACrB,cAAe,CACf,gBAAiB,CACjB,aAAc,CAhBlB,yCAoBG,aAAc,CApBjB,oCAwBI,cAAe,CACf,aAAc,CACjB,eAAiB,CA1BlB,oDA8BC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAhCrC,0DAoCC,+BAAgC,CAC9B,eAAkB,CArCrB,mCAyCG,cAAe,CAzClB,gDA6CI,kBAAmB,CACnB,eAAgB,CA9CpB,oDAiDE,uBAAuB,CAjDzB,+DAoDM,aAAc,CACjB,cAAe,CACb,yBAtDL,sDAyDQ,cAAe,CAChB,CA1DP,qDA6DM,mBAAoB,CA7D1B,4DA+DQ,uBAAyB","file":"vl-footer.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\nfooter {\n  background: #19283b;\n  .footer-row {\n    min-height: 310px;\n  }\n\n  @media (max-width: 575px) {\n\t\t.main-footer {\n\t  \t\tpadding-top: 10px;\n  \t\t}\n  }\n\n  a {\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 30px;\n    color: #FFFFFF;\n  }\n\n  a:hover {\n\t  color: #FFFFFF;\n  }\n\n  h5 {\n    font-size: 15px;\n    color: #FFFFFF;\n\tfont-weight: bold;\n  }\n\n  .footer-navigation {\n\tborder-radius: 0px;\n\tpadding: 10px 15px;\n\tborder-bottom: 3px solid transparent;\n  }\n  \n  .footer-navigation:hover {\n\tborder-bottom: 3px solid #1eaee1;\n  \tborder-radius: 0px;\n  }\n\n  p {\n\t  font-size: 14px;\n\t  color: #FFFFFF;\n  }\n\n  .copyright-row {\n    background: #19283b;\n    min-height: 80px;\n\n\timg {\n\t\tvertical-align:baseline;\n\t}\n\n    .financie-link {\n      color: #1eaee1;\n\t  font-size: 14px;\n    }\n    @media (max-width: 500px) {\n\t\t.copy {\n\t\t\tfont-size: 13px;\n\t\t}\n    }\n    .btn {\n      padding: 21.5px 15px;\n      &a:hover {\n        color: #1eaee1 !important;\n      }\n    }\n  }\n}\n\n.PreSkolyFooter {\n  background: #FFA800;\n  .footer-row {\n    min-height: 310px;\n  }\n\n  @media (max-width: 575px) {\n\t\t.main-footer {\n\t  \t\tpadding-top: 10px;\n  \t\t}\n  }\n  \n  a {\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 30px;\n    color: #19283b;\n  }\n\n  a:hover {\n\t  color: #19283b;\n  }\n\n  h5 {\n    font-size: 15px;\n    color: #19283b;\n\tfont-weight: bold;\n  }\n\n  .footer-navigation {\n\tborder-radius: 0px;\n\tpadding: 10px 15px;\n\tborder-bottom: 3px solid transparent;\n  }\n  \n  .footer-navigation:hover {\n\tborder-bottom: 3px solid #19283b;\n  \tborder-radius: 0px;\n  }\n\n  p {\n\t  font-size: 14px;\n  }\n\n  .copyright-row {\n    background: #FFA800;\n    min-height: 80px;\n\n\timg {\n\t\tvertical-align:baseline;\n\t}\n    .financie-link {\n      color: #19283b;\n\t  font-size: 14px;\n    }\n    @media (max-width: 500px) {\n      .copy {\n        font-size: 13px;\n      }\n    }\n    .btn {\n      padding: 21.5px 15px;\n      &a:hover {\n        color: #1eaee1 !important;\n      }\n    }\n  }\n}\n"]}]);
-// Exports
-module.exports = exports;
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__("0774");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("5fe6e832", content, shadowRoot)
+};
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=vl-footer.js.map
+//# sourceMappingURL=vl-navbar.js.map

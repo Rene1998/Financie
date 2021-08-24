@@ -9,7 +9,7 @@
          
             <div class="navbar-nav  d-flex align-items-center">
                 <li class="nav-item osobne-financie d-none d-sm-none d-md-block" :class="{'activeOsobne-financie': osobneFinanciepage}">
-                    <a class="btn bp-3 d-flex align-items-center" href="./osobne-financie-byvanie">Osobné financie</a>
+                    <a class="btn bp-3 d-flex align-items-center" href="/osobne-financie-byvanie">Osobné financie</a>
                 </li>
                 <hr class="m-0" >
                 <li class="nav-item pre-skoly dropdown" :class="{'activePre-skoly': preSkolypage}">
