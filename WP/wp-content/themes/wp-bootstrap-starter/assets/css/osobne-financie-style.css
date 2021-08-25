@@ -21,7 +21,6 @@
 .byvanie-main a {
   color: #1eaee1;
   text-decoration: none;
-  font-family: Helvetica Neue;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -34,7 +33,7 @@ h1 {
   font-weight: bold;
 }
 
-.content {
+.byvanie-welcome-text .content {
   color: #19283b;
   max-width: 450px;
 }

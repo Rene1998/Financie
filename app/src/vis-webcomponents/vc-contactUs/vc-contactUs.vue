@@ -34,12 +34,11 @@
     color: #192949;
     font-size: 35px;
     font-weight: 600;
-    font-family: Helvetica;
+    font-family: "Helvetica Neue" sans-serif;
 }
 .contact-us p {
     color: #192949;
-    font-family: Helvetica;
-    font-weight: 300;
+    font-family: "Helvetica Neue" sans-serif;
     font-size: 14px;
     line-height: 24px;
 }

@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './plugins/financie/_theme/index.scss'
+import './vis-blocks/vis-home/assets/css/home.scss'
+import './vis-blocks/vis-osobne-financie/assets/css/osobne-financie.scss'
+import './vis-blocks/vis-pre-skoly/assets/css/pre-skoly.scss'
 
 
 Vue.use(BootstrapVue)

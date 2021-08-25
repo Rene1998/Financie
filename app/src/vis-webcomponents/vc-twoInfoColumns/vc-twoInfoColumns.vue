@@ -1,5 +1,6 @@
 <template>
     <div>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <section class="two-columns">
             <div class="container">
@@ -61,7 +62,7 @@
 .two-columns .container h3 {
   margin-bottom: 15px;
   color: #192949;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue" sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -71,7 +72,7 @@
 .two-columns .container p {
   margin-bottom: 32px;
   color: #192949;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue" sans-serif;
   font-weight: normal;
   font-weight: 300;
   font-size: 14px;
@@ -80,7 +81,7 @@
 
 ul li {
   color: #19283B;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue" sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;

@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/home-style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pre-skoly-style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/osobne-financie-style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/about-us.css">
 </head>
 
 <body <?php body_class(); ?>>

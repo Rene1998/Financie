@@ -9,7 +9,7 @@
 						<i class="bi bi-link-45deg icon"/>
 						<h6 class="m-0">Užitočné linky</h6>
 					</div>
-					<div class="card" 
+					<div class="card mb-5" 
 						v-for="link1Card in link1Cards" :key="link1Card.id">
 						<a :href="link1Card.link">
               				<h5>
@@ -18,12 +18,13 @@
            				</a>
 					</div>
 				</div>
+				<div class="column-border d-none d-md-block d-lg-block d-xl-block"></div>
 				<div class="col">
 					<div class="d-flex align-items-center mb-5">
 						<i class="bi bi-question-circle-fill icon"/>
 						<h6 class="m-0 ml-1">Mohlo by vás zaujímať</h6>
 					</div>
-					<div class="card" 
+					<div class="card mb-5" 
 						v-for="link2Card in link2Cards" :key="link2Card.id">
 						<a :href="link2Card.link">
               				<h5>
@@ -32,18 +33,19 @@
             			</a>
 					</div>
 				</div>
+				<div class="column-border d-none d-md-block d-lg-block d-xl-block"></div>
 				<div class="col">
 					<div class="d-flex align-items-center mb-5">
 						<i class="bi bi-calculator-fill icon"/>
 						<h6 class="m-0">Kalkulačky a návody</h6>
 					</div>
-					<div class="card" 
+					<div class="card mb-5" 
 						v-for="link3Card in link3Cards" :key="link3Card.id">
 						<a :href="link3Card.link">
               				<h5>
 							  {{ link3Card.content }}
 						  	</h5>
-            		</a>
+            			</a>
 					</div>
 				</div>
 			</div>
@@ -90,17 +92,18 @@ export default {
 <style lang="scss" scoped>
 @import '../../plugins/financie/_theme/index.scss';
 .card {
-	min-height: 175px;
+	min-height: 125px;
 
 	&:not(:last-of-type) {
 		border-bottom: 1px solid rgba(137, 137, 137, 0.2);
 	}
 
 	a {
+	max-width: 300px;
     text-decoration:none;
     color:#192949;
-		font-size: 18px;
-		font-weight: 700;
+	font-size: 18px;
+	font-weight: 700;
 
 		&:hover {
 			cursor: pointer;
@@ -119,9 +122,15 @@ export default {
 	border-bottom: none !important ;
 }
 h6 {
-  color:#192949;
+  	color:#192949;
 	font-size: 24px;
 	font-weight: bold;
 	width: 280px;
+}
+
+.column-border {
+	border-right: 1px solid rgba(137, 137, 137, 0.2);
+	padding-right: 20px;
+	margin-right: 20px;
 }
 </style>

@@ -39,6 +39,7 @@ export default {
     components: {
 		Carousel,
         Slide,
+		'vc-category-card': () => import('@/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue')
 	},
     props: {
 		card1_title: String,

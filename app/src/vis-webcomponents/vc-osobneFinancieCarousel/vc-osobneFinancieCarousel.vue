@@ -39,6 +39,7 @@ export default {
     components: {
 		Carousel,
         Slide,
+		'vc-mini-card': () => import('@/vis-webcomponents/vc-miniCards/vc-miniCards.vue')
 
 	},
 	props: {
@@ -62,7 +63,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '../../../plugins/financie/_theme/index.scss';
+@import '../../plugins/financie/_theme/index.scss';
 .slider-info {
   margin-top: 40px;
 }

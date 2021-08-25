@@ -6,7 +6,7 @@
                 <div class="heading-section">
                     <h3>Spolupráce</h3>
                     <p class="mb-1">
-                        Organizácie s ktorými spolupracujeme
+                        Organizácie, s ktorými spolupracujeme:
                     </p>
                 </div>
                 <div class="logos-row d-flex justify-content-center">
@@ -54,11 +54,11 @@
     color: #192949;
     font-size: 35px;
     font-weight: 600;
-    font-family: Helvetica;
+    font-family: "Helvetica Neue" sans-serif;
 }
 .heading-section p {
     color: #192949;
-    font-family: Helvetica;
+    font-family: "Helvetica Neue" sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;

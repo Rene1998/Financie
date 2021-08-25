@@ -99,14 +99,17 @@
 				Stiahnuť všetky dokumenty
 			</button>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<vc-show-articles/>
-				</div>
-			</div>
-		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	components: {
+		'vc-advanced-img-cards': () => import('@/vis-webcomponents/vc-advancedImgCards/vc-advancedImgCards.vue'),
+		'vc-category-card': () => import('@/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue'),
+		'vc-pre-skoly-carousel' : () => import('@/vis-webcomponents/vc-preSkolyCarousel/vc-preSkolyCarousel')
+	}
+}
+</script>
 
 

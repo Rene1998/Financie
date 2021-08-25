@@ -1,0 +1,151 @@
+/*about-us reusable*/
+
+.about-us-welcome {
+    color: #FFFFFF;
+    flex-direction: column;
+    background: url('../image/image\ 3.svg');
+    background-size: cover;
+    min-height: 650px;
+}
+
+.about-us-welcome h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media (max-width: 800px) {
+  .about-us-welcome {
+    min-height: 250px;
+  }
+
+  .about-us-welcome h2 {
+    font-size: 35px;
+  }
+}
+
+.about-us h3 {
+    color: #192949;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about-us p {
+    max-width: 1000px;
+    color: #192949;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about-us .title p {
+    font-weight: bold;
+}
+
+.about-us .content p {
+    font-style: italic;
+}
+/*two-info-columns reusable*/
+
+.two-columns .container {
+    padding: 50px 15px 70px 15px;
+}
+
+.two-columns .container img {
+  height: 66px;
+}
+
+.two-columns .container h3 {
+  margin-bottom: 15px;
+  color: #192949;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+}
+
+.two-columns .container p {
+  margin-bottom: 32px;
+  color: #192949;
+  font-weight: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+ul li {
+  color: #19283B;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/*contact-us reusable*/
+
+.contact-us h3 {
+    color: #192949;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact-us p {
+    color: #192949;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contact-us .title p {
+    font-weight: bold;
+}
+
+.contact-us .content p {
+    font-style: italic;
+}
+
+.contact-info .bi  {
+    color: #192949;
+    font-size: 30px;
+}
+.contact-info a  {
+    color: #192949;
+    font-size: 20px;
+}
+
+.contact-info a:hover {
+    color: #1eaee1;
+    text-decoration: none;
+}
+
+/*partners reusable*/
+
+.partners .container a{
+    padding: 80px 0 50px 0;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.2);
+  }
+  
+  .partners .container .logos-row {
+    flex-wrap: wrap;
+  }
+  
+  .partners .container .logos-row img {
+    height: 100px;
+    margin: 0 10px 30px 10px;
+  }
+  
+  .heading-section {
+      margin-top: 50px;
+  }
+  
+  .heading-section h3 {
+      color: #192949;
+      font-size: 35px;
+      font-weight: 600;
+      font-family: "Helvetica Neue" sans-serif;
+  }
+  .heading-section p {
+      color: #192949;
+      font-family: "Helvetica Neue" sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: bold;
+  }
+

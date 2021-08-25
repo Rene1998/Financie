@@ -27,6 +27,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../plugins/financie/_theme/index.scss';
 .card {
+    min-height: 150px;
     cursor: pointer;
     background: #ffffff;
     box-shadow: 0px 4px 20px rgba(177, 177, 177, 0.15);
@@ -55,6 +56,7 @@ export default {
     .card {
         max-width: 17rem !important;
         margin: auto;
+        min-height: 100px !important;
     }
 }
 a {

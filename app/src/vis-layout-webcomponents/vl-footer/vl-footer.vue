@@ -103,9 +103,9 @@
 						</p>
 						<div class="ml-auto d-none d-lg-block">
 							<a href="./home">
-								<a class="btn footer-navigation rounded-0">Osobné financie</a></a>
+								<a class="btn footer-navigation-osobne-financie rounded-0">Osobné financie</a></a>
 							<a href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik">
-								<a class="btn footer-navigation rounded-0">Pre školy</a>
+								<a class="btn footer-navigation-pre-skoly rounded-0">Pre školy</a>
 							</a>
 						</div>
 					</div>
@@ -160,14 +160,19 @@ footer {
 	font-weight: bold;
   }
 
-  .footer-navigation {
+  .footer-navigation-osobne-financie, .footer-navigation-pre-skoly {
 	border-radius: 0px;
 	padding: 10px 15px;
 	border-bottom: 3px solid transparent;
   }
   
-  .footer-navigation:hover {
+  .footer-navigation-osobne-financie:hover {
 	border-bottom: 3px solid #1eaee1;
+  	border-radius: 0px;
+  }
+
+  .footer-navigation-pre-skoly:hover {
+	border-bottom: 3px solid #FFA800;
   	border-radius: 0px;
   }
 

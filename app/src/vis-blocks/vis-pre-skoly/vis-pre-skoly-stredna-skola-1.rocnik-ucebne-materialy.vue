@@ -2,16 +2,14 @@
 	<div>
         <div>
 			<div class="container-fluid preskoly-main">
-				<div class="d-none">
-					<img style="border: 5px solid red" src="../wp-content/uploads/2021/08/group1.png"/>
-				</div>
 				<div class="container">
 					<div class="preskoly-welcome-text mb-5">
 						<h1 class="title">
 							Stredná škola
 						</h1>
 						<p class="content">
-							Pripravili sme pre vás materiály pre učiteľov zo stredných škôl.
+							Pripravili sme pre vás materiály pre učiteľov zo <br> 
+							stredných škôl.
 						</p>
 						<p>
 							<a class="pr-2" href="./pre-skoly-zakladna-skola-1-stupen-1-rocnik-ucebne-materialy">
@@ -102,14 +100,15 @@
 				Stiahnuť všetky dokumenty
 			</button>
 		</div>
-		<div class="container text-center mt-5 mb-5 hardcode-text">
-			<h4>
-				Informácie ktoré vám pomôžu k správnemu investovaniu.
-			</h4>
-			<p>
-				Pripravili sme pre vás všetky možné finančné otázky a odpovede <br> na ktoré móžete naraziť vo vašom živote.
-			</p>
-			<a class="fake" href="">Zobraziť všetky články</a>
-		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	components: {
+		'vc-advanced-img-cards': () => import('@/vis-webcomponents/vc-advancedImgCards/vc-advancedImgCards.vue'),
+		'vc-category-card': () => import('@/vis-webcomponents/vc-categoryCard/vc-categoryCard.vue'),
+		'vc-pre-skoly-carousel' : () => import('@/vis-webcomponents/vc-preSkolyCarousel/vc-preSkolyCarousel')
+	}
+}
+</script>

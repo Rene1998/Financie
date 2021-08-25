@@ -109,3 +109,15 @@
         </div>
 	</div>
 </template>
+
+<script>
+export default {
+	components: {
+		'vc-progress-bar': () => import('@/vis-webcomponents/vc-progressBar/vc-progressBar.vue'),
+		'vc-carousel': () => import('@/vis-webcomponents/vc-carousel/vc-carousel.vue'),
+		'vc-mini-card': () => import('@/vis-webcomponents/vc-miniCards/vc-miniCards.vue'),
+		'vc-link-cards': () => import('@/vis-webcomponents/vc-linkCards/vc-linkCards.vue'),
+        'vc-osobne-financie-carousel': () => import('@/vis-webcomponents/vc-osobneFinancieCarousel/vc-osobneFinancieCarousel.vue')
+	}
+}
+</script>
