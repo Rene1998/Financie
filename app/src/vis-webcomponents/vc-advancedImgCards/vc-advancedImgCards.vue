@@ -24,9 +24,6 @@
 										</h6>
 									</div>
 									<div>
-										<a @click="download(advancedImgCard.doc1_link_download.id, advancedImgCard.doc1_link_download.file_name)" class="card-link">
-											<i class="bi bi-download"/>
-										</a>
 										<a class="card-link" target="_blank" :href="advancedImgCard.doc1_link_show.path">
 											<i class="bi bi-eye"/>
 										</a>
@@ -45,9 +42,6 @@
 										</h6>
 									</div>
 									<div>
-										<a @click="download(advancedImgCard.doc2_link_download.id, advancedImgCard.doc2_link_download.file_name)" class="card-link">
-											<i class="bi bi-download"/>
-										</a>
 										<a class="card-link" target="_blank" :href="advancedImgCard.doc2_link_show.path">
 											<i class="bi bi-eye"/>
 										</a>
@@ -96,19 +90,6 @@ export default {
 		this._loadCards(this.year, this.page, this.category)
 	},
 	methods: {
-		async download (id, filename) {
-			try {
-				const pdfDownloadLink = await apiService.get(`${id}`)
-				const link = document.createElement('a')
-				link.style.display = 'none'
-				link.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(pdfDownloadLink))
-				link.setAttribute('download', filename)
-				link.click()
-				document.body.removeChild(link)
-			} catch (e) {
-				console.error(e)
-			}
-		},
 		async _loadCards (year, page, category) {
 			console.log(year, category)
 			try {

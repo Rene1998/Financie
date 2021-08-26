@@ -40,16 +40,12 @@ class Advancedimgcard extends Model
     public $attachOne = [
         'image' => 'System\Models\File',
         'doc1_link_show' => 'System\Models\File',
-        'doc1_link_download' => 'System\Models\File',
         'doc2_link_show' => 'System\Models\File',
-        'doc2_link_download' => 'System\Models\File'
     ];
     public $with = [
         'image',
         'doc1_link_show',
-        'doc1_link_download',
-        'doc2_link_show',
-        'doc2_link_download'
+        'doc2_link_show'
     ];
 
     public function getYearCategoryOptions(){

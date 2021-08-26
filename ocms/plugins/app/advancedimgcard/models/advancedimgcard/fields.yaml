@@ -34,14 +34,6 @@ tabs:
         doc1_link_show:
             label: 'Link na pozretie prvého súboru'
             mode: file
-            span: auto
-            type: fileupload
-            span: left
-            tab: 'Prvý link'
-        doc1_link_download:
-            label: 'Link na stiahnutie prvého súboru'
-            mode: file
-            span: auto
             type: fileupload
             span: left
             tab: 'Prvý link'
@@ -53,14 +45,6 @@ tabs:
         doc2_link_show:
             label: 'Link na pozretie druhého súboru'
             mode: file
-            span: auto
-            type: fileupload
-            span: left
-            tab: 'Druhý link'
-        doc2_link_download:
-            label: 'Link na stiahnutie druhého súboru'
-            mode: file
-            span: auto
             type: fileupload
             span: left
             tab: 'Druhý link'
