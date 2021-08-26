@@ -150,20 +150,187 @@
             </p>
         </div>
 
+        <div>
+            <div class="d-none">
+                <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-cards.png"/>
+            </div>
+        </div>
         <!-- wp:wp-bootstrap-blocks/container -->
-            <!-- wp:freeform -->
-                <div>
-                    <div class="d-none">
-                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-cards.png"/>
+            <!-- wp:columns -->
+                <div class="wp-block-columns">
+                    <!-- wp:column -->
+                        <div class="wp-block-column">
+                            <!-- wp:freeform -->
+                                <div>
+                                    <div class="d-none">
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"/>
+                                    </div>
+                                </div>
+                            <!-- /wp:freeform -->
+
+                            <!-- wp:html -->
+                                <vc-advanced-img-home-cards
+                                    title="Nenechaj všetko na náhodu"
+                                    content="Prečo si uzavrieť poistenie? Kedy možno vypovedať zmluvu?"
+                                    img="image1.png"
+                                    link="./osobne-financie-poistenie"
+                                    link1="Životné poistenie"
+                                    link1_redirect="./osobne-financie-poistenie-zivotne-poistenie-clanok"
+                                    link2="Poistenie auta (neživotné poistenie)"
+                                    link2_redirect="./osobne-financie-poistenie-auta-clanok"
+                                    link3="Poistenie nehnuteľnosti/domácnosti"
+                                    link3_redirect="./osobne-financie-poistenie-nehnutelnosti-clanok"
+                                    link4="Cestovné poistenie"
+                                    link4_redirect="./osobne-financie-poistenie-cestovne-poistenie-clanok">
+                                </vc-advanced-img-home-cards>
+                            <!-- /wp:html -->
+
+                            <!-- wp:freeform -->
+                                <div>
+                                    <div class="d-none">
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"/>
+                                    </div>
+                                </div>
+                            <!-- /wp:freeform -->
+
+                            <!-- wp:html -->
+                                <vc-advanced-img-home-cards
+                                    title="Cesta k prvej investícií"
+                                    content="Čo sú dividendy? Akcia? Dlhopis?"
+                                    img="image4.png"
+                                    link="./osobne-financie-investovanie"
+                                    link1="Základy investovania"
+                                    link1_redirect="./osobne-financie-investovanie-zaklady-investovania-clanok"
+                                    link2="Základné Investičné Príležitosti"
+                                    link2_redirect="./osobne-financie-investovanie-zakladne-investicne-prilezitosti-clanok"
+                                    link3="Investičné princípy"
+                                    link3_redirect="./osobne-financie-investovanie-investicne-principy-clanok"
+                                    link4="Aktívne vs. pasívne investovanie"
+                                    link4_redirect="./osobne-financie-investovanie-aktivne-vs-pasivne-investovanie-clanok">
+                                </vc-advanced-img-home-cards>
+                            <!-- /wp:html -->
+                        </div>
+                    <!-- /wp:column -->
+
+                    <!-- wp:column -->
+                        <div class="wp-block-column">
+                            <!-- wp:freeform -->
+                                <div>
+                                    <div class="d-none">
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"/>
+                                    </div>
+                                </div>
+                            <!-- /wp:freeform -->
+
+                            <!-- wp:html -->
+                                <vc-advanced-img-home-cards
+                                    title="Bývajte vo vlastnom"
+                                    content="Variabilná úroková  sadzba, Fixácia, Americká hypotéka"
+                                    img="image2.png"
+                                    link="./osobne-financie-hypotekarny-uver"
+                                    link1="Hypotekárny úver - nadobudnutie bývania"
+                                    link1_redirect="./osobne-financie-hypotekarny-uver-nadobudnutie-byvania-clanok"
+                                    link2="Americká hypotéka"
+                                    link2_redirect="./osobne-financie-hypotekarny-uver-americka-hypoteka-clanok"
+                                    link3="Žiadosť o úver"
+                                    link3_redirect="./osobne-financie-hypotekarny-uver-ziadost-o-uver-clanok"
+                                    link4="Splácanie úveru"
+                                    link4_redirect="./osobne-financie-hypotekarny-uver-splacanie-uveru-clanok">
+                                </vc-advanced-img-home-cards>
+                            <!-- /wp:html -->
+
+                            <!-- wp:freeform -->
+                                <div>
+                                    <div class="d-none">
+                                        <img class="aligncenter" style="border: 5px solid red" src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"/>
+                                    </div>
+                                </div>
+                            <!-- /wp:freeform -->
+
+                            <!-- wp:html -->
+                                <vc-advanced-img-home-cards
+                                    title="Orientujte sa v bankách"
+                                    content="IBAN, SEPA, SWIFT-BIC, Embosovaná platobná karta"
+                                    img="image5.png"
+                                    link="./osobne-financie-ucty-a-karty"
+                                    link1="Bežný Účet"
+                                    link1_redirect="./osobne-financie-ucty-a-karty-bezny-ucet-clanok"
+                                    link2="Sporiaci Účet"
+                                    link2_redirect="./osobne-financie-ucty-a-karty-sporiaci-ucet-clanok"
+                                    link3="Kreditná Karta"
+                                    link3_redirect="./osobne-financie-ucty-a-karty-kreditna-karta-clanok"
+                                    link4="Debetná Karta"
+                                    link4_redirect="./osobne-financie-ucty-a-karty-debetna-karta-clanok">
+                                </vc-advanced-img-home-cards>
+                            <!-- /wp:html -->
+                        </div>
+                    <!-- /wp:column -->
+
+                    <!-- wp:column -->
+                    <div class="wp-block-column">
+                    <!-- wp:freeform -->
+                    <div>
+                        <div class="d-none">
+                        <img
+                            class="aligncenter"
+                            style="border: 5px solid red"
+                            src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"
+                        />
+                        </div>
                     </div>
+                    <!-- /wp:freeform -->
+
+                    <!-- wp:html -->
+                    <vc-advanced-img-home-cards
+                        title="Financujte svoje túžby"
+                        content="Úrokové sadzby – p.a., p.m., p.s., Refinancovanie"
+                        img="image3.png"
+                        link="./osobne-financie-uver-na-spotrebu"
+                        link1="Spotrebný úver"
+                        link1_redirect="./osobne-financie-uver-na-spotrebu-spotrebny-uver-clanok"
+                        link2="Krátkodobé úvery"
+                        link2_redirect="./osobne-financie-uver-na-spotrebu-kratkodobe-uvery-clanok"
+                        link3="Čerpanie a splácanie"
+                        link3_redirect="./osobne-financie-uver-na-spotrebu-cerpanie-a-splacanie-clanok"
+                        link4="Nebankové úvery a pôžičky"
+                        link4_redirect="./osobne-financie-uver-na-spotrebu-nebankove-uvery-a-pozicky-clanok"
+                    ></vc-advanced-img-home-cards>
+                    <!-- /wp:html -->
+
+                    <!-- wp:freeform -->
+                    <div>
+                        <div class="d-none">
+                        <img
+                            class="aligncenter"
+                            style="border: 5px solid red"
+                            src="../wp-content/plugins/reusable-blocks-extended/assets/advanced-img-home-card.png"
+                        />
+                        </div>
+                    </div>
+                    <!-- /wp:freeform -->
+
+                    <!-- wp:html -->
+                    <vc-advanced-img-home-cards
+                        title="Technológie a peniaze"
+                        content="Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny"
+                        img="image6.png"
+                        link="./osobne-financie-fintech"
+                        link1="Internet a Mobile Banking"
+                        link1_redirect="./osobne-financie-fintech-internet-a-mobile-banking-clanok"
+                        link2="Neobanky (N26, 365.)"
+                        link2_redirect="./osobne-financie-fintech-Neobanky-clanok"
+                        link3="Finančné platformy"
+                        link3_redirect="./osobne-financie-fintech-financne-platformy-clanok"
+                        link4="Tu nieco pojde"
+                        link4_redirect="./osobne-financie-fintech-zatial-nic-clanok"
+                    ></vc-advanced-img-home-cards>
+                    <!-- /wp:html -->
+                    </div>
+                    <!-- /wp:column -->
                 </div>
-            <!-- /wp:freeform -->
-
-            <!-- wp:html -->
-                <vc-advanced-img-home-cards></vc-advanced-img-home-cards>
-            <!-- /wp:html -->
+            <!-- /wp:columns -->
         <!-- /wp:wp-bootstrap-blocks/container -->
-
+    
         <div>
             <div class="container text-center mt-5 mb-5 hardcode-text">
                 <h4 style="text-align: center">

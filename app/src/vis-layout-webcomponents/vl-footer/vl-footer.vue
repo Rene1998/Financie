@@ -161,6 +161,9 @@ footer {
   }
 
   .footer-navigation-osobne-financie, .footer-navigation-pre-skoly {
+	font-family: Helvetica Neue,sans-serif!important;
+	color: #FFFFFF;
+	font-weight: 400;
 	border-radius: 0px;
 	padding: 10px 15px;
 	border-bottom: 3px solid transparent;
@@ -237,6 +240,9 @@ footer {
   }
 
   .footer-navigation {
+	font-family: Helvetica Neue,sans-serif!important;
+	color: #19283b;
+	font-weight: 400;
 	border-radius: 0px;
 	padding: 10px 15px;
 	border-bottom: 3px solid transparent;

@@ -28,7 +28,8 @@
   cursor: pointer;
 }
 
-h1 {
+.byvanie-welcome-text h1 {
+  font-size: 40px;
   color: #19283b;
   font-weight: bold;
 }

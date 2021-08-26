@@ -315,6 +315,20 @@ function addStyle (obj /* StyleObjectPart */, shadowRoot) {
 
 /***/ }),
 
+/***/ "5180":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, ".btn[data-v-20217d9e]{font-weight:300}.z-btn[data-v-20217d9e]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-20217d9e]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-20217d9e]{color:#1eaee1!important}.z-btn[data-v-20217d9e]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-20217d9e]{border:none}.card .card-img-top[data-v-20217d9e]{border-radius:4px}*[data-v-20217d9e]{font-family:Helvetica Neue!important}.hardcode-text h4[data-v-20217d9e]{font-size:24px;font-weight:700}.hardcode-text p[data-v-20217d9e]{font-size:18px;font-weight:400}.timestamp[data-v-20217d9e]{color:#898989}.fake[data-v-20217d9e]{opacity:.2}.card img[data-v-20217d9e]{min-height:210px}.card .card-title[data-v-20217d9e]{min-height:80px;color:#192949;font-weight:700;font-style:normal}.card-text[data-v-20217d9e]{text-decoration:none;color:#192949;min-height:4vw}.card-body[data-v-20217d9e]{cursor:pointer;padding:10px;padding-left:0!important;padding-right:0!important;line-height:24px}.card-body h6[data-v-20217d9e]{font-size:16px;line-height:30px;font-weight:400}a[data-v-20217d9e]{color:#192949}a[data-v-20217d9e]:hover{color:#1eaee1;text-decoration:none!important}.hb[data-v-20217d9e]:hover{color:#1eaee1!important}.hb:hover a[data-v-20217d9e]{color:#1eaee1}.hb:hover hr[data-v-20217d9e]{border-top:1px solid #1eaee1!important}hr[data-v-20217d9e]{max-width:500px;border:1px solid #e7e7e7}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,oCAAwC,CACzC,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCoGb,2BAEE,gBAAiB,CAFnB,mCAME,eAAgB,CAChB,aAAc,CACd,eAAiB,CACjB,iBAAkB,CAClB,4BAID,oBAAqB,CACrB,aAAc,CACd,cAAe,CACf,4BAEA,cAAe,CACf,YAAa,CACb,wBAA4B,CAC5B,yBAA6B,CAC7B,gBAAiB,CALlB,+BAQE,cAAe,CACf,gBAAiB,CACjB,eAAgB,CAChB,mBAID,aAAc,CADf,yBAIE,aAAc,CACd,8BAAgC,CAChC,2BAID,uBAAyB,CAD1B,6BAIE,aAAc,CAJhB,8BAQE,sCAAwC,CACxC,oBAKD,eAAgB,CAChB,wBAAyB","file":"vc-advancedImgHomeCards.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: 'Helvetica Neue' !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.card {\n\timg {\n\t\tmin-height: 210px;\n\t}\n\n\t.card-title {\n\t\tmin-height: 80px;\n\t\tcolor: #192949;\n\t\tfont-weight: bold;\n\t\tfont-style: normal;\n\t}\n\n}\n.card-text {\n\ttext-decoration: none;\n\tcolor: #192949;\n\tmin-height: 4vw;\n}\n.card-body {\n\tcursor: pointer;\n\tpadding: 10px;\n\tpadding-left: 0px !important;\n\tpadding-right: 0px !important;\n\tline-height: 24px;\n\n\th6 {\n\t\tfont-size: 16px;\n\t\tline-height: 30px;\n\t\tfont-weight: 400;\n\t}\n}\n\na {\n\tcolor: #192949;\n\n\t&:hover {\n\t\tcolor: #1eaee1;\n\t\ttext-decoration: none !important;\n\t}\n}\n\n.hb:hover {\n\tcolor: #1eaee1 !important;\n\n\ta {\n\t\tcolor: #1eaee1;\n\t}\n\n\thr {\n\t\tborder-top: 1px solid #1eaee1 !important;\n\t}\n}\n\n\nhr{\n\tmax-width: 500px;\n\tborder: 1px solid #E7E7E7;\n}\n\n"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "543a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -732,112 +746,13 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=template&id=1fa381a0&scoped=true&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mt-2"},[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"}}),_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"row"},_vm._l((_vm.advancedImgHomeCards),function(advancedImgHomeCard){return _c('div',{key:advancedImgHomeCard.id,staticClass:"col-12 col-lg-4 col-md-6 shad mt-2 "},[_c('div',{staticClass:"card mb-2 border border-0 m-2",attrs:{"tag":"article"}},[_c('a',{attrs:{"href":advancedImgHomeCard.link}},[_c('img',{staticClass:"card-img-top ",attrs:{"src":_vm.cardImg(advancedImgHomeCard),"alt":"Image"}}),_c('h4',{staticClass:"card-title d-flex align-items-center hb"},[_vm._v(" "+_vm._s(advancedImgHomeCard.title)+" ")]),_c('p',{staticClass:"card-text d-flex mb-5 hb"},[_vm._v(" "+_vm._s(advancedImgHomeCard.content)+" ")])]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":advancedImgHomeCard.link1}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(advancedImgHomeCard.titulok1)+" ")])]),_vm._m(0,true)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":advancedImgHomeCard.link2}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(advancedImgHomeCard.titulok2)+" ")])]),_vm._m(1,true)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":advancedImgHomeCard.link3}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(advancedImgHomeCard.titulok3)+" ")])]),_vm._m(2,true)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":advancedImgHomeCard.link4}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(advancedImgHomeCard.titulok4)+" ")])]),_vm._m(3,true)])])])])}),0)])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4789d0e7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=template&id=20217d9e&scoped=true&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mt-2"},[_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"}}),_c('link',{attrs:{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css","integrity":"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l","crossorigin":"anonymous"}}),_c('div',{staticClass:"mt-2"},[_c('div',{staticClass:"card mb-2 border border-0 m-2",attrs:{"tag":"article"}},[_c('a',{attrs:{"href":_vm.link}},[_c('img',{staticClass:"card-img-top",attrs:{"alt":"Image","src":__webpack_require__("d849")("./" + _vm.img)}}),_c('h4',{staticClass:"card-title d-flex align-items-center hb"},[_vm._v(" "+_vm._s(_vm.title)+" ")]),_c('p',{staticClass:"card-text d-flex mb-5 hb"},[_vm._v(" "+_vm._s(_vm.content)+" ")])]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":_vm.link1_redirect}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(_vm.link1)+" ")])]),_vm._m(0)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":_vm.link2_redirect}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(_vm.link2)+" ")])]),_vm._m(1)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":_vm.link3_redirect}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(_vm.link3)+" ")])]),_vm._m(2)]),_c('hr',{staticClass:"hb m-0"})]),_c('div',{staticClass:"hb"},[_c('a',{staticClass:"card-body hb d-flex justify-content-between mr-2",attrs:{"href":_vm.link4_redirect}},[_c('div',[_c('h6',{staticClass:"mb-0"},[_vm._v(" "+_vm._s(_vm.link4)+" ")])]),_vm._m(3)])])])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('a',{staticClass:"blue card-link"},[_c('i',{staticClass:"bi bi-arrow-right"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('a',{staticClass:"blue card-link"},[_c('i',{staticClass:"bi bi-arrow-right"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('a',{staticClass:"blue card-link"},[_c('i',{staticClass:"bi bi-arrow-right"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('a',{staticClass:"blue card-link"},[_c('i',{staticClass:"bi bi-arrow-right"})])])}]
 
 
-// CONCATENATED MODULE: ./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=template&id=1fa381a0&scoped=true&shadow
+// CONCATENATED MODULE: ./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=template&id=20217d9e&scoped=true&shadow
 
-// CONCATENATED MODULE: ./src/vis-blocks/vis-home/osobne-financie_content_linky.js
-const poistenie = {
-  title: 'Nenechaj všetko na náhodu',
-  content: 'Prečo si uzavrieť poistenie? Kedy možno vypovedať zmluvu?',
-  image: 'image1.png',
-  link: './osobne-financie-poistenie',
-  titulok1: 'Životné poistenie',
-  link1: './osobne-financie-poistenie-zivotne-poistenie-clanok',
-  titulok2: 'Poistenie auta (neživotné poistenie)',
-  link2: './osobne-financie-poistenie-auta-clanok',
-  titulok3: 'Poistenie nehnuteľnosti/domácnosti',
-  link3: './osobne-financie-poistenie-nehnutelnosti-clanok',
-  titulok4: 'Cestovné poistenie',
-  link4: './osobne-financie-poistenie-cestovne-poistenie-clanok',
-  defaultLink: 'poistenie'
-};
-const hypotekarnyUver = {
-  title: 'Bývajte vo vlastnom',
-  content: 'Variabilná úroková  sadzba, Fixácia, Americká hypotéka',
-  image: 'image2.png',
-  link: './osobne-financie-hypotekarny-uver',
-  titulok1: 'Hypotekárny úver - nadobudnutie bývania',
-  link1: './osobne-financie-hypotekarny-uver-nadobudnutie-byvania-clanok',
-  titulok2: 'Americká hypotéka',
-  link2: './osobne-financie-hypotekarny-uver-americka-hypoteka-clanok',
-  titulok3: 'Žiadosť o úver',
-  link3: './osobne-financie-hypotekarny-uver-ziadost-o-uver-clanok',
-  titulok4: 'Splácanie úveru',
-  link4: './osobne-financie-hypotekarny-uver-splacanie-uveru-clanok',
-  defaultLink: 'hypotekarny-uver'
-};
-const uverNaSpotrebu = {
-  title: 'Financujte svoje túžby',
-  content: 'Úrokové sadzby – p.a., p.m., p.s., Refinancovanie',
-  image: 'image3.png',
-  link: './osobne-financie-uver-na-spotrebu',
-  titulok1: 'Spotrebný úver',
-  link1: './osobne-financie-uver-na-spotrebu-spotrebny-uver-clanok',
-  titulok2: 'Krátkodobé úvery',
-  link2: './osobne-financie-uver-na-spotrebu-kratkodobe-uvery-clanok',
-  titulok3: 'Čerpanie a splácanie',
-  link3: './osobne-financie-uver-na-spotrebu-cerpanie-a-splacanie-clanok',
-  titulok4: 'Nebankové úvery a pôžičky',
-  link4: './osobne-financie-uver-na-spotrebu-nebankove-uvery-a-pozicky-clanok',
-  defaultLink: 'uver-na-spotrebu'
-};
-const investovanie = {
-  title: 'Cesta k prvej investícií',
-  content: 'Čo sú dividendy? Akcia? Dlhopis?',
-  image: 'image4.png',
-  link: './osobne-financie-investovanie',
-  titulok1: 'Základy investovania',
-  link1: './osobne-financie-investovanie-zaklady-investovania-clanok',
-  titulok2: 'Základné Investičné Príležitosti',
-  link2: './osobne-financie-investovanie-zakladne-investicne-prilezitosti-clanok',
-  titulok3: 'Investičné princípy',
-  link3: './osobne-financie-investovanie-investicne-principy-clanok',
-  titulok4: 'Aktívne vs. pasívne investovanie',
-  link4: './osobne-financie-investovanie-aktivne-vs-pasivne-investovanie-clanok',
-  defaultLink: 'investovanie'
-};
-const bankoveUctyAPlatobneKarty = {
-  title: 'Orientujte sa v bankách',
-  content: 'IBAN, SEPA, SWIFT-BIC, Embosovaná platobná karta',
-  image: 'image5.png',
-  link: './osobne-financie-ucty-a-karty',
-  titulok1: 'Bežný Účet',
-  link1: './osobne-financie-ucty-a-karty-bezny-ucet-clanok',
-  titulok2: 'Sporiaci Účet',
-  link2: './osobne-financie-ucty-a-karty-sporiaci-ucet-clanok',
-  titulok3: 'Kreditná Karta',
-  link3: './osobne-financie-ucty-a-karty-kreditna-karta-clanok',
-  titulok4: 'Debetná Karta',
-  link4: './osobne-financie-ucty-a-karty-debetna-karta-clanok',
-  defaultLink: 'bankove-ucty-a-platobne-karty'
-};
-const fintech = {
-  title: 'Technológie a peniaze',
-  content: 'Neobanka, Peer-to-peer lending, Crowdfunding, Kryptomeny',
-  image: 'image6.png',
-  link: './osobne-financie-fintech',
-  titulok1: 'Internet a Mobile Banking',
-  link1: './osobne-financie-fintech-internet-a-mobile-banking-clanok',
-  titulok2: 'Neobanky (N26, 365.)',
-  link2: './osobne-financie-fintech-Neobanky-clanok',
-  titulok3: 'Finančné platformy',
-  link3: './osobne-financie-fintech-financne-platformy-clanok',
-  titulok4: 'Tu nieco pojde',
-  link4: './osobne-financie-fintech-zatial-nic-clanok',
-  defaultLink: 'fintech'
-};
-/* harmony default export */ var osobne_financie_content_linky = ({
-  poistenie: poistenie,
-  'hypotekarny-uver': hypotekarnyUver,
-  'uver-na-spotrebu': uverNaSpotrebu,
-  investovanie: investovanie,
-  'bankove-ucty-a-platobne-karty': bankoveUctyAPlatobneKarty,
-  fintech: fintech
-});
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=script&lang=js&shadow
 //
 //
@@ -922,22 +837,20 @@ const fintech = {
 //
 //
 //
-//
-//
-//
-
 /* harmony default export */ var vc_advancedImgHomeCardsvue_type_script_lang_js_shadow = ({
-  data() {
-    return {
-      advancedImgHomeCards: osobne_financie_content_linky
-    };
-  },
-
-  methods: {
-    cardImg(card) {
-      return __webpack_require__("d849")(`./${card.image}`);
-    }
-
+  props: {
+    title: String,
+    content: String,
+    img: String,
+    link: String,
+    link1: String,
+    link1_redirect: String,
+    link2: String,
+    link2_redirect: String,
+    link3: String,
+    link3_redirect: String,
+    link4: String,
+    link4_redirect: String
   }
 });
 // CONCATENATED MODULE: ./src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue?vue&type=script&lang=js&shadow
@@ -948,7 +861,7 @@ const fintech = {
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__("70eb")
+  var style0 = __webpack_require__("f1c3")
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -961,7 +874,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   injectStyles,
-  "1fa381a0",
+  "20217d9e",
   null
   ,true
 )
@@ -989,15 +902,20 @@ module.exports = __webpack_require__.p + "img/image4.f9cd450b.png";
 
 /***/ }),
 
-/***/ "70eb":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "8204":
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_1fa381a0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("bd16");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_1fa381a0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_1fa381a0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_1fa381a0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_1fa381a0_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__("5180");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("ca276552", content, shadowRoot)
+};
 
 /***/ }),
 
@@ -1100,23 +1018,6 @@ module.exports = Vue;
 
 /***/ }),
 
-/***/ "bd16":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("f323");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("c4458d44", content, shadowRoot)
-};
-
-/***/ }),
-
 /***/ "d849":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1158,16 +1059,14 @@ module.exports = __webpack_require__.p + "img/image1.887691b4.png";
 
 /***/ }),
 
-/***/ "f323":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "f1c3":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, ".btn[data-v-1fa381a0]{font-weight:300}.z-btn[data-v-1fa381a0]{border-radius:0;padding:10px 15px;border-bottom:3px solid transparent}.z-btn[data-v-1fa381a0]:hover{border-bottom:3px solid #1eaee1;border-radius:0}.z-btn:hover .nav-link[data-v-1fa381a0]{color:#1eaee1!important}.z-btn[data-v-1fa381a0]:focus{box-shadow:none;border-bottom:3px solid #1eaee1}.card[data-v-1fa381a0]{border:none}.card .card-img-top[data-v-1fa381a0]{border-radius:4px}*[data-v-1fa381a0]{font-family:Helvetica Neue,sans-serif!important}.hardcode-text h4[data-v-1fa381a0]{font-size:24px;font-weight:700}.hardcode-text p[data-v-1fa381a0]{font-size:18px;font-weight:400}.timestamp[data-v-1fa381a0]{color:#898989}.fake[data-v-1fa381a0]{opacity:.2}.card img[data-v-1fa381a0]{min-height:210px}.card .card-title[data-v-1fa381a0]{min-height:80px;color:#192949;font-weight:700;font-style:normal}.card-text[data-v-1fa381a0]{text-decoration:none;color:#192949;min-height:3vw}.card-body[data-v-1fa381a0]{cursor:pointer;padding:10px;padding-left:0!important;padding-right:0!important;line-height:24px}.card-body h6[data-v-1fa381a0]{font-size:16px;line-height:30px;font-weight:400}a[data-v-1fa381a0]{color:#192949}a[data-v-1fa381a0]:hover{color:#1eaee1;text-decoration:none!important}.hb[data-v-1fa381a0]:hover{color:#1eaee1!important}.hb:hover a[data-v-1fa381a0]{color:#1eaee1}.hb:hover hr[data-v-1fa381a0]{border-top:1px solid #1eaee1!important}hr[data-v-1fa381a0]{max-width:500px;border:1px solid #e7e7e7}", "",{"version":3,"sources":["/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/buttons.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/bootsrap/card.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/fonts.scss","/Users/marko/Documents/GitHub/financie/app/src/plugins/financie/_theme/index.scss","/Users/marko/Documents/GitHub/financie/app/src/vis-webcomponents/vc-advancedImgHomeCards/vc-advancedImgHomeCards.vue"],"names":[],"mappings":"AAAA,sBACE,eAAgB,CACjB,wBAGC,eAAkB,CAClB,iBAAkB,CAClB,mCAAoC,CAHtC,8BAKI,+BAAgC,CAChC,eAAkB,CANtB,wCAQM,uBAAyB,CAR/B,8BAYI,eAAgB,CAChB,+BAAgC,CACjC,uBCjBC,WAAY,CADhB,qCAGQ,iBAAkB,CACrB,mBCHH,+CAAmD,CACpD,mCAIG,cAAe,CACf,eAAgB,CAHpB,kCAMI,cAAe,CACf,eAAgB,CACjB,4BAGD,aAAc,CCZhB,uBACC,UAAY,CCoGb,2BAEE,gBAAiB,CAFnB,mCAME,eAAgB,CAChB,aAAc,CACd,eAAiB,CACjB,iBAAkB,CAClB,4BAKD,oBAAqB,CACrB,aAAc,CACd,cAAe,CACf,4BAEA,cAAe,CACf,YAAa,CACb,wBAA4B,CAC5B,yBAA6B,CAC7B,gBAAiB,CALlB,+BAQE,cAAe,CACf,gBAAiB,CACjB,eAAgB,CAChB,mBAID,aAAc,CADf,yBAIE,aAAc,CACd,8BAAgC,CAChC,2BAID,uBAAyB,CAD1B,6BAIE,aAAc,CAJhB,8BAQE,sCAAwC,CACxC,oBAKD,eAAgB,CAChB,wBAAyB","file":"vc-advancedImgHomeCards.vue","sourcesContent":[".btn {\n  font-weight: 300;\n}\n\n.z-btn {\n  border-radius: 0px;\n  padding: 10px 15px;\n  border-bottom: 3px solid transparent;\n  &:hover {\n    border-bottom: 3px solid #1eaee1;\n    border-radius: 0px;\n    .nav-link {\n      color: #1eaee1 !important;\n    }\n  }\n  &:focus {\n    box-shadow: none;\n    border-bottom: 3px solid #1eaee1;\n  }\n}\n\n",".card {\n    border: none;\n    .card-img-top{\n        border-radius: 4px;\n    }\n}","* {\n  font-family: \"Helvetica Neue\" sans-serif !important;\n}\n\n.hardcode-text {\n  h4 {\n    font-size: 24px;\n    font-weight: 700;\n  }\n  p {\n    font-size: 18px;\n    font-weight: 400;\n  }\n}\n.timestamp {\n  color: #898989;\n}\n","@import './bootsrap/buttons.scss';\n@import './bootsrap/card.scss';\n@import './fonts.scss';\n.fake {\n\topacity: 0.2;\n}\n\n","\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import '../../plugins/financie/_theme/index.scss';\n.card {\n\timg {\n\t\tmin-height: 210px;\n\t}\n\n\t.card-title {\n\t\tmin-height: 80px;\n\t\tcolor: #192949;\n\t\tfont-weight: bold;\n\t\tfont-style: normal;\n\t}\n\n\n}\n.card-text {\n\ttext-decoration: none;\n\tcolor: #192949;\n\tmin-height: 3vw;\n}\n.card-body {\n\tcursor: pointer;\n\tpadding: 10px;\n\tpadding-left: 0px !important;\n\tpadding-right: 0px !important;\n\tline-height: 24px;\n\n\th6 {\n\t\tfont-size: 16px;\n\t\tline-height: 30px;\n\t\tfont-weight: 400;\n\t}\n}\n\na {\n\tcolor: #192949;\n\n\t&:hover {\n\t\tcolor: #1eaee1;\n\t\ttext-decoration: none !important;\n\t}\n}\n\n.hb:hover {\n\tcolor: #1eaee1 !important;\n\n\ta {\n\t\tcolor: #1eaee1;\n\t}\n\n\thr {\n\t\tborder-top: 1px solid #1eaee1 !important;\n\t}\n}\n\n\nhr{\n\tmax-width: 500px;\n\tborder: 1px solid #E7E7E7;\n}\n\n"]}]);
-// Exports
-module.exports = exports;
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_20217d9e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8204");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_20217d9e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_20217d9e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_20217d9e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vc_advancedImgHomeCards_vue_vue_type_style_index_0_id_20217d9e_lang_scss_scoped_true_shadow__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ })

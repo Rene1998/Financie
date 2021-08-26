@@ -2,82 +2,79 @@
 	<div class="mt-2">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<div class="row">
-			<div class="col-12 col-lg-4 col-md-6 shad mt-2 "
-				v-for="advancedImgHomeCard in advancedImgHomeCards" :key="advancedImgHomeCard.id">
-				<div class="card mb-2 border border-0 m-2" tag="article">
-					<a :href="advancedImgHomeCard.link">
-						<img class="card-img-top " :src="cardImg(advancedImgHomeCard)" alt="Image"/>
-						<h4 class="card-title d-flex align-items-center hb">
-							{{ advancedImgHomeCard.title }}
-						</h4>
-						<p class="card-text d-flex mb-5 hb">
-							{{ advancedImgHomeCard.content }}
-						</p>
+		<div class="mt-2">
+			<div class="card mb-2 border border-0 m-2" tag="article">
+				<a :href="link">
+					<img class="card-img-top" alt="Image" :src="require(`./assets/${img}`)"/>
+					<h4 class="card-title d-flex align-items-center hb">
+						{{ title }}
+					</h4>
+					<p class="card-text d-flex mb-5 hb">
+						{{ content }}
+					</p>
+				</a>
+				<div class="hb">
+					<a class="card-body hb d-flex justify-content-between mr-2" 
+						:href="link1_redirect"> 
+						<div>
+							<h6 class="mb-0">
+								{{ link1 }}
+							</h6>
+						</div>
+						<div>
+							<a class="blue card-link">
+								<i class="bi bi-arrow-right"/>
+							</a>
+						</div>
 					</a>
-					<div class="hb">
-						<a class="card-body hb d-flex justify-content-between mr-2" 
-						   :href="advancedImgHomeCard.link1"> 
-							<div>
-								<h6 class="mb-0">
-									{{ advancedImgHomeCard.titulok1 }}
-								</h6>
-							</div>
-							<div>
-								<a class="blue card-link">
-									<i class="bi bi-arrow-right"/>
-								</a>
-							</div>
-						</a>
-						<hr class="hb m-0"/>
-					</div>
-					<div class="hb">
-						<a class="card-body hb d-flex justify-content-between mr-2" 
-						   :href="advancedImgHomeCard.link2"> 
-							<div>
-								<h6 class="mb-0">
-									{{ advancedImgHomeCard.titulok2 }}
-								</h6>
-							</div>
-							<div>
-								<a class="blue card-link">
-									<i class="bi bi-arrow-right"/>
-								</a>
-							</div>
-						</a>
-						<hr class="hb m-0"/>
-					</div>
-					<div class="hb">
-						<a class="card-body hb d-flex justify-content-between mr-2" 
-						   :href="advancedImgHomeCard.link3"> 
-							<div>
-								<h6 class="mb-0">
-									{{ advancedImgHomeCard.titulok3 }}
-								</h6>
-							</div>
-							<div>
-								<a class="blue card-link">
-									<i class="bi bi-arrow-right"/>
-								</a>
-							</div>
-						</a>
-						<hr class="hb m-0"/>
-					</div>
-					<div class="hb">
-						<a class="card-body hb d-flex justify-content-between mr-2" 
-						   :href="advancedImgHomeCard.link4"> 
-							<div>
-								<h6 class="mb-0">
-									{{ advancedImgHomeCard.titulok4 }}
-								</h6>
-							</div>
-							<div>
-								<a class="blue card-link">
-									<i class="bi bi-arrow-right"/>
-								</a>
-							</div>
-						</a>
-					</div>
+					<hr class="hb m-0"/>
+				</div>
+				<div class="hb">
+					<a class="card-body hb d-flex justify-content-between mr-2" 
+						:href="link2_redirect"> 
+						<div>
+							<h6 class="mb-0">
+								{{ link2 }}
+							</h6>
+						</div>
+						<div>
+							<a class="blue card-link">
+								<i class="bi bi-arrow-right"/>
+							</a>
+						</div>
+					</a>
+					<hr class="hb m-0"/>
+				</div>
+				<div class="hb">
+					<a class="card-body hb d-flex justify-content-between mr-2" 
+						:href="link3_redirect"> 
+						<div>
+							<h6 class="mb-0">
+								{{ link3 }}
+							</h6>
+						</div>
+						<div>
+							<a class="blue card-link">
+								<i class="bi bi-arrow-right"/>
+							</a>
+						</div>
+					</a>
+					<hr class="hb m-0"/>
+				</div>
+				<div class="hb">
+					<a class="card-body hb d-flex justify-content-between mr-2" 
+						:href="link4_redirect"> 
+						<div>
+							<h6 class="mb-0">
+								{{ link4 }}
+							</h6>
+						</div>
+						<div>
+							<a class="blue card-link">
+								<i class="bi bi-arrow-right"/>
+							</a>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -85,17 +82,20 @@
 </template>
 
 <script>
-import pageContent from '@/vis-blocks/vis-home/osobne-financie_content_linky'
 export default {
-	data () {
-		return {
-			advancedImgHomeCards: pageContent
-		}
-	},
-	methods: {
-		cardImg (card) {
-			return require(`./assets/${card.image}`)
-		}
+	props: {
+		title: String,
+		content: String,
+		img: String,
+		link: String,
+		link1: String,
+		link1_redirect: String,
+		link2: String,
+		link2_redirect: String,
+		link3: String,
+		link3_redirect: String,
+		link4: String,
+		link4_redirect: String,
 	}
 }
 </script>
@@ -114,12 +114,11 @@ export default {
 		font-style: normal;
 	}
 
-
 }
 .card-text {
 	text-decoration: none;
 	color: #192949;
-	min-height: 3vw;
+	min-height: 4vw;
 }
 .card-body {
 	cursor: pointer;

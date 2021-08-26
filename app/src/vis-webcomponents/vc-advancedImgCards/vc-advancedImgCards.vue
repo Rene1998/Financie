@@ -123,7 +123,7 @@ export default {
 		font-style: normal;
   	}
 	.card-text {
-		min-height: 5vw;
+		min-height: 6.3vw;
 	}
 }
 p {
