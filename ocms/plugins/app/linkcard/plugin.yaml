@@ -6,7 +6,7 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Karta s linkmi'
+        label: 'Osobné-financie linky'
         url: app/linkcard/linkcard
         icon: icon-list
         sideMenu:

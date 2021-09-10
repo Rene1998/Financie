@@ -6,7 +6,7 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Advanced karta s obrázkom'
+        label: 'Materiály pre-školy'
         url: app/advancedimgcard/advancedimgcard
         icon: icon-list
         sideMenu:
