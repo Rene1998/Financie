@@ -33,6 +33,26 @@
                     preto učiteľom čo najviac zjednodušiť ich prácu, aby vedeli študentom poskytnúť to najlepšie finančné vzdelanie.
                 </p>
             </section>
+            <section>
+                <p class="mt-5 mb-3">
+                    <b>Názov organizácie:</b> Financie Slovensko n. o. 
+                </p>
+                <p class="mb-3">
+                    <b>Právna forma:</b> Nezisková organizácia poskytujúca všeobecne prospešné služby
+                </p>
+                <p class="mb-3">
+                    <b>IČO:</b> 53870425
+                </p>
+                <p class="mb-5">
+                    <b>Registrový úrad:</b> Okresný úrad Bratislava
+                </p>
+                <p class="mb-3">
+                    V prípade že by ste nás chceli finančne podporiť a podporiť tak finančnú gramotnosť na Slovensku, môžete tak učiniť na tento účet:
+                </p>
+                <p class="mb-3">
+                    IBAN Financie Slovensko n. o. : <b>SK82 0900 0000 0051 8147 5269</b>
+                </p> 
+            </section>
         </div>
     </div>
 </template>
@@ -42,9 +62,11 @@
     font-family: "Helvetica Neue" sans-serif !important;
     color: #FFFFFF;
     flex-direction: column;
-    background: url('./assets/image 3.svg');
+    background: url('./assets/about-us-image.jpg');
+    background-position: center;
     background-size: cover;
-    min-height: 650px;
+    background-repeat: no-repeat;
+    min-height: 750px;
 }
 
 .about-us-welcome h2 {

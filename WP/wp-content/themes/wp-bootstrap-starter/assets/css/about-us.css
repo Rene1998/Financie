@@ -1,11 +1,14 @@
 /*about-us reusable*/
 
 .about-us-welcome {
-    color: #FFFFFF;
-    flex-direction: column;
-    background: url('../image/image\ 3.svg');
-    background-size: cover;
-    min-height: 650px;
+  font-family: "Helvetica Neue" sans-serif !important;
+  color: #FFFFFF;
+  flex-direction: column;
+  background: url('../image/about-us-image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 750px;
 }
 
 .about-us-welcome h2 {
