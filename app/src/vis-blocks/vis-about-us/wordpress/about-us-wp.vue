@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="container-fluid about-us-welcome d-flex align-items-center justify-content-center">
+        <div id="dozvite-sa-o-nas-viac">
+            <div class="container-fluid about-us-welcome d-flex align-items-center justify-content-center">
             <h2 class="text-center mb-3">
                 Sme Vašou cestou <br> financiami
             </h2>
@@ -36,6 +37,7 @@
                     vedeli študentom poskytnúť to najlepšie finančné vzdelanie.
                 </p>
             </section>
+        </div>
         </div>
         <div>
             <section class="two-columns">
