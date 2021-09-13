@@ -10,7 +10,7 @@
 <script>
 export default {
 	components: {
-		default: () => import('./vis-layout-webcomponents/vl-default/default.vue')
+		default: () => import('./plugins/wordpress/web-components-layout/wcl-default/default.vue')
 	}
 }
 </script>

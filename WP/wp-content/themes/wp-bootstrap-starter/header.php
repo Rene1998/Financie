@@ -29,8 +29,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <vl-info-bar></vl-info-bar>
-    <vl-navbar></vl-navbar>
+    <wcl-info-bar></wcl-info-bar>
+    <wcl-navbar></wcl-navbar>
 <?php 
 
     // WordPress 5.2 wp_body_open implementation

@@ -1,0 +1,122 @@
+<template>
+    <div>
+    <div class="container-fluid byvanie-main">
+			<div class="container">
+				<div class="byvanie-welcome-text">
+					<div class="col d-flex flex-column mb-5 b-arrow">
+						<a href="./home" class="mb-5 d-flex align-items-center">
+                            <i class="bi bi-arrow-left mr-2"></i>
+                            Späť na hlavnú stránku
+                        </a>
+						<h1 mt-5>
+                            Auto
+                        </h1>
+						<p class="mt-4 content">
+							Leasing, finančný lízing, operatívny lízing, akontácia, amortizácia
+						</p>
+						<div class="mb-5">
+
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+    <div id="progressBar">
+        <wc-progress-bar/>
+	</div>
+    <div id="vedeliSte">
+        <wc-carousel/>
+	</div>
+    <div id="zakladneInformacie">
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Základné články
+            </h4>
+            <p>
+                Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+                na ktoré môžete naraziť vo vašom živote.
+            </p>
+        </div>
+        <div class="container mt-5 mb-5 d-none d-md-block d-lg-block d-xl-block">
+            <div class="row">
+                <div class="col-md-3">
+                    <wc-mini-card title="Financovanie auta" desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?" img="Blue-home.svg" link="/osobne-financie-auto-financovanie-auta-clanok"/>
+                </div>
+                <div class="col-md-3">
+                    <wc-mini-card title="Poistenie Auta" desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?" img="Blue-home.svg" link="/osobne-financie-auto-poistenie-auta-clanok"/>
+                </div>
+                <div class="col-md-3">
+                    <wc-mini-card title="Kúpa a predaj" desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?" img="Blue-home.svg" link="/osobne-financie-auto-kupa-a-predaj-clanok"/>
+                </div>
+                <div class="col-md-3">
+                    <wc-mini-card title="Údržba auta" desc="Nerobte si starosti súdržbou vášho auta" img="Blue-home.svg" link="/osobne-financie-auto-udrzba-auta-clanok"/>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-sm-block d-md-none">
+			<div class="carousel-wrapper">
+				<wc-osobne-financie-carousel 
+                    card1_title="Financovanie auta"
+                    card1_desc="Ako financovať kúpu auta? Leasing/Úver (pôžička)? Ktoré sa oplatí viac?"
+                    card1_img="Blue-home.svg"
+                    card1_link="/osobne-financie-auto-financovanie-auta-clanok"
+
+                    card2_title="Poistenie Auta"
+                    card2_desc="Prečo si kedy si uzavrieť havarijné poistenie keď mám PZP?"
+                    card2_img="Blue-home.svg"
+                    card2_link="/osobne-financie-auto-poistenie-auta-clanok"
+
+                    card3_title="Kúpa a predaj"
+                    card3_desc="Na čo myslieť pri predaji auta? Ktoré dane súvisia s vlastníctvom motorového vozidla?"
+                    card3_img="Blue-home.svg"
+                    card3_link="/osobne-financie-auto-kupa-a-predaj-clanok"
+
+                    card4_title="Údržba auta"
+                    card4_desc="Nerobte si starosti súdržbou vášho auta"
+                    card4_img="Blue-home.svg"
+                    card4_link="/osobne-financie-auto-udrzba-auta-clanok"/>
+			</div>
+		</div>
+    </div>
+    <div id="najnovsieClanky">
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Najnovšie články o autách
+            </h4>
+            <p>
+                Pripravili sme pre vás všetky možné finančné otázky a odpovede <br />
+                na ktoré môžete naraziť vo vašom živote.
+            </p>
+        </div>
+    </div>
+    <div id="najnovsieProdukty">
+        <div class="container text-center mt-5 mb-5 hardcode-text">
+            <h4>
+                Najlepšie produkty na našom trhu
+            </h4>
+            <p>
+                Pripravili sme pre vás tie najlepšie produkty v ramci bývania...
+            </p>
+        </div>
+    </div>
+    <div id="uzitocneLinky">
+        <div class="container">
+            <div class="row border-center mb-5">
+                <wc-link-cards/>
+            </div>
+        </div>
+    </div>
+	</div>
+</template>
+
+<script>
+export default {
+	components: {
+		'wc-progress-bar': () => import('@/plugins/wordpress/web-components/wc-progressBar/wc-progressBar.vue'),
+		'wc-carousel': () => import('@/plugins/wordpress/web-components/wc-carousel/wc-carousel.vue'),
+		'wc-mini-card': () => import('@/plugins/wordpress/web-components/wc-miniCards/wc-miniCards.vue'),
+		'wc-link-cards': () => import('@/plugins/wordpress/web-components/wc-linkCards/wc-linkCards.vue'),
+        'wc-osobne-financie-carousel': () => import('@/plugins/wordpress/web-components/wc-osobneFinancieCarousel/wc-osobneFinancieCarousel.vue'),
+	}
+}
+</script>

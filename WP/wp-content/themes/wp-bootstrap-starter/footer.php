@@ -17,7 +17,7 @@
     <?php get_template_part( 'footer-widget' ); ?>
 <?php endif; ?>
 </div><!-- #page -->
-<vl-footer></vl-footer>
+<wcl-footer></wcl-footer>
 <?php wp_footer(); ?>
 </body>
 </html>
