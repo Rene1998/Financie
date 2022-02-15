@@ -21,6 +21,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script>window.ocmsHost='https://financie.hybridlab.dev/ocms/api/'</script>
+    <script type=“text/javascript” src=“https://www.bugherd.com/sidebarv2.js?apikey=qxrfszf6etlvnnxudbqega” async=“true”></script>
 <?php wp_head(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/home-style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pre-skoly-style.css">
